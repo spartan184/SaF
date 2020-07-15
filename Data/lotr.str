@@ -1,4 +1,4 @@
-;------------------ This String is necessary at the top! ----------------------------------
+;------------------ This String is necessary at the top! ---------------------------------- TEST TEST TEST
 CONTROLBAR:ThisIsNotReallyReadInGame1
 "Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
 END
