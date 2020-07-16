@@ -193,6 +193,7 @@
     
      <EventList Name="SarumanFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="DamageIncoming" ScriptFunctionName="SarumanConsiderUsingDefensePower" DebugSingleStep="false"/>
+		<EventHandler EventName="OnCreated"		 ScriptFunctionName="EvilHeroSpawnFX" DebugSingleStep="false"/>
     </EventList>
    
 	<EventList Name="LegolasFunctions" Inherit="BaseScriptFunctions">

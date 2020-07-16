@@ -8,7 +8,7 @@ CONTROLBAR:CrebainPassiveLeadership
 END
 
 CONTROLBAR:ToolTipCrebainPassiveLeadership
-"Crebain Debuff \n Passive ability"
+"Applies a 25% Armor Debuff to nearby Enemy units \n Passive ability"
 END
 
 CONTROLBAR:IsengardUrukRank2
