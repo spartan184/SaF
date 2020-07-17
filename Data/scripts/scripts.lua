@@ -1,4 +1,7 @@
 -- define lua functions
+function EvilHeroSpawnFX(self)
+    ObjectCreateAndFireTempWeapon(self, "EvilHeroSpawnFX")
+end
  
 function OnArmoryCreated(self)
 	ObjectGrantUpgrade( self, "Upgrade_TechnologyIsengardPortableMines" )
