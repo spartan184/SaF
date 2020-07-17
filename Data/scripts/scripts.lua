@@ -1,16 +1,4 @@
 -- define lua functions
-function TESTShelobBecomeAfraidOfPhial(self,other)
-    local wasAfraid = ObjectTestModelCondition(self, "EMOTION_AFRAID")
-
-    BecomeUncontrollablyAfraid(self,other)
-    -- BecomeAfraidOfTroll(self,other)                 -- Call base function appropriate to many unit types
-    
-    -- Play unit-specific sound, but only when first entering state (not every time troll sends out fear message!)
-    -- BecomeAfraidOfTroll may fail, don't play sound if we didn't enter fear state
---        if ( not wasAfraid ) and ObjectTestModelCondition(self, "EMOTION_AFRAID") then
---            ObjectPlaySound(self, "MordorFighterEntFear") 
---        end
-end
 function EvilHeroSpawnFX(self)
     ObjectCreateAndFireTempWeapon(self, "EvilHeroSpawnFX")
 end
