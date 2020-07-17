@@ -7,6 +7,14 @@ CONTROLBAR:CrebainPassiveLeadership
 "Crebain"
 END
 
+CONTROLBAR:ToolTipSapperPassiveLeadership
+"These Uruk Berserkers carry smaller bombs on their back to set alight, killing themselves and all people around them. \n Attack a target to Explode"
+END
+
+CONTROLBAR:SapperPassiveLeadership
+"Berserker Sapper"
+END
+
 CONTROLBAR:ToolTipCrebainPassiveLeadership
 "Applies a 25% Armor Debuff to nearby Enemy units \n Passive ability"
 END
@@ -2832,7 +2840,7 @@ CONTROLBAR:ConstructIsengardMineBerserker
 END
 
 CONTROLBAR:ToolTipBuildIsengardMineBerserker
-"Required: Portable Mines Upgrade \n \n These Uruk Berserkers carry smaller bombs on their back to set alight, killing themselves and all people around them."
+"Required: Portable Mines Upgrade and Rank 3 Uruk Pit \n \n These Uruk Berserkers carry smaller bombs on their back to set alight, killing themselves and all people around them."
 END
 
 OBJECT:IsengardScout
