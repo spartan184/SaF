@@ -8,7 +8,7 @@ CONTROLBAR:CrebainPassiveLeadership
 END
 
 CONTROLBAR:ToolTipCrebainPassiveLeadership
-"Crebain Debuff \n Passive ability"
+"Applies a 25% Armor Debuff to nearby Enemy units \n Passive ability"
 END
 
 CONTROLBAR:IsengardUrukRank2
@@ -1836,11 +1836,11 @@ CONTROLBAR:ThisIsNotReallyReadInGame12
 "Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
 END
 
-CONTROLBAR:FrozenWasteLand
-"Frozen Wasteland"
+CONTROLBAR:GundabadAltar
+"Summon Gundabad Altar"
 END
-CONTROLBAR:ToolTipFrozenWasteLand
-"Freezes an area of terrain. \n All ally units get +25% Armor \n All enemy units lose 25% Speed \n and all leadership bonuses \n Does not affect Heroes \n Left click then right click on target"
+CONTROLBAR:ToolTipGundabadAltar
+"Freezes an area of terrain and calls a giant wolf-head statue from Mount Gundabad. \n All ally units get +50% Armor \n All enemy units lose 25% Speed and all leadership bonuses \n Does not affect Heroes \n Left click then right click on target"
 END
 
 CONTROLBAR:DrumsDeep
@@ -1896,26 +1896,26 @@ OBJECT:GundabadBolg
 "Bolg the Defiler"
 END
 CONTROLBAR:GundabadBolgRecruit
-"Hero Unit. \n Call forth the Gundabad chieftain to conquer your enemies"
+"Hero Unit. \n Recruit Bolg the Defiler, terror of Mount Gundabad"
 END
 CONTROLBAR:GundabadBolgRevive
 "Revive the fallen Hero, Bolg"
 END
 CONTROLBAR:GundabadBolgHotkey
-"&Bolg"
+"&Bolg the Defiler"
 END
 
 OBJECT:GundabadLug
-"Lug"
+"Lug the Mauled"
 END
 CONTROLBAR:GundabadLugRecruit
-"Hero Unit. \n Recruit Lug the Mauled"
+"Hero Unit. \n Recruit Lug the Mauled, Beast Master of Gundabad"
 END
 CONTROLBAR:GundabadLugRevive
 "Revive the fallen Hero, Lug the Mauled"
 END
 CONTROLBAR:GundabadLugHotkey
-"&Lug"
+"&Lug the Mauled"
 END
 
 OBJECT:DurinsBane
@@ -2828,7 +2828,7 @@ OBJECT:IsengardMineBeserker
 END
 
 CONTROLBAR:ConstructIsengardMineBerserker
-"Isengard Sapper"
+"Isengard &Sapper"
 END
 
 CONTROLBAR:ToolTipBuildIsengardMineBerserker
