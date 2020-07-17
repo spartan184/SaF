@@ -2863,7 +2863,7 @@ CONTROLBAR:LurtzSummonScouts
 "Fighting Uruk-Hai"
 END
 
-CONTROLBAR:ToolTipGothmogOrcs
+CONTROLBAR:ToolTipSpawnLurtzScouts
 "Required: Rank 7 \n Lurtz summons a horde of powerful Uruk Scouts"
 END
 
