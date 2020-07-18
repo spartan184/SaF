@@ -1,1 +1,7 @@
 Internal hierarchy is named FIRETEST; Could not get info for art\w3d\firetest (2).w3d
+Asset EXDEBUFF.PLANE07 in file exdebuff.w3d depends on unknown asset excloudcr01.tga.
+Asset EXDEBUFF.PLANE07 in file exdebuff.w3d depends on unknown asset expoison.tga.
+Asset IUSGLDR_SKN.LADDER in file iusgldr_skn.w3d depends on unknown asset iusiegladr.tga.
+Asset IUSGLDR_SKN in file iusgldr_skn.w3d depends on unknown asset h*iusgldr_skl.
+Asset IUSIEGBALL_SKN.ARROW in file iusiegball_skn.w3d depends on unknown asset iusiegball.tga.
+Asset IUSIEGBALL_SKN in file iusiegball_skn.w3d depends on unknown asset h*iusiegball_skl.
