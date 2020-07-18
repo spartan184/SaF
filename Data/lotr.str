@@ -1383,7 +1383,7 @@ CONTROLBAR:ToolTipGothmogSiegeLeadership
 END
 
 CONTROLBAR:GothmogOrcs
-"Time of the Orc"
+"Time of the &Orc"
 END
 
 CONTROLBAR:ToolTipGothmogOrcs
@@ -1391,7 +1391,7 @@ CONTROLBAR:ToolTipGothmogOrcs
 END
 
 CONTROLBAR:GollumWring
-"Wring Its Filthy Little Neck"
+"&Wring Its Filthy Little Neck"
 END
 
 CONTROLBAR:ToolTipGollumWring
@@ -1407,7 +1407,7 @@ CONTROLBAR:ToolTipSauronLeadership
 END
 
 CONTROLBAR:SauronConflagaration
-"Conflagration"
+"Confla&gration"
 END
 
 CONTROLBAR:ToolTipSauronConflagaration
@@ -1415,7 +1415,7 @@ CONTROLBAR:ToolTipSauronConflagaration
 END
 
 CONTROLBAR:SauronDominate
-"Annatar, Lord of Gifts"
+"Annatar, Lor&d of Gifts"
 END
 
 CONTROLBAR:ToolTipSauronDominate
@@ -1423,7 +1423,7 @@ CONTROLBAR:ToolTipSauronDominate
 END
 
 CONTROLBAR:MordorOrcRank2
-"Crack the Whip"
+"Crack the &Whip"
 END
 
 CONTROLBAR:ToolTipMordorOrcRank2
@@ -1431,7 +1431,7 @@ CONTROLBAR:ToolTipMordorOrcRank2
 END
 
 CONTROLBAR:MordorUrukRank2
-"Single-minded Assault"
+"Single-minded &Assault"
 END
 
 CONTROLBAR:ToolTipMordorUrukRank2
@@ -1439,7 +1439,7 @@ CONTROLBAR:ToolTipMordorUrukRank2
 END
 
 CONTROLBAR:MordorHaradrimRank2
-"Southron Marksmanship"
+"Southron Ma&rksmanship"
 END
 
 CONTROLBAR:ToolTipMordorHaradrimRank2
