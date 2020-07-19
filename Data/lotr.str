@@ -7,6 +7,14 @@ CONTROLBAR:CrebainPassiveLeadership
 "Crebain"
 END
 
+CONTROLBAR:ToolTipSapperPassiveLeadership
+"These Uruk Berserkers carry smaller bombs on their back to set alight, killing themselves and all people around them. \n Attack a target to Explode"
+END
+
+CONTROLBAR:SapperPassiveLeadership
+"Berserker Sapper"
+END
+
 CONTROLBAR:ToolTipCrebainPassiveLeadership
 "Applies a 25% Armor Debuff to nearby Enemy units \n Passive ability"
 END
@@ -1383,7 +1391,7 @@ CONTROLBAR:ToolTipGothmogSiegeLeadership
 END
 
 CONTROLBAR:GothmogOrcs
-"Time of the Orc"
+"Time of the &Orc"
 END
 
 CONTROLBAR:ToolTipGothmogOrcs
@@ -1391,11 +1399,11 @@ CONTROLBAR:ToolTipGothmogOrcs
 END
 
 CONTROLBAR:GollumWring
-"Wring Its Filthy Little Neck"
+"&Wring Its Filthy Little Neck"
 END
 
 CONTROLBAR:ToolTipGollumWring
-"Deals moderate damage to a unit"
+"Deals moderate damage to a unit \n left click then right click on target"
 END
 
 CONTROLBAR:SauronLeadership
@@ -1407,7 +1415,7 @@ CONTROLBAR:ToolTipSauronLeadership
 END
 
 CONTROLBAR:SauronConflagaration
-"Conflagration"
+"Confla&gration"
 END
 
 CONTROLBAR:ToolTipSauronConflagaration
@@ -1415,7 +1423,7 @@ CONTROLBAR:ToolTipSauronConflagaration
 END
 
 CONTROLBAR:SauronDominate
-"Annatar, Lord of Gifts"
+"Annatar, Lor&d of Gifts"
 END
 
 CONTROLBAR:ToolTipSauronDominate
@@ -1423,7 +1431,7 @@ CONTROLBAR:ToolTipSauronDominate
 END
 
 CONTROLBAR:MordorOrcRank2
-"Crack the Whip"
+"Crack the &Whip"
 END
 
 CONTROLBAR:ToolTipMordorOrcRank2
@@ -1431,7 +1439,7 @@ CONTROLBAR:ToolTipMordorOrcRank2
 END
 
 CONTROLBAR:MordorUrukRank2
-"Single-minded Assault"
+"Single-minded &Assault"
 END
 
 CONTROLBAR:ToolTipMordorUrukRank2
@@ -1439,7 +1447,7 @@ CONTROLBAR:ToolTipMordorUrukRank2
 END
 
 CONTROLBAR:MordorHaradrimRank2
-"Southron Marksmanship"
+"Southron Ma&rksmanship"
 END
 
 CONTROLBAR:ToolTipMordorHaradrimRank2
@@ -2832,7 +2840,7 @@ CONTROLBAR:ConstructIsengardMineBerserker
 END
 
 CONTROLBAR:ToolTipBuildIsengardMineBerserker
-"Required: Portable Mines Upgrade \n \n These Uruk Berserkers carry smaller bombs on their back to set alight, killing themselves and all people around them."
+"Required: Portable Mines Upgrade and Rank 3 Uruk Pit \n \n These Uruk Berserkers carry smaller bombs on their back to set alight, killing themselves and all people around them."
 END
 
 OBJECT:IsengardScout
@@ -2863,7 +2871,7 @@ CONTROLBAR:LurtzSummonScouts
 "Fighting Uruk-Hai"
 END
 
-CONTROLBAR:ToolTipGothmogOrcs
+CONTROLBAR:ToolTipSpawnLurtzScouts
 "Required: Rank 7 \n Lurtz summons a horde of powerful Uruk Scouts"
 END
 
@@ -10805,7 +10813,7 @@ OBJECT:MordorGrond
 END
 
 OBJECT:MordorSauron
-"Sauron"
+"Recruit &Sauron"
 END
 
 OBJECT:MordorDrummerTroll
