@@ -1403,7 +1403,7 @@ CONTROLBAR:GollumWring
 END
 
 CONTROLBAR:ToolTipGollumWring
-"Deals moderate damage to a unit"
+"Deals moderate damage to a unit \n left click then right click on target"
 END
 
 CONTROLBAR:SauronLeadership
@@ -10813,7 +10813,7 @@ OBJECT:MordorGrond
 END
 
 OBJECT:MordorSauron
-"Sauron"
+"Recruit &Sauron"
 END
 
 OBJECT:MordorDrummerTroll
