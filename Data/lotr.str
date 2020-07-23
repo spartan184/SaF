@@ -2506,7 +2506,7 @@ CONTROLBAR:TooltipEndlessSupplies
 END
 
 CONTROLBAR:ThunderBolt
-"Redhorn's Wrath"
+"&Redhorn's Wrath"
 END
 
 CONTROLBAR:ToolTipThunderBolt
@@ -2514,7 +2514,7 @@ CONTROLBAR:ToolTipThunderBolt
 END
 
 CONTROLBAR:SarumanCalltheHorde
-"Build Me An Army"
+"Build Me An &Army"
 END
 
 CONTROLBAR:ToolTipSarumanCalltheHorde

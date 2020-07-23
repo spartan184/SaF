@@ -91,11 +91,18 @@
             <Conditions>+WEAPONSTATE_ONE +PLAYER_UPGRADE_2</Conditions>
         </ModelConditionEvent>
 		
-		<ModelConditionEvent Name="User1Achieved">
+<!-- TEST TEST		<ModelConditionEvent Name="User1Achieved">
 			<Conditions>+USER_1</Conditions>
 		</ModelConditionEvent>
 		<ModelConditionEvent Name="User1Lost">
 			<Conditions>-USER_1</Conditions>
+		</ModelConditionEvent> TEST TEST -->
+		
+		<ModelConditionEvent Name="User1Achieved">
+			<Conditions>+WEAPONLOCK_SECONDARY</Conditions>
+		</ModelConditionEvent>
+		<ModelConditionEvent Name="User1Lost">
+			<Conditions>-WEAPONLOCK_SECONDARY</Conditions>
 		</ModelConditionEvent>
 		
 		<ModelConditionEvent Name="User3Achieved">
@@ -291,7 +298,7 @@
         <EventHandler EventName="BeUncontrollablyAfraid"	ScriptFunctionName="MordorFighterBecomeUncontrollablyAfraid"	 DebugSingleStep="false"/>
     </EventList>
 
-    <EventList Name="IsengardFighterFunctions" Inherit="MordorFighterFunctions">
+    <EventList Name="IsengardFighterFunctions" Inherit="SaFInfantryFunctions">
 		<!-- This contains events specific to the IsengardFighter. Kris -->
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnIsengardFighterCreated" DebugSingleStep="false"/>
 		<EventHandler EventName="User5Achieved"	ScriptFunctionName="EndlessSupplyGrantUpgrades"	DebugSingleStep="false"/>
@@ -308,7 +315,7 @@
 		<EventHandler EventName="User5Achieved"	ScriptFunctionName="EndlessSupplyGrantUpgrades"	DebugSingleStep="false"/>
     </EventList>
 
-    <EventList Name="IsengardArcherFunctions" Inherit="MordorFighterFunctions">
+    <EventList Name="IsengardArcherFunctions" Inherit="SaFInfantryFunctions">
 		<!-- This contains events specific to the IsengardArhcer. Kris -->
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnIsengardArcherCreated" DebugSingleStep="false"/>
 		<EventHandler EventName="User5Achieved"	ScriptFunctionName="EndlessSupplyGrantUpgrades"	DebugSingleStep="false"/>
@@ -383,7 +390,7 @@
 		<EventHandler EventName="BeAfraidOfRampage"			ScriptFunctionName="BecomeAfraidOfRampage" 		DebugSingleStep="false"/>
     </EventList>
 			<!-- This event is for Endless Supplies -->
-	<EventList Name="IsengardBaseHordeFunctions" Inherit="InfantryFunctions">
+	<EventList Name="IsengardBaseHordeFunctions" Inherit="SaFInfantryFunctions">
 		<EventHandler EventName="User5Achieved"	ScriptFunctionName="EndlessSupplyGrantUpgrades"	DebugSingleStep="false"/>
 	</EventList>
 
@@ -447,7 +454,7 @@
         <EventHandler EventName="OnCreated"			ScriptFunctionName="OnRohanSpearmenCreated" DebugSingleStep="false"/>
     </EventList> 	
 	
-	<EventList Name="IsengardCrossbowHordeFunctions" Inherit="IsengardArcherFunctions">
+	<EventList Name="IsengardCrossbowHordeFunctions" Inherit="IsengardCrossbowFunctions">
 		<EventHandler EventName="User1Achieved"	ScriptFunctionName="OnFireSpecialActivation"  DebugSingleStep="false"/>
 		<EventHandler EventName="User1Lost" ScriptFunctionName="OnFireSpecialStop"  DebugSingleStep="false"/>
 		<EventHandler EventName="User5Achieved"	ScriptFunctionName="EndlessSupplyGrantUpgrades"	DebugSingleStep="false"/>

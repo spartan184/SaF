@@ -2,10 +2,6 @@
 function EvilHeroSpawnFX(self)
     ObjectCreateAndFireTempWeapon(self, "EvilHeroSpawnFX")
 end
- 
-function OnArmoryCreated(self)
-	ObjectGrantUpgrade( self, "Upgrade_TechnologyIsengardPortableMines" )
-end
 
 function OnFireSpecialActivation(self)
     ObjectDoSpecialPower( self, "SpecialAbilityFireArrowVolley" )
