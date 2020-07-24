@@ -131,7 +131,7 @@
 		<EventHandler EventName="OnCreated"			ScriptFunctionName="OnMordorSauronCreated"		DebugSingleStep="false"/>
 		<EventHandler EventName="BeScary"			ScriptFunctionName="RadiateUncontrollableFearSauron"		DebugSingleStep="false"/>
     </EventList>
-   
+
 	<EventList Name="MumakilFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="OnCreated" ScriptFunctionName="OnMumakilCreated" DebugSingleStep="false"/>
 		<EventHandler EventName="OnFire"		ScriptFunctionName="GoIntoRampage" DebugSingleStep="false"/>
