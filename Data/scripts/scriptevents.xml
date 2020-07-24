@@ -465,6 +465,10 @@
 		<EventHandler EventName="User1Achieved"	ScriptFunctionName="OnFireSpecialActivation"  DebugSingleStep="false"/>
 		<EventHandler EventName="User1Lost" ScriptFunctionName="OnFireSpecialStop"  DebugSingleStep="false"/>
     </EventList>
+	
+	<EventList Name="IsengardBeserkerFunctions" Inherit="MordorFighterFunctions">
+        <EventHandler EventName="OnCreated"				ScriptFunctionName="OnIsengardBeserkerCreated" DebugSingleStep="false"/>
+    </EventList>
 
 	<EventList Name="RohanArcherFunctions" Inherit="ArcherFunctions">
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnRohanArcherCreated" DebugSingleStep="false"/>

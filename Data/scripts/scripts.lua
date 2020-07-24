@@ -296,16 +296,45 @@ function OnRohanArcherCreated(self)
 end
 
 function OnIsengardFighterCreated(self)
-    ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
-    ObjectHideSubObjectPermanently( self, "SHIELD", true )
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	ObjectHideSubObjectPermanently( self, "Glow", true )
+	ObjectHideSubObjectPermanently( self, "HELMET01", true )
+	ObjectHideSubObjectPermanently( self, "HELMET02", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD01", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD02", true )
+	ObjectHideSubObjectPermanently( self, "GAUNTLET_S", true )
     
-        local head    =    GetRandomNumber()
-        
-    if head <= 0.40 then
-        ObjectHideSubObjectPermanently( self, "SHIELD", false )
+    local helmet         =    GetRandomNumber()
+    local shield         =    GetRandomNumber()
+
+    if helmet <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HELMET01", false )
     else
-        ObjectHideSubObjectPermanently( self, "NOTHING", false )
-    end
+        ObjectHideSubObjectPermanently( self, "HELMET02", false )
+    end   
+	
+    if shield <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "SHIELD01", false )
+    else
+        ObjectHideSubObjectPermanently( self, "SHIELD02", false )
+    end  
+end
+
+function OnIsengardPikemanCreated(self)
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	ObjectHideSubObjectPermanently( self, "Glow", true )
+	ObjectHideSubObjectPermanently( self, "HELMET01", true )
+	ObjectHideSubObjectPermanently( self, "HELMET02", true )
+	
+    local helmet         =    GetRandomNumber()
+    local shield         =    GetRandomNumber()
+
+    if helmet <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HELMET01", false )
+    else
+        ObjectHideSubObjectPermanently( self, "HELMET02", false )
+    end   
+  
 end
 
 function OnIsengardCrossbowCreated(self)
@@ -319,6 +348,12 @@ function OnIsengardCrossbowCreated(self)
     else
         ObjectHideSubObjectPermanently( self, "NOTHING", false )
     end
+end
+
+function OnIsengardBeserkerCreated(self)
+	ObjectHideSubObjectPermanently( self, "TORCH", true )
+	ObjectHideSubObjectPermanently( self, "CREST", true )
+	ObjectHideSubObjectPermanently( self, "ARROWS", true ) 
 end
 
 function OnIsengardFighterRamCreated(self)
