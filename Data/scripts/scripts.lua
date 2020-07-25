@@ -360,16 +360,22 @@ function OnIsengardPikemanCreated(self)
 end
 
 function OnIsengardCrossbowCreated(self)
-    ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
-    ObjectHideSubObjectPermanently( self, "SHIELD", true )
-    
-        local head    =    GetRandomNumber()
-        
-    if head <= 0.40 then
-        ObjectHideSubObjectPermanently( self, "SHIELD", false )
+    ObjectHideSubObject( self, "ARROWNOCK", true )
+	ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
+	ObjectHideSubObjectPermanently( self, "HA", true )
+	ObjectHideSubObjectPermanently( self, "HELMET01", true )
+	ObjectHideSubObjectPermanently( self, "HELMET02", true )
+	ObjectHideSubObjectPermanently( self, "QUIVERA", true )
+	ObjectHideSubObjectPermanently( self, "QUIVERB", true )
+	
+    local quiver         =    GetRandomNumber()
+    local helmet         =    GetRandomNumber()
+
+    if quiver <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "QUIVERA", false )
     else
-        ObjectHideSubObjectPermanently( self, "NOTHING", false )
-    end
+        ObjectHideSubObjectPermanently( self, "QUIVERB", false )
+    end 
 end
 
 function OnIsengardBeserkerCreated(self)
