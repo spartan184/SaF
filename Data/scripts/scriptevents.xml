@@ -308,6 +308,10 @@
 		<!-- This contains events specific to the IsengardFighter. Kris -->
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnIsengardFighterRamCreated" DebugSingleStep="false"/>
     </EventList>
+	
+	<EventList Name="IsengardScoutFunctions" Inherit="SaFInfantryFunctions">
+        <EventHandler EventName="OnCreated"				ScriptFunctionName="OnIsengardScoutCreated" DebugSingleStep="false"/>
+    </EventList>
 
     <EventList Name="WargRiderFunctions" Inherit="MordorFighterFunctions">
 		<!-- This contains events specific to the IsengardFighter. Kris -->

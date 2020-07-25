@@ -1,6 +1,28 @@
 -- define lua functions
-function EvilHeroSpawnFX(self)
-    ObjectCreateAndFireTempWeapon(self, "EvilHeroSpawnFX")
+function OnIsengardScoutCreated(self)
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	ObjectHideSubObjectPermanently( self, "Glow", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD01", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD02", true )
+	ObjectHideSubObjectPermanently( self, "QUIVER01", true )
+	ObjectHideSubObjectPermanently( self, "QUIVER02", true )
+
+	local quiver         =    GetRandomNumber()
+    local shield         =    GetRandomNumber()
+	
+    if quiver <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "QUIVER01", false )
+    else
+        ObjectHideSubObjectPermanently( self, "QUIVER02", false )
+    end  
+	
+	if shield <= 0.333 then
+        ObjectHideSubObjectPermanently( self, "SHIELD01", false )
+    elseif shield <= 0.666 then
+        ObjectHideSubObjectPermanently( self, "SHIELD02", false )
+     else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end   
 end
 
 function OnFireSpecialActivation(self)
