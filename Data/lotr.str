@@ -1455,7 +1455,7 @@ CONTROLBAR:ToolTipMordorHaradrimRank2
 END
 
 CONTROLBAR:MordorEasterlingRank2
-"Dark Resolve"
+"&Dark Resolve"
 END
 
 CONTROLBAR:ToolTipMordorEasterlingRank2
@@ -2506,7 +2506,7 @@ CONTROLBAR:TooltipEndlessSupplies
 END
 
 CONTROLBAR:ThunderBolt
-"Redhorn's Wrath"
+"&Redhorn's Wrath"
 END
 
 CONTROLBAR:ToolTipThunderBolt
@@ -2514,7 +2514,7 @@ CONTROLBAR:ToolTipThunderBolt
 END
 
 CONTROLBAR:SarumanCalltheHorde
-"Build Me An Army"
+"Build Me An &Army"
 END
 
 CONTROLBAR:ToolTipSarumanCalltheHorde
@@ -35034,22 +35034,28 @@ CONTROLBAR:ToolTipSharkuSummon
 END
 
 CONTROLBAR:GrimaSiegeLeadership
-"Exploit Weakness"
+"Exploit &Weakness"
 END
 
 CONTROLBAR:ToolTipGrimaSiegeLeadership
-"Required: Rank 5 \n Nearby Siege Engines gain +20% damage."
+"Required: Rank 8 \n Nearby Siege Engines gain +25% damage."
 END
 
 CONTROLBAR:GrimaLeechcraft
-"Leechcraft"
+"&Leechcraft"
 END
 
 CONTROLBAR:ToolTipGrimaLeechcraft
-"Required: Rank 8 \n Enemy hero is severely weakened for a short amount of time \n Left click then right click on target"
+"Required: Rank 5 \n Enemy hero has -25% Armor and -25% Speed for a short amount of time \n Left click then right click on target"
 END
 
+CONTROLBAR:GrimaSabotage
+"&Sabotage"
+END
 
+CONTROLBAR:ToolTipGrimaSabotage
+"Required: Rank 3 \n Enemy Resource structure is Disabled for a moderate amount of time \n Left click then right click on target"
+END
 
 CONTROLBAR:GiantBatBatman
 "&Batmaaaan!"

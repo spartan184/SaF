@@ -1,10 +1,28 @@
 -- define lua functions
-function EvilHeroSpawnFX(self)
-    ObjectCreateAndFireTempWeapon(self, "EvilHeroSpawnFX")
-end
- 
-function OnArmoryCreated(self)
-	ObjectGrantUpgrade( self, "Upgrade_TechnologyIsengardPortableMines" )
+function OnIsengardScoutCreated(self)
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	ObjectHideSubObjectPermanently( self, "Glow", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD01", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD02", true )
+	ObjectHideSubObjectPermanently( self, "QUIVER01", true )
+	ObjectHideSubObjectPermanently( self, "QUIVER02", true )
+
+	local quiver         =    GetRandomNumber()
+    local shield         =    GetRandomNumber()
+	
+    if quiver <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "QUIVER01", false )
+    else
+        ObjectHideSubObjectPermanently( self, "QUIVER02", false )
+    end  
+	
+	if shield <= 0.333 then
+        ObjectHideSubObjectPermanently( self, "SHIELD01", false )
+    elseif shield <= 0.666 then
+        ObjectHideSubObjectPermanently( self, "SHIELD02", false )
+     else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end   
 end
 
 function OnFireSpecialActivation(self)
@@ -300,29 +318,70 @@ function OnRohanArcherCreated(self)
 end
 
 function OnIsengardFighterCreated(self)
-    ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
-    ObjectHideSubObjectPermanently( self, "SHIELD", true )
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	ObjectHideSubObjectPermanently( self, "Glow", true )
+	ObjectHideSubObjectPermanently( self, "HELMET01", true )
+	ObjectHideSubObjectPermanently( self, "HELMET02", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD01", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD02", true )
+	ObjectHideSubObjectPermanently( self, "GAUNTLET_S", true )
     
-        local head    =    GetRandomNumber()
-        
-    if head <= 0.40 then
-        ObjectHideSubObjectPermanently( self, "SHIELD", false )
+    local helmet         =    GetRandomNumber()
+    local shield         =    GetRandomNumber()
+
+    if helmet <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HELMET01", false )
     else
-        ObjectHideSubObjectPermanently( self, "NOTHING", false )
-    end
+        ObjectHideSubObjectPermanently( self, "HELMET02", false )
+    end   
+	
+    if shield <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "SHIELD01", false )
+    else
+        ObjectHideSubObjectPermanently( self, "SHIELD02", false )
+    end  
+end
+
+function OnIsengardPikemanCreated(self)
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	ObjectHideSubObjectPermanently( self, "Glow", true )
+	ObjectHideSubObjectPermanently( self, "HELMET01", true )
+	ObjectHideSubObjectPermanently( self, "HELMET02", true )
+	
+    local helmet         =    GetRandomNumber()
+    local shield         =    GetRandomNumber()
+
+    if helmet <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HELMET01", false )
+    else
+        ObjectHideSubObjectPermanently( self, "HELMET02", false )
+    end   
+  
 end
 
 function OnIsengardCrossbowCreated(self)
-    ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
-    ObjectHideSubObjectPermanently( self, "SHIELD", true )
-    
-        local head    =    GetRandomNumber()
-        
-    if head <= 0.40 then
-        ObjectHideSubObjectPermanently( self, "SHIELD", false )
+    ObjectHideSubObject( self, "ARROWNOCK", true )
+	ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
+	ObjectHideSubObjectPermanently( self, "HA", true )
+	ObjectHideSubObjectPermanently( self, "HELMET01", true )
+	ObjectHideSubObjectPermanently( self, "HELMET02", true )
+	ObjectHideSubObjectPermanently( self, "QUIVERA", true )
+	ObjectHideSubObjectPermanently( self, "QUIVERB", true )
+	
+    local quiver         =    GetRandomNumber()
+    local helmet         =    GetRandomNumber()
+
+    if quiver <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "QUIVERA", false )
     else
-        ObjectHideSubObjectPermanently( self, "NOTHING", false )
-    end
+        ObjectHideSubObjectPermanently( self, "QUIVERB", false )
+    end 
+end
+
+function OnIsengardBeserkerCreated(self)
+	ObjectHideSubObjectPermanently( self, "TORCH", true )
+	ObjectHideSubObjectPermanently( self, "CREST", true )
+	ObjectHideSubObjectPermanently( self, "ARROWS", true ) 
 end
 
 function OnIsengardFighterRamCreated(self)
@@ -1536,26 +1595,7 @@ function OnPeasantCreated(self)
 end
 
 function OnMordorSauronCreated(self)
-    ObjectHideSubObject( self, "SHARD01", true )
-    ObjectHideSubObject( self, "SHARD02", true )
-    ObjectHideSubObject( self, "SHARD03", true )
-    ObjectHideSubObject( self, "SHARD04", true )
-    ObjectHideSubObject( self, "SHARD05", true )
-    ObjectHideSubObject( self, "SHARD06", true )
-    ObjectHideSubObject( self, "SHARD07", true )
-    ObjectHideSubObject( self, "SHARD08", true )
-    ObjectHideSubObject( self, "SHARD09", true )
-    ObjectHideSubObject( self, "SHARD10", true )
-    ObjectHideSubObject( self, "SHARD11", true )
-    ObjectHideSubObject( self, "SHARD12", true )
-    ObjectHideSubObject( self, "SHARD13", true )
-    ObjectHideSubObject( self, "SHARD14", true )
-    ObjectHideSubObject( self, "SHARD15", true )
-    ObjectHideSubObject( self, "SHARD16", true )
-    ObjectHideSubObject( self, "SHARD17", true )
-    ObjectHideSubObject( self, "SHARD18", true )
-    ObjectHideSubObject( self, "SHARD19", true )
-    ObjectHideSubObject( self, "SHARD20", true )
+    --ObjectDoSpecialPower( self, "SuperweaponGothmogOrcs" )
 end
 
 function OnIsengardDunlandCreated(self)
