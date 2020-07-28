@@ -91,18 +91,11 @@
             <Conditions>+WEAPONSTATE_ONE +PLAYER_UPGRADE_2</Conditions>
         </ModelConditionEvent>
 		
-<!-- TEST TEST		<ModelConditionEvent Name="User1Achieved">
+		<ModelConditionEvent Name="User1Achieved">
 			<Conditions>+USER_1</Conditions>
 		</ModelConditionEvent>
 		<ModelConditionEvent Name="User1Lost">
 			<Conditions>-USER_1</Conditions>
-		</ModelConditionEvent> TEST TEST -->
-		
-		<ModelConditionEvent Name="User1Achieved">
-			<Conditions>+WEAPONLOCK_SECONDARY</Conditions>
-		</ModelConditionEvent>
-		<ModelConditionEvent Name="User1Lost">
-			<Conditions>-WEAPONLOCK_SECONDARY</Conditions>
 		</ModelConditionEvent>
 		
 		<ModelConditionEvent Name="User3Achieved">
@@ -117,6 +110,13 @@
 		</ModelConditionEvent>
 		<ModelConditionEvent Name="User5Lost">
 			<Conditions>-USER_5</Conditions>
+		</ModelConditionEvent>
+		
+		<ModelConditionEvent Name="WeaponlockActivated">
+			<Conditions>+WEAPONLOCK_SECONDARY</Conditions>
+		</ModelConditionEvent>
+		<ModelConditionEvent Name="WeaponlockDeactivated">
+			<Conditions>-WEAPONLOCK_SECONDARY</Conditions>
 		</ModelConditionEvent>
 		
     </Events>
@@ -459,8 +459,8 @@
     </EventList> 	
 	
 	<EventList Name="IsengardCrossbowHordeFunctions" Inherit="IsengardCrossbowFunctions">
-		<EventHandler EventName="User1Achieved"	ScriptFunctionName="OnFireSpecialActivation"  DebugSingleStep="false"/>
-		<EventHandler EventName="User1Lost" ScriptFunctionName="OnFireSpecialStop"  DebugSingleStep="false"/>
+		<EventHandler EventName="WeaponlockActivated"	ScriptFunctionName="HordeFireArrowActivationHook"  DebugSingleStep="false"/>
+		<EventHandler EventName="WeaponlockDeactivated" ScriptFunctionName="HordeFireArrowDeactivationHook"  DebugSingleStep="false"/>
 		<EventHandler EventName="User5Achieved"	ScriptFunctionName="EndlessSupplyGrantUpgrades"	DebugSingleStep="false"/>
     </EventList>
 	

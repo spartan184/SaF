@@ -26,12 +26,16 @@ function OnIsengardScoutCreated(self)
 end
 
 function OnFireSpecialActivation(self)
-    ObjectDoSpecialPower( self, "SpecialAbilityFireArrowVolley" )
-    ObjectHideSubObjectPermanently( self, "FIREAROWTIP", false )
+	ObjectHideSubObjectPermanently( self, "FIREAROWTIP", false )
 end
-
 function OnFireSpecialStop(self)
-    ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
+	ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
+end
+function HordeFireArrowActivationHook(self)
+	HordeBroadcastEventToMembers( self, "User1Achieved", true )
+end
+function HordeFireArrowDeactivationHook(self)
+	HordeBroadcastEventToMembers( self, "User1Lost", true )
 end
 
 function OnFireSpecialActivationRanger(self)
