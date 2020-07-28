@@ -1371,8 +1371,34 @@ function StopCheeringForGrond(self)
 end
 
 function OnGondorFighterCreated(self)
-    ObjectHideSubObjectPermanently( self, "FORGED", true )
-    ObjectHideSubObjectPermanently( self, "OBJECT02", true )
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	ObjectHideSubObjectPermanently( self, "Hammer1", true )
+	ObjectHideSubObjectPermanently( self, "Glow", true )
+	ObjectHideSubObjectPermanently( self, "Glow1", true )
+	ObjectHideSubObjectPermanently( self, "HEAD01", true )
+    ObjectHideSubObjectPermanently( self, "HEAD02", true )
+    ObjectHideSubObjectPermanently( self, "HEAD03", true )
+    ObjectHideSubObjectPermanently( self, "BANNER01", true )
+    ObjectHideSubObjectPermanently( self, "BANNER02", true )
+    ObjectHideSubObjectPermanently( self, "BANNER03", true )
+	local banner          =    GetRandomNumber()
+	local head          =    GetRandomNumber()
+    if head <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "HEAD01", false )
+    elseif head <= 0.7 then
+        ObjectHideSubObjectPermanently( self, "HEAD02", false )
+	else
+        ObjectHideSubObjectPermanently( self, "HEAD03", false )
+    end 
+
+    if banner <= 0.4 then
+        ObjectHideSubObjectPermanently( self, "BANNER01", false )
+    elseif banner <= 0.8 then
+        ObjectHideSubObjectPermanently( self, "BANNER02", false )
+	else
+        ObjectHideSubObjectPermanently( self, "BANNER03", false )
+    end 
+
 end
 
 function OnAragornCreated(self)
@@ -1380,8 +1406,19 @@ function OnAragornCreated(self)
 end
 
 function OnGondorArcherCreated(self)
-    -- ObjectHideSubObjectPermanently( self, "arrow", true )        -- This gets hidden pending the art being fixed.  it is the pre-new-archer-firing-pattern arrow
-    ObjectHideSubObjectPermanently( self, "FireArowTip", true ) -- This gets hidden because the Fire Arrow upgrade turns it on.
+	-- ObjectHideSubObjectPermanently( self, "arrow", true )		-- This gets hidden pending the art being fixed.  it is the pre-new-archer-firing-pattern arrow
+	ObjectHideSubObjectPermanently( self, "FireArowTip", true ) -- This gets hidden because the Fire Arrow upgrade turns it on.
+	ObjectHideSubObjectPermanently( self, "HEAD01", true )
+    ObjectHideSubObjectPermanently( self, "HEAD02", true )
+    ObjectHideSubObjectPermanently( self, "HEAD03", true )
+	local head          =    GetRandomNumber()
+    if head <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "HEAD01", false )
+    elseif head <= 0.7 then
+        ObjectHideSubObjectPermanently( self, "HEAD02", false )
+	else
+        ObjectHideSubObjectPermanently( self, "HEAD03", false )
+    end  	
 end
 
 function OnLegolasCreated(self)
@@ -1546,8 +1583,39 @@ function OnSummonedRohirrimCreated(self)
 end
 
 function OnGondorCavalryCreated(self)
-    ObjectHideSubObjectPermanently( self, "FORGED", true )
-    ObjectHideSubObjectPermanently( self, "SSHIELD", true )
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	ObjectHideSubObjectPermanently( self, "HIPS", true )
+	ObjectHideSubObjectPermanently( self, "SPAULDERS", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD", true )	
+
+    ObjectHideSubObjectPermanently( self, "HEAD01", true )
+    ObjectHideSubObjectPermanently( self, "HEAD02", true )
+    ObjectHideSubObjectPermanently( self, "HEAD03", true )
+    ObjectHideSubObjectPermanently( self, "HORSE01", true )
+    ObjectHideSubObjectPermanently( self, "HORSE02", true )
+    ObjectHideSubObjectPermanently( self, "HORSE03", true )
+    ObjectHideSubObjectPermanently( self, "HORSE04", true )
+
+    local horse         =    GetRandomNumber()
+    local head 		=   GetRandomNumber()
+
+    if horse <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "HORSE01", false )
+    elseif horse <= 0.6 then
+        ObjectHideSubObjectPermanently( self, "HORSE02", false )
+    elseif horse <= 0.8 then
+        ObjectHideSubObjectPermanently( self, "HORSE03", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HORSE04", false )
+    end 
+
+    if head <= 0.33 then
+        ObjectHideSubObjectPermanently( self, "HEAD01", false )
+    elseif head <= 0.66 then
+        ObjectHideSubObjectPermanently( self, "HEAD02", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HEAD03", false )
+    end 
 end
 
 function OnCatapultCreated(self)
