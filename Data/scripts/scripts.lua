@@ -66,37 +66,94 @@ function OnTheodredCreated(self)
 end
 
 function OnRohanSpearmenCreated(self)
-    ObjectHideSubObjectPermanently( self, "FORGED_SPEAR", true )
-    
-    -- helmet types
-    ObjectHideSubObjectPermanently( self, "HEAD1", true )
-    ObjectHideSubObjectPermanently( self, "HEAD2", true )
-    ObjectHideSubObjectPermanently( self, "HEAD3", true )
-    ObjectHideSubObjectPermanently( self, "HEAD4", true )
-    ObjectHideSubObjectPermanently( self, "HEAD5", true )
-    
-    -- shield types
-    ObjectHideSubObjectPermanently( self, "SHIELD01", true )
-    
-    local helm = GetRandomNumber()
-    local shield = GetRandomNumber()
-    
-    if helm <= 0.25 then
-        ObjectHideSubObjectPermanently( self, "HEAD1", false )
---    elseif helm <= 0.40 then
---        ObjectHideSubObjectPermanently( self, "HEAD2", false )
-    elseif helm <= 0.50 then
-        ObjectHideSubObjectPermanently( self, "HEAD3", false )
-    elseif helm <= 0.75 then
-        ObjectHideSubObjectPermanently( self, "HEAD4", false )
-    else
-        ObjectHideSubObjectPermanently( self, "HEAD5", false )
+    ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	ObjectHideSubObjectPermanently( self, "OBJECT02", true )
+	ObjectHideSubObjectPermanently( self, "BODY01", true )
+	ObjectHideSubObjectPermanently( self, "BODY02", true )
+	ObjectHideSubObjectPermanently( self, "BODY03", true )
+	ObjectHideSubObjectPermanently( self, "CLOAK01", true )
+	ObjectHideSubObjectPermanently( self, "CLOAK02", true )
+	ObjectHideSubObjectPermanently( self, "CLOAK03", true )
+	ObjectHideSubObjectPermanently( self, "COIF", true )
+	ObjectHideSubObjectPermanently( self, "HELM01", true )
+	ObjectHideSubObjectPermanently( self, "HELM02", true )
+	ObjectHideSubObjectPermanently( self, "HELM03", true )
+	ObjectHideSubObjectPermanently( self, "HELMHEAD01", true )
+	ObjectHideSubObjectPermanently( self, "HELMHEAD02", true )
+	ObjectHideSubObjectPermanently( self, "NOHELM01", true )
+	ObjectHideSubObjectPermanently( self, "NOHELM02", true )
+	ObjectHideSubObjectPermanently( self, "LEGS01", true )
+	ObjectHideSubObjectPermanently( self, "LEGS02", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD01", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD02", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD03", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD04", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD05", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD06", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD07", true )
+    local head          =    GetRandomNumber()
+    local shield          =    GetRandomNumber()
+    local legs          =    GetRandomNumber()
+    local cloaks          =    GetRandomNumber()
+    local bodies          =    GetRandomNumber()
+    if bodies <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "BODY01", false )
+    elseif bodies <= 0.6 then
+        ObjectHideSubObjectPermanently( self, "BODY02", false )
+     else
+        ObjectHideSubObjectPermanently( self, "BODY03", false )
     end
-    
-    if shield <= 0.55 then
+    if cloaks <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "CLOAK01", false )
+    elseif cloaks <= 0.6 then
+        ObjectHideSubObjectPermanently( self, "CLOAK03", false )
+     else
+        ObjectHideSubObjectPermanently( self, "CLOAK02", false )
+    end
+    if legs <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "LEGS01", false )
+     else
+        ObjectHideSubObjectPermanently( self, "LEGS02", false )
+    end	
+    if shield <= 0.1 then
         ObjectHideSubObjectPermanently( self, "SHIELD01", false )
-    else
-        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    elseif shield <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "SHIELD02", false )
+    elseif shield <= 0.4 then
+        ObjectHideSubObjectPermanently( self, "SHIELD03", false )
+    elseif shield <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "SHIELD04", false )
+    elseif shield <= 0.7 then
+        ObjectHideSubObjectPermanently( self, "SHIELD05", false )
+    elseif shield <= 0.9 then
+        ObjectHideSubObjectPermanently( self, "SHIELD06", false )
+     else
+        ObjectHideSubObjectPermanently( self, "SHIELD07", false )
+    end
+    if head <= 0.1 then
+        ObjectHideSubObjectPermanently( self, "NOHELM01", false )
+    elseif head <= 0.2 then
+        ObjectHideSubObjectPermanently( self, "NOHELM02", false )
+    elseif head <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "COIF", false )
+    elseif head <= 0.4 then
+        ObjectHideSubObjectPermanently( self, "HELM01", false )
+        ObjectHideSubObjectPermanently( self, "HELMHEAD01", false )
+    elseif head <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HELM02", false )
+        ObjectHideSubObjectPermanently( self, "HELMHEAD01", false )
+    elseif head <= 0.65 then
+        ObjectHideSubObjectPermanently( self, "HELM03", false )
+        ObjectHideSubObjectPermanently( self, "HELMHEAD01", false )
+    elseif head <= 0.7 then
+        ObjectHideSubObjectPermanently( self, "HELM01", false )
+        ObjectHideSubObjectPermanently( self, "HELMHEAD02", false )
+    elseif head <= 0.9 then
+        ObjectHideSubObjectPermanently( self, "HELM02", false )
+        ObjectHideSubObjectPermanently( self, "HELMHEAD02", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HELM03", false )
+        ObjectHideSubObjectPermanently( self, "HELMHEAD02", false )
     end
 end
 
@@ -288,36 +345,80 @@ function OnTheodenCreated(self)
 end
 
 function OnRohanArcherCreated(self)
-    ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true ) -- yes, it's a typo in the art.
-    -- helmet types
-    ObjectHideSubObjectPermanently( self, "HEAD1", true )
-    ObjectHideSubObjectPermanently( self, "HEAD2", true )
-    ObjectHideSubObjectPermanently( self, "HEAD3", true )
-    ObjectHideSubObjectPermanently( self, "HEAD4", true )
-    ObjectHideSubObjectPermanently( self, "HEAD5", true )
-    
-    -- shield types
-    ObjectHideSubObjectPermanently( self, "SHIELD01", true )
-    
-    local helm = GetRandomNumber()
-    local shield = GetRandomNumber()
-    
-    if helm <= 0.25 then
-        ObjectHideSubObjectPermanently( self, "HEAD1", false )
---    elseif helm <= 0.40 then
---        ObjectHideSubObjectPermanently( self, "HEAD2", false )
-    elseif helm <= 0.50 then
-        ObjectHideSubObjectPermanently( self, "HEAD3", false )
-    elseif helm <= 0.75 then
-        ObjectHideSubObjectPermanently( self, "HEAD4", false )
-    else
-        ObjectHideSubObjectPermanently( self, "HEAD5", false )
+    ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
+	ObjectHideSubObjectPermanently( self, "BODY01", true )
+	ObjectHideSubObjectPermanently( self, "BODY02", true )
+	ObjectHideSubObjectPermanently( self, "BODY03", true )
+	ObjectHideSubObjectPermanently( self, "BODY01SLEEVE", true )
+	ObjectHideSubObjectPermanently( self, "BODY02SLEEVE", true )
+	ObjectHideSubObjectPermanently( self, "BODY03SLEEVE", true )
+	ObjectHideSubObjectPermanently( self, "CLOAK01", true )
+	ObjectHideSubObjectPermanently( self, "CLOAK02", true )
+	ObjectHideSubObjectPermanently( self, "CLOAK03", true )
+	ObjectHideSubObjectPermanently( self, "COIF", true )
+	ObjectHideSubObjectPermanently( self, "HELM01", true )
+	ObjectHideSubObjectPermanently( self, "HELM02", true )
+	ObjectHideSubObjectPermanently( self, "HELM03", true )
+	ObjectHideSubObjectPermanently( self, "HELMHEAD01", true )
+	ObjectHideSubObjectPermanently( self, "HELMHEAD02", true )
+	ObjectHideSubObjectPermanently( self, "NOHELM01", true )
+	ObjectHideSubObjectPermanently( self, "NOHELM02", true )
+	ObjectHideSubObjectPermanently( self, "LEGS01", true )
+	ObjectHideSubObjectPermanently( self, "LEGS02", true )
+    local head          =    GetRandomNumber()
+    local shield          =    GetRandomNumber()
+    local legs          =    GetRandomNumber()
+    local cloaks          =    GetRandomNumber()
+    local bodies          =    GetRandomNumber()
+    if bodies <= 0.2 then
+        ObjectHideSubObjectPermanently( self, "BODY01", false )
+    elseif bodies <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "BODY01SLEEVE", false )
+	elseif bodies <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "BODY02", false )
+	elseif bodies <= 0.7 then
+        ObjectHideSubObjectPermanently( self, "BODY02SLEEVE", false )
+	elseif bodies <= 0.9 then
+        ObjectHideSubObjectPermanently( self, "BODY03", false )
+     else
+        ObjectHideSubObjectPermanently( self, "BODY03SLEEVE", false )
     end
-    
-    if shield <= 0.55 then
-        ObjectHideSubObjectPermanently( self, "SHIELD01", false )
-    else
-        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    if cloaks <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "CLOAK01", false )
+    elseif cloaks <= 0.6 then
+        ObjectHideSubObjectPermanently( self, "CLOAK03", false )
+     else
+        ObjectHideSubObjectPermanently( self, "CLOAK02", false )
+    end
+    if legs <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "LEGS01", false )
+     else
+        ObjectHideSubObjectPermanently( self, "LEGS02", false )
+    end	
+    if head <= 0.1 then
+        ObjectHideSubObjectPermanently( self, "NOHELM01", false )
+    elseif head <= 0.2 then
+        ObjectHideSubObjectPermanently( self, "NOHELM02", false )
+    elseif head <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "COIF", false )
+    elseif head <= 0.4 then
+        ObjectHideSubObjectPermanently( self, "HELM01", false )
+        ObjectHideSubObjectPermanently( self, "HELMHEAD01", false )
+    elseif head <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HELM02", false )
+        ObjectHideSubObjectPermanently( self, "HELMHEAD01", false )
+    elseif head <= 0.65 then
+        ObjectHideSubObjectPermanently( self, "HELM03", false )
+        ObjectHideSubObjectPermanently( self, "HELMHEAD01", false )
+    elseif head <= 0.7 then
+        ObjectHideSubObjectPermanently( self, "HELM01", false )
+        ObjectHideSubObjectPermanently( self, "HELMHEAD02", false )
+    elseif head <= 0.9 then
+        ObjectHideSubObjectPermanently( self, "HELM02", false )
+        ObjectHideSubObjectPermanently( self, "HELMHEAD02", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HELM03", false )
+        ObjectHideSubObjectPermanently( self, "HELMHEAD02", false )
     end
 end
 
@@ -1203,19 +1304,64 @@ function OnMordorHaradrimCreated(self)
 end
 
 function OnRohanBannerCreated(self)
-    ObjectHideSubObjectPermanently( self, "BANNER01", true )
-    ObjectHideSubObjectPermanently( self, "BANNER02", true )
-    ObjectHideSubObjectPermanently( self, "BANNER03", true )
-    
-    -- define the locals as random numbers
-    local banner             =    GetRandomNumber()
-    
-    if banner <= 0.25 then
-        ObjectHideSubObjectPermanently( self, "BANNER01", false )
-    elseif banner <= 0.50 then
-        ObjectHideSubObjectPermanently( self, "BANNER02", false )
-    else 
-        ObjectHideSubObjectPermanently( self, "BANNER03", false )
+    ObjectHideSubObjectPermanently( self, "BODY01", true )
+	ObjectHideSubObjectPermanently( self, "BODY02", true )
+	ObjectHideSubObjectPermanently( self, "BODY03", true )
+	ObjectHideSubObjectPermanently( self, "BODY04", true )	
+	ObjectHideSubObjectPermanently( self, "FLAG01", true )
+	ObjectHideSubObjectPermanently( self, "FLAG02", true )
+	ObjectHideSubObjectPermanently( self, "FLAG03", true )
+	ObjectHideSubObjectPermanently( self, "COIF", true )
+	ObjectHideSubObjectPermanently( self, "HELM01", true )
+	ObjectHideSubObjectPermanently( self, "HELM02", true )
+	ObjectHideSubObjectPermanently( self, "HELM03", true )
+	ObjectHideSubObjectPermanently( self, "HELMHEAD01", true )
+	ObjectHideSubObjectPermanently( self, "HELMHEAD02", true )
+	ObjectHideSubObjectPermanently( self, "NOHELM01", true )
+	ObjectHideSubObjectPermanently( self, "NOHELM02", true )
+    local head          =    GetRandomNumber()
+    local flags          =    GetRandomNumber()
+    local bodies          =    GetRandomNumber()
+    if bodies <= 0.2 then
+        ObjectHideSubObjectPermanently( self, "BODY01", false )
+    elseif bodies <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "BODY02", false )
+	elseif bodies <= 0.8 then
+        ObjectHideSubObjectPermanently( self, "BODY03", false )
+     else
+        ObjectHideSubObjectPermanently( self, "BODY04", false )
+    end
+    if flags <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "FLAG01", false )
+    elseif flags <= 0.6 then
+        ObjectHideSubObjectPermanently( self, "FLAG03", false )
+     else
+        ObjectHideSubObjectPermanently( self, "FLAG03", false )
+    end
+    if head <= 0.1 then
+        ObjectHideSubObjectPermanently( self, "NOHELM01", false )
+    elseif head <= 0.2 then
+        ObjectHideSubObjectPermanently( self, "NOHELM02", false )
+    elseif head <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "COIF", false )
+    elseif head <= 0.4 then
+        ObjectHideSubObjectPermanently( self, "HELM01", false )
+        ObjectHideSubObjectPermanently( self, "HELMHEAD01", false )
+    elseif head <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HELM02", false )
+        ObjectHideSubObjectPermanently( self, "HELMHEAD01", false )
+    elseif head <= 0.65 then
+        ObjectHideSubObjectPermanently( self, "HELM03", false )
+        ObjectHideSubObjectPermanently( self, "HELMHEAD01", false )
+    elseif head <= 0.7 then
+        ObjectHideSubObjectPermanently( self, "HELM01", false )
+        ObjectHideSubObjectPermanently( self, "HELMHEAD02", false )
+    elseif head <= 0.9 then
+        ObjectHideSubObjectPermanently( self, "HELM02", false )
+        ObjectHideSubObjectPermanently( self, "HELMHEAD02", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HELM03", false )
+        ObjectHideSubObjectPermanently( self, "HELMHEAD02", false )
     end
 end
 
