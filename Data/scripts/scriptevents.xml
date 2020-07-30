@@ -237,7 +237,7 @@
         <EventHandler EventName="OnCreated" ScriptFunctionName="OnGondorDolAmrothCreated" DebugSingleStep="false"/>
     </EventList>
     
-    <EventList Name="ArcherFunctions" Inherit="InfantryFunctions">
+    <EventList Name="ArcherFunctions" Inherit="SaFInfantryFunctions">
     </EventList>
 
 	<EventList Name="RohanElvenWarriorFunctions" Inherit="InfantryFunctions">
@@ -480,10 +480,10 @@
 		<EventHandler EventName="User1Lost" ScriptFunctionName="OnFireSpecialStop"  DebugSingleStep="false"/>
     </EventList> 
 	
-	<EventList Name="RohanArcherHordeFunctions" Inherit="ArcherFunctions">
+	<EventList Name="RohanArcherHordeFunctions" Inherit="RohanArcherFunctions">
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnRohanArcherCreated" DebugSingleStep="false"/>
-		<EventHandler EventName="User1Achieved"	ScriptFunctionName="OnFireSpecialActivation"  DebugSingleStep="false"/>
-		<EventHandler EventName="User1Lost" ScriptFunctionName="OnFireSpecialStop"  DebugSingleStep="false"/>
+		<EventHandler EventName="WeaponlockActivated"	ScriptFunctionName="HordeFireArrowActivationHook"  DebugSingleStep="false"/>
+		<EventHandler EventName="WeaponlockDeactivated" ScriptFunctionName="HordeFireArrowDeactivationHook"  DebugSingleStep="false"/>
     </EventList>
 	
 	<EventList Name="GundabadArcherFunctions" Inherit="SaFInfantryFunctions">
