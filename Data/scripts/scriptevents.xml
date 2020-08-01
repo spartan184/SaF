@@ -575,5 +575,6 @@
         <EventHandler EventName="OnCreated" ScriptFunctionName="OnArmoryCreated" DebugSingleStep="false"/>
     </EventList>
 	
-
+	<EventList Name="RohanFarmFunctions" Inherit="BaseScriptFunctions">							
+    </EventList>
 </SageLuaScriptSection>
