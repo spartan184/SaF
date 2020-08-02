@@ -337,11 +337,23 @@ function OnIsengardWargRiderCreated(self)
 end
 
 function OnTheodenCreated(self)
-    ObjectHideSubObjectPermanently( self, "THEODENHA", true )
-    ObjectHideSubObjectPermanently( self, "BRACERS", true )
-    ObjectHideSubObjectPermanently( self, "GREAVES", true )
-    ObjectHideSubObjectPermanently( self, "PAULDRONS", true )
-    ObjectHideSubObjectPermanently( self, "HELMET", true )
+end
+
+function OnMerryCreated(self)
+	ObjectHideSubObjectPermanently( self, "HAHEADNEW", false )
+	ObjectHideSubObjectPermanently( self, "LORIENCLOAK", false)
+	ObjectHideSubObjectPermanently( self, "LORIENBROOCH", false )
+    ObjectHideSubObjectPermanently( self, "HASHIELD", false )
+    ObjectHideSubObjectPermanently( self, "HABODY", false )
+    ObjectHideSubObjectPermanently( self, "HALEGS", false )
+    ObjectHideSubObjectPermanently( self, "HASCABBARDS", false )
+    ObjectHideSubObjectPermanently( self, "HASCABBARD", false )
+    ObjectHideSubObjectPermanently( self, "HAMERRYSWORD", false )
+	    ObjectHideSubObjectPermanently( self, "BODY", true )
+		ObjectHideSubObjectPermanently( self, "CLOAK", true )
+		ObjectHideSubObjectPermanently( self, "HEADNEW", true )
+		ObjectHideSubObjectPermanently( self, "SCABBARD", true )
+		ObjectHideSubObjectPermanently( self, "MERRYSWORD", true )
 end
 
 function OnRohanArcherCreated(self)
