@@ -565,7 +565,11 @@
 	
 	<EventList Name="TheodredFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="OnCreated"			ScriptFunctionName="OnTheodredCreated" DebugSingleStep="false"/>
-    </EventList> 		
+    </EventList>
+
+	<EventList Name="MerryFunctions" Inherit="BaseScriptFunctions">
+        <EventHandler EventName="OnCreated" ScriptFunctionName="OnMerryCreated" DebugSingleStep="false"/>
+    </EventList>	
 	
 	<EventList Name="GoblinFunctions" Inherit="InfantryFunctions">
         <EventHandler EventName="OnCreated"			ScriptFunctionName="OnGoblinCreated" DebugSingleStep="false"/>
