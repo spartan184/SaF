@@ -11144,6 +11144,10 @@ OBJECT:RohanFarm
 "Rohan Farm"
 END
 
+OBJECT:RohanMill
+"Rohan Windmill"
+END
+
 OBJECT:RohanBarracks
 "Rohan Garrison"
 END
@@ -13176,8 +13180,16 @@ CONTROLBAR:UnpackRohanFarm
 "Rohan &Farm"
 END
 
+CONTROLBAR:UnpackRohanMill
+"Rohan &Windmill"
+END
+
 CONTROLBAR:ToolTipRohanFarmUnpack
-"Provides food as a resource"
+"Provides crops as a resource"
+END
+
+CONTROLBAR:ToolTipRohanMillUnpack
+"Provides bread as a resource"
 END
 
 CONTROLBAR:UnpackGondorFarm
@@ -13536,6 +13548,10 @@ CONTROLBAR:ConstructRohanFarm
 "Build Rohan &Farm"
 END
 
+CONTROLBAR:ConstructRohanMill
+"Build Rohan &Windmill"
+END
+
 CONTROLBAR:ConstructRohanStatue
 "Build Rohan Sta&tue"
 END
@@ -13569,7 +13585,11 @@ CONTROLBAR:ToolTipRohanStable
 END
 
 CONTROLBAR:ToolTipRohanFarm
-"Provides food as a resource \n Creates peasants \n Food Bonus: Reduced cost of Cavalry"
+"Provides crops as a resource \n Creates peasants \n Crops Bonus: Reduced cost of Cavalry"
+END
+
+CONTROLBAR:ToolTipRohanMill
+"Provides bread as a resource \n Creates peasants \n Bread Bonus: Reduced cost of Infantry"
 END
 
 CONTROLBAR:ToolTipRohanStatue
@@ -16986,7 +17006,11 @@ GUI:INFANTRYDiscount
 END
 
 GUI:FOOD_DISCOUNT
-"Food Bonus -%d%%"
+"Crops Bonus -%d%%"
+END
+
+GUI:BREAD_DISCOUNT
+"Bread Bonus -%d%%"
 END
 
 GUI:CAVALRYMONSTERDiscount
@@ -19290,7 +19314,11 @@ Map:MAPMPSIsengard/Desc
 END
 
 OBJECT:RohanFarmDescription
-"Food Bonus - Reduced Cost of Cavalry \n 2 Farms: 10% \n 3 Farms: 15% \n 4 Farms: 20% \n 5 Farms: 25% \n 6+ Farms: 30%"
+"Crop Bonus - Reduced Cost of Cavalry \n 2 Farms: 10% \n 3 Farms: 15% \n 4 Farms: 20% \n 5 Farms: 25% \n 6+ Farms: 30%"
+END
+
+OBJECT:RohanMillDescription
+"Bread Bonus - Reduced Cost of Infantry \n 2 Mills: 10% \n 3 Mills: 15% \n 4 Mills: 20% \n 5 Mills: 25% \n 6+ Mills: 30%"
 END
 
 OBJECT:RohanArmoryDescription
