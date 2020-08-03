@@ -524,12 +524,16 @@
 	
 	<EventList Name="RohirrimFunctions" Inherit="CavalryFunctions">
         <EventHandler EventName="OnCreated" ScriptFunctionName="OnRohirrimCreated" DebugSingleStep="false"/>
-		<EventHandler EventName="User1Achieved"	ScriptFunctionName="OnFireSpecialActivation"  DebugSingleStep="false"/>
-		<EventHandler EventName="User1Lost" ScriptFunctionName="OnFireSpecialStop"  DebugSingleStep="false"/>
     </EventList>
 	
-	<EventList Name="RohirrimArcherHordeFunctions" Inherit="CavalryFunctions">
-        <EventHandler EventName="OnCreated" ScriptFunctionName="OnRohirrimCreated" DebugSingleStep="false"/>
+	<EventList Name="RohirrimArcherHordeFunctions" Inherit="RohirrimArcherFunctions">
+        <EventHandler EventName="OnCreated" ScriptFunctionName="OnRohirrimArcherCreated" DebugSingleStep="false"/>
+		<EventHandler EventName="WeaponlockActivated"	ScriptFunctionName="HordeFireArrowActivationHook"  DebugSingleStep="false"/>
+		<EventHandler EventName="WeaponlockDeactivated" ScriptFunctionName="HordeFireArrowDeactivationHook"  DebugSingleStep="false"/>
+    </EventList>
+	
+	<EventList Name="RohirrimArcherFunctions" Inherit="CavalryFunctions">
+        <EventHandler EventName="OnCreated" ScriptFunctionName="OnRohirrimArcherCreated" DebugSingleStep="false"/>
 		<EventHandler EventName="User1Achieved"	ScriptFunctionName="OnFireSpecialActivation"  DebugSingleStep="false"/>
 		<EventHandler EventName="User1Lost" ScriptFunctionName="OnFireSpecialStop"  DebugSingleStep="false"/>
     </EventList>
@@ -581,6 +585,10 @@
 	
 	<EventList Name="IsengardArmoryFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="OnCreated" ScriptFunctionName="OnArmoryCreated" DebugSingleStep="false"/>
+    </EventList>
+	
+	<EventList Name="RohirrimBannerFunctions" Inherit="BaseScriptFunctions">
+        <EventHandler EventName="OnCreated" ScriptFunctionName="OnRohirrimBannerCreated" DebugSingleStep="false"/>
     </EventList>
 	
 	<EventList Name="RohanFarmFunctions" Inherit="BaseScriptFunctions">							
