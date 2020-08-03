@@ -571,6 +571,10 @@
         <EventHandler EventName="OnCreated" ScriptFunctionName="OnMerryCreated" DebugSingleStep="false"/>
     </EventList>	
 	
+	<EventList Name="HaldirFunctions" Inherit="BaseScriptFunctions">
+        <EventHandler EventName="OnCreated" ScriptFunctionName="OnHaldirCreated" DebugSingleStep="false"/>
+    </EventList>
+	
 	<EventList Name="GoblinFunctions" Inherit="InfantryFunctions">
         <EventHandler EventName="OnCreated"			ScriptFunctionName="OnGoblinCreated" DebugSingleStep="false"/>
     </EventList>

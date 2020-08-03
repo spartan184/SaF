@@ -339,6 +339,10 @@ end
 function OnTheodenCreated(self)
 end
 
+function OnHaldirCreated(self)
+	ObjectHideSubObjectPermanently( self, "HANDLE", true )
+end
+
 function OnMerryCreated(self)
 	ObjectHideSubObjectPermanently( self, "HAHEADNEW", false )
 	ObjectHideSubObjectPermanently( self, "LORIENCLOAK", false)
