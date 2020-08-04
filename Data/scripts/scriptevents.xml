@@ -569,6 +569,8 @@
 	
 	<EventList Name="TheodredFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="OnCreated"			ScriptFunctionName="OnTheodredCreated" DebugSingleStep="false"/>
+        <EventHandler EventName="User3Achieved"	ScriptFunctionName="OnTheodredLuckActivation"  DebugSingleStep="false"/>
+		<EventHandler EventName="User3Lost" ScriptFunctionName="OnTheodredLuckStop"  DebugSingleStep="false"/>
     </EventList>
 
 	<EventList Name="MerryFunctions" Inherit="BaseScriptFunctions">

@@ -858,6 +858,14 @@ CONTROLBAR:TooltipRohanTheodredHeal
 "Required: Rank 9 \n Théodred regains 75% of his maximum health"
 END
 
+CONTROLBAR:TheodredLuckOfBattle
+"&Luck of Battle"
+END
+
+CONTROLBAR:ToolTipSpecialAbilityTheodredLuckOfBattle
+"Requires Level 7 \n Théodred equips his helmet, gains +33% armor \n When activated, Théodred temporarily avoids all ranged damage \n Left click to activate"
+END
+
 CONTROLBAR:RohanTheodredRevive
 "Revive the fallen Hero, Théodred"
 END

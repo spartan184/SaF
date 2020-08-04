@@ -65,6 +65,14 @@ function OnTheodredCreated(self)
     ObjectHideSubObjectPermanently( self, "HEADHELM", true )
 end
 
+function OnTheodredLuckActivation(self)
+	ObjectGrantUpgrade( self, "Upgrade_RohanHeavyArmor" )
+end
+
+function OnTheodredLuckStop(self)
+	ObjectGrantUpgrade( self, "Upgrade_GenericUpgrade2" )
+end
+
 function OnRohanSpearmenCreated(self)
     ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
 	ObjectHideSubObjectPermanently( self, "OBJECT02", true )
