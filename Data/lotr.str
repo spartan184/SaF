@@ -9256,6 +9256,14 @@ CONTROLBAR:ToolTipToggleTowerGuardShieldWallToLineFormation
 "No bonus"
 END
 
+CONTROLBAR:ToolTipToggleKingsguardLineToShieldWallFormation
+"+40% Armor, -50% Speed"
+END
+
+CONTROLBAR:ToolTipToggleKingsguardShieldWallToLineFormation
+"No bonus"
+END
+
 CONTROLBAR:RevealArea
 "Reveal area"
 END
@@ -15302,6 +15310,14 @@ END
 
 CONTROLBAR:ToolTipTheodenLeadership
 "Leadership bonus to nearby troops \n +50% Damage, +100% Combat Experience \n Passive ability"
+END
+
+CONTROLBAR:KingsguardLeadership
+"To The King!"
+END
+
+CONTROLBAR:ToolTipKingsguardLeadership
+"Leadership bonus to Kingsguard troops while near King Theoden \n +15% Damage, +15% Armor \n Passive ability"
 END
 
 CONTROLBAR:DwarvenGrudge

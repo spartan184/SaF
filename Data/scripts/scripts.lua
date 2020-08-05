@@ -25,6 +25,48 @@ function OnIsengardScoutCreated(self)
     end   
 end
 
+function OnKingsguardCreated(self)
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	ObjectHideSubObjectPermanently( self, "FireArowTip", true )
+	
+    ObjectHideSubObjectPermanently( self, "HELMHEAD01", true )
+    ObjectHideSubObjectPermanently( self, "HELMHEAD02", true )
+
+    ObjectHideSubObjectPermanently( self, "QUIVERA", true )
+    ObjectHideSubObjectPermanently( self, "QUIVERB", true )
+
+    ObjectHideSubObjectPermanently( self, "HORSE01", true )
+    ObjectHideSubObjectPermanently( self, "HORSE02", true )
+    ObjectHideSubObjectPermanently( self, "HORSE03", true )
+    ObjectHideSubObjectPermanently( self, "HORSE04", true )
+
+    local horse         =    GetRandomNumber()
+    local quiver         =    GetRandomNumber()
+    local head 		=   GetRandomNumber()
+
+    if horse <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "HORSE01", false )
+    elseif horse <= 0.6 then
+        ObjectHideSubObjectPermanently( self, "HORSE02", false )
+    elseif horse <= 0.8 then
+        ObjectHideSubObjectPermanently( self, "HORSE03", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HORSE04", false )
+    end 
+
+    if head <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "HELMHEAD01", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HELMHEAD02", false )
+    end 
+
+    if quiver <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "QUIVERA", false )
+     else
+        ObjectHideSubObjectPermanently( self, "QUIVERB", false )
+    end 
+end
+
 function OnFireSpecialActivation(self)
 	ObjectHideSubObjectPermanently( self, "FIREAROWTIP", false )
 end

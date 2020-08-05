@@ -593,6 +593,10 @@
         <EventHandler EventName="OnCreated" ScriptFunctionName="OnRohirrimBannerCreated" DebugSingleStep="false"/>
     </EventList>
 	
+    <EventList Name="KingsguardFunctions" Inherit="CavalryFunctions">
+        <EventHandler EventName="OnCreated" ScriptFunctionName="OnKingsguardCreated" DebugSingleStep="false"/>
+    </EventList>	
+	
 	<EventList Name="RohanFarmFunctions" Inherit="BaseScriptFunctions">							
     </EventList>
 </SageLuaScriptSection>
