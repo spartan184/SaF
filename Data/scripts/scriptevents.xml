@@ -599,4 +599,8 @@
 	
 	<EventList Name="RohanFarmFunctions" Inherit="BaseScriptFunctions">							
     </EventList>
+	
+	<EventList Name="PippinFunctions" Inherit="BaseScriptFunctions">
+        <EventHandler EventName="OnCreated"				ScriptFunctionName="OnPippinCreated" DebugSingleStep="false"/>
+    </EventList>	
 </SageLuaScriptSection>
