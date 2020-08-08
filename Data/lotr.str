@@ -3,6 +3,14 @@ CONTROLBAR:ThisIsNotReallyReadInGame1
 "Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
 END
 
+CONTROLBAR:ToolTipMerryEsquirePassiveLeadership
+"Merry is Emboldened in the presence of the Lady. \n Merry gains +100% Damage while near Eowyn. \n Passive ability"
+END
+
+CONTROLBAR:MerryEsquirePassiveLeadership
+"Esquire of Rohan"
+END
+
 CONTROLBAR:CrebainPassiveLeadership
 "Crebain"
 END
