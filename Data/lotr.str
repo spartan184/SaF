@@ -1163,7 +1163,7 @@ CONTROLBAR:TheodenRally
 END
 
 CONTROLBAR:TooltipTheodenRally
-"Required: Rank 3 \n Th�oden calls upon two battalions of Royal Guard \n Left click to activate"
+"Required: Rank 7 \n Theoden calls upon two battalions of Royal Guard \n Left click to activate"
 END
 
 CONTROLBAR:TheodenArmor
@@ -1171,7 +1171,7 @@ CONTROLBAR:TheodenArmor
 END
 
 CONTROLBAR:ToolTipTheodenArmor
-"Required: Rank 3 \n Th�oden dons his war armor \n Passive ability"
+"Required: Rank 3 \n Theoden dons his war armor \n Passive ability"
 END
 
 CONTROLBAR:TheodenLeadership
@@ -1215,11 +1215,11 @@ OBJECT:MordorWitchKing
 End
 
 CONTROLBAR:MordorWitchKingRecruit
-"Hero Unit. Recruit the Lord of the Nazg�l. \n \n 'Send forth all legions. Do not stop the attack until the city is taken. Slay them all.'"
+"Hero Unit. Recruit the Lord of the Nazgul. \n \n 'Send forth all legions. Do not stop the attack until the city is taken. Slay them all.'"
 END
 
 CONTROLBAR:MordorWitchKingRevive
-"Revive the Lord of the Nazg�l."
+"Revive the Lord of the Nazgul."
 END
 
 CONTROLBAR:MordorWitchKingHotkey
@@ -1271,7 +1271,7 @@ OBJECT:MordorWight
 End
 
 OBJECT:MordorKhamul
-"Kham�l"
+"Khamul"
 End
 
 CONTROLBAR:MordorKhamulRecruit
@@ -1311,7 +1311,7 @@ CONTROLBAR:ToolTipRelentlessPursuit
 END
 
 OBJECT:MordorUvatha
-"�vatha"
+"Uvatha"
 End
 
 CONTROLBAR:MordorUvathaRecruit
@@ -1339,7 +1339,7 @@ CONTROLBAR:UvathaArmor
 END
 
 CONTROLBAR:ToolTipUvathaArmor
-"Required: Rank 5 \n �vatha is equipped with his heavy armor \n Nearby enemy units lose -5% of all stats \n Passive ability"
+"Required: Rank 5 \n Uvatha is equipped with his heavy armor \n Nearby enemy units lose -5% of all stats \n Passive ability"
 END
 
 OBJECT:MordorMouth
@@ -1435,7 +1435,7 @@ CONTROLBAR:SauronConflagaration
 END
 
 CONTROLBAR:ToolTipSauronConflagaration
-"Destroy enemy hero \n (only deals 25% of total damage to D�rin's Bane, Gandalf the White, Saruman, Elessar, and Radagast)"
+"Destroy enemy hero \n (only deals 25% of total damage to Durin's Bane, Gandalf the White, Saruman, Elessar, and Radagast)"
 END
 
 CONTROLBAR:SauronDominate
@@ -1615,7 +1615,7 @@ OBJECT:HordeMordorUruk
 END
 
 CONTROLBAR:ToolTipBuildMordorUrukHorde
-"Strong vs. Archers \n Weak vs. Cavalry, Monsters, Heroes \n \n The Black Uruks of Barad-d�r are the elite of Sauron's orc armies, first bred by him to devastate the Gondorian province of Ithilien."
+"Strong vs. Archers \n Weak vs. Cavalry, Monsters, Heroes \n \n The Black Uruks of Barad-dur are the elite of Sauron's orc armies, first bred by him to devastate the Gondorian province of Ithilien."
 END
 
 CONTROLBAR:ConstructMordorUrukHorde
@@ -1830,7 +1830,7 @@ CONTROLBAR:SummonGoblinHordes
 "Bolg's Bod&yguards"
 END
 CONTROLBAR:ToolTipSummonGoblinHordes
-"Required: Rank 8 \n Summon two hordes of Gundabad bodyguards to Bolg�s side. \n Left click to activate"
+"Required: Rank 8 \n Summon two hordes of Gundabad bodyguards to Bolgs side. \n Left click to activate"
 END
 
 
@@ -1845,7 +1845,7 @@ CONTROLBAR:GundabadLugDreadfangsCall
 "&Dreadfang's Call"
 END
 CONTROLBAR:TooltipGundabadLugDreadfangsCall
-"Required: Rank 3 \n Lug�s Warg howls, freezing the blood of the enemy and stunning them for a short time. \n left click to activate"
+"Required: Rank 3 \n Lugs Warg howls, freezing the blood of the enemy and stunning them for a short time. \n left click to activate"
 END
 
 CONTROLBAR:GundabadLugScentOfBlood
@@ -1905,10 +1905,10 @@ CONTROLBAR:ToolTipSummonGiantBats
 END
 
 CONTROLBAR:DurinsBane
-"D�rin's Bane"
+"Durin's Bane"
 END
 CONTROLBAR:ToolTipDurinsBane
-"Unlocks D�rin's Bane \n Recruit a Balrog of Morgoth from the Citadel"
+"Unlocks Durin's Bane \n Recruit a Balrog of Morgoth from the Citadel"
 END
 
 ;=================================HEROES==========================
@@ -1943,16 +1943,16 @@ CONTROLBAR:GundabadLugHotkey
 END
 
 OBJECT:DurinsBane
-"D�rin's Bane"
+"Durin's Bane"
 END
 CONTROLBAR:DurinsBaneHotkey
-"&D�rin's Bane"
+"&Durin's Bane"
 END
 CONTROLBAR:DurinsBaneRecruit
-"Required: D�rin's Bane \n Hero Unit. Recruit a Balrog of Morgoth"
+"Required: Durin's Bane \n Hero Unit. Recruit a Balrog of Morgoth"
 END
 TOOLTIP:ToolTipLackDurinsBaneSpellbook
-"Required: D�rin's Bane \n Hero Unit. Recruit a Balrog of Morgoth"
+"Required: Durin's Bane \n Hero Unit. Recruit a Balrog of Morgoth"
 END
 
 ;=================================UNITS==========================
@@ -2485,7 +2485,7 @@ Map:MAPMPWoodyEnd
 END
 
 Map:MAPMPWoodyEnd/Desc
-"A forested land west of the Shire. Frodo, Sam and Pippin hid from one of the Nazg�l on their way to Bree in this region. \n Credits: Kobrakai \n Number of Players: 2 \n Starting Positions: Camps \n Expansion Points: 2 \n Settlements: 8"
+"A forested land west of the Shire. Frodo, Sam and Pippin hid from one of the Nazgul on their way to Bree in this region. \n Credits: Kobrakai \n Number of Players: 2 \n Starting Positions: Camps \n Expansion Points: 2 \n Settlements: 8"
 END
 
 ;================================================== Vanilla Misc  ============================================
@@ -15393,7 +15393,7 @@ CONTROLBAR:KingsFavor
 END
 
 CONTROLBAR:ToolTipKingsFavor
-"Required: Rank 6 \n Units gain experience \n left click then right click on target"
+"Required: Rank 3 \n Units gain experience \n left click then right click on target"
 END
 
 CONTROLBAR:GloriousCharge
