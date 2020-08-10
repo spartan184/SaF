@@ -524,12 +524,16 @@
 	
 	<EventList Name="RohirrimFunctions" Inherit="CavalryFunctions">
         <EventHandler EventName="OnCreated" ScriptFunctionName="OnRohirrimCreated" DebugSingleStep="false"/>
-		<EventHandler EventName="User1Achieved"	ScriptFunctionName="OnFireSpecialActivation"  DebugSingleStep="false"/>
-		<EventHandler EventName="User1Lost" ScriptFunctionName="OnFireSpecialStop"  DebugSingleStep="false"/>
     </EventList>
 	
-	<EventList Name="RohirrimArcherHordeFunctions" Inherit="CavalryFunctions">
-        <EventHandler EventName="OnCreated" ScriptFunctionName="OnRohirrimCreated" DebugSingleStep="false"/>
+	<EventList Name="RohirrimArcherHordeFunctions" Inherit="RohirrimArcherFunctions">
+        <EventHandler EventName="OnCreated" ScriptFunctionName="OnRohirrimArcherCreated" DebugSingleStep="false"/>
+		<EventHandler EventName="WeaponlockActivated"	ScriptFunctionName="HordeFireArrowActivationHook"  DebugSingleStep="false"/>
+		<EventHandler EventName="WeaponlockDeactivated" ScriptFunctionName="HordeFireArrowDeactivationHook"  DebugSingleStep="false"/>
+    </EventList>
+	
+	<EventList Name="RohirrimArcherFunctions" Inherit="CavalryFunctions">
+        <EventHandler EventName="OnCreated" ScriptFunctionName="OnRohirrimArcherCreated" DebugSingleStep="false"/>
 		<EventHandler EventName="User1Achieved"	ScriptFunctionName="OnFireSpecialActivation"  DebugSingleStep="false"/>
 		<EventHandler EventName="User1Lost" ScriptFunctionName="OnFireSpecialStop"  DebugSingleStep="false"/>
     </EventList>
@@ -565,6 +569,8 @@
 	
 	<EventList Name="TheodredFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="OnCreated"			ScriptFunctionName="OnTheodredCreated" DebugSingleStep="false"/>
+        <EventHandler EventName="User3Achieved"	ScriptFunctionName="OnTheodredLuckActivation"  DebugSingleStep="false"/>
+		<EventHandler EventName="User3Lost" ScriptFunctionName="OnTheodredLuckStop"  DebugSingleStep="false"/>
     </EventList>
 
 	<EventList Name="MerryFunctions" Inherit="BaseScriptFunctions">
@@ -583,6 +589,18 @@
         <EventHandler EventName="OnCreated" ScriptFunctionName="OnArmoryCreated" DebugSingleStep="false"/>
     </EventList>
 	
+	<EventList Name="RohirrimBannerFunctions" Inherit="BaseScriptFunctions">
+        <EventHandler EventName="OnCreated" ScriptFunctionName="OnRohirrimBannerCreated" DebugSingleStep="false"/>
+    </EventList>
+	
+    <EventList Name="KingsguardFunctions" Inherit="CavalryFunctions">
+        <EventHandler EventName="OnCreated" ScriptFunctionName="OnKingsguardCreated" DebugSingleStep="false"/>
+    </EventList>	
+	
 	<EventList Name="RohanFarmFunctions" Inherit="BaseScriptFunctions">							
     </EventList>
+	
+	<EventList Name="PippinFunctions" Inherit="BaseScriptFunctions">
+        <EventHandler EventName="OnCreated"				ScriptFunctionName="OnPippinCreated" DebugSingleStep="false"/>
+    </EventList>	
 </SageLuaScriptSection>

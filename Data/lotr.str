@@ -3,6 +3,14 @@ CONTROLBAR:ThisIsNotReallyReadInGame1
 "Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
 END
 
+CONTROLBAR:ToolTipMerryEsquirePassiveLeadership
+"Merry is Emboldened in the presence of the Lady. \n Merry gains +100% Damage while near Eowyn. \n Passive ability"
+END
+
+CONTROLBAR:MerryEsquirePassiveLeadership
+"Esquire of Rohan"
+END
+
 CONTROLBAR:CrebainPassiveLeadership
 "Crebain"
 END
@@ -253,19 +261,19 @@ CONTROLBAR:ToolTipSentinel
 END
 
 OBJECT:RangerCamp
-"Dúnedain Gathering"
+"Dï¿½nedain Gathering"
 END
 
 OBJECT:RangerCampDescription
-"Allows you to recruit the Dúnedain of the North"
+"Allows you to recruit the Dï¿½nedain of the North"
 END
 
 CONTROLBAR:RangerCamp
-"Dúnedain &Gathering"
+"Dï¿½nedain &Gathering"
 END
 
 CONTROLBAR:ToolTipRangerCamp
-"Allows you to recruit the Dúnedain of the North"
+"Allows you to recruit the Dï¿½nedain of the North"
 END
 
 OBJECT:BreeWatchTower
@@ -442,15 +450,15 @@ OBJECT:RivendellBannerRider
 END
 
 OBJECT:DunedainSpear
-"Dúnedain Spearmen"
+"Dï¿½nedain Spearmen"
 END
 
 OBJECT:HordeDunedainSpearmen
-"Dúnedain Spearmen"
+"Dï¿½nedain Spearmen"
 END
 
 CONTROLBAR:ConstructDunedainSpearmenHorde
-"Dúnedain Spearmen"
+"Dï¿½nedain Spearmen"
 END
 
 CONTROLBAR:ToolTipBuildDunedainSpearmen
@@ -458,15 +466,15 @@ CONTROLBAR:ToolTipBuildDunedainSpearmen
 END
 
 OBJECT:DunedainRanger
-"Dúnadan"
+"Dï¿½nadan"
 END
 
 OBJECT:HordeDunedainRanger
-"Dúnedain of the Grey Company"
+"Dï¿½nedain of the Grey Company"
 END
 
 CONTROLBAR:ConstructDunedainRangerHorde
-"Dúnedain of the Grey Company"
+"Dï¿½nedain of the Grey Company"
 END
 
 CONTROLBAR:ToolTipDunedainRangerHorde
@@ -474,15 +482,15 @@ CONTROLBAR:ToolTipDunedainRangerHorde
 END
 
 OBJECT:DunedainArcher
-"Dúnedain Ranger"
+"Dï¿½nedain Ranger"
 END
 
 OBJECT:HordeDunedainArcher
-"Dúnedain Rangers"
+"Dï¿½nedain Rangers"
 END
 
 CONTROLBAR:ConstructDunedainArcherHorde
-"Dúnedain Rangers"
+"Dï¿½nedain Rangers"
 END
 
 CONTROLBAR:ToolTipDunedainArcherHorde
@@ -611,7 +619,7 @@ CONTROLBAR:ToolTipBuildEriadorAragorn
 END
 
 CONTROLBAR:EriadorAragornRecruit
-"Recruit Aragorn, Isildur's Heir and Chieftain of the Dúnedain."
+"Recruit Aragorn, Isildur's Heir and Chieftain of the Dï¿½nedain."
 END
 
 CONTROLBAR:EriadorAragornRevive
@@ -663,7 +671,7 @@ OBJECT:Halbarad
 END
 
 CONTROLBAR:HalbaradRecruit
-"Recruit Halbarad, Captain of the Dúnedain."
+"Recruit Halbarad, Captain of the Dï¿½nedain."
 END
 
 CONTROLBAR:HalbaradRevive
@@ -688,15 +696,15 @@ CONTROLBAR:ToolTipHalbaradLeadership
 END
 
 CONTROLBAR:DunedainSwordsman
-"&Dúnedain Swordsman"
+"&Dï¿½nedain Swordsman"
 END
 
 CONTROLBAR:AragornLeadership
-"Chieftain of the Dúnedain"
+"Chieftain of the Dï¿½nedain"
 END
 
 CONTROLBAR:StrengthofNumenor
-"Strengt&h of Númenor"
+"Strengt&h of Nï¿½menor"
 END
 
 CONTROLBAR:ElladanUnitLeadership
@@ -753,7 +761,7 @@ CONTROLBAR:GreyCompanyElendil
 END
 
 CONTROLBAR:ToolTipGreyCompanyElendil
-"Required: Rank 3 \n The Dúnedain temporarily gain +25% damage, +25% health \n and fear immunity. \n Left click to activate"
+"Required: Rank 3 \n The Dï¿½nedain temporarily gain +25% damage, +25% health \n and fear immunity. \n Left click to activate"
 END
 
 ;====================================Eriador Upgrades======================================
@@ -778,7 +786,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeEriadorFireArrows
 END
 
 UPGRADE:EriadorBasicTraining
-"Dúnedain Captain"
+"Dï¿½nedain Captain"
 END
 
 CONTROLBAR:PurchaseUpgradeEriadorHeavyArmor
@@ -806,7 +814,7 @@ CONTROLBAR:PurchaseTechnologyEriadorFireArrows
 END
 
 CONTROLBAR:PurchaseUpgradeEriadorBasicTraining
-"Dúnedain &Captain Upgrade"
+"Dï¿½nedain &Captain Upgrade"
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeEriadorBasicTraining
@@ -818,7 +826,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyEriadorBasicTraining
 END
 
 CONTROLBAR:PurchaseTechnologyEriadorBasicTraining
-"Dúnedain &Captain Upgrade"
+"Dï¿½nedain &Captain Upgrade"
 END
 
 ;================================================= Vannila Faction Stuff ====================================
@@ -827,11 +835,11 @@ CONTROLBAR:ThisIsNotReallyReadInGame9
 END
 
 OBJECT:RohanTheodred
-"Théodred"
+"Thï¿½odred"
 END
 
 CONTROLBAR:RohanTheodredRecruit
-"Hero Unit. Recruit the Théodred, the Prince of Rohan. \n \n 'Nú on théostrum licgeth Théodred se léofa hæ´letha holdost.'"
+"Hero Unit. Recruit the Thï¿½odred, the Prince of Rohan. \n \n 'Nï¿½ on thï¿½ostrum licgeth Thï¿½odred se lï¿½ofa hï¿½letha holdost.'"
 END
 
 CONTROLBAR:TheodredPassiveLeadership
@@ -847,7 +855,7 @@ CONTROLBAR:TheodredBloodLeadership
 END
 
 CONTROLBAR:ToolTipTheodredBloodLeadership
-"Required: Rank 3 \n Théoden, Éowyn, and Éomer gain +10% to attack damage, health, armor, and power regeneration when near Théodred \n Passive ability"
+"Required: Rank 3 \n Thï¿½oden, ï¿½owyn, and ï¿½omer gain +10% to attack damage, health, armor, and power regeneration when near Thï¿½odred \n Passive ability"
 END
 
 CONTROLBAR:RohanTheodredHeal
@@ -855,15 +863,23 @@ CONTROLBAR:RohanTheodredHeal
 END
 
 CONTROLBAR:TooltipRohanTheodredHeal
-"Required: Rank 9 \n Théodred regains 75% of his maximum health"
+"Required: Rank 9 \n Thï¿½odred regains 75% of his maximum health"
+END
+
+CONTROLBAR:TheodredLuckOfBattle
+"&Luck of Battle"
+END
+
+CONTROLBAR:ToolTipSpecialAbilityTheodredLuckOfBattle
+"Requires Level 7 \n Thï¿½odred equips his helmet, gains +33% armor \n When activated, Thï¿½odred temporarily avoids all ranged damage \n Left click to activate"
 END
 
 CONTROLBAR:RohanTheodredRevive
-"Revive the fallen Hero, Théodred"
+"Revive the fallen Hero, Thï¿½odred"
 END
 
 CONTROLBAR:RohanTheodredHotKey
-"Théo&dred"
+"Thï¿½o&dred"
 END
 
 OBJECT:RohanRadagast
@@ -1027,7 +1043,7 @@ CONTROLBAR:SpecialAbilityStriderBlademaster
 END
 
 CONTROLBAR:ToolTipSpecialAbilityAragornRohanBladeMaster
-"Aragorn unleashes the power of the Dúnedain \n +50% Damage, +50% Armor \n left click to activate""
+"Aragorn unleashes the power of the Dï¿½nedain \n +50% Damage, +50% Armor \n left click to activate""
 END
 
 CONTROLBAR:AragornRohanLeadership
@@ -1071,11 +1087,11 @@ CONTROLBAR:ToolTipLegolasWhiteKnives
 END
 
 CONTROLBAR:LegolasLorienArrows
-"Arrows of Lot&hlórien"
+"Arrows of Lot&hlï¿½rien"
 END
 
 CONTROLBAR:ToolTipLegolasLorienArrows
-"Legolas sends off devastating volley of Lórien arrows \n left click then right click on target"
+"Legolas sends off devastating volley of Lï¿½rien arrows \n left click then right click on target"
 END
 
 CONTROLBAR:SpecialAbilityGimliHunter
@@ -1087,7 +1103,7 @@ CONTROLBAR:ToolTipSpecialAbilityGimliHunter
 END
 
 CONTROLBAR:GimliKhazadAiMenu
-"&Khazâd ai-mênu!"
+"&Khazï¿½d ai-mï¿½nu!"
 END
 
 CONTROLBAR:ToolTipGimliKhazad
@@ -1123,7 +1139,7 @@ CONTROLBAR:StandGround
 END
 
 CONTROLBAR:ToolTipStandGround
-"Required: Rank 8 \n Éomer and nearby troops gain +100% armor and +25% health \n Left click to activate"
+"Required: Rank 8 \n ï¿½omer and nearby troops gain +100% armor and +25% health \n Left click to activate"
 END
 
 CONTROLBAR:EomerMarshalLeadership
@@ -1147,7 +1163,7 @@ CONTROLBAR:TheodenRally
 END
 
 CONTROLBAR:TooltipTheodenRally
-"Required: Rank 3 \n Théoden calls upon two battalions of Royal Guard \n Left click to activate"
+"Required: Rank 3 \n Thï¿½oden calls upon two battalions of Royal Guard \n Left click to activate"
 END
 
 CONTROLBAR:TheodenArmor
@@ -1155,7 +1171,7 @@ CONTROLBAR:TheodenArmor
 END
 
 CONTROLBAR:ToolTipTheodenArmor
-"Required: Rank 3 \n Théoden dons his war armor \n Passive ability"
+"Required: Rank 3 \n Thï¿½oden dons his war armor \n Passive ability"
 END
 
 CONTROLBAR:TheodenLeadership
@@ -1199,11 +1215,11 @@ OBJECT:MordorWitchKing
 End
 
 CONTROLBAR:MordorWitchKingRecruit
-"Hero Unit. Recruit the Lord of the Nazgúl. \n \n 'Send forth all legions. Do not stop the attack until the city is taken. Slay them all.'"
+"Hero Unit. Recruit the Lord of the Nazgï¿½l. \n \n 'Send forth all legions. Do not stop the attack until the city is taken. Slay them all.'"
 END
 
 CONTROLBAR:MordorWitchKingRevive
-"Revive the Lord of the Nazgúl."
+"Revive the Lord of the Nazgï¿½l."
 END
 
 CONTROLBAR:MordorWitchKingHotkey
@@ -1255,7 +1271,7 @@ OBJECT:MordorWight
 End
 
 OBJECT:MordorKhamul
-"Khamûl"
+"Khamï¿½l"
 End
 
 CONTROLBAR:MordorKhamulRecruit
@@ -1283,7 +1299,7 @@ CONTROLBAR:KhamulArmor
 END
 
 CONTROLBAR:ToolTipKhamulArmor
-"Required: Rank 5 \n Khamûl is equipped with his heavy armor \n Nearby enemy units lose -5% of all stats \n Passive ability"
+"Required: Rank 5 \n Khamï¿½l is equipped with his heavy armor \n Nearby enemy units lose -5% of all stats \n Passive ability"
 END
 
 CONTROLBAR:RelentlessPursuit
@@ -1295,7 +1311,7 @@ CONTROLBAR:ToolTipRelentlessPursuit
 END
 
 OBJECT:MordorUvatha
-"Ûvatha"
+"ï¿½vatha"
 End
 
 CONTROLBAR:MordorUvathaRecruit
@@ -1323,7 +1339,7 @@ CONTROLBAR:UvathaArmor
 END
 
 CONTROLBAR:ToolTipUvathaArmor
-"Required: Rank 5 \n Ûvatha is equipped with his heavy armor \n Nearby enemy units lose -5% of all stats \n Passive ability"
+"Required: Rank 5 \n ï¿½vatha is equipped with his heavy armor \n Nearby enemy units lose -5% of all stats \n Passive ability"
 END
 
 OBJECT:MordorMouth
@@ -1331,7 +1347,7 @@ OBJECT:MordorMouth
 End
 
 CONTROLBAR:MordorMouthRecruit
-"Hero Unit. Recruit the Black Númenorean Emissary of Sauron. \n \n 'Surety you crave! Sauron gives none. If you sue for his clemency then you must do his bidding.'"
+"Hero Unit. Recruit the Black Nï¿½menorean Emissary of Sauron. \n \n 'Surety you crave! Sauron gives none. If you sue for his clemency then you must do his bidding.'"
 END
 
 CONTROLBAR:MordorMouthRevive
@@ -1419,7 +1435,7 @@ CONTROLBAR:SauronConflagaration
 END
 
 CONTROLBAR:ToolTipSauronConflagaration
-"Destroy enemy hero \n (only deals 25% of total damage to Dúrin's Bane, Gandalf the White, Saruman, Elessar, and Radagast)"
+"Destroy enemy hero \n (only deals 25% of total damage to Dï¿½rin's Bane, Gandalf the White, Saruman, Elessar, and Radagast)"
 END
 
 CONTROLBAR:SauronDominate
@@ -1599,7 +1615,7 @@ OBJECT:HordeMordorUruk
 END
 
 CONTROLBAR:ToolTipBuildMordorUrukHorde
-"Strong vs. Archers \n Weak vs. Cavalry, Monsters, Heroes \n \n The Black Uruks of Barad-dûr are the elite of Sauron's orc armies, first bred by him to devastate the Gondorian province of Ithilien."
+"Strong vs. Archers \n Weak vs. Cavalry, Monsters, Heroes \n \n The Black Uruks of Barad-dï¿½r are the elite of Sauron's orc armies, first bred by him to devastate the Gondorian province of Ithilien."
 END
 
 CONTROLBAR:ConstructMordorUrukHorde
@@ -1631,7 +1647,7 @@ CONTROLBAR:ToolTipRohanGuardTower
 END
 
 CONTROLBAR:ConstructRohanGuardTower
-"Build Rohan Guard &Tower"
+"Build Rohan &Guard Tower"
 END
 
 CONTROLBAR:ToolTipBuildRohanGuardTower
@@ -1814,7 +1830,7 @@ CONTROLBAR:SummonGoblinHordes
 "Bolg's Bod&yguards"
 END
 CONTROLBAR:ToolTipSummonGoblinHordes
-"Required: Rank 8 \n Summon two hordes of Gundabad bodyguards to Bolg’s side. \n Left click to activate"
+"Required: Rank 8 \n Summon two hordes of Gundabad bodyguards to Bolgï¿½s side. \n Left click to activate"
 END
 
 
@@ -1829,7 +1845,7 @@ CONTROLBAR:GundabadLugDreadfangsCall
 "&Dreadfang's Call"
 END
 CONTROLBAR:TooltipGundabadLugDreadfangsCall
-"Required: Rank 3 \n Lug’s Warg howls, freezing the blood of the enemy and stunning them for a short time. \n left click to activate"
+"Required: Rank 3 \n Lugï¿½s Warg howls, freezing the blood of the enemy and stunning them for a short time. \n left click to activate"
 END
 
 CONTROLBAR:GundabadLugScentOfBlood
@@ -1889,10 +1905,10 @@ CONTROLBAR:ToolTipSummonGiantBats
 END
 
 CONTROLBAR:DurinsBane
-"Dúrin's Bane"
+"Dï¿½rin's Bane"
 END
 CONTROLBAR:ToolTipDurinsBane
-"Unlocks Dúrin's Bane \n Recruit a Balrog of Morgoth from the Citadel"
+"Unlocks Dï¿½rin's Bane \n Recruit a Balrog of Morgoth from the Citadel"
 END
 
 ;=================================HEROES==========================
@@ -1927,16 +1943,16 @@ CONTROLBAR:GundabadLugHotkey
 END
 
 OBJECT:DurinsBane
-"Dúrin's Bane"
+"Dï¿½rin's Bane"
 END
 CONTROLBAR:DurinsBaneHotkey
-"&Dúrin's Bane"
+"&Dï¿½rin's Bane"
 END
 CONTROLBAR:DurinsBaneRecruit
-"Required: Dúrin's Bane \n Hero Unit. Recruit a Balrog of Morgoth"
+"Required: Dï¿½rin's Bane \n Hero Unit. Recruit a Balrog of Morgoth"
 END
 TOOLTIP:ToolTipLackDurinsBaneSpellbook
-"Required: Dúrin's Bane \n Hero Unit. Recruit a Balrog of Morgoth"
+"Required: Dï¿½rin's Bane \n Hero Unit. Recruit a Balrog of Morgoth"
 END
 
 ;=================================UNITS==========================
@@ -2469,7 +2485,7 @@ Map:MAPMPWoodyEnd
 END
 
 Map:MAPMPWoodyEnd/Desc
-"A forested land west of the Shire. Frodo, Sam and Pippin hid from one of the Nazgûl on their way to Bree in this region. \n Credits: Kobrakai \n Number of Players: 2 \n Starting Positions: Camps \n Expansion Points: 2 \n Settlements: 8"
+"A forested land west of the Shire. Frodo, Sam and Pippin hid from one of the Nazgï¿½l on their way to Bree in this region. \n Credits: Kobrakai \n Number of Players: 2 \n Starting Positions: Camps \n Expansion Points: 2 \n Settlements: 8"
 END
 
 ;================================================== Vanilla Misc  ============================================
@@ -2576,11 +2592,11 @@ CONTROLBAR:SummonFellBeast
 "Wraiths on Wings"
 END
 CONTROLBAR:ToolTipSummonFellBeast
-"Summons three Nazgûl riding Fell Beasts \n Left click then right click on target"
+"Summons three Nazgï¿½l riding Fell Beasts \n Left click then right click on target"
 END
 
 CONTROLBAR:SauronDescription
-"Hero Unit. Recruit the Lord of the Rings himself  \n \n 'Ash nazg durbatulûk, ash nazg gimbatul \n Ash nazg thrakatulûk agh burzum-ishi krimpatul.'""
+"Hero Unit. Recruit the Lord of the Rings himself  \n \n 'Ash nazg durbatulï¿½k, ash nazg gimbatul \n Ash nazg thrakatulï¿½k agh burzum-ishi krimpatul.'""
 END
 
 CONTROLBAR:Sauron
@@ -2592,7 +2608,7 @@ CONTROLBAR:ToolTipSauron
 END
 
 TOOLTIP:ToolTipLackSauron
-"Required: The Dark Lord \n Hero Unit. Recruit the Lord of the Rings. \n \n 'Ash nazg durbatulûk, ash nazg gimbatul \n Ash nazg thrakatulûk agh burzum-ishi krimpatul.'"
+"Required: The Dark Lord \n Hero Unit. Recruit the Lord of the Rings. \n \n 'Ash nazg durbatulï¿½k, ash nazg gimbatul \n Ash nazg thrakatulï¿½k agh burzum-ishi krimpatul.'"
 END
 
 CONTROLBAR:Guards
@@ -2616,7 +2632,7 @@ CONTROLBAR:GreyCompany
 END
 
 CONTROLBAR:ToolTipGreyCompany
-"Summons two battalions of Dúnedain Rangers, led by Halbarad \n Left click then right click on target"
+"Summons two battalions of Dï¿½nedain Rangers, led by Halbarad \n Left click then right click on target"
 END
 
 OBJECT:GondorBeacon
@@ -2796,7 +2812,7 @@ CONTROLBAR:ToolTipMorgulDread
 End
 
 OBJECT:IsengardGrima
-"Gríma Wormtongue"
+"Grï¿½ma Wormtongue"
 END
 
 CONTROLBAR:ToolTipBuildIsengardGrima
@@ -2808,7 +2824,7 @@ CONTROLBAR:IsengardGrimaRecruit
 END
 
 CONTROLBAR:IsengardGrimaRevive
-"Revive Gríma Wormtongue."
+"Revive Grï¿½ma Wormtongue."
 END
 
 CONTROLBAR:IsengardGrimaHotkey
@@ -3905,7 +3921,7 @@ GUI:Beacon
 END
 
 GUI:EACopyright
-"© 2004 ELECTRONIC ARTS INC. ALL RIGHTS RESERVED."
+"ï¿½ 2004 ELECTRONIC ARTS INC. ALL RIGHTS RESERVED."
 END
 
 GUI:DeleteBeacon
@@ -9248,6 +9264,14 @@ CONTROLBAR:ToolTipToggleTowerGuardShieldWallToLineFormation
 "No bonus"
 END
 
+CONTROLBAR:ToolTipToggleKingsguardLineToShieldWallFormation
+"+40% Armor, -50% Speed"
+END
+
+CONTROLBAR:ToolTipToggleKingsguardShieldWallToLineFormation
+"No bonus"
+END
+
 CONTROLBAR:RevealArea
 "Reveal area"
 END
@@ -9985,7 +10009,7 @@ OBJECT:RohanElvenWarrior
 END
 
 OBJECT:RohanEomer
-"Éomer"
+"ï¿½omer"
 END
 
 OBJECT:RohanGamling
@@ -9997,7 +10021,7 @@ OBJECT:RohanBanner
 END
 
 OBJECT:RohanEomerCavalry
-"Éomer"
+"ï¿½omer"
 END
 
 OBJECT:RohanEowyn
@@ -11909,11 +11933,11 @@ SCRIPT:SPSGOODAnorien
 END
 
 SCRIPT:SPSGOODMouthsOfEntwash
-"A Nazgûl has been sighted in this region."
+"A Nazgï¿½l has been sighted in this region."
 END
 
 SCRIPT:SPSGOODSouthernIthilien
-"Beware the Nazgûl leading forces of Mordor here."
+"Beware the Nazgï¿½l leading forces of Mordor here."
 END
 
 SCRIPT:SPSGOODNearHarad
@@ -11925,7 +11949,7 @@ SCRIPT:SPSGOODEmynArnen
 END
 
 SCRIPT:SPSGOODRhun
-"Destroy the forces of Rhûn."
+"Destroy the forces of Rhï¿½n."
 END
 
 SCRIPT:SPSGOODMirkwood
@@ -12317,11 +12341,11 @@ SCRIPT:MGHDIsengardEntryDisplayTimer
 END
 
 SCRIPT:MGHDEomerDisplayTimer
-"Éomer's Rohirrim Arrive In:"
+"ï¿½omer's Rohirrim Arrive In:"
 END
 
 SCRIPT:MGHDReinforcementBannter
-"Éomer and his Rohirrim are ready."
+"ï¿½omer and his Rohirrim are ready."
 END
 
 SCRIPT:MGHDCloseMainGateWarning
@@ -12349,7 +12373,7 @@ SCRIPT:MGHDIsengardArrives01
 END
 
 SCRIPT:MGHDEomerArrives
-"Éomer's Eored! The sun dawns on our battle!"
+"ï¿½omer's Eored! The sun dawns on our battle!"
 END
 
 SCRIPT:MGHDRefugee01Arrived
@@ -14157,7 +14181,7 @@ CONTROLBAR:ToolTipBuildGondorRangerHordeForGoodIthilien
 END
 
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde
-"Required: Guards of the White Tree \n Gondor's elite defensive unit \n \n These men are the silent Guards of the White Tree. Their arms and armor, inlaid with Mithril, invoke the memory of lost Númenor. \n Limited to 1"
+"Required: Guards of the White Tree \n Gondor's elite defensive unit \n \n These men are the silent Guards of the White Tree. Their arms and armor, inlaid with Mithril, invoke the memory of lost Nï¿½menor. \n Limited to 1"
 END
 
 CONTROLBAR:ToolTipBuildGondorCitadelGuardHorde
@@ -14437,19 +14461,19 @@ TOOLTIP:RohanFlamingArrows
 END
 
 CONTROLBAR:ToolTipBuildTheoden
-"Hero Unit. The King of Rohan, Théoden"
+"Hero Unit. The King of Rohan, Thï¿½oden"
 END
 
 CONTROLBAR:RohanTheodenRecruit
-"Hero Unit. Recruit The King of Rohan, Théoden"
+"Hero Unit. Recruit The King of Rohan, Thï¿½oden"
 END
 
 CONTROLBAR:RohanTheodenRevive
-"Revive the fallen Hero, Théoden"
+"Revive the fallen Hero, Thï¿½oden"
 END
 
 CONTROLBAR:RohanTheodenHotkey
-"&Théoden"
+"&Thï¿½oden"
 END
 
 CONTROLBAR:ToolTipBuildEowyn
@@ -14505,7 +14529,7 @@ CONTROLBAR:RohanEomerRecruit
 END
 
 CONTROLBAR:RohanEomerRevive
-"Revive the fallen Hero, Éomer"
+"Revive the fallen Hero, ï¿½omer"
 END
 
 CONTROLBAR:RohanEomerHotkey
@@ -14581,7 +14605,7 @@ CONTROLBAR:ConstructMordorBannerOrc
 END
 
 CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
-"Build for free \n Strong vs. Archers \n Weak vs. Cavalry, Monsters, Heroes \n \n Ever since Sauron's return to Mordor, his orcs have multiplied and organized into great legions in service to Barad-dûr."
+"Build for free \n Strong vs. Archers \n Weak vs. Cavalry, Monsters, Heroes \n \n Ever since Sauron's return to Mordor, his orcs have multiplied and organized into great legions in service to Barad-dï¿½r."
 END
 
 CONTROLBAR:ToolTipBuildMordorOrcFighterHordeShelobsLair
@@ -14593,7 +14617,7 @@ CONTROLBAR:ToolTipBuildMordorOrcArcherHorde
 END
 
 CONTROLBAR:ToolTipBuildMordorHaradrimHorde
-"Strong vs. Swordsmen \n Weak vs. Archers \n \n Ever since the southern landings of the Númenoreans in the Second Age, the people of Haradwaith have been at odds with the West, eventually pledging their allegiance to Mordor."
+"Strong vs. Swordsmen \n Weak vs. Archers \n \n Ever since the southern landings of the Nï¿½menoreans in the Second Age, the people of Haradwaith have been at odds with the West, eventually pledging their allegiance to Mordor."
 END
 
 CONTROLBAR:ToolTipBuildMordorCorsairHorde
@@ -14601,7 +14625,7 @@ CONTROLBAR:ToolTipBuildMordorCorsairHorde
 END
 
 CONTROLBAR:ToolTipBuildMordorEasterlingHorde
-"Required: Rank 2 Palace \n Strong vs. Cavalry \n Weak vs. Heroes \n \n The Men of Rhûn have a long history of Morgoth-worship. During the late Third Age, they joined with Sauron to make up the core of his armies."
+"Required: Rank 2 Palace \n Strong vs. Cavalry \n Weak vs. Heroes \n \n The Men of Rhï¿½n have a long history of Morgoth-worship. During the late Third Age, they joined with Sauron to make up the core of his armies."
 END
 
 CONTROLBAR:ConstructMordorPorter
@@ -14641,11 +14665,11 @@ CONTROLBAR:ToolTipBuildMordorMountainTroll
 END
 
 CONTROLBAR:ToolTipBuildMordorMumakil
-"Strong vs. Infantry, Cavalry, Heroes \n Weak vs. Fire, Siege \n Limited to 4 \n \n The Mûmakil of Harad were tamed and used as beasts of war by the Haradrim, who employed them to devastating effect during the Battle of the Pelennor."
+"Strong vs. Infantry, Cavalry, Heroes \n Weak vs. Fire, Siege \n Limited to 4 \n \n The Mï¿½makil of Harad were tamed and used as beasts of war by the Haradrim, who employed them to devastating effect during the Battle of the Pelennor."
 END
 
 CONTROLBAR:ToolTipBuildMordorSiegeTower
-"Allows infantry units to scale castle walls. \n Limited to 3 \n \n Constructed by Mordor’s slaves using wood, iron and stone, siege towers advance steadily toward enemy fortifications, looking to overwhelm their defenders."
+"Allows infantry units to scale castle walls. \n Limited to 3 \n \n Constructed by Mordorï¿½s slaves using wood, iron and stone, siege towers advance steadily toward enemy fortifications, looking to overwhelm their defenders."
 END
 
 CONTROLBAR:ToolTipBuildMordorCatapult
@@ -15296,6 +15320,14 @@ CONTROLBAR:ToolTipTheodenLeadership
 "Leadership bonus to nearby troops \n +50% Damage, +100% Combat Experience \n Passive ability"
 END
 
+CONTROLBAR:KingsguardLeadership
+"To The King!"
+END
+
+CONTROLBAR:ToolTipKingsguardLeadership
+"Leadership bonus to Kingsguard troops while near King Theoden \n +15% Damage, +15% Armor \n Passive ability"
+END
+
 CONTROLBAR:DwarvenGrudge
 "Dwarven Grudge"
 END
@@ -15369,7 +15401,7 @@ CONTROLBAR:GloriousCharge
 END
 
 CONTROLBAR:ToolTipGloriousCharge
-"Required: Rank 4 \n Théoden and nearby troops +30% damage, +75% armor and don't slow down while crushing \n Theoden must be mounted to use ability \n Left click to activate"
+"Required: Rank 4 \n Thï¿½oden and nearby troops +30% damage, +75% armor and don't slow down while crushing \n Theoden must be mounted to use ability \n Left click to activate"
 END
 
 CONTROLBAR:TheodenMount
@@ -15681,7 +15713,7 @@ CONTROLBAR:ToolTipCaptainofGondor
 END
 
 CONTROLBAR:SpawnGondorRangers
-"Men of &Henneth Annûn"
+"Men of &Henneth Annï¿½n"
 END
 
 CONTROLBAR:ToolTipSpawnGondorRangers
@@ -15802,7 +15834,7 @@ CONTROLBAR:Smite
 END
 
 CONTROLBAR:ToolTipSmite
-"Powerful ranged attack, with extra damage to monsters and Nazguls \n left click then right click on target"
+"Powerful melee attack, Eowyn deals massively increased damage to the Witchking \n left click then right click on target"
 END
 
 CONTROLBAR:EowynLeadership
@@ -18518,7 +18550,7 @@ LWA:OathbreakersArmy
 END
 
 LWA:EasterlingsArmy
-"Soldiers of Rhûn Army"
+"Soldiers of Rhï¿½n Army"
 END
 
 LWA:HaradrimArmy
@@ -19510,7 +19542,7 @@ LWA:Oathbreakers
 END
 
 LWA:Easterlings
-"Soldiers of Rhûn"
+"Soldiers of Rhï¿½n"
 END
 
 LWA:Haradrim
@@ -19638,7 +19670,7 @@ SUBTITLE:opening_13
 END
 
 SUBTITLE:opening_14
-"*– to destroy the Free Peoples of Middle-Earth."
+"*ï¿½ to destroy the Free Peoples of Middle-Earth."
 END
 
 SUBTITLE:opening_15
@@ -23990,11 +24022,11 @@ DIALOGEVENT:MGAmonH_Frod061subtitle
 END
 
 DIALOGEVENT:MGAmonH_Frod062subtitle
-"*We are hobbits of the Shire. Frodo Baggins is my name and this is Samwise Gamgee. "
+"*We are hobbits of the Shire. Frodo Baggins is my name and this is Samwise Gamgee.ï¿½"
 END
 
 DIALOGEVENT:MGAmonH_Frod063subtitle
-"*The ring is taking me, Sam. If I put it on He'll find me. He'll see. "
+"*The ring is taking me, Sam. If I put it on He'll find me. He'll see.ï¿½"
 END
 
 DIALOGEVENT:MGAmonH_Gand001subtitle
@@ -25262,7 +25294,7 @@ DIALOGEVENT:MGFango_Yeom011subtitle
 END
 
 DIALOGEVENT:MGHelms_Arag001subtitle
-"*Welcome!  What word from the Elves?"
+"*Welcome!ï¿½ What word from the Elves?"
 END
 
 DIALOGEVENT:MGHelms_Arag002subtitle
@@ -25398,7 +25430,7 @@ DIALOGEVENT:MGHelms_ElvO001subtitle
 END
 
 DIALOGEVENT:MGHelms_ElvO002subtitle
-"*Long ago Elves and Men held alliance against darkness.  We come to honor that allegiance."
+"*Long ago Elves and Men held alliance against darkness.ï¿½ We come to honor that allegiance."
 END
 
 DIALOGEVENT:MGHelms_ElvO003subtitle
@@ -25414,7 +25446,7 @@ DIALOGEVENT:MGHelms_ElvO005subtitle
 END
 
 DIALOGEVENT:MGHelms_ElvO006subtitle
-"*Swords!  Swords!  Drive back these foul creatures!"
+"*Swords!ï¿½ Swords!ï¿½ Drive back these foul creatures!"
 END
 
 DIALOGEVENT:MGHelms_Eome001subtitle
@@ -25698,11 +25730,11 @@ DIALOGEVENT:MGHelms_Lego029subtitle
 END
 
 DIALOGEVENT:MGHelms_Lego030subtitle
-"*Send for the king.  My kinsmen come."
+"*Send for the king.ï¿½ My kinsmen come."
 END
 
 DIALOGEVENT:MGHelms_Lego031subtitle
-"*Elves come.  Open the gates and send for the king."
+"*Elves come.ï¿½ Open the gates and send for the king."
 END
 
 DIALOGEVENT:MGHelms_Peam001subtitle
@@ -26182,11 +26214,11 @@ DIALOGEVENT:MGIseng_Lurt018subtitle
 END
 
 DIALOGEVENT:MGIseng_Merr001subtitle
-"*Treebeard, we have to destroy Isengard.  It's the only way to help our friends. "
+"*Treebeard, we have to destroy Isengard.ï¿½ It's the only way to help our friends.ï¿½"
 END
 
 DIALOGEVENT:MGIseng_Merr002subtitle
-"*Treebeard, careful of the tower.  It is enchanted with the dark magic of Saruman."
+"*Treebeard, careful of the tower.ï¿½ It is enchanted with the dark magic of Saruman."
 END
 
 DIALOGEVENT:MGIseng_Merr003subtitle
@@ -26246,7 +26278,7 @@ DIALOGEVENT:MGIseng_Merr016subtitle
 END
 
 DIALOGEVENT:MGIseng_Merr017subtitle
-"*We're coming, Saruman! Better watch out!"
+"*We're coming, Saruman!ï¿½Better watch out!"
 END
 
 DIALOGEVENT:MGIseng_Merr018subtitle
@@ -27706,7 +27738,7 @@ DIALOGEVENT:MGMinas_GonS047subtitle
 END
 
 DIALOGEVENT:MGMinas_GonS048subtitle
-"*Trolls! "
+"*Trolls!ï¿½"
 END
 
 DIALOGEVENT:MGMinas_GonS049subtitle
@@ -28226,7 +28258,7 @@ DIALOGEVENT:MGMinas_Witc001subtitle
 END
 
 DIALOGEVENT:MGMinas_Witc002subtitle
-"*Do not come between a Nazgûl and his prey."
+"*Do not come between a Nazgï¿½l and his prey."
 END
 
 DIALOGEVENT:MGMinas_Witc003subtitle
@@ -29526,7 +29558,7 @@ DIALOGEVENT:MGShelo_Goll012subtitle
 END
 
 DIALOGEVENT:MGShelo_Goll013subtitle
-"*Good Sméagol always helps."
+"*Good Smï¿½agol always helps."
 END
 
 DIALOGEVENT:MGShelo_Goll014subtitle
@@ -29930,7 +29962,7 @@ DIALOGEVENT:MGShelo_Sam042subtitle
 END
 
 DIALOGEVENT:MGShelo_Sam043subtitle
-"*That tower.  That must be where they're keeping Mr. Frodo."
+"*That tower.ï¿½ That must be where they're keeping Mr. Frodo."
 END
 
 DIALOGEVENT:MGShelo_Sam044subtitle
@@ -30746,7 +30778,7 @@ DIALOGEVENT:MGShelo_GonO033subtitle
 END
 
 DIALOGEVENT:MGShelo_GonO034subtitle
-"*We need more resources.  We should look for more treasure back in the caves"
+"*We need more resources.ï¿½ We should look for more treasure back in the caves"
 END
 
 DIALOGEVENT:MGShelo_Knig001subtitle
@@ -31210,7 +31242,7 @@ SUBTITLE:MTutori_GonO059
 END
 
 SUBTITLE:MTutori_GonO060
-"*Attacking walls and gates works the same way…"
+"*Attacking walls and gates works the same wayï¿½"
 END
 
 SUBTITLE:MTutori_GonO060b
@@ -31318,7 +31350,7 @@ SUBTITLE:MTutori_GonO078
 END
 
 SUBTITLE:MTutori_GonO079
-"*Some Heroes have passive abilities that do not need to be clicked, such as Aragorn’s leadership ability."
+"*Some Heroes have passive abilities that do not need to be clicked, such as Aragornï¿½s leadership ability."
 END
 
 SUBTITLE:MTutori_GonO080
@@ -31514,7 +31546,7 @@ SUBTITLE:MTutori_GonO119
 END
 
 SUBTITLE:MTutori_GonO120
-"*These troops will “carry over” into subsequent missions."
+"*These troops will ï¿½carry overï¿½ into subsequent missions."
 END
 
 SUBTITLE:MTutori_GonO121
@@ -31534,7 +31566,7 @@ SUBTITLE:MTutori_GonO123b
 END
 
 SUBTITLE:MTutori_GonO124
-"*To change a unit’s formation, left click on the formation button."
+"*To change a unitï¿½s formation, left click on the formation button."
 END
 
 SUBTITLE:MTutori_GonO125
@@ -32322,7 +32354,7 @@ DIALOGEVENT:MEWorld_LebInt2subtitle
 END
 
 DIALOGEVENT:MEWorld_HarInt1subtitle
-"*Harlond is the port of Minas Tirith. Its destruction will choke the flow of resources into the White City."
+"*Harlond is the port of Minas Tirith.ï¿½Its destruction will choke the flow of resources into the White City."
 END
 
 DIALOGEVENT:MEWorld_HarInt2subtitle
