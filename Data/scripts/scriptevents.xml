@@ -544,10 +544,10 @@
 		<EventHandler EventName="User1Lost" ScriptFunctionName="OnFireSpecialStop"  DebugSingleStep="false"/>
     </EventList> 
 	
-	<EventList Name="GondorArcherHordeFunctions" Inherit="ArcherFunctions">
+	<EventList Name="GondorArcherHordeFunctions" Inherit="GondorArcherFunctions">
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnGondorArcherCreated" DebugSingleStep="false"/>
-		<EventHandler EventName="User1Achieved"	ScriptFunctionName="OnFireSpecialActivation"  DebugSingleStep="false"/>
-		<EventHandler EventName="User1Lost" ScriptFunctionName="OnFireSpecialStop"  DebugSingleStep="false"/>
+        <EventHandler EventName="WeaponlockActivated"	ScriptFunctionName="HordeFireArrowActivationHook"  DebugSingleStep="false"/>
+		<EventHandler EventName="WeaponlockDeactivated" ScriptFunctionName="HordeFireArrowDeactivationHook"  DebugSingleStep="false"/>
     </EventList>
 	
 	<EventList Name="MordorArcherFunctions" Inherit="InfantryFunctions">
