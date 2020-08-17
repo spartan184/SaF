@@ -494,8 +494,8 @@
 	
 	<EventList Name="GundabadArcherHordeFunctions" Inherit="SaFInfantryFunctions">
         <EventHandler EventName="OnCreated"			ScriptFunctionName="OnGundabadArcherCreated" DebugSingleStep="false"/>
-		<EventHandler EventName="User1Achieved"	ScriptFunctionName="OnFireSpecialActivation"  DebugSingleStep="false"/>
-		<EventHandler EventName="User1Lost" ScriptFunctionName="OnFireSpecialStop"  DebugSingleStep="false"/>
+		<EventHandler EventName="WeaponlockActivated"	ScriptFunctionName="HordeFireArrowActivationHook"  DebugSingleStep="false"/>
+		<EventHandler EventName="WeaponlockDeactivated" ScriptFunctionName="HordeFireArrowDeactivationHook"  DebugSingleStep="false"/>
     </EventList>
 	
 	<EventList Name="IthilienRangerFunctions" Inherit="ArcherFunctions">
