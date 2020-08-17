@@ -1544,28 +1544,100 @@ function OnMountainOrcCreated(self)
 end
 
 function OnGundabadArcherCreated(self)
-    ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
-    ObjectHideSubObjectPermanently( self, "PAULDRON", true )
-    
-    -- hide all cloths, but really, this stuff is obsolete
-    ObjectHideSubObjectPermanently( self, "CLOTHHOOD1", true )
-    ObjectHideSubObjectPermanently( self, "CLOTHHOOD2", true )
-    ObjectHideSubObjectPermanently( self, "CLOTHHOOD3", true )
-    ObjectHideSubObjectPermanently( self, "CLOTHHOOD4", true )
-    
-    -- define the locals as random numbers
-    local head                 =    GetRandomNumber()
-    
-    if head <= 0.165 then
-        ObjectHideSubObjectPermanently( self, "CLOTHHOOD1", false )
-    elseif head <= 0.33 then
-        ObjectHideSubObjectPermanently( self, "CLOTHHOOD2", false )
-    elseif head <= 0.495 then
-        ObjectHideSubObjectPermanently( self, "CLOTHHOOD3", false )
-    elseif head <= 0.66 then
-        ObjectHideSubObjectPermanently( self, "CLOTHHOOD4", false )
-    else
-        -- do nothing
+    ObjectHideSubObjectPermanently( self, "BEARD01", true )
+    ObjectHideSubObjectPermanently( self, "BEARD02", true )
+    ObjectHideSubObjectPermanently( self, "BEARD03", true )
+    ObjectHideSubObjectPermanently( self, "BEARD04", true )
+	
+    ObjectHideSubObjectPermanently( self, "HAIR01", true )
+    ObjectHideSubObjectPermanently( self, "HAIR02", true )
+    ObjectHideSubObjectPermanently( self, "HAIR03", true )
+	
+    ObjectHideSubObjectPermanently( self, "FUR_L", true )
+    ObjectHideSubObjectPermanently( self, "FUR_R", true )
+	
+    ObjectHideSubObjectPermanently( self, "HEAD01", true )
+    ObjectHideSubObjectPermanently( self, "HEAD02", true )
+    ObjectHideSubObjectPermanently( self, "HEAD03", true )
+	
+    ObjectHideSubObjectPermanently( self, "CHIPS", true )
+    ObjectHideSubObjectPermanently( self, "BODY01", true )
+    ObjectHideSubObjectPermanently( self, "BODY02", true )
+	
+    ObjectHideSubObjectPermanently( self, "HELMET01", true )
+    ObjectHideSubObjectPermanently( self, "HELMET02", true )
+    ObjectHideSubObjectPermanently( self, "HELMET03", true )
+
+    ObjectHideSubObjectPermanently( self, "FORGED_BLADE", true )
+    ObjectHideSubObjectPermanently( self, "FireArowTip", true )
+
+    local helmet         =    GetRandomNumber()
+    local hair         =    GetRandomNumber()
+    local fur         =    GetRandomNumber()
+    local beard         =    GetRandomNumber()
+    local head         =    GetRandomNumber()
+    local armor          =    GetRandomNumber()
+    local chips          =    GetRandomNumber()
+
+    if fur <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "FUR_L", false )
+    elseif fur <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "FUR_R", false )
+    elseif fur <= 0.8 then
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+     else
+        ObjectHideSubObjectPermanently( self, "FUR_L", false )
+        ObjectHideSubObjectPermanently( self, "FUR_R", false )
+    end 
+	
+    if hair <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "HAIR01", false )
+    elseif hair <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HAIR02", false )
+    elseif hair <= 0.8 then
+        ObjectHideSubObjectPermanently( self, "HAIR03", false )
+     else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end 
+	
+    if helmet <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "HELMET01", false )
+    elseif helmet <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HELMET02", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HELMET03", false )
+    end 
+	
+    if head <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "HEAD01", false )
+    elseif head <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HEAD02", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HEAD03", false )
+    end 
+	
+    if armor <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "CHIPS", false )
+     else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end 
+	
+    if chips <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "BODY01", false )
+     else
+        ObjectHideSubObjectPermanently( self, "BODY02", false )
+    end 
+
+    if beard <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "BEARD01", false )
+    elseif beard <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "BEARD02", false )
+    elseif beard <= 0.8 then
+        ObjectHideSubObjectPermanently( self, "BEARD03", false )
+    elseif beard <= 0.8 then
+        ObjectHideSubObjectPermanently( self, "BEARD04", false )
+     else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
     end
 end
 
