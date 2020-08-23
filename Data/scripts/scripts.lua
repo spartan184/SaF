@@ -1,4 +1,21 @@
 -- define lua functions
+function GundabadWargRiderCreated(self)
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	ObjectHideSubObjectPermanently( self, "HELMET01", true )
+	ObjectHideSubObjectPermanently( self, "HELMET02", true )
+	ObjectHideSubObjectPermanently( self, "HELMET03", true )
+	
+    local helmet          =    GetRandomNumber()	
+
+	if helmet <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "HELMET01", false )
+    elseif helmet <= 0.7 then
+        ObjectHideSubObjectPermanently( self, "HELMET02", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HELMET03", false )
+    end
+end
+
 function OnGoblinArcherCreated(self)
 	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
 	ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
@@ -1979,9 +1996,13 @@ function OnTrollCreated(self)
     ObjectHideSubObjectPermanently( self, "Trunk01", true )
 end
 
-function OnSnowTrollCreated(self)
-    ObjectHideSubObjectPermanently( self, "GAUNTLETS", true )
-    ObjectHideSubObjectPermanently( self, "HELM", true )
+function OnGundabadTrollCreated(self)
+	ObjectHideSubObjectPermanently( self, "CLUB", true )
+	ObjectHideSubObjectPermanently( self, "HELMET", true )
+	ObjectHideSubObjectPermanently( self, "SCYTHES", true )
+	ObjectHideSubObjectPermanently( self, "ARMOR", true )
+	ObjectHideSubObjectPermanently( self, "PAULDRONS", true )
+	-- ObjectGrantUpgrade( self, "Upgrade_SwitchToRockThrowing" )
 end
 
 function OnEntCreated(self)
