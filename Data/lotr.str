@@ -2028,15 +2028,15 @@ OBJECT:GundabadWhiteWolf
 END
 
 OBJECT:GundabadSnowTroll
-"Gundabad Snow Troll"
+"Stone-troll Monstrosity"
 END
 
 OBJECT:GundabadHillTroll
-"Gundabad Hill Troll"
+"Snow-troll Stalker"
 END
 
 OBJECT:HordeHillTroll
-"Hill Troll Horde"
+"Snow-troll Stalkers"
 END
 
 OBJECT:GundabadGiantBat
@@ -2070,35 +2070,35 @@ CONTROLBAR:ConstructGundabadOrcHorde
 "Gundabad Mountain &Orcs"
 END
 CONTROLBAR:ToolTipBuildGundabadOrcHorde
-"Strong vs. spearmen, swordsmen \n Weak vs. archers, cavalry"
+"Strong vs. spearmen, swordsmen \n Weak vs. archers, cavalry \n \n Hardened through generations of war and weather, these Mountain-orcs were finally united under one banner by Azog the Defiler."
 END
 
 CONTROLBAR:ConstructGundabadOrcPikeHorde
 "Gundabad Mountain Orc &Pikemen"
 END
 CONTROLBAR:ToolTipBuildGundabadOrcPikeHorde
-"Required: Rank 2 Gundabad Lodge \n Strong vs. cavalry, archers \n Weak vs. swordsmen"
+"Required: Rank 2 Gundabad Lodge \n Strong vs. cavalry, archers \n Weak vs. swordsmen \n \n Tasked with guarding the cold valleys and foothills of Orc-held territory, these pikemen have been known to ambush Elven scouting parties."
 END
 
 CONTROLBAR:ConstructGundabadOrcArcherHorde
 "Gundabad Orc A&rchers"
 END
 CONTROLBAR:ToolTipBuildGundabadOrcArcherHorde
-"Strong vs. Pikemen, Monsters \n Weak vs. Swordsmen, Heroes"
+"Strong vs. Pikemen, Monsters \n Weak vs. Swordsmen, Heroes \n \n Feared throughout Eriador, these Mountain-orc manhunters have a reputation for being cruel and ruthless in tracking down their quarry."
 END
 
 CONTROLBAR:ConstructGundabadSwarmHorde
-"Gundabad &Goblin Swarm"
+"&Moria Orc Swarm"
 END
 CONTROLBAR:ToolTipConstructGundabadSwarmHorde
 "Required: Drums in the Deep \n Fast-moving infantry, very weak in small numbers \n Strong vs. archers, spearmen \n Weak vs. swordsmen, cavalry"
 END
 
 CONTROLBAR:SummonGundabadSwarmHorde
-"Gundabad Goblin Swarm"
+"Moria Orc Swarm"
 END
 CONTROLBAR:ToolTipSummonGundabadSwarmHorde
-"Required: Drums in the Deep \n Summons Goblin Swarm \n Respects Command Point Limit \n Left click to activate"
+"Required: Drums in the Deep \n Summons Moria Orc Swarm \n Respects Command Point Limit \n Left click to activate"
 END
 
 CONTROLBAR:ConstructGundabadWolfPack
@@ -2109,17 +2109,17 @@ CONTROLBAR:ToolTipBuildGundabadWolfPack
 END
 
 CONTROLBAR:ConstructGundabadSnowTroll
-"Gundabad &Snow Troll"
+"Stone-troll &Monstrosity"
 END
 CONTROLBAR:ToolTipBuildGundabadSnowTroll
-"Required: Rank 2 Troll Cave \n Limited to 5 units \n Strong vs. Infantry, Cavalry, Structures"
+"Required: Rank 2 Troll Cave \n Limited to 5 units \n Strong vs. Infantry, Cavalry, Structures \n \n These Stone-trolls originate from the darkest, most hostile environments in the Misty Mountains. Their hides are tough, their grasping limbs long and powerful, and their cruelty is second to none."
 END
 
 CONTROLBAR:ConstructGundabadHillTrollHorde
-"Gundabad &Hill Trolls"
+"Snow-troll &Stalkers"
 END
 CONTROLBAR:ToolTipBuildGundabadHillTrollHorde
-"Strong vs. Infantry, Cavalry \n Weak vs. Bowmen, Monsters, Heroes"
+"Strong vs. Infantry, Cavalry \n Weak vs. Bowmen, Monsters, Heroes \n \n Snow-trolls are often thought of as a fairy-tale creature in more civilised parts of Middle-earth, but those that dwell in the harsh climate of the northern Misty Mountains and beyond know better. These wicked trolls are lean, deceptively powerful, and possess a great talent for cruelty"
 END
 
 CONTROLBAR:ConstructGundabadDrummerGoblin
@@ -2247,7 +2247,7 @@ CONTROLBAR:ConstructGundabadTrollCave
 "Build a Gundabad Troll &Cave"
 END
 CONTROLBAR:ToolTipGundabadTrollCave
-"Recruits and upgrades Hill-Trolls, Cave-Trolls and Catapults"
+"Recruits the Savage Snow-trolls and Monstrous Stone-troll of Gundabad"
 END
 
 

@@ -622,4 +622,8 @@
     <EventList Name="GundabadWargRiderFunctions" Inherit="CavalryFunctions">
         <EventHandler EventName="OnCreated" ScriptFunctionName="GundabadWargRiderCreated" DebugSingleStep="false"/>
     </EventList>
+
+    <EventList Name="BodyGuardOrcFunctions" Inherit="InfantryFunctions">
+        <EventHandler EventName="OnCreated"                ScriptFunctionName="OnBodyGuardOrcCreated" DebugSingleStep="false"/>
+    </EventList>
 </SageLuaScriptSection>

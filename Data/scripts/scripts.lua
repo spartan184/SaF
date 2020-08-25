@@ -1,4 +1,48 @@
 -- define lua functions
+function OnBodyGuardOrcCreated(self)
+    ObjectHideSubObjectPermanently( self, "HEADS01", true )
+    ObjectHideSubObjectPermanently( self, "HEADS02", true )
+
+    ObjectHideSubObjectPermanently( self, "SHLDR1", true )
+    ObjectHideSubObjectPermanently( self, "SHLDR2", true )
+    ObjectHideSubObjectPermanently( self, "SHLDR3", true )
+    ObjectHideSubObjectPermanently( self, "AXEA", true )
+    ObjectHideSubObjectPermanently( self, "SWORDB", true )
+    ObjectHideSubObjectPermanently( self, "SWORDA", true )
+
+    ObjectHideSubObjectPermanently( self, "FORGED_BLADE", true )
+    ObjectHideSubObjectPermanently( self, "FORGED_BLADES", true )
+    ObjectHideSubObjectPermanently( self, "FireArowTip", true )
+
+    local heads          =    GetRandomNumber()
+    local armor          =    GetRandomNumber()
+    local weapon          =    GetRandomNumber()
+
+    if heads <= 0.500 then
+        ObjectHideSubObjectPermanently( self, "HEADS01", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HEADS02", false )
+    end  
+
+    if armor <= 0.2 then
+        ObjectHideSubObjectPermanently( self, "SHDLR1", false )
+    elseif armor <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "SHDLR2", false )
+	elseif armor <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "SHDLR3", false )
+    else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end
+
+    if weapon <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "SWORDA", false )
+    elseif weapon <= 0.6 then
+        ObjectHideSubObjectPermanently( self, "SWORDB", false )
+    else
+        ObjectHideSubObjectPermanently( self, "AXEA", false )
+    end
+end
+
 function GundabadWargRiderCreated(self)
 	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
 	ObjectHideSubObjectPermanently( self, "HELMET01", true )
