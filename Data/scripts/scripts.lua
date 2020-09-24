@@ -1,4 +1,15 @@
 -- define lua functions
+function OnTrollGenericEvent(self,data)
+
+	local str = tostring( data )
+
+	if str == "show_rock" then
+		ObjectHideSubObjectPermanently( self, "ROCK", false )
+	elseif str == "hide_rock" then
+		ObjectHideSubObjectPermanently( self, "ROCK", true )
+	end
+end
+
 function OnBodyGuardOrcCreated(self)
     ObjectHideSubObjectPermanently( self, "HEADS01", true )
     ObjectHideSubObjectPermanently( self, "HEADS02", true )

@@ -38,6 +38,10 @@
 		
 		<!-- Cinematic Events -->
 		<ScriptedEvent Name="CinematicRampageDamaged" />
+
+        <!-- New Events -->
+
+        <InternalEvent Name="OnGenericEvent" /> <!-- self, string -->
 		
 		<!-- All ModelCondition and ObjectStatus events have a single parameter of self, which is the object matching the conditions. -->
         <ModelConditionEvent Name="OnFire"> <!-- OnFire(self) self is object matching the modelconditions specified. -->
@@ -133,6 +137,7 @@
         <EventHandler EventName="ReallyDamaged"	ScriptFunctionName="GoIntoRampage" DebugSingleStep="false"/>
         <EventHandler EventName="OnCreated" ScriptFunctionName="OnGundabadTrollCreated" DebugSingleStep="false"/>
 		<EventHandler EventName="BeTerrified" ScriptFunctionName="BecomeTerrified" DebugSingleStep="false"/>
+        <EventHandler EventName="OnGenericEvent" ScriptFunctionName="OnTrollGenericEvent" DebugSingleStep="false"/>
     </EventList>
     
     <EventList Name="SauronFunctions" Inherit="BaseScriptFunctions">
