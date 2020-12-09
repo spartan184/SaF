@@ -1139,7 +1139,7 @@ CONTROLBAR:StandGround
 END
 
 CONTROLBAR:ToolTipStandGround
-"Required: Rank 8 \n oomer and nearby troops gain +100% armor and +25% health \n Left click to activate"
+"Required: Rank 8 \n Eomer and nearby troops gain +100% armor and +25% health \n Left click to activate"
 END
 
 CONTROLBAR:EomerMarshalLeadership
