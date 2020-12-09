@@ -266,6 +266,16 @@ function OnFireSpecialStopRanger(self)
     ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
 end
 
+function OnWitchKingCreated(self)
+    ObjectHideSubObjectPermanently( self, "FIRE", true )
+end
+function HourOfDoomActivation(self)
+	ObjectHideSubObjectPermanently( self, "FIRE", false )
+end
+function HourOfDoomStop(self)
+	ObjectHideSubObjectPermanently( self, "FIRE", true )
+end
+
 function EndlessSupplyGrantUpgrades(self)
 	ObjectGrantUpgrade( self, "Upgrade_IsengardForgedBlades" )
 	ObjectGrantUpgrade( self, "Upgrade_IsengardHeavyArmor" )

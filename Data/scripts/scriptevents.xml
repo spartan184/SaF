@@ -258,6 +258,12 @@
 		<EventHandler EventName="BeScary" ScriptFunctionName="RadiateTerror" DebugSingleStep="false"/>
     </EventList>
 
+    <EventList Name="WitchKingFunctions" Inherit="BaseScriptFunctions">
+        <EventHandler EventName="OnCreated"		ScriptFunctionName="OnWitchKingCreated" DebugSingleStep="false"/>
+        <EventHandler EventName="User3Achieved"	ScriptFunctionName="HourOfDoomActivation"  DebugSingleStep="false"/>
+		<EventHandler EventName="User3Lost"     ScriptFunctionName="HourOfDoomStop"  DebugSingleStep="false"/>
+    </EventList>
+
     <EventList Name="ShelobFunctions">
 		<EventHandler EventName="BeAfraidOfPhial"	ScriptFunctionName="ShelobBecomeAfraidOfPhial" DebugSingleStep="false"/>
     </EventList>
