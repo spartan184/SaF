@@ -1263,7 +1263,7 @@ CONTROLBAR:WitchKingDoom
 END
 
 CONTROLBAR:ToolTipWitchKingDoom
-"Requires: Rank 10 \n Enemy units in the radius temporarily lose all leadership"
+"Requires: Rank 10 \n Intial blast in a circular radius \n Bonus for the Witch King \n +50% Armor \n +150% Damage \n Sword is on fire"
 END
 
 OBJECT:MordorWight
