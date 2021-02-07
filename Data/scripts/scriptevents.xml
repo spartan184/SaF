@@ -300,12 +300,12 @@
     </EventList>
 
     <EventList Name="MordorFighter1Functions" Inherit="MordorOrcFunctions">
-		<EventHandler EventName="OnCreated"					ScriptFunctionName="OnMordorFighter1Created" DebugSingleStep="false"/>
+		<EventHandler EventName="OnCreated"					ScriptFunctionName="OnMordorNewFighterCreated" DebugSingleStep="false"/>
         <EventHandler EventName="BeAfraidOfPhial"			ScriptFunctionName="MordorFighterBecomeAfraidOfPhial"			DebugSingleStep="false"/>
         <EventHandler EventName="BeUncontrollablyAfraid"	ScriptFunctionName="MordorFighterBecomeUncontrollablyAfraid"	 DebugSingleStep="false"/>
     </EventList>
 	<EventList Name="MordorFighter2Functions" Inherit="MordorOrcFunctions">
-		<EventHandler EventName="OnCreated"					ScriptFunctionName="OnMordorFighter2Created" DebugSingleStep="false"/>
+		<EventHandler EventName="OnCreated"					ScriptFunctionName="OnMordorNewFighterCreated" DebugSingleStep="false"/>
         <EventHandler EventName="BeAfraidOfPhial"			ScriptFunctionName="MordorFighterBecomeAfraidOfPhial"			DebugSingleStep="false"/>
         <EventHandler EventName="BeUncontrollablyAfraid"	ScriptFunctionName="MordorFighterBecomeUncontrollablyAfraid"	 DebugSingleStep="false"/>
     </EventList>
@@ -523,13 +523,13 @@
     </EventList>
 	
 	<EventList Name="MordorHaradrimFunctions" Inherit="SaFInfantryFunctions">
-        <EventHandler EventName="OnCreated"			ScriptFunctionName="OnMordorHaradrimCreated" DebugSingleStep="false"/>
+        <EventHandler EventName="OnCreated"			ScriptFunctionName="OnHaradrimArcherCreated" DebugSingleStep="false"/>
 		<EventHandler EventName="User1Achieved"	ScriptFunctionName="OnFireSpecialActivation"  DebugSingleStep="false"/>
 		<EventHandler EventName="User1Lost" ScriptFunctionName="OnFireSpecialStop"  DebugSingleStep="false"/>
     </EventList>
 	
 	<EventList Name="MordorHaradrimHordeFunctions" Inherit="SaFInfantryFunctions">
-        <EventHandler EventName="OnCreated"			ScriptFunctionName="OnMordorHaradrimCreated" DebugSingleStep="false"/>
+        <EventHandler EventName="OnCreated"			ScriptFunctionName="OnHaradrimArcherCreated" DebugSingleStep="false"/>
 		<EventHandler EventName="User1Achieved"	ScriptFunctionName="OnFireSpecialActivation"  DebugSingleStep="false"/>
 		<EventHandler EventName="User1Lost" ScriptFunctionName="OnFireSpecialStop"  DebugSingleStep="false"/>
     </EventList>

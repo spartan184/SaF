@@ -779,517 +779,564 @@ function OnIsengardSiegeCreated(self)
 end
 
 function OnMordorUrukCreated(self)
-    
-    ObjectHideSubObjectPermanently( self, "HELM", true )
-    
-    ObjectHideSubObjectPermanently( self, "SWORD", true )
-    ObjectHideSubObjectPermanently( self, "MACE", true )
-    
-    local helm    =    GetRandomNumber()
-    local weapon    =    GetRandomNumber()
-
-    if helm <= 0.50 then
-        ObjectHideSubObjectPermanently( self, "HELM", false )
-    else
-        ObjectHideSubObjectPermanently( self, "NOTHING", false )
-    end
-    
-    if weapon <= 0.40 then
-        ObjectHideSubObjectPermanently( self, "MACE", false )
-    else
-        ObjectHideSubObjectPermanently( self, "SWORD", false )
-    end
-
+    ObjectHideSubObjectPermanently( self, "FORGED_BLADE", true )
+	ObjectHideSubObjectPermanently( self, "FORGED_BLADES", true )
 end
 
 function OnMordorArcherCreated(self)
+    ObjectHideSubObjectPermanently( self, "HIPS", true )
+    ObjectHideSubObjectPermanently( self, "GREAVES", true )
     ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
-    
+    ObjectHideSubObjectPermanently( self, "ARROWFIRE", true )  
     -- helmet types
-    ObjectHideSubObjectPermanently( self, "HELM1", true )
-    ObjectHideSubObjectPermanently( self, "HELM2", true )
-    ObjectHideSubObjectPermanently( self, "HELM3", true )
-    ObjectHideSubObjectPermanently( self, "HELM4", true )
-    ObjectHideSubObjectPermanently( self, "HELM5", true )
-    ObjectHideSubObjectPermanently( self, "HELM6", true )
-    ObjectHideSubObjectPermanently( self, "HELM7", true )
-    ObjectHideSubObjectPermanently( self, "HELM8", true )
-    ObjectHideSubObjectPermanently( self, "HELM9", true )
-    ObjectHideSubObjectPermanently( self, "HELM10", true )
-    ObjectHideSubObjectPermanently( self, "HELM11", true )
-    ObjectHideSubObjectPermanently( self, "HELM12", true )
-    ObjectHideSubObjectPermanently( self, "HELM13", true )
-    ObjectHideSubObjectPermanently( self, "HELM14", true )
-    ObjectHideSubObjectPermanently( self, "HELM15", true )
-    ObjectHideSubObjectPermanently( self, "HELM16", true )
-    ObjectHideSubObjectPermanently( self, "HELM17", true )
-    ObjectHideSubObjectPermanently( self, "HELM18", true )
-    ObjectHideSubObjectPermanently( self, "HELM19", true )
-    ObjectHideSubObjectPermanently( self, "HELM20", true )    
-    ObjectHideSubObjectPermanently( self, "HELM21", true )
-    ObjectHideSubObjectPermanently( self, "HELM22", true )
-    ObjectHideSubObjectPermanently( self, "HELM23", true )
-    ObjectHideSubObjectPermanently( self, "HELM24", true )    
-    -- shield types
-    ObjectHideSubObjectPermanently( self, "SHIELD1", true )
-    ObjectHideSubObjectPermanently( self, "SHIELD2", true )
-    ObjectHideSubObjectPermanently( self, "SHIELD3", true )
-    ObjectHideSubObjectPermanently( self, "SHIELD4", true )
-    ObjectHideSubObjectPermanently( self, "SHIELD5", true )
-    ObjectHideSubObjectPermanently( self, "SHIELD6", true )
-    ObjectHideSubObjectPermanently( self, "SHIELD7", true )
-    ObjectHideSubObjectPermanently( self, "SHIELD8", true )
-    -- bow types
-    ObjectHideSubObjectPermanently( self, "BOW1", true )
-    ObjectHideSubObjectPermanently( self, "BOW2", true )
-    ObjectHideSubObjectPermanently( self, "BOW3", true )
+    ObjectHideSubObjectPermanently( self, "HELMET01", true )
+    ObjectHideSubObjectPermanently( self, "HELMET02", true )
+    ObjectHideSubObjectPermanently( self, "HELMET03", true )
+    ObjectHideSubObjectPermanently( self, "HELMET04", true )
+    ObjectHideSubObjectPermanently( self, "HELMET05", true )   
+    ObjectHideSubObjectPermanently( self, "HAIR", true )
+    -- head types
+    ObjectHideSubObjectPermanently( self, "HEAD01", true )
+    ObjectHideSubObjectPermanently( self, "HEAD02", true )
+    ObjectHideSubObjectPermanently( self, "HEAD03", true )
+    ObjectHideSubObjectPermanently( self, "HEAD04", true )
+    -- collar types
+    ObjectHideSubObjectPermanently( self, "COLLARA", true )
+    ObjectHideSubObjectPermanently( self, "COLLARB", true )
+    -- weapon types
+    ObjectHideSubObjectPermanently( self, "BOW01", true )
+    ObjectHideSubObjectPermanently( self, "BOW02", true )
+    -- body types
+    ObjectHideSubObjectPermanently( self, "BODY01", true )
+    ObjectHideSubObjectPermanently( self, "BODY02", true )
+    ObjectHideSubObjectPermanently( self, "BODY03", true )
+    -- leg types
+    ObjectHideSubObjectPermanently( self, "LEGS01", true )
+    ObjectHideSubObjectPermanently( self, "LEGS02", true )
+    -- shoulder types
+    ObjectHideSubObjectPermanently( self, "SHOULDER01", true )
+    ObjectHideSubObjectPermanently( self, "SHOULDER02", true )
+    ObjectHideSubObjectPermanently( self, "SHOULDER03", true )
     
+    -- assign random gear
     local helm = GetRandomNumber()
-    local shield = GetRandomNumber()
+    local head = GetRandomNumber()
+    local collar = GetRandomNumber()
     local bow = GetRandomNumber()
+    local body = GetRandomNumber() 
+    local legs = GetRandomNumber() 
+    local shoulders = GetRandomNumber() 
+    local hips = GetRandomNumber() 
+
     
-    if helm <= 0.04 then
-        ObjectHideSubObjectPermanently( self, "HELM1", false )
-    elseif helm <= 0.08 then
-        ObjectHideSubObjectPermanently( self, "HELM2", false )
-    elseif helm <= 0.12 then
-        ObjectHideSubObjectPermanently( self, "HELM3", false )
-    elseif helm <= 0.17 then
-        ObjectHideSubObjectPermanently( self, "HELM4", false )
-    elseif helm <= 0.21 then
-        ObjectHideSubObjectPermanently( self, "HELM5", false )    
-    elseif helm <= 0.25 then
-        ObjectHideSubObjectPermanently( self, "HELM6", false )    
-    elseif helm <= 0.29 then
-        ObjectHideSubObjectPermanently( self, "HELM7", false )
-    elseif helm <= 0.33 then
-        ObjectHideSubObjectPermanently( self, "HELM8", false )        
-    elseif helm <= 0.38 then
-        ObjectHideSubObjectPermanently( self, "HELM9", false )
-    elseif helm <= 0.42 then
-        ObjectHideSubObjectPermanently( self, "HELM10", false )
-    elseif helm <= 0.46 then
-        ObjectHideSubObjectPermanently( self, "HELM11", false )
-    elseif helm <= 0.5 then
-        ObjectHideSubObjectPermanently( self, "HELM12", false )
-    elseif helm <= 0.54 then
-        ObjectHideSubObjectPermanently( self, "HELM13", false )
-    elseif helm <= 0.58 then
-        ObjectHideSubObjectPermanently( self, "HELM14", false )
-    elseif helm <= 0.63 then
-        ObjectHideSubObjectPermanently( self, "HELM15", false )
-    elseif helm <= 0.67 then
-        ObjectHideSubObjectPermanently( self, "HELM16", false )
-    elseif helm <= 0.71 then
-        ObjectHideSubObjectPermanently( self, "HELM17", false )
-    elseif helm <= 0.75 then
-        ObjectHideSubObjectPermanently( self, "HELM18", false )
-    elseif helm <= 0.79 then
-        ObjectHideSubObjectPermanently( self, "HELM19", false )
-    elseif helm <= 0.83 then
-        ObjectHideSubObjectPermanently( self, "HELM20", false )
-    elseif helm <= 0.88 then
-        ObjectHideSubObjectPermanently( self, "HELM21", false )
-    elseif helm <= 0.92 then
-        ObjectHideSubObjectPermanently( self, "HELM22", false )
-    elseif helm <= 0.96 then
-        ObjectHideSubObjectPermanently( self, "HELM23", false )
-    else
-        ObjectHideSubObjectPermanently( self, "HELM24", false )
-    end
-    --assign random shield
-    if shield <= 0.063 then
-        ObjectHideSubObjectPermanently( self, "SHIELD1", false )
-    elseif shield <= 0.13 then
-        ObjectHideSubObjectPermanently( self, "SHIELD2", false )
-    elseif shield <= 0.19 then
-        ObjectHideSubObjectPermanently( self, "SHIELD3", false )
-    elseif shield <= 0.25 then
-        ObjectHideSubObjectPermanently( self, "SHIELD4", false )
-    elseif shield <= 0.31 then
-        ObjectHideSubObjectPermanently( self, "SHIELD5", false )
-    elseif shield <= 0.38 then
-        ObjectHideSubObjectPermanently( self, "SHIELD6", false )
-    elseif shield <= 0.44 then
-        ObjectHideSubObjectPermanently( self, "SHIELD7", false )
-    elseif shield <= 0.50 then
-        ObjectHideSubObjectPermanently( self, "SHIELD8", false )
+    -- assign random helm
+    if helm <= 0.12 then
+        ObjectHideSubObjectPermanently( self, "HELMET01", false )
+    elseif helm <= 0.24 then
+        ObjectHideSubObjectPermanently( self, "HELMET02", false )
+    elseif helm <= 0.36 then
+        ObjectHideSubObjectPermanently( self, "HELMET03", false )
+    elseif helm <= 0.48 then
+        ObjectHideSubObjectPermanently( self, "HELMET04", false )
+    elseif helm <= 0.60 then
+        ObjectHideSubObjectPermanently( self, "HELMET05", false )    
+    elseif helm <= 0.72 then
+        ObjectHideSubObjectPermanently( self, "HAIR", false )   
     else
         ObjectHideSubObjectPermanently( self, "NOTHING", false )
     end
-    -- assign random bow
-    if bow <= 0.33 then
-        ObjectHideSubObjectPermanently( self, "BOW1", false )
-    elseif bow <= 0.66 then
-        ObjectHideSubObjectPermanently( self, "BOW2", false )
+
+    -- assign random head
+    if head <= 0.25 then
+        ObjectHideSubObjectPermanently( self, "HEAD01", false )
+    elseif head <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "HEAD02", false )
+    elseif head <= 0.75 then
+        ObjectHideSubObjectPermanently( self, "HEAD03", false )  
     else
-        ObjectHideSubObjectPermanently( self, "BOW3", false )
+        ObjectHideSubObjectPermanently( self, "HEAD04", false )
+    end
+
+    -- assign random collar
+    if collar <= 0.25 then
+        ObjectHideSubObjectPermanently( self, "COLLARA", false )
+    elseif collar <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "COLLARB", false )
+    else
+        ObjectHideSubObjectPermanently( self, "NONE", false )
+    end
+    
+    -- assign random bow
+    if bow <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "BOW01", false )
+    else
+        ObjectHideSubObjectPermanently( self, "BOW02", false )
+    end
+
+    -- assign random body
+    if body <= 0.33 then
+        ObjectHideSubObjectPermanently( self, "BODY01", false )
+    elseif body <= 0.66 then
+        ObjectHideSubObjectPermanently( self, "BODY02", false )
+    else
+        ObjectHideSubObjectPermanently( self, "BODY03", false )
+    end
+
+    -- assign random legs
+    if legs <= 0.33 then
+        ObjectHideSubObjectPermanently( self, "LEGS01", false )
+    elseif legs <= 0.66 then
+        ObjectHideSubObjectPermanently( self, "LEGS02", false )
+        ObjectHideSubObjectPermanently( self, "GREAVES", false )
+    else
+        ObjectHideSubObjectPermanently( self, "LEGS02", false )
+    end
+
+    -- assign random shoulders
+    if shoulders <= 0.18 then
+        ObjectHideSubObjectPermanently( self, "SHOULDER01", false )
+    elseif shoulders <= 0.36 then
+        ObjectHideSubObjectPermanently( self, "SHOULDER02", false )
+    elseif shoulders <= 0.54 then
+        ObjectHideSubObjectPermanently( self, "SHOULDER03", false )  
+    else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end
+
+    -- assign random hips
+    if hips <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "HIPS", false )
+    else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
     end
 end
 
 function OnMordorBannerCreated(self)
-    -- helmet types
-    ObjectHideSubObjectPermanently( self, "HELM1", true )
-    ObjectHideSubObjectPermanently( self, "HELM2", true )
-    ObjectHideSubObjectPermanently( self, "HELM3", true )
-    ObjectHideSubObjectPermanently( self, "HELM4", true )
-    ObjectHideSubObjectPermanently( self, "HELM5", true )
-    ObjectHideSubObjectPermanently( self, "HELM6", true )
-    ObjectHideSubObjectPermanently( self, "HELM7", true )
-    ObjectHideSubObjectPermanently( self, "HELM8", true )
-    ObjectHideSubObjectPermanently( self, "HELM9", true )
-    ObjectHideSubObjectPermanently( self, "HELM10", true )
-    ObjectHideSubObjectPermanently( self, "HELM11", true )
-    ObjectHideSubObjectPermanently( self, "HELM12", true )
-    ObjectHideSubObjectPermanently( self, "HELM13", true )
-    ObjectHideSubObjectPermanently( self, "HELM14", true )
-    ObjectHideSubObjectPermanently( self, "HELM15", true )
-    ObjectHideSubObjectPermanently( self, "HELM16", true )
-    ObjectHideSubObjectPermanently( self, "HELM17", true )
-    ObjectHideSubObjectPermanently( self, "HELM18", true )
-    ObjectHideSubObjectPermanently( self, "HELM19", true )
-    ObjectHideSubObjectPermanently( self, "HELM20", true )    
-    ObjectHideSubObjectPermanently( self, "HELM21", true )
-    ObjectHideSubObjectPermanently( self, "HELM22", true )
-    ObjectHideSubObjectPermanently( self, "HELM23", true )
-    ObjectHideSubObjectPermanently( self, "HELM24", true )    
-    -- weapon types
-    ObjectHideSubObjectPermanently( self, "WEAP1", true )
-    ObjectHideSubObjectPermanently( self, "WEAP2", true )
-    ObjectHideSubObjectPermanently( self, "WEAP3", true )
-    ObjectHideSubObjectPermanently( self, "WEAP4", true )
-    ObjectHideSubObjectPermanently( self, "WEAP5", true )
-    ObjectHideSubObjectPermanently( self, "WEAP6", true )
-    
-    -- assign random gear
-    local helm = GetRandomNumber()
-    local weapon = GetRandomNumber()    
-    
-    -- assign random helm
-    if helm <= 0.04 then
-        ObjectHideSubObjectPermanently( self, "HELM1", false )
-    elseif helm <= 0.08 then
-        ObjectHideSubObjectPermanently( self, "HELM2", false )
-    elseif helm <= 0.12 then
-        ObjectHideSubObjectPermanently( self, "HELM3", false )
-    elseif helm <= 0.17 then
-        ObjectHideSubObjectPermanently( self, "HELM4", false )
-    elseif helm <= 0.21 then
-        ObjectHideSubObjectPermanently( self, "HELM5", false )    
-    elseif helm <= 0.25 then
-        ObjectHideSubObjectPermanently( self, "HELM6", false )    
-    elseif helm <= 0.29 then
-        ObjectHideSubObjectPermanently( self, "HELM7", false )
-    elseif helm <= 0.33 then
-        ObjectHideSubObjectPermanently( self, "HELM8", false )        
-    elseif helm <= 0.38 then
-        ObjectHideSubObjectPermanently( self, "HELM9", false )
-    elseif helm <= 0.42 then
-        ObjectHideSubObjectPermanently( self, "HELM10", false )
-    elseif helm <= 0.46 then
-        ObjectHideSubObjectPermanently( self, "HELM11", false )
-    elseif helm <= 0.5 then
-        ObjectHideSubObjectPermanently( self, "HELM12", false )
-    elseif helm <= 0.54 then
-        ObjectHideSubObjectPermanently( self, "HELM13", false )
-    elseif helm <= 0.58 then
-        ObjectHideSubObjectPermanently( self, "HELM14", false )
-    elseif helm <= 0.63 then
-        ObjectHideSubObjectPermanently( self, "HELM15", false )
-    elseif helm <= 0.67 then
-        ObjectHideSubObjectPermanently( self, "HELM16", false )
-    elseif helm <= 0.71 then
-        ObjectHideSubObjectPermanently( self, "HELM17", false )
-    elseif helm <= 0.75 then
-        ObjectHideSubObjectPermanently( self, "HELM18", false )
-    elseif helm <= 0.79 then
-        ObjectHideSubObjectPermanently( self, "HELM19", false )
-    elseif helm <= 0.83 then
-        ObjectHideSubObjectPermanently( self, "HELM20", false )
-    elseif helm <= 0.88 then
-        ObjectHideSubObjectPermanently( self, "HELM21", false )
-    elseif helm <= 0.92 then
-        ObjectHideSubObjectPermanently( self, "HELM22", false )
-    elseif helm <= 0.96 then
-        ObjectHideSubObjectPermanently( self, "HELM23", false )
-    else
-        ObjectHideSubObjectPermanently( self, "HELM24", false )
-    end
-    
-    -- assign random weapon
-    if weapon <= 0.17 then
-        ObjectHideSubObjectPermanently( self, "WEAP1", false )
-    elseif weapon <= 0.34 then
-        ObjectHideSubObjectPermanently( self, "WEAP2", false )
-    elseif weapon <= 0.51 then
-        ObjectHideSubObjectPermanently( self, "WEAP3", false )
-    elseif weapon <= 0.68 then
-        ObjectHideSubObjectPermanently( self, "WEAP4", false )
-    elseif weapon <= 0.85 then
-        ObjectHideSubObjectPermanently( self, "WEAP5", false )
-    else
-        ObjectHideSubObjectPermanently( self, "WEAP6", false )
-    end
-end
+    ObjectHideSubObjectPermanently( self, "FORGED_BLADE", true )
+	ObjectHideSubObjectPermanently( self, "FORGED_BLADES", true )
 
-function OnMordorFighter2Created(self)
+    ObjectHideSubObjectPermanently( self, "GREAVES", true )
     -- helmet types
-    ObjectHideSubObjectPermanently( self, "HELM1", true )
-    ObjectHideSubObjectPermanently( self, "HELM2", true )
-    ObjectHideSubObjectPermanently( self, "HELM3", true )
-    ObjectHideSubObjectPermanently( self, "HELM4", true )
-    ObjectHideSubObjectPermanently( self, "HELM5", true )
-    ObjectHideSubObjectPermanently( self, "HELM6", true )
-    ObjectHideSubObjectPermanently( self, "HELM7", true )
-    ObjectHideSubObjectPermanently( self, "HELM8", true )
-    ObjectHideSubObjectPermanently( self, "HELM9", true )
-    ObjectHideSubObjectPermanently( self, "HELM10", true )
-    ObjectHideSubObjectPermanently( self, "HELM11", true )
-    ObjectHideSubObjectPermanently( self, "HELM12", true )
-    ObjectHideSubObjectPermanently( self, "HELM13", true )
-    ObjectHideSubObjectPermanently( self, "HELM14", true )
-    ObjectHideSubObjectPermanently( self, "HELM15", true )
-    ObjectHideSubObjectPermanently( self, "HELM16", true )
-    ObjectHideSubObjectPermanently( self, "HELM17", true )
-    ObjectHideSubObjectPermanently( self, "HELM18", true )
-    ObjectHideSubObjectPermanently( self, "HELM19", true )
-    ObjectHideSubObjectPermanently( self, "HELM20", true )    
-    ObjectHideSubObjectPermanently( self, "HELM21", true )
-    ObjectHideSubObjectPermanently( self, "HELM22", true )
-    ObjectHideSubObjectPermanently( self, "HELM23", true )
-    ObjectHideSubObjectPermanently( self, "HELM24", true )    
+    ObjectHideSubObjectPermanently( self, "HELMET01", true )
+    ObjectHideSubObjectPermanently( self, "HELMET02", true )
+    ObjectHideSubObjectPermanently( self, "HELMET03", true )
+    ObjectHideSubObjectPermanently( self, "HELMET04", true )
+    ObjectHideSubObjectPermanently( self, "HELMET05", true )   
+    ObjectHideSubObjectPermanently( self, "HAIR", true )
+    -- head types
+    ObjectHideSubObjectPermanently( self, "HEAD01", true )
+    ObjectHideSubObjectPermanently( self, "HEAD02", true )
+    ObjectHideSubObjectPermanently( self, "HEAD03", true )
+    ObjectHideSubObjectPermanently( self, "HEAD04", true )
+    -- collar types
+    ObjectHideSubObjectPermanently( self, "COLLARA", true )
+    ObjectHideSubObjectPermanently( self, "COLLARB", true )
     -- weapon types
-    ObjectHideSubObjectPermanently( self, "WEAP1", true )
-    ObjectHideSubObjectPermanently( self, "WEAP2", true )
-    ObjectHideSubObjectPermanently( self, "WEAP3", true )
-    ObjectHideSubObjectPermanently( self, "WEAP4", true )
-    ObjectHideSubObjectPermanently( self, "WEAP5", true )
-    ObjectHideSubObjectPermanently( self, "WEAP6", true )
-    -- shield types
-    ObjectHideSubObjectPermanently( self, "SHIELD1", true )
-    ObjectHideSubObjectPermanently( self, "SHIELD2", true )
-    ObjectHideSubObjectPermanently( self, "SHIELD3", true )
-    ObjectHideSubObjectPermanently( self, "SHIELD4", true )
-    ObjectHideSubObjectPermanently( self, "SHIELD5", true )
-    ObjectHideSubObjectPermanently( self, "SHIELD6", true )
-    ObjectHideSubObjectPermanently( self, "SHIELD7", true )
-    ObjectHideSubObjectPermanently( self, "SHIELD8", true )
+    ObjectHideSubObjectPermanently( self, "SWORDR01", true )
+    ObjectHideSubObjectPermanently( self, "SWORDR02", true )
+    ObjectHideSubObjectPermanently( self, "SWORDR03", true )
+    ObjectHideSubObjectPermanently( self, "SWORDR04", true )
+    ObjectHideSubObjectPermanently( self, "SWORDR05", true )
+    -- body types
+    ObjectHideSubObjectPermanently( self, "BODY01", true )
+    ObjectHideSubObjectPermanently( self, "BODY02", true )
+    ObjectHideSubObjectPermanently( self, "BODY03", true )
+    -- leg types
+    ObjectHideSubObjectPermanently( self, "LEGS01", true )
+    ObjectHideSubObjectPermanently( self, "LEGS02", true )
+    -- shoulder types
+    ObjectHideSubObjectPermanently( self, "SHOULDER01", true )
+    ObjectHideSubObjectPermanently( self, "SHOULDER02", true )
+    ObjectHideSubObjectPermanently( self, "SHOULDER03", true )
     
     -- assign random gear
     local helm = GetRandomNumber()
+    local head = GetRandomNumber()
+    local collar = GetRandomNumber()
     local weapon = GetRandomNumber()
-    local shield = GetRandomNumber()    
+    local body = GetRandomNumber() 
+    local legs = GetRandomNumber() 
+    local shoulders = GetRandomNumber() 
     
     -- assign random helm
-    if helm <= 0.04 then
-        ObjectHideSubObjectPermanently( self, "HELM1", false )
-    elseif helm <= 0.08 then
-        ObjectHideSubObjectPermanently( self, "HELM2", false )
-    elseif helm <= 0.12 then
-        ObjectHideSubObjectPermanently( self, "HELM3", false )
-    elseif helm <= 0.17 then
-        ObjectHideSubObjectPermanently( self, "HELM4", false )
-    elseif helm <= 0.21 then
-        ObjectHideSubObjectPermanently( self, "HELM5", false )    
-    elseif helm <= 0.25 then
-        ObjectHideSubObjectPermanently( self, "HELM6", false )    
-    elseif helm <= 0.29 then
-        ObjectHideSubObjectPermanently( self, "HELM7", false )
-    elseif helm <= 0.33 then
-        ObjectHideSubObjectPermanently( self, "HELM8", false )        
-    elseif helm <= 0.38 then
-        ObjectHideSubObjectPermanently( self, "HELM9", false )
-    elseif helm <= 0.42 then
-        ObjectHideSubObjectPermanently( self, "HELM10", false )
-    elseif helm <= 0.46 then
-        ObjectHideSubObjectPermanently( self, "HELM11", false )
-    elseif helm <= 0.5 then
-        ObjectHideSubObjectPermanently( self, "HELM12", false )
-    elseif helm <= 0.54 then
-        ObjectHideSubObjectPermanently( self, "HELM13", false )
-    elseif helm <= 0.58 then
-        ObjectHideSubObjectPermanently( self, "HELM14", false )
-    elseif helm <= 0.63 then
-        ObjectHideSubObjectPermanently( self, "HELM15", false )
-    elseif helm <= 0.67 then
-        ObjectHideSubObjectPermanently( self, "HELM16", false )
-    elseif helm <= 0.71 then
-        ObjectHideSubObjectPermanently( self, "HELM17", false )
-    elseif helm <= 0.75 then
-        ObjectHideSubObjectPermanently( self, "HELM18", false )
-    elseif helm <= 0.79 then
-        ObjectHideSubObjectPermanently( self, "HELM19", false )
-    elseif helm <= 0.83 then
-        ObjectHideSubObjectPermanently( self, "HELM20", false )
-    elseif helm <= 0.88 then
-        ObjectHideSubObjectPermanently( self, "HELM21", false )
-    elseif helm <= 0.92 then
-        ObjectHideSubObjectPermanently( self, "HELM22", false )
-    elseif helm <= 0.96 then
-        ObjectHideSubObjectPermanently( self, "HELM23", false )
+    if helm <= 0.12 then
+        ObjectHideSubObjectPermanently( self, "HELMET01", false )
+    elseif helm <= 0.24 then
+        ObjectHideSubObjectPermanently( self, "HELMET02", false )
+    elseif helm <= 0.36 then
+        ObjectHideSubObjectPermanently( self, "HELMET03", false )
+    elseif helm <= 0.48 then
+        ObjectHideSubObjectPermanently( self, "HELMET04", false )
+    elseif helm <= 0.60 then
+        ObjectHideSubObjectPermanently( self, "HELMET05", false )    
+    elseif helm <= 0.72 then
+        ObjectHideSubObjectPermanently( self, "HAIR", false )   
     else
-        ObjectHideSubObjectPermanently( self, "HELM24", false )
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end
+
+    -- assign random head
+    if head <= 0.25 then
+        ObjectHideSubObjectPermanently( self, "HEAD01", false )
+    elseif head <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "HEAD02", false )
+    elseif head <= 0.75 then
+        ObjectHideSubObjectPermanently( self, "HEAD03", false )  
+    else
+        ObjectHideSubObjectPermanently( self, "HEAD04", false )
+    end
+
+    -- assign random collar
+    if collar <= 0.25 then
+        ObjectHideSubObjectPermanently( self, "COLLARA", false )
+    elseif collar <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "COLLARB", false )
+    else
+        ObjectHideSubObjectPermanently( self, "NONE", false )
     end
     
     -- assign random weapon
-    if weapon <= 0.17 then
-        ObjectHideSubObjectPermanently( self, "WEAP1", false )
-    elseif weapon <= 0.34 then
-        ObjectHideSubObjectPermanently( self, "WEAP2", false )
-    elseif weapon <= 0.51 then
-        ObjectHideSubObjectPermanently( self, "WEAP3", false )
-    elseif weapon <= 0.68 then
-        ObjectHideSubObjectPermanently( self, "WEAP4", false )
-    elseif weapon <= 0.85 then
-        ObjectHideSubObjectPermanently( self, "WEAP5", false )
+    if weapon <= 0.20 then
+        ObjectHideSubObjectPermanently( self, "SWORDR01", false )
+    elseif weapon <= 0.40 then
+        ObjectHideSubObjectPermanently( self, "SWORDR02", false )
+    elseif weapon <= 0.60 then
+        ObjectHideSubObjectPermanently( self, "SWORDR03", false )
+    elseif weapon <= 0.80 then
+        ObjectHideSubObjectPermanently( self, "SWORDR04", false )
     else
-        ObjectHideSubObjectPermanently( self, "WEAP6", false )
+        ObjectHideSubObjectPermanently( self, "SWORDR05", false )
     end
-    --assign random shield
-    if shield <= 0.13 then
-        ObjectHideSubObjectPermanently( self, "SHIELD1", false )
-    elseif shield <= 0.25 then
-        ObjectHideSubObjectPermanently( self, "SHIELD2", false )
-    elseif shield <= 0.38 then
-        ObjectHideSubObjectPermanently( self, "SHIELD3", false )
-    elseif shield <= 0.50 then
-        ObjectHideSubObjectPermanently( self, "SHIELD4", false )
-    elseif shield <= 0.63 then
-        ObjectHideSubObjectPermanently( self, "SHIELD5", false )
-    elseif shield <= 0.75 then
-        ObjectHideSubObjectPermanently( self, "SHIELD6", false )
-    elseif shield <= 0.88 then
-        ObjectHideSubObjectPermanently( self, "SHIELD7", false )
+
+    -- assign random body
+    if body <= 0.33 then
+        ObjectHideSubObjectPermanently( self, "BODY01", false )
+    elseif body <= 0.66 then
+        ObjectHideSubObjectPermanently( self, "BODY02", false )
     else
-        ObjectHideSubObjectPermanently( self, "SHIELD8", false )
+        ObjectHideSubObjectPermanently( self, "BODY03", false )
+    end
+
+    -- assign random legs
+    if legs <= 0.33 then
+        ObjectHideSubObjectPermanently( self, "LEGS01", false )
+    elseif legs <= 0.66 then
+        ObjectHideSubObjectPermanently( self, "LEGS02", false )
+        ObjectHideSubObjectPermanently( self, "GREAVES", false )
+    else
+        ObjectHideSubObjectPermanently( self, "LEGS02", false )
+    end
+
+    -- assign random shoulders
+    if shoulders <= 0.18 then
+        ObjectHideSubObjectPermanently( self, "SHOULDER01", false )
+    elseif shoulders <= 0.36 then
+        ObjectHideSubObjectPermanently( self, "SHOULDER02", false )
+    elseif shoulders <= 0.54 then
+        ObjectHideSubObjectPermanently( self, "SHOULDER03", false )  
+    else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
     end
 end
 
-function OnMordorFighter1Created(self)
+function OnMordorSpearmenCreated(self)
+    ObjectHideSubObjectPermanently( self, "HIPS", true )
+    ObjectHideSubObjectPermanently( self, "GREAVES", true )
+    ObjectHideSubObjectPermanently( self, "QUIVER", true )
     -- helmet types
-    ObjectHideSubObjectPermanently( self, "HELM1", true )
-    ObjectHideSubObjectPermanently( self, "HELM2", true )
-    ObjectHideSubObjectPermanently( self, "HELM3", true )
-    ObjectHideSubObjectPermanently( self, "HELM4", true )
-    ObjectHideSubObjectPermanently( self, "HELM5", true )
-    ObjectHideSubObjectPermanently( self, "HELM6", true )
-    ObjectHideSubObjectPermanently( self, "HELM7", true )
-    ObjectHideSubObjectPermanently( self, "HELM8", true )
-    ObjectHideSubObjectPermanently( self, "HELM9", true )
-    ObjectHideSubObjectPermanently( self, "HELM10", true )
-    ObjectHideSubObjectPermanently( self, "HELM11", true )
-    ObjectHideSubObjectPermanently( self, "HELM12", true )
-    ObjectHideSubObjectPermanently( self, "HELM13", true )
-    ObjectHideSubObjectPermanently( self, "HELM14", true )
-    ObjectHideSubObjectPermanently( self, "HELM15", true )
-    ObjectHideSubObjectPermanently( self, "HELM16", true )
-    ObjectHideSubObjectPermanently( self, "HELM17", true )
-    ObjectHideSubObjectPermanently( self, "HELM18", true )
-    ObjectHideSubObjectPermanently( self, "HELM19", true )
-    ObjectHideSubObjectPermanently( self, "HELM20", true )    
-    ObjectHideSubObjectPermanently( self, "HELM21", true )
-    ObjectHideSubObjectPermanently( self, "HELM22", true )
-    ObjectHideSubObjectPermanently( self, "HELM23", true )
-    ObjectHideSubObjectPermanently( self, "HELM24", true )    
+    ObjectHideSubObjectPermanently( self, "HELMET01", true )
+    ObjectHideSubObjectPermanently( self, "HELMET02", true )
+    ObjectHideSubObjectPermanently( self, "HELMET03", true )
+    ObjectHideSubObjectPermanently( self, "HELMET04", true )
+    ObjectHideSubObjectPermanently( self, "HELMET05", true )   
+    ObjectHideSubObjectPermanently( self, "HAIR", true )
+    -- head types
+    ObjectHideSubObjectPermanently( self, "HEAD01", true )
+    ObjectHideSubObjectPermanently( self, "HEAD02", true )
+    ObjectHideSubObjectPermanently( self, "HEAD03", true )
+    ObjectHideSubObjectPermanently( self, "HEAD04", true )
+    -- collar types
+    ObjectHideSubObjectPermanently( self, "COLLARA", true )
+    ObjectHideSubObjectPermanently( self, "COLLARB", true )
     -- weapon types
-    ObjectHideSubObjectPermanently( self, "WEAP1", true )
-    ObjectHideSubObjectPermanently( self, "WEAP2", true )
-    ObjectHideSubObjectPermanently( self, "WEAP3", true )
-    ObjectHideSubObjectPermanently( self, "WEAP4", true )
-    ObjectHideSubObjectPermanently( self, "WEAP5", true )
-    ObjectHideSubObjectPermanently( self, "WEAP6", true )
-    ObjectHideSubObjectPermanently( self, "WEAP7", true )
-    ObjectHideSubObjectPermanently( self, "WEAP8", true )
-    ObjectHideSubObjectPermanently( self, "WEAP9", true )
-    ObjectHideSubObjectPermanently( self, "WEAP10", true )
-    ObjectHideSubObjectPermanently( self, "WEAP11", true )
-    ObjectHideSubObjectPermanently( self, "WEAP12", true )
+    ObjectHideSubObjectPermanently( self, "SPEAR01", true )
+    ObjectHideSubObjectPermanently( self, "SPEAR02", true )
+    ObjectHideSubObjectPermanently( self, "SPEAR03", true )
+    ObjectHideSubObjectPermanently( self, "SPEAR04", true )
+    -- body types
+    ObjectHideSubObjectPermanently( self, "BODY01", true )
+    ObjectHideSubObjectPermanently( self, "BODY02", true )
+    ObjectHideSubObjectPermanently( self, "BODY03", true )
+    -- leg types
+    ObjectHideSubObjectPermanently( self, "LEGS01", true )
+    ObjectHideSubObjectPermanently( self, "LEGS02", true )
+    -- shoulder types
+    ObjectHideSubObjectPermanently( self, "SHOULDER01", true )
+    ObjectHideSubObjectPermanently( self, "SHOULDER02", true )
+    ObjectHideSubObjectPermanently( self, "SHOULDER03", true )
     
     -- assign random gear
     local helm = GetRandomNumber()
+    local head = GetRandomNumber()
+    local collar = GetRandomNumber()
+    local spear = GetRandomNumber()
+    local body = GetRandomNumber() 
+    local legs = GetRandomNumber() 
+    local shoulders = GetRandomNumber() 
+    local hips = GetRandomNumber() 
+    
+    -- assign random helm
+    if helm <= 0.12 then
+        ObjectHideSubObjectPermanently( self, "HELMET01", false )
+    elseif helm <= 0.24 then
+        ObjectHideSubObjectPermanently( self, "HELMET02", false )
+    elseif helm <= 0.36 then
+        ObjectHideSubObjectPermanently( self, "HELMET03", false )
+    elseif helm <= 0.48 then
+        ObjectHideSubObjectPermanently( self, "HELMET04", false )
+    elseif helm <= 0.60 then
+        ObjectHideSubObjectPermanently( self, "HELMET05", false )    
+    elseif helm <= 0.72 then
+        ObjectHideSubObjectPermanently( self, "HAIR", false )   
+    else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end
+
+    -- assign random head
+    if head <= 0.25 then
+        ObjectHideSubObjectPermanently( self, "HEAD01", false )
+    elseif head <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "HEAD02", false )
+    elseif head <= 0.75 then
+        ObjectHideSubObjectPermanently( self, "HEAD03", false )  
+    else
+        ObjectHideSubObjectPermanently( self, "HEAD04", false )
+    end
+
+    -- assign random collar
+    if collar <= 0.25 then
+        ObjectHideSubObjectPermanently( self, "COLLARA", false )
+    elseif collar <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "COLLARB", false )
+    else
+        ObjectHideSubObjectPermanently( self, "NONE", false )
+    end
+    
+    -- assign random spear
+    if spear <= 0.25 then
+        ObjectHideSubObjectPermanently( self, "SPEAR01", false )
+    elseif spear <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "SPEAR02", false )
+    elseif spear <= 0.75 then
+        ObjectHideSubObjectPermanently( self, "SPEAR03", false )
+    else
+        ObjectHideSubObjectPermanently( self, "SPEAR04", false )
+    end
+
+    -- assign random body
+    if body <= 0.33 then
+        ObjectHideSubObjectPermanently( self, "BODY01", false )
+    elseif body <= 0.66 then
+        ObjectHideSubObjectPermanently( self, "BODY02", false )
+    else
+        ObjectHideSubObjectPermanently( self, "BODY03", false )
+    end
+
+    -- assign random legs
+    if legs <= 0.33 then
+        ObjectHideSubObjectPermanently( self, "LEGS01", false )
+    elseif legs <= 0.66 then
+        ObjectHideSubObjectPermanently( self, "LEGS02", false )
+        ObjectHideSubObjectPermanently( self, "GREAVES", false )
+    else
+        ObjectHideSubObjectPermanently( self, "LEGS02", false )
+    end
+
+    -- assign random shoulders
+    if shoulders <= 0.18 then
+        ObjectHideSubObjectPermanently( self, "SHOULDER01", false )
+    elseif shoulders <= 0.36 then
+        ObjectHideSubObjectPermanently( self, "SHOULDER02", false )
+    elseif shoulders <= 0.54 then
+        ObjectHideSubObjectPermanently( self, "SHOULDER03", false )  
+    else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end
+
+    -- assign random hips
+    if hips <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "HIPS", false )
+    else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end
+end
+
+function OnMordorNewFighterCreated(self)
+    ObjectHideSubObjectPermanently( self, "HIPS", true )
+    ObjectHideSubObjectPermanently( self, "GREAVES", true )
+    ObjectHideSubObjectPermanently( self, "QUIVER", true )
+    -- helmet types
+    ObjectHideSubObjectPermanently( self, "HELMET01", true )
+    ObjectHideSubObjectPermanently( self, "HELMET02", true )
+    ObjectHideSubObjectPermanently( self, "HELMET03", true )
+    ObjectHideSubObjectPermanently( self, "HELMET04", true )
+    ObjectHideSubObjectPermanently( self, "HELMET05", true )   
+    ObjectHideSubObjectPermanently( self, "HAIR", true )
+    -- head types
+    ObjectHideSubObjectPermanently( self, "HEAD01", true )
+    ObjectHideSubObjectPermanently( self, "HEAD02", true )
+    ObjectHideSubObjectPermanently( self, "HEAD03", true )
+    ObjectHideSubObjectPermanently( self, "HEAD04", true )
+    -- collar types
+    ObjectHideSubObjectPermanently( self, "COLLARA", true )
+    ObjectHideSubObjectPermanently( self, "COLLARB", true )
+    -- weapon types
+    ObjectHideSubObjectPermanently( self, "SWORDL01", true )
+    ObjectHideSubObjectPermanently( self, "SWORDL02", true )
+    ObjectHideSubObjectPermanently( self, "SWORDL03", true )
+    ObjectHideSubObjectPermanently( self, "SWORDL04", true )
+    ObjectHideSubObjectPermanently( self, "SWORDL05", true )
+    ObjectHideSubObjectPermanently( self, "SWORDR01", true )
+    ObjectHideSubObjectPermanently( self, "SWORDR02", true )
+    ObjectHideSubObjectPermanently( self, "SWORDR03", true )
+    ObjectHideSubObjectPermanently( self, "SWORDR04", true )
+    ObjectHideSubObjectPermanently( self, "SWORDR05", true )
+    ObjectHideSubObjectPermanently( self, "SHIELD01", true )
+    ObjectHideSubObjectPermanently( self, "SHIELD02", true )
+    ObjectHideSubObjectPermanently( self, "SHIELD03", true )
+    ObjectHideSubObjectPermanently( self, "SHIELD04", true )
+    ObjectHideSubObjectPermanently( self, "SHIELD05", true )
+    -- body types
+    ObjectHideSubObjectPermanently( self, "BODY01", true )
+    ObjectHideSubObjectPermanently( self, "BODY02", true )
+    ObjectHideSubObjectPermanently( self, "BODY03", true )
+    -- leg types
+    ObjectHideSubObjectPermanently( self, "LEGS01", true )
+    ObjectHideSubObjectPermanently( self, "LEGS02", true )
+    -- shoulder types
+    ObjectHideSubObjectPermanently( self, "SHOULDER01", true )
+    ObjectHideSubObjectPermanently( self, "SHOULDER02", true )
+    ObjectHideSubObjectPermanently( self, "SHOULDER03", true )
+    
+    -- assign random gear
+    local helm = GetRandomNumber()
+    local head = GetRandomNumber()
+    local collar = GetRandomNumber()
     local leftweapon = GetRandomNumber()
     local rightweapon = GetRandomNumber()
-    
+    local body = GetRandomNumber() 
+    local legs = GetRandomNumber() 
+    local shoulders = GetRandomNumber() 
+    local hips = GetRandomNumber() 
     
     -- assign random helm
-    if helm <= 0.04 then
-        ObjectHideSubObjectPermanently( self, "HELM1", false )
-    elseif helm <= 0.08 then
-        ObjectHideSubObjectPermanently( self, "HELM2", false )
-    elseif helm <= 0.12 then
-        ObjectHideSubObjectPermanently( self, "HELM3", false )
-    elseif helm <= 0.17 then
-        ObjectHideSubObjectPermanently( self, "HELM4", false )
-    elseif helm <= 0.21 then
-        ObjectHideSubObjectPermanently( self, "HELM5", false )    
-    elseif helm <= 0.25 then
-        ObjectHideSubObjectPermanently( self, "HELM6", false )    
-    elseif helm <= 0.29 then
-        ObjectHideSubObjectPermanently( self, "HELM7", false )
-    elseif helm <= 0.33 then
-        ObjectHideSubObjectPermanently( self, "HELM8", false )        
-    elseif helm <= 0.38 then
-        ObjectHideSubObjectPermanently( self, "HELM9", false )
-    elseif helm <= 0.42 then
-        ObjectHideSubObjectPermanently( self, "HELM10", false )
-    elseif helm <= 0.46 then
-        ObjectHideSubObjectPermanently( self, "HELM11", false )
-    elseif helm <= 0.5 then
-        ObjectHideSubObjectPermanently( self, "HELM12", false )
-    elseif helm <= 0.54 then
-        ObjectHideSubObjectPermanently( self, "HELM13", false )
-    elseif helm <= 0.58 then
-        ObjectHideSubObjectPermanently( self, "HELM14", false )
-    elseif helm <= 0.63 then
-        ObjectHideSubObjectPermanently( self, "HELM15", false )
-    elseif helm <= 0.67 then
-        ObjectHideSubObjectPermanently( self, "HELM16", false )
-    elseif helm <= 0.71 then
-        ObjectHideSubObjectPermanently( self, "HELM17", false )
-    elseif helm <= 0.75 then
-        ObjectHideSubObjectPermanently( self, "HELM18", false )
-    elseif helm <= 0.79 then
-        ObjectHideSubObjectPermanently( self, "HELM19", false )
-    elseif helm <= 0.83 then
-        ObjectHideSubObjectPermanently( self, "HELM20", false )
-    elseif helm <= 0.88 then
-        ObjectHideSubObjectPermanently( self, "HELM21", false )
-    elseif helm <= 0.92 then
-        ObjectHideSubObjectPermanently( self, "HELM22", false )
-    elseif helm <= 0.96 then
-        ObjectHideSubObjectPermanently( self, "HELM23", false )
+    if helm <= 0.12 then
+        ObjectHideSubObjectPermanently( self, "HELMET01", false )
+    elseif helm <= 0.24 then
+        ObjectHideSubObjectPermanently( self, "HELMET02", false )
+    elseif helm <= 0.36 then
+        ObjectHideSubObjectPermanently( self, "HELMET03", false )
+    elseif helm <= 0.48 then
+        ObjectHideSubObjectPermanently( self, "HELMET04", false )
+    elseif helm <= 0.60 then
+        ObjectHideSubObjectPermanently( self, "HELMET05", false )    
+    elseif helm <= 0.72 then
+        ObjectHideSubObjectPermanently( self, "HAIR", false )   
     else
-        ObjectHideSubObjectPermanently( self, "HELM24", false )
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end
+
+    -- assign random head
+    if head <= 0.25 then
+        ObjectHideSubObjectPermanently( self, "HEAD01", false )
+    elseif head <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "HEAD02", false )
+    elseif head <= 0.75 then
+        ObjectHideSubObjectPermanently( self, "HEAD03", false )  
+    else
+        ObjectHideSubObjectPermanently( self, "HEAD04", false )
+    end
+
+    -- assign random collar
+    if collar <= 0.25 then
+        ObjectHideSubObjectPermanently( self, "COLLARA", false )
+    elseif collar <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "COLLARB", false )
+    else
+        ObjectHideSubObjectPermanently( self, "NONE", false )
     end
     
     -- assign random weapon right hand
-    if rightweapon <= 0.1 then
-        ObjectHideSubObjectPermanently( self, "WEAP1", false )
-    elseif rightweapon <= 0.17 then
-        ObjectHideSubObjectPermanently( self, "WEAP2", false )
-    elseif rightweapon <= 0.25 then
-        ObjectHideSubObjectPermanently( self, "WEAP3", false )
-    elseif rightweapon <= 0.33 then
-        ObjectHideSubObjectPermanently( self, "WEAP4", false )
-    elseif rightweapon <= 0.42 then
-        ObjectHideSubObjectPermanently( self, "WEAP5", false )
+    if rightweapon <= 0.20 then
+        ObjectHideSubObjectPermanently( self, "SWORDR01", false )
+    elseif rightweapon <= 0.40 then
+        ObjectHideSubObjectPermanently( self, "SWORDR02", false )
+    elseif rightweapon <= 0.60 then
+        ObjectHideSubObjectPermanently( self, "SWORDR03", false )
+    elseif rightweapon <= 0.80 then
+        ObjectHideSubObjectPermanently( self, "SWORDR04", false )
     else
-        ObjectHideSubObjectPermanently( self, "WEAP6", false )
+        ObjectHideSubObjectPermanently( self, "SWORDR05", false )
     end
     
         -- assign random weapon left hand
-    if leftweapon <= 0.1 then
-        ObjectHideSubObjectPermanently( self, "WEAP7", false )
-    elseif leftweapon <= 0.17 then
-        ObjectHideSubObjectPermanently( self, "WEAP8", false )
-    elseif leftweapon <= 0.25 then
-        ObjectHideSubObjectPermanently( self, "WEAP9", false )
-    elseif leftweapon <= 0.33 then
-        ObjectHideSubObjectPermanently( self, "WEAP10", false )
-    elseif leftweapon <= 0.42 then
-        ObjectHideSubObjectPermanently( self, "WEAP11", false )
-    elseif leftweapon <= 0.55 then
-        ObjectHideSubObjectPermanently( self, "WEAP12", false )
+    if leftweapon <= 0.09 then
+        ObjectHideSubObjectPermanently( self, "SWORDL01", false )
+    elseif leftweapon <= 0.18 then
+        ObjectHideSubObjectPermanently( self, "SWORDL02", false )
+    elseif leftweapon <= 0.27 then
+        ObjectHideSubObjectPermanently( self, "SWORDL03", false )
+    elseif leftweapon <= 0.36 then
+        ObjectHideSubObjectPermanently( self, "SWORDL04", false )
+    elseif leftweapon <= 0.45 then
+        ObjectHideSubObjectPermanently( self, "SWORDL05", false )
+    elseif leftweapon <= 0.54 then
+        ObjectHideSubObjectPermanently( self, "SHIELD01", false )
+    elseif leftweapon <= 0.63 then
+        ObjectHideSubObjectPermanently( self, "SHIELD02", false )
+    elseif leftweapon <= 0.72 then
+        ObjectHideSubObjectPermanently( self, "SHIELD03", false )
+    elseif leftweapon <= 0.81 then
+        ObjectHideSubObjectPermanently( self, "SHIELD04", false )
+    elseif leftweapon <= 0.90 then
+        ObjectHideSubObjectPermanently( self, "SHIELD05", false )
+    else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end
+
+    -- assign random body
+    if body <= 0.33 then
+        ObjectHideSubObjectPermanently( self, "BODY01", false )
+    elseif body <= 0.66 then
+        ObjectHideSubObjectPermanently( self, "BODY02", false )
+    else
+        ObjectHideSubObjectPermanently( self, "BODY03", false )
+    end
+
+    -- assign random legs
+    if legs <= 0.33 then
+        ObjectHideSubObjectPermanently( self, "LEGS01", false )
+    elseif legs <= 0.66 then
+        ObjectHideSubObjectPermanently( self, "LEGS02", false )
+        ObjectHideSubObjectPermanently( self, "GREAVES", false )
+    else
+        ObjectHideSubObjectPermanently( self, "LEGS02", false )
+    end
+
+    -- assign random shoulders
+    if shoulders <= 0.18 then
+        ObjectHideSubObjectPermanently( self, "SHOULDER01", false )
+    elseif shoulders <= 0.36 then
+        ObjectHideSubObjectPermanently( self, "SHOULDER02", false )
+    elseif shoulders <= 0.54 then
+        ObjectHideSubObjectPermanently( self, "SHOULDER03", false )  
+    else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end
+
+    -- assign random hips
+    if hips <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "HIPS", false )
     else
         ObjectHideSubObjectPermanently( self, "NOTHING", false )
     end
@@ -1522,38 +1569,10 @@ function OnGreyRangerCreated(self)
     end
 end
 
-function OnMordorHaradrimCreated(self)
-    -- randomization
-    ObjectHideSubObjectPermanently( self, "COIF01", true )
-    ObjectHideSubObjectPermanently( self, "COIF02", true )
-    ObjectHideSubObjectPermanently( self, "COIF03", true )
-    ObjectHideSubObjectPermanently( self, "COIF04", true )
-    
-    ObjectHideSubObjectPermanently( self, "ORN1", true )
-    ObjectHideSubObjectPermanently( self, "ORN2", true )
-    
-    -- assign random spear
-    local coif = GetRandomNumber()
-    
-    if coif <= 0.5 then
-        ObjectHideSubObjectPermanently( self, "COIF01", false )
-    elseif coif <= 0.63 then
-        ObjectHideSubObjectPermanently( self, "COIF02", false )
-    elseif coif <= 0.76 then
-        ObjectHideSubObjectPermanently( self, "COIF03", false )
-    else
-        ObjectHideSubObjectPermanently( self, "COIF04", false )
-    end
-    
-    local orn    =    GetRandomNumber()
-
-    if orn <= 0.15 then
-        ObjectHideSubObjectPermanently( self, "ORN1", false )
-    elseif orn <= 0.30 then
-        ObjectHideSubObjectPermanently( self, "ORN2", false )    
-    else
-        ObjectHideSubObjectPermanently( self, "NOTHING", false )
-    end
+function OnHaradrimArcherCreated(self)
+	ObjectHideSubObjectPermanently( self, "FireArowTip", true )
+	ObjectHideSubObjectPermanently( self, "BARB", true )
+	ObjectHideSubObject( self, "ArrowNock", true )
 end
 
 function OnRohanBannerCreated(self)
