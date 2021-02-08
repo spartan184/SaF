@@ -410,9 +410,14 @@
 		<EventHandler EventName="User5Achieved"	ScriptFunctionName="EndlessSupplyGrantUpgrades"	DebugSingleStep="false"/>
 	</EventList>
 
-    <EventList Name="OrcWarriorsFunctions" Inherit="MordorFighterFunctions">
+    <EventList Name="OrcWarriorsFunctions" Inherit="SaFInfantryFunctions">
 		<!-- This event affect all Fell Blades units -->
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnOrcWarriorsCreated" DebugSingleStep="false"/>
+    </EventList>
+
+    <EventList Name="GundabadBerserkerFunctions" Inherit="SaFInfantryFunctions">
+		<!-- This event affect all Fell Blades units -->
+        <EventHandler EventName="OnCreated"				ScriptFunctionName="OnGundabadBerserkerCreated" DebugSingleStep="false"/>
     </EventList>
 
 	<EventList Name="MountainOrcFunctions" Inherit="SaFInfantryFunctions">

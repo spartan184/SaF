@@ -1891,7 +1891,7 @@ CONTROLBAR:ToolTipSummonWolfPack
 END
 
 CONTROLBAR:HarshCold
-"Harsh Cold"
+"Fell Winter"
 END
 CONTROLBAR:ToolTipHarshCold
 "Enemy units in targeted area lose health over time \n and temporarily lose 50% speed and 25% armor and attack \n Does not affect Heroes \n Left click then right click on target area"
@@ -1920,7 +1920,7 @@ OBJECT:GundabadBolg
 "Bolg the Defiler"
 END
 CONTROLBAR:GundabadBolgRecruit
-"Hero Unit. \n Recruit Bolg the Defiler, terror of Mount Gundabad"
+"Hero Unit. \n Recruit Bolg the Defiler, terror of Mount Gundabad \n \n 'The Goblins are upon you! Bolg of the North is coming.   O Dain! whose father you slew in Moria. Behold! the bats are above his army like a sea of locusts. They ride upon wolves and Wargs are in their train!'"
 END
 CONTROLBAR:GundabadBolgRevive
 "Revive the fallen Hero, Bolg"
@@ -1933,7 +1933,7 @@ OBJECT:GundabadLug
 "Lug the Mauled"
 END
 CONTROLBAR:GundabadLugRecruit
-"Hero Unit. \n Recruit Lug the Mauled, Beast Master of Gundabad"
+"Hero Unit. \n Recruit Lug the Mauled, Beast Master of Gundabad \n \n 'Few orcs share a bond as fierce as Lug and his warg. It cost him and arm, but the leg he got to keep.'"
 END
 CONTROLBAR:GundabadLugRevive
 "Revive the fallen Hero, Lug the Mauled"
@@ -1952,7 +1952,7 @@ CONTROLBAR:DurinsBaneRecruit
 "Required: Durin's Bane \n Hero Unit. Recruit a Balrog of Morgoth"
 END
 TOOLTIP:ToolTipLackDurinsBaneSpellbook
-"Required: Durin's Bane \n Hero Unit. Recruit a Balrog of Morgoth"
+"Required: Durin's Bane Spellbook \n Hero Unit. Recruit Durin's Bane, a Balrog of Morgoth \n \n 'It was like a great shadow, in the middle of which was a dark form, of man-shape maybe, yet greater; and a power and terror seemed to be in it and to go before it. Its streaming mane kindled, and blazed behind it. In its right hand was a blade like a stabbing tongue of fire; in its left it held a whip of many thongs...'"
 END
 
 ;=================================UNITS==========================
@@ -1961,62 +1961,70 @@ CONTROLBAR:ThisIsNotReallyReadInGame14
 END
 
 OBJECT:GundabadBanner
-"Gundabad Banner Carrier"
+"Mountain-orc Banner Carrier"
 END
 
 OBJECT:GundabadGoblinSwarmHorde
-"Goblin Swarm"
+"Moria-orc Swarm"
 END
 
 OBJECT:GundabadSwarmGoblin
-"Swarm Goblin"
+"Moria-orc"
 END
 
 OBJECT:GundabadMountainOrcsHorde
-"Gundabad Orc Horde"
+"Mountain-orc Slasher Horde"
+END
+
+OBJECT:GundabadBerserker
+"Gundabad Berserker"
+END
+
+OBJECT:GundabadBerserkerHorde
+"Gundabad Berserker Horde"
 END
 
 OBJECT:GundabadMountainOrcs
-"Gundabad Orc"
+"Mountain-orc Slasher"
 END
 
 OBJECT:GundabadPikemanHorde
-"Gundabad Orc Pikemen"
+"Mountain-orc Pikemen Horde"
 END
 
 OBJECT:GundabadPikeman
-"Gundabad Orc Pikeman"
+"Mountain-orc Pikeman"
 END
 
 OBJECT:GundabadArcher
-"Gundabad Orc Archer"
+"Mountain-orc Hunter"
 END
 
 OBJECT:HordeGundabadArchers
-"Orc Archer Horde"
+"Mountain-orc Hunter Horde"
 END
 
 OBJECT:HordeGundabadFighterArcherCombo
-"Orc Warrior - Orc Archer Horde"
+"Mountain-orc Slasher - Mountain-orc Hunter Horde"
 END
 OBJECT:HordeGundabadPikemenArcherCombo
-"Orc Pikemen - Orc Archer Horde"
+"Mountain-orc Pikemen - Mountain-orc Hunter Horde"
 END
 
 OBJECT:GundabadWargRiderHorde
-"Gundabad Warg Rider Horde"
+"Gundabad Warg-rider Horde"
 END
 
 OBJECT:HordeGundabadWargRiders
-"Gundabad Warg Rider Horde"
+"Gundabad Warg-rider Horde"
 END
 
 OBJECT:GundabadWargRider
-"Gundabad Warg Rider"
+"Gundabad Warg-rider"
 END
 
 OBJECT:GundabadWolfPackHorde
-"Warg-scouts"
+"Warg-scout Horde"
 END
 
 OBJECT:GundabadWolfPack
@@ -2044,14 +2052,14 @@ OBJECT:GundabadGiantBat
 END
 
 OBJECT:GundabadDrummerGoblin
-"Gundabad Drummer"
+"Mountain-orc Drummer"
 END
 
 OBJECT:GundabadBolgBodyguard
 "Bolg's Bodyguard"
 END
 OBJECT:GundabadBolgBodyguardHorde
-"Bolg's Bodyguards"
+"Bolg's Bodyguard Horde"
 END
 
 ;=================================UNIT PRODUCTION==========================
@@ -2063,49 +2071,56 @@ CONTROLBAR:ConstructGundabadWargRiders
 "Gundabad Warg &Riders"
 END
 CONTROLBAR:ToolTipGundabadWargRiders
-"Strong vs. swordsmen \n Weak vs. spearmen, archers and fire"
+"Strong vs. swordsmen \n Weak vs. Spearmen, Archers \n \n For generations, Orcs have ridden Wargs - not as masters, but as equals - to track and ambush the Free Peoples."
+END
+
+CONTROLBAR:ConstructGundabadBerserkerHorde
+"Gundabad &Berserkers"
+END
+CONTROLBAR:ToolTipBuildGundabadBerserkerHorde
+"Required: Rank 3 Mountain-orc Lodge - Limit 3 \n Strong vs. Spearmen, Swordsmen, Cavalry, Heroes \n Weak vs. Archers \n \n Mount Gundabad has long been occupied by large, fierce orcs under the command of Azog and his spawn."
 END
 
 CONTROLBAR:ConstructGundabadOrcHorde
-"Gundabad Mountain &Orcs"
+"Mountain-orc &Slashers"
 END
 CONTROLBAR:ToolTipBuildGundabadOrcHorde
-"Strong vs. spearmen, swordsmen \n Weak vs. archers, cavalry \n \n Hardened through generations of war and weather, these Mountain-orcs were finally united under one banner by Azog the Defiler."
+"Strong vs. spearmen, swordsmen \n Weak vs. Archers, Cavalry \n \n Hardened through generations of war and weather, these Mountain-orcs were finally united under one banner by Azog the Defiler."
 END
 
 CONTROLBAR:ConstructGundabadOrcPikeHorde
-"Gundabad Mountain Orc &Pikemen"
+"Mountain-orc &Pikemen"
 END
 CONTROLBAR:ToolTipBuildGundabadOrcPikeHorde
-"Required: Rank 2 Gundabad Lodge \n Strong vs. cavalry, archers \n Weak vs. swordsmen \n \n Tasked with guarding the cold valleys and foothills of Orc-held territory, these pikemen have been known to ambush Elven scouting parties."
+"Required: Rank 2 Mountain-orc Lodge \n Strong vs. Cavalry, Archers \n Weak vs. Swordsmen \n \n Tasked with guarding the cold valleys and foothills of Orc-held territory, these pikemen have been known to ambush Elven scouting parties."
 END
 
 CONTROLBAR:ConstructGundabadOrcArcherHorde
-"Gundabad Orc A&rchers"
+"Mountain-orc &Hunters"
 END
 CONTROLBAR:ToolTipBuildGundabadOrcArcherHorde
 "Strong vs. Pikemen, Monsters \n Weak vs. Swordsmen, Heroes \n \n Feared throughout Eriador, these Mountain-orc manhunters have a reputation for being cruel and ruthless in tracking down their quarry."
 END
 
 CONTROLBAR:ConstructGundabadSwarmHorde
-"&Moria Orc Swarm"
+"&Moria-orc Screechers"
 END
 CONTROLBAR:ToolTipConstructGundabadSwarmHorde
-"Required: Drums in the Deep \n Fast-moving infantry, very weak in small numbers \n Strong vs. archers, spearmen \n Weak vs. swordsmen, cavalry"
+"Fast-moving infantry, very weak in small numbers \n Strong vs. Archers, Spearmen \n Weak vs. Swordsmen, Cavalry \n \n After the Dwarves abandoned Khazad-dum, these Orcish usurpers plundered and desecrated its emptied halls."
 END
 
 CONTROLBAR:SummonGundabadSwarmHorde
-"Moria Orc Swarm"
+"Moria-orc Screechers"
 END
 CONTROLBAR:ToolTipSummonGundabadSwarmHorde
-"Required: Drums in the Deep \n Summons Moria Orc Swarm \n Respects Command Point Limit \n Left click to activate"
+"Summons Moria-orc Screechers \n Respects Command Point Limit \n Left click to activate"
 END
 
 CONTROLBAR:ConstructGundabadWolfPack
 "Gundabad &Warg-scouts"
 END
 CONTROLBAR:ToolTipBuildGundabadWolfPack
-"Strong vs. Bowmen \n Weak vs. Cavalry and Heroes"
+"Strong vs. Bowmen \n Weak vs. Cavalry and Heroes \n \n Fast-moving and ferocious, packs of Wargs have oft been the bane of unwary travelers."
 END
 
 CONTROLBAR:ConstructGundabadSnowTroll
@@ -2119,14 +2134,14 @@ CONTROLBAR:ConstructGundabadHillTrollHorde
 "Snow-troll &Stalkers"
 END
 CONTROLBAR:ToolTipBuildGundabadHillTrollHorde
-"Strong vs. Infantry, Cavalry \n Weak vs. Bowmen, Monsters, Heroes \n \n Snow-trolls are often thought of as a fairy-tale creature in more civilised parts of Middle-earth, but those that dwell in the harsh climate of the northern Misty Mountains and beyond know better. These wicked trolls are lean, deceptively powerful, and possess a great talent for cruelty"
+"Strong vs. Infantry, Cavalry \n Weak vs. Bowmen, Monsters, Heroes \n \n Snow-trolls are often thought of as a fairy-tale creature in more civilised parts of Middle-earth, but those that dwell in the harsh climate of the northern Misty Mountains and beyond know better. These wicked trolls are lean, deceptively powerful, and possess a great talent for cruelty."
 END
 
 CONTROLBAR:ConstructGundabadDrummerGoblin
-"Gundabad Dru&mmer"
+"Mountain-orc &Drummer"
 END
 CONTROLBAR:TooltipConstructGundabadDrummerGoblin
-"Required: Rank 3 Gundabad Lodge \n Limited to 4 units \n Leadership bonus to nearby infantry \n +20% Damage +15% Experience"
+"Required: Rank 3 Mountain-orc Lodge \n Limited to 4 units \n Leadership bonus to nearby infantry \n +20% Damage +15% Experience \n \n When marching to war through the piercing cold of the Misty Mountains, keeping pace is important. Orc-drummers are often seen accompanying warbands, keeping them warm and moving steadily."
 END
 CONTROLBAR:GundabadDrummerGoblinLeadership
 "Iron Discipline"
@@ -2187,7 +2202,7 @@ GUI:MINE_DISCOUNT
 END
 
 OBJECT:GundabadCave
-"Gundabad Lodge"
+"Mountain-orc Lodge"
 END
 OBJECT:GundabadCaveDescription
 "Rank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
@@ -2230,17 +2245,17 @@ CONTROLBAR:ToolTipGundabadMine
 END
 
 CONTROLBAR:ConstructGundabadCave
-"Build a Gundabad &Lodge"
+"Build a Mountain-orc &Lodge"
 END
 CONTROLBAR:ToolTipGundabadCave
-"Trains Orcs and Goblins of Gundabad"
+"Trains Mountain-orcs and Berserkers of Gundabad"
 END
 
 CONTROLBAR:ConstructGundabadWolfDen
 "Build a Gundabad Warg &Den"
 END
 CONTROLBAR:ToolTipGundabadWolfDen
-"Trains Warg-scouts and Warg Riders"
+"Trains Warg-scouts and Warg-riders"
 END
 
 CONTROLBAR:ConstructGundabadTrollCave
@@ -2278,7 +2293,7 @@ CONTROLBAR:ThisIsNotReallyReadInGame18
 END
 
 UPGRADE:GundabadUrukCaptain
-"Uruk Captain"
+"Gundabad Banners"
 END
 
 UPGRADE:GundabadFireArrowUpgrade
@@ -2298,11 +2313,11 @@ TOOLTIP:GundabadScavengedArmor
 END
 
 CONTROLBAR:PurchaseTechnologyGundabadUrukCaptain
-"Uruk &Captain Upgrade"
+"Gundabad &Banners Upgrade"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGundabadUrukCaptain
-"Ranks a new unit to level 2 veterancy \n Can only be equipped at Level 1 \n Purchase Captain Upgrade \n Select a battalion to equip upgrade"
+"Ranks a new unit to level 2 veterancy \n Can only be equipped at Level 1 \n Purchase Captain Upgrade \n Select a horde to equip upgrade"
 END
 TOOLTIP:LackLevel2GundabadCaveCaptain
 "Required: Rank 2 Gundabad Forge \n Ranks a new unit to level 2 veterancy \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
@@ -2312,17 +2327,17 @@ CONTROLBAR:PurchaseUpgradeGundabadUrukCaptain
 "Uruk &Captain Upgrade"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeGundabadUrukCaptain
-"Ranks a new unit to level 2 veterancy \n Can only be equipped at Level 1 \n Purchase Captain Upgrade \n Select a battalion to equip upgrade"
+"Ranks a new unit to level 2 veterancy \n Can only be equipped at Level 1 \n Purchase Captain Upgrade \n Select a horde to equip upgrade"
 END
 TOOLTIP:LackGundabadUrukCaptain
 "Ranks a new unit to level 2 veterancy \n Purchase upgrade at Gundabad Cave to enable this equipment"
 END
 
 CONTROLBAR:PurchaseTechnologyGundabadFellArrows
-"&Fell Arrow Upgrade"
+"&Fell Arrows Upgrade"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyGundabadFellArrows
-"Adds damage to arrows \n No added damage against Structures \n Purchase Fell Arrow Upgrade \n Select a battalion to equip upgrade \n Requires Level 2 Gundabad Forge"
+"Adds damage to arrows \n No added damage against Structures \n Purchase Fell Arrow Upgrade \n Select a horde to equip upgrade \n Requires Level 2 Gundabad Forge"
 END
 TOOLTIP:FellArrowsLackLevel2GundabadCave
 "Required: Rank 2 Gundabad Forge \n +25% Damage \n No added damage against Structures \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
@@ -2346,7 +2361,7 @@ CONTROLBAR:PurchaseTechnologyGundabadScavengedArmor
 "Sca&venged Armor"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyGundabadScavengedArmor
-"+50% Armor, -20% Speed \n Purchase Scavenged Armor Upgrade \n Select a battalion to equip upgrade \n Requires Level 2 Gundabad Forge"
+"+50% Armor, -20% Speed \n Purchase Scavenged Armor Upgrade \n Select a horde to equip upgrade \n Requires Level 2 Gundabad Forge"
 END
 TOOLTIP:LackLevel2GundabadCaveArmor
 "Required: Rank 2 Gundabad Forge \n +50% Armor, -20% Speed \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
@@ -2363,7 +2378,7 @@ END
 
 
 CONTROLBAR:PurchaseTechnologyGundabadFellBlades
-"Fell &Blade Upgrade"
+"Fell &Blades Upgrade"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyGundabadFellBlades
 "Up to +36 damage \n Purchase Fell Blade Upgrade \n Select a battalion to equip upgrade \n Requires Level 2 Gundabad Forge"
@@ -2384,7 +2399,7 @@ UPGRADE:GundabadFellBlades
 "Fell Blades"
 END
 TOOLTIP:GundabadFellBlades
-"Fell Blades: +30 damage for Orcs Warriors, +25 for Orc Pikemen, +36 for Warg Riders"
+"Fell Blades: +30 damage for Orc Slashers and Berserkers, +25 for Orc Pikemen, +36 for Warg-riders"
 END
 
 
@@ -15752,12 +15767,20 @@ CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation
 "-40% Speed \n +25% Armor"
 END
 
+CONTROLBAR:ToolTipToggleGundabadOrcLooseToBlockFormation
+"-30% Speed \n +15% Armor"
+END
+
 CONTROLBAR:ToolTipToggleIFighterBlockToLooseFormation
 "Default Formation"
 END
 
 CONTROLBAR:ToolTipToggleCrossbowmanLooseToWedgeFormation
-"+25% Damage \n -25% Armor"
+"+25% Damage \n -50% Armor"
+END
+
+CONTROLBAR:ToolTipToggleGundabadArcherLooseToWedgeFormation
+"+15% Damage \n -60% Armor"
 END
 
 CONTROLBAR:ToolTipToggleCrossbowmanWedgeToLooseFormation

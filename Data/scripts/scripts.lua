@@ -1661,6 +1661,28 @@ function OnPackWolfCreated(self)
     ObjectGrantUpgrade( self, "Upgrade_GenericUpgrade6" )
 end
 
+function OnGundabadBerserkerCreated(self)
+
+    ObjectHideSubObjectPermanently( self, "FORGED_BLADE", true )
+    ObjectHideSubObjectPermanently( self, "FORGED_BLADES", true )
+    ObjectHideSubObjectPermanently( self, "FORGED_BLADE01", true )
+    ObjectHideSubObjectPermanently( self, "FireArowTip", true )
+    ObjectHideSubObjectPermanently( self, "HELMET01", true )
+    ObjectHideSubObjectPermanently( self, "HELMET02", true )
+    ObjectHideSubObjectPermanently( self, "HELMET03", true )	
+
+    local helmet         =    GetRandomNumber()
+
+    if helmet <= 0.33 then
+        ObjectHideSubObjectPermanently( self, "HELMET01", false )
+    elseif helmet <= 0.66 then
+        ObjectHideSubObjectPermanently( self, "HELMET02", false )		
+     else
+        ObjectHideSubObjectPermanently( self, "HELMET03", false )
+    end  
+	
+end
+
 function OnOrcWarriorsCreated(self)
     ObjectHideSubObjectPermanently( self, "BEARD01", true )
     ObjectHideSubObjectPermanently( self, "BEARD02", true )
