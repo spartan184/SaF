@@ -261,19 +261,19 @@ CONTROLBAR:ToolTipSentinel
 END
 
 OBJECT:RangerCamp
-"Donedain Gathering"
+"Dunedain Gathering"
 END
 
 OBJECT:RangerCampDescription
-"Allows you to recruit the Donedain of the North"
+"Allows you to recruit the Dunedain of the North"
 END
 
 CONTROLBAR:RangerCamp
-"Donedain &Gathering"
+"Dunedain &Gathering"
 END
 
 CONTROLBAR:ToolTipRangerCamp
-"Allows you to recruit the Donedain of the North"
+"Allows you to recruit the Dunedain of the North"
 END
 
 OBJECT:BreeWatchTower
@@ -466,7 +466,7 @@ CONTROLBAR:ToolTipBuildDunedainSpearmen
 END
 
 OBJECT:DunedainRanger
-"Dunadan"
+"Dunedain"
 END
 
 OBJECT:HordeDunedainRanger
@@ -478,7 +478,7 @@ CONTROLBAR:ConstructDunedainRangerHorde
 END
 
 CONTROLBAR:ToolTipDunedainRangerHorde
-"Required: Rank 3 Barracks \n Limit 3 \n Strong vs. Normal Infantry"
+"Required: Rank 3 Barracks \n Limited to 3 units \n Strong vs. Normal Infantry"
 END
 
 OBJECT:DunedainArcher
@@ -570,7 +570,7 @@ OBJECT:HordeEredLuinDwarf
 END
 
 CONTROLBAR:ToolTipBuildEredLuinDwarfHorde
-"Strong Dwarves from the Blue Mountains\n Limited to 3"
+"Strong Dwarves from the Blue Mountains\n Limited to 3 units"
 END
 
 CONTROLBAR:ConstructEredLuinDwarfHorde
@@ -1023,7 +1023,7 @@ CONTROLBAR:ConstructGondorDolAmrothHorde
 END
 
 CONTROLBAR:ToolTipBuildGondorDolAmrothHorde
-"Required: Rank 3 Stables \n Gondor's Elite cavalry unit \n Strong vs. Swordsmen, Bowmen \n Weak vs. Pikemen, Monsters \n Limited to 3"
+"Required: Rank 3 Stables \n Gondor's Elite cavalry unit \n Strong vs. Swordsmen, Bowmen \n Weak vs. Pikemen, Monsters \n Limited to 3 units"
 END
 
 OBJECT:HordeGondorDolAmroth
@@ -1043,7 +1043,7 @@ CONTROLBAR:SpecialAbilityStriderBlademaster
 END
 
 CONTROLBAR:ToolTipSpecialAbilityAragornRohanBladeMaster
-"Aragorn unleashes the power of the Donedain \n +50% Damage, +50% Armor \n left click to activate""
+"Aragorn unleashes the power of the Dunedain \n +50% Damage, +50% Armor \n left click to activate""
 END
 
 CONTROLBAR:AragornRohanLeadership
@@ -1103,7 +1103,7 @@ CONTROLBAR:ToolTipSpecialAbilityGimliHunter
 END
 
 CONTROLBAR:GimliKhazadAiMenu
-"&Khazud ai-monu!"
+"&Khazad ai-menu!"
 END
 
 CONTROLBAR:ToolTipGimliKhazad
@@ -1679,7 +1679,7 @@ CONTROLBAR:ConstructRohanMountedKingsguardHorde
 END
 
 CONTROLBAR:ToolTipBuildRohanMountedKingsguardHorde
-"Required: Rank 2 Stables \n Elite Horsemen \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan."
+"Required: Rank 2 Stables \n Elite Horsemen \n Limited to 3 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan."
 END
 
 OBJECT:RohanKingsguard
@@ -2078,7 +2078,7 @@ CONTROLBAR:ConstructGundabadBerserkerHorde
 "Gundabad &Berserkers"
 END
 CONTROLBAR:ToolTipBuildGundabadBerserkerHorde
-"Required: Rank 3 Mountain-orc Lodge - Limit 3 \n Strong vs. Spearmen, Swordsmen, Cavalry, Heroes \n Weak vs. Archers \n \n Mount Gundabad has long been occupied by large, fierce orcs under the command of Azog and his spawn."
+"Required: Rank 3 Mountain-orc Lodge \n Strong vs. Spearmen, Swordsmen, Cavalry, Heroes \n Weak vs. Archers \n Limited to 3 units \n \n Mount Gundabad has long been occupied by large, fierce orcs under the command of Azog and his spawn."
 END
 
 CONTROLBAR:ConstructGundabadOrcHorde
@@ -2127,7 +2127,7 @@ CONTROLBAR:ConstructGundabadSnowTroll
 "Stone-troll &Monstrosity"
 END
 CONTROLBAR:ToolTipBuildGundabadSnowTroll
-"Required: Rank 2 Troll Cave \n Limited to 5 units \n Strong vs. Infantry, Cavalry, Structures \n \n These Stone-trolls originate from the darkest, most hostile environments in the Misty Mountains. Their hides are tough, their grasping limbs long and powerful, and their cruelty is second to none."
+"Required: Rank 2 Troll Cave \n Strong vs. Infantry, Cavalry, Structures \n Limited to 5 units \n \n These Stone-trolls originate from the darkest, most hostile environments in the Misty Mountains. Their hides are tough, their grasping limbs long and powerful, and their cruelty is second to none."
 END
 
 CONTROLBAR:ConstructGundabadHillTrollHorde
@@ -2141,7 +2141,7 @@ CONTROLBAR:ConstructGundabadDrummerGoblin
 "Mountain-orc &Drummer"
 END
 CONTROLBAR:TooltipConstructGundabadDrummerGoblin
-"Required: Rank 3 Mountain-orc Lodge \n Limited to 4 units \n Leadership bonus to nearby infantry \n +20% Damage +15% Experience \n \n When marching to war through the piercing cold of the Misty Mountains, keeping pace is important. Orc-drummers are often seen accompanying warbands, keeping them warm and moving steadily."
+"Required: Rank 3 Mountain-orc Lodge \n Leadership bonus to nearby infantry \n +20% Damage +15% Experience \n Limited to 4 units \n \n When marching to war through the piercing cold of the Misty Mountains, keeping pace is important. Orc-drummers are often seen accompanying warbands, keeping them warm and moving steadily."
 END
 CONTROLBAR:GundabadDrummerGoblinLeadership
 "Iron Discipline"
@@ -2647,7 +2647,7 @@ CONTROLBAR:GreyCompany
 END
 
 CONTROLBAR:ToolTipGreyCompany
-"Summons two battalions of Donedain Rangers, led by Halbarad \n Left click then right click on target"
+"Summons two battalions of Dunedain Rangers, led by Halbarad \n Left click then right click on target"
 END
 
 OBJECT:GondorBeacon
@@ -14196,11 +14196,11 @@ CONTROLBAR:ToolTipBuildGondorRangerHordeForGoodIthilien
 END
 
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde
-"Required: Guards of the White Tree \n Gondor's elite defensive unit \n \n These men are the silent Guards of the White Tree. Their arms and armor, inlaid with Mithril, invoke the memory of lost Nomenor. \n Limited to 1"
+"Required: Guards of the White Tree \n Gondor's elite defensive unit \n Limited to 1 unit \n \n These men are the silent Guards of the White Tree. Their arms and armor, inlaid with Mithril, invoke the memory of lost Nomenor."
 END
 
 CONTROLBAR:ToolTipBuildGondorCitadelGuardHorde
-"Required: Rank 2 Barracks \n Gondor's elite Melee unit \n \n Charged with the defence of the White Tower and its Steward, the Citadel Guard are the elite soldiers of Gondor. \n Limited to 5"
+"Required: Rank 2 Barracks \n Gondor's elite Melee unit \n Limited to 5 units \n \n Charged with the defence of the White Tower and its Steward, the Citadel Guard are the elite soldiers of Gondor."
 END
 
 CONTROLBAR:ToolTipBuildGondorKnightHorde
@@ -14208,7 +14208,7 @@ CONTROLBAR:ToolTipBuildGondorKnightHorde
 END
 
 CONTROLBAR:ToolTipBuildGondorTrebuchet
-"Strong vs. Siege Equipment, Structures \n Weak vs. Infantry, Cavalry, Monsters, Heroes \n Limited to 5 \n \n The walls of Minas Tirith are lined with great siege machines." 
+"Strong vs. Siege Equipment, Structures \n Weak vs. Infantry, Cavalry, Monsters, Heroes \n Limited to 5 units \n \n The walls of Minas Tirith are lined with great siege machines." 
 END
 
 CONTROLBAR:ToolTipBuildGondorCounterweightPorter
@@ -14680,15 +14680,15 @@ CONTROLBAR:ToolTipBuildMordorMountainTroll
 END
 
 CONTROLBAR:ToolTipBuildMordorMumakil
-"Strong vs. Infantry, Cavalry, Heroes \n Weak vs. Fire, Siege \n Limited to 4 \n \n The Momakil of Harad were tamed and used as beasts of war by the Haradrim, who employed them to devastating effect during the Battle of the Pelennor."
+"Strong vs. Infantry, Cavalry, Heroes \n Weak vs. Fire, Siege \n Limited to 4 units \n \n The Mumakil of Harad were tamed and used as beasts of war by the Haradrim, who employed them to devastating effect during the Battle of the Pelennor."
 END
 
 CONTROLBAR:ToolTipBuildMordorSiegeTower
-"Allows infantry units to scale castle walls. \n Limited to 3 \n \n Constructed by Mordoros slaves using wood, iron and stone, siege towers advance steadily toward enemy fortifications, looking to overwhelm their defenders."
+"Allows infantry units to scale castle walls. \n Limited to 3 units \n \n Constructed by Mordoros slaves using wood, iron and stone, siege towers advance steadily toward enemy fortifications, looking to overwhelm their defenders."
 END
 
 CONTROLBAR:ToolTipBuildMordorCatapult
-"Strong vs. Structures, Siege Equipment \n Weak vs. Monsters, Infantry, Cavalry, Heroes \n Limited to 5 \n \n These vile contraptions rain down death and terror upon the Dark Lord's enemies."
+"Strong vs. Structures, Siege Equipment \n Weak vs. Monsters, Infantry, Cavalry, Heroes \n Limited to 5 units \n \n These vile contraptions rain down death and terror upon the Dark Lord's enemies."
 END
 
 CONTROLBAR:ToolTipBuildMordorGrond
@@ -14828,7 +14828,7 @@ CONTROLBAR:ToolTipBuildIsengardWargRider
 END
 
 CONTROLBAR:ToolTipBuildIsengardSiegeBallista
-"Strong vs. Infantry and Siege Equipment \n Weak vs. melee attacks \n Limited to 5 \n \n Relatively simple to use and aim, Saruman's ballistae serve to wipe out clusters of enemy troops and weaken their structures."
+"Strong vs. Infantry and Siege Equipment \n Weak vs. melee attacks \n Limited to 5 units \n \n Relatively simple to use and aim, Saruman's ballistae serve to wipe out clusters of enemy troops and weaken their structures."
 END
 
 CONTROLBAR:ToolTipBuildIsengardSiegeLadder
@@ -14840,11 +14840,11 @@ CONTROLBAR:ToolTipBuildIsengardBerserker
 END
 
 CONTROLBAR:ToolTipBuildIsengardBatteringRam
-"Breaks down castle gates and enemy structures \n Limited to 5 \n \n Heavily armored, Saruman's rams make quick work of enemy gates, lending his Uruks access to the keep beyond."
+"Breaks down castle gates and enemy structures \n Limited to 5 units \n \n Heavily armored, Saruman's rams make quick work of enemy gates, lending his Uruks access to the keep beyond."
 END
 
 CONTROLBAR:ToolTipBuildIsengardExplosiveMine
-"Required: Rank 2 Siege Works \n Blast structures, castle walls and gates \n Limited to 5 \n \n Requiring a method of breaching the Deeping Wall, Saruman produced mass quantities of highly destructive explosive powder."
+"Required: Rank 2 Siege Works \n Blast structures, castle walls and gates \n Limited to 5 units \n \n Requiring a method of breaching the Deeping Wall, Saruman produced mass quantities of highly destructive explosive powder."
 END
 
 CONTROLBAR:ToolTipBuildIsengardBannerCarrier
@@ -15140,7 +15140,7 @@ CONTROLBAR:ConstructMordorBatteringRam
 END
 
 CONTROLBAR:ToolTipBuildMordorBatteringRam
-"Breaks down castle gates and enemy structures. \n Limited to 5 \n \n Once its gate goes down, few strongholds can withstand the swarms of Mordor."
+"Breaks down castle gates and enemy structures. \n Limited to 5 units \n \n Once its gate goes down, few strongholds can withstand the swarms of Mordor."
 END
 
 CONTROLBAR:ToggleCatapultWeapons
@@ -15857,7 +15857,7 @@ CONTROLBAR:Smite
 END
 
 CONTROLBAR:ToolTipSmite
-"Powerful melee attack, Eowyn deals massively increased damage to the Witchking \n left click then right click on target"
+"Powerful melee attack, Eowyn deals massively increased damage to the Witch-king \n left click then right click on target"
 END
 
 CONTROLBAR:EowynLeadership
