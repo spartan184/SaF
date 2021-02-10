@@ -2545,7 +2545,7 @@ CONTROLBAR:ToolTipThunderBolt
 END
 
 CONTROLBAR:SarumanCalltheHorde
-"Build Me An &Army"
+"Build &Me An Army"
 END
 
 CONTROLBAR:ToolTipSarumanCalltheHorde
@@ -2607,7 +2607,7 @@ CONTROLBAR:SummonFellBeast
 "Wraiths on Wings"
 END
 CONTROLBAR:ToolTipSummonFellBeast
-"Summons three Nazgol riding Fell Beasts \n Left click then right click on target"
+"Summons two Nazgul riding Fell Beasts \n Left click then right click on target"
 END
 
 CONTROLBAR:SauronDescription
@@ -11948,11 +11948,11 @@ SCRIPT:SPSGOODAnorien
 END
 
 SCRIPT:SPSGOODMouthsOfEntwash
-"A Nazgol has been sighted in this region."
+"A Nazgul has been sighted in this region."
 END
 
 SCRIPT:SPSGOODSouthernIthilien
-"Beware the Nazgol leading forces of Mordor here."
+"Beware the Nazgul leading forces of Mordor here."
 END
 
 SCRIPT:SPSGOODNearHarad
@@ -11964,7 +11964,7 @@ SCRIPT:SPSGOODEmynArnen
 END
 
 SCRIPT:SPSGOODRhun
-"Destroy the forces of Rhon."
+"Destroy the forces of Rhun."
 END
 
 SCRIPT:SPSGOODMirkwood
@@ -14640,7 +14640,7 @@ CONTROLBAR:ToolTipBuildMordorCorsairHorde
 END
 
 CONTROLBAR:ToolTipBuildMordorEasterlingHorde
-"Required: Rank 2 Palace \n Strong vs. Cavalry \n Weak vs. Heroes \n \n The Men of Rhon have a long history of Morgoth-worship. During the late Third Age, they joined with Sauron to make up the core of his armies."
+"Required: Rank 2 Palace \n Strong vs. Cavalry \n Weak vs. Heroes \n \n The Men of Rhun have a long history of Morgoth-worship. During the late Third Age, they joined with Sauron to make up the core of his armies."
 END
 
 CONTROLBAR:ConstructMordorPorter
@@ -14684,7 +14684,7 @@ CONTROLBAR:ToolTipBuildMordorMumakil
 END
 
 CONTROLBAR:ToolTipBuildMordorSiegeTower
-"Allows infantry units to scale castle walls. \n Limited to 3 units \n \n Constructed by Mordoros slaves using wood, iron and stone, siege towers advance steadily toward enemy fortifications, looking to overwhelm their defenders."
+"Allows infantry units to scale castle walls. \n Limited to 3 units \n \n Constructed by Mordor's slaves using wood, iron and stone, siege towers advance steadily toward enemy fortifications, looking to overwhelm their defenders."
 END
 
 CONTROLBAR:ToolTipBuildMordorCatapult
@@ -18573,7 +18573,7 @@ LWA:OathbreakersArmy
 END
 
 LWA:EasterlingsArmy
-"Soldiers of Rhon Army"
+"Soldiers of Rhun Army"
 END
 
 LWA:HaradrimArmy
@@ -28281,7 +28281,7 @@ DIALOGEVENT:MGMinas_Witc001subtitle
 END
 
 DIALOGEVENT:MGMinas_Witc002subtitle
-"*Do not come between a Nazgol and his prey."
+"*Do not come between a Nazgul and his prey."
 END
 
 DIALOGEVENT:MGMinas_Witc003subtitle
