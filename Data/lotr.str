@@ -1964,6 +1964,14 @@ OBJECT:GundabadBanner
 "Mountain-orc Banner Carrier"
 END
 
+OBJECT:GundabadWargRiderBanner
+"Warg-rider Banner Carrier"
+END
+
+OBJECT:GundabadWargBanner
+"Alpha Warg"
+END
+
 OBJECT:GundabadGoblinSwarmHorde
 "Moria-orc Swarm"
 END
