@@ -1247,7 +1247,7 @@ CONTROLBAR:FireWitchKingMorgulBlade
 END
 
 CONTROLBAR:ToolTipMorgulBlade
-"Required: Rank 5 \n Stuns and greatly damages an enemy hero"
+"Required: Rank 5 \n Stuns and greatly damages an enemy hero \n Requires sword"
 END
 
 CONTROLBAR:WitchKingWight
@@ -1411,7 +1411,7 @@ CONTROLBAR:GothmogOrcs
 END
 
 CONTROLBAR:ToolTipGothmogOrcs
-"Required: Rank 3 \n Gothmog summons two hordes of orcs/orc archers"
+"Required: Rank 3 \n Gothmog summons two hordes of orcs"
 END
 
 CONTROLBAR:GollumWring
