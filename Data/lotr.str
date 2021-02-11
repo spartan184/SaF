@@ -1023,7 +1023,7 @@ CONTROLBAR:ConstructGondorDolAmrothHorde
 END
 
 CONTROLBAR:ToolTipBuildGondorDolAmrothHorde
-"Required: Rank 3 Stables \n Gondor's Elite cavalry unit \n Strong vs. Swordsmen, Bowmen \n Weak vs. Pikemen, Monsters \n Limited to 3 units"
+"Required: Rank 3 Stables \n Gondor's Elite cavalry unit \n Strong vs. Swordsmen, Archers \n Weak vs. Pikemen, Monsters \n Limited to 3 units"
 END
 
 OBJECT:HordeGondorDolAmroth
@@ -1263,7 +1263,7 @@ CONTROLBAR:WitchKingDoom
 END
 
 CONTROLBAR:ToolTipWitchKingDoom
-"Requires: Rank 10 \n Intial blast in a circular radius \n Bonus for the Witch King \n +50% Armor \n +150% Damage \n Sword is on fire"
+"Requires: Rank 10 \n Intial blast in a circular radius \n Bonus for the Witch King \n +50% Armor \n +150% Damage \n Sword alights with flame"
 END
 
 OBJECT:MordorWight
@@ -1833,6 +1833,19 @@ CONTROLBAR:ToolTipSummonGoblinHordes
 "Required: Rank 8 \n Summon two hordes of Gundabad bodyguards to Bolgs side. \n Left click to activate"
 END
 
+CONTROLBAR:UrshakLeadership
+"High Shaman"
+END
+CONTROLBAR:ToolTipUrshakLeadership
+"Leadership bonus to nearby Moria-orcs \n +50% Armor, +50% Experience \n Passive ability"
+END
+
+CONTROLBAR:UrshakShadowAndFlame
+"Shadow and &Flame"
+END
+CONTROLBAR:ToolTipUrshakShadowAndFlame
+"Required: Rank 3 \n Urshak channels his sorcery and unleashes a firey blast around him \n Left click to activate"
+END
 
 CONTROLBAR:GundabadLugLeadership
 "Leader of the Pack"
@@ -1940,6 +1953,19 @@ CONTROLBAR:GundabadLugRevive
 END
 CONTROLBAR:GundabadLugHotkey
 "&Lug the Mauled"
+END
+
+OBJECT:GundabadUrshak
+"Urshak the Shaman"
+END
+CONTROLBAR:GundabadUrshakRecruit
+"Hero Unit. \n Recruit Urshak the Shaman, terror of Mount Gundabad \n \n 'The Goblins are upon you! Bolg of the North is coming.   O Dain! whose father you slew in Moria. Behold! the bats are above his army like a sea of locusts. They ride upon wolves and Wargs are in their train!'"
+END
+CONTROLBAR:GundabadUrshakRevive
+"Revive the fallen Hero, Urshak"
+END
+CONTROLBAR:GundabadUrshakHotkey
+"&Urshak the Shaman"
 END
 
 OBJECT:DurinsBane
@@ -2128,7 +2154,7 @@ CONTROLBAR:ConstructGundabadWolfPack
 "Gundabad &Warg-scouts"
 END
 CONTROLBAR:ToolTipBuildGundabadWolfPack
-"Strong vs. Bowmen \n Weak vs. Cavalry and Heroes \n \n Fast-moving and ferocious, packs of Wargs have oft been the bane of unwary travelers."
+"Strong vs. Archers \n Weak vs. Cavalry and Heroes \n \n Fast-moving and ferocious, packs of Wargs have oft been the bane of unwary travelers."
 END
 
 CONTROLBAR:ConstructGundabadSnowTroll
@@ -2142,7 +2168,7 @@ CONTROLBAR:ConstructGundabadHillTrollHorde
 "Snow-troll &Stalkers"
 END
 CONTROLBAR:ToolTipBuildGundabadHillTrollHorde
-"Strong vs. Infantry, Cavalry \n Weak vs. Bowmen, Monsters, Heroes \n \n Snow-trolls are often thought of as a fairy-tale creature in more civilised parts of Middle-earth, but those that dwell in the harsh climate of the northern Misty Mountains and beyond know better. These wicked trolls are lean, deceptively powerful, and possess a great talent for cruelty."
+"Strong vs. Infantry, Cavalry \n Weak vs. Archers, Monsters, Heroes \n \n Snow-trolls are often thought of as a fairy-tale creature in more civilised parts of Middle-earth, but those that dwell in the harsh climate of the northern Misty Mountains and beyond know better. These wicked trolls are lean, deceptively powerful, and possess a great talent for cruelty."
 END
 
 CONTROLBAR:ConstructGundabadDrummerGoblin
@@ -13520,7 +13546,7 @@ CONTROLBAR:TooltipBuildForbiddenPoolArchers
 END
 
 CONTROLBAR:TooltipBuildForbiddenPoolKnights
-"Required: Rank 3 Forbidden Pool \n Gondor's cavalry unit \n Strong vs Swordsmen \n Weak vs Pikemen, Bowmen"
+"Required: Rank 3 Forbidden Pool \n Gondor's cavalry unit \n Strong vs Swordsmen \n Weak vs Pikemen, Archers"
 END
 
 CONTROLBAR:ToolTipGondorBuildWhiteTower
@@ -14212,7 +14238,7 @@ CONTROLBAR:ToolTipBuildGondorCitadelGuardHorde
 END
 
 CONTROLBAR:ToolTipBuildGondorKnightHorde
-"Gondor's cavalry unit \n Strong vs. Swordsmen, Bowmen \n Weak vs. Pikemen, Monsters \n \n Minas Tirith maintains a small cavalry division for the purpose of sorties and harassing the Enemy."
+"Gondor's cavalry unit \n Strong vs. Swordsmen, Archers \n Weak vs. Pikemen, Monsters \n \n Minas Tirith maintains a small cavalry division for the purpose of sorties and harassing the Enemy."
 END
 
 CONTROLBAR:ToolTipBuildGondorTrebuchet
@@ -14464,7 +14490,7 @@ CONTROLBAR:ToolTipBuildRohanHorseShieldPorter
 END
 
 CONTROLBAR:ToolTipBuildTreebeard
-"Strong vs. Swordsmen, Siege Equipment \n Weak vs. Bowmen, Fire"
+"Strong vs. Swordsmen, Siege Equipment \n Weak vs. Archers, Fire"
 END
 
 TOOLTIP:RohanHeavyArmor
@@ -14632,7 +14658,7 @@ CONTROLBAR:ToolTipBuildMordorOrcFighterHorde
 END
 
 CONTROLBAR:ToolTipBuildMordorOrcFighterHordeShelobsLair
-"Strong vs. Bowmen \n Weak vs. Cavalry, Monsters, Heroes"
+"Strong vs. Archers \n Weak vs. Cavalry, Monsters, Heroes"
 END
 
 CONTROLBAR:ToolTipBuildMordorOrcArcherHorde
@@ -14920,7 +14946,7 @@ CONTROLBAR:ConstructEntBirch
 END
 
 CONTROLBAR:ToolTipBuildEnt
-"Strong vs. Swordsmen, Siege Equipment \n Weak vs. Bowmen, Fire"
+"Strong vs. Swordsmen, Siege Equipment \n Weak vs. Archers, Fire"
 END
 
 CONTROLBAR:ToolTipBuildEntFir
@@ -15140,7 +15166,7 @@ CONTROLBAR:DescriptionConstructMordorDrummerTrolls
 END
 
 CONTROLBAR:TooltipConstructMordorDrummerTrolls
-"Required: Level 2 Troll Cage \n Strong vs. Bowmen \n Weak vs. siege \n Leadership bonus: \n +50% Armor, +50% Damage +200% Experience \n \n Beating its giant drum, a drummer troll conveys march and formation orders, keeping Mordor's rabble in check."
+"Required: Level 2 Troll Cage \n Strong vs. Archers \n Weak vs. siege \n Leadership bonus: \n +50% Armor, +50% Damage +200% Experience \n \n Beating its giant drum, a drummer troll conveys march and formation orders, keeping Mordor's rabble in check."
 END
 
 CONTROLBAR:ConstructMordorBatteringRam

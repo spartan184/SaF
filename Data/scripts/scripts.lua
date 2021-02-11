@@ -1,4 +1,7 @@
 -- define lua functions
+function OnUrshakCreated(self)
+end
+
 function OnTrollGenericEvent(self,data)
 
 	local str = tostring( data )
