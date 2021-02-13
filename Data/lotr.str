@@ -14982,7 +14982,7 @@ CONTROLBAR:ConstructElvenWarriorHorde
 END
 
 CONTROLBAR:ToolTipBuildElvenWarriorHorde
-"Required: Rank 2 Archery Range \n Skilled with Bow and Sword"
+"Required: Elven Alliance \n Skilled with Bow and Sword"
 END
 
 CONTROLBAR:ToolTipBuildElvenWarriorHordeWithNoPrerequisites
