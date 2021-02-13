@@ -101,12 +101,26 @@
 		<ModelConditionEvent Name="User1Lost">
 			<Conditions>-USER_1</Conditions>
 		</ModelConditionEvent>
+
+        <ModelConditionEvent Name="User2Achieved">
+			<Conditions>+USER_2</Conditions>
+		</ModelConditionEvent>
+		<ModelConditionEvent Name="User2Lost">
+			<Conditions>-USER_2</Conditions>
+		</ModelConditionEvent>
 		
 		<ModelConditionEvent Name="User3Achieved">
 			<Conditions>+USER_3</Conditions>
 		</ModelConditionEvent>
 		<ModelConditionEvent Name="User3Lost">
 			<Conditions>-USER_3</Conditions>
+		</ModelConditionEvent>
+
+        <ModelConditionEvent Name="User4Achieved">
+			<Conditions>+USER_4</Conditions>
+		</ModelConditionEvent>
+		<ModelConditionEvent Name="User4Lost">
+			<Conditions>-USER_4</Conditions>
 		</ModelConditionEvent>
 		
 		<ModelConditionEvent Name="User5Achieved">
@@ -218,17 +232,31 @@
     
     <EventList Name="InfantryFunctions" Inherit="BaseScriptFunctions">
 		<!-- These are events that will apply to all infantry.  Any infantry units should inherit this set. jba -->
+        <EventHandler EventName="BeAfraidOfBalrog"			ScriptFunctionName="BecomeAfraidOfBalrog"		        DebugSingleStep="false"/>
+        <EventHandler EventName="BeAfraidOfRampage"			ScriptFunctionName="BecomeAfraidOfRampage"		        DebugSingleStep="false"/>
+		<EventHandler EventName="BeTerrified"				ScriptFunctionName="BecomeTerrified"			        DebugSingleStep="false"/>
+		<EventHandler EventName="BeUncontrollablyAfraid"	ScriptFunctionName="BecomeUncontrollablyAfraid"         DebugSingleStep="false"/>
+    </EventList>
+
+    <EventList Name="SaFInfantryFunctions" Inherit="InfantryFunctions">
+		<!-- These are events that will apply to all infantry.  Any infantry units should inherit this set. This setup is for more emotion. -->
+        <EventHandler EventName="BeTerrified"				ScriptFunctionName="BecomeTerrified"			DebugSingleStep="false"/>
+		<EventHandler EventName="BeUncontrollablyAfraid"	ScriptFunctionName="BecomeUncontrollablyAfraid"	DebugSingleStep="false"/>
         <EventHandler EventName="BeAfraidOfBalrog"			ScriptFunctionName="BecomeAfraidOfBalrog"		DebugSingleStep="false"/>
-        <EventHandler EventName="BeAfraidOfRampage"			ScriptFunctionName="BecomeAfraidOfRampage"		DebugSingleStep="false"/>
-		<EventHandler EventName="BeTerrified"				ScriptFunctionName="BecomeTerrified"			DebugSingleStep="false"/>
-		<EventHandler EventName="BeUncontrollablyAfraid"	ScriptFunctionName="BecomeUncontrollablyAfraid" DebugSingleStep="false"/>
+		<EventHandler EventName="BeAfraidOfPhial"			ScriptFunctionName="BecomeAfraidOfPhial" 		DebugSingleStep="false"/>
+		<EventHandler EventName="BeAfraidOfGateDamaged"		ScriptFunctionName="BecomeAfraidOfGateDamaged" 	DebugSingleStep="false"/>
+		<EventHandler EventName="BeAfraidOfRampage"			ScriptFunctionName="BecomeAfraidOfRampage" 		DebugSingleStep="false"/>
     </EventList>
     
     <EventList Name="CavalryFunctions" Inherit="BaseScriptFunctions">
 		<!-- These are events that will apply to all infantry.  Any infantry units should inherit this set. jba -->
-        <EventHandler EventName="BeAfraidOfBalrog"	ScriptFunctionName="BecomeAfraidOfBalrog"		DebugSingleStep="false"/>
-        <EventHandler EventName="BeAfraidOfRampage"	ScriptFunctionName="BecomeAfraidOfRampage"		DebugSingleStep="false"/>
-		<EventHandler EventName="BeTerrified"			ScriptFunctionName="BecomeTerrified" DebugSingleStep="false"/>
+        <EventHandler EventName="BeAfraidOfBalrog"	        ScriptFunctionName="BecomeAfraidOfBalrog"		        DebugSingleStep="false"/>
+        <EventHandler EventName="BeAfraidOfRampage"	        ScriptFunctionName="BecomeAfraidOfRampage"		        DebugSingleStep="false"/>
+		<EventHandler EventName="BeTerrified"			    ScriptFunctionName="BecomeTerrified"                    DebugSingleStep="false"/>
+        <EventHandler EventName="User4Achieved"	            ScriptFunctionName="BecomeUncontrollablyAfraid"    DebugSingleStep="false"/>
+    </EventList>
+
+    <EventList Name="ArcherFunctions" Inherit="SaFInfantryFunctions">
     </EventList>
 
     <EventList Name="SummonedRohirrimFunctions" Inherit="CavalryFunctions">
@@ -242,11 +270,8 @@
 	<EventList Name="GondorDolAmrothFunctions" Inherit="CavalryFunctions">
         <EventHandler EventName="OnCreated" ScriptFunctionName="OnGondorDolAmrothCreated" DebugSingleStep="false"/>
     </EventList>
-    
-    <EventList Name="ArcherFunctions" Inherit="SaFInfantryFunctions">
-    </EventList>
 
-	<EventList Name="RohanElvenWarriorFunctions" Inherit="InfantryFunctions">
+	<EventList Name="RohanElvenWarriorFunctions" Inherit="SaFInfantryFunctions">
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnElvenWarriorCreated" DebugSingleStep="false"/>
     </EventList> 
     
@@ -287,7 +312,7 @@
 		<EventHandler EventName="OnDestroyed"	ScriptFunctionName="StopChantForUnit"	DebugSingleStep="false"/>		
     </EventList>
 
-    <EventList Name="MordorOrcFunctions" Inherit="InfantryFunctions">
+    <EventList Name="MordorOrcFunctions" Inherit="SaFInfantryFunctions">
 		<!-- This contains events specific to the Orc units. -->
         <EventHandler EventName="BeginChanting"		ScriptFunctionName="BeginCheeringForGrond"	DebugSingleStep="false"/>
         <EventHandler EventName="StopChanting"		ScriptFunctionName="StopCheeringForGrond"	DebugSingleStep="false"/>
@@ -337,11 +362,11 @@
 		<EventHandler EventName="User5Achieved"	ScriptFunctionName="EndlessSupplyGrantUpgrades"	DebugSingleStep="false"/>
     </EventList>
 
-    <EventList Name="HaradrimFunctions" Inherit="InfantryFunctions">
+    <EventList Name="HaradrimFunctions" Inherit="SaFInfantryFunctions">
 		<!-- This contains events specific to the Haradrim -->
     </EventList>
     
-    <EventList Name="GondorFighterFunctions" Inherit="InfantryFunctions">
+    <EventList Name="GondorFighterFunctions" Inherit="SaFInfantryFunctions">
 		<!-- This contains events specific to the Gondor Fighter horde member. jba -->
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnGondorFighterCreated" DebugSingleStep="false"/>
         <EventHandler EventName="RecoverFromTerror"		ScriptFunctionName="GondorFighterRecoverFromTerror"				DebugSingleStep="false"/>
@@ -396,15 +421,6 @@
 	
 	
 	<!-- Shadow and Flame events go here -->
-    <EventList Name="SaFInfantryFunctions" Inherit="BaseScriptFunctions">
-		<!-- These are events that will apply to all infantry.  Any infantry units should inherit this set. This setup is for more emotion. -->
-        <EventHandler EventName="BeTerrified"				ScriptFunctionName="BecomeTerrified"			DebugSingleStep="false"/>
-		<EventHandler EventName="BeUncontrollablyAfraid"	ScriptFunctionName="BecomeUncontrollablyAfraid"	DebugSingleStep="false"/>
-        <EventHandler EventName="BeAfraidOfBalrog"			ScriptFunctionName="BecomeAfraidOfBalrog"		DebugSingleStep="false"/>
-		<EventHandler EventName="BeAfraidOfPhial"			ScriptFunctionName="BecomeAfraidOfPhial" 		DebugSingleStep="false"/>
-		<EventHandler EventName="BeAfraidOfGateDamaged"		ScriptFunctionName="BecomeAfraidOfGateDamaged" 	DebugSingleStep="false"/>
-		<EventHandler EventName="BeAfraidOfRampage"			ScriptFunctionName="BecomeAfraidOfRampage" 		DebugSingleStep="false"/>
-    </EventList>
 			<!-- This event is for Endless Supplies -->
 	<EventList Name="IsengardBaseHordeFunctions" Inherit="SaFInfantryFunctions">
 		<EventHandler EventName="User5Achieved"	ScriptFunctionName="EndlessSupplyGrantUpgrades"	DebugSingleStep="false"/>
@@ -567,7 +583,7 @@
 		<EventHandler EventName="WeaponlockDeactivated" ScriptFunctionName="HordeFireArrowDeactivationHook"  DebugSingleStep="false"/>
     </EventList>
 	
-	<EventList Name="MordorArcherFunctions" Inherit="InfantryFunctions">
+	<EventList Name="MordorArcherFunctions" Inherit="SaFInfantryFunctions">
         <EventHandler EventName="OnCreated"			ScriptFunctionName="OnMordorArcherCreated" DebugSingleStep="false"/>
 		<EventHandler EventName="User3Achieved"	ScriptFunctionName="OnFireSpecialActivation"  DebugSingleStep="false"/>
 		<EventHandler EventName="User3Lost" ScriptFunctionName="OnFireSpecialStop"  DebugSingleStep="false"/>
@@ -598,7 +614,7 @@
         <EventHandler EventName="OnCreated" ScriptFunctionName="OnHaldirCreated" DebugSingleStep="false"/>
     </EventList>
 	
-	<EventList Name="GoblinFunctions" Inherit="InfantryFunctions">
+	<EventList Name="GoblinFunctions" Inherit="SaFInfantryFunctions">
         <EventHandler EventName="OnCreated"			ScriptFunctionName="OnGoblinCreated" DebugSingleStep="false"/>
     </EventList>
 	
@@ -639,11 +655,14 @@
         <EventHandler EventName="OnCreated" ScriptFunctionName="GundabadWargRiderCreated" DebugSingleStep="false"/>
     </EventList>
 
-    <EventList Name="BodyGuardOrcFunctions" Inherit="InfantryFunctions">
+    <EventList Name="BodyGuardOrcFunctions" Inherit="SaFInfantryFunctions">
         <EventHandler EventName="OnCreated"                ScriptFunctionName="OnBodyGuardOrcCreated" DebugSingleStep="false"/>
     </EventList>
 
     <EventList Name="UrshakFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnUrshakCreated" DebugSingleStep="false"/>
+        <EventHandler EventName="UsingSpecialOne"		ScriptFunctionName="RadiateUncontrollableFearUrshak"	DebugSingleStep="false"/>
+    </EventList>
+
     </EventList>
 </SageLuaScriptSection>

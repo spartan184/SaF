@@ -1,6 +1,9 @@
 -- define lua functions
 function OnUrshakCreated(self)
 end
+function RadiateUncontrollableFearUrshak( self )
+    ObjectBroadcastEventToEnemies( self, "BeUncontrollablyAfraid", 100 )
+end
 
 function OnTrollGenericEvent(self,data)
 
