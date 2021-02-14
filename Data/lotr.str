@@ -1840,18 +1840,25 @@ CONTROLBAR:ToolTipUrshakLeadership
 "Leadership bonus to nearby Moria-orcs \n +50% Armor, +50% Experience \n Passive ability"
 END
 
-CONTROLBAR:UrshakShadowAndFlame
-"Shadow and &Flame"
+CONTROLBAR:UrshakWordOfHoar
+"&Word of Hoar"
 END
-CONTROLBAR:ToolTipUrshakShadowAndFlame
-"Required: Rank 8 \n Urshak channels his sorcery and unleashes a firey blast that deals great damage to all units around him \n Left click to activate"
+CONTROLBAR:ToolTipUrshakWordOfHoar
+"Required: Rank 3 \n Urshak utters a dark incantation, cursing the enemy. Stuns Target Hero for a short duration \n Left click then right click on target"
 END
 
 CONTROLBAR:UrshakDarkProphecy
 "&Dark Prophecy"
 END
 CONTROLBAR:ToolTipUrshakDarkProphecy
-"Required: Rank 5 \n Urshak unveils his prophecy come true. Target units in the area have their leadership removed and are stunned for a short duration \n Left click then right click on target"
+"Required: Rank 5 \n Urshak unveils his prophecy come true. Target units in the area have their leadership removed and are stunned with fear for a short duration \n Does not affect Heroes \n Left click then right click on target"
+END
+
+CONTROLBAR:UrshakShadowAndFlame
+"Shadow and &Flame"
+END
+CONTROLBAR:ToolTipUrshakShadowAndFlame
+"Required: Rank 8 \n Urshak channels his sorcery and unleashes a firey blast that deals great damage to all units around him in a small radius \n Left click to activate"
 END
 
 CONTROLBAR:GundabadLugLeadership
@@ -1880,18 +1887,20 @@ CONTROLBAR:ThisIsNotReallyReadInGame12
 "Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
 END
 
-CONTROLBAR:GundabadAltar
-"Summon Gundabad Altar"
-END
-CONTROLBAR:ToolTipGundabadAltar
-"Freezes an area of terrain and calls a giant wolf-head statue from Mount Gundabad. \n All ally units get +50% Armor \n All enemy units lose 25% Speed and all leadership bonuses \n Does not affect Heroes \n Left click then right click on target"
-END
-
-CONTROLBAR:DrumsDeep
+OBJECT:GundabadDrumsDeep
 "Drums in the Deep"
 END
-CONTROLBAR:ToolTipDrumsDeep
-"Unlocks Moria Goblins from the Gundabad Cave, \n and summoned Goblins from the \n Gundabad Mine \n Passive power"
+OBJECT:GundabadDrumsDeepDescription
+"Drums in the Deep. Surrounding units gain +50% armor. Enemy leadership is negated. \n Left click then right click on target"
+END
+CONTROLBAR:GundabadDrumsDeep
+"Drums in the Deep"
+END
+CONTROLBAR:ToolTipGundabadDrumsDeep
+"Spawns the Drums in the Deep. Surrounding units gain +50% armor. Enemy leadership is negated. \n Left click then right click on target"
+END
+CONTROLBAR:ToolTipGundabadDrumsDeepLeadership
+"Drums in the Deep. Surrounding units gain +50% armor. Enemy leadership is negated. \n Left click then right click on target"
 END
 
 
@@ -1908,6 +1917,13 @@ CONTROLBAR:SummonWolfPack
 END
 CONTROLBAR:ToolTipSummonWolfPack
 "Summons a pack of Wargs \n Left click then right click on target"
+END
+
+CONTROLBAR:FrigidWinds
+"Frigid Winds"
+END
+CONTROLBAR:ToolTipFrigidWinds
+"+50% damage, +50% Armor to targeted units \n left click then right click on target"
 END
 
 CONTROLBAR:HarshCold
@@ -2238,6 +2254,7 @@ END
 OBJECT:GundabadMineDescription
 "Produces resources. \n Reduces cost of infantry with each mine built. \n 2 Mines: 5% \n 3 Mines: 10% \n 4 Mines: 15% \n 5 Mines: 20% \n 6 Mines: 25%"
 END
+
 GUI:MINE_DISCOUNT
 "Mine Bonus -%d%%"
 END
@@ -2282,7 +2299,7 @@ CONTROLBAR:ConstructGundabadMine
 "Build a Gundabad &Mine"
 END
 CONTROLBAR:ToolTipGundabadMine
-"Produces resources. \n Reduces cost of infantry with each mine built. \n 2 Mines: 5% \n 3 Mines: 10% \n 4 Mines: 15% \n 5 Mines: 20% \n 6 Mines: 25%"
+"Produces resources \n Trains Moria-orc Swarms \n Reduces cost of infantry with each mine built \n 2 Mines: 5% \n 3 Mines: 10% \n 4 Mines: 15% \n 5 Mines: 20% \n 6 Mines: 25%"
 END
 
 CONTROLBAR:ConstructGundabadCave
@@ -2842,22 +2859,6 @@ End
 CONTROLBAR:ToolTipMorgulDread
 "When activated, enemy units flee in terror for a limited time."
 End
-
-OBJECT:GundabadAltar
-"Gundabad Defiled Sanctuary"
-END
-
-OBJECT:GundabadAltarDescription
-"Surrounding units gain +50% armor. \n Enemy leadership is negated."
-END
-
-CONTROLBAR:SummonGundabadAltar
-"Defiled Sanctuary"
-END
-
-CONTROLBAR:ToolTipSummonGundabadAltar
-"Spawns a Gundabad Defiled Sanctuary. Surrounding units gain +50% armor. Enemy leadership is negated. \n Left click then right click on target"
-END
 
 CONTROLBAR:MorgulDread
 "Chillwind"
@@ -17581,6 +17582,10 @@ APT:Mordor
 "Mordor"
 END
 
+APT:Gundabad
+"Gundabad"
+END
+
 APT:GondorCaps
 "GONDOR"
 END
@@ -17595,6 +17600,10 @@ END
 
 APT:MordorCaps
 "MORDOR"
+END
+
+APT:MGundabadCaps
+"GUNDABAD"
 END
 
 APT:ArmyWinPercentages
