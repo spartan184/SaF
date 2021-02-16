@@ -7,13 +7,6 @@ end
 
 function OnTrollGenericEvent(self,data)
 
-	local str = tostring( data )
-
-	if str == "show_rock" then
-		ObjectHideSubObjectPermanently( self, "ROCK", false )
-	elseif str == "hide_rock" then
-		ObjectHideSubObjectPermanently( self, "ROCK", true )
-	end
 end
 
 function OnBodyGuardOrcCreated(self)
@@ -2115,6 +2108,11 @@ function OnGundabadTrollCreated(self)
 	ObjectHideSubObjectPermanently( self, "ARMOR", true )
 	ObjectHideSubObjectPermanently( self, "PAULDRONS", true )
 	-- ObjectGrantUpgrade( self, "Upgrade_SwitchToRockThrowing" )
+end
+
+function OnGundabadCaveTrollCreated(self)
+	ObjectHideSubObjectPermanently( self, "TRUNK01", true )
+    ObjectHideSubObjectPermanently( self, "ROCK", true )
 end
 
 function OnEntCreated(self)

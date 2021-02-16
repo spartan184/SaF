@@ -153,6 +153,13 @@
 		<EventHandler EventName="BeTerrified" ScriptFunctionName="BecomeTerrified" DebugSingleStep="false"/>
         <EventHandler EventName="OnGenericEvent" ScriptFunctionName="OnTrollGenericEvent" DebugSingleStep="false"/>
     </EventList>
+
+    <EventList Name="GundabadCaveTrollFunctions" Inherit="BaseScriptFunctions">
+        <EventHandler EventName="ReallyDamaged"	ScriptFunctionName="GoIntoRampage" DebugSingleStep="false"/>
+        <EventHandler EventName="OnCreated" ScriptFunctionName="OnGundabadCaveTrollCreated" DebugSingleStep="false"/>
+		<EventHandler EventName="BeTerrified" ScriptFunctionName="BecomeTerrified" DebugSingleStep="false"/>
+        <EventHandler EventName="OnGenericEvent" ScriptFunctionName="OnTrollGenericEvent" DebugSingleStep="false"/>
+    </EventList>
     
     <EventList Name="SauronFunctions" Inherit="BaseScriptFunctions">
 		<EventHandler EventName="OnCreated"			ScriptFunctionName="OnMordorSauronCreated"		DebugSingleStep="false"/>

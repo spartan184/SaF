@@ -1851,7 +1851,7 @@ CONTROLBAR:UrshakDarkProphecy
 "&Dark Prophecy"
 END
 CONTROLBAR:ToolTipUrshakDarkProphecy
-"Required: Rank 5 \n Urshak unveils his prophecy come true. Target units in the area have their leadership removed and are stunned with fear for a short duration \n Does not affect Heroes \n Left click then right click on target"
+"Required: Rank 5 \n Urshak unveils his prophecy come true. Target units in the area have their leadership removed and are stunned with fear for a short duration \n Does not affect Heroes \n Left click to activate"
 END
 
 CONTROLBAR:UrshakShadowAndFlame
@@ -1930,7 +1930,7 @@ CONTROLBAR:HarshCold
 "Fell Winter"
 END
 CONTROLBAR:ToolTipHarshCold
-"Enemy units in targeted area lose health over time \n and temporarily lose 50% speed and 25% armor and attack \n Does not affect Heroes \n Left click then right click on target area"
+"Enemy heroes and units in targeted area lose health over time \n and temporarily lose 50% speed and 25% armor and 25% damage \n Left click then right click on target area"
 END
 
 CONTROLBAR:SummonGiantBats
@@ -1982,10 +1982,10 @@ OBJECT:GundabadUrshak
 "Urshak the Shaman"
 END
 CONTROLBAR:GundabadUrshakRecruit
-"Hero Unit. \n Recruit Urshak the Shaman, terror of Mount Gundabad \n \n 'The Goblins are upon you! Bolg of the North is coming.   O Dain! whose father you slew in Moria. Behold! the bats are above his army like a sea of locusts. They ride upon wolves and Wargs are in their train!'"
+"Hero Unit. \n Recruit Urshak the Shaman \n \n 'A powerful and zealous shaman, Urshak is capable of elevating even the meekest of his followers into committing acts of great cruelty and derangement.'"
 END
 CONTROLBAR:GundabadUrshakRevive
-"Revive the fallen Hero, Urshak"
+"Revive the fallen Orcish Shaman, Urshak"
 END
 CONTROLBAR:GundabadUrshakHotkey
 "&Urshak the Shaman"
@@ -2096,6 +2096,10 @@ OBJECT:GundabadSnowTroll
 "Stone-troll Monstrosity"
 END
 
+OBJECT:GundabadCaveTroll
+"Cave-troll"
+END
+
 OBJECT:GundabadHillTroll
 "Snow-troll Stalker"
 END
@@ -2184,14 +2188,21 @@ CONTROLBAR:ConstructGundabadSnowTroll
 "Stone-troll &Monstrosity"
 END
 CONTROLBAR:ToolTipBuildGundabadSnowTroll
-"Required: Rank 2 Troll Cave \n Strong vs. Infantry, Cavalry, Structures \n Limited to 5 units \n \n These Stone-trolls originate from the darkest, most hostile environments in the Misty Mountains. Their hides are tough, their grasping limbs long and powerful, and their cruelty is second to none."
+"Required: Rank 3 Troll Cave \n Strong vs. Infantry, Cavalry, Structures \n Limited to 5 units \n \n These Stone-trolls originate from the darkest, most hostile environments in the Misty Mountains. Their hides are tough, their grasping limbs long and powerful, and their cruelty is second to none."
+END
+
+CONTROLBAR:ConstructGundabadCaveTroll
+"&Cave-troll"
+END
+CONTROLBAR:ToolTipBuildGundabadCaveTroll
+"Strong vs. Swordsmen and Structures \n \n Pestered and tormented for years by its goblin captors, this small and relatively docile Troll has been blinded by rage and frustration."
 END
 
 CONTROLBAR:ConstructGundabadHillTrollHorde
 "Snow-troll &Stalkers"
 END
 CONTROLBAR:ToolTipBuildGundabadHillTrollHorde
-"Strong vs. Infantry, Cavalry \n Weak vs. Archers, Monsters, Heroes \n \n Snow-trolls are often thought of as a fairy-tale creature in more civilised parts of Middle-earth, but those that dwell in the harsh climate of the northern Misty Mountains and beyond know better. These wicked trolls are lean, deceptively powerful, and possess a great talent for cruelty."
+"Required: Rank 2 Troll Cave \n Strong vs. Infantry, Cavalry \n Weak vs. Archers, Monsters, Heroes \n \n Snow-trolls are often thought of as a fairy-tale creature in more civilised parts of Middle-earth, but those that dwell in the harsh climate of the northern Misty Mountains and beyond know better. These wicked trolls are lean, deceptively powerful, and possess a great talent for cruelty."
 END
 
 CONTROLBAR:ConstructGundabadDrummerGoblin
