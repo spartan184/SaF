@@ -3,6 +3,14 @@ CONTROLBAR:ThisIsNotReallyReadInGame1
 "Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
 END
 
+CONTROLBAR:AttackTrollPassiveLeadership
+"Olog-hai Attack-troll"
+END
+
+CONTROLBAR:ToolTipAttackTrollPassiveLeadership
+"Required: Rank 5 \n Upgrades Mountain-troll into a deadly Attack-troll \n Troll gains 50% armor vs Pierce, 25% damage increase \n Passive ability \n \n The cruelest, most intelligent of the Olog-hai were clad in jagged black armor and sent to the front line to serve as some of Sauron's most feared warriors."
+END
+
 CONTROLBAR:ToolTipMerryEsquirePassiveLeadership
 "Merry is Emboldened in the presence of the Lady. \n Merry gains +100% Damage while near Eowyn. \n Passive ability"
 END
@@ -1347,7 +1355,7 @@ OBJECT:MordorMouth
 End
 
 CONTROLBAR:MordorMouthRecruit
-"Hero Unit. Recruit the Black Nomenorean Emissary of Sauron. \n \n 'Surety you crave! Sauron gives none. If you sue for his clemency then you must do his bidding.'"
+"Hero Unit. Recruit the Black Numenorean Emissary of Sauron. \n \n 'Surety you crave! Sauron gives none. If you sue for his clemency then you must do his bidding.'"
 END
 
 CONTROLBAR:MordorMouthRevive
@@ -1355,7 +1363,7 @@ CONTROLBAR:MordorMouthRevive
 END
 
 CONTROLBAR:MordorMouthHotkey
-"&Mouth"
+"&Mouth of Sauron"
 END
 
 CONTROLBAR:VileEloquence
@@ -2685,6 +2693,10 @@ END
 
 CONTROLBAR:Sauron
 "The Dark Lord"
+END
+
+CONTROLBAR:SauronHover
+"The Dark Lord Sauron"
 END
 
 CONTROLBAR:ToolTipSauron
@@ -10873,11 +10885,11 @@ OBJECT:MordorMumakil
 END
 
 OBJECT:MordorMountainTroll
-"Mordor Mountain Troll"
+"Mordor Mountain-troll"
 END
 
 OBJECT:MordorCaveTroll
-"Cave Troll"
+"Cave-troll"
 END
 
 OBJECT:MordorHaradrimOverlord
@@ -10913,7 +10925,7 @@ OBJECT:MordorGrond
 END
 
 OBJECT:MordorSauron
-"Recruit &Sauron"
+"Recruit The Dark Lord &Sauron"
 END
 
 OBJECT:MordorDrummerTroll
@@ -14257,7 +14269,7 @@ CONTROLBAR:ToolTipBuildGondorRangerHordeForGoodIthilien
 END
 
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde
-"Required: Guards of the White Tree \n Gondor's elite defensive unit \n Limited to 1 unit \n \n These men are the silent Guards of the White Tree. Their arms and armor, inlaid with Mithril, invoke the memory of lost Nomenor."
+"Required: Guards of the White Tree \n Gondor's elite defensive unit \n Limited to 1 unit \n \n These men are the silent Guards of the White Tree. Their arms and armor, inlaid with Mithril, invoke the memory of lost Numenor."
 END
 
 CONTROLBAR:ToolTipBuildGondorCitadelGuardHorde
@@ -14537,19 +14549,19 @@ TOOLTIP:RohanFlamingArrows
 END
 
 CONTROLBAR:ToolTipBuildTheoden
-"Hero Unit. The King of Rohan, Thooden"
+"Hero Unit. The King of Rohan, Theoden"
 END
 
 CONTROLBAR:RohanTheodenRecruit
-"Hero Unit. Recruit The King of Rohan, Thooden"
+"Hero Unit. Recruit The King of Rohan, Theoden"
 END
 
 CONTROLBAR:RohanTheodenRevive
-"Revive the fallen Hero, Thooden"
+"Revive the fallen Hero, Theoden"
 END
 
 CONTROLBAR:RohanTheodenHotkey
-"&Thooden"
+"&Theoden"
 END
 
 CONTROLBAR:ToolTipBuildEowyn
@@ -14693,7 +14705,7 @@ CONTROLBAR:ToolTipBuildMordorOrcArcherHorde
 END
 
 CONTROLBAR:ToolTipBuildMordorHaradrimHorde
-"Strong vs. Swordsmen \n Weak vs. Archers \n \n Ever since the southern landings of the Nomenoreans in the Second Age, the people of Haradwaith have been at odds with the West, eventually pledging their allegiance to Mordor."
+"Strong vs. Swordsmen \n Weak vs. Archers \n \n Ever since the southern landings of the Numenoreans in the Second Age, the people of Haradwaith have been at odds with the West, eventually pledging their allegiance to Mordor."
 END
 
 CONTROLBAR:ToolTipBuildMordorCorsairHorde
@@ -15477,7 +15489,7 @@ CONTROLBAR:GloriousCharge
 END
 
 CONTROLBAR:ToolTipGloriousCharge
-"Required: Rank 4 \n Thooden and nearby troops +30% damage, +75% armor and don't slow down while crushing \n Theoden must be mounted to use ability \n Left click to activate"
+"Required: Rank 4 \n Theoden and nearby troops +30% damage, +75% armor and don't slow down while crushing \n Theoden must be mounted to use ability \n Left click to activate"
 END
 
 CONTROLBAR:TheodenMount

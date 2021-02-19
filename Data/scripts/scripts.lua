@@ -2099,6 +2099,31 @@ end
 
 function OnTrollCreated(self)
     ObjectHideSubObjectPermanently( self, "Trunk01", true )
+    ObjectHideSubObjectPermanently( self, "ROCK", true )
+    ObjectHideSubObjectPermanently( self, "CLUB_01", true )
+    ObjectHideSubObjectPermanently( self, "HMR_02", true )
+end
+function OnTrollWeaponToggleOn(self)
+    if ObjectTestModelCondition(self, "WEAPONSET_TOGGLE_1") then
+       ObjectDoSpecialPower( self, "SpecialAbilityGrabPassenger" )
+--       ObjectGrantUpgrade( self, "Upgrade_GenericUpgrade5" )
+--     ObjectHideSubObjectPermanently( self, "ROCK", false )  
+    end
+end
+function OnTrollWeaponToggleOff(self)
+    ObjectHideSubObjectPermanently( self, "ROCK", true )  
+end
+function OnTrollWeaponsetPlayerUpgrade(self)
+    ObjectHideSubObjectPermanently( self, "CLUB_01", true )
+    ObjectHideSubObjectPermanently( self, "HMR_02", true )
+
+    local weapon 			=   GetRandomNumber()
+
+    if weapon <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "CLUB_01", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HMR_02", false )
+    end
 end
 
 function OnGundabadTrollCreated(self)

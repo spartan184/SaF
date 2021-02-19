@@ -136,6 +136,17 @@
 		<ModelConditionEvent Name="WeaponlockDeactivated">
 			<Conditions>-WEAPONLOCK_SECONDARY</Conditions>
 		</ModelConditionEvent>
+
+        <ModelConditionEvent Name="WeaponsetToggleOn">
+			<Conditions>+WEAPONSET_TOGGLE_1</Conditions>
+		</ModelConditionEvent>
+		<ModelConditionEvent Name="WeaponsetToggleOff">
+			<Conditions>-WEAPONSET_TOGGLE_1</Conditions>
+		</ModelConditionEvent>
+
+        <ModelConditionEvent Name="WeaponsetPlayerUpgrade">
+			<Conditions>+WEAPONSET_PLAYER_UPGRADE</Conditions>
+		</ModelConditionEvent>
 		
     </Events>
 	
@@ -145,6 +156,9 @@
     <EventList Name="TrollFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="ReallyDamaged"	ScriptFunctionName="GoIntoRampage" DebugSingleStep="false"/>
         <EventHandler EventName="OnCreated" ScriptFunctionName="OnTrollCreated" DebugSingleStep="false"/>
+        <EventHandler EventName="WeaponsetToggleOn" ScriptFunctionName="OnTrollWeaponToggle" DebugSingleStep="false"/>
+        <EventHandler EventName="WeaponsetToggleOff" ScriptFunctionName="OnTrollWeaponToggle" DebugSingleStep="false"/>
+        <EventHandler EventName="WeaponsetPlayerUpgrade" ScriptFunctionName="OnTrollWeaponsetPlayerUpgrade" DebugSingleStep="false"/>
     </EventList>
 	
     <EventList Name="GundabadTrollFunctions" Inherit="BaseScriptFunctions">
