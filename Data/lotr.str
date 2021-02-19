@@ -2879,8 +2879,16 @@ CONTROLBAR:ToolTipMorgulDread
 "When activated, enemy units are frozen in place for a limited time."
 End
 
+OBJECT:IsengardGrishnakh
+"Grishnakh"
+END
+
+CONTROLBAR:IsengardGrishnakhHotkey
+"&Grishnakh"
+END
+
 OBJECT:IsengardGrima
-"Groma Wormtongue"
+"Grima Wormtongue"
 END
 
 CONTROLBAR:ToolTipBuildIsengardGrima
@@ -2892,7 +2900,7 @@ CONTROLBAR:IsengardGrimaRecruit
 END
 
 CONTROLBAR:IsengardGrimaRevive
-"Revive Groma Wormtongue."
+"Revive Grima Wormtongue."
 END
 
 CONTROLBAR:IsengardGrimaHotkey
