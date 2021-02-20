@@ -281,7 +281,12 @@ function EndlessSupplyGrantUpgrades(self)
 end
 
 function OnGondorDolAmrothCreated(self)
-    ObjectHideSubObjectPermanently( self, "SHIELD", true )
+    ObjectHideSubObjectPermanently( self, "SHIELD01", true )
+    ObjectHideSubObjectPermanently( self, "SHIELD02", true )
+    ObjectHideSubObjectPermanently( self, "SHIELD03", true )
+    ObjectHideSubObjectPermanently( self, "SHIELD04", true )
+    ObjectHideSubObjectPermanently( self, "SHIELD05", true )
+    ObjectHideSubObjectPermanently( self, "SHIELD06", true )
 end
 
 function BoromirLastStand(self)
