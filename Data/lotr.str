@@ -3,6 +3,39 @@ CONTROLBAR:ThisIsNotReallyReadInGame1
 "Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
 END
 
+// CAMERA SYSTEM
+CONTROLBAR:RJCameraGeneralView
+"General's View"
+END
+CONTROLBAR:RJCameraCommanderView
+"Commander View"
+END
+CONTROLBAR:RJCameraUnitView
+"Unit View"
+END
+CONTROLBAR:RJCameraGroundView
+"Ground View"
+END
+CONTROLBAR:RJCameraOverheadView
+"Overhead View"
+END
+CONTROLBAR:ToolTipRJCameraGeneralView
+"Restore to the General's point of view"
+END
+CONTROLBAR:ToolTipRJCameraCommanderView
+"Zoom in for a battle field commander's point of view"
+END
+CONTROLBAR:ToolTipRJCameraUnitView
+"Zoom in for your unit's point of view"
+END
+CONTROLBAR:ToolTipRJCameraGroundView
+"Look up at your units from the ground"
+END
+CONTROLBAR:ToolTipRJCameraOverheadView
+"Have a bird's eye view of the battlefield"
+END
+// END CAMERA
+
 CONTROLBAR:AttackTrollPassiveLeadership
 "Olog-hai Attack-troll"
 END
