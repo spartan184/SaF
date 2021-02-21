@@ -13601,7 +13601,7 @@ CONTROLBAR:ToolTipGondorBuildFarm
 END
 
 CONTROLBAR:ToolTipGondorBuildBarracks
-"Trains Soldiers and Tower Guards"
+"Trains Gondor Soldiers, Spearmen and Guards of the Citadel"
 END
 
 CONTROLBAR:ToolTipGondorBuildMarketPlace
