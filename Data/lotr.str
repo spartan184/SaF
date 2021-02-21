@@ -44,6 +44,14 @@ CONTROLBAR:ToolTipAttackTrollPassiveLeadership
 "Required: Rank 5 \n Upgrades Mountain-troll into a deadly Attack-troll \n Troll gains 50% armor vs Pierce, 25% damage increase \n Passive ability \n \n The cruelest, most intelligent of the Olog-hai were clad in jagged black armor and sent to the front line to serve as some of Sauron's most feared warriors."
 END
 
+CONTROLBAR:ToolTipOrcishTenacityPassiveLeadership
+"Grishnakh is hard to kill \n Grishnakh gains +25% Armor \n Passive ability"
+END
+
+CONTROLBAR:OrcishTenacityPassiveLeadership
+"Orcish Tenacity"
+END
+
 CONTROLBAR:ToolTipMerryEsquirePassiveLeadership
 "Merry is Emboldened in the presence of the Lady. \n Merry gains +100% Damage while near Eowyn. \n Passive ability"
 END
