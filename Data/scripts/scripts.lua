@@ -287,6 +287,22 @@ function OnGondorDolAmrothCreated(self)
     ObjectHideSubObjectPermanently( self, "SHIELD04", true )
     ObjectHideSubObjectPermanently( self, "SHIELD05", true )
     ObjectHideSubObjectPermanently( self, "SHIELD06", true )
+
+    local shield         =    GetRandomNumber()
+
+    if shield <= 0.2 then
+        ObjectHideSubObjectPermanently( self, "SHIELD01", false )
+    elseif shield <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "SHIELD02", false )
+    elseif shield <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "SHIELD03", false )
+    elseif shield <= 0.7 then
+        ObjectHideSubObjectPermanently( self, "SHIELD04", false )
+    elseif shield <= 0.8 then
+        ObjectHideSubObjectPermanently( self, "SHIELD05", false )			
+	else
+        ObjectHideSubObjectPermanently( self, "SHIELD06", false )	
+    end
 end
 
 function BoromirLastStand(self)
