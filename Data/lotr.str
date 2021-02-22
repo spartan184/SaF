@@ -15795,7 +15795,7 @@ CONTROLBAR:IstariLight
 END
 
 CONTROLBAR:ToolTipIstariLight
-"Required: Rank 5 \n Beam of light that damages enemies \n Additional damage to Fell Beasts and Balrogs \n left click then right click on target"
+"Required: Rank 8 \n Beam of light that damages enemies \n Additional damage to Fell Beasts and Balrogs \n left click then right click on target"
 END
 
 CONTROLBAR:LightningSword
