@@ -1676,7 +1676,7 @@ OBJECT:ElvenHaldir
 END
 
 CONTROLBAR:ElvenHaldirRecruit
-"Hero Unit. Recruit the captain of the Galadhrim, skilled with bow and sword"
+"Recruit the captain of the Galadhrim. \n \n 'The world is indeed full of peril, and in it there are many dark places; but still there is much that is fair, and though in all lands love is now mingled with grief, it grows perhaps the greater.'"
 END
 
 CONTROLBAR:ElvenHaldirRevive
@@ -1760,7 +1760,7 @@ CONTROLBAR:ConstructRohanSpearmenHorde
 END
 
 CONTROLBAR:ToolTipBuildRohanSpearmenHorde
-"Strong vs. Swordsmen \n Weak vs. Archers, Monsters"
+"Strong vs. Cavalry and Heroes \n \n In times of war, men of Rohan wealthy enough to own a plot of land would organize themselves into regiments and take up arms to defend their homes."
 END
 
 ;================================================= Shadow&Flame =====================================
@@ -14522,7 +14522,7 @@ CONTROLBAR:ToolTipConstructRohanBannerUnits
 END
 
 CONTROLBAR:ToolTipBuildRohanArcherHorde
-"Strong vs. Pikemen, Monsters \n Weak vs. Cavalry, Heroes"
+"Strong vs. Cavalry, Monsters \n \n In times of war, men of Rohan wealthy enough to own a plot of land would organize themselves into regiments and take up arms to defend their homes."
 END
 
 CONTROLBAR:ToolTipBuildRohanRoyalGuardHorde
@@ -14530,11 +14530,11 @@ CONTROLBAR:ToolTipBuildRohanRoyalGuardHorde
 END
 
 CONTROLBAR:ToolTipBuildRohanRohirrimHorde
-"Strong vs. Swordsmen \n Weak vs. Pikemen, Monsters"
+"Strong vs. Swordsmen and Archers \n \n During wartime, the King of Rohan would muster the Rohirrim, providing additional arms and armor to his subjects and organizing them into Éored's under command of a lord or marshal."
 END
 
 CONTROLBAR:ToolTipBuildRohanRohirrimArcherHorde
-"Strong vs. Cavalry and Heroes \n Weak vs. Pikemen and fire"
+"Strong vs. Swordsmen \n \n Rohirrim most adept at equestrian archery would form up into specialist regiments to repeatedly flanked the enemy with arrow fire before retreating out of range."
 END
 
 CONTROLBAR:ToolTipBuildRohanHeavyArmorPorter
@@ -14590,11 +14590,11 @@ TOOLTIP:RohanFlamingArrows
 END
 
 CONTROLBAR:ToolTipBuildTheoden
-"Hero Unit. The King of Rohan, Theoden"
+"The King of Rohan, Theoden"
 END
 
 CONTROLBAR:RohanTheodenRecruit
-"Hero Unit. Recruit The King of Rohan, Theoden"
+"Recruit the King of Rohan. \n \n 'Arise, arise, Riders of Théoden!\nFell deeds awake, fire and slaughter!\nSpear shall be shaken, shield be splintered,\na sword-day, a red day, ere the sun rises!\nRide now, ride now!'"
 END
 
 CONTROLBAR:RohanTheodenRevive
@@ -14606,7 +14606,7 @@ CONTROLBAR:RohanTheodenHotkey
 END
 
 CONTROLBAR:ToolTipBuildEowyn
-"Hero Unit. Shield Maiden of Rohan"
+"Shield Maiden of Rohan"
 END
 
 CONTROLBAR:RohanEowynRevive
@@ -14614,7 +14614,7 @@ CONTROLBAR:RohanEowynRevive
 END
 
 CONTROLBAR:RohanEowynRecruit
-"Hero Unit. Recruit the Shield Maiden of Rohan"
+"Recruit the Shieldmaiden of Rohan. \n \n 'But no living man am I! You are looking upon a woman. Eowyn am I, Eomund's daughter. You stand between me and my lord and kin. Begone, if you be not deathless! For living or dark undead, I will smite you, if you touch him.'"
 END
 
 CONTROLBAR:RohanEowynHotkey
@@ -14622,7 +14622,7 @@ CONTROLBAR:RohanEowynHotkey
 END
 
 CONTROLBAR:RohanMerryRecruit
-"Hero Unit. Recruit a loyal hobbit to fight for your cause"
+"Recruit the Squire of Rohan. \n \n 'I just want to help my friends. Frodo, Sam, Pippin. More than anything, I wish I could see them again.'"
 END
 
 CONTROLBAR:RohanMerryRevive
@@ -14634,11 +14634,11 @@ CONTROLBAR:RohanMerryHotkey
 END
 
 CONTROLBAR:ToolTipBuildGimli
-"Hero Unit. Dwarf of the Lonely Mountain"
+"Dwarf of the Lonely Mountain"
 END
 
 CONTROLBAR:RohanGimliRecruit
-"Hero Unit. Recruit the Dwarf of the Lonely Mountain"
+"Recruit the Dwarf of the Lonely Mountain \n \n 'There is one Dwarf yet in Moria who still draws breath!'"
 END
 
 CONTROLBAR:RohanGimliRevive
@@ -14650,11 +14650,11 @@ CONTROLBAR:RohanGimliHotkey
 END
 
 CONTROLBAR:ToolTipBuildEomer
-"Hero Unit. Leader of the outlawed Rohirrim"
+"Recruit the Leader of the outlawed Rohirrim"
 END
 
 CONTROLBAR:RohanEomerRecruit
-"Hero Unit. Recruit the Leader of the outlawed Rohirrim"
+"Recruit the Third Marshal of the Riddermark. \n \n 'Now is the hour! Riders of Rohan! Oaths you have taken, now fulfill them all, to lord and land!'"
 END
 
 CONTROLBAR:RohanEomerRevive
@@ -14666,11 +14666,11 @@ CONTROLBAR:RohanEomerHotkey
 END
 
 CONTROLBAR:ToolTipBuildLegolas
-"Hero Unit. Prince of the Mirkwood Elves"
+"Prince of the Mirkwood Elves"
 END
 
 CONTROLBAR:RohanLegolasRecruit
-"Hero Unit. Recruit the Prince of the Mirkwood Elves"
+"Recruit the Prince of the Woodland Realm \n \n 'Yet do not cast all hope away. Tomorrow is unknown. Rede oft is found at the rising of the sun.'"
 END
 
 CONTROLBAR:RohanLegolasRevive
@@ -15062,7 +15062,8 @@ CONTROLBAR:ConstructElvenWarriorHorde
 END
 
 CONTROLBAR:ToolTipBuildElvenWarriorHorde
-"Required: Elven Alliance \n Skilled with Bow and Sword"
+"Required: Elven Alliance \n Skilled with Bow and Sword \n\n An alliance once existed between Elves and Men. Long ago we fought and died together. We come to honor that allegiance"
+
 END
 
 CONTROLBAR:ToolTipBuildElvenWarriorHordeWithNoPrerequisites
@@ -16019,7 +16020,7 @@ CONTROLBAR:ConstructRohanPeasant
 END
 
 CONTROLBAR:ToolTipBuildRohanPeasant
-"Repairs buildings"
+"Can be drafted \n\n The Riddermark depended on its peasants to work the fields - only in times of great need could they be levied to serve their king in battle."
 END
 
 CONTROLBAR:ToolTipSpecialAbilityDwarfToss
