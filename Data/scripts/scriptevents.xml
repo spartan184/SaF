@@ -685,5 +685,9 @@
         <EventHandler EventName="UsingSpecialOne"		ScriptFunctionName="RadiateUncontrollableFearUrshak"	DebugSingleStep="false"/>
     </EventList>
 
+    <EventList Name="DunlandHuskarlFunctions" Inherit="SaFInfantryFunctions">
+        <EventHandler EventName="OnCreated"				ScriptFunctionName="OnDunlandHuskarlCreated" DebugSingleStep="false"/>
+    </EventList>
+
     </EventList>
 </SageLuaScriptSection>

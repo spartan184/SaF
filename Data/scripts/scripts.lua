@@ -1,4 +1,77 @@
 -- define lua functions
+function OnDunlandHuskarlCreated(self)
+    ObjectHideSubObjectPermanently( self, "HA", true )
+	ObjectHideSubObjectPermanently( self, "HEADA", true )
+	ObjectHideSubObjectPermanently( self, "HEADB", true )
+	ObjectHideSubObjectPermanently( self, "HEADC", true )
+	ObjectHideSubObjectPermanently( self, "SHIELDA", true )
+	ObjectHideSubObjectPermanently( self, "SHIELDB", true )	
+	ObjectHideSubObjectPermanently( self, "SHIELDC", true )
+	
+    local head = GetRandomNumber()
+    local shield1 = GetRandomNumber()	
+    local shield2 = GetRandomNumber()	
+	
+    -- assign random head
+    if head <= 0.33 then
+        ObjectHideSubObjectPermanently( self, "HEADA", false )
+    elseif head <= 0.66 then
+        ObjectHideSubObjectPermanently( self, "HEADB", false )
+    else
+        ObjectHideSubObjectPermanently( self, "HEADC", false )
+    end
+
+    -- assign random shield
+    if shield1 <= 0.5 then
+        --no shield
+    else
+		if shield2 <= 0.33 then
+			ObjectHideSubObjectPermanently( self, "SHIELDA", false )
+		elseif shield2 <= 0.66 then
+			ObjectHideSubObjectPermanently( self, "SHIELDB", false )
+		else
+			ObjectHideSubObjectPermanently( self, "SHIELDC", false )
+		end
+    end	
+end
+
+function OnDunlandAxemenCreated(self)
+    ObjectHideSubObjectPermanently( self, "FireArowTip", true )
+    ObjectHideSubObjectPermanently( self, "FORGED_BLADE", true )
+    ObjectHideSubObjectPermanently( self, "HA", true )
+	ObjectHideSubObjectPermanently( self, "HEADA", true )
+	ObjectHideSubObjectPermanently( self, "HEADB", true )
+	ObjectHideSubObjectPermanently( self, "HEADC", true )
+	ObjectHideSubObjectPermanently( self, "SHIELDA", true )
+	ObjectHideSubObjectPermanently( self, "SHIELDB", true )	
+	ObjectHideSubObjectPermanently( self, "SHIELDC", true )
+	
+    local head = GetRandomNumber()	
+    local shield = GetRandomNumber()	
+	
+    -- assign random head
+    if head <= 0.33 then
+        ObjectHideSubObjectPermanently( self, "HEADA", false )
+    elseif head <= 0.66 then
+        ObjectHideSubObjectPermanently( self, "HEADB", false )
+    else
+        ObjectHideSubObjectPermanently( self, "HEADC", false )
+    end
+
+
+	if shield <= 0.33 then
+		ObjectHideSubObjectPermanently( self, "SHIELDA", false )
+	elseif shield <= 0.66 then
+		ObjectHideSubObjectPermanently( self, "SHIELDB", false )
+	else
+		ObjectHideSubObjectPermanently( self, "SHIELDC", false )
+	end
+end
+
+function OnWulfgarCreated(self)
+    -- ObjectGrantUpgrade( self, "Upgrade_Arkenstone" )
+end
+
 function OnUrshakCreated(self)
 end
 function RadiateUncontrollableFearUrshak( self )
@@ -6,7 +79,6 @@ function RadiateUncontrollableFearUrshak( self )
 end
 
 function OnTrollGenericEvent(self,data)
-
 end
 
 function OnBodyGuardOrcCreated(self)
