@@ -36,6 +36,111 @@ CONTROLBAR:ToolTipRJCameraOverheadView
 END
 // END CAMERA
 
+//------------ Dunland Archers ---------------
+OBJECT:IsengardDunlandArcher
+"Dunlending Longbowman"
+END
+
+OBJECT:HordeIsengardDunlandArcher
+"Dunlending Longbowmen"
+END
+
+CONTROLBAR:ConstructIsengardDunlandArcherHorde
+"Dunlending &Longbowmen"
+END
+
+CONTROLBAR:LW_Unit_IsengardDunlandArcherHorde
+"Dunlending Longbowman Horde"
+END
+
+CONTROLBAR:LW_ToolTip_IsengardDunlandArcherHorde
+"\nUnit Type: Elite Archer\nStrong vs. Infantry"
+END
+
+CONTROLBAR:ToolTipBuildIsengardDunlandArcherHorde
+"Elite Archer \nStrong vs. Infantry \n \n 'The rocky hills of Dunland are difficult to farm, resulting in a sprawling culture of hunting based around the legend of the White Crow.'"
+END
+
+CONTROLBAR:ToolTipBuildIsengardDunlandArcherHorde_WOTR
+"Requires Clan Steading Level 2 and Dunlending Longhouse \n Elite Archer \nStrong vs. Infantry \n \n 'The rocky hills of Dunland are difficult to farm, resulting in a sprawling culture of hunting based around the legend of the White Crow.'"
+END
+
+CONTROLBAR:LW_ToolTipBuild_IsengardDunlandArcherHorde
+"Unit Type: Elite Archer\nStrong vs. Infantry\n"
+END
+
+//------------ Dunland Huskarls ---------------
+OBJECT:IsengardDunlandHuskarl
+"Dunlending Huskarl"
+END
+
+OBJECT:DunlandHuskarlHorde
+"Dunlending Huskarls"
+END
+
+CONTROLBAR:ConstructIsengardDunlandHuskarlHorde
+"Dunlending Hus&karls"
+END
+
+CONTROLBAR:ToolTipBuildIsengardDunlandHuskarlHorde
+"Requires Dunlending Longhouse Level 3\nElite Infantry \nStrong vs. Pikemen \n Limited to 3 \n \n The Huskarls of Frecalund are fierce fighters, gathered from respectable houses to serve as the king's personal guard."
+END
+
+CONTROLBAR:LW_Unit_DunlandHuskarlHorde
+"Dunlending Huskarls Battalion"
+END
+
+CONTROLBAR:LW_ToolTip_DunlandHuskarlHorde
+"\nUnit Type: Elite Infantry\nStrong vs. Pikemen"
+END
+
+CONTROLBAR:LW_ToolTipBuild_DunlandHuskarlHorde
+"Unit Type: Elite Infantry\nStrong vs. Pikemen\n"
+END
+
+CONTROLBAR:DunlandMordhauGrip
+"Mordhau G&rip"
+END
+
+CONTROLBAR:ToolTipDunlandMordhauGrip
+"Dunlending Huskarls temporarily use mordhau grip,\nignoring armor and dealing bonus damage against heroes\nLeft click to activate"
+END
+
+CONTROLBAR:DunlandNobleLineage
+"Noble Lineage"
+END
+
+CONTROLBAR:ToolTipDunlandNobleLineage
+"Modifier Type: Leadership\nNearby Wildmen and Dunlendings receive\n+50% experience gain and fear resistance\nPassive ability"
+END
+
+CONTROLBAR:RecklessSwings
+"Reckless Swings"
+END
+
+CONTROLBAR:ToolTipRecklessSwings
+"Requires Level 3 \n Consecutive attacks temporarily increase attack damage by 5% but reduce armour by 5% \n Passive ability"
+END
+
+//------------ Dunland Axemen ---------------
+OBJECT:IsengardDunlandAxeman
+"Dunlending Axeman"
+END
+
+OBJECT:DunlandAxemenHorde
+"Dunlending Axemen"
+END
+
+CONTROLBAR:ConstructIsengardDunlandAxemenHorde
+"Dunlending &Axemen"
+END
+
+CONTROLBAR:ToolTipBuildIsengardDunlandAxemenHorde
+"Elite Infantry \nStrong vs. Pikemen \n \n An axe, a shield, and a helmet. These are the most valuable possessions of any Dunnish warrior."
+END
+
+//---------------------------
+
 CONTROLBAR:AttackTrollPassiveLeadership
 "Olog-hai Attack-troll"
 END
