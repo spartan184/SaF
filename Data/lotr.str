@@ -35,10 +35,11 @@ CONTROLBAR:ToolTipRJCameraOverheadView
 "Have a bird's eye view of the battlefield"
 END
 // END CAMERA
+
+//------------ Wulfgar ---------------
 OBJECT:IsengardWulfgar
 "Wulfgar"
 END
-//------------ Wulfgar ---------------
 
 CONTROLBAR:IsengardWulfgarRecruit
 "Recruit the Dunlending Chieftain, Wulfgar \n \n 'Once a noble warrior-chief, Wulfgar refused Saruman's demands of sworn allegiance, until the White Wizard demonstrated his absolute power by crushing the Rohirrim at the Fords of Isen.'"
@@ -60,6 +61,21 @@ CONTROLBAR:ToolTipKingoftheHills
 "Requires Level 8\nRallies nearby Dunlendings and Wildmen, temporarily increasing their armor by 200% \n Left click to activate"
 END
 
+CONTROLBAR:WulfgarSubjugation
+"Dunlending Subjugation"
+End
+
+CONTROLBAR:ToolTipWulfgarSubjugation
+"Though hesitant, Wulfgar was left with no choice\nbut to pledge his warriors to Saruman’s cause\nRequires Level 3 \nDunlendings near Wulfgar gain +50% damage \nPassive ability"
+END
+
+CONTROLBAR:SwordStrike
+"Sw&ord Strike"
+END
+
+CONTROLBAR:ToolTipSwordStrike
+"Powerful attack that causes meta impact \n Left click icon then left click on target"
+END
 //------------ Dunland Archers ---------------
 OBJECT:IsengardDunlandArcher
 "Dunlending Longbowman"
