@@ -1,7 +1,3 @@
-;------------------ This String is necessary at the top! ---------------------------------- TEST TEST TEST
-CONTROLBAR:ThisIsNotReallyReadInGame1
-"Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
-END
 
 // CAMERA SYSTEM
 CONTROLBAR:RJCameraGeneralView
@@ -336,10 +332,10 @@ END
 TOOLTIP:LackLevel3EriadorSmithy
 "Required: Rank 3 Smithy \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
-;================================================= Eriador Faction Stuff ==================================
-CONTROLBAR:ThisIsNotReallyReadInGame2
-"Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
-END
+
+
+//================================================= Eriador Faction Stuff ==================================
+
 
 INI:FactionEriador
  "Eriador"
@@ -389,10 +385,7 @@ CONTROLBAR:ToolTipEriadorFarmUnpack
 "Provides food as a resource"
 END
 
-;================================================= Structures ===========================
-CONTROLBAR:ThisIsNotReallyReadInGame3
-"Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
-END
+//================================================= Structures ===========================
 
 CONTROLBAR:ConstructEriadorFarm
 "Build Bree-land &Farm"
@@ -562,10 +555,7 @@ CONTROLBAR:ConstructEriadorWell
 "Build Bree We&ll"
 END
 
-;=================================SPELLBOOK==========================
-CONTROLBAR:ThisIsNotReallyReadInGame4
-"Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
-END
+//=================================SPELLBOOK==========================
 
 CONTROLBAR:Rally
 "Horn of Buckland"
@@ -618,10 +608,7 @@ CONTROLBAR:ToolTipSummonRivendellAllies
 "Summons the Knights of Rivendell \n Left click then right click on target"
 END
 
-;================================================= Units =================================
-CONTROLBAR:ThisIsNotReallyReadInGame5
-"Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
-END
+//================================================= Units =================================
 
 OBJECT:RivendellRider
 "Knight of Rivendell"
@@ -799,17 +786,14 @@ CONTROLBAR:ToolTipToggleDunedainEntrenchToLineFormation
 "No bonus"
 END
 
-;================================================= Heroes ==============================
-CONTROLBAR:ThisIsNotReallyReadInGame6
-"Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
-END
+//================================================= Heroes ==============================
 
 OBJECT:EriadorAragorn
 "Aragorn"
 End
 
 CONTROLBAR:ToolTipBuildEriadorAragorn
-"Hero Unit. Heir to the throne of Gondor."
+"Heir to the throne of Gondor."
 END
 
 CONTROLBAR:EriadorAragornRecruit
@@ -876,10 +860,7 @@ CONTROLBAR:HalbaradHotKey
 "Halbarad&"
 END
 
-;===================================== Hero Powers ========================
-CONTROLBAR:ThisIsNotReallyReadInGame7
-"Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
-END
+//===================================== Hero Powers ========================
 
 CONTROLBAR:HalbaradLeadership
 "Captain of the North"
@@ -958,10 +939,7 @@ CONTROLBAR:ToolTipGreyCompanyElendil
 "Required: Rank 3 \n The Dunedain temporarily gain +25% damage, +25% health \n and fear immunity. \n Left click to activate"
 END
 
-;====================================Eriador Upgrades======================================
-CONTROLBAR:ThisIsNotReallyReadInGame8
-"Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
-END
+//====================================Eriador Upgrades======================================
 
 UPGRADE:EriadorHeavyArmor
 "Chainmail"
@@ -1023,17 +1001,14 @@ CONTROLBAR:PurchaseTechnologyEriadorBasicTraining
 "Dunedain &Captain Upgrade"
 END
 
-;================================================= Vannila Faction Stuff ====================================
-CONTROLBAR:ThisIsNotReallyReadInGame9
-"Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
-END
+//================================================= Vannila Faction Stuff ====================================
 
 OBJECT:RohanTheodred
 "Theodred"
 END
 
 CONTROLBAR:RohanTheodredRecruit
-"Hero Unit. Recruit the Theodred, the Prince of Rohan. \n \n 'Ne on theostrum licgeth Theodred se leofa heletha holdost.'"
+"Recruit the Theodred, the Prince of Rohan. \n \n 'Ne on theostrum licgeth Theodred se leofa heletha holdost.'"
 END
 
 CONTROLBAR:TheodredPassiveLeadership
@@ -1081,7 +1056,7 @@ OBJECT:RohanRadagast
 END
 
 CONTROLBAR:RohanRadagastRecruit
-"Hero Unit. Recruit one of the wandering Istari, Radagast the Brown. \n \n 'A worthy wizard, a master of shapes and changes of hue; and he has much lore of herbs and beasts, and birds are especially his friends.'"
+"Recruit one of the wandering Istari, Radagast the Brown. \n \n 'A worthy wizard, a master of shapes and changes of hue; and he has much lore of herbs and beasts, and birds are especially his friends.'"
 END
 
 CONTROLBAR:RohanRadagastRevive
@@ -1173,7 +1148,7 @@ OBJECT:GondorImrahil
 END
 
 CONTROLBAR:GondorImrahilRecruit
-"Hero Unit. Recruit the Prince of Dol Amroth, Imrahil. \n \n 'For a while I stand in the place of the Steward of Gondor, and it is mine to think first of its people.' - Imrahil"
+"Recruit the Prince of Dol Amroth, Imrahil. \n \n 'For a while I stand in the place of the Steward of Gondor, and it is mine to think first of its people.' - Imrahil"
 END
 
 CONTROLBAR:GondorImrahilRevive
@@ -1409,7 +1384,7 @@ OBJECT:MordorWitchKing
 End
 
 CONTROLBAR:MordorWitchKingRecruit
-"Hero Unit. Recruit the Lord of the Nazgul. \n \n 'Send forth all legions. Do not stop the attack until the city is taken. Slay them all.'"
+"Recruit the Lord of the Nazgul. \n \n 'Send forth all legions. Do not stop the attack until the city is taken. Slay them all.'"
 END
 
 CONTROLBAR:MordorWitchKingRevive
@@ -1469,7 +1444,7 @@ OBJECT:MordorKhamul
 End
 
 CONTROLBAR:MordorKhamulRecruit
-"Hero Unit. Recruit the Shadow of the East. \n \n 'They were once men; great kings of men. Then Sauron the Deceiver gave to them nine Rings of Power.'"
+"Recruit the Shadow of the East. \n \n 'They were once men; great kings of men. Then Sauron the Deceiver gave to them nine Rings of Power.'"
 END
 
 CONTROLBAR:MordorKhamulRevive
@@ -1509,7 +1484,7 @@ OBJECT:MordorUvatha
 End
 
 CONTROLBAR:MordorUvathaRecruit
-"Hero Unit. Recruit the Scourge of the South. \n \n 'Blinded by their greed, they took them without question, one by one falling into darkness. Now they are slaves to his will.'"
+"Recruit the Scourge of the South. \n \n 'Blinded by their greed, they took them without question, one by one falling into darkness. Now they are slaves to his will.'"
 END
 
 CONTROLBAR:MordorUvathaRevive
@@ -1541,7 +1516,7 @@ OBJECT:MordorMouth
 End
 
 CONTROLBAR:MordorMouthRecruit
-"Hero Unit. Recruit the Black Numenorean Emissary of Sauron. \n \n 'Surety you crave! Sauron gives none. If you sue for his clemency then you must do his bidding.'"
+"Recruit the Black Numenorean Emissary of Sauron. \n \n 'Surety you crave! Sauron gives none. If you sue for his clemency then you must do his bidding.'"
 END
 
 CONTROLBAR:MordorMouthRevive
@@ -1573,7 +1548,7 @@ OBJECT:MordorGothmog
 End
 
 CONTROLBAR:MordorGothmogRecruit
-"Hero Unit. Recruit the cruel lieutenant of Minas Morgul. \n \n 'The Age of Men is over. The Time of the Orc has come.'"
+"Recruit the cruel lieutenant of Minas Morgul. \n \n 'The Age of Men is over. The Time of the Orc has come.'"
 END
 
 CONTROLBAR:MordorGothmogRevive
@@ -1713,7 +1688,7 @@ CONTROLBAR:FaramirLeadership
 END
 
 CONTROLBAR:GondorBeregondRecruit
-"Hero Unit. Recruit a loyal Citadel Guard of Minas Tirith. \n \n 'I am no captain. Neither office nor rank nor lordship have I, being but a plain man of arms of the Third Company of the Citadel.'"
+"Recruit a loyal Citadel Guard of Minas Tirith. \n \n 'I am no captain. Neither office nor rank nor lordship have I, being but a plain man of arms of the Third Company of the Citadel.'"
 END
 
 CONTROLBAR:GondorBeregondRevive
@@ -1908,11 +1883,8 @@ CONTROLBAR:ToolTipBuildRohanSpearmenHorde
 "Strong vs. Cavalry and Heroes \n \n In times of war, men of Rohan wealthy enough to own a plot of land would organize themselves into regiments and take up arms to defend their homes."
 END
 
-;================================================= Shadow&Flame =====================================
-;================================================= Faction Stuff ====================================
-CONTROLBAR:ThisIsNotReallyReadInGame10
-"Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
-END
+//================================================= Shadow&Flame =====================================
+//================================================= Faction Stuff ====================================
 
 APT:Gundabad
 "Gundabad"
@@ -1974,11 +1946,7 @@ OBJECT:MBGundCampFloor
 "Gundabad Camp Floor"
 END
 
-;=================================UNIT ABILITIES==========================
-CONTROLBAR:ThisIsNotReallyReadInGame11
-"Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
-END
-
+//=================================UNIT ABILITIES==========================
 
 CONTROLBAR:TooltipGundabadWargScoutHowl
 "Required: Rank 2 \n +60% damage \n left click to activate"
@@ -2076,10 +2044,7 @@ CONTROLBAR:ToolTipGundabadLugScentOfBlood
 "Required: Rank 5 \n Lug and surrounding Warg-riders gain +20% speed and crush. \n Left click to activate"
 END
 
-;=================================SPELLBOOK==========================
-CONTROLBAR:ThisIsNotReallyReadInGame12
-"Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
-END
+//=================================SPELLBOOK==========================
 
 OBJECT:GundabadDrumsDeep
 "Drums in the Deep"
@@ -2141,16 +2106,13 @@ CONTROLBAR:ToolTipDurinsBane
 "Unlocks Durin's Bane \n Recruit a Balrog of Morgoth from the Citadel"
 END
 
-;=================================HEROES==========================
-CONTROLBAR:ThisIsNotReallyReadInGame13
-"Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
-END
+//=================================HEROES==========================
 
 OBJECT:GundabadBolg
 "Bolg the Defiler"
 END
 CONTROLBAR:GundabadBolgRecruit
-"Hero Unit. \n Recruit Bolg the Defiler, terror of Mount Gundabad \n \n 'The Goblins are upon you! Bolg of the North is coming.   O Dain! whose father you slew in Moria. Behold! the bats are above his army like a sea of locusts. They ride upon wolves and Wargs are in their train!'"
+"Recruit Bolg the Defiler, terror of Mount Gundabad \n \n 'The Goblins are upon you! Bolg of the North is coming.   O Dain! whose father you slew in Moria. Behold! the bats are above his army like a sea of locusts. They ride upon wolves and Wargs are in their train!'"
 END
 CONTROLBAR:GundabadBolgRevive
 "Revive the fallen Hero, Bolg"
@@ -2163,7 +2125,7 @@ OBJECT:GundabadLug
 "Lug the Mauled"
 END
 CONTROLBAR:GundabadLugRecruit
-"Hero Unit. \n Recruit Lug the Mauled, Beast Master of Gundabad \n \n 'Few orcs share a bond as fierce as Lug and his warg. It cost him and arm, but the leg he got to keep.'"
+"Recruit Lug the Mauled, Beast Master of Gundabad \n \n 'Few orcs share a bond as fierce as Lug and his warg. It cost him and arm, but the leg he got to keep.'"
 END
 CONTROLBAR:GundabadLugRevive
 "Revive the fallen Hero, Lug the Mauled"
@@ -2176,7 +2138,7 @@ OBJECT:GundabadUrshak
 "Urshak the Shaman"
 END
 CONTROLBAR:GundabadUrshakRecruit
-"Hero Unit. \n Recruit Urshak the Shaman \n \n 'A powerful and zealous shaman, Urshak is capable of elevating even the meekest of his followers into committing acts of great cruelty and derangement.'"
+"Recruit Urshak the Shaman \n \n 'A powerful and zealous shaman, Urshak is capable of elevating even the meekest of his followers into committing acts of great cruelty and derangement.'"
 END
 CONTROLBAR:GundabadUrshakRevive
 "Revive the fallen Orcish Shaman, Urshak"
@@ -2192,16 +2154,13 @@ CONTROLBAR:DurinsBaneHotkey
 "&Durin's Bane"
 END
 CONTROLBAR:DurinsBaneRecruit
-"Required: Durin's Bane \n Hero Unit. Recruit a Balrog of Morgoth"
+"Required: Durin's Bane \n Recruit a Balrog of Morgoth"
 END
 TOOLTIP:ToolTipLackDurinsBaneSpellbook
-"Required: Durin's Bane Spellbook \n Hero Unit. Recruit Durin's Bane, a Balrog of Morgoth \n \n 'It was like a great shadow, in the middle of which was a dark form, of man-shape maybe, yet greater; and a power and terror seemed to be in it and to go before it. Its streaming mane kindled, and blazed behind it. In its right hand was a blade like a stabbing tongue of fire; in its left it held a whip of many thongs...'"
+"Required: Durin's Bane Spellbook Unlock \n \n Recruit Durin's Bane, a Balrog of Morgoth \n \n 'It was like a great shadow, in the middle of which was a dark form, of man-shape maybe, yet greater; and a power and terror seemed to be in it and to go before it. Its streaming mane kindled, and blazed behind it. In its right hand was a blade like a stabbing tongue of fire; in its left it held a whip of many thongs...' \n Rank 10"
 END
 
-;=================================UNITS==========================
-CONTROLBAR:ThisIsNotReallyReadInGame14
-"Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
-END
+//=================================UNITS==========================
 
 OBJECT:GundabadBanner
 "Mountain-orc Banner Carrier"
@@ -2317,10 +2276,7 @@ OBJECT:GundabadBolgBodyguardHorde
 "Bolg's Bodyguard Horde"
 END
 
-;=================================UNIT PRODUCTION==========================
-CONTROLBAR:ThisIsNotReallyReadInGame15
-"Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
-END
+//=================================UNIT PRODUCTION==========================
 
 CONTROLBAR:ConstructGundabadWargRiders
 "Gundabad Warg &Riders"
@@ -2422,10 +2378,7 @@ CONTROLBAR:ToolTipBuildGundabadCatapult
 "Strong vs. Structures, Siege Equipment \n Weak vs. Monsters, Infantry, Cavalry, Heroes"
 END
 
-;=================================STRUCTURES=====================
-CONTROLBAR:ThisIsNotReallyReadInGame16
-"Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
-END
+//=================================STRUCTURES=====================
 
 OBJECT:GundabadCastleKeep
 "Gundabad Castle Keep"
@@ -2492,10 +2445,7 @@ OBJECT:GundabadLumberMillDescription
 "Reduces cost of structures with each lumbermill built. \n 2 Lumber Mills: 5% \n 3 Lumber Mills: 10% \n 4 Lumber Mills: 15% \n 5 Lumber Mills: 20% \n 6 Lumber Mills: 25%"
 END
 
-;=================================STRUCTURE PRODUCTION=====================
-CONTROLBAR:ThisIsNotReallyReadInGame17
-"Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
-END
+//=================================STRUCTURE PRODUCTION=====================
 
 CONTROLBAR:UnpackGundabadMine
 "Gundabad &Mine"
@@ -2550,10 +2500,7 @@ CONTROLBAR:ToolTipGundabadBuildGuardTower
 "Guard Tower will fire at enemy units"
 END
 
-;=================================UPGRADES=====================
-CONTROLBAR:ThisIsNotReallyReadInGame18
-"Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
-END
+//=================================UPGRADES=====================
 
 UPGRADE:GundabadUrukCaptain
 "Gundabad Banners"
@@ -2742,10 +2689,8 @@ UPGRADE:GundabadWillOfSauron
 "Will of Sauron"
 END
 
-;================================================= Maps ====================================
-CONTROLBAR:ThisIsNotReallyReadInGame19
-"Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
-END
+//================================================= Maps ====================================
+
 Map:MAPMPMountGundabad
 "Gundabad Wasteland"
 END
@@ -2753,10 +2698,7 @@ Map:MAPMPMountGundabad/Desc
 "These jagged wastelands surrounding Mount Gundabad have been home to warring orc-tribes for generations. \n Number of Players: 3 \n Starting Positions: Castles \n Expansion Points: 3 \n Settlements: 6 \n Lairs: Goblins, Trolls"
 END
 
-;================================================== Maps ============================================
-CONTROLBAR:ThisIsNotReallyReadInGame20
-"Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
-END
+//================================================== Maps ============================================
 
 Map:MAPMPWoodyEnd
 "Woody End"
@@ -2766,10 +2708,7 @@ Map:MAPMPWoodyEnd/Desc
 "A forested land west of the Shire. Frodo, Sam and Pippin hid from one of the Nazgul on their way to Bree in this region. \n Credits: Kobrakai \n Number of Players: 2 \n Starting Positions: Camps \n Expansion Points: 2 \n Settlements: 8"
 END
 
-;================================================== Vanilla Misc  ============================================
-CONTROLBAR:ThisIsNotReallyReadInGame21
-"Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
-END
+//================================================== Vanilla Misc  ============================================
 
 OBJECT:Crebain
 "Crebain"
@@ -2874,7 +2813,7 @@ CONTROLBAR:ToolTipSummonFellBeast
 END
 
 CONTROLBAR:SauronDescription
-"Hero Unit. Recruit the Lord of the Rings himself  \n \n 'Ash nazg durbatulok, ash nazg gimbatul \n Ash nazg thrakatulok agh burzum-ishi krimpatul.'""
+"Recruit the Lord of the Rings himself  \n \n 'Ash nazg durbatulok, ash nazg gimbatul \n Ash nazg thrakatulok agh burzum-ishi krimpatul.'""
 END
 
 CONTROLBAR:Sauron
@@ -2890,7 +2829,7 @@ CONTROLBAR:ToolTipSauron
 END
 
 TOOLTIP:ToolTipLackSauron
-"Required: The Dark Lord \n Hero Unit. Recruit the Lord of the Rings. \n \n 'Ash nazg durbatulok, ash nazg gimbatul \n Ash nazg thrakatulok agh burzum-ishi krimpatul.'"
+"Required: The Dark Lord \n Recruit the Lord of the Rings. \n \n 'Ash nazg durbatulok, ash nazg gimbatul \n Ash nazg thrakatulok agh burzum-ishi krimpatul.' \n Rank 10"
 END
 
 CONTROLBAR:Guards
@@ -2958,7 +2897,7 @@ CONTROLBAR:ToolTipSummonRohanThreeHunters
 END
 
 CONTROLBAR:RADTBDescription
-"Hero Unit. Recruit one of the wandering Istari, Radagast the Brown. \n \n 'A worthy wizard, a master of shapes and changes of hue; and he has much lore of herbs and beasts, and birds are especially his friends.' - Gandalf"
+"Recruit one of the wandering Istari, Radagast the Brown. \n \n 'A worthy wizard, a master of shapes and changes of hue; and he has much lore of herbs and beasts, and birds are especially his friends.' - Gandalf"
 END
 
 CONTROLBAR:RADTB
@@ -2970,11 +2909,11 @@ CONTROLBAR:ToolTipRADTB
 END
 
 TOOLTIP:ToolTipLackRADTB
-"Required: The Brown Wizard \n Hero Unit. Recruit one of the wandering Istari, Radagast the Brown. \n \n 'A worthy wizard, a master of shapes and changes of hue; and he has much lore of herbs and beasts, and birds are especially his friends.' - Gandalf"
+"Required: The Brown Wizard \n Recruit one of the wandering Istari, Radagast the Brown. \n \n 'A worthy wizard, a master of shapes and changes of hue; and he has much lore of herbs and beasts, and birds are especially his friends.' - Gandalf \n Rank 10"
 END
 
 CONTROLBAR:GOTWDescription
-"Hero Unit. Recruit Gandalf the White"
+"Required: The White Wizard Spellbook \n Recruit Gandalf, the White Wizard \n \n 'I am Gandalf the White. And I come back to you now, at the turn of the tide.' \n Rank 10"
 END
 
 CONTROLBAR:GOTW
@@ -2986,7 +2925,7 @@ CONTROLBAR:ToolTipGOTW
 END
 
 TOOLTIP:ToolTipLackGOTW
-"Required: The White Wizard \n Hero Unit. Recruit Gandalf the White"
+"Required: The White Wizard Spellbook \n Recruit Gandalf, the White Wizard \n \n 'I am Gandalf the White. And I come back to you now, at the turn of the tide.' \n Rank 10"
 END
 
 OBJECT:RohanHelmHammerhand
@@ -3090,11 +3029,11 @@ OBJECT:IsengardGrima
 END
 
 CONTROLBAR:ToolTipBuildIsengardGrima
-"Hero Unit. Saruman's corrupt puppet"
+"Saruman's corrupt puppet"
 END
 
 CONTROLBAR:IsengardGrimaRecruit
-"Hero Unit. Recruit Saruman's trusted spy. \n \n 'Saruman the White has ever been our friend and ally.'"
+"Recruit Saruman's trusted spy. \n \n 'Saruman the White has ever been our friend and ally.'"
 END
 
 CONTROLBAR:IsengardGrimaRevive
@@ -3110,7 +3049,7 @@ OBJECT:IsengardSharku
 END
 
 CONTROLBAR:IsengardSharkuRecruit
-"Hero Unit. Recruit the captain of the Warg Riders. \n \n 'He's dead. Took a little tumble off the cliff.'"
+"Recruit the captain of the Warg Riders. \n \n 'He's dead. Took a little tumble off the cliff.'"
 END
 
 CONTROLBAR:IsengardSharkuRevive
@@ -3165,10 +3104,7 @@ CONTROLBAR:ToolTipSpawnLurtzScouts
 "Required: Rank 7 \n Lurtz summons a horde of powerful Uruk Scouts"
 END
 
-;================================================== End ============================================
-CONTROLBAR:ThisIsNotReallyReadInGame22
-"Required: Something between the ;;; and the real next commandline. Lauri, you the man!"
-END
+//================================================== End ============================================
 
 LETTER:G
 "G"
@@ -10447,7 +10383,7 @@ OBJECT:GondorTrebuchet
 END
 
 OBJECT:GandalfTheWhite
-"Gandalf"
+"&Gandalf"
 END
 
 OBJECT:GandalfTheGrey
@@ -10459,7 +10395,7 @@ OBJECT:GondorBanner
 END
 
 OBJECT:IsengardSaruman
-"Saruman"
+"&Saruman"
 END
 
 OBJECT:IsengardWildman
@@ -11111,7 +11047,7 @@ OBJECT:MordorGrond
 END
 
 OBJECT:MordorSauron
-"Recruit The Dark Lord &Sauron"
+"The Dark Lord &Sauron"
 END
 
 OBJECT:MordorDrummerTroll
@@ -14519,11 +14455,11 @@ CONTROLBAR:ToolTipBuildGondorKnightShieldsPorter
 END
 
 CONTROLBAR:ToolTipBuildAragorn
-"Hero Unit. Heir to the throne of Gondor."
+"Heir to the throne of Gondor."
 END
 
 CONTROLBAR:GondorAragornRecruit
-"Hero Unit. Recruit the Heir to the throne of Gondor."
+"Recruit the Heir to the throne of Gondor."
 END
 
 CONTROLBAR:GondorAragornRevive
@@ -14535,11 +14471,11 @@ CONTROLBAR:GondorAragornHotkey
 END
 
 CONTROLBAR:ToolTipBuildFaramir
-"Hero Unit. Skilled with bow and sword"
+"Skilled with bow and sword"
 END
 
 CONTROLBAR:GondorFaramirRecruit
-"Hero Unit. Recruit the Captain of the Ithilien Rangers. \n \n 'I do not love the bright sword for its sharpness, nor the arrow for its swiftness, nor the warrior for his glory. I love only that which they defend.'"
+"Recruit the Captain of the Ithilien Rangers. \n \n 'I do not love the bright sword for its sharpness, nor the arrow for its swiftness, nor the warrior for his glory. I love only that which they defend.'"
 END
 
 CONTROLBAR:GondorFaramirRevive
@@ -14551,11 +14487,11 @@ CONTROLBAR:GondorFaramirHotkey
 END
 
 CONTROLBAR:ToolTipBuildBorimir
-"Hero Unit. One of the greatest Captains of Gondor"
+"One of the greatest Captains of Gondor"
 END
 
 CONTROLBAR:GondorBoromirRecruit
-"Hero Unit. Recruit the Captain of the White Tower. \n \n 'Let the armies of Mordor know this: Never again will the land of my people fall into enemy hands!'"
+"Recruit the Captain of the White Tower. \n \n 'Let the armies of Mordor know this: Never again will the land of my people fall into enemy hands!'"
 END
 
 CONTROLBAR:GondorBoromirRevive
@@ -14587,11 +14523,11 @@ TOOLTIP:GondorFlamingArrows
 END
 
 CONTROLBAR:ToolTipBuildGandalf
-"Hero Unit. Armed with an arsenal of mighty magical powers"
+"Armed with an arsenal of mighty magical powers"
 END
 
 CONTROLBAR:GandalfTheWhiteRecruit
-"Hero Unit. Recruit the White Wizard. \n \n 'I am Gandalf the White. And I come back to now, at the turn of the tide.'"
+"Recruit the White Wizard. \n \n 'I am Gandalf the White. And I come back to now, at the turn of the tide.'"
 END
 
 CONTROLBAR:GandalfTheWhiteRevive
@@ -14603,7 +14539,7 @@ CONTROLBAR:GandalfTheWhiteHotkey
 END
 
 CONTROLBAR:RohanPippinRecruit
-"Hero Unit. Recruit a foolhardy Hobbit. \n \n 'You need people of intelligence on this sort of mission... quest... thing!'" 
+"Recruit a foolhardy Hobbit. \n \n 'You need people of intelligence on this sort of mission... quest... thing!'" 
 END
 
 CONTROLBAR:RohanPippinRevive
@@ -14963,7 +14899,7 @@ CONTROLBAR:ToolTipBuildWitchKing
 END
 
 CONTROLBAR:MordorWitchKingOnFellBeastRecruit
-"Hero Unit. Recruit the Leader of the Nazgul, on his winged Fell Beast \n Leadership: \n +50% Damage, +50% Armor"
+"Recruit the Leader of the Nazgul, on his winged Fell Beast \n Leadership: \n +50% Damage, +50% Armor"
 END
 
 CONTROLBAR:MordorWitchKingOnFellBeastRevive
@@ -14979,7 +14915,7 @@ CONTROLBAR:ToolTipBuildNazgulOnFellBeast
 END
 
 CONTROLBAR:MordorFellBeastRecruit
-"Hero Unit. Recruit the Nazgul Captain, riding the Fell Beast."
+"Recruit the Nazgul Captain, riding the Fell Beast."
 END
 
 CONTROLBAR:MordorFellBeastRevive
@@ -15123,11 +15059,11 @@ CONTROLBAR:ToolTipBuildIsengardFlamingArrowsPorter
 END
 
 CONTROLBAR:ToolTipBuildLurtz
-"Hero Unit. Skilled with bow and sword"
+"Skilled with bow and sword"
 END
 
 CONTROLBAR:IsengardLurtzRecruit
-"Hero Unit. Recruit Saruman's trusted lieutenant. \n \n \ 'Find the Halfings!'"
+"Recruit Saruman's trusted lieutenant. \n \n \ 'Find the Halfings!'"
 END
 
 CONTROLBAR:IsengardLurtzRevive
@@ -15143,7 +15079,7 @@ CONTROLBAR:ToolTipBuildSaruman
 END
 
 CONTROLBAR:IsengardSarumanRecruit
-"Hero Unit. Recruit the Lord of Isengard. \n \n 'A new power is rising. Its victory is at hand. We have only to remove those who oppose us.'"
+"Required: Lord of Orthanc Spellbook \nRecruit the Lord of Isengard. \n \n 'A new power is rising. Its victory is at hand. We have only to remove those who oppose us.' \n Rank 10"
 END
 
 CONTROLBAR:IsengardSarumanRevive
@@ -15224,6 +15160,10 @@ CONTROLBAR:GenericReviveHero
 END
 
 CONTROLBAR:GenericRecruitHero
+"%s"
+END
+
+CONTROLBAR:GenericRecruitHeroTestTest
 "Recruit %s"
 END
 
@@ -35337,7 +35277,7 @@ CONTROLBAR:ToolTipSaru
 END
 
 TOOLTIP:ToolTipLackSaru
-"Required: Lord of Orthanc Power \n Hero Unit. Recruit Saruman"
+"Required: Lord of Orthanc Power \n Recruit Saruman"
 END
 
 CONTROLBAR:EndlessSupplies
