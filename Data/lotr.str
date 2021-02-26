@@ -15360,7 +15360,7 @@ CONTROLBAR:TooltipScreech
 END
 
 CONTROLBAR:BladeMaster
-"&Blade Master"
+"&Flame of the West"
 END
 
 CONTROLBAR:NarsilAttack
@@ -15380,7 +15380,7 @@ CONTROLBAR:ToolTipLightTorch
 END
 
 CONTROLBAR:TooltipBladeMaster
-"Required: Rank 2 \n +50% Damage, +50% Armor \n left click to activate"
+"Aragorn recieves Anduril, the sword which was reforged from the shards of Narsil.\n\nRequired: Rank 2 \n+100% Damage, +50% armor, +25% speed \n Passive upgrade \n +50% Damage, +50% Armor \n When activated"
 END
 
 CONTROLBAR:ToolTipNarsilAttack
