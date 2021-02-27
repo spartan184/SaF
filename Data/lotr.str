@@ -31,6 +31,42 @@ CONTROLBAR:ToolTipRJCameraOverheadView
 "Have a bird's eye view of the battlefield"
 END
 // END CAMERA
+;/////////////////////////////-----------------Isengard Ugluk---------------//////////////////////////////////////
+OBJECT:IsengardUgluk
+"Ugluk"
+END
+
+OBJECT:IsengardUgluk
+"Ugluk"
+END
+
+CONTROLBAR:IsengardUglukRecruit
+"Recruit the Uruk Captain, Uglúk \n \n 'They have something. An Elvish weapon. The master wants it for the war.'"
+END
+
+CONTROLBAR:IsengardUglukRevive
+"Revive the fallen Hero, Ugluk"
+END
+
+CONTROLBAR:IsengardUglukHotkey
+"&Ugluk"
+END
+
+CONTROLBAR:UglukLeadership
+"Uruk-hai Captain"
+END
+
+CONTROLBAR:ToolTipUglukLeadership
+"Required: Rank 2 \n Leadership bonus to nearby Uruk-Hai \n +20% Speed, +50% Armor \n and +150% Combat Experience \n Passive Ability"
+END
+
+CONTROLBAR:UglukSupper
+"&Supper"
+END
+
+CONTROLBAR:TooltipSupper
+"Required: Rank 5 \n Nearby Uruk-hai regain health \n left click to activate"
+END
 
 //------------ Wulfgar ---------------
 OBJECT:IsengardWulfgar
