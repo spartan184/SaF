@@ -1,3 +1,2 @@
 Internal hierarchy is named FIRETEST; Could not get info for art\w3d\firetest (2).w3d
-Asset GUGANDALF_MORIA.STAFF_LIGHT in file gugandalf_moria.w3d depends on unknown asset exgandalfmlight.tga.
-Asset GUGANDALF_MORIA in file gugandalf_moria.w3d depends on unknown asset h*gugandalfg_skl.
+Asset AUGANDALF_SKN in file augandalf_skn.w3d depends on unknown asset h*gugandalfg_skl.
