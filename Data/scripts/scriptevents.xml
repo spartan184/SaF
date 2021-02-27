@@ -610,12 +610,6 @@
 		<EventHandler EventName="User3Lost" ScriptFunctionName="OnFireSpecialStop"  DebugSingleStep="false"/>
     </EventList>
 	
-	<EventList Name="IsengardDunlandFunctions" Inherit="MordorFighterFunctions">
-        <!-- This contains events specific to the IsengardFighter. Kris -->
-        <EventHandler EventName="OnCreated"                ScriptFunctionName="OnIsengardDunlandCreated" DebugSingleStep="false"/>
-		<EventHandler EventName="User5Achieved"	ScriptFunctionName="EndlessSupplyGrantUpgrades"	DebugSingleStep="false"/>
-    </EventList>
-	
 	<EventList Name="ImrahilFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnImrahilCreated" DebugSingleStep="false"/>
 		<EventHandler EventName="DamageIncoming" 		ScriptFunctionName="ImrahilConsiderUsingDefensePower" DebugSingleStep="false"/>
@@ -685,7 +679,26 @@
         <EventHandler EventName="UsingSpecialOne"		ScriptFunctionName="RadiateUncontrollableFearUrshak"	DebugSingleStep="false"/>
     </EventList>
 
-    <EventList Name="DunlandHuskarlFunctions" Inherit="SaFInfantryFunctions">
+	<EventList Name="IsengardDunlandFunctions" Inherit="IsengardBaseHordeFunctions">
+        <EventHandler EventName="OnCreated"                ScriptFunctionName="OnIsengardDunlandCreated" DebugSingleStep="false"/>
+    </EventList>
+
+    <EventList Name="IsengardDunlandAxemanFunctions" Inherit="IsengardBaseHordeFunctions">
+        <EventHandler EventName="OnCreated"                ScriptFunctionName="OnIsengardDunlandAxemanCreated" DebugSingleStep="false"/>
+    </EventList>
+
+    <EventList Name="IsengardDunlandArcherHordeFunctions" Inherit="IsengardDunlandArcherFunctions">
+		<EventHandler EventName="WeaponlockActivated"	ScriptFunctionName="HordeFireArrowActivationHook"  DebugSingleStep="false"/>
+		<EventHandler EventName="WeaponlockDeactivated" ScriptFunctionName="HordeFireArrowDeactivationHook"  DebugSingleStep="false"/>
+    </EventList>
+	
+	<EventList Name="IsengardDunlandArcherFunctions" Inherit="IsengardBaseHordeFunctions">
+		<EventHandler EventName="OnCreated"				ScriptFunctionName="OnIsengardDunlandAxemanCreated" DebugSingleStep="false"/>
+		<EventHandler EventName="User1Achieved"	        ScriptFunctionName="OnFireSpecialActivation"        DebugSingleStep="false"/>
+		<EventHandler EventName="User1Lost"             ScriptFunctionName="OnFireSpecialStop"              DebugSingleStep="false"/>
+    </EventList>
+
+    <EventList Name="DunlandHuskarlFunctions" Inherit="IsengardBaseHordeFunctions">
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnDunlandHuskarlCreated" DebugSingleStep="false"/>
     </EventList>
 
