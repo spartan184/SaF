@@ -35,7 +35,7 @@ function OnDunlandHuskarlCreated(self)
     end	
 end
 
-function OnDunlandAxemenCreated(self)
+function OnIsengardDunlandAxemanCreated(self)
     ObjectHideSubObjectPermanently( self, "FireArowTip", true )
     ObjectHideSubObjectPermanently( self, "FORGED_BLADE", true )
     ObjectHideSubObjectPermanently( self, "HA", true )
