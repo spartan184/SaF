@@ -2764,11 +2764,11 @@ CONTROLBAR:TooltipMordorScum
 END
 
 CONTROLBAR:EndlessSupplies
-"Metal and Wheels"
+"&Metal and Wheels"
 END
 
 CONTROLBAR:TooltipEndlessSupplies
-"Instantly upgrades units in radius with heavy armor and forged blades \n Left click then right click on target"
+"Instantly upgrades units in radius with heavy armor, forged blades and banner carriers\n Left click then right click on target"
 END
 
 CONTROLBAR:ThunderBolt
@@ -2780,7 +2780,7 @@ CONTROLBAR:ToolTipThunderBolt
 END
 
 CONTROLBAR:SarumanCalltheHorde
-"Build &Me An Army"
+"Build Me An Army"
 END
 
 CONTROLBAR:ToolTipSarumanCalltheHorde
@@ -14708,7 +14708,7 @@ CONTROLBAR:ToolTipBuildTheoden
 END
 
 CONTROLBAR:RohanTheodenRecruit
-"Recruit the King of Rohan. \n \n 'Arise, arise, Riders of Théoden!\nFell deeds awake, fire and slaughter!\nSpear shall be shaken, shield be splintered,\na sword-day, a red day, ere the sun rises!\nRide now, ride now!'"
+"Recruit the King of Rohan. \n \n 'Arise, arise, Riders of Theoden!\nFell deeds awake, fire and slaughter!\nSpear shall be shaken, shield be splintered,\na sword-day, a red day, ere the sun rises!\nRide now, ride now!'"
 END
 
 CONTROLBAR:RohanTheodenRevive
@@ -16065,7 +16065,7 @@ CONTROLBAR:Dominate
 END
 
 CONTROLBAR:ToolTipDominate
-"Required: Rank 10 \n Temporarily gain control of targeted enemies \n left click then right click on target"
+"Temporarily gain control of targeted enemies \n left click then right click on target"
 END
 
 CONTROLBAR:GrimaDominate

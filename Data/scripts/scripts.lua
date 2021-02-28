@@ -351,6 +351,11 @@ function EndlessSupplyGrantUpgrades(self)
 	ObjectGrantUpgrade( self, "Upgrade_IsengardForgedBlades" )
 	ObjectGrantUpgrade( self, "Upgrade_IsengardHeavyArmor" )
     ObjectGrantUpgrade( self, "Upgrade_IsengardBasicTraining" )
+    ObjectSetChanting(self, true)
+end
+
+function SarumanMetalAndWheelsVeterencyHack(self)
+            ObjectDoSpecialPower(self, "SpecialAbilityEndlessSuppliesVeterency")
 end
 
 function OnGondorDolAmrothCreated(self)

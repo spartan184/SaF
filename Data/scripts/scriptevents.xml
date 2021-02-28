@@ -242,6 +242,9 @@
      <EventList Name="SarumanFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="DamageIncoming" ScriptFunctionName="SarumanConsiderUsingDefensePower" DebugSingleStep="false"/>
     </EventList>
+    <EventList Name="SarumanMetalAndWheelsFunctions" Inherit="BaseScriptFunctions">
+        <EventHandler EventName="User5Achieved" ScriptFunctionName="SarumanMetalAndWheelsVeterencyHack" DebugSingleStep="false"/>
+    </EventList>
    
 	<EventList Name="LegolasFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnLegolasCreated" DebugSingleStep="false"/>
@@ -267,13 +270,17 @@
 		<EventHandler EventName="BeAfraidOfPhial"			ScriptFunctionName="BecomeAfraidOfPhial" 		DebugSingleStep="false"/>
 		<EventHandler EventName="BeAfraidOfGateDamaged"		ScriptFunctionName="BecomeAfraidOfGateDamaged" 	DebugSingleStep="false"/>
 		<EventHandler EventName="BeAfraidOfRampage"			ScriptFunctionName="BecomeAfraidOfRampage" 		DebugSingleStep="false"/>
+        <EventHandler EventName="User4Achieved"	            ScriptFunctionName="BecomeUncontrollablyAfraid"    DebugSingleStep="false"/>
     </EventList>
     
     <EventList Name="CavalryFunctions" Inherit="BaseScriptFunctions">
 		<!-- These are events that will apply to all infantry.  Any infantry units should inherit this set. jba -->
+        <EventHandler EventName="BeTerrified"				ScriptFunctionName="BecomeTerrified"			DebugSingleStep="false"/>
+		<EventHandler EventName="BeUncontrollablyAfraid"	ScriptFunctionName="BecomeUncontrollablyAfraid"	DebugSingleStep="false"/>
         <EventHandler EventName="BeAfraidOfBalrog"	        ScriptFunctionName="BecomeAfraidOfBalrog"		        DebugSingleStep="false"/>
         <EventHandler EventName="BeAfraidOfRampage"	        ScriptFunctionName="BecomeAfraidOfRampage"		        DebugSingleStep="false"/>
-		<EventHandler EventName="BeTerrified"			    ScriptFunctionName="BecomeTerrified"                    DebugSingleStep="false"/>
+        <EventHandler EventName="BeAfraidOfPhial"			ScriptFunctionName="BecomeAfraidOfPhial" 		DebugSingleStep="false"/>
+		<EventHandler EventName="BeAfraidOfGateDamaged"		ScriptFunctionName="BecomeAfraidOfGateDamaged" 	DebugSingleStep="false"/>
         <EventHandler EventName="User4Achieved"	            ScriptFunctionName="BecomeUncontrollablyAfraid"    DebugSingleStep="false"/>
     </EventList>
 
@@ -359,10 +366,10 @@
     <EventList Name="IsengardFighterFunctions" Inherit="SaFInfantryFunctions">
 		<!-- This contains events specific to the IsengardFighter. Kris -->
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnIsengardFighterCreated" DebugSingleStep="false"/>
-		<EventHandler EventName="User5Achieved"	ScriptFunctionName="EndlessSupplyGrantUpgrades"	DebugSingleStep="false"/>
+		<EventHandler EventName="User5Achieved"	        ScriptFunctionName="EndlessSupplyGrantUpgrades"	DebugSingleStep="false"/>
     </EventList>
 	
-	<EventList Name="IsengardFighterRamFunctions" Inherit="MordorFighterFunctions">
+	<EventList Name="IsengardFighterRamFunctions" Inherit="SaFInfantryFunctions">
 		<!-- This contains events specific to the IsengardFighter. Kris -->
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnIsengardFighterRamCreated" DebugSingleStep="false"/>
     </EventList>
@@ -371,10 +378,10 @@
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnIsengardScoutCreated" DebugSingleStep="false"/>
     </EventList>
 
-    <EventList Name="WargRiderFunctions" Inherit="MordorFighterFunctions">
+    <EventList Name="WargRiderFunctions" Inherit="CavalryFunctions">
 		<!-- This contains events specific to the IsengardFighter. Kris -->
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnIsengardWargRiderCreated" DebugSingleStep="false"/>
-		<EventHandler EventName="User5Achieved"	ScriptFunctionName="EndlessSupplyGrantUpgrades"	DebugSingleStep="false"/>
+		<EventHandler EventName="User5Achieved"	        ScriptFunctionName="EndlessSupplyGrantUpgrades"	DebugSingleStep="false"/>
     </EventList>
 
     <EventList Name="IsengardArcherFunctions" Inherit="SaFInfantryFunctions">
@@ -524,7 +531,7 @@
 		<EventHandler EventName="User1Lost" ScriptFunctionName="OnFireSpecialStop"  DebugSingleStep="false"/>
     </EventList>
 	
-	<EventList Name="IsengardBeserkerFunctions" Inherit="MordorFighterFunctions">
+	<EventList Name="IsengardBeserkerFunctions" Inherit="SaFInfantryFunctions">
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnIsengardBeserkerCreated" DebugSingleStep="false"/>
     </EventList>
 
