@@ -31,17 +31,14 @@ CONTROLBAR:ToolTipRJCameraOverheadView
 "Have a bird's eye view of the battlefield"
 END
 // END CAMERA
-;/////////////////////////////-----------------Isengard Ugluk---------------//////////////////////////////////////
-OBJECT:IsengardUgluk
-"Ugluk"
-END
+/////////////////////////////-----------------Isengard Ugluk---------------//////////////////////////////////////
 
 OBJECT:IsengardUgluk
 "Ugluk"
 END
 
 CONTROLBAR:IsengardUglukRecruit
-"Recruit the Uruk Captain, Uglúk \n \n 'They have something. An Elvish weapon. The master wants it for the war.'"
+"Recruit the Uruk Captain, Ugluk \n \n 'They have something. An Elvish weapon. The master wants it for the war.'"
 END
 
 CONTROLBAR:IsengardUglukRevive

@@ -350,6 +350,7 @@ end
 function EndlessSupplyGrantUpgrades(self)
 	ObjectGrantUpgrade( self, "Upgrade_IsengardForgedBlades" )
 	ObjectGrantUpgrade( self, "Upgrade_IsengardHeavyArmor" )
+    ObjectGrantUpgrade( self, "Upgrade_IsengardBasicTraining" )
 end
 
 function OnGondorDolAmrothCreated(self)
