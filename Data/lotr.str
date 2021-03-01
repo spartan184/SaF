@@ -134,24 +134,25 @@ CONTROLBAR:ConstructIsengardDunlandArcherHorde
 "Dunlending &Longbowmen"
 END
 
-CONTROLBAR:LW_Unit_IsengardDunlandArcherHorde
-"Dunlending Longbowman Horde"
-END
-
-CONTROLBAR:LW_ToolTip_IsengardDunlandArcherHorde
-"\nUnit Type: Elite Archer\nStrong vs. Infantry"
-END
-
 CONTROLBAR:ToolTipBuildIsengardDunlandArcherHorde
-"Elite Archer \nStrong vs. Infantry \n \n 'The rocky hills of Dunland are difficult to farm, resulting in a sprawling culture of hunting based around the legend of the White Crow.'"
+"Strong vs. Infantry \n \n 'The rocky hills of Dunland are difficult to farm, resulting in a sprawling culture of hunting based around the legend of the White Crow.'"
 END
 
-CONTROLBAR:ToolTipBuildIsengardDunlandArcherHorde_WOTR
-"Requires Clan Steading Level 2 and Dunlending Longhouse \n Elite Archer \nStrong vs. Infantry \n \n 'The rocky hills of Dunland are difficult to farm, resulting in a sprawling culture of hunting based around the legend of the White Crow.'"
+//------------ Dunland Axemen ---------------
+OBJECT:IsengardDunlandAxeman
+"Dunlending Axeman"
 END
 
-CONTROLBAR:LW_ToolTipBuild_IsengardDunlandArcherHorde
-"Unit Type: Elite Archer\nStrong vs. Infantry\n"
+OBJECT:DunlandAxemenHorde
+"Dunlending Axemen"
+END
+
+CONTROLBAR:ConstructIsengardDunlandAxemenHorde
+"Dunlending &Axemen"
+END
+
+CONTROLBAR:ToolTipBuildIsengardDunlandAxemenHorde
+"Strong vs. Pikemen \n \n An axe, a shield, and a helmet. These are the most valuable possessions of any Dunnish warrior."
 END
 
 //------------ Dunland Huskarls ---------------
@@ -11800,7 +11801,7 @@ OBJECT:IsengardUrukPit
 END
 
 OBJECT:IsengardDunlendingGarrison
-"Isengard Dunlending Garrison"
+"Isengard Dunlending Longhouse"
 END
 
 OBJECT:IsengardWargPit
@@ -14004,7 +14005,7 @@ CONTROLBAR:ConstructIsengardUrukPit
 END
 
 CONTROLBAR:ConstructIsengardDunlendingGarrison
-"Build Isengard Dunlending &Garrison"
+"Build Isengard Dunlending &Longhouse"
 END
 
 CONTROLBAR:ConstructIsengardWargPit
@@ -14028,7 +14029,7 @@ CONTROLBAR:ToolTipBuildIsengardBattleTower
 END
 
 CONTROLBAR:ToolTipIsengardDunlendingGarrison
-"Recruits Dunlending Axemen"
+"Recruits Dunlending Axemen, Archers and Huskarls"
 END
 
 CONTROLBAR:ToolTipIsengardUrukPit
