@@ -111,7 +111,7 @@ CONTROLBAR:WulfgarSubjugation
 End
 
 CONTROLBAR:ToolTipWulfgarSubjugation
-"Though hesitant, Wulfgar was left with no choice\nbut to pledge his warriors to Saruman’s cause\nRequires Level 3 \nDunlendings near Wulfgar gain +50% damage \nPassive ability"
+"Though hesitant, Wulfgar was left with no choice\nbut to pledge his warriors to Saruman's cause\nRequires Level 3 \nDunlendings near Wulfgar gain +50% damage \nPassive ability"
 END
 
 CONTROLBAR:SwordStrike
@@ -2785,7 +2785,7 @@ CONTROLBAR:EndlessSupplies
 END
 
 CONTROLBAR:TooltipEndlessSupplies
-"Instantly upgrades units in radius with heavy armor, forged blades and banner carriers\n Left click then right click on target"
+"Instantly upgrades Infantry units in radius with heavy armor, forged blades and banner carriers\n Left click then right click on target"
 END
 
 CONTROLBAR:ThunderBolt
@@ -2801,7 +2801,7 @@ CONTROLBAR:SarumanCalltheHorde
 END
 
 CONTROLBAR:ToolTipSarumanCalltheHorde
-"Decreases Uruk Production Speed \n Left click to activate"
+"Uruk-hai are produced at a significantly increased rate for a moderate duration \n Left click to activate"
 END
 
 CONTROLBAR:SpawnLurtzScouts
@@ -10445,6 +10445,10 @@ OBJECT:GondorBanner
 END
 
 OBJECT:IsengardSaruman
+"Saruman"
+END
+
+OBJECT:IsengardSarumanMP
 "&Saruman"
 END
 
