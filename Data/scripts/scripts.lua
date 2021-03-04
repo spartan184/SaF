@@ -246,6 +246,8 @@ function OnPippinCreated(self)
 		ObjectHideSubObjectPermanently( self, "SCABBARD", false )
 		ObjectHideSubObjectPermanently( self, "SCABBARDS", false )
 		ObjectHideSubObjectPermanently( self, "SATCHEL", false )
+        ObjectHideSubObjectPermanently( self, "MERRYSWORD", false )
+
 end
 function OnIsengardScoutCreated(self)
 	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
