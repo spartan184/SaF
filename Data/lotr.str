@@ -2467,8 +2467,15 @@ GUI:MINE_DISCOUNT
 "Mine Bonus -%d%%"
 END
 
-OBJECT:GundabadCave
+OBJECT:GundabadLodge
 "Mountain-orc Lodge"
+END
+OBJECT:GundabadLodgeDescription
+"Rank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
+END
+
+OBJECT:GundabadCave
+"Moria-orc Cave"
 END
 OBJECT:GundabadCaveDescription
 "Rank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
@@ -2504,14 +2511,24 @@ CONTROLBAR:ConstructGundabadMine
 "Build a Gundabad &Mine"
 END
 CONTROLBAR:ToolTipGundabadMine
-"Produces resources \n Trains Moria-orc Swarms \n Reduces cost of infantry with each mine built \n 2 Mines: 5% \n 3 Mines: 10% \n 4 Mines: 15% \n 5 Mines: 20% \n 6 Mines: 25%"
+"Produces resources \n Reduces cost of infantry with each mine built \n 2 Mines: 5% \n 3 Mines: 10% \n 4 Mines: 15% \n 5 Mines: 20% \n 6 Mines: 25%"
 END
 
-CONTROLBAR:ConstructGundabadCave
+CONTROLBAR:ConstructGundabadLodge
 "Build a Mountain-orc &Lodge"
 END
-CONTROLBAR:ToolTipGundabadCave
+CONTROLBAR:ToolTipGundabadLodge
 "Trains Mountain-orcs and Berserkers of Gundabad"
+END
+
+CONTROLBAR:UnpackGundabadCave
+"Moria-orc &Cave"
+END
+CONTROLBAR:ConstructGundabadCave
+"Build a Moria-orc &Cave"
+END
+CONTROLBAR:ToolTipGundabadCave
+"Does not produce resources\nTrains Moria-orc Screechers"
 END
 
 CONTROLBAR:ConstructGundabadWolfDen
