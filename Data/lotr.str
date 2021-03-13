@@ -1052,6 +1052,29 @@ CONTROLBAR:PurchaseTechnologyEriadorBasicTraining
 END
 
 //================================================= Vannila Faction Stuff ====================================
+OBJECT:RohanHama
+"Háma"
+END
+
+CONTROLBAR:RohanHamaRecruit
+"Recruit the Door-warden."
+END
+
+CONTROLBAR:RohanHamaRevive
+"Revive the fallen Hero, Háma"
+END
+
+CONTROLBAR:RohanHamaHotkey
+"H&áma"
+END
+
+CONTROLBAR:RohanGamlingRecruit
+"Gamling"
+End
+
+CONTROLBAR:RohanGamlingRevive
+"Revive Gaming"
+End
 
 OBJECT:RohanTheodred
 "Theodred"
