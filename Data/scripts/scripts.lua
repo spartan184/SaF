@@ -1,4 +1,30 @@
 -- define lua functions
+function OnIsengardShieldBearerCreated(self)
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	ObjectHideSubObjectPermanently( self, "HELMET01", true )
+	ObjectHideSubObjectPermanently( self, "HELMET02", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD01", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD02", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD03", true )
+	ObjectHideSubObjectPermanently( self, "HA", true )
+	
+    local helmet         =    GetRandomNumber()
+    local shield         =    GetRandomNumber()
+
+    if helmet <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HELMET01", false )
+    else
+        ObjectHideSubObjectPermanently( self, "HELMET02", false )
+    end   
+	
+    if shield <= 0.33 then
+        ObjectHideSubObjectPermanently( self, "SHIELD01", false )
+    elseif shield <= 0.66 then
+        ObjectHideSubObjectPermanently( self, "SHIELD02", false )
+    else
+        ObjectHideSubObjectPermanently( self, "SHIELD03", false )
+    end   
+end
 function OnDunlandHuskarlCreated(self)
     ObjectHideSubObjectPermanently( self, "HA", true )
 	ObjectHideSubObjectPermanently( self, "HEADA", true )
@@ -34,7 +60,6 @@ function OnDunlandHuskarlCreated(self)
 		end
     end	
 end
-
 function OnIsengardDunlandAxemanCreated(self)
     ObjectHideSubObjectPermanently( self, "FireArowTip", true )
     ObjectHideSubObjectPermanently( self, "FORGED_BLADE", true )

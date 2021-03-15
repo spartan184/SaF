@@ -376,7 +376,9 @@
 		<!-- This contains events specific to the IsengardFighter. Kris -->
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnIsengardFighterRamCreated" DebugSingleStep="false"/>
     </EventList>
-	
+	<EventList Name="IsengardShieldBearerFunctions" Inherit="SaFInfantryFunctions">
+         <EventHandler EventName="OnCreated" ScriptFunctionName="OnIsengardShieldBearerCreated" DebugSingleStep="false"/>
+    </EventList>
 	<EventList Name="IsengardScoutFunctions" Inherit="SaFInfantryFunctions">
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnIsengardScoutCreated" DebugSingleStep="false"/>
     </EventList>

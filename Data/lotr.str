@@ -81,6 +81,14 @@ CONTROLBAR:ToolTipIsengardUglukHeadhunter
 "Requires Level 7 \n Ugluk and nearby Uruks temporarily gain +100% Damage\n Left click icon to activate"
 END
 
+// ================= Isengard Shield Bearers ================= //
+OBJECT:IsengardShieldBearer
+"Uruk-hai Shieldbearer"
+END
+
+OBJECT:HordeIsengardShieldBearer
+"Uruk-hai Shieldbearers"
+END
 //------------ Wulfgar ---------------
 OBJECT:IsengardWulfgar
 "Wulfgar"
