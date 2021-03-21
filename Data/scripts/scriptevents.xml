@@ -71,6 +71,14 @@
 		<ModelConditionEvent Name="UsingSpecialTwo">
 			<Conditions>+SPECIAL_POWER_2 -UNPACKING -PACKING</Conditions>
 		</ModelConditionEvent>
+
+        <ModelConditionEvent Name="UsingSpecialTwoMounted">
+			<Conditions>+SPECIAL_POWER_2 +MOUNTED</Conditions>
+		</ModelConditionEvent>
+
+        <ModelConditionEvent Name="EndingSpecialTwoMounted">
+			<Conditions>-SPECIAL_POWER_2 +MOUNTED</Conditions>
+		</ModelConditionEvent>
 		
 		<ModelConditionEvent Name="UsingSpecialThree">
 			<Conditions>+SPECIAL_POWER_3 -UNPACKING -PACKING</Conditions>
@@ -239,8 +247,11 @@
         <EventHandler EventName="UsingSpecialOne" ScriptFunctionName="GandalfTriggerWizardBlast" DebugSingleStep="false"/>
     </EventList>
     <EventList Name="RadagastFunctions" Inherit="BaseScriptFunctions">
+        <EventHandler EventName="OnCreated"	ScriptFunctionName="OnRadagastCreated" DebugSingleStep="false"/>
         <EventHandler EventName="DamageIncoming" ScriptFunctionName="GandalfConsiderUsingDefensePower" DebugSingleStep="false"/>
         <EventHandler EventName="UsingSpecialOne" ScriptFunctionName="GandalfTriggerWizardBlast" DebugSingleStep="false"/>
+        <EventHandler EventName="UsingSpecialTwoMounted"	ScriptFunctionName="OnRadagastUsingSpecialTwo"		DebugSingleStep="false"/>
+        <EventHandler EventName="EndingSpecialTwoMounted"	ScriptFunctionName="OnRadagastEndingSpecialTwo"		DebugSingleStep="false"/>
     </EventList>
      <EventList Name="SarumanFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="DamageIncoming" ScriptFunctionName="SarumanConsiderUsingDefensePower" DebugSingleStep="false"/>
