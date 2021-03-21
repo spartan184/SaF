@@ -10518,6 +10518,10 @@ OBJECT:GondorTrebuchet
 END
 
 OBJECT:GandalfTheWhite
+"Gandalf"
+END
+
+OBJECT:GandalfTheWhiteMP
 "&Gandalf"
 END
 
