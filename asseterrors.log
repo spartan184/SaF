@@ -206,6 +206,10 @@ Asset GUNUMSPR_SKN.LEGARMOR in file gunumspr_skn.w3d depends on unknown asset gu
 Asset GUNUMSPR_SKN.HEAD in file gunumspr_skn.w3d depends on unknown asset gunumenorian.tga.
 Asset GUNUMSPR_SKN.BODY in file gunumspr_skn.w3d depends on unknown asset gunumenorian.tga.
 Asset GUSIEGTREB_SKNA in file gusiegtreb_skna.w3d depends on unknown asset h*gusiegtreb_skl.
+Asset GUTWRGRD_SKN.FORGED_BLADE in file gutwrgrd_skn.w3d depends on unknown asset exlnzflar2.tga.
+Asset GUTWRGRD_SKN.SPEAR in file gutwrgrd_skn.w3d depends on unknown asset gutowrgrd.tga.
+Asset GUTWRGRD_SKN.TG in file gutwrgrd_skn.w3d depends on unknown asset gutowrgrd.tga.
+Asset GUTWRGRD_SKN.PAULDRONS in file gutwrgrd_skn.w3d depends on unknown asset gutowrgrd.tga.
 Asset IBMINE_D1.V2 in file ibmine_d1.w3d depends on unknown asset ibarmory_d.tga.
 Asset IBMINE_D1.RANK3 in file ibmine_d1.w3d depends on unknown asset iu_banr_a.tga.
 Asset IBMINE_D2.V2 in file ibmine_d2.w3d depends on unknown asset ibarmory_d.tga.
