@@ -31,6 +31,18 @@ CONTROLBAR:ToolTipRJCameraOverheadView
 "Have a bird's eye view of the battlefield"
 END
 // END CAMERA
+
+//============ Mordor Battle Tower =================
+OBJECT:MordorBattleTower
+"Mordor Battle Tower"
+END
+CONTROLBAR:ConstructMordorBattleTower
+"Mordor Battle &Tower"
+END
+CONTROLBAR:ToolTipBuildMordorBattleTower
+"Defensive structure"
+END
+
 /////////////////////////////-----------------Isengard Ugluk---------------//////////////////////////////////////
 
 OBJECT:IsengardUgluk
@@ -11810,7 +11822,7 @@ OBJECT:MordorTent
 END
 
 OBJECT:MordorOrcPit
-"Mordor Orc Pit"
+"Mordor Orc Barracks"
 END
 
 OBJECT:MordorOrcFletcher
@@ -13994,7 +14006,7 @@ CONTROLBAR:ConstructMordorBase
 END
 
 CONTROLBAR:ConstructMordorOrcPit
-"Build Mordor Orc Pi&t"
+"Build Mordor Orc &Barracks"
 END
 
 CONTROLBAR:BuildMordorWorker
