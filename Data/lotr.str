@@ -15085,6 +15085,10 @@ CONTROLBAR:ConstructIsengardUrukHai
 "Isengard &Uruk-hai"
 END
 
+CONTROLBAR:ConstructIsengardUrukScout
+"Isengard Uruk-&scout"
+END
+
 CONTROLBAR:ConstructIsengardCrossbowmen
 "Isengard &Crossbowmen"
 END
@@ -15159,6 +15163,10 @@ END
 
 CONTROLBAR:ToolTipBuildIsengardUrukHai
 "Strong vs. Archers \n Weak vs. Cavalry, Monsters, Heroes \n \n Crossbreeding orcs with goblin-men, Saruman has raised an army with but a single purpose; to destroy the world of Men."
+END
+
+CONTROLBAR:ToolTipBuildIsengardUrukScout
+"Strong vs. Infantry \n Weak vs. Archers, Monsters, Heroes \n \n These vicious fleet-footed Uruk-hai were deployed by Saruman along with Lurtz and Ugluk to hunt down and kill the Fellowship to claim the One Ring."
 END
 
 CONTROLBAR:ToolTipBuildIsengardCrossbowmen
@@ -18632,7 +18640,7 @@ LW:Evil_Isengard
 END
 
 LW:Evil_Rohan_One
-"Order Saruman's Army to attack Rohan."
+"Order one of your Armies to attack Rohan."
 END
 
 LW:Evil_Amon_Hen
@@ -18913,6 +18921,10 @@ END
 
 LWA:GondorArmy
 "Gondor Army"
+END
+
+LWA:SharkuArmy
+"Isengard Army"
 END
 
 LWA:IsengardArmy
