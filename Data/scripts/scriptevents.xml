@@ -433,6 +433,11 @@
         <EventHandler EventName="UsingSpecialOne"		ScriptFunctionName="RadiateTerror"	DebugSingleStep="false"/>
     </EventList>
 
+    <EventList Name="BeregondFunctions" Inherit="BaseScriptFunctions">
+		<!-- This contains events specific to Beregond -->
+        <EventHandler EventName="OnCreated"				ScriptFunctionName="OnBeregondCreated" DebugSingleStep="false"/>
+    </EventList>
+
     <EventList Name="FrodoFunctions" Inherit="BaseScriptFunctions">
 		<!-- This contains events specific to Frodo -->
         <!-- <EventHandler EventName="UsingSpecialOne"		ScriptFunctionName="RadiatePhialFear"	DebugSingleStep="false"/> -->

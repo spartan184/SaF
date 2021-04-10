@@ -9,6 +9,12 @@ function OnRadagastEndingSpecialTwo(self)
 	ObjectHideSubObjectPermanently( self, "STAFF_L", true )
 end
 
+function OnBeregondCreated(self)
+	ObjectHideSubObjectPermanently( self, "BOW", true )
+    ObjectHideSubObjectPermanently( self, "QUIVER", true )
+    ObjectHideSubObjectPermanently( self, "QUIVERARROW", true )
+end
+
 function OnIsengardShieldBearerCreated(self)
 	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
 	ObjectHideSubObjectPermanently( self, "HELMET01", true )
