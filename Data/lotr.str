@@ -217,7 +217,7 @@ CONTROLBAR:DunlandNobleLineage
 END
 
 CONTROLBAR:ToolTipDunlandNobleLineage
-"Modifier Type: Leadership\nNearby Wildmen and Dunlendings receive\n+50% experience gain and fear resistance\nPassive ability"
+"Modifier Type: Leadership\nNearby Dunlendings receive\n+50% experience gain and fear resistance\nPassive ability"
 END
 
 CONTROLBAR:RecklessSwings
