@@ -271,6 +271,14 @@ CONTROLBAR:MerryEsquirePassiveLeadership
 "Esquire of Rohan"
 END
 
+CONTROLBAR:ToolTipPippinGuardCitadelPassiveLeadership
+"When Peregrin Took arrived to Minas Tirith, he offered his services as payment for Boromir's sacrifice to save his life. \n He was outfitted in the garb of the Tower, and was instructed by Beregond of the Third Company. \n Pippin gains +100% Damage while near Beregond. \n Passive ability"
+END
+
+CONTROLBAR:PippinGuardCitadelPassiveLeadership
+"Guard of the Citadel"
+END
+
 CONTROLBAR:CrebainPassiveLeadership
 "Crebain"
 END
