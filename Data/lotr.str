@@ -2677,7 +2677,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyGundabadUrukCaptain
 "Ranks a new unit to level 2 veterancy \n Can only be equipped at Level 1 \n Purchase Captain Upgrade \n Select a horde to equip upgrade"
 END
 TOOLTIP:LackLevel2GundabadCaveCaptain
-"Required: Rank 2 Gundabad Forge \n Ranks a new unit to level 2 veterancy \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+"Required: Rank 2 Mountain-orc Lodge \n Ranks a new unit to level 2 veterancy \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
 
 CONTROLBAR:PurchaseUpgradeGundabadUrukCaptain
