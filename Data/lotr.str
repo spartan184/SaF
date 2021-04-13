@@ -158,6 +158,10 @@ CONTROLBAR:ToolTipBuildIsengardDunlandArcherHorde
 "Strong vs. Infantry \n \n 'The rocky hills of Dunland are difficult to farm, resulting in a sprawling culture of hunting based around the legend of the White Crow.'"
 END
 
+OBJECT:HordeIsengardDunlandAxemanArcherCombo
+"Dunlending Axemen - Longbowmen Horde"
+END
+
 //------------ Dunland Axemen ---------------
 OBJECT:IsengardDunlandAxeman
 "Dunlending Axeman"
@@ -19122,6 +19126,16 @@ END
 APT:Close
 "CLOSE"
 END
+
+
+//============== New Campaign Units ====================
+BANNERUI:Dunland
+"Dunlending"
+END
+BANNERUI:DunlandPlural
+"Dunlendings"
+END
+//======================================================
 
 BANNERUI:SummaryTitle
 "Summon Reinforcements"
