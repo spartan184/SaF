@@ -256,7 +256,7 @@ CONTROLBAR:AttackTrollPassiveLeadership
 END
 
 CONTROLBAR:ToolTipAttackTrollPassiveLeadership
-"Required: Rank 5 \n Upgrades Mountain-troll into a deadly Attack-troll \n Troll gains 50% armor vs Pierce, 25% damage increase \n Passive ability \n \n The cruelest, most intelligent of the Olog-hai were clad in jagged black armor and sent to the front line to serve as some of Sauron's most feared warriors."
+"Required: Rank 2 \n Upgrades Mountain-troll into a deadly Attack-troll \n Troll gains 50% armor vs Pierce, 25% damage increase \n Passive ability \n \n The cruelest, most intelligent of the Olog-hai were clad in jagged black armor and sent to the front line to serve as some of Sauron's most feared warriors."
 END
 
 CONTROLBAR:ToolTipOrcishTenacityPassiveLeadership
@@ -2918,7 +2918,7 @@ CONTROLBAR:SpawnLurtzScouts
 END
 
 CONTROLBAR:TooltipSpawnLurtzScouts
-"Call forth the Scouts of Isengard \n Left click then right click on target"
+"Required: Rank 7 \n Call forth the Scouts of Isengard \n Left click then right click on target"
 END
 
 CONTROLBAR:LurtzThickArmor
@@ -3257,10 +3257,6 @@ END
 
 CONTROLBAR:LurtzSummonScouts
 "Fighting Uruk-Hai"
-END
-
-CONTROLBAR:ToolTipSpawnLurtzScouts
-"Required: Rank 7 \n Lurtz summons a horde of powerful Uruk Scouts"
 END
 
 //================================================== End ============================================
