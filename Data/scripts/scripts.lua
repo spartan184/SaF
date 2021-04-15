@@ -1,4 +1,21 @@
 -- define lua functions
+function OnAxemenofLossCreated(self)
+    ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+    ObjectHideSubObjectPermanently( self, "ARMOR", true )
+    ObjectHideSubObjectPermanently( self, "HEAD01", true )
+    ObjectHideSubObjectPermanently( self, "HEAD02", true )
+    ObjectHideSubObjectPermanently( self, "HEAD03", true )
+    local helmet         =    GetRandomNumber()
+    if helmet <= 0.333 then
+        ObjectHideSubObjectPermanently( self, "HEAD01", false )
+    elseif helmet <= 0.666 then
+        ObjectHideSubObjectPermanently( self, "HEAD02", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HEAD03", false )
+    end
+end
+function OnForlongCreated(self)
+end
 function OnRadagastCreated(self)
 	ObjectHideSubObjectPermanently( self, "STAFF_L", true )
 end

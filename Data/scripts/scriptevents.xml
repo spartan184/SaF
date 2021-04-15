@@ -246,6 +246,10 @@
         <EventHandler EventName="DamageIncoming" ScriptFunctionName="GandalfConsiderUsingDefensePower" DebugSingleStep="false"/>
         <EventHandler EventName="UsingSpecialOne" ScriptFunctionName="GandalfTriggerWizardBlast" DebugSingleStep="false"/>
     </EventList>
+    <EventList Name="ForlongFunctions" Inherit="BaseScriptFunctions">
+		<!-- This contains events specific to Boromir -->
+        <EventHandler EventName="OnCreated"				ScriptFunctionName="OnForlongCreated" DebugSingleStep="false"/>
+    </EventList>
     <EventList Name="RadagastFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="OnCreated"	ScriptFunctionName="OnRadagastCreated" DebugSingleStep="false"/>
         <EventHandler EventName="DamageIncoming" ScriptFunctionName="GandalfConsiderUsingDefensePower" DebugSingleStep="false"/>
@@ -409,7 +413,9 @@
     <EventList Name="HaradrimFunctions" Inherit="SaFInfantryFunctions">
 		<!-- This contains events specific to the Haradrim -->
     </EventList>
-    
+    <EventList Name="AxemenofLamedonFunctions" Inherit="SaFInfantryFunctions">
+        <EventHandler EventName="OnCreated"				ScriptFunctionName="OnAxemenofLossCreated" DebugSingleStep="false"/>
+    </EventList>
     <EventList Name="GondorFighterFunctions" Inherit="SaFInfantryFunctions">
 		<!-- This contains events specific to the Gondor Fighter horde member. jba -->
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnGondorFighterCreated" DebugSingleStep="false"/>

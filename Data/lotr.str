@@ -1285,6 +1285,38 @@ CONTROLBAR:ToolTipHaldirQuickDraw
 "Haldir temporarily gains +25% Attack Speed \n left click to activate"
 END
 
+OBJECT:LossarnachAxeMan
+"Lossarnach Axeman"
+END
+
+OBJECT:HordeLossarnachAxeMen
+"Lossarnach Axemen"
+END
+
+OBJECT:GondorForlong
+"Forlong"
+END
+
+CONTROLBAR:GondorForlongRecruit
+"Recruit the Lord of Lossarnach \n \n 'True heart, true friend! Forlong!'"
+END
+
+CONTROLBAR:GondorForlongRevive
+"Revive the fallen Hero, Forlong"
+END
+
+CONTROLBAR:GondorForlongHotkey
+"For&long"
+END
+
+CONTROLBAR:ForlongLeadership
+"Lord of Lossarnach"
+END
+
+CONTROLBAR:TooltipForlongLeadership
+"Lossarnach Axemen near Forlong gain 150% damage \n and become immune to Fear \n Passive ability"
+END
+
 OBJECT:GondorImrahil
 "Prince Imrahil"
 END
@@ -3013,6 +3045,14 @@ END
 
 CONTROLBAR:ToolTipGreyCompany
 "Summons two battalions of Dunedain Rangers, led by Halbarad \n Left click then right click on target"
+END
+
+CONTROLBAR:FiefdomSummon
+"Fiefdom Allies"
+END
+
+CONTROLBAR:ToolTipFiefdomSummon
+"Summons Forlong and two battalions of Lossarnach Axemen. \n Left click then right click on target"
 END
 
 OBJECT:GondorBeacon
