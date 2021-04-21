@@ -1781,6 +1781,14 @@ CONTROLBAR:ToolTipSauronConflagaration
 "Destroy enemy hero \n (only deals 25% of total damage to Durin's Bane, Gandalf the White, Saruman, Elessar, and Radagast)"
 END
 
+CONTROLBAR:SpecialAbilityTelekinesis
+"Telekinesis"
+END
+
+CONTROLBAR:ToolTipSpecialAbilityTelekinesis
+"Sauron can manipulate objects with his mind \n Knocksback battalion or hero from range."
+END
+
 CONTROLBAR:SauronDominate
 "Annatar, Lor&d of Gifts"
 END
