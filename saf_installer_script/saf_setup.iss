@@ -39,8 +39,8 @@ Source: "saf_src\*"; DestDir:{app}; Flags: ignoreversion recursesubdirs
 #endif
 
 [Icons]
-Name: "{userdesktop}\Shadow and Flame"; Filename: "{code:getBFMEDir}\lotrbfme.exe"; Parameters: "-mod SaF1.0.big"; WorkingDir: "{code:getBFMEDir}\lotrbfme.exe"; IconFilename: "{userappdata}\My Battle for Middle-earth Files\saf.ico"
-Name: "{group}\Shadow and Flame";      Filename: "{code:getBFMEDir}\lotrbfme.exe"; Parameters: "-mod SaF1.0.big"; WorkingDir: "{code:getBFMEDir}\lotrbfme.exe"; IconFilename: "{userappdata}\My Battle for Middle-earth Files\saf.ico"
+Name: "{userdesktop}\Shadow and Flame"; Filename: "{code:getBFMEDir}\lotrbfme.exe"; Parameters: "-mod SaF1.0.big"; WorkingDir: "{code:getBFMEDir}"; IconFilename: "{userappdata}\My Battle for Middle-earth Files\saf.ico"
+Name: "{group}\Shadow and Flame";      Filename: "{code:getBFMEDir}\lotrbfme.exe"; Parameters: "-mod SaF1.0.big"; WorkingDir: "{code:getBFMEDir}"; IconFilename: "{userappdata}\My Battle for Middle-earth Files\saf.ico"
 Name: {group}\{cm:UninstallProgram, Shadow and Flame}; Filename: {uninstallexe}
 
 [Code]
