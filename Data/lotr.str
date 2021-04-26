@@ -1746,7 +1746,7 @@ CONTROLBAR:GothmogSiegeLeadership
 END
 
 CONTROLBAR:ToolTipGothmogSiegeLeadership
-"Required: Rank 6 \n Nearby Catapults gain +15% movement speed and reload time."
+"Required: Rank 1 \n Nearby Catapults gain +15% movement speed and reload time."
 END
 
 CONTROLBAR:GothmogOrcs
@@ -1754,7 +1754,7 @@ CONTROLBAR:GothmogOrcs
 END
 
 CONTROLBAR:ToolTipGothmogOrcs
-"Required: Rank 3 \n Gothmog summons two hordes of orcs"
+"Required: Rank 5 \n Gothmog summons two hordes of orcs and uruks."
 END
 
 CONTROLBAR:GollumWring
