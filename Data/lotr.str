@@ -1158,7 +1158,7 @@ CONTROLBAR:TheodredPassiveLeadership
 END
 
 CONTROLBAR:ToolTipTheodredPassiveLeadership
-"Required: Rank 5 \n Nearby Yeomen Spearmen and Royal Guard gain +150% attack \n Passive ability"
+"Required: Rank 5 \n Nearby Peasants, Yeomen Spearmen, Archers, and Doorwardens gain +150% attack \n Passive ability"
 END
 
 CONTROLBAR:TheodredBloodLeadership
