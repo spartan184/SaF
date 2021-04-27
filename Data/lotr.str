@@ -2046,7 +2046,7 @@ CONTROLBAR:ConstructRohanKingsguardHorde
 END
 
 CONTROLBAR:ToolTipBuildRohanKingsguardHorde
-"Required: Rank 3 Barracks \n Elite Footmen of Rohan \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan."
+"Required: Rank 3 Barracks \n Elite Footmen of Rohan \n Limited to 3 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan."
 END
 
 OBJECT:RohanSpearmen
