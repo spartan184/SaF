@@ -14606,7 +14606,7 @@ CONTROLBAR:ToolTipBuildGondorShieldGuardHorde
 END
 
 CONTROLBAR:ToolTipBuildGondorCitadelGuardHorde
-"Required: Rank 2 Barracks \n Gondor's elite Melee unit \n Limited to 5 units \n \n Charged with the defence of the White Tower and its Steward, the Citadel Guard are the elite soldiers of Gondor."
+"Required: Rank 3 Barracks \n Gondor's elite Melee unit \n Limited to 5 units \n \n Charged with the defence of the White Tower and its Steward, the Citadel Guard are the elite soldiers of Gondor."
 END
 
 CONTROLBAR:ToolTipBuildGondorKnightHorde
