@@ -43,6 +43,17 @@ CONTROLBAR:ToolTipBuildMordorBattleTower
 "Defensive structure"
 END
 
+//============ Isengard Battle Tower =================
+OBJECT:IsengardBattleTower
+"Isengard Battle Tower"
+END
+CONTROLBAR:ConstructIsengardBattleTower
+"Isengard Battle &Tower"
+END
+CONTROLBAR:ToolTipBuildIsengardBattleTower
+"Defensive structure"
+END
+
 /////////////////////////////-----------------Isengard Ugluk---------------//////////////////////////////////////
 
 OBJECT:IsengardUgluk
@@ -11789,10 +11800,6 @@ OBJECT:HelmsDeepdiStep2
 "Helm's Deep Stairs"
 END
 
-OBJECT:IsengardBattleTower
-"Isengard Keep"
-END
-
 OBJECT:IsengardTent
 "Isengard Tent"
 END
@@ -14179,14 +14186,6 @@ END
 
 CONTROLBAR:ConstructIsengardArmory
 "Build Isengard &Armory"
-END
-
-CONTROLBAR:ConstructIsengardBattleTower
-"Isengard &Keep"
-END
-
-CONTROLBAR:ToolTipBuildIsengardBattleTower
-"Defensive structure"
 END
 
 CONTROLBAR:ToolTipIsengardDunlendingGarrison
