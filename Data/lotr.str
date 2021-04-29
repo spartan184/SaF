@@ -1344,6 +1344,14 @@ CONTROLBAR:GondorImrahilHotKey
 "&Imrahil"
 END
 
+CONTROLBAR:ImrahilLeadership
+"Fair Lord"
+END
+
+CONTROLBAR:ToolTipImrahilLeadership
+"Leadership bonus to Dol Amroth units near Imrahil \n +50% Armor and +100% Combat Experience \n Passive ability"
+END
+
 CONTROLBAR:SpecialPowerImrahilUnscathed
 "&Unscathed"
 END
