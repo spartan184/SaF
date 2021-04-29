@@ -1377,7 +1377,7 @@ CONTROLBAR:ConstructGondorDolAmrothHorde
 END
 
 CONTROLBAR:ToolTipBuildGondorDolAmrothHorde
-"Required: Rank 3 Stables \n Gondor's Elite cavalry unit \n Strong vs. Swordsmen, Archers \n Weak vs. Pikemen, Monsters \n Limited to 3 units"
+"Required: Rank 3 Stables \n Gondors Elite Calvary unit, The Knights of Dol Amroth or "Swan Knights" are a group of soldiers who serve Prince Imrahil. \n Strong vs. Swordsmen, Archers \n Weak vs. Pikemen, Monsters \n Limited to 3 units"
 END
 
 OBJECT:HordeGondorDolAmroth
