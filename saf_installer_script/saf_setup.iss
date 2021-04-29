@@ -70,4 +70,4 @@ end;
 
 [Run]
 Filename: https://www.moddb.com/mods/shadow-and-flame; Description: "Visit our ModDB page!"; Flags: postinstall shellexec
-Filename: https://discord.gg/SHm3QrZ; Description: "Join the SaF Discord!"; Flags: postinstall shellexec unchecked
+Filename: https://discord.gg/TgD2G9PR; Description: "Join the SaF Discord!"; Flags: postinstall shellexec unchecked
