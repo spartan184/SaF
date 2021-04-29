@@ -2937,7 +2937,7 @@ CONTROLBAR:MordorScum
 END
 
 CONTROLBAR:TooltipMordorScum
-"Summons four battalions of Mordor Orcs \n Left click then right click on target"
+"Summons Grishnakh and four battalions of Mordor Orcs \n Left click then right click on target"
 END
 
 CONTROLBAR:EndlessSupplies
