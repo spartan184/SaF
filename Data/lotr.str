@@ -271,7 +271,7 @@ CONTROLBAR:ToolTipAttackTrollPassiveLeadership
 END
 
 CONTROLBAR:ToolTipOrcishTenacityPassiveLeadership
-"Grishnakh is hard to kill \n Grishnakh gains +25% Armor \n Passive ability"
+"Malevolent and blood thirsty, Grishnakh is hard to kill \n Grishnakh gains +25% Armor \n Passive ability"
 END
 
 CONTROLBAR:OrcishTenacityPassiveLeadership
@@ -2041,7 +2041,7 @@ CONTROLBAR:ConstructRohanMountedKingsguardHorde
 END
 
 CONTROLBAR:ToolTipBuildRohanMountedKingsguardHorde
-"Required: Rank 2 Stables \n Elite Horsemen \n Limited to 3 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan."
+"Required: Rank 3 Stables \n Elite Horsemen \n Limited to 3 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan."
 END
 
 OBJECT:RohanKingsguard
