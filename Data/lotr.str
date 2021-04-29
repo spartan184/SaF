@@ -134,7 +134,7 @@ CONTROLBAR:KingoftheHills
 END
 
 CONTROLBAR:ToolTipKingoftheHills
-"Requires Level 8\nRallies nearby Dunlendings and Wildmen, temporarily increasing their armor by 200% \n Left click to activate"
+"Requires Level 8\nRallies nearby Dunlendings temporarily increasing their armor by 200% \n Left click to activate"
 END
 
 CONTROLBAR:WulfgarSubjugation
