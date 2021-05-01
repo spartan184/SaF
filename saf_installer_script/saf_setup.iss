@@ -9,7 +9,7 @@ AppName=Shadow and Flame Mod
 AppVersion=1.0
 AppId=SaF1.0
 
-DefaultDirName="{userappdata}\My Battle for Middle-earth Files"
+DefaultDirName="{userappdata}\{code:getBFMEfiles}"
 DisableDirPage=no
 DirExistsWarning=no
 Compression=lzma2
@@ -39,8 +39,8 @@ Source: "saf_src\*"; DestDir:{app}; Flags: ignoreversion recursesubdirs
 #endif
 
 [Icons]
-Name: "{userdesktop}\Shadow and Flame"; Filename: "{code:getBFMEDir}\lotrbfme.exe"; Parameters: "-mod SaF1.0.big"; WorkingDir: "{code:getBFMEDir}"; IconFilename: "{userappdata}\My Battle for Middle-earth Files\saf.ico"
-Name: "{group}\Shadow and Flame";      Filename: "{code:getBFMEDir}\lotrbfme.exe"; Parameters: "-mod SaF1.0.big"; WorkingDir: "{code:getBFMEDir}"; IconFilename: "{userappdata}\My Battle for Middle-earth Files\saf.ico"
+Name: "{userdesktop}\Shadow and Flame"; Filename: "{code:getBFMEDir}\lotrbfme.exe"; Parameters: "-mod SaF1.0.big"; WorkingDir: "{code:getBFMEDir}"; IconFilename: "{userappdata}\{code:getBFMEfiles}\saf.ico"
+Name: "{group}\Shadow and Flame";      Filename: "{code:getBFMEDir}\lotrbfme.exe"; Parameters: "-mod SaF1.0.big"; WorkingDir: "{code:getBFMEDir}"; IconFilename: "{userappdata}\{code:getBFMEfiles}\saf.ico"
 Name: {group}\{cm:UninstallProgram, Shadow and Flame}; Filename: {uninstallexe}
 
 [Code]
@@ -55,6 +55,19 @@ begin
   else
 	    RegQueryStringValue(HKLM, 'SOFTWARE\Electronic Arts\EA Games\The Battle for Middle-earth', 'InstallPath', installDir);
   Result := installDir;
+end;
+
+function getBFMEfiles(Value: string): string;
+var 
+  bfmeFiles: string;
+begin
+  if isWin64 then
+  begin
+      RegQueryStringValue(HKLM, 'SOFTWARE\WOW6432Node\Electronic Arts\EA Games\The Battle for Middle-earth', 'UserDataLeafName', bfmeFiles);
+  end
+  else
+	    RegQueryStringValue(HKLM, 'SOFTWARE\Electronic Arts\EA Games\The Battle for Middle-earth', 'UserDataLeafName', bfmeFiles);
+  Result := bfmeFiles;
 end;
 
 function NextButtonClick(PageId: Integer): Boolean;
