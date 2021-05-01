@@ -2060,6 +2060,10 @@ OBJECT:HordeRohanKingsguard
 "Edoras Kingsguard Battalion"
 END
 
+OBJECT:RohanKingsguardHotkey
+"Edoras &Kingsguard"
+END
+
 CONTROLBAR:ConstructRohanKingsguardHorde
 "Edoras Kingsguard"
 END
