@@ -411,6 +411,7 @@ function EndlessSupplyGrantUpgrades(self)
 	ObjectGrantUpgrade( self, "Upgrade_IsengardForgedBlades" )
 	ObjectGrantUpgrade( self, "Upgrade_IsengardHeavyArmor" )
     ObjectGrantUpgrade( self, "Upgrade_IsengardBasicTraining" )
+    ObjectGrantUpgrade( self, "Upgrade_ImprovedArrowsmithing2" )
     ObjectSetChanting(self, true)
 end
 

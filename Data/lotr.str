@@ -1661,7 +1661,7 @@ CONTROLBAR:KhamulArmor
 END
 
 CONTROLBAR:ToolTipKhamulArmor
-"Required: Rank 5 \n Khamol is equipped with his heavy armor \n Nearby enemy units lose -5% of all stats \n Passive ability"
+"Required: Rank 5 \n Khamul is equipped with his heavy armor \n Nearby enemy units lose -5% of all stats \n Passive ability"
 END
 
 CONTROLBAR:RelentlessPursuit
@@ -2017,7 +2017,7 @@ CONTROLBAR:ToolTipRohanGuardTower
 END
 
 CONTROLBAR:ConstructRohanGuardTower
-"Build Rohan &Guard Tower"
+"Build Rohan Guard &Tower"
 END
 
 CONTROLBAR:ToolTipBuildRohanGuardTower
@@ -14017,7 +14017,7 @@ CONTROLBAR:ConstructRohanMill
 END
 
 CONTROLBAR:ConstructRohanStatue
-"Build Rohan Sta&tue"
+"Build Rohan St&atue"
 END
 
 CONTROLBAR:ConstructRohanGoldenHall
