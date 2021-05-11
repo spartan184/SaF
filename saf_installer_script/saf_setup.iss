@@ -6,8 +6,8 @@
 
 [Setup]
 AppName=Shadow and Flame Mod
-AppVersion=1.0
-AppId=SaF1.0
+AppVersion=1.1
+AppId=SaF1.1
 
 DefaultDirName="{userappdata}\{code:getBFMEfiles}"
 DisableDirPage=no
@@ -18,7 +18,7 @@ DiskSpanning=yes
 SlicesPerDisk=2
 DiskSliceSize=1500000000 
 WizardImageFile=saf.bmp
-OutputBaseFilename=ShadowAndFlameInstaller1.0
+OutputBaseFilename=ShadowAndFlameInstaller1.1
 DisableProgramGroupPage=no
 DefaultGroupName=Shadow and Flame
 AppPublisher=SaF staff
@@ -39,8 +39,8 @@ Source: "saf_src\*"; DestDir:{app}; Flags: ignoreversion recursesubdirs
 #endif
 
 [Icons]
-Name: "{userdesktop}\Shadow and Flame"; Filename: "{code:getBFMEDir}\lotrbfme.exe"; Parameters: "-mod SaF1.0.big"; WorkingDir: "{code:getBFMEDir}"; IconFilename: "{userappdata}\{code:getBFMEfiles}\saf.ico"
-Name: "{group}\Shadow and Flame";      Filename: "{code:getBFMEDir}\lotrbfme.exe"; Parameters: "-mod SaF1.0.big"; WorkingDir: "{code:getBFMEDir}"; IconFilename: "{userappdata}\{code:getBFMEfiles}\saf.ico"
+Name: "{userdesktop}\Shadow and Flame"; Filename: "{code:getBFMEDir}\lotrbfme.exe"; Parameters: "-mod SaF1.1.big"; WorkingDir: "{code:getBFMEDir}"; IconFilename: "{userappdata}\{code:getBFMEfiles}\saf.ico"
+Name: "{group}\Shadow and Flame";      Filename: "{code:getBFMEDir}\lotrbfme.exe"; Parameters: "-mod SaF1.1.big"; WorkingDir: "{code:getBFMEDir}"; IconFilename: "{userappdata}\{code:getBFMEfiles}\saf.ico"
 Name: {group}\{cm:UninstallProgram, Shadow and Flame}; Filename: {uninstallexe}
 
 [Code]
