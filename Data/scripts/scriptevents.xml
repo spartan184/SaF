@@ -328,7 +328,9 @@
     <EventList Name="FellBeastFunctions">
 		<EventHandler EventName="BeScary" ScriptFunctionName="RadiateTerror" DebugSingleStep="false"/>
     </EventList>
-
+    <EventList Name="GaintBatFunctions">
+		<EventHandler EventName="BeScary" ScriptFunctionName="RadiateTerror" DebugSingleStep="false"/>
+    </EventList>
     <EventList Name="WitchKingFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="OnCreated"		ScriptFunctionName="OnWitchKingCreated" DebugSingleStep="false"/>
         <EventHandler EventName="User3Achieved"	ScriptFunctionName="HourOfDoomActivation"  DebugSingleStep="false"/>
