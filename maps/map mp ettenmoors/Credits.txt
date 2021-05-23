@@ -1,0 +1,9 @@
+Hawk10314
+
+players: 2
+
+AI: yes
+
+multiplayer: yes
+
+Email: hawk10314@aol.com
