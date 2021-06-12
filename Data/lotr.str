@@ -2211,7 +2211,7 @@ CONTROLBAR:UrshakWordOfHoar
 "&Word of Hoar"
 END
 CONTROLBAR:ToolTipUrshakWordOfHoar
-"Required: Rank 3 \n Urshak utters a dark incantation, cursing the enemy. Stuns Target Hero for a short duration \n Left click then right click on target"
+"Required: Rank 3 \n Urshak utters a dark incantation, cursing the enemy. Stuns target hero for a short duration or deals significant damage to units.\n Left click then right click on target"
 END
 
 CONTROLBAR:UrshakDarkProphecy
