@@ -2218,7 +2218,7 @@ CONTROLBAR:UrshakDarkProphecy
 "&Dark Prophecy"
 END
 CONTROLBAR:ToolTipUrshakDarkProphecy
-"Required: Rank 5 \n Urshak unveils his prophecy come true. Target units in the area have their leadership removed and are stunned with fear for a short duration \n Does not affect Heroes \n Left click to activate"
+"Required: Rank 5 \n Urshak unveils his prophecy come true. Enemy units around Urshak have their leadership removed and are stunned with fear for a short duration \n Does not affect Heroes \n Left click to activate"
 END
 
 CONTROLBAR:UrshakShadowAndFlame
