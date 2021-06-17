@@ -1712,19 +1712,66 @@ function OnEriadorSpearmanCreated(self)
     ObjectHideSubObjectPermanently( self, "REGULARFB", true )
 end
 
-function OnGreyRangerCreated(self)
+function OnGreyCompanyRangerCreated(self)
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	ObjectHideSubObjectPermanently( self, "FireArowTip", true )
+	
+	ObjectHideSubObjectPermanently( self, "HEADHELM1A", true )
+	ObjectHideSubObjectPermanently( self, "HEADHELM1B", true )
+	ObjectHideSubObjectPermanently( self, "HEADHELM2A", true )
+	ObjectHideSubObjectPermanently( self, "HEADHELM2B", true )
+	ObjectHideSubObjectPermanently( self, "HEADHELM3A", true )
+	ObjectHideSubObjectPermanently( self, "HEADHELM3B", true )
+	ObjectHideSubObjectPermanently( self, "HEADHELM4A", true )
+	ObjectHideSubObjectPermanently( self, "HEADHELM4B", true )
+	
+	ObjectHideSubObjectPermanently( self, "BODY1", true )
+	ObjectHideSubObjectPermanently( self, "BODY2", true )
+	ObjectHideSubObjectPermanently( self, "BODY3", true )
+	ObjectHideSubObjectPermanently( self, "BODY4", true )
+	
+	ObjectHideSubObjectPermanently( self, "HOODHELM", true )
+	ObjectHideSubObjectPermanently( self, "HLMTHOOD", true )
+	
+	ObjectHideSubObjectPermanently( self, "HELM", true )
 
-    ObjectHideSubObjectPermanently( self, "FireArowTip", true )
-    
-    ObjectHideSubObjectPermanently( self, "HELM", true )
-    ObjectHideSubObjectPermanently( self, "HELMHOOD", true )
-    
-    local ranger    =    GetRandomNumber()
+    local head         =    GetRandomNumber()
+    local helmet         =    GetRandomNumber()
+    local body 		=   GetRandomNumber()
 
-    if ranger <= 0.45 then
-        ObjectHideSubObjectPermanently( self, "HELM", false )        
+    if head <= 0.125 then
+        ObjectHideSubObjectPermanently( self, "HEADHELM1A", false )
+    elseif head <= 0.25 then
+        ObjectHideSubObjectPermanently( self, "HEADHELM1B", false )
+	elseif head <= 0.375 then
+        ObjectHideSubObjectPermanently( self, "HEADHELM2A", false )
+	elseif head <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HEADHELM2B", false )
+	elseif head <= 0.625 then
+        ObjectHideSubObjectPermanently( self, "HEADHELM3A", false )
+	elseif head <= 0.75 then
+        ObjectHideSubObjectPermanently( self, "HEADHELM3B", false )
+	elseif head <= 0.875 then
+        ObjectHideSubObjectPermanently( self, "HEADHELM4A", false )
     else
-        ObjectHideSubObjectPermanently( self, "HELMHOOD", false )
+        ObjectHideSubObjectPermanently( self, "HEADHELM4B", false )
+    end
+
+    if body <= 0.25 then
+        ObjectHideSubObjectPermanently( self, "BODY1", false )
+    elseif body <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "BODY2", false )
+	elseif body <= 0.75 then
+        ObjectHideSubObjectPermanently( self, "BODY3", false )
+    else
+        ObjectHideSubObjectPermanently( self, "BODY4", false )
+    end
+
+    if helmet <= 0.600 then
+        ObjectHideSubObjectPermanently( self, "HOODHELM", false )
+        ObjectHideSubObjectPermanently( self, "HLMTHOOD", false )
+    else
+        ObjectHideSubObjectPermanently( self, "HELM", false )
     end
 end
 

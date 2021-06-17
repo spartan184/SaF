@@ -532,8 +532,8 @@
         <EventHandler EventName="OnCreated"			ScriptFunctionName="OnEriadorSpearmanCreated" DebugSingleStep="false"/>
     </EventList>
 	
-	<EventList Name="GreyRangerFunctions" Inherit="SaFInfantryFunctions">
-        <EventHandler EventName="OnCreated"				ScriptFunctionName="OnGreyRangerCreated" DebugSingleStep="false"/>
+	<EventList Name="GreyCompanyRangerFunctions" Inherit="SaFInfantryFunctions">
+        <EventHandler EventName="OnCreated"				ScriptFunctionName="OnGreyCompanyRangerCreated" DebugSingleStep="false"/>
     </EventList>
 
 	<EventList Name="RohanBannerFunctions" Inherit="SaFInfantryFunctions">
