@@ -82,6 +82,6 @@ begin
 end;
 
 [Run]
-Filename: https://docs.google.com/document/d/1IU7ZJt8kErNdt6JaWD4h9R4mst5jDEL0ComWK4S-qXY/edit?usp=sharing; Description: "READ ME"; Flags: postinstall shellexec
+Filename: https://docs.google.com/document/d/1TlKOPnJ2nD7wwB9lG4QEkyJEOUjtpWj_2HLg1JT5lsc/edit?usp=sharing; Description: "READ ME"; Flags: postinstall shellexec
 Filename: https://www.moddb.com/mods/shadow-and-flame; Description: "Visit our ModDB page!"; Flags: postinstall shellexec unchecked
 Filename: https://discord.gg/TgD2G9PR; Description: "Join the SaF Discord!"; Flags: postinstall shellexec unchecked
