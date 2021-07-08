@@ -1601,7 +1601,7 @@ CONTROLBAR:FireWitchKingMace
 END
 
 CONTROLBAR:ToolTipFireWitchKingMace
-"Toggle between the Witch-king's War Mace and Sword"
+"Toggle between the Witch-king's War Mace that deals splash damage and Sword for a faster attack"
 END
 
 CONTROLBAR:FireWitchKingMorgulBlade
@@ -1977,11 +1977,11 @@ CONTROLBAR:ToolTipGondorRangerRank2
 END
 
 OBJECT:MordorUruk
-"Mordor Uruk"
+"Mordor Black Uruk"
 END
 
 OBJECT:HordeMordorUruk
-"Mordor Uruk-Hai"
+"Mordor Black Uruks"
 END
 
 CONTROLBAR:ToolTipBuildMordorUrukHorde
@@ -1989,7 +1989,7 @@ CONTROLBAR:ToolTipBuildMordorUrukHorde
 END
 
 CONTROLBAR:ConstructMordorUrukHorde
-"Mordor Uruk-hai"
+"Mordor Black Uruks"
 END
 
 OBJECT:ElvenHaldir
