@@ -33276,6 +33276,10 @@ OBJECT:HordeMordorOrcs
 "Orc Warrior Horde"
 END
 
+OBJECT:HordeMordorEasterlingArcherCombo
+"Easterling - Haradrim Archer Battalion"
+END
+
 OBJECT:HordeMordorEasterlings
 "Soldier of Rhun Horde"
 END
