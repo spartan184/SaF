@@ -15738,7 +15738,7 @@ CONTROLBAR:CaptainMinas
 END
 
 CONTROLBAR:ToolTipBoromirLeadership
-"Leadership bonus and fear invulnerability to nearby troops \n +50% Armor \n Passive ability"
+"Leadership bonus to nearby troops \n +50% Armor and fear immunity \n Passive ability"
 END
 
 CONTROLBAR:ToolTipCaptainofGondorBoromir
