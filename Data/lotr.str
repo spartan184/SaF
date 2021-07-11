@@ -1653,15 +1653,15 @@ CONTROLBAR:KhamulLeadership
 END
 
 CONTROLBAR:ToolTipKhamulLeadership
-"Required: Rank 3 \n Leadership bonus to nearby Easterlings \n +50% Experience \n Passive ability"
+"Khamul is equipped with his heavy armor \n Leadership bonus to nearby Easterlings \n +50% Experience, +15% Speed \n Passive ability"
 END
 
-CONTROLBAR:KhamulArmor
-"Dread Armor"
+CONTROLBAR:KhamulNegLeadership
+"Black Breath"
 END
 
-CONTROLBAR:ToolTipKhamulArmor
-"Required: Rank 5 \n Khamul is equipped with his heavy armor \n Nearby enemy units lose -5% of all stats \n Passive ability"
+CONTROLBAR:ToolTipKhamulNegLeadership
+"Required: Rank 2 \n Nearby enemy units lose -15% damage \n Passive ability"
 END
 
 CONTROLBAR:RelentlessPursuit
@@ -1669,7 +1669,7 @@ CONTROLBAR:RelentlessPursuit
 END
 
 CONTROLBAR:ToolTipRelentlessPursuit
-"Required: Rank 8 \n Movement speed increased by 20%, damage by 20% for a brief time"
+"Required: Rank 5 \n Movement speed increased by 20%, damage by 20% for a brief time"
 END
 
 OBJECT:MordorUvatha
@@ -1693,15 +1693,15 @@ CONTROLBAR:UvathaLeadership
 END
 
 CONTROLBAR:ToolTipUvathaLeadership
-"Required: Rank 3 \n Leadership bonus to nearby Haradrim \n +50% Experience \n Passive ability"
+"Uvatha is equipped with his heavy armor \n Leadership bonus to nearby Haradrim \n +50% Experience, +15% Knockback Resistance \n Passive ability"
 END
 
-CONTROLBAR:UvathaArmor
-"Dread Armor"
+CONTROLBAR:UvathaNegLeadership
+"Black Breath"
 END
 
-CONTROLBAR:ToolTipUvathaArmor
-"Required: Rank 5 \n Uvatha is equipped with his heavy armor \n Nearby enemy units lose -5% of all stats \n Passive ability"
+CONTROLBAR:ToolTipUvathaNegLeadership
+"Required: Rank 2 \n Nearby enemy calvary lose -15% speed \n Passive ability"
 END
 
 OBJECT:MordorMouth
@@ -1725,7 +1725,7 @@ CONTROLBAR:VileEloquence
 END
 
 CONTROLBAR:ToolTipVileEloquence
-"Required: Rank 2 \n Units in radius gain experience"
+"Required: Rank 5 \n Units in radius gain experience"
 END
 
 CONTROLBAR:BlackSpeech
@@ -1845,7 +1845,7 @@ CONTROLBAR:MordorEasterlingRank2
 END
 
 CONTROLBAR:ToolTipMordorEasterlingRank2
-"Required: Rank 2 \n Temporarily gain +25% Armor and Fear immunity \n Left click to activate"
+"Required: Rank 2 \n Temporarily gain +25% Armor and +15% Speed \n Left click to activate"
 END
 
 CONTROLBAR:GondorTowerGuardFaithful
