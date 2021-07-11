@@ -1525,7 +1525,7 @@ CONTROLBAR:TheodenRally
 END
 
 CONTROLBAR:TooltipTheodenRally
-"Required: Rank 7 \n Theoden calls upon two battalions of Royal Guard \n Left click to activate"
+"Required: Rank 8 \n Theoden calls upon a battalion of Royal Guard Horsemen \n Left click to activate"
 END
 
 CONTROLBAR:TheodenArmor
