@@ -1601,7 +1601,7 @@ CONTROLBAR:FireWitchKingMace
 END
 
 CONTROLBAR:ToolTipFireWitchKingMace
-"Toggle between the Witch-king's War Mace that deals splash damage and Sword for a faster attack"
+"Toggle between the Witch-king's War Mace that deals splash damage and Sword for a faster attack \n Must be on foot"
 END
 
 CONTROLBAR:FireWitchKingMorgulBlade
@@ -1669,7 +1669,7 @@ CONTROLBAR:RelentlessPursuit
 END
 
 CONTROLBAR:ToolTipRelentlessPursuit
-"Required: Rank 5 \n Movement speed increased by 20%, damage by 20% for a brief time"
+"Required: Rank 5 \n Movement speed increased by 20%, damage by 20% for a brief time \n Must be mounted "
 END
 
 OBJECT:MordorUvatha
@@ -1765,7 +1765,7 @@ CONTROLBAR:GothmogSiegeLeadership
 END
 
 CONTROLBAR:ToolTipGothmogSiegeLeadership
-"Required: Rank 1 \n Nearby Catapults gain +15% movement speed and reload time."
+"Required: Rank 1 \n Nearby Catapults gain +15% movement speed and +15% decreased reload time."
 END
 
 CONTROLBAR:GothmogOrcs
