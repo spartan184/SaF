@@ -1728,12 +1728,20 @@ CONTROLBAR:ToolTipVileEloquence
 "Required: Rank 5 \n Units in radius gain experience"
 END
 
+CONTROLBAR:BlackSorcery
+"Black &Sorcery"
+END
+
+CONTROLBAR:ToolTipBlackSorcery
+"Required: Rank 4 \n Mouth of Sauron and nearby troops gain +30% damage and +75% armor \n Left click to activate"
+END
+
 CONTROLBAR:BlackSpeech
 "Black Speech"
 END
 
 CONTROLBAR:ToolTipBlackSpeech
-"Required: Rank 3 \n Enemy units lose 50% health and 50% damage for a short time (Area effect)"
+"Required: Rank 3 \n Enemy units lose 50% health and 50% damage for a short time (Area effect) \n Left click to activate"
 END
 
 OBJECT:MordorGothmog
