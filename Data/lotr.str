@@ -1741,7 +1741,7 @@ CONTROLBAR:BlackSpeech
 END
 
 CONTROLBAR:ToolTipBlackSpeech
-"Required: Rank 3 \n Enemy units lose 50% health and 50% damage for a short time (Area effect) \n Left click to activate"
+"Required: Rank 3 \n Enemy units lose 50% Armor and 50% damage for a short time (Area effect) \n Left click to activate"
 END
 
 OBJECT:MordorGothmog
