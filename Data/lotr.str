@@ -2502,14 +2502,14 @@ CONTROLBAR:ConstructGundabadBerserkerHorde
 "Gundabad &Berserkers"
 END
 CONTROLBAR:ToolTipBuildGundabadBerserkerHorde
-"Required: Rank 3 Mountain-orc Lodge \n Strong vs. Spearmen, Swordsmen, Cavalry, Heroes \n Weak vs. Archers \n Limited to 3 units \n \n Mount Gundabad has long been occupied by large, fierce orcs under the command of Azog and his spawn."
+"Required: Rank 3 Mountain-orc Lodge \n Strong vs. Spearmen, Swordsmen, Cavalry, Heroes \n Weak vs. Archers \n Limited to 3 units \n \n Mount Gundabad has long been occupied by large, fierce orcs under the command of Bolg and his spawn."
 END
 
 CONTROLBAR:ConstructGundabadOrcHorde
 "Mountain-orc &Slashers"
 END
 CONTROLBAR:ToolTipBuildGundabadOrcHorde
-"Strong vs. spearmen, swordsmen \n Weak vs. Archers, Cavalry \n \n Hardened through generations of war and weather, these Mountain-orcs were finally united under one banner by Azog the Defiler."
+"Strong vs. spearmen, swordsmen \n Weak vs. Archers, Cavalry \n \n Hardened through generations of war and weather, these Mountain-orcs were finally united under one banner by Bolg."
 END
 
 CONTROLBAR:ConstructGundabadOrcPikeHorde
@@ -2572,7 +2572,7 @@ CONTROLBAR:ConstructGundabadDrummerGoblin
 "Mountain-orc &Drummer"
 END
 CONTROLBAR:TooltipConstructGundabadDrummerGoblin
-"Required: Rank 3 Mountain-orc Lodge \n Leadership bonus to nearby infantry \n +20% Damage +15% Experience \n Limited to 4 units \n \n When marching to war through the piercing cold of the Misty Mountains, keeping pace is important. Orc-drummers are often seen accompanying warbands, keeping them warm and moving steadily."
+"Required: Rank 3 Mountain-orc Lodge \n Leadership bonus to nearby infantry \n +60% Damage +15% Experience \n Limited to 4 units \n \n When marching to war through the piercing cold of the Misty Mountains, keeping pace is important. Orc-drummers are often seen accompanying warbands, keeping them warm and moving steadily."
 END
 CONTROLBAR:GundabadDrummerGoblinLeadership
 "Iron Discipline"
