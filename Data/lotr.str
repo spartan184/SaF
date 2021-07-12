@@ -1973,7 +1973,7 @@ CONTROLBAR:GondorGuardRank2
 END
 
 CONTROLBAR:ToolTipGondorGuardRank2
-"Required: Rank 2 \n Citadel Guards become immune to fear \n Passive ability"
+"Required: Rank 2 \n Citadel Guards gain +15% Speed and +100% Resist knockback \n Left click to activate"
 END
 
 CONTROLBAR:GondorRangerRank2
