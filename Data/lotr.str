@@ -3174,6 +3174,14 @@ OBJECT:RohanHelmHammerhandDescription
 "Surrounding units gain +50% armor. \n Enemy leadership is negated."
 END
 
+CONTROLBAR:RohanHelmHammerhand
+"Statue of Helm Hammerhand"
+END
+
+CONTROLBAR:RohanHelmHammerhandDescription
+"Surrounding units gain +50% armor. \n Enemy leadership is negated."
+END
+
 CONTROLBAR:SummonRohanHelmHammerhand
 "Statue of Helm Hammerhand"
 END
