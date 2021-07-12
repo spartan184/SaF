@@ -15726,7 +15726,7 @@ CONTROLBAR:ToolTipSpecialAbilityShieldWall
 END
 
 CONTROLBAR:ToolTipFaramirLeadership
-"Leadership bonus to nearby troops \n +50% Armor and +100% Combat Experience \n Passive ability"
+"Leadership bonus to nearby troops \n +15% Armor, +15% Speed, +15% Range, +15% Damage and +100% Combat Experience \n Passive ability"
 END
 
 CONTROLBAR:FaramirLeadership
