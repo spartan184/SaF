@@ -1349,7 +1349,7 @@ CONTROLBAR:ImrahilLeadership
 END
 
 CONTROLBAR:ToolTipImrahilLeadership
-"Leadership bonus to Dol Amroth units near Imrahil \n +50% Armor and +100% Combat Experience \n Passive ability"
+"Leadership bonus to Cavalry near Imrahil \n +30% Armor, +20% Damage, and fear immunity \n Passive ability"
 END
 
 CONTROLBAR:SpecialPowerImrahilUnscathed
