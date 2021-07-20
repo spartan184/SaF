@@ -1561,7 +1561,7 @@ CONTROLBAR:RohanGuardRank2
 END
 
 CONTROLBAR:ToolTipRohanGuardRank2
-"Required: Rank 2 \n Royal Guards become immune to fear \n Passive ability"
+"Required: Rank 2 \n Temporarily gain +15% movement speed and +25% Armor \n Left click to activate"
 END
 
 CONTROLBAR:RohanGaladhrimRank2
