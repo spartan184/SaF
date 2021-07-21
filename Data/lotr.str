@@ -14632,6 +14632,10 @@ CONTROLBAR:ToolTipBuildGondorShieldGuardHorde
 "Required: Guards of the White Tree \n Gondor's elite defensive unit \n Limited to 1 unit \n \n These men are the silent Guards of the White Tree. Their arms and armor, inlaid with Mithril, invoke the memory of lost Numenor."
 END
 
+CONTROLBAR:ToolTipLackTWGuards
+"Required: Guards of the White Tree \n Gondor's elite defensive unit \n Limited to 1 unit \n \n These men are the silent Guards of the White Tree. Their arms and armor, inlaid with Mithril, invoke the memory of lost Numenor."
+END
+
 CONTROLBAR:ToolTipBuildGondorCitadelGuardHorde
 "Required: Rank 3 Barracks \n Gondor's elite Melee unit \n Limited to 5 units \n \n Charged with the defence of the White Tower and its Steward, the Citadel Guard are the elite soldiers of Gondor."
 END
