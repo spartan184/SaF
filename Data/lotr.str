@@ -1725,7 +1725,7 @@ CONTROLBAR:VileEloquence
 END
 
 CONTROLBAR:ToolTipVileEloquence
-"Required: Rank 5 \n Units in radius gain experience"
+"Required: Rank 6 \n Units in radius gain experience"
 END
 
 CONTROLBAR:BlackSorcery
@@ -1741,7 +1741,7 @@ CONTROLBAR:BlackSpeech
 END
 
 CONTROLBAR:ToolTipBlackSpeech
-"Required: Rank 3 \n Enemy units lose 50% Armor and 50% damage for a short time (Area effect) \n Left click to activate"
+"Required: Rank 2 \n Enemy units lose 40% Armor and 40% damage for a short time (Area effect) \n Left click to activate"
 END
 
 OBJECT:MordorGothmog
