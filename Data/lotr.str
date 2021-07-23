@@ -15782,7 +15782,7 @@ CONTROLBAR:ToolTipLurtzLeadership
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
-"Leadership bonus to nearby troops \n +50% Damage, +100% Combat Experience \n Passive ability"
+"Leadership bonus to nearby troops \n +50 Armor, +100% Combat Experience \n Passive ability"
 END
 
 CONTROLBAR:KingsguardLeadership
