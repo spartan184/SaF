@@ -1669,7 +1669,7 @@ CONTROLBAR:RelentlessPursuit
 END
 
 CONTROLBAR:ToolTipRelentlessPursuit
-"Required: Rank 5 \n Movement speed increased by 20%, damage by 20% for a brief time \n Must be mounted "
+"Required: Rank 5 \n Movement speed and damage increased by 25%, armor by 10% for a brief time \n Must be mounted "
 END
 
 OBJECT:MordorUvatha
