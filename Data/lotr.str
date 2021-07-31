@@ -35017,7 +35017,7 @@ TOOLTIP:LackLevel2BlacksmithHeavyArmor
 END
 
 TOOLTIP:LackLevel2BlacksmithForgedBlades
-"Required: Rank 2 Blacksmith \n Adds damage to blade weapons \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+"Required: Rank 2 Blacksmith \n Adds up to +50 damage to blade weapons \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
 
 TOOLTIP:LackLevel2ArcheryRange
