@@ -16106,7 +16106,7 @@ CONTROLBAR:GrimaCloak
 END
 
 CONTROLBAR:ToolTipGrimaCloak
-"Becomes invisible when standing still \n left click to activate"
+"Becomes invisible, cannot attack. \n Using abilities reveals you \n left click to activate"
 END
 
 CONTROLBAR:ElvenCloak
