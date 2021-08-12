@@ -1,0 +1,419 @@
+;====================================== {* Sage Engine possibilities for BfME I *}  =====================================
+
+
+
+; --------------------------------------------------------------- Lua  ---------------------------------------------------------------
+	 
+	 * General : 	GetRandomNumber			
+			ObjectHideSubObjectPermanently
+			ObjectHideSubObject
+			ObjectSetDelayedDeath			
+			ObjectGrantUpgrade
+			ObjectCreateAndFireTempWeapon
+			ObjectDoSpecialPower
+			ObjectPlaySound
+			ObjectCountNearbyEnemies      
+			ObjectTestModelCondition 
+			ObjectTemplateName       
+			ObjectTeamName
+			ObjectSpy
+			ObjectDescription
+		             ExecuteAction
+			EvaluateCondition
+
+	* Emotions :	ObjectSetEnragedState
+			ObjectSetFearFactor
+			ObjectSetChanting
+			ObjectEnterRampageState
+			ObjectEnterAlertState
+			ObjectEnterUncontrollableCowerState
+			ObjectEnterCowerState
+			ObjectEnterRunAwayPanicState
+			ObjectEnterFearState         			
+			ObjectTestCanSufferFear
+		             HordeBroadcastEventToMembers   
+			ObjectBroadcastEventToUnits
+			ObjectBroadcastEventToCivilians
+			ObjectBroadcastEventToAllies 
+		       	ObjectBroadcastEventToEnemies       			
+			ObjectDispatchEvent     
+
+
+
+
+
+; ---------------------------------------------------------- CommandButton  ----------------------------------------------------------
+	
+	* Introduction : 
+
+Command buttons are buttons that we place on the in game UI to create the
+context sensitive command sets
+
+
+ Which fields to use is highly dependant on the nature of the command, but here are all the fields, and an example
+CommandButton Command_NameOfCommand
+  Command            = The type of the command, from the Enum "TheGuiCommandNames"
+  Options            = Flags from "TheCommandOptionNames"
+  Object             = optional ThingTemplate from any ini in Object subfolder
+  Upgrade            = optional Upgrade from Upgrade.ini
+  WeaponSlot         = Slot from TheWeaponSlotTypeNamesLookupList
+  MaxShotsToFire     = Detail for weapon type buttons
+  Science            = Science prereq from Science.ini
+  SpecialPower       = Special Power from SpecialPower.ini
+  TextLabel          = String file label for Tooltip
+  DescriptLabel      = String file label for pop up description box
+  PurchasedLabel     = String file label for pop up if upgrade is already purchased
+  ConflictingLabel   = String file label for pop up if conflict prevents upgrade
+  ButtonImage        = Image name on control bar
+  CursorName         = Cursor from cursor.ini to use
+  InvalidCursorName  = Cursor from cursor.ini to use if action is illegal
+  ButtonBorderType   = Button border type, from CommandButtonMappedBorderTypeNames
+  RadiusCursorType   = Name of large radius cursor to use, from TheRadiusCursorNames
+  UnitSpecificSound  = Sound to play on activation
+End
+
+ Example :
+CommandButton Command_DaisyCutter
+  Command           = SPECIAL_POWER
+  SpecialPower      = SuperweaponDaisyCutter
+  Options           = NEED_SPECIAL_POWER_SCIENCE NEED_TARGET_POS CONTEXTMODE_COMMAND
+  TextLabel         = CONTROLBAR:DaisyCutter
+  ButtonImage       = SACDaisyCutter
+  ButtonBorderType  = ACTION 
+  DescriptLabel     = CONTROLBAR:TooltipDaisyCutter
+  RadiusCursorType  = DAISYCUTTER
+  InvalidCursorName = GenericInvalid
+End
+	
+
+
+
+
+
+
+	* Cursors : 	PALANTIR_VISION			ARCHERY_TRAINING
+			CAPTAIN_OF_GONDOR		SPEECH_CRAFT
+			DOMINATE			KINGS_FAVOR
+			EAGLE_ALLIES			ARMY_OF_THE_DEAD
+			ENT_ALLIES			ROHAN_ALLIES
+			ELVEN_ALLIES			HEAL
+			EYE_OF_SAURON			DEVASTATION
+			INDUSTRY EAGLE_SWOOP		FELL_BEAST_SWOOP
+			ATHELAS				SUMMON_OATH_BREAKERS
+			LEAP				TRAINING
+			FIRE_BREATH			SUMMON_BALROG
+			LIGHTNING_SWORD		ARROWSTORM
+			SPYDRONE			RADAR
+			AMBUSH				ANTHRAXBOMB
+			SCUDSTORM			CLUSTERMINES
+			ARTILLERYBARRAGE		NUCLEARMISSILE	
+			SPELL_BOOK_TAINT		SPELL_BOOK_ELVEN_WOOD 
+			REVEAL_MAP_AREA			PARADROP
+			DAISYCUTTER 			CARPETBOMB
+			A10STRIKE			PARTICLECANNON
+
+
+	* Commands : 	ALTERED				ACTION
+			UPGRADE				BUILD
+			HORDE_SET_FORMATION		START_SELF_REPAIR
+			CASTLE_UNPACK_EXPLICIT_OBJECT
+			WAKE_AUTO_PICKUP   		TOGGLE_NO_AUTO_ACQUIRE
+			MONSTERDOCK			REVIVE
+			TOGGLE_WEAPONSET 		TOGGLE_GATE
+			OPEN_GATE			CLOSE_GATE
+			CREW_EVACUATE  			HORDE_TOGGLE_FORMATION
+			TOGGLE_WEAPON			CASTLE_PACK
+			CASTLE_UNPACK			SPECIAL_POWER_FROM_COMMAND_CENTER
+			PLACE_BEACON   			CONVERT_TO_CARBOMB
+			HIJACK_VEHICLE			AUTOCAST_WEAPON
+			SWITCH_WEAPON			COMBATDROP
+			PURCHASE_SCIENCE		SPECIAL_POWER  
+			FIRE_WEAPON 			SELL 
+			SET_RALLY_POINT			BEACON_DELETE 
+			EXECUTE_UNUSED_01		EVACUATE_CONTESTED 
+			EVACUATE			EXIT_CONTAINER
+			WAYPOINTS			STOP
+			GUARD_FLYING_UNITS_ONLY		GUARD_WITHOUT_PURSUIT
+			GUARD				ATTACK_MOVE
+			CANCEL_UPGRADE			CASTLE_UPGRADE
+			OBJECT_UPGRADE			CANCEL_UNIT_BUILD 
+			UNIT_BUILD 			FOUNDATION_CONSTRUCT_CANCEL
+			FOUNDATION_CONSTRUCT
+
+
+	* Options : 	CANCELABLE      			ON_GROUND_ONLY
+			AUTO_ABILITY_TRIGGERED		NONPRESSABLE
+			UNMOUNTED_ONLY			MOUNTED_ONLY
+			TOGGLE_IMAGE_ON_FORMATION 	TOGGLE_IMAGE_ON_WEAPONSET 
+			TOGGLE_IMAGE_ON_WEAPON 	HIDE_WHILE_DISABLED 
+			ALLOW_ROCK_TARGET		IGNORES_UNDERPOWERED
+			SCRIPT_ONLY			---DO-NOT-USE---
+			SINGLE_USE_COMMAND		NOT_QUEUEABLE
+			OPTION_THREE			OPTION_TWO
+			OPTION_ONE  			ATTACK_OBJECTS_POSITION
+			NEEDS_CASTLE_KINDOF		CONTEXTMODE_COMMAND
+			OK_FOR_MULTI_SELECT		NEED_SPECIAL_POWER_SCIENCE
+			NEED_UPGRADE			NEED_TARGET_POS
+			ALLOW_SHRUBBERY_TARGET		NO_PLAY_UNIT_SPECIFIC_SOUND_FOR_AUTO_ABILITY
+			NEED_TARGET_ALLY_OBJECT	NEED_TARGET_NEUTRAL_OBJECT
+			NEED_TARGET_ENEMY_OBJECT
+
+
+	* Settings : 	DisableOnModelCondition     		EnableOnModelCondition
+			CommandTrigger  			NeedDamagedTarget 
+			AutoDelay   			PresetRange 
+			TriggerWhenReady  		AutoAbility 
+			AffectsAllies			RequiresValidContainer
+			RequireLevel 			ShowButton  
+			IsClickable     			InPalantir 
+			ShowProductionCount     		Radial 
+			DoubleClick  			UnsetAutoAbilityUnitSoundGroup2
+			UnsetAutoAbilityUnitSound2      	UnsetAutoAbilityUnitSoundGroup
+			UnsetAutoAbilityUnitSound       	SetAutoAbilityUnitSoundGroup2
+			SetAutoAbilityUnitSound2        	SetAutoAbilityUnitSoundGroup
+			SetAutoAbilityUnitSound     		UnitSpecificSoundGroup2 
+			UnitSpecificSound2      		UnitSpecificSoundGroup 
+			RadiusCursorType    		ButtonBorderType 
+			InvalidCursorName       		CursorName
+			LacksPrerequisiteLabel      		ConflictingLabel
+			PurchasedLabel      		DescriptLabel  
+			TextLabel   			MaxShotsToFire
+			WeaponSlotToggle3       		WeaponSlotToggle2
+			WeaponSlotToggle1      		BuildUpgrades
+			NeededUpgrade			Options
+
+
+
+
+; ---------------------------------------------------------- Locomotors  ----------------------------------------------------------
+
+	*Introduction :
+
+This allows for designers to specify one value (a base speed) that affects the locomotor's turning rate, acceleration, lift, etc.
+The base speed is now specified in a LocomotorSet definition for a Thing. Here is the new syntax to specify a locomotor for a Thing:
+	LocomotorSet
+		Condition	= SET_NORMAL
+		Locomotor	= SomeLocomotor
+		Speed		= 45
+	End
+A Locomotor uses percentages, instead of speed values to specify movement.
+Here is what a locomotor looks like :
+	Locomotor HumanLocomotor
+		Surfaces		= GROUND RUBBLE
+		TurnTime              = 500
+		TurnTimeDamaged      = 500
+		Acceleration    = 200%
+		AccelerationDamaged   = 100%
+		Braking               = 200%
+		MinTurnSpeed          = 0%
+		ZAxisBehavior         = NO_Z_MOTIVE_FORCE
+		Appearance            = TWO_LEGS
+		StickToGround         = Yes       ; walking guys aren't allowed to catch huge (or even small) air.
+	End
+
+If you have to create a new locomotor, the best bet is to find one that is similar to what you want, copy it and
+modify the areas that need to be changed.	
+
+
+	* Surfaces :	IMPASSABLE      		AIR 
+			CLIFF   			GROUND
+			RUBBLE
+				
+
+	* Formation Priorities : 	UNUSED  			ARTILLERY3      
+			     	ARTILLERY2      		ARTILLERY1
+				RANGED3     		RANGED2
+				RANGED1     		MELEE3  
+				MELEE2  			MELEE1
+				CAVALRY3    		CAVALRY2   
+				CAVALRY1    		NO_FORMATION
+
+	* Z Axis Behavior :    	FLOATING_Z      					RELATIVE_TO_HIGHEST_LAYER
+				FIXED_RELATIVE_TO_GROUND_AND_BUILDINGS          	FIXED_ABSOLUTE_HEIGHT       								FIXED_SURFACE_RELATIVE_HEIGHT       		ABSOLUTE_HEIGHT
+				SURFACE_RELATIVE_HEIGHT     			SEA_LEVEL
+				NO_Z_MOTIVE_FORCE       
+
+	* Appearance : 		OTHER   		 	TREADS
+				HUGE_TWO_LEGS   	GIANT_BIRD   
+				FOUR_LEGS_HUGE      	WINGS
+				HOVER   			FOUR_WHEELS
+				TWO_LEGS
+
+	* Settings : 	BackingUpAngle      		BackingUpDistanceMax        
+			BackingUpDistanceMin        		BackingUpStopWhenTurning
+			BackingUpSpeed      		SwoopSpeedTuningFactor
+			SwoopAccelerationRate       		SwoopTerminalVelocity 
+			SwoopStandoffHeight     		SwoopStandoffRadius
+			AeleronCorrectionRate       		AeleronCorrectionDegree
+			ElevatorCorrectionRate      		ElevatorCorrectionDegree
+			RudderCorrectionRate        		RudderCorrectionDegree
+			WaitForFormation    		EnableHighSpeedTurnModelconditions
+			ChargeAvailable     		ChargeSpeed
+			WanderAboutPointRadius      	WanderLengthFactor
+			WanderWidthFactor       		UseTerrainSmoothing
+			CrewPowered     			SlideIntoPlaceTime
+			CloseEnoughDist3D       		CloseEnoughDist
+			MaximumWheelCompression     	MaximumWheelExtension
+			FrontWheelTurnAngle     		HasSuspension
+			CanMoveBackwards    		StickToGround
+			AirborneTargetingHeight     		LocomotorWorksWhenDead 
+			AllowAirborneMotiveForce        	DownhillOnly
+			Apply2DFrictionWhenAirborne         	TurnPivotOffset 
+			UniformAxialDamping     		LateralAccelerationRollFactor
+			ForwardAccelerationPitchFactor         LateralVelocityRollFactor       
+			ForwardVelocityPitchFactor      	PitchInDirectionOfZVelFactor        
+			RollDamping     			PitchDamping    
+			RollStiffness   			PitchStiffness      
+			BounceAmount    			AccelerationPitchLimit      
+			MaxTurnWithoutReform        	MaxOverlappedHeight     
+			WalkDistance    			AccDecTrigger   
+			FormationPriority       		Appearance      
+			ZAxisBehavior   			MaxThrustAngle      
+			SpeedLimitZ     			CirclingRadius      
+			PreferredAttackHeight      		PreferredHeightDamping     
+			PreferredHeight     			MinTurnSpeed
+			MinSpeed    			Braking
+			LiftDamaged     			Lift    
+			Acceleration    			TurnThresholdHS
+			TurnThreshold   			FastTurnRadius      
+			SlowTurnRadius      		TurnTimeDamaged     
+			TurnTime   			SpeedDamaged    
+			NonDirtyTransform       		LookAheadMult   
+			Speed   				Surfaces
+
+
+; ---------------------------------------------------------- Weapons  ------------------------------------------------------------
+
+
+	*Introduction :  Weapons work with Nuggets (like ObjectCreationLists) where each type of nugget
+		          does one thing, instead of Weapon doing all things itself.  The Nuggets and their syntax can be found in data\ini\weapon.ini
+
+	* Nuggets : 	SpecialModelConditionNugget         	AttributeModifierNugget     
+			GrabNugget      			SpawnAndFadeNugget      
+			HordeAttackNugget       		MetaImpactNugget    
+			ProjectileNugget    		WeaponOCLNugget     	
+			DamageFieldNugget       		ClearNuggets    
+			DamageNugget    	
+		
+
+	* Targets affected : 	AntiStructure   			AntiBallisticMissile        
+				AntiAirborneMonster     		AntiAirborneInfantry        
+				AntiParachute   			AntiMine    
+				AntiSmallMissile    			AntiProjectile      
+				AntiGround     			AntiAirborneVehicle
+
+	* Settings :	LinearTarget    			ScatterTarget   
+			ClipReloadTime      			DelayBetweenShots       
+			ProjectileCollidesWith      		RadiusDamageAffects     
+			AutoReloadsClip     		PreAttackType   
+			ShouldPlayUnderAttackEvaEvent       	ShareTimers     
+			RequireFollowThru       		CannotTargetCastleVictims       
+			RestrictedHeightRange       		OverrideVoiceEnterStateAttackGroup2Sound
+			OverrideVoiceEnterStateAttack2Sound         OverrideVoiceEnterStateAttackGroupSound         								OverrideVoiceEnterStateAttackSound           OverrideVoiceAttackGroup2Sound          
+			OverrideVoiceAttack2Sound       	OverrideVoiceAttackGroupSound       
+			OverrideVoiceAttackSound        	FinishAttackOnceStarted     
+			MaxAttackPassengers     		PassengerProportionalAttack
+			PreAttackRandomAmount       	PreAttackDelay  
+			HitPassengerPercentage      		HitPercentage   
+			RotatingTurret      			NoVictimNeeded
+			IsAimingWeapon     		ForceDisplayPercentReady        
+			IgnoreLinearFirstTarget 		SuspendFXDelay     
+			ContinueAttackRange     		FiringDuration      
+			PlayFXWhenStealthed     		AllowAttackGarrisonedBldgs
+			ShowsAmmoPips   			CapableOfFollowingWaypoints
+			HitStoredTarget     		LeechRangeWeapon    
+			ChaseWeapon     			MeleeWeapon     
+			ProjectileSelf      			ProjectileFilterInContainer
+			DamageDealtAtSelfPosition      	ShotsPerBarrel
+			AutoReloadWhenIdle      		ContinuousFireCoast
+			ContinuousFireTwo       		ContinuousFireOne
+			ClipSize    			VeterancyProjectileExhaust
+			VeterancyFireFX     		ProjectileExhaust
+			PreAttackFX     			FireFX
+			FireSoundLoopTime       		FireSound   
+			PreferredTargetBone     		MaxTargetPitch
+			MinTargetPitch      		WeaponRecoil
+			CanSwoop    			CanFireWhileCharging
+			CanFireWhileMoving      		HoldAfterFiringDelay 
+			IdleAfterFiringDelay        		CanBeDodged
+			ScaleWeaponSpeed   		MaxWeaponSpeed
+			MinWeaponSpeed      		WeaponSpeed
+			DisableScatterForTargetsOnWall         ScatterIndependently
+			ScatterRadiusVsInfantry     		ScatterTargetScalar
+			ScatterRadius   			AimDirection
+			AcceptableAimDelta      		RequestAssistRange
+			MinimumAttackRange
+
+
+
+	* Projectile Colliding with : 	MONSTERS    		CONTROLLED_STRUCTURES
+	   Damage affects :	BALLISTIC_MISSILES      	SMALL_MISSILES
+				WALLS   			STRUCTURES
+				MINES   			SAME_HEIGHT_ONLY
+				PROJECTILES     		NOT_AIRBORNE
+				NOT_SIMILAR     		SUICIDE
+				NEUTRALS    		SELF 
+
+
+
+ 	* WeaponStates :	WEAPONSET_ONE_RING_MODE 	SPECIAL_UPGRADE     
+			CONTAINED   			SPECIAL_TWO     
+			SPECIAL_ONE     			WEAPON_RIDER8   
+			WEAPON_RIDER7   			WEAPON_RIDER6   
+			WEAPON_RIDER5   			WEAPON_RIDER4
+			WEAPON_RIDER3  			WEAPON_RIDER2
+			WEAPON_RIDER1   			RAMPAGE     
+			CLOSE_RANGE     			PASSENGER_TYPE_TWO
+			PASSENGER_TYPE_ONE   
+
+
+  	* WeaponSlots :  	TERTIARY    			SECONDARY   
+			PRIMARY   		         	WeaponLockSharedAcrossSets
+			ShareWeaponReloadTime       	OnlyAgainst     
+			PreferredAgainst    		AutoChooseSources      
+
+    
+     	* Unknown :	AimFarDistance      		AimNearDistance     
+			AimHighThreshold    		AimLowThreshold 
+			IN_FOLLOW_THRU      		RELOADING_CLIP
+			BETWEEN_FIRING_SHOTS        	OUT_OF_AMMO     
+			READY_TO_FIRE   			FIRING  
+			PRE_ATTACK      			RATE_OF_FIRE
+			RADIUS  				DAMAGE
+			SOLO_AI_HARD    			SOLO_AI_NORMAL      
+			SOLO_AI_EASY    			SOLO_HUMAN_HARD
+			SOLO_HUMAN_NORMAL       		SOLO_HUMAN_EASY
+			SUBLIMINAL      			BATTLEPLAN_SEARCHANDDESTROY
+			BATTLEPLAN_HOLDTHELINE      	BATTLEPLAN_BOMBARDMENT
+			ENTHUSIASTIC    			DEMORALIZED_OBSOLETE
+			DRONE_SPOTTING     		NATIONALISM     
+			PER_POSITION    			PER_CLIP
+			PER_ATTACK      			PER_SHOT
+			RETURN_TO_BASE    
+
+
+
+; ----------------------------------------------------------------------------------------------------------------------------------------------
+
+SpeedBonusAudioLoop     BonusForType    SetBonusModelConditionOnSpeedBonus
+
+
+SpecialPrepModelconditionTime GiveNoXP
+
+
+
+UnitInvulnerableTime    VeteranUnitsFromVeteranFactory    
+  
+UnitInvulnerableTime		 = 6000 ; In msec, we flag things we make as invulnerable for a bit. 
+VeteranUnitsFromVeteranFactory = Yes ;I am higher than my default level, I will give a free level to those I produce
+
+
+DisabledTypesToProcess 			= PREVENT FROM OPERATING IN CERTAIN STATES
+
+QuantityModifier    			= MULTIPLY BY NUMBER OF UNITS CREATED 
+ Behavior = ProductionUpdate ModuleTag_10
+    QuantityModifier = ChinaInfantryRedguard   2
+  End
+
+
+ConstructionCompleteDuration        DoorCloseTime   DoorWaitOpenTime    DoorOpeningTime     NumDoorAnimations       MaxQueueEntries
