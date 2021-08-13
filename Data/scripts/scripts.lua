@@ -1707,11 +1707,6 @@ function OnIthilienRangerCreated(self)
         ObjectHideSubObjectPermanently( self, "LEGS2", false )
     end
 end
-
-function OnEriadorSpearmanCreated(self)
-    ObjectHideSubObjectPermanently( self, "REGULARFB", true )
-end
-
 function OnGreyCompanyRangerCreated(self)
 	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
 	ObjectHideSubObjectPermanently( self, "FireArowTip", true )
