@@ -1565,7 +1565,10 @@ CONTROLBAR:ToolTipBuildRohanSpearmenHorde
 END
 
 //================================================= Shadow&Flame =====================================
+
 //================================================= Faction Stuff ====================================
+
+//================================= Gundabad =========================================================
 
 APT:Gundabad
 "Gundabad"
@@ -1583,28 +1586,12 @@ SIDE:Gundabad
 "Gundabad"
 END
 
-SIDE:Gundabad
-"Gundabad"
-END
-
-LWA:Gundabad
-"Gundabad"
-END
-
 LWA:Gundabad
 "Gundabad"
 END
 
 LWA:GundabadArmy
 "Gundabad Army"
-END
-
-LWA:GundabadArmy
-"Gundabad Army"
-END
-
-UPGRADE:GundabadFaction
-"Gundabad"
 END
 
 UPGRADE:GundabadFaction
@@ -1626,6 +1613,44 @@ END
 OBJECT:MBGundCampFloor
 "Gundabad Camp Floor"
 END
+
+//================================= Rivendell =========================================================
+
+APT:Rivendell
+"Rivendell"
+END
+
+APT:RivendellCaps
+"RIVENDELL"
+END
+
+INI:FactionRivendell
+"Rivendell"
+END
+
+SIDE:Rivendell
+"Rivendell"
+END
+
+UPGRADE:RivendellFaction
+"Rivendell"
+END
+
+OBJECT:RivendellBuildingFoundation
+"Rivendell Building Foundation"
+END
+
+OBJECT:RivendellBaseDefenseFoundation
+"Rivendell Defensive Foundation"
+END
+
+//OBJECT:EBRivCastFloor
+//"Rivendell Castle Floor"
+//END
+
+//OBJECT:EBRivCampFloor
+//"Rivendell Camp Floor"
+//END
 
 //=================================UNIT ABILITIES==========================
 
