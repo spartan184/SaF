@@ -123,8 +123,14 @@ Asset EUELROHIR_SKN.ARROW in file euelrohir_skn.w3d depends on unknown asset g_a
 Asset EUELROHIR_SKN.SWORD in file euelrohir_skn.w3d depends on unknown asset euelohir.tga.
 Asset EUGALADHRIM_HA in file eugaladhrim_ha.w3d depends on unknown asset h*ruelfwar_skl.
 Asset EUGALADHRIM_SKN in file eugaladhrim_skn.w3d depends on unknown asset h*ruelfwar_skl.
+Asset EUGALADHRIMBNR.LANCE in file eugaladhrimbnr.w3d depends on unknown asset eurivenlan_c.tga.
 Asset EUGALADHRIMBNR in file eugaladhrimbnr.w3d depends on unknown asset h*gubanner_skl.
 Asset EULORARCH_SKN.ARROWNOCK in file eulorarch_skn.w3d depends on unknown asset g_arrow.tga.
+Asset EULORARCH_SKN.OBJECT03 in file eulorarch_skn.w3d depends on unknown asset eulorarch.tga.
+Asset EULORARCH_SKN.OBJECT08 in file eulorarch_skn.w3d depends on unknown asset eulorarch.tga.
+Asset EULORARCH_SKN.CYLINDER01 in file eulorarch_skn.w3d depends on unknown asset eulorwarcape.tga.
+Asset EULORARCH_SKN.OBJECT01 in file eulorarch_skn.w3d depends on unknown asset eulorarchcape.tga.
+Asset EULORARCH_SKN.OBJECT09 in file eulorarch_skn.w3d depends on unknown asset eulorarchcape.tga.
 Asset EULORARCH_SKN in file eulorarch_skn.w3d depends on unknown asset h*ruelfwar_skl.
 Asset EUMTHLND_SKN.EUMTHLND_C in file eumthlnd_skn.w3d depends on unknown asset eumthlnd_c.tga.
 Asset EUMTHLND_SKN.FORGED_BLADE in file eumthlnd_skn.w3d depends on unknown asset exlnzflar2.tga.
