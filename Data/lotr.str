@@ -32,6 +32,20 @@ CONTROLBAR:ToolTipRJCameraOverheadView
 END
 // END CAMERA
 
+// ############################################################ //
+// ======================== #Rivendell ======================== //
+// ############################################################ //
+// ============================================================= //
+// ==================== #Rivendell Buildings =================== //
+// ============================================================= //
+// =============== Dunedain Gathering
+OBJECT:RivendellDunedainGathering
+"Dúnedain Gathering"
+END
+OBJECT:RivendellDunedainGatheringDesc
+"Recruit Rangers of the North"
+END
+
 //============ Mordor Battle Tower =================
 OBJECT:MordorBattleTower
 "Mordor Battle Tower"
