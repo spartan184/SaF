@@ -179,6 +179,10 @@ CONTROLBAR:ToolTipDunedainRangerHorde
 "Recruit Rangers of the North. Initially only recruited with bows.\n Strong vs. Archers, Monsters"
 END
 
+OBJECT:GreyCompanyRanger
+"Ranger of the Grey Company"
+END
+
 OBJECT:HordeGreyCompanyRanger
 "Dunedain of the Grey Company"
 END
@@ -199,13 +203,13 @@ END
 // ============================================================ //
 // =============== Dunedain Gathering
 OBJECT:RivDunedainGathering
-"Dúnedain Gathering"
+"Dunedain Gathering"
 END
 OBJECT:RivDunedainGatheringDesc
 "Recruit Rangers of the North"
 END
 CONTROLBAR:ConstructRivDunedainGathering
-"Dúnedain Gathering"
+"Dunedain Gathering"
 END
 CONTROLBAR:ToolTipBuildRivDunedainGathering
 "Recruit Rangers of the North"
