@@ -47,7 +47,7 @@ END
 // ============================================================ //
 // ===================== #Rivendell Heroes ==================== //
 // ============================================================ //
-; ========= #Elrohir
+// ========= #Elrohir
 OBJECT:Elrohir
 "Elrohir"
 END
@@ -87,7 +87,7 @@ END
 CONTROLBAR:ToolTipElrohirBlademaster
 "Required: Rank 7 \n +100% health, +50% damage \n left click to activate"
 END
-; ========= #Elladan
+// ========= #Elladan
 OBJECT:Elladan
 "Elladan"
 END
@@ -128,7 +128,7 @@ CONTROLBAR:ToolTipElladanBlademaster
 "Required: Rank 7 \n +100% attack speed, +50% damage, +10% armor \n left click to activate"
 END
 
-; ========= #Halbarad
+// ========= #Halbarad
 OBJECT:Halbarad
 "Halbarad"
 END
