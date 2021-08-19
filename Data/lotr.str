@@ -31,7 +31,12 @@ CONTROLBAR:ToolTipRJCameraOverheadView
 "Have a bird's eye view of the battlefield"
 END
 // END CAMERA
-
+// ############################################################ //
+// ========================= #Generics ======================== //
+// ############################################################ //
+CONTROLBAR:GenericHeroRevive
+"Revive your Fallen Hero"
+END
 // ############################################################ //
 // ======================== #Rivendell ======================== //
 // ############################################################ //
@@ -42,6 +47,7 @@ END
 // ============================================================ //
 // ===================== #Rivendell Heroes ==================== //
 // ============================================================ //
+; ========= #Elrohir
 OBJECT:Elrohir
 "Elrohir"
 END
@@ -54,70 +60,8 @@ CONTROLBAR:ElrohirRevive
 "Revive the fallen Hero, Elrohir"
 END
 
-CONTROLBAR:GenericHeroRevive
-"Revive your Fallen Hero"
-END
-
 CONTROLBAR:ElrohirHotkey
 "Elrohir&"
-END
-
-OBJECT:Elladan
-"Elladan"
-END
-
-CONTROLBAR:ElladanRecruit
-"Recruit the sword-wielding Elladan, son of Elrond."
-END
-
-CONTROLBAR:ElladanRevive
-"Revive the fallen Hero, Elladan"
-END
-
-CONTROLBAR:ElladanHotKey
-"Elladan&"
-END
-
-OBJECT:Halbarad
-"Halbarad"
-END
-
-CONTROLBAR:HalbaradRecruit
-"Recruit Halbarad, Captain of the Dunedain."
-END
-
-CONTROLBAR:HalbaradRevive
-"Revive the fallen Hero, Halbarad"
-END
-
-CONTROLBAR:HalbaradHotKey
-"Halbarad&"
-END
-
-// ======================== Rivendell Hero Powers ========================
-
-CONTROLBAR:HalbaradLeadership
-"Captain of the North"
-END
-
-CONTROLBAR:ToolTipHalbaradLeadership
-"Required: Rank 3 \n Leadership bonus to nearby troops \n +50% Armor, +50% Combat Experience \n Units nearby become invulnerable to fear \n Passive ability"
-END
-
-CONTROLBAR:DunedainSwordsman
-"&Dunedain Swordsman"
-END
-
-CONTROLBAR:StrengthofNumenor
-"Strengt&h of Numenor"
-END
-
-CONTROLBAR:ElladanUnitLeadership
-"With Haste!"
-END
-
-CONTROLBAR:ToolTipElladanUnitLeadership
-"Required: Rank 3 \n Leadership bonus to nearby troops \n +10% Movement Speed \n Passive ability"
 END
 
 CONTROLBAR:ElrohirUnitLeadership
@@ -136,6 +80,38 @@ CONTROLBAR:ToolTipSpecialAbilityBrotherofElladan
 "Elrohir gains +25% defense when near Elladan \n Passive ability"
 END
 
+CONTROLBAR:ElrohirBlademaster
+"Fierce Protector"
+END
+
+CONTROLBAR:ToolTipElrohirBlademaster
+"Required: Rank 7 \n +100% health, +50% damage \n left click to activate"
+END
+; ========= #Elladan
+OBJECT:Elladan
+"Elladan"
+END
+
+CONTROLBAR:ElladanRecruit
+"Recruit the sword-wielding Elladan, son of Elrond."
+END
+
+CONTROLBAR:ElladanRevive
+"Revive the fallen Hero, Elladan"
+END
+
+CONTROLBAR:ElladanHotKey
+"Elladan&"
+END
+
+CONTROLBAR:ElladanUnitLeadership
+"With Haste!"
+END
+
+CONTROLBAR:ToolTipElladanUnitLeadership
+"Required: Rank 3 \n Leadership bonus to nearby troops \n +10% Movement Speed \n Passive ability"
+END
+
 CONTROLBAR:SpecialAbilityBrotherofElrohir
 "Unbreakable Bond"
 END
@@ -152,14 +128,38 @@ CONTROLBAR:ToolTipElladanBlademaster
 "Required: Rank 7 \n +100% attack speed, +50% damage, +10% armor \n left click to activate"
 END
 
-CONTROLBAR:ElrohirBlademaster
-"Fierce Protector"
+; ========= #Halbarad
+OBJECT:Halbarad
+"Halbarad"
 END
 
-CONTROLBAR:ToolTipElrohirBlademaster
-"Required: Rank 7 \n +100% health, +50% damage \n left click to activate"
+CONTROLBAR:HalbaradRecruit
+"Recruit Halbarad, Captain of the Dunedain."
 END
 
+CONTROLBAR:HalbaradRevive
+"Revive the fallen Hero, Halbarad"
+END
+
+CONTROLBAR:HalbaradHotKey
+"Halbarad&"
+END
+
+CONTROLBAR:HalbaradLeadership
+"Captain of the North"
+END
+
+CONTROLBAR:ToolTipHalbaradLeadership
+"Required: Rank 3 \n Leadership bonus to nearby troops \n +50% Armor, +50% Combat Experience \n Units nearby become invulnerable to fear \n Passive ability"
+END
+
+CONTROLBAR:DunedainSwordsman
+"&Dunedain Swordsman"
+END
+
+CONTROLBAR:StrengthofNumenor
+"Strengt&h of Numenor"
+END
 // ============================================================ //
 // ===================== #Rivendell Units ===================== //
 // ============================================================ //
