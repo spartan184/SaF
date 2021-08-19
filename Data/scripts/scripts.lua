@@ -1707,6 +1707,145 @@ function OnIthilienRangerCreated(self)
         ObjectHideSubObjectPermanently( self, "LEGS2", false )
     end
 end
+function OnDunedainRangerCreated(self)
+
+    ObjectHideSubObjectPermanently( self, "FireArowTip", true )
+	ObjectHideSubObjectPermanently( self, "FORGED_BLADE", true )
+	ObjectHideSubObjectPermanently( self, "ARROWUP", true )
+	ObjectHideSubObjectPermanently( self, "QUIVARROWUP", true )
+	
+	;------------------------HEADS UNHOODED
+	ObjectHideSubObjectPermanently( self, "HEAD01", true )
+	ObjectHideSubObjectPermanently( self, "HEAD02", true )
+	ObjectHideSubObjectPermanently( self, "HEAD03", true )
+	ObjectHideSubObjectPermanently( self, "HEAD04", true )
+	;------------------------HEADS HOODED
+	ObjectHideSubObjectPermanently( self, "HEADHD01", true )
+	ObjectHideSubObjectPermanently( self, "HEADHD02", true )
+	ObjectHideSubObjectPermanently( self, "HEADHD03", true )
+	ObjectHideSubObjectPermanently( self, "HEADHD04", true )
+	;------------------------HEADS HOODED MASKED
+	ObjectHideSubObjectPermanently( self, "HEADMSK01", true )	
+	ObjectHideSubObjectPermanently( self, "HEADMSK02", true )
+	ObjectHideSubObjectPermanently( self, "HEADMSK03", true )
+	ObjectHideSubObjectPermanently( self, "HEADMSK04", true )
+	;------------------------CLOAKS	
+	ObjectHideSubObjectPermanently( self, "CLOAK01", true )
+	ObjectHideSubObjectPermanently( self, "CLOAK02", true )
+	ObjectHideSubObjectPermanently( self, "CLOAK03", true )
+	ObjectHideSubObjectPermanently( self, "CLOAK04", true )
+	ObjectHideSubObjectPermanently( self, "CLOAK05", true )
+	;------------------------HOODS	
+	ObjectHideSubObjectPermanently( self, "HOOD01", true )
+	ObjectHideSubObjectPermanently( self, "HOOD02", true )
+	ObjectHideSubObjectPermanently( self, "HOOD03", true )
+	ObjectHideSubObjectPermanently( self, "HOOD04", true )
+	ObjectHideSubObjectPermanently( self, "HOOD05", true )
+	;------------------------BODY
+	ObjectHideSubObjectPermanently( self, "BODY01", true )
+	ObjectHideSubObjectPermanently( self, "BODY02", true )
+	ObjectHideSubObjectPermanently( self, "BODY03", true )
+	ObjectHideSubObjectPermanently( self, "BODY04", true )
+	;------------------------ARMS COAT
+	ObjectHideSubObjectPermanently( self, "ARMSA01", true )
+	ObjectHideSubObjectPermanently( self, "ARMSA02", true )
+	ObjectHideSubObjectPermanently( self, "ARMSA03", true )
+	ObjectHideSubObjectPermanently( self, "ARMSA04", true )
+	;------------------------ARMS SHIRT
+	ObjectHideSubObjectPermanently( self, "ARMSB01", true )
+	ObjectHideSubObjectPermanently( self, "ARMSB02", true )
+	ObjectHideSubObjectPermanently( self, "ARMSB03", true )
+	ObjectHideSubObjectPermanently( self, "ARMSB04", true )
+	;------------------------EXTRA GEAR
+	ObjectHideSubObjectPermanently( self, "BAG", true )
+	ObjectHideSubObjectPermanently( self, "BEDROLL", true )
+    
+	local head	   =    GetRandomNumber()
+	local head2	   =    GetRandomNumber()
+    local body    =    GetRandomNumber()
+	local cloak    =    GetRandomNumber()
+	
+	local gear   =    GetRandomNumber()
+	
+	if head <= 0.25 then
+        ObjectHideSubObjectPermanently( self, "HEAD01", false )
+    elseif head <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "HEAD02", false )
+    elseif head <= 0.75 then
+        ObjectHideSubObjectPermanently( self, "HEAD03", false )  		
+    else
+        ObjectHideSubObjectPermanently( self, "HEAD04", false )
+    end
+	
+	if head2 <= 0.125 then
+        ObjectHideSubObjectPermanently( self, "HEADHD01", false )
+    elseif head2 <= 0.25 then
+        ObjectHideSubObjectPermanently( self, "HEADHD02", false )
+    elseif head2 <= 0.375 then
+        ObjectHideSubObjectPermanently( self, "HEADHD03", false )
+	elseif head2 <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HEADHD04", false ) 
+	elseif head2 <= 0.625 then
+        ObjectHideSubObjectPermanently( self, "HEADMSK01", false )
+	elseif head2 <= 0.75 then
+        ObjectHideSubObjectPermanently( self, "HEADMSK02", false )
+	elseif head2 <= 0.875 then
+        ObjectHideSubObjectPermanently( self, "HEADMSK03", false )
+    else
+        ObjectHideSubObjectPermanently( self, "HEADMSK04", false )
+    end
+
+    if body <= 0.125 then
+        ObjectHideSubObjectPermanently( self, "BODY01", false )
+		ObjectHideSubObjectPermanently( self, "ARMSA01", false )
+    elseif body <= 0.25 then
+        ObjectHideSubObjectPermanently( self, "BODY01", false )
+		ObjectHideSubObjectPermanently( self, "ARMSB01", false )
+	elseif body <= 0.375 then
+        ObjectHideSubObjectPermanently( self, "BODY02", false )
+		ObjectHideSubObjectPermanently( self, "ARMSA02", false )
+	elseif body <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "BODY02", false )
+		ObjectHideSubObjectPermanently( self, "ARMSB02", false )
+	elseif body <= 0.625 then
+        ObjectHideSubObjectPermanently( self, "BODY03", false )
+		ObjectHideSubObjectPermanently( self, "ARMSA03", false )
+	elseif body <= 0.75 then
+        ObjectHideSubObjectPermanently( self, "BODY03", false )
+		ObjectHideSubObjectPermanently( self, "ARMSB03", false )	
+    elseif body <= 0.875 then
+        ObjectHideSubObjectPermanently( self, "BODY04", false )
+		ObjectHideSubObjectPermanently( self, "ARMSA04", false )  		
+    else
+        ObjectHideSubObjectPermanently( self, "BODY04", false )
+		ObjectHideSubObjectPermanently( self, "ARMSB04", false )
+    end
+	
+	if cloak <= 0.20 then
+        ObjectHideSubObjectPermanently( self, "CLOAK01", false )
+        ObjectHideSubObjectPermanently( self, "HOOD01", false )
+    elseif cloak <= 0.40 then
+        ObjectHideSubObjectPermanently( self, "CLOAK02", false )
+        ObjectHideSubObjectPermanently( self, "HOOD02", false )
+	elseif cloak <= 0.60 then
+        ObjectHideSubObjectPermanently( self, "CLOAK03", false )
+        ObjectHideSubObjectPermanently( self, "HOOD03", false )
+	elseif cloak <= 0.80 then
+        ObjectHideSubObjectPermanently( self, "CLOAK04", false )
+        ObjectHideSubObjectPermanently( self, "HOOD04", false )
+     else
+        ObjectHideSubObjectPermanently( self, "CLOAK05", false )
+        ObjectHideSubObjectPermanently( self, "HOOD05", false )
+    end 
+	
+	if gear <= 0.33 then
+        ObjectHideSubObjectPermanently( self, "BAG", false )
+    elseif gear <= 0.66 then
+        ObjectHideSubObjectPermanently( self, "BEDROLL", false )
+    else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end
+end
 function OnGreyCompanyRangerCreated(self)
 	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
 	ObjectHideSubObjectPermanently( self, "FireArowTip", true )

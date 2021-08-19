@@ -527,7 +527,10 @@
         <EventHandler EventName="CaveTrollUsingHammer"		ScriptFunctionName="OnCaveTrollUsingHammer"		DebugSingleStep="false"/>
         <EventHandler EventName="CaveTrollUsingRockThrow"	ScriptFunctionName="OnCaveTrollUsingRockThrow"	DebugSingleStep="false"/> -->
     </EventList>
-	
+		<EventList Name="DunedainRangerFunctions" Inherit="ArcherFunctions">
+        <EventHandler EventName="OnCreated"				ScriptFunctionName="OnDunedainRangerCreated" DebugSingleStep="false"/>
+    </EventList>
+
 	<EventList Name="GreyCompanyRangerFunctions" Inherit="SaFInfantryFunctions">
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnGreyCompanyRangerCreated" DebugSingleStep="false"/>
     </EventList>
