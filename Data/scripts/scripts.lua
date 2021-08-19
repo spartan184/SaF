@@ -3325,8 +3325,8 @@ end
 function OnElvenWarriorCreated(self)
     ObjectHideSubObject( self, "ARROW", true )
     ObjectHideSubObject( self, "ARROWNOCK", true )
-    ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
-    ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
+    ObjectHideSubObject( self, "Forged_Blade", true )
+    ObjectHideSubObject( self, "FIREAROWTIP", true )
 end
 
 function OnIsengardArcherCreated(self)
