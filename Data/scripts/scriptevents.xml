@@ -155,7 +155,10 @@
         <ModelConditionEvent Name="WeaponsetPlayerUpgrade">
 			<Conditions>+WEAPONSET_PLAYER_UPGRADE</Conditions>
 		</ModelConditionEvent>
-		
+
+		<ModelConditionEvent Name="UnitDying">
+			<Conditions>+DYING</Conditions>
+		</ModelConditionEvent>
     </Events>
 	
     <EventList Name="BaseScriptFunctions">
@@ -434,7 +437,13 @@
 		<EventHandler EventName="ReallyDamaged"	ScriptFunctionName="BoromirLastStand" DebugSingleStep="false"/> 
         <EventHandler EventName="UsingSpecialOne"		ScriptFunctionName="RadiateUncontrollableFear"	DebugSingleStep="false"/>
     </EventList>
-    
+
+    <EventList Name="TwinFunctions" Inherit="BaseScriptFunctions">
+		<!-- This contains events specific to Boromir -->
+		<EventHandler EventName="UnitDying"	ScriptFunctionName="TwinGweyn" DebugSingleStep="false"/> 
+        <EventHandler EventName="ReallyDamaged"	ScriptFunctionName="TwinGweyn" DebugSingleStep="false"/> 
+    </EventList>
+
     <EventList Name="AragornFunctions" Inherit="BaseScriptFunctions">
 		<!-- This contains events specific to Boromir -->
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnAragornCreated" DebugSingleStep="false"/>

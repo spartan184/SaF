@@ -64,29 +64,30 @@ CONTROLBAR:ElrohirHotkey
 "Elrohir&"
 END
 
-CONTROLBAR:ElrohirUnitLeadership
-"Woodland Tactics"
-END
-
-CONTROLBAR:ToolTipElrohirUnitLeadership
-"Required: Rank 3 \n Leadership bonus to nearby troops \n +20% health, +20% Armor \n Passive ability"
-END
-
 CONTROLBAR:SpecialAbilityBrotherofElladan
-"Unbreakable Bond"
+"Gwenyn"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityBrotherofElladan
-"Elrohir gains +25% defense when near Elladan \n Passive ability"
+"Elrohir gains +100% attack damage and +50% armor when near Elladan \n If Elrohir dies while Elladan is on the field, Elladan gains a temporary +200% damage increase but also loses -150% of his armor.\n Passive ability"
 END
 
-CONTROLBAR:ElrohirBlademaster
-"Fierce Protector"
+CONTROLBAR:TwinsHatredOfOrcs
+"Hatred of Orcs"
 END
 
-CONTROLBAR:ToolTipElrohirBlademaster
-"Required: Rank 7 \n +100% health, +50% damage \n left click to activate"
+CONTROLBAR:ToolTipElrohirHatredOfOrcs
+"The Sons of Elrond deal +33% damage to all Orcs. When activated nearby orcs lose -50% armor. \n left click to activate"
 END
+
+CONTROLBAR:ElrohirSwiftStrikes
+"Swift Strikes"
+END
+
+CONTROLBAR:ToolTipElrohirSwiftStrikes
+"Required: Rank 3 \n Elrohir temporarily gains +33% attack speed at the cost of -33% armor \n left click to activate"
+END
+
 // ========= #Elladan
 OBJECT:Elladan
 "Elladan"
@@ -104,30 +105,25 @@ CONTROLBAR:ElladanHotKey
 "Elladan&"
 END
 
-CONTROLBAR:ElladanUnitLeadership
-"With Haste!"
-END
-
-CONTROLBAR:ToolTipElladanUnitLeadership
-"Required: Rank 3 \n Leadership bonus to nearby troops \n +10% Movement Speed \n Passive ability"
-END
-
 CONTROLBAR:SpecialAbilityBrotherofElrohir
-"Unbreakable Bond"
+"Gwenyn"
 END
 
 CONTROLBAR:ToolTipSpecialAbilityBrotherofElrohir
-"Elladan gains +25% attack damage when near Elrohir \n Passive ability"
+"Elladan gains +100% attack damage and +50% armor when near Elrohir \n If Elrohir dies while Elladan is on the field, Elladan gains a temporary +200% damage increase but also loses -150% of his armor. \n Passive ability"
 END
 
-CONTROLBAR:ElladanBlademaster
-"Righteous Anger"
+CONTROLBAR:ToolTipElladanHatredOfOrcs
+"The Sons of Elrond deal +33% damage to all Orcs. When activated nearby orcs lose -25% speed. \n left click to activate"
 END
 
-CONTROLBAR:ToolTipElladanBlademaster
-"Required: Rank 7 \n +100% attack speed, +50% damage, +10% armor \n left click to activate"
+CONTROLBAR:ElladanBrightBlade
+"Bright Blade"
 END
 
+CONTROLBAR:ToolTipElladanBrightBlade
+"Required: Rank 3 \n A powerful sword strike that knocks over enemy units \n left click to activate"
+END
 // ========= #Halbarad
 OBJECT:Halbarad
 "Halbarad"

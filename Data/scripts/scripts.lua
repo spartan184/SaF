@@ -448,6 +448,10 @@ function BoromirLastStand(self)
     ObjectDoSpecialPower( self, "SpecialAbilityLastStand" )
 end
 
+function TwinGweyn(self)
+    ObjectDoSpecialPower( self, "SpecialAbilityTheodenGloriousCharge" )
+end
+
 function OnTheodredCreated(self)
     ObjectHideSubObjectPermanently( self, "HELM", true )
     ObjectHideSubObjectPermanently( self, "HEADHELM", true )
