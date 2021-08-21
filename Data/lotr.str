@@ -75,7 +75,7 @@ CONTROLBAR:ToolTipOldKingdomDesc
 END
 
 CONTROLBAR:BreathofManwe
-"Breath of Manwë"
+"Breath of Manwe"
 END
 CONTROLBAR:TooltipBreathofManwe
 "Summons a destructive tornado onto the battlefield \n Left click icon then left click on target area"
@@ -96,16 +96,16 @@ CONTROLBAR:ToolTipBlessingofUlmo
 END
 
 CONTROLBAR:Laurefindele
-"Laurefindelë"
+"Laurefindele"
 END
 CONTROLBAR:ToolTipLaurefindele
 "Unlocks Glorfindel from the citadel \n Recruit Glorfindel at the Citadel"
 END
 TOOLTIP:ToolTipLackLaurefindele
-"Required: Laurefindelë Spellbook \n Recruit the Lord of the House of the Golden Flower \n \n 'Glorfindel was tall and straight; his hair was of shining gold,\n his face fair and young and fearless and full of joy;\n his eyes were bright and keen, and his voice like music;\n on his brow sat wisdom, and in his hand was strength.' \n Rank 10"
+"Required: Laurefindele Spellbook \n Recruit the Lord of the House of the Golden Flower \n \n 'Glorfindel was tall and straight; his hair was of shining gold,\n his face fair and young and fearless and full of joy;\n his eyes were bright and keen, and his voice like music;\n on his brow sat wisdom, and in his hand was strength.' \n Rank 10"
 END
 CONTROLBAR:LaurefindeleDescription
-"Required: Laurefindelë Spellbook \n Recruit the Lord of the House of the Golden Flower \n \n 'Glorfindel was tall and straight; his hair was of shining gold,\n his face fair and young and fearless and full of joy;\n his eyes were bright and keen, and his voice like music;\n on his brow sat wisdom, and in his hand was strength.' \n Rank 10"
+"Required: Laurefindele Spellbook \n Recruit the Lord of the House of the Golden Flower \n \n 'Glorfindel was tall and straight; his hair was of shining gold,\n his face fair and young and fearless and full of joy;\n his eyes were bright and keen, and his voice like music;\n on his brow sat wisdom, and in his hand was strength.' \n Rank 10"
 END
 
 // ============================================================ //
