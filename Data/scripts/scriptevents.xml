@@ -347,6 +347,10 @@
     <EventList Name="GwaihirFunctions">
     </EventList>
 
+    <EventList Name="BlessingOfUlmoFunctions">
+            <EventHandler EventName="OnCreated"		ScriptFunctionName="OnBlessingOfUlmoCreated"	DebugSingleStep="false"/>
+    </EventList>
+
     <EventList Name="EntFunctions" Inherit="BaseScriptFunctions">
 		<!-- This contains events specific to Ents. -->
 		<EventHandler EventName="OnDestroyed"	ScriptFunctionName="BeEnraged"		DebugSingleStep="false"/>		

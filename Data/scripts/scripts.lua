@@ -1,4 +1,8 @@
 -- define lua functions
+function OnBlessingOfUlmoCreated(self)
+    ObjectDoSpecialPower( self, "SpellBookBlessingOfUlmo" )
+end
+
 function OnAxemenofLossCreated(self)
     ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
     ObjectHideSubObjectPermanently( self, "ARMOR", true )
