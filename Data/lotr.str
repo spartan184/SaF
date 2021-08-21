@@ -43,6 +43,70 @@ END
 // ============================================================ //
 // =================== #Rivendell Spellbook =================== //
 // ============================================================ //
+CONTROLBAR:FarsightRivendell
+"Wisdom of the Eldar"
+End
+CONTROLBAR:TooltipFarsightRivendell
+"Reveals shroud in targeted area \n Modifier Type: Buff \n Gives a temporary +25% armor bonus to \n units at its target area\n Left click icon then left click on target area"
+End
+
+CONTROLBAR:HealRivendell
+"Tolo dan nan galad"
+End
+CONTROLBAR:ToolTipHealRivendell
+"Heals units, replaces 1 dead man per battalion \n Left click icon then left click on target units"
+END
+
+CONTROLBAR:SpellManyMeetings
+"Many Meetings"
+End
+CONTROLBAR:ToolTipSpellBookManyMeetings
+"Randomly summons 3 battalions from across Middle-earth \n Left click icon then left click on pathable location"
+END
+
+CONTROLBAR:OldKingdom
+"Remnant of the Old Kingdom"
+END
+CONTROLBAR:ToolTipOldKingdom
+"Summons a ruined Arnorian outpost \n Modifier Type: Buff \n All allied units gain +50% Damage, +50% Armor and become immune to fear and terror \n Stacks with Leadership and Spells \nLeft click icon then left click on target area"
+END
+CONTROLBAR:ToolTipOldKingdomDesc
+"Surrounding units gain +50% armor. \n Enemy leadership is negated."
+END
+
+CONTROLBAR:BreathofManwe
+"Breath of Manwë"
+END
+CONTROLBAR:TooltipBreathofManwe
+"Summons a destructive tornado onto the battlefield \n Left click icon then left click on target area"
+END
+
+CONTROLBAR:SummonGreyPilgrim
+"The Grey Pilgrim"
+END
+CONTROLBAR:TooltipSummonGreyPilgrim
+"Summons Gandalf the Grey to your aid \n Left click icon then left click on pathable location"
+END
+
+CONTROLBAR:BlessingofUlmo
+"Blessing of Ulmo"
+End
+CONTROLBAR:ToolTipBlessingofUlmo
+"Temporarily covers the map in rain\n Cancels other weather powers\n All friendly units gain immunity to fear and are slowly healed\n Orchards generate +30% more resources and gain +25% Armor\n\n Left click to activate"
+END
+
+CONTROLBAR:Laurefindele
+"Laurefindelë"
+END
+CONTROLBAR:ToolTipLaurefindele
+"Unlocks Glorfindel from the citadel \n Recruit Glorfindel at the Citadel"
+END
+TOOLTIP:ToolTipLackLaurefindele
+"Required: Laurefindelë Spellbook \n Recruit the Lord of the House of the Golden Flower \n \n 'Glorfindel was tall and straight; his hair was of shining gold,\n his face fair and young and fearless and full of joy;\n his eyes were bright and keen, and his voice like music;\n on his brow sat wisdom, and in his hand was strength.' \n Rank 10"
+END
+CONTROLBAR:LaurefindeleDescription
+"Required: Laurefindelë Spellbook \n Recruit the Lord of the House of the Golden Flower \n \n 'Glorfindel was tall and straight; his hair was of shining gold,\n his face fair and young and fearless and full of joy;\n his eyes were bright and keen, and his voice like music;\n on his brow sat wisdom, and in his hand was strength.' \n Rank 10"
+END
 
 // ============================================================ //
 // ===================== #Rivendell Heroes ==================== //
@@ -2696,10 +2760,6 @@ TOOLTIP:ToolTipLackRADTB
 "Required: The Brown Wizard \n Recruit one of the wandering Istari, Radagast the Brown. \n \n 'A worthy wizard, a master of shapes and changes of hue; and he has much lore of herbs and beasts, and birds are especially his friends.' - Gandalf \n Rank 10"
 END
 
-CONTROLBAR:GOTWDescription
-"Required: The White Wizard Spellbook \n Recruit Gandalf, the White Wizard \n \n 'I am Gandalf the White. And I come back to you now, at the turn of the tide.' \n Rank 10"
-END
-
 OBJECT:GondorKingElessar
 "King Elessar"
 END
@@ -2729,6 +2789,10 @@ CONTROLBAR:ToolTipGOTW
 END
 
 TOOLTIP:ToolTipLackGOTW
+"Required: The White Wizard Spellbook \n Recruit Gandalf, the White Wizard \n \n 'I am Gandalf the White. And I come back to you now, at the turn of the tide.' \n Rank 10"
+END
+
+CONTROLBAR:GOTWDescription
 "Required: The White Wizard Spellbook \n Recruit Gandalf, the White Wizard \n \n 'I am Gandalf the White. And I come back to you now, at the turn of the tide.' \n Rank 10"
 END
 
