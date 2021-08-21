@@ -73,7 +73,9 @@ END
 CONTROLBAR:ToolTipOldKingdomDesc
 "Surrounding units gain +50% armor. \n Enemy leadership is negated."
 END
-
+OBJECT:BreathOfManweTornado
+"Breath of Manwe"
+END
 CONTROLBAR:BreathofManwe
 "Breath of Manwe"
 END
