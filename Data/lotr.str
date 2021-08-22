@@ -378,7 +378,63 @@ END
 // ============================================================ //
 // ==================== #Rivendell Buildings ================== //
 // ============================================================ //
-// =============== Dunedain Gathering
+// == Rivendell Orchard
+OBJECT:RivendellOrchard
+"Rivendell Orchard"
+END
+OBJECT:RivendellOrchardDesc
+"Reduces the Cost of Cavalry\n 2 Farms: 10%\n 3 Farms: 15% \n 4 Farms: 20%\n 5 Farms: 25%\n 6+ Farms: 30%"
+END
+CONTROLBAR:ConstructRivendellOrchard
+"Rivendell Orchard"
+END
+CONTROLBAR:ToolTipRivendellOrchard
+"Reduces the Cost of Cavalry\n 2 Farms: 10%\n 3 Farms: 15% \n 4 Farms: 20%\n 5 Farms: 25%\n 6+ Farms: 30%"
+END
+
+// == Rivendell Forge
+OBJECT:RivendellForge
+"Rivendell Forge"
+END
+OBJECT:RivendellForgeDesc
+"Provides worked metals as a resource based on available terrain \n Upgrades weapons and armor \n Reduces cost of upgrades"
+END
+CONTROLBAR:ConstructRivendellForge
+"Rivendell Forge"
+END
+CONTROLBAR:ToolTipBuildRivendellForge
+"Provides worked metals as a resource based on available terrain \n Upgrades weapons and armor \n Reduces cost of upgrades"
+END
+
+// == Rivendell Library
+OBJECT:RivendellLibrary
+"Rivendell Library"
+END
+OBJECT:RivendellLibraryDesc
+"Library creates various upgrades \n Limited to 1"
+END
+CONTROLBAR:ConstructRivendellLibrary
+"Rivendell Library"
+END
+CONTROLBAR:ToolTipBuildRivendellLibrary
+"Library creates various upgrades \n Limited to 1"
+END
+
+// == Eriador Encampment
+OBJECT:RivendellEriadorEncampment
+"Rivendell Bree-land Encampment"
+END
+OBJECT:RivendellEriadorEncampmentDesc
+"Trains Hobbits and Men from Bree"
+END
+CONTROLBAR:ConstructRivendellEriadorEncampment
+"Rivendell Bree-land Encampment"
+END
+CONTROLBAR:ToolTipBuildRivendellEriadorEncampment
+"Trains Hobbits and Men from Bree"
+END
+
+// == Dunedain Gathering
 OBJECT:RivDunedainGathering
 "Dunedain Gathering"
 END
@@ -390,6 +446,62 @@ CONTROLBAR:ConstructRivDunedainGathering
 END
 CONTROLBAR:ToolTipBuildRivDunedainGathering
 "Recruit Rangers of the North"
+END
+
+// == Rivendell Dormitory
+OBJECT:RivendellDormitory
+"Rivendell Dormitory"
+END
+OBJECT:RivendellDormitoryDesc
+"Trains the Elves of Rivendell"
+END
+CONTROLBAR:ConstructRivendellDormitory
+"Rivendell Dormitory"
+END
+CONTROLBAR:ToolTipBuildRivendellDormitory
+"Trains the Elves of Rivendell"
+END
+
+// == Rivendell WatchTower
+OBJECT:RivendellWatchTower
+"Rivendell Watch Tower"
+END
+OBJECT:RivendellWatchTowerDesc
+"Defensive tower, will fire at enemy units \n Can be garrisoned with archers for increased damage output"
+END
+CONTROLBAR:ConstructConstructRivendellWatchTower
+"Rivendell Watch Tower"
+END
+CONTROLBAR:ToolTipBuildConstructRivendellWatchTower
+"Defensive tower, will fire at enemy units \n Can be garrisoned with archers for increased damage output"
+END
+
+// == Rivendell Well
+OBJECT:RivendellWell
+"Well of Celebrain"
+END
+OBJECT:RivendellWellDesc
+"Units near well auto-heal if not under attack \n Detects stealth"
+END
+CONTROLBAR:ConstructRivendellWell
+"Well of Celebrain"
+END
+CONTROLBAR:ToolTipBuildRivendellWell
+"Units near well auto-heal if not under attack \n Detects stealth"
+END
+
+// == Rivendell Statue
+OBJECT:RivendellStatue
+"Statue of Gil-Galad"
+END
+OBJECT:RivendellStatueDesc
+"Reduces cost of heroes \n Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack"
+END
+CONTROLBAR:ConstructRivendellStatue
+"Statue of Gil-Galad"
+END
+CONTROLBAR:ToolTipBuildRivendellStatue
+"Reduces cost of heroes \n Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack"
 END
 // ############################################################ //
 // ========================= #Vanilla ========================= //
