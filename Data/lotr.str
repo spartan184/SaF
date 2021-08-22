@@ -211,10 +211,10 @@ CONTROLBAR:ToolTipToggleHalbaradWeapons
 END
 
 CONTROLBAR:HalbaradArmor
-"Leader of the Grey Company"
+"The Grey Company"
 END
 CONTROLBAR:ToolTipHalbaradArmor
-"Required: Rank 3 \n 'Receiving orders from Elrond to seek out Aragorn in Rohan, Halbarad gathered a large company of Rangers to head south.' \n Halbarad equips his Grey Company Armor \n +10% armor \n Passive Ability"
+"Required: Rank 3 \n 'Receiving orders from Elrond to seek out Aragorn in Rohan, Halbarad gathered a large company of Rangers to head south.' \n Halbarad equips his armor \n +10% armor \n Passive Ability"
 END
 
 CONTROLBAR:HalbaradMusterDunedain
