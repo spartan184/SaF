@@ -276,6 +276,105 @@ END
 // ================ #Rivendell Unit Abilities ================= //
 // ============================================================ //
 
+// ============================================================= //
+// ================= #Rivendell Unit Upgrades ================== //
+// ============================================================= //
+// == Banner Carrier
+UPGRADE:RivendellBanner
+"Rivendell Banners"
+END
+CONTROLBAR:PurchaseTechnologyRivendellBanner
+"Rivendell &Banners Upgrade"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyRivendellBanner
+"Ranks a new unit to level 2 veterancy \n Can only be equipped at Level 1 \n Purchase Captain Upgrade \n Select a horde to equip upgrade"
+END
+TOOLTIP:LackLevel2RivendellForgeBanner
+"Required: Rank 2 Forge \n Ranks a new unit to level 2 veterancy \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+END
+
+CONTROLBAR:PurchaseUpgradeRivendellBanner
+"Uruk &Captain Upgrade"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeRivendellBanner
+"Ranks a new unit to level 2 veterancy \n Can only be equipped at Level 1 \n Purchase Captain Upgrade \n Select a horde to equip upgrade"
+END
+TOOLTIP:LackRivendellBanner
+"Ranks a new unit to level 2 veterancy \n Purchase upgrade at the Forge to enable this equipment"
+END
+
+// == Noldorin Armor
+UPGRADE:RivendellNoldorinArmor
+"Noldorin Armor"
+END
+TOOLTIP:RivendellNoldorinArmor
+"Noldorin Armor: +50% Armor, -20% Speed"
+END
+
+CONTROLBAR:PurchaseTechnologyRivendellNoldorinArmor
+"&Noldorin Armor"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyRivendellNoldorinArmor
+"+50% Armor, -20% Speed \n Purchase Noldorin Armor Upgrade \n Select a horde to equip upgrade \n Requires Level 2 Rivendell Forge"
+END
+TOOLTIP:LackLevel2RivendellForgeArmor
+"Required: Rank 2 Rivendell Forge \n +50% Armor, -20% Speed \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+END
+CONTROLBAR:PurchaseUpgradeRivendellNoldorinArmor
+"&Noldorin Armor"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeRivendellNoldorinArmor
+"+50% Armor, -20% Speed \n Left click to upgrade this unit"
+END
+TOOLTIP:LackRivendellNoldorinArmor
+"+50% Armor, -20% Speed \n Purchase upgrade at Rivendell Forge to enable this equipment"
+END
+
+// == Tengwar-Inscribed Steel
+CONTROLBAR:PurchaseTechnologyRivendellTengwarSteel
+"Tengwar-Inscribed &Steel Upgrade"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyRivendellTengwarSteel
+"Up to +36 damage \n Purchase Tengwar-Inscribed Steel Upgrade \n Select a battalion to equip upgrade \n Requires Level 2 Rivendell Forge"
+END
+CONTROLBAR:PurchaseUpgradeRivendellTengwarSteel
+"Tengwar-Inscribed &Steel"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeRivendellTengwarSteel
+"Up to +36 damage \n Left click to upgrade this unit"
+END
+TOOLTIP:LackLevel2RivendellForgeTengwarSteel
+"Required: Rank 2 Rivendell Forge \n Adds damage to weapons \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+END
+TOOLTIP:LackRivendellTengwarSteel
+"Up to +36 damage \n Purchase upgrade at the Rivendell Forge to enable this equipment"
+END
+UPGRADE:RivendellTengwarSteel
+"Tengwar-Inscribed Steel"
+END
+TOOLTIP:RivendellTengwarSteel
+"Tengwar-Inscribed Steel: +30 damage"
+END
+
+// == Improved Arrow Smithing
+CONTROLBAR:PurchaseTechnologyRivendellImprovedArrowsmithing
+"Swan-&Feathered Arrows"
+END
+CONTROLBAR:RivendellImprovedArrowsmithing
+"Swan-&Feathered Arrows"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyRivendellImprovedArrowsmithing
+"+25% Damage to units \n Select a battalion to equip upgrade"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeRivendellImprovedArrowsmithing
+"+25% Damage to units \n Left click to upgrade this unit"
+END
+TOOLTIP:LackLevelRivendellImprovedArrowsmithing 
+"Required: Rank 2 Archery Range \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+END
+TOOLTIP:LackRivendellImprovedArrowsmithing
+"+25% Damage to units \n Purchase upgrade at Archery Range to enable this equipment"
+END
 // ============================================================ //
 // ==================== #Rivendell Buildings ================== //
 // ============================================================ //
