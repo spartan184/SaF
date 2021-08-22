@@ -443,9 +443,12 @@
     </EventList>
 
     <EventList Name="TwinFunctions" Inherit="BaseScriptFunctions">
+		<!-- This contains events specific to Elladan and Elrohir -->
+    </EventList>
+
+    <EventList Name="TwinsDeathEggFunctions" Inherit="BaseScriptFunctions">
 		<!-- This contains events specific to Boromir -->
-		<EventHandler EventName="UnitDying"	ScriptFunctionName="TwinGweyn" DebugSingleStep="false"/> 
-        <EventHandler EventName="ReallyDamaged"	ScriptFunctionName="TwinGweyn" DebugSingleStep="false"/> 
+        <EventHandler EventName="OnCreated"	ScriptFunctionName="TwinGweyn"	 DebugSingleStep="false"/>
     </EventList>
 
     <EventList Name="AragornFunctions" Inherit="BaseScriptFunctions">
