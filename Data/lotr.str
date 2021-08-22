@@ -378,6 +378,9 @@ END
 // ============================================================ //
 // ==================== #Rivendell Buildings ================== //
 // ============================================================ //
+CONTROLBAR:DummyDummyStr
+"JustForFuns here to solve a string bug"
+END
 // == Rivendell Orchard
 OBJECT:RivendellOrchard
 "Rivendell Orchard"
@@ -469,10 +472,10 @@ END
 OBJECT:RivendellWatchTowerDesc
 "Defensive tower, will fire at enemy units \n Can be garrisoned with archers for increased damage output"
 END
-CONTROLBAR:ConstructConstructRivendellWatchTower
+CONTROLBAR:ConstructRivendellWatchTower
 "Rivendell Watch Tower"
 END
-CONTROLBAR:ToolTipBuildConstructRivendellWatchTower
+CONTROLBAR:ToolTipBuildRivendellWatchTower
 "Defensive tower, will fire at enemy units \n Can be garrisoned with archers for increased damage output"
 END
 
