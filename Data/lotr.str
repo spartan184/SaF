@@ -135,7 +135,7 @@ CONTROLBAR:SpecialAbilityBrotherofElladan
 END
 
 CONTROLBAR:ToolTipSpecialAbilityBrotherofElladan
-"Elrohir gains +100% attack damage and +50% armor when near Elladan \n If Elrohir dies while Elladan is on the field, Elladan gains a temporary +200% damage increase but also loses -150% of his armor.\n Passive ability"
+"Elrohir gains +100% attack damage and +50% armor when near Elladan \n If Elrohir is close to death while Elladan is on the field, Elladan gains a temporary +200% damage increase but also loses -150% of his armor.\n Passive ability"
 END
 
 CONTROLBAR:TwinsHatredOfOrcs
@@ -176,7 +176,7 @@ CONTROLBAR:SpecialAbilityBrotherofElrohir
 END
 
 CONTROLBAR:ToolTipSpecialAbilityBrotherofElrohir
-"Elladan gains +100% attack damage and +50% armor when near Elrohir \n If Elrohir dies while Elladan is on the field, Elladan gains a temporary +200% damage increase but also loses -150% of his armor. \n Passive ability"
+"Elladan gains +100% attack damage and +50% armor when near Elrohir \n If Elrohir is close to death while Elladan is on the field, Elladan gains a temporary +200% damage increase but also loses -150% of his armor. \n Passive ability"
 END
 
 CONTROLBAR:ToolTipElladanHatredOfOrcs

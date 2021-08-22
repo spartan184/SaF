@@ -3,6 +3,10 @@ function OnBlessingOfUlmoCreated(self)
     ObjectDoSpecialPower( self, "SpellBookBlessingOfUlmo" )
 end
 
+function TwinGweyn(self)
+    ObjectDoSpecialPower( self, "SpecialAbilityTheodenGloriousCharge" )
+end
+
 function OnAxemenofLossCreated(self)
     ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
     ObjectHideSubObjectPermanently( self, "ARMOR", true )
@@ -450,10 +454,6 @@ end
 
 function BoromirLastStand(self)
     ObjectDoSpecialPower( self, "SpecialAbilityLastStand" )
-end
-
-function TwinGweyn(self)
-    ObjectDoSpecialPower( self, "SpecialAbilityTheodenGloriousCharge" )
 end
 
 function OnTheodredCreated(self)
