@@ -381,6 +381,12 @@ END
 CONTROLBAR:DummyDummyStr
 "JustForFuns here to solve a string bug"
 END
+
+// == Rivendell Hall of Fire aka Citadel
+OBJECT:RivendellHallOfFire
+"Hall of Fire"
+END
+
 // == Rivendell Orchard
 OBJECT:RivendellOrchard
 "Rivendell Orchard"
