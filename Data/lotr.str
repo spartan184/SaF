@@ -382,6 +382,19 @@ CONTROLBAR:DummyDummyStr
 "JustForFuns here to solve a string bug"
 END
 
+// == Rivendell Castle 
+OBJECT:RivendellCastleWall
+"Rivendell Castle Wall"
+END
+
+OBJECT:RivendellCastleGate
+"Rivendell Castle Gate"
+END
+
+OBJECT:RivendellBuildingFoundation
+"Rivendell Building Foundation"
+END
+
 // == Rivendell Hall of Fire aka Citadel
 OBJECT:RivendellHallOfFire
 "Hall of Fire"
