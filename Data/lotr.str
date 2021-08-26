@@ -472,16 +472,16 @@ CONTROLBAR:ToolTipBuildRivendellDormitory
 END
 
 // == Rivendell WatchTower
-OBJECT:RivendellWatchTower
+OBJECT:RivendellBattleTower
 "Rivendell Watch Tower"
 END
-OBJECT:RivendellWatchTowerDesc
+OBJECT:RivendellBattleTowerDesc
 "Defensive tower, will fire at enemy units \n Can be garrisoned with archers for increased damage output"
 END
-CONTROLBAR:ConstructRivendellWatchTower
+CONTROLBAR:ConstructRivendellBattleTower
 "Rivendell Watch Tower"
 END
-CONTROLBAR:ToolTipBuildRivendellWatchTower
+CONTROLBAR:ToolTipBuildRivendellBattleTower
 "Defensive tower, will fire at enemy units \n Can be garrisoned with archers for increased damage output"
 END
 
