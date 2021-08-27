@@ -117,17 +117,42 @@ END
 OBJECT:Glorfindel
 "Glorfindel"
 END
-
 CONTROLBAR:GlorfindelRecruit
-"Recruit Glorfindel, Captain of the Dunedain."
+"Recruit the Lord of the House of the Golden Flower \n \n 'Glorfindel was tall and straight; his hair was of shining gold,\n his face fair and young and fearless and full of joy;\n his eyes were bright and keen, and his voice like music;\n on his brow sat wisdom, and in his hand was strength.'"
 END
-
 CONTROLBAR:GlorfindelRevive
 "Revive the fallen Hero, Glorfindel"
 END
-
 CONTROLBAR:GlorfindelHotKey
 "&Glorfindel"
+END
+
+CONTROLBAR:GlorfindelNoroLim
+"Noro Lim, Asfaloth!"
+END
+CONTROLBAR:ToolTipGlorfindelNoroLim
+"Asfaloth goes fast! /n Glorfindel gains +40% Speed \n and glides past enemies like the wind \n Can only be used mounted \n Left click to activate"
+END
+
+CONTROLBAR:GlorfindelWrath
+"Revealed in Wrath"
+END
+CONTROLBAR:ToolTipGlorfindelWrath
+"Glorfindel gains +100% Damage. /n Passively instills fear into enemies, including Nazguls \n Left click to activate"
+END
+
+CONTROLBAR:GlorfindelAman
+"Light of Aman"
+END
+CONTROLBAR:ToolTipGlorfindelAman
+"Enemy units flee in terror \n Left click to activate"
+END
+
+CONTROLBAR:GlorfindelSlayer
+"Slayer of Demons"
+END
+CONTROLBAR:ToolTipGlorfindelSlayer
+"Blasts back units in a wide radius surrounding Glorfindel \nGlorfindel’s melee attacks pin enemy heroes for a short time\n Left click to activate"
 END
 
 // ========= #Elrohir
