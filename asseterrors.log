@@ -36,6 +36,7 @@ Asset ABWELL_D1.FLOOR01 in file abwell_d1.w3d depends on unknown asset normalmap
 Asset ABWELL_D1.FLOOR2 in file abwell_d1.w3d depends on unknown asset normalmapped.fx.
 Asset ABWELL_D2.FLOOR01 in file abwell_d2.w3d depends on unknown asset normalmapped.fx.
 Asset ABWELL_D2.FLOOR2 in file abwell_d2.w3d depends on unknown asset normalmapped.fx.
+Asset AUNGLORF_MNT in file aunglorf_mnt.w3d depends on unknown asset h*ruhhs_theo_skl.
 Asset CHSS_TL_U_DISA.DEFAULT01 in file chss_tl_u_disa.w3d depends on unknown asset mumnttroll_chero_high.tga.
 Asset CHSS_TL_U_DISA.SKELETON in file chss_tl_u_disa.w3d depends on unknown asset mumumaskel.tga.
 Asset CHSS_TL_U_DISA in file chss_tl_u_disa.w3d depends on unknown asset e_mumaflies.
@@ -133,6 +134,10 @@ Asset EBFORGE_SKN.V2B in file ebforge_skn.w3d depends on unknown asset normalmap
 Asset EUGALADHRIM_HA in file eugaladhrim_ha.w3d depends on unknown asset h*ruelfwar_skl.
 Asset EUGALADHRIM_SKN in file eugaladhrim_skn.w3d depends on unknown asset h*ruelfwar_skl.
 Asset EUGALADHRIMBNR in file eugaladhrimbnr.w3d depends on unknown asset h*gubanner_skl.
+Asset EUGLRFDL_TMPA.EUGLORFINDEL_C in file euglrfdl_tmpa.w3d depends on unknown asset euglrfdl_c.tga.
+Asset EUGLRFDL_TMPA.ARROWNOCK in file euglrfdl_tmpa.w3d depends on unknown asset g_arrow.tga.
+Asset EUGLRFDL_TMPA in file euglrfdl_tmpa.w3d depends on unknown asset euglrfdl_tmpa.boundingbox.
+Asset EUGLRFDL_TMPA in file euglrfdl_tmpa.w3d depends on unknown asset h*euhaldir_cinskl.
 Asset EXDEBUFF.PLANE07 in file exdebuff.w3d depends on unknown asset excloudcr01.tga.
 Asset EXPOWERRING.PLANE01 in file expowerring.w3d depends on unknown asset exlightaura02.tga.
 Asset FXHARSHCOLD.CYLINDER01 in file fxharshcold.w3d depends on unknown asset exlightstreaks2.tga.

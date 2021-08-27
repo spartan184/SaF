@@ -2586,6 +2586,11 @@ function SpyMoving(self, other)
     print(ObjectDescription(self).." spying movement of "..ObjectDescription(other));
 end
 
+-- Gandalf
+function OnGandalfCreated(self)
+    ObjectDoSpecialPower(self, "SuperweaponPartTheHeavens")
+end
+
 function GandalfConsiderUsingDefensePower(self, other, delay, amount)
     -- Put up the shield if a big attack is coming and we have time to block it
     if tonumber(delay) > 1 then
@@ -2597,7 +2602,7 @@ function GandalfConsiderUsingDefensePower(self, other, delay, amount)
     
     -- Or, if we are being hit and there are alot of guys arround, do our cool pushback power
     if tonumber(ObjectCountNearbyEnemies(self, 50)) >= 4 then
-        ObjectDoSpecialPower(self, "SpecialPowerTelekeneticPush")
+        ObjectDoSpecialPower(self, "SpecialAbilityWizardBlast")
         return
     end
 end
@@ -2606,6 +2611,11 @@ function GandalfTriggerWizardBlast(self)
     ObjectCreateAndFireTempWeapon(self, "GandalfWizardBlast")
 end
 
+-- Glorfindel
+function OnStarlightActivated(self) --
+	ObjectBroadcastEventToEnemies( self, "BeUncontrollablyAfraid", 350 )
+end
+-- Saruman
 function SarumanConsiderUsingDefensePower(self, other, delay, amount)
     -- Put up the shield if a big attack is coming and we have time to block it
 --E4    if tonumber(delay) > 1 then

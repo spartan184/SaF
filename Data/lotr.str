@@ -113,6 +113,23 @@ END
 // ============================================================ //
 // ===================== #Rivendell Heroes ==================== //
 // ============================================================ //
+// ========= #Glorfindel
+OBJECT:Glorfindel
+"Glorfindel"
+END
+
+CONTROLBAR:GlorfindelRecruit
+"Recruit Glorfindel, Captain of the Dunedain."
+END
+
+CONTROLBAR:GlorfindelRevive
+"Revive the fallen Hero, Glorfindel"
+END
+
+CONTROLBAR:GlorfindelHotKey
+"&Glorfindel"
+END
+
 // ========= #Elrohir
 OBJECT:Elrohir
 "Elrohir"
@@ -206,6 +223,7 @@ END
 CONTROLBAR:HalbaradHotKey
 "Halbarad&"
 END
+
 CONTROLBAR:ToolTipToggleHalbaradWeapons
 "Left click to toggle between bow and spear"
 END

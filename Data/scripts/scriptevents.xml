@@ -246,9 +246,16 @@
     </EventList>
     
     <EventList Name="GandalfFunctions" Inherit="BaseScriptFunctions">
+        <EventHandler EventName="OnCreated"	ScriptFunctionName="OnGandalfCreated" DebugSingleStep="false"/>
         <EventHandler EventName="DamageIncoming" ScriptFunctionName="GandalfConsiderUsingDefensePower" DebugSingleStep="false"/>
         <EventHandler EventName="UsingSpecialOne" ScriptFunctionName="GandalfTriggerWizardBlast" DebugSingleStep="false"/>
     </EventList>
+
+	 <!-- Added for 2.1, new Chenoweth Starlight behavior ;;,;; -->
+	<EventList Name="GlorfindelFunctions" Inherit="BaseScriptFunctions">
+        <EventHandler EventName="User1Achieved" ScriptFunctionName="OnStarlightActivated" DebugSingleStep="false"/>
+	</EventList>
+
     <EventList Name="ForlongFunctions" Inherit="BaseScriptFunctions">
 		<!-- This contains events specific to Boromir -->
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnForlongCreated" DebugSingleStep="false"/>
