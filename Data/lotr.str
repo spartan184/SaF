@@ -326,7 +326,13 @@ END
 // ============================================================ //
 // ================ #Rivendell Unit Abilities ================= //
 // ============================================================ //
+CONTROLBAR:GreyCompanyGrimResolve
+"Grim Resolve"
+END
 
+CONTROLBAR:ToolTipGreyCompanyGrimResolve
+"Nearby enemies lose 10% armour and damage and have reduced fear resistance \n Each time a ranger falls the other members of the\nbattalion gain a small damage and armor boost for a short time \n Passive Ability"
+END
 // ============================================================= //
 // ================= #Rivendell Unit Upgrades ================== //
 // ============================================================= //
