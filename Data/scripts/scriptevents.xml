@@ -253,7 +253,7 @@
 
 	 <!-- Added for 2.1, new Chenoweth Starlight behavior ;;,;; -->
 	<EventList Name="GlorfindelFunctions" Inherit="BaseScriptFunctions">
-        <EventHandler EventName="User1Achieved" ScriptFunctionName="OnStarlightActivated" DebugSingleStep="false"/>
+        <EventHandler EventName="User2Achieved" ScriptFunctionName="OnStarlightActivated" DebugSingleStep="false"/>
 	</EventList>
 
     <EventList Name="ForlongFunctions" Inherit="BaseScriptFunctions">
