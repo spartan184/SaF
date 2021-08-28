@@ -132,21 +132,21 @@ CONTROLBAR:GlorfindelLeadership
 END
 
 CONTROLBAR:ToolTipGlorfindelLeadership
-"Units near Glorfindel gain /n +50% Armor, +50% Damage, +100% Experience, and resist fear /n Passive Ability"
+"Units near Glorfindel gain \n +50% Armor, +50% Damage, +100% Experience, and resist fear \n Passive Ability"
 END
 
 CONTROLBAR:GlorfindelNoroLim
 "Noro Lim, Asfaloth!"
 END
 CONTROLBAR:ToolTipGlorfindelNoroLim
-"Asfaloth goes fast! /n Glorfindel gains +40% Speed \n and glides past enemies like the wind \n Can only be used mounted \n Left click to activate"
+"Asfaloth goes fast! \n Glorfindel gains +40% Speed \n and glides past enemies like the wind \n Can only be used mounted \n Left click to activate"
 END
 
 CONTROLBAR:GlorfindelWrath
 "Revealed in Wrath"
 END
 CONTROLBAR:ToolTipGlorfindelWrath
-"Glorfindel gains +100% Damage. /n Passively instills fear into enemies, including Nazguls \n Left click to activate"
+"Glorfindel gains +100% Damage. \n Passively instills fear into enemies, including Nazguls \n Left click to activate"
 END
 
 CONTROLBAR:GlorfindelAman
@@ -160,7 +160,7 @@ CONTROLBAR:GlorfindelSlayer
 "Slayer of Demons"
 END
 CONTROLBAR:ToolTipGlorfindelSlayer
-"Blasts back units in a wide radius surrounding Glorfindel \nGlorfindel’s melee attacks pin enemy heroes for a short time\n Left click to activate"
+"Blasts back units in a wide radius surrounding Glorfindel\n Enemy heroes are in the radius of the blast are pinned for a short time \n Left click to activate"
 END
 
 // ========= #Elrohir
