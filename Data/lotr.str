@@ -127,6 +127,14 @@ CONTROLBAR:GlorfindelHotKey
 "&Glorfindel"
 END
 
+CONTROLBAR:GlorfindelLeadership
+"Lord of the House of the Golden Flower"
+END
+
+CONTROLBAR:ToolTipGlorfindelLeadership
+"Units near Glorfindel gain /n +50% Armor, +50% Damage, +100% Experience, and resist fear /n Passive Ability"
+END
+
 CONTROLBAR:GlorfindelNoroLim
 "Noro Lim, Asfaloth!"
 END
