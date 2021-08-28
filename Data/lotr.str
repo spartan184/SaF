@@ -289,6 +289,22 @@ CONTROLBAR:ToolTipHalbaradBannerOfArwen
 "Required: Rank 10 \n Halbarad unfurls his banner. \n For 60 seconds, allied units and heroes in a large radius gain +25% damage and +100% experience. \n Enemy units and heroes lose -25% damage \n Left click to activate"
 END
 
+// ========= #Farmer Maggot
+OBJECT:FarmerMaggot
+"Farmer Maggot"
+END
+
+CONTROLBAR:FarmerMaggotRecruit
+"Recruit the sword-wielding Farmer Maggot"
+END
+
+CONTROLBAR:FarmerMaggotRevive
+"Revive the fallen Hero, Farmer Maggot"
+END
+
+CONTROLBAR:FarmerMaggotHotKey
+"Farmer &Maggot"
+END
 // ============================================================ //
 // ===================== #Rivendell Units ===================== //
 // ============================================================ //
