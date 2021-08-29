@@ -611,6 +611,14 @@ END
 CONTROLBAR:ToolTipBuildRivendellStatue
 "Reduces cost of heroes \n Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack"
 END
+
+// == Maggot's Farm
+OBJECT:RivendellMaggotsFarm
+"Bamfurlong"
+END
+OBJECT:RivendellMaggotsFarmDesc
+"Generates a large amount of resources"
+END
 // ############################################################ //
 // ========================= #Vanilla ========================= //
 // ############################################################ //
