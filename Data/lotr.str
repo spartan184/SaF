@@ -208,15 +208,12 @@ END
 OBJECT:Elladan
 "Elladan"
 END
-
 CONTROLBAR:ElladanRecruit
 "Recruit the sword-wielding Elladan, son of Elrond."
 END
-
 CONTROLBAR:ElladanRevive
 "Revive the fallen Hero, Elladan"
 END
-
 CONTROLBAR:ElladanHotKey
 "Elladan&"
 END
@@ -224,11 +221,9 @@ END
 CONTROLBAR:SpecialAbilityBrotherofElrohir
 "Gwenyn"
 END
-
 CONTROLBAR:ToolTipSpecialAbilityBrotherofElrohir
 "Elladan gains +100% attack damage and +50% armor when near Elrohir \n If Elrohir is close to death while Elladan is on the field, Elladan gains a temporary +200% damage increase but also loses -150% of his armor. \n Passive ability"
 END
-
 CONTROLBAR:ToolTipElladanHatredOfOrcs
 "The Sons of Elrond deal +33% damage to all Orcs. When activated nearby orcs lose -25% speed. \n left click to activate"
 END
@@ -236,10 +231,24 @@ END
 CONTROLBAR:ElladanBrightBlade
 "Bright Blade"
 END
-
 CONTROLBAR:ToolTipElladanBrightBlade
 "Required: Rank 3 \n A powerful sword strike that knocks over enemy units \n left click to activate"
 END
+
+// ========= #Elrond
+OBJECT:ElvenElrond
+"Elrond"
+END
+CONTROLBAR:ElrondRecruit
+"Recruit the wandering Noldor, Gildor. \n \n 'Elves seldom give unguarded advice, for advice is a dangerous gift, even from the wise to the wise, and all courses may run ill.'"
+END
+CONTROLBAR:ElrondRevive
+"Revive the fallen Hero, Elrond"
+END
+CONTROLBAR:ElrondHotKey
+"El&rond"
+END
+
 // ========= #Gildor
 OBJECT:Gildor
 "Gildor Inglorion"
@@ -10641,10 +10650,6 @@ END
 
 OBJECT:ElvenArwen
 "Arwen"
-END
-
-OBJECT:ElvenElrond
-"Elrond"
 END
 
 OBJECT:GondorIsildur
