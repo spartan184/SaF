@@ -251,9 +251,12 @@
         <EventHandler EventName="UsingSpecialOne" ScriptFunctionName="GandalfTriggerWizardBlast" DebugSingleStep="false"/>
     </EventList>
 
-	 <!-- Added for 2.1, new Chenoweth Starlight behavior ;;,;; -->
 	<EventList Name="GlorfindelFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="User2Achieved" ScriptFunctionName="OnStarlightActivated" DebugSingleStep="false"/>
+	</EventList>
+
+	<EventList Name="GildorFunctions" Inherit="BaseScriptFunctions">
+        <EventHandler EventName="User1Achieved" ScriptFunctionName="OnTelperionActivated" DebugSingleStep="false"/>
 	</EventList>
 
     <EventList Name="ForlongFunctions" Inherit="BaseScriptFunctions">

@@ -240,6 +240,40 @@ END
 CONTROLBAR:ToolTipElladanBrightBlade
 "Required: Rank 3 \n A powerful sword strike that knocks over enemy units \n left click to activate"
 END
+// ========= #Gildor
+OBJECT:Gildor
+"Gildor Inglorion"
+END
+CONTROLBAR:GildorRecruit
+"Recruit the wandering Noldor, Gildor. \n \n 'Elves seldom give unguarded advice, for advice is a dangerous gift, even from the wise to the wise, and all courses may run ill.'"
+END
+CONTROLBAR:GildorRevive
+"Revive the fallen Hero, Gildor"
+END
+CONTROLBAR:GildorHotKey
+"Gil&dor"
+END
+
+CONTROLBAR:GildorLeadership
+"Companion"
+End
+CONTROLBAR:ToolTipGildorLeadership
+"Hobbits near Gildor gain +33% Damage and +33% Armor \n Stacks with Buffs and Spells \n Passive ability"
+END
+
+CONTROLBAR:GildorTelperion
+"Light of Telperion (&T)"
+END
+CONTROLBAR:ToolTipGildorTelperion
+"Requires Level 5 \n Gildor reveals his blessed Lantern, causing enemy units to flee in terror \n Left click to activate"
+END
+
+CONTROLBAR:GildorExiles
+"The Wandering Companies (&R)"
+END
+CONTROLBAR:TooltipGildorExiles
+"Requires Level 8 \nGildor summons three groups of Noldor Exiles to his side \n Left click icon to activate"
+END
 // ========= #Halbarad
 OBJECT:Halbarad
 "Halbarad"
@@ -293,15 +327,12 @@ END
 OBJECT:FarmerMaggot
 "Farmer Maggot"
 END
-
 CONTROLBAR:FarmerMaggotRecruit
-"Recruit the sword-wielding Farmer Maggot"
+"Recruit the Hobbit Farmer Maggot"
 END
-
 CONTROLBAR:FarmerMaggotRevive
 "Revive the fallen Hero, Farmer Maggot"
 END
-
 CONTROLBAR:FarmerMaggotHotKey
 "Farmer &Maggot"
 END

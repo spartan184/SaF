@@ -3,8 +3,21 @@ function OnBlessingOfUlmoCreated(self)
     ObjectDoSpecialPower( self, "SpellBookBlessingOfUlmo" )
 end
 
+
+
+-- Glorfindel
+function OnStarlightActivated(self) --
+	ObjectBroadcastEventToEnemies( self, "BeUncontrollablyAfraid", 350 )
+end
+
+-- Twins
 function TwinGweyn(self)
     ObjectDoSpecialPower( self, "SpecialAbilityTheodenGloriousCharge" )
+end
+
+-- Gildor
+function OnTelperionActivated(self) --
+	ObjectBroadcastEventToEnemies( self, "BeUncontrollablyAfraid", 350 )
 end
 
 function OnAxemenofLossCreated(self)
@@ -2611,10 +2624,6 @@ function GandalfTriggerWizardBlast(self)
     ObjectCreateAndFireTempWeapon(self, "GandalfWizardBlast")
 end
 
--- Glorfindel
-function OnStarlightActivated(self) --
-	ObjectBroadcastEventToEnemies( self, "BeUncontrollablyAfraid", 350 )
-end
 -- Saruman
 function SarumanConsiderUsingDefensePower(self, other, delay, amount)
     -- Put up the shield if a big attack is coming and we have time to block it
