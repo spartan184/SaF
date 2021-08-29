@@ -306,6 +306,9 @@ CONTROLBAR:FarmerMaggotHotKey
 "Farmer &Maggot"
 END
 
+OBJECT:RivendellMaggotsHound
+"Maggot's Hound"
+END
 CONTROLBAR:MaggotHounds
 "Maggot's Hounds"
 END
@@ -322,6 +325,55 @@ END
 // ============================================================ //
 // ===================== #Rivendell Units ===================== //
 // ============================================================ //
+OBJECT:RivendellBounder
+"Hobbit Bounder"
+END
+OBJECT:HordeRivendellTookArcher
+"Hobbit Bounders"
+END
+CONTROLBAR:ConstructRivendellBounderHorde
+"Recruit Hobbit Bounders"
+END
+CONTROLBAR:ToolTipRivendellBounderHorde
+"Hobbit Bounders \n Strong vs. Infantry, Siege"
+END
+
+OBJECT:RivendellTookArcher
+"Took Archer"
+END
+OBJECT:HordeRivendellTookArcher
+"Took Archers"
+END
+CONTROLBAR:ConstructRivendellTookArcherHorde
+"Recruit Took Archers from the Shire"
+END
+CONTROLBAR:ToolTipRivendellTookArcherHorde
+"Strong vs. Infantry \n Can stealth near trees \n \n Like all Hobbits, these archers are blessed with keen eyes and steady hands, with an added dose of courage native to the Took family."
+END
+
+OBJECT:RivendellBreelandGuard
+"Bree-land Guard"
+END
+OBJECT:HordeRivendellBreelandGuard
+"Bree-land Guards"
+END
+CONTROLBAR:ConstructRivendellBreelandGuardHorde
+"Recruit Bree-land Guards"
+END
+CONTROLBAR:ToolTipRivendellBreelandGuardHorde
+"Required: Level 2 Encampment \nStrong vs. Cavalry and Heroes \n\n Though the Dúnedain Rangers silently protected the denizens of the Breeland from the darkness that sought to overtake them, the villages still maintained a small, voluntary militia, to take care of problems occuring from within."
+END
+
+OBJECT:RivendellBreelandRam
+"Bree-land Battling Ram"
+END
+CONTROLBAR:ConstructRivendellBreelandRam
+"Construct a Battling Ram"
+END
+CONTROLBAR:ToolTipRivendellBreelandRam
+"Bree-land Battling Ram\nRequired: Level 2 Barracks \n Strong vs. Structures"
+END
+
 OBJECT:DunedainRanger
 "Dunedain Ranger"
 END
@@ -346,10 +398,6 @@ CONTROLBAR:ConstructGreyCompanyRangerHorde
 END
 CONTROLBAR:ToolTipGreyCompanyRangerHorde
 "Required: Rank 3 Gathering \n Limited to 3 units \n Strong vs. Normal Infantry and Monsters"
-END
-
-OBJECT:RivendellMaggotsHound
-"Maggot's Hound"
 END
 
 OBJECT:RivendellGuardian
