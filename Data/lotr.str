@@ -305,21 +305,32 @@ END
 CONTROLBAR:FarmerMaggotHotKey
 "Farmer &Maggot"
 END
+
+CONTROLBAR:MaggotHounds
+"Maggot's Hounds"
+END
+CONTROLBAR:ToolTipMaggotHounds
+"Grip, Fang, and Wolf passively guard Farmer Maggot"
+END
+
+CONTROLBAR:MaggotFarmSummon
+"Bamfurlong"
+END
+CONTROLBAR:ToolTipMaggotFarmSummon
+"Required: Rank 2 \n Summons Farmer Maggot's farm for a short time \nGenerates a large amount of resources \n Left click then right click on target"
+END
 // ============================================================ //
 // ===================== #Rivendell Units ===================== //
 // ============================================================ //
 OBJECT:DunedainRanger
 "Dunedain Ranger"
 END
-
 OBJECT:HordeDunedainRanger
 "Dunedain of the North"
 END
-
 CONTROLBAR:ConstructDunedainRangerHorde
 "Dunedain of the North"
 END
-
 CONTROLBAR:ToolTipDunedainRangerHorde
 "Recruit Rangers of the North. Initially only recruited with bows.\n Strong vs. Archers, Monsters"
 END
@@ -327,18 +338,20 @@ END
 OBJECT:GreyCompanyRanger
 "Ranger of the Grey Company"
 END
-
 OBJECT:HordeGreyCompanyRanger
 "Dunedain of the Grey Company"
 END
-
 CONTROLBAR:ConstructGreyCompanyRangerHorde
 "Dunedain of the Grey Company"
 END
-
 CONTROLBAR:ToolTipGreyCompanyRangerHorde
 "Required: Rank 3 Barracks \n Limited to 3 units \n Strong vs. Normal Infantry and Monsters"
 END
+
+OBJECT:RivendellMaggotsHound
+"Maggot's Hound"
+END
+
 // ============================================================ //
 // ================ #Rivendell Unit Abilities ================= //
 // ============================================================ //
