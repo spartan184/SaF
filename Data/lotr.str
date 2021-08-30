@@ -249,6 +249,40 @@ CONTROLBAR:ElrondHotKey
 "El&rond"
 END
 
+CONTROLBAR:ElrondLeadership
+"Lord of Rivendell"
+END
+CONTROLBAR:ToolTipElrondLeadership
+"+150% experience gain to nearby units \nPassive Ability"
+END
+
+CONTROLBAR:ElrondWisdom
+"Wisdom of the Elves"
+END
+CONTROLBAR:ToolTipElrondWisdom
+"Required: Rank 3 \n Targeted units gain experience\nLeft click icon then left click on target area"
+END
+
+CONTROLBAR:ElrondArmorUpgrade
+"Herald of Gil-Galad"
+END
+CONTROLBAR:ToolTipElrondArmorUpgrade
+"Required: Rank 6 \n Elrond dons his armor. Gains +50% armor \nPassive Ability"
+END
+
+CONTROLBAR:ElrondHomelyHouse
+"The Last Homely House"
+END
+CONTROLBAR:ToolTipElrondHomelyHouse
+"Required: Rank 7 \n Heal your units\nLeft click icon then left click on target area"
+END
+
+CONTROLBAR:ElrondRingOfAir
+"Ring of Air"
+END
+CONTROLBAR:ToolTipElrondRingOfAir
+"Required: Rank 10 \n Creates a circular sanctuary in which friendly troops are buffed \n left click to activate"
+END
 // ========= #Gildor
 OBJECT:Gildor
 "Gildor Inglorion"
