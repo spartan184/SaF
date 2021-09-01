@@ -320,7 +320,7 @@ CONTROLBAR:AragornIsildursHeir
 "Isildur's Heir"
 END
 CONTROLBAR:ToolTipAragornIsildursHeir
-"Required: Level 9 \n Aragorn gains Andúril, deals +50% Damage \nPassive ability \n\n Allies near Aragorn gain \n +50% Damage, +50% Armor and become immune to fear \n Left click to activate"
+"Required: Level 9 \n Aragorn gains Anduril, deals +50% Damage \nPassive ability \n\n Allies near Aragorn gain \n +50% Damage, +50% Armor and become immune to fear \n Left click to activate"
 END
 // ========= #Gildor
 OBJECT:Gildor
