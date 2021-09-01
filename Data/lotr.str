@@ -2136,10 +2136,6 @@ OBJECT:RohanGuardTower
 "Guard Tower"
 END
 
-CONTROLBAR:ToolTipRohanGuardTower
-"Defensive Structure"
-END
-
 CONTROLBAR:ConstructRohanGuardTower
 "Build Rohan Guard &Tower"
 END
