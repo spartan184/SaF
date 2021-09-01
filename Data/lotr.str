@@ -283,6 +283,45 @@ END
 CONTROLBAR:ToolTipElrondRingOfAir
 "Required: Rank 10 \n Creates a circular sanctuary in which friendly troops are buffed \n left click to activate"
 END
+
+// ========= #Aragorn
+CONTROLBAR:RivendellAragornRecruit
+"Recruit Aragorn, the Chieftain of the Dunedain. \n \n 'All that is gold does not glitter, Not all those who wander are lost; The old that is strong does not wither, Deep roots are not reached by the frost. From the ashes a fire shall be woken, A light from the shadows shall spring; Renewed shall be blade that was broken, The crownless again shall be king.'"
+END
+CONTROLBAR:RivendellAragornRevive
+"Revive the fallen Hero, Aragorn"
+END
+CONTROLBAR:RivendellAragornHotkey
+"Aragorn"
+END
+
+CONTROLBAR:AragornChieftainLeadership
+"Chieftain of the Dunedain"
+END
+CONTROLBAR:ToolTipAragornChieftainLeadership
+"Nearby Dunedain gain +33% attack damage \n and become immune to fear\n Passive power"
+END
+
+CONTROLBAR:AragornMasterTracker
+"Master Tracker"
+END
+CONTROLBAR:ToolTipAragornMasterTracker
+"Required: Level 3 \n Aragorn and nearby allies gain\n+15% Speed \n Passive Ability \n\n When using his bow \n Aragorn temporarily gains +150% vision range and +25% range \nLeft click to activate"
+END
+
+CONTROLBAR:AragornFlameOfTheWest
+"A Fire Shall Be Woken"
+END
+CONTROLBAR:ToolTipAragornFlameOfTheWest
+"Required: Level 6 \n Aragorn temporarily gains\n+75% Damage, +25% Armor, and wields a torch \n Can only use with sword equipped \n Left click to activate"
+END
+
+CONTROLBAR:AragornIsildursHeir
+"Isildur's Heir"
+END
+CONTROLBAR:ToolTipAragornIsildursHeir
+"Required: Level 9 \n Aragorn gains Andúril, deals +50% Damage \nPassive ability \n\n Allies near Aragorn gain \n +50% Damage, +50% Armor and become immune to fear \n Left click to activate"
+END
 // ========= #Gildor
 OBJECT:Gildor
 "Gildor Inglorion"
