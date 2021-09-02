@@ -16438,10 +16438,6 @@ CONTROLBAR:ToolTipDominate
 "Temporarily gain control of targeted enemies \n left click then right click on target"
 END
 
-CONTROLBAR:ToolTipSarumanDominate
-"Required: Rank 2 \n Temporarily gain control of targeted enemies \n left click then right click on target"
-END
-
 CONTROLBAR:GrimaDominate
 "&Venomous Words"
 END
