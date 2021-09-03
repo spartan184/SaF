@@ -693,7 +693,7 @@ OBJECT:RivendellOrchardDesc
 "Reduces the Cost of Cavalry\n 2 Farms: 10%\n 3 Farms: 15% \n 4 Farms: 20%\n 5 Farms: 25%\n 6+ Farms: 30%"
 END
 CONTROLBAR:ConstructRivendellOrchard
-"Rivendell Orchard"
+"Rivendell &Orchard"
 END
 CONTROLBAR:ToolTipBuildRivendellOrchard
 "Reduces the Cost of Cavalry\n 2 Farms: 10%\n 3 Farms: 15% \n 4 Farms: 20%\n 5 Farms: 25%\n 6+ Farms: 30%"
@@ -707,7 +707,7 @@ OBJECT:RivendellForgeDesc
 "Provides worked metals as a resource based on available terrain \n Upgrades weapons and armor \n Reduces cost of upgrades"
 END
 CONTROLBAR:ConstructRivendellForge
-"Rivendell Forge"
+"Rivendell &Forge"
 END
 CONTROLBAR:ToolTipBuildRivendellForge
 "Provides worked metals as a resource based on available terrain \n Upgrades weapons and armor \n Reduces cost of upgrades"
@@ -721,7 +721,7 @@ OBJECT:RivendellLibraryDesc
 "Library creates various upgrades \n Limited to 1"
 END
 CONTROLBAR:ConstructRivendellLibrary
-"Rivendell Library"
+"Rivendell &Library"
 END
 CONTROLBAR:ToolTipBuildRivendellLibrary
 "Library creates various upgrades \n Limited to 1"
@@ -735,7 +735,7 @@ OBJECT:RivendellEriadorEncampmentDesc
 "Trains Hobbits and Men from Bree"
 END
 CONTROLBAR:ConstructRivendellEriadorEncampment
-"Rivendell Bree-land Encampment"
+"Rivendell &Bree-land Encampment"
 END
 CONTROLBAR:ToolTipBuildRivendellEriadorEncampment
 "Trains Hobbits and Men from Bree"
@@ -749,7 +749,7 @@ OBJECT:RivDunedainGatheringDesc
 "Recruit Rangers of the North"
 END
 CONTROLBAR:ConstructRivDunedainGathering
-"Dunedain Gathering"
+"Dunedain &Gathering"
 END
 CONTROLBAR:ToolTipBuildRivDunedainGathering
 "Recruit Rangers of the North"
@@ -763,7 +763,7 @@ OBJECT:RivendellDormitoryDesc
 "Trains the Elves of Rivendell"
 END
 CONTROLBAR:ConstructRivendellDormitory
-"Rivendell Dormitory"
+"Rivendell &Dormitory"
 END
 CONTROLBAR:ToolTipBuildRivendellDormitory
 "Trains the Elves of Rivendell"
@@ -777,7 +777,7 @@ OBJECT:RivendellBattleTowerDesc
 "Defensive tower, will fire at enemy units \n Can be garrisoned with archers for increased damage output"
 END
 CONTROLBAR:ConstructRivendellBattleTower
-"Rivendell Watch Tower"
+"Rivendell Watch &Tower"
 END
 CONTROLBAR:ToolTipBuildRivendellBattleTower
 "Defensive tower, will fire at enemy units \n Can be garrisoned with archers for increased damage output"
@@ -791,7 +791,7 @@ OBJECT:RivendellWellDesc
 "Units near well auto-heal if not under attack \n Detects stealth"
 END
 CONTROLBAR:ConstructRivendellWell
-"Well of Celebrain"
+"Well of &Celebrain"
 END
 CONTROLBAR:ToolTipBuildRivendellWell
 "Units near well auto-heal if not under attack \n Detects stealth"
@@ -805,7 +805,7 @@ OBJECT:RivendellStatueDesc
 "Reduces cost of heroes \n Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack"
 END
 CONTROLBAR:ConstructRivendellStatue
-"Statue of Gil-Galad"
+"&Statue of Gil-Galad"
 END
 CONTROLBAR:ToolTipBuildRivendellStatue
 "Reduces cost of heroes \n Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack"
