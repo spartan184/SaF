@@ -20,6 +20,61 @@ function OnTelperionActivated(self) --
 	ObjectBroadcastEventToEnemies( self, "BeUncontrollablyAfraid", 350 )
 end
 
+-- Noldor Exiles
+function OnRivendellNoldorCreated(self)
+	ObjectHideSubObject( self, "ARROW", true )
+	ObjectHideSubObject( self, "ARROWNOCKUP", true )
+	ObjectHideSubObject( self, "QUIVERUP", true )
+	ObjectHideSubObject( self, "SHEATHED", true )
+
+    ObjectHideSubObjectPermanently( self, "HEADBLACK", true )
+	ObjectHideSubObjectPermanently( self, "HEADBLACKHA", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK1", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK1HA", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK2", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK2HA", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK3", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK3HA", true )
+	ObjectHideSubObjectPermanently( self, "HEADBROWN", true )
+    ObjectHideSubObjectPermanently( self, "HEADBROWN1", true )
+    ObjectHideSubObjectPermanently( self, "HEADBROWN1HA", true )
+	ObjectHideSubObjectPermanently( self, "HEADBROWNHA", true )
+	ObjectHideSubObjectPermanently( self, "HEADGRAY", true )
+    ObjectHideSubObjectPermanently( self, "HEADGRAY1", true )
+    ObjectHideSubObjectPermanently( self, "HEADGRAY1HA", true )
+	ObjectHideSubObjectPermanently( self, "HEADGRAYHA", true )
+
+    local head         =    GetRandomNumber()
+
+    if head <= 0.1 then
+        ObjectHideSubObjectPermanently( self, "HEADBLACK", false )
+		ObjectHideSubObjectPermanently( self, "HEADBLACKHA", false )
+    elseif head <= 0.2 then
+        ObjectHideSubObjectPermanently( self, "HEADBLACK1", false )
+		ObjectHideSubObjectPermanently( self, "HEADBLACK1HA", false )
+	elseif head <= 0.4 then
+        ObjectHideSubObjectPermanently( self, "HEADBLACK2", false )
+		ObjectHideSubObjectPermanently( self, "HEADBLACK2HA", false )
+	elseif head <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HEADBLACK3", false )
+		ObjectHideSubObjectPermanently( self, "HEADBLACK3HA", false )
+	elseif head <= 0.6 then
+        ObjectHideSubObjectPermanently( self, "HEADBROWN", false )
+		ObjectHideSubObjectPermanently( self, "HEADBROWNHA", false )
+	elseif head <= 0.7 then
+        ObjectHideSubObjectPermanently( self, "HEADBROWN1", false )
+		ObjectHideSubObjectPermanently( self, "HEADBROWN1HA", false )
+	elseif head <= 0.8 then
+        ObjectHideSubObjectPermanently( self, "HEADGRAY", false )
+		ObjectHideSubObjectPermanently( self, "HEADGRAYHA", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HEADGRAY1", false )
+		ObjectHideSubObjectPermanently( self, "HEADGRAY1HA", false )
+    end
+
+end
+
+-- Axemen of Loss
 function OnAxemenofLossCreated(self)
     ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
     ObjectHideSubObjectPermanently( self, "ARMOR", true )

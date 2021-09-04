@@ -354,7 +354,7 @@ CONTROLBAR:GildorExiles
 "The Wandering Companies (&R)"
 END
 CONTROLBAR:TooltipGildorExiles
-"Requires Level 8 \nGildor summons three groups of Noldor Exiles to his side \n Left click icon to activate"
+"Requires Level 8 \nGildor summons three Noldor Exiles to his side \n Left click icon to activate"
 END
 // ========= #Halbarad
 OBJECT:Halbarad

@@ -259,6 +259,10 @@
         <EventHandler EventName="User1Achieved" ScriptFunctionName="OnTelperionActivated" DebugSingleStep="false"/>
 	</EventList>
 
+    <EventList Name="RivendellElvenNoldorFunctions" Inherit="BaseScriptFunctions">
+        <EventHandler EventName="OnCreated"				ScriptFunctionName="OnRivendellNoldorCreated" DebugSingleStep="false"/>
+    </EventList>
+
     <EventList Name="ForlongFunctions" Inherit="BaseScriptFunctions">
 		<!-- This contains events specific to Boromir -->
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnForlongCreated" DebugSingleStep="false"/>
