@@ -551,6 +551,10 @@ END
 CONTROLBAR:ToolTipRivendellVeteranHorde
 "Strong vs. All Normal Troops\nRequired: Level 3 Dormitory\nCan stealth near trees\nOnly 3 units of Last Alliance Veterans are allowed at any time."
 END
+
+OBJECT:NoldorExile
+"Noldor Exile"
+END
 // ============================================================ //
 // ================ #Rivendell Unit Abilities ================= //
 // ============================================================ //
