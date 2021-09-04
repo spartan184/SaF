@@ -258,9 +258,9 @@
 	<EventList Name="GildorFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="User1Achieved" ScriptFunctionName="OnTelperionActivated" DebugSingleStep="false"/>
 	</EventList>
-
-    <EventList Name="RivendellElvenNoldorFunctions" Inherit="BaseScriptFunctions">
-        <EventHandler EventName="OnCreated"				ScriptFunctionName="OnRivendellNoldorCreated" DebugSingleStep="false"/>
+    
+	<EventList Name="NoldorExilesFunctions" Inherit="InfantryFunctions">
+        <EventHandler EventName="OnCreated"				ScriptFunctionName="OnNoldorExilesCreated" DebugSingleStep="false"/>
     </EventList>
 
     <EventList Name="ForlongFunctions" Inherit="BaseScriptFunctions">
