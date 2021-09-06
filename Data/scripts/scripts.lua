@@ -1,9 +1,50 @@
 -- define lua functions
+
+-- Blessing of Ulmo
 function OnBlessingOfUlmoCreated(self)
     ObjectDoSpecialPower( self, "SpellBookBlessingOfUlmo" )
 end
 
+-- Remnants of the Old Kingdom
+function OnRuinsStatueCreated(self)
+	ObjectHideSubObjectPermanently( self, "OSBSTA02", true )
+	ObjectHideSubObjectPermanently( self, "OSBSTA03", true )
+	local chance  = 	GetRandomNumber()
+	if chance <= 0.50 then
+		ObjectHideSubObjectPermanently( self, "OSBSTA02", false )
+	elseif chance > 0.50 then
+		ObjectHideSubObjectPermanently( self, "OSBSTA03", false )
+	end
+end
 
+function OnRuinsColumnCreated(self)
+	ObjectHideSubObjectPermanently( self, "OBJECT20", true )
+	ObjectHideSubObjectPermanently( self, "OBJECT21", true )
+	ObjectHideSubObjectPermanently( self, "OSBRUIN06", true )
+	ObjectHideSubObjectPermanently( self, "OSBRUIN14", true )
+	local chance  = 	GetRandomNumber()
+	
+	if chance <= 0.25 then
+		ObjectHideSubObjectPermanently( self, "OBJECT20", false )
+	elseif chance <= 0.50 then
+		ObjectHideSubObjectPermanently( self, "OBJECT21", false )
+	elseif chance <= 0.75 then
+		ObjectHideSubObjectPermanently( self, "OSBRUIN14", false )
+	elseif chance > 0.75 then
+		ObjectHideSubObjectPermanently( self, "OSBRUIN06", false )
+	end
+end
+
+function OnRuinsDebrisCreated(self)
+	ObjectHideSubObjectPermanently( self, "OSBRUINRUB01", true )
+	ObjectHideSubObjectPermanently( self, "OSBRUINRUB03", true )
+	local chance  = 	GetRandomNumber()
+	if chance <= 0.50 then
+		ObjectHideSubObjectPermanently( self, "OSBRUINRUB01", false )
+	elseif chance > 0.50 then
+		ObjectHideSubObjectPermanently( self, "OSBRUINRUB03", false )
+	end
+end
 
 -- Glorfindel
 function OnStarlightActivated(self) --

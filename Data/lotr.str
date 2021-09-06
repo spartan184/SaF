@@ -571,7 +571,7 @@ END
 // ============================================================= //
 // ================= #Rivendell Unit Upgrades ================== //
 // ============================================================= //
-// == Banner Carrier
+// -- Banner Carrier
 UPGRADE:RivendellBanner
 "Rivendell Banners"
 END
@@ -595,7 +595,7 @@ TOOLTIP:LackRivendellBanner
 "Ranks a new unit to level 2 veterancy \n Purchase upgrade at the Forge to enable this equipment"
 END
 
-// == Noldorin Armor
+// -- Noldorin Armor
 UPGRADE:RivendellNoldorinArmor
 "Noldorin Armor"
 END
@@ -622,7 +622,7 @@ TOOLTIP:LackRivendellNoldorinArmor
 "+50% Armor, -20% Speed \n Purchase upgrade at Rivendell Forge to enable this equipment"
 END
 
-// == Tengwar-Inscribed Steel
+// -- Tengwar-Inscribed Steel
 CONTROLBAR:PurchaseTechnologyRivendellTengwarSteel
 "Tengwar-Inscribed &Steel Upgrade"
 END
@@ -648,7 +648,7 @@ TOOLTIP:RivendellTengwarSteel
 "Tengwar-Inscribed Steel: +30 damage"
 END
 
-// == Improved Arrow Smithing
+// -- Improved Arrow Smithing
 CONTROLBAR:PurchaseTechnologyRivendellImprovedArrowsmithing
 "Swan-&Feathered Arrows"
 END
@@ -674,7 +674,7 @@ CONTROLBAR:DummyDummyStr
 "JustForFuns here to solve a string bug"
 END
 
-// == Rivendell Castle 
+// -- Rivendell Castle 
 OBJECT:RivendellCastleWall
 "Rivendell Castle Wall"
 END
@@ -687,12 +687,12 @@ OBJECT:RivendellBuildingFoundation
 "Rivendell Building Foundation"
 END
 
-// == Rivendell Hall of Fire aka Citadel
+// -- Rivendell Hall of Fire aka Citadel
 OBJECT:RivendellHallOfFire
 "Hall of Fire"
 END
 
-// == Rivendell Orchard
+// -- Rivendell Orchard
 OBJECT:RivendellOrchard
 "Rivendell Orchard"
 END
@@ -706,7 +706,7 @@ CONTROLBAR:ToolTipBuildRivendellOrchard
 "Reduces the Cost of Cavalry\n 2 Farms: 10%\n 3 Farms: 15% \n 4 Farms: 20%\n 5 Farms: 25%\n 6+ Farms: 30%"
 END
 
-// == Rivendell Forge
+// -- Rivendell Forge
 OBJECT:RivendellForge
 "Rivendell Forge"
 END
@@ -720,7 +720,7 @@ CONTROLBAR:ToolTipBuildRivendellForge
 "Provides worked metals as a resource based on available terrain \n Upgrades weapons and armor \n Reduces cost of upgrades"
 END
 
-// == Rivendell Library
+// -- Rivendell Library
 OBJECT:RivendellLibrary
 "Rivendell Library"
 END
@@ -734,7 +734,7 @@ CONTROLBAR:ToolTipBuildRivendellLibrary
 "Library creates various upgrades \n Limited to 1"
 END
 
-// == Eriador Encampment
+// -- Eriador Encampment
 OBJECT:RivendellEriadorEncampment
 "Rivendell Bree-land Encampment"
 END
@@ -748,7 +748,7 @@ CONTROLBAR:ToolTipBuildRivendellEriadorEncampment
 "Trains Hobbits and Men from Bree"
 END
 
-// == Dunedain Gathering
+// -- Dunedain Gathering
 OBJECT:RivDunedainGathering
 "Dunedain Gathering"
 END
@@ -762,7 +762,7 @@ CONTROLBAR:ToolTipBuildRivDunedainGathering
 "Recruit Rangers of the North"
 END
 
-// == Rivendell Dormitory
+// -- Rivendell Dormitory
 OBJECT:RivendellDormitory
 "Rivendell Dormitory"
 END
@@ -776,7 +776,7 @@ CONTROLBAR:ToolTipBuildRivendellDormitory
 "Trains the Elves of Rivendell"
 END
 
-// == Rivendell WatchTower
+// -- Rivendell WatchTower
 OBJECT:RivendellBattleTower
 "Rivendell Watch Tower"
 END
@@ -790,7 +790,7 @@ CONTROLBAR:ToolTipBuildRivendellBattleTower
 "Defensive tower, will fire at enemy units \n Can be garrisoned with archers for increased damage output"
 END
 
-// == Rivendell Well
+// -- Rivendell Well
 OBJECT:RivendellWell
 "Well of Celebrain"
 END
@@ -804,7 +804,7 @@ CONTROLBAR:ToolTipBuildRivendellWell
 "Units near well auto-heal if not under attack \n Detects stealth"
 END
 
-// == Rivendell Statue
+// -- Rivendell Statue
 OBJECT:RivendellStatue
 "Statue of Gil-Galad"
 END
@@ -818,18 +818,24 @@ CONTROLBAR:ToolTipBuildRivendellStatue
 "Reduces cost of heroes \n Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack"
 END
 
-// == Maggot's Farm
+// -- Maggot's Farm
 OBJECT:RivendellMaggotsFarm
 "Bamfurlong"
 END
 OBJECT:RivendellMaggotsFarmDesc
 "Generates a large amount of resources"
 END
+
+// -- Remnant of the Old Kingdom
+OBJECT:Ruins
+"Ruins"
+END
+
 // ############################################################ //
 // ========================= #Vanilla ========================= //
 // ############################################################ //
 
-//============ Mordor Battle Tower =================
+// -- Mordor Battle Tower
 OBJECT:MordorBattleTower
 "Mordor Battle Tower"
 END
@@ -840,7 +846,7 @@ CONTROLBAR:ToolTipBuildMordorBattleTower
 "Defensive structure"
 END
 
-//============ Isengard Battle Tower =================
+// -- Isengard Battle Tower
 OBJECT:IsengardBattleTower
 "Isengard Battle Tower"
 END
@@ -851,7 +857,7 @@ CONTROLBAR:ToolTipBuildIsengardBattleTower
 "Defensive structure"
 END
 
-/////////////////////////////-----------------Isengard Ugluk---------------//////////////////////////////////////
+// -- Isengard Ugluk---------------//////////////////////////////////////
 
 OBJECT:IsengardUgluk
 "Ugluk"

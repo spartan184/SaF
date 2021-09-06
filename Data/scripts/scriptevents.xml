@@ -251,6 +251,7 @@
         <EventHandler EventName="UsingSpecialOne" ScriptFunctionName="GandalfTriggerWizardBlast" DebugSingleStep="false"/>
     </EventList>
 
+    <!-- Rivendell Functions -->
 	<EventList Name="GlorfindelFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="User2Achieved" ScriptFunctionName="OnStarlightActivated" DebugSingleStep="false"/>
 	</EventList>
@@ -263,6 +264,18 @@
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnNoldorExilesCreated" DebugSingleStep="false"/>
     </EventList>
 
+    <!-- Remnants of the Old Kingdom -->
+	<EventList Name="Ruins1Functions" Inherit="BaseScriptFunctions">
+        <EventHandler EventName="OnCreated"				ScriptFunctionName="OnRuinsStatueCreated" DebugSingleStep="false"/>
+    </EventList>
+	<EventList Name="Ruins2Functions" Inherit="BaseScriptFunctions">
+        <EventHandler EventName="OnCreated"				ScriptFunctionName="OnRuinsColumnCreated" DebugSingleStep="false"/>
+    </EventList>
+	<EventList Name="Ruins3Functions" Inherit="BaseScriptFunctions">
+        <EventHandler EventName="OnCreated"				ScriptFunctionName="OnRuinsDebrisCreated" DebugSingleStep="false"/>
+    </EventList>
+
+    <!-- End of Rivendell Functions -->
     <EventList Name="ForlongFunctions" Inherit="BaseScriptFunctions">
 		<!-- This contains events specific to Boromir -->
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnForlongCreated" DebugSingleStep="false"/>
