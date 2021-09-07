@@ -438,6 +438,10 @@ END
 // ============================================================ //
 // ===================== #Rivendell Units ===================== //
 // ============================================================ //
+OBJECT:ElvenWorker
+"Rivendell Peasant"
+END
+
 OBJECT:RivendellBounder
 "Hobbit Bounder"
 END
