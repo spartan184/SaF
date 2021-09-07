@@ -15559,8 +15559,7 @@ CONTROLBAR:ConstructElvenWarriorHorde
 END
 
 CONTROLBAR:ToolTipBuildElvenWarriorHorde
-"Required: Elven Alliance \n Skilled with Bow and Sword \n\n An alliance once existed between Elves and Men. Long ago we fought and died together. We come to honor that allegiance"
-
+"Required: Level 2 Archery Range \n Skilled with Bow and Sword \n\n An alliance once existed between Elves and Men. Long ago we fought and died together. We come to honor that allegiance"
 END
 
 CONTROLBAR:ToolTipBuildElvenWarriorHordeWithNoPrerequisites
