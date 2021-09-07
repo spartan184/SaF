@@ -280,6 +280,7 @@
 		<!-- This contains events specific to Boromir -->
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnForlongCreated" DebugSingleStep="false"/>
     </EventList>
+
     <EventList Name="RadagastFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="OnCreated"	ScriptFunctionName="OnRadagastCreated" DebugSingleStep="false"/>
         <EventHandler EventName="DamageIncoming" ScriptFunctionName="GandalfConsiderUsingDefensePower" DebugSingleStep="false"/>
@@ -287,9 +288,11 @@
         <EventHandler EventName="UsingSpecialTwoMounted"	ScriptFunctionName="OnRadagastUsingSpecialTwo"		DebugSingleStep="false"/>
         <EventHandler EventName="EndingSpecialTwoMounted"	ScriptFunctionName="OnRadagastEndingSpecialTwo"		DebugSingleStep="false"/>
     </EventList>
+
      <EventList Name="SarumanFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="DamageIncoming" ScriptFunctionName="SarumanConsiderUsingDefensePower" DebugSingleStep="false"/>
     </EventList>
+
     <EventList Name="SarumanMetalAndWheelsFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="User5Achieved" ScriptFunctionName="SarumanMetalAndWheelsVeterencyHack" DebugSingleStep="false"/>
     </EventList>
@@ -518,7 +521,6 @@
 	<EventList Name="GarrisonableFunctions">
 		<EventHandler EventName="OnCreated"	ScriptFunctionName="OnGarrisonableCreated" DebugSingleStep="false"/>
     </EventList>
-	
 	
 	<!-- Shadow and Flame events go here -->
 			<!-- This event is for Endless Supplies -->
@@ -778,6 +780,10 @@
 
     <EventList Name="DunlandHuskarlFunctions" Inherit="IsengardBaseHordeFunctions">
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnDunlandHuskarlCreated" DebugSingleStep="false"/>
+    </EventList>
+
+	<EventList Name="SharkuFunctions" Inherit="BaseScriptFunctions">
+        <EventHandler EventName="UsingSpecialOne"		ScriptFunctionName="RadiateUncontrollableFear"	DebugSingleStep="false"/>
     </EventList>
 
     </EventList>
