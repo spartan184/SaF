@@ -666,10 +666,10 @@ CONTROLBAR:ToolTipPurchaseUpgradeRivendellImprovedArrowsmithing
 "+25% Damage to units \n Left click to upgrade this unit"
 END
 TOOLTIP:LackLevelRivendellImprovedArrowsmithing 
-"Required: Rank 2 Archery Range \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+"Required: Rank 2 Forge \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
 TOOLTIP:LackRivendellImprovedArrowsmithing
-"+25% Damage to units \n Purchase upgrade at Archery Range to enable this equipment"
+"+25% Damage to units \n Purchase upgrade at Forge to enable this equipment"
 END
 // ============================================================ //
 // ==================== #Rivendell Buildings ================== //
