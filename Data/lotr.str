@@ -3216,14 +3216,6 @@ TOOLTIP:ToolTipLackSauron
 "Required: The Dark Lord \n Recruit the Lord of the Rings. \n \n 'Ash nazg durbatulok, ash nazg gimbatul \n Ash nazg thrakatulok agh burzum-ishi krimpatul.' \n Rank 10"
 END
 
-CONTROLBAR:Guards
-"Guards of the White Tree"
-END
-
-CONTROLBAR:ToolTipGuards
-"Enables a battalion of Guards of the White Tree to be recruited from the citadel \n Grants defensive bonuses to nearby structures \n Passive power"
-END
-
 CONTROLBAR:Economy
 "Lands Kept Safe"
 END
@@ -3243,9 +3235,11 @@ END
 CONTROLBAR:FiefdomSummon
 "Fiefdom Allies"
 END
-
 CONTROLBAR:ToolTipFiefdomSummon
 "Summons Forlong and two battalions of Lossarnach Axemen. \n Left click then right click on target"
+END
+CONTROLBAR:ToolTipFiefdomSummonMP
+"Summons two battalions of Lossarnach Axemen. \n Left click then right click on target"
 END
 
 OBJECT:GondorBeacon
@@ -3370,14 +3364,6 @@ End
 
 CONTROLBAR:ToolTipHelmHammerhand
 "When activated, cavalry across the map gain -25% crush decelleration for a limited time."
-End
-
-CONTROLBAR:TooltipElvenAllegiance
-"Allows the recruitment of Galadhrim of Lorien from Archery Range"
-End
-
-CONTROLBAR:ElvenAllegiance
-"Elven Alliance"
 End
 
 OBJECT:IsengardWhiteHand
