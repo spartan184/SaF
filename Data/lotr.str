@@ -3239,7 +3239,7 @@ CONTROLBAR:ToolTipFiefdomSummon
 "Summons Forlong and two battalions of Lossarnach Axemen. \n Left click then right click on target"
 END
 CONTROLBAR:ToolTipFiefdomSummonMP
-"Summons two battalions of Lossarnach Axemen. \n Left click then right click on target"
+"Summons three battalions of Lossarnach Axemen. \n Left click then right click on target"
 END
 
 OBJECT:GondorBeacon
