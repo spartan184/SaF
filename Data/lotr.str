@@ -1898,7 +1898,7 @@ CONTROLBAR:GothmogLeadership
 END
 
 CONTROLBAR:ToolTipGothmogLeadership
-"Required: Rank 2 \n Leadership bonus to nearby Orcs \n +10% Movement speed and +25% Damage \n Passive ability"
+"Leadership bonus to nearby Orcs \n +15% Movement speed, +25% Damage, and +50% Experience gain \n Passive ability"
 END
 
 CONTROLBAR:GothmogSiegeLeadership
@@ -1906,7 +1906,7 @@ CONTROLBAR:GothmogSiegeLeadership
 END
 
 CONTROLBAR:ToolTipGothmogSiegeLeadership
-"Required: Rank 1 \n Nearby Catapults gain +15% movement speed and +15% decreased reload time."
+"Required: Rank 3 \n Nearby siege equipment gain +15% movement speed and +15% decreased reload time."
 END
 
 CONTROLBAR:GothmogOrcs
@@ -1914,7 +1914,7 @@ CONTROLBAR:GothmogOrcs
 END
 
 CONTROLBAR:ToolTipGothmogOrcs
-"Required: Rank 5 \n Gothmog summons two hordes of orcs and uruks."
+"Required: Rank 6 \n Gothmog summons two hordes of orcs and uruks."
 END
 
 CONTROLBAR:GollumWring
