@@ -1726,7 +1726,7 @@ CONTROLBAR:WitchKingLeadership
 END
 
 CONTROLBAR:ToolTipWitchKingLeadership
-""The Witch-king rode at the head of the army in black, upon a black horse, as he had in the time of the wars of Angmar." \n +50% Damage, +50% Experience bonus to nearby Units \n +25% Damage bonus to nearby Nazguls  /n -25% Health to nearby enemies \n Passive ability"
+"'The Witch-king rode at the head of the army in black, upon a black horse, as he had in the time of the wars of Angmar.' \n +50% Damage, +50% Experience bonus to nearby Units \n +25% Damage bonus to nearby Nazguls  /n -25% Health to nearby enemies \n Passive ability"
 END
 
 CONTROLBAR:FireWitchKingMace
