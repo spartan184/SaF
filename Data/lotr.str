@@ -2378,7 +2378,7 @@ CONTROLBAR:UrshakLeadership
 "High Shaman"
 END
 CONTROLBAR:ToolTipUrshakLeadership
-"Leadership bonus to nearby Moria-orcs \n +50% Armor, +50% Experience \n Passive ability"
+"Leadership bonus to nearby Moria-orcs and trolls \n +50% Armor, +50% Experience \n Passive ability"
 END
 
 CONTROLBAR:UrshakWordOfHoar
