@@ -2005,6 +2005,14 @@ CONTROLBAR:ToolTipGondorTowerGuardUndying
 "Required: Rank 3 \n Nearby Heroes gain +10% to all stats \n Passive ability"
 END
 
+CONTROLBAR:AmrothKnightsBloodOfEldar
+"Blood of the Eldar"
+END
+
+CONTROLBAR:ToolTipAmrothKnightsBloodOfEldar
+"Amroth Knights heal outside of combat \n Passive ability"
+END
+
 CONTROLBAR:BoromirArmor
 "Veteran Warrior"
 END
