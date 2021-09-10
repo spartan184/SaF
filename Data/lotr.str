@@ -2314,11 +2314,23 @@ END
 //END
 
 //=================================UNIT ABILITIES==========================
+CONTROLBAR:GundabadBeserkerLeadership
+"&Unpierceable Ranks"
+END
+CONTROLBAR:ToolTipGundabadBeserkerLeadership
+"Berserkers and nearby allies have resistance to knockback and trampling \n Passive Ability"
+END
+
+CONTROLBAR:GundabadBeserkerRank2
+"&Terror of the Mountains"
+END
+CONTROLBAR:ToolTipGundabadBeserkerRank2
+"Required: Rank 2 \n Temporarily gain +25% Damage and +15% Speed \n Left click to activate"
+END
 
 CONTROLBAR:TooltipGundabadWargScoutHowl
 "Required: Rank 2 \n +60% damage \n left click to activate"
 END
-
 
 CONTROLBAR:SnowTrollTrollishArmor
 "Trollish Armor"
