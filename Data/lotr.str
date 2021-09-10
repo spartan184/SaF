@@ -2738,13 +2738,13 @@ CONTROLBAR:ConstructGundabadDrummerGoblin
 "Mountain-orc &Drummer"
 END
 CONTROLBAR:TooltipConstructGundabadDrummerGoblin
-"Required: Rank 3 Mountain-orc Lodge \n Leadership bonus to nearby infantry \n +60% Damage +15% Experience \n Limited to 4 units \n \n When marching to war through the piercing cold of the Misty Mountains, keeping pace is important. Orc-drummers are often seen accompanying warbands, keeping them warm and moving steadily."
+"Required: Rank 3 Mountain-orc Lodge \n Leadership bonus to nearby infantry \n +25% Damage, +25% Armor, +15% Movement Speed, and +15% Experience \n Limited to 4 units \n \n When marching to war through the piercing cold of the Misty Mountains, keeping pace is important. Orc-drummers are often seen accompanying warbands, keeping them warm and moving steadily."
 END
 CONTROLBAR:GundabadDrummerGoblinLeadership
 "Iron Discipline"
 END
 CONTROLBAR:TooltipGundabadDrummerGoblinLeadership
-"Passive Ability \n Leadership bonus for infantry: \n +60% Damage +15% Experience"
+"Leadership bonus for infantry: \n +25% Damage, +25% Armor, +15% Movement Speed, and +15% Experience\n Passive Ability"
 END
 
 OBJECT:GundabadCatapult
