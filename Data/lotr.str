@@ -586,11 +586,11 @@ CONTROLBAR:ToolTipPurchaseTechnologyRivendellBanner
 "Ranks a new unit to level 2 veterancy \n Can only be equipped at Level 1 \n Purchase Captain Upgrade \n Select a horde to equip upgrade"
 END
 TOOLTIP:LackLevel2RivendellForgeBanner
-"Required: Rank 2 Forge \n Ranks a new unit to level 2 veterancy \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+"Ranks a new unit to level 2 veterancy \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
 
 CONTROLBAR:PurchaseUpgradeRivendellBanner
-"Uruk &Captain Upgrade"
+"Dunedain &Captain Upgrade"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeRivendellBanner
 "Ranks a new unit to level 2 veterancy \n Can only be equipped at Level 1 \n Purchase Captain Upgrade \n Select a horde to equip upgrade"
@@ -614,7 +614,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyRivendellNoldorinArmor
 "+50% Armor, -20% Speed \n Purchase Noldorin Armor Upgrade \n Select a horde to equip upgrade \n Requires Level 2 Rivendell Forge"
 END
 TOOLTIP:LackLevel2RivendellForgeArmor
-"Required: Rank 2 Rivendell Forge \n +50% Armor, -20% Speed \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+"+50% Armor, -20% Speed \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
 CONTROLBAR:PurchaseUpgradeRivendellNoldorinArmor
 "&Noldorin Armor"
@@ -640,7 +640,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeRivendellTengwarSteel
 "Up to +36 damage \n Left click to upgrade this unit"
 END
 TOOLTIP:LackLevel2RivendellForgeTengwarSteel
-"Required: Rank 2 Rivendell Forge \n Adds damage to weapons \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+"Adds damage to weapons \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
 TOOLTIP:LackRivendellTengwarSteel
 "Up to +36 damage \n Purchase upgrade at the Rivendell Forge to enable this equipment"
@@ -665,8 +665,8 @@ END
 CONTROLBAR:ToolTipPurchaseUpgradeRivendellImprovedArrowsmithing
 "+25% Damage to units \n Left click to upgrade this unit"
 END
-TOOLTIP:LackLevelRivendellImprovedArrowsmithing 
-"Required: Rank 2 Forge \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+TOOLTIP:LackRivendellImprovedArrowsmithing
+"Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
 TOOLTIP:LackRivendellImprovedArrowsmithing
 "+25% Damage to units \n Purchase upgrade at Forge to enable this equipment"
