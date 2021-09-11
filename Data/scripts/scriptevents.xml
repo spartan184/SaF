@@ -315,13 +315,13 @@
 
     <EventList Name="SaFInfantryFunctions" Inherit="InfantryFunctions">
 		<!-- These are events that will apply to all infantry.  Any infantry units should inherit this set. This setup is for more emotion. -->
-        <EventHandler EventName="BeTerrified"				ScriptFunctionName="BecomeTerrified"			DebugSingleStep="false"/>
-		<EventHandler EventName="BeUncontrollablyAfraid"	ScriptFunctionName="BecomeUncontrollablyAfraid"	DebugSingleStep="false"/>
-        <EventHandler EventName="BeAfraidOfBalrog"			ScriptFunctionName="BecomeAfraidOfBalrog"		DebugSingleStep="false"/>
-		<EventHandler EventName="BeAfraidOfPhial"			ScriptFunctionName="BecomeAfraidOfPhial" 		DebugSingleStep="false"/>
-		<EventHandler EventName="BeAfraidOfGateDamaged"		ScriptFunctionName="BecomeAfraidOfGateDamaged" 	DebugSingleStep="false"/>
-		<EventHandler EventName="BeAfraidOfRampage"			ScriptFunctionName="BecomeAfraidOfRampage" 		DebugSingleStep="false"/>
-        <EventHandler EventName="User4Achieved"	            ScriptFunctionName="BecomeUncontrollablyAfraid"    DebugSingleStep="false"/>
+      <EventHandler EventName="BeTerrified"				ScriptFunctionName="BecomeTerrified"			DebugSingleStep="false"/>
+      <EventHandler EventName="BeUncontrollablyAfraid"	ScriptFunctionName="BecomeUncontrollablyAfraid"	DebugSingleStep="false"/>
+      <EventHandler EventName="BeAfraidOfBalrog"			ScriptFunctionName="BecomeAfraidOfBalrog"		DebugSingleStep="false"/>
+      <EventHandler EventName="BeAfraidOfPhial"			ScriptFunctionName="BecomeAfraidOfPhial" 		DebugSingleStep="false"/>
+      <EventHandler EventName="BeAfraidOfGateDamaged"		ScriptFunctionName="BecomeAfraidOfGateDamaged" 	DebugSingleStep="false"/>
+      <EventHandler EventName="BeAfraidOfRampage"			ScriptFunctionName="BecomeAfraidOfRampage" 		DebugSingleStep="false"/>
+      <EventHandler EventName="User4Achieved"	            ScriptFunctionName="BecomeUncontrollablyAfraid"    DebugSingleStep="false"/>
     </EventList>
     
     <EventList Name="CavalryFunctions" Inherit="BaseScriptFunctions">
@@ -572,6 +572,7 @@
         <EventHandler EventName="CaveTrollUsingHammer"		ScriptFunctionName="OnCaveTrollUsingHammer"		DebugSingleStep="false"/>
         <EventHandler EventName="CaveTrollUsingRockThrow"	ScriptFunctionName="OnCaveTrollUsingRockThrow"	DebugSingleStep="false"/> -->
     </EventList>
+    
 		<EventList Name="DunedainRangerFunctions" Inherit="ArcherFunctions">
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnDunedainRangerCreated" DebugSingleStep="false"/>
     </EventList>

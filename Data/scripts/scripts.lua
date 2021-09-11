@@ -1816,8 +1816,7 @@ function OnIthilienRangerCreated(self)
     end
 end
 function OnDunedainRangerCreated(self)
-
-    ObjectHideSubObjectPermanently( self, "FireArowTip", true )
+  ObjectHideSubObjectPermanently( self, "FireArowTip", true )
 	ObjectHideSubObjectPermanently( self, "FORGED_BLADE", true )
 	ObjectHideSubObjectPermanently( self, "ARROWUP", true )
 	ObjectHideSubObjectPermanently( self, "QUIVARROWUP", true )
