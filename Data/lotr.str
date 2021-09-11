@@ -2755,16 +2755,6 @@ CONTROLBAR:TooltipGundabadDrummerGoblinLeadership
 "Leadership bonus for infantry: \n +25% Damage, +25% Armor, +15% Movement Speed, and +15% Experience\n Passive Ability"
 END
 
-OBJECT:GundabadCatapult
-"Gundabad Catapult"
-END
-CONTROLBAR:ConstructGundabadCatapult
-"Gundabad Cata&pult"
-END
-CONTROLBAR:ToolTipBuildGundabadCatapult
-"Strong vs. Structures, Siege Equipment \n Weak vs. Monsters, Infantry, Cavalry, Heroes"
-END
-
 //=================================STRUCTURES=====================
 
 OBJECT:GundabadCastleKeep
