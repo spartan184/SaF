@@ -671,6 +671,67 @@ END
 TOOLTIP:LackRivendellImprovedArrowsmithing
 "+25% Damage to units \n Purchase upgrade at Forge to enable this equipment"
 END
+
+// -- Elvish Medicine
+UPGRADE:RivendellMedicine
+"Elvish Medicine"
+END
+CONTROLBAR:PurchaseTechnologyRivendellMedicine
+"&Elvish Medicine: A Compendium"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyRivendellMedicine
+"Authored by Elrond himself, this book is essential material for those wishing to learn the secrets of healing.\n\n Units near the Library are heal over time"
+END
+
+// -- A Sleepless Malice
+CONTROLBAR:PurchaseTechnologyRivendellMalice
+"A Sleepless &Malice:\nReflections on the Nature of Evil"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyRivendellMalice
+"A passionate appeal to watchfulness and warning against inertia in times of apparent peace, written by King Thranduil. \n\n Stations Noldorin Guards at structures."
+END
+
+// -- The Lay of Leithian
+UPGRADE:RivendellLeithian
+"The Lay of Leithian"
+END
+CONTROLBAR:PurchaseTechnologyRivendellLeithian
+"The Lay of &Leithian"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyRivendellLeithian
+"The classic story of love between an Elf maiden and a mortal man. Translated into the common tongue by Bilbo Baggins.\n\n Reduces costs of Dunedain units"
+END
+
+// -- Reverenace of Yavanna
+UPGRADE:RivendellYavanna
+"Yavanna's Wisdom"
+END
+CONTROLBAR:PurchaseTechnologyRivendellYavanna
+"Reverence of &Yavanna"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyRivendellYavanna
+"Documentation of various rites and songs concerning the Vala Yavanna, collected and edited by the lady Celebrian.\n\n Increases Orchard production by 15%"
+END
+
+// -- Reflections Upon the Battle of Dagorlad
+CONTROLBAR:PurchaseTechnologyRivendellDagorlad
+"Reflection&s Upon the Battle of Dagorlad"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyRivendellDagorlad
+"A collection of writings on the Battle of Dagorlad. Timelines, battleplans and poetry, gathered by Valandil, son of Isildur. \n\n Sauron's fall came at great cost. With Gil-galad slain, many Elven veterans chose to linger in Rivendell, house of their late King's herald. \nUnits near the library gain +25% damage "
+END
+
+// -- Practical Application of Feanorian Smithing
+UPGRADE:RivendellFeanorSmithing
+"Practical Application of Feanorian Smithing"
+END
+CONTROLBAR:PurchaseTechnologyRivendellFeanorSmithing
+"Practical Application of Feanorian &Smithing"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyRivendellFeanorSmithing
+"This exhaustive treatise on Noldorin smithing techniques was authored by Celebrimbor. \n\n Permanently reduces cost of unit upgrades"
+END
+
 // ============================================================ //
 // ==================== #Rivendell Buildings ================== //
 // ============================================================ //
