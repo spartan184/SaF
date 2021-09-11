@@ -586,7 +586,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyRivendellBanner
 "Ranks a new unit to level 2 veterancy \n Can only be equipped at Level 1 \n Purchase Captain Upgrade \n Select a horde to equip upgrade"
 END
 TOOLTIP:LackLevel2RivendellForgeBanner
-"Ranks a new unit to level 2 veterancy \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+"Required: Level 2 Forge \nRanks a new unit to level 2 veterancy \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
 
 CONTROLBAR:PurchaseUpgradeRivendellBanner
@@ -614,7 +614,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyRivendellNoldorinArmor
 "+50% Armor, -20% Speed \n Purchase Noldorin Armor Upgrade \n Select a horde to equip upgrade \n Requires Level 2 Rivendell Forge"
 END
 TOOLTIP:LackLevel2RivendellForgeArmor
-"+50% Armor, -20% Speed \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+"Required: Level 2 Forge \n+50% Armor, -20% Speed \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
 CONTROLBAR:PurchaseUpgradeRivendellNoldorinArmor
 "&Noldorin Armor"
@@ -640,7 +640,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeRivendellTengwarSteel
 "Up to +36 damage \n Left click to upgrade this unit"
 END
 TOOLTIP:LackLevel2RivendellForgeTengwarSteel
-"Adds damage to weapons \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+"Required: Level 2 Forge \nAdds damage to weapons \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
 TOOLTIP:LackRivendellTengwarSteel
 "Up to +36 damage \n Purchase upgrade at the Rivendell Forge to enable this equipment"
@@ -665,8 +665,8 @@ END
 CONTROLBAR:ToolTipPurchaseUpgradeRivendellImprovedArrowsmithing
 "+25% Damage to units \n Left click to upgrade this unit"
 END
-TOOLTIP:LackRivendellImprovedArrowsmithing
-"Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+CONTROLBAR:LackRivendellImprovedArrowsmithing
+"Required: Level 2 Forge \nPurchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
 TOOLTIP:LackRivendellImprovedArrowsmithing
 "+25% Damage to units \n Purchase upgrade at Forge to enable this equipment"
@@ -699,7 +699,7 @@ CONTROLBAR:PurchaseTechnologyRivendellLeithian
 "The Lay of &Leithian"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyRivendellLeithian
-"The classic story of love between an Elf maiden and a mortal man. Translated into the common tongue by Bilbo Baggins.\n\n Reduces costs of Dunedain units"
+"The classic story of love between an Elf maiden and a mortal man. Translated into the common tongue by Bilbo Baggins.\n\n Reduces costs of Dunedain units by 25%"
 END
 
 // -- Reverenace of Yavanna
@@ -710,7 +710,7 @@ CONTROLBAR:PurchaseTechnologyRivendellYavanna
 "Reverence of &Yavanna"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyRivendellYavanna
-"Documentation of various rites and songs concerning the Vala Yavanna, collected and edited by the lady Celebrian.\n\n Increases Orchard production by 15%"
+"Documentation of various rites and songs concerning the Vala Yavanna, collected and edited by the lady Celebrian.\n\n Increases Orchard production by 20% \n Library must be present to retain affect"
 END
 
 // -- Reflections Upon the Battle of Dagorlad
@@ -729,7 +729,7 @@ CONTROLBAR:PurchaseTechnologyRivendellFeanorSmithing
 "Practical Application of Feanorian &Smithing"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyRivendellFeanorSmithing
-"This exhaustive treatise on Noldorin smithing techniques was authored by Celebrimbor. \n\n Permanently reduces cost of unit upgrades"
+"This exhaustive treatise on Noldorin smithing techniques was authored by Celebrimbor. \n\n Permanently reduces cost of unit upgrades by 25%"
 END
 
 // ============================================================ //
@@ -17722,6 +17722,10 @@ END
 
 APT:LivingWorldRegionConqueredNotice
 "%s conquered!"
+END
+
+GUI:DUMMY_STR_DISCOUNT
+""
 END
 
 GUI:GOLD_DISCOUNT
