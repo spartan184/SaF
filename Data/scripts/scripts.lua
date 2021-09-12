@@ -161,7 +161,7 @@ function OnRivendellNoldorCreated(self)
 end
 
 -- Rivendell Dwarven Spearmen
-function OnDwarvenGuardianCreated(self)
+function OnDwarvenPhalanxCreated(self)
 	ObjectHideSubObjectPermanently( self, "FORGED_BLADE", true )
 	ObjectHideSubObjectPermanently( self, "FORGED_01", true )
 	ObjectHideSubObjectPermanently( self, "FORGED_02", true )

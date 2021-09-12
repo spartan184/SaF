@@ -329,8 +329,8 @@
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnGreyCompanyRangerCreated" DebugSingleStep="false"/>
     </EventList>
     
-    <EventList Name="DwarvenGuardianFunctions" Inherit="InfantryFunctions">
-      <EventHandler EventName="OnCreated"				ScriptFunctionName="OnDwarvenGuardianCreated" DebugSingleStep="false"/>
+    <EventList Name="DwarvenPhalanxFunctions" Inherit="InfantryFunctions">
+      <EventHandler EventName="OnCreated"				ScriptFunctionName="OnDwarvenPhalanxCreated" DebugSingleStep="false"/>
     </EventList>
     
     <!---------- End of Rivendell Functions -->
