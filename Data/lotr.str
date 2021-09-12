@@ -562,6 +562,10 @@ END
 OBJECT:HordeNoldorExiles
 "Noldor Exiles"
 END
+
+OBJECT:NoldorVeterans
+"Noldor Veteran"
+END
 // ============================================================ //
 // ================ #Rivendell Unit Abilities ================= //
 // ============================================================ //
@@ -665,7 +669,7 @@ END
 CONTROLBAR:ToolTipPurchaseUpgradeRivendellImprovedArrowsmithing
 "+25% Damage to units \n Left click to upgrade this unit"
 END
-CONTROLBAR:LackRivendellImprovedArrowsmithing
+CONTROLBAR:LackLevelRivendellImprovedArrowsmithing
 "Required: Level 2 Forge \nPurchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
 TOOLTIP:LackRivendellImprovedArrowsmithing
@@ -680,7 +684,7 @@ CONTROLBAR:PurchaseTechnologyRivendellMedicine
 "&Elvish Medicine: A Compendium"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyRivendellMedicine
-"Authored by Elrond himself, this book is essential material for those wishing to learn the secrets of healing.\n\n Units near the Library are heal over time"
+"Authored by Elrond himself, this book is essential material for those wishing to learn the secrets of healing.\n\n Allows Bree-land, Dunedain, and Hobbit units to heal when outside of combat"
 END
 
 // -- A Sleepless Malice
@@ -718,7 +722,7 @@ CONTROLBAR:PurchaseTechnologyRivendellDagorlad
 "Reflection&s Upon the Battle of Dagorlad"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyRivendellDagorlad
-"A collection of writings on the Battle of Dagorlad. Timelines, battleplans and poetry, gathered by Valandil, son of Isildur. \n\n Sauron's fall came at great cost. With Gil-galad slain, many Elven veterans chose to linger in Rivendell, house of their late King's herald. \nUnits near the library gain +25% damage "
+"A collection of writings on the Battle of Dagorlad. Timelines, battleplans and poetry, gathered by Valandil, son of Isildur. \n\n Sauron's fall came at great cost. With Gil-galad slain, many Elven veterans chose to linger in Rivendell, house of their late King's herald. \n Units recruited from the Dormitory gain +25% damage"
 END
 
 // -- Practical Application of Feanorian Smithing
