@@ -333,6 +333,9 @@
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnDwarvenPhalanxCreated" DebugSingleStep="false"/>
     </EventList>
     
+    <EventList Name="MirkwoodArcherFunctions" Inherit="ArcherFunctions">
+        <EventHandler EventName="OnCreated"				ScriptFunctionName="OnMirkwoodArcherCreated" DebugSingleStep="false"/>
+    </EventList>
     <!---------- End of Rivendell Functions -->
     
     <EventList Name="ForlongFunctions" Inherit="BaseScriptFunctions">

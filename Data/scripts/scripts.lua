@@ -258,6 +258,101 @@ function OnDwarvenPhalanxCreated(self)
     end   
 end
 
+-- Rivendell Mirkwood Archer
+function OnMirkwoodArcherCreated(self)
+-- weapons, gear, e.t.c. objects
+  ObjectHideSubObjectPermanently( self, "QARROWSU", true )
+  ObjectHideSubObjectPermanently( self, "ARROWNOCKU", true )
+  ObjectHideSubObjectPermanently( self, "BOW01", true )
+	ObjectHideSubObjectPermanently( self, "BOW02", true )
+	ObjectHideSubObjectPermanently( self, "FORGED_BLADE", true )
+	
+-- normal heads
+  ObjectHideSubObjectPermanently( self, "HEAD01", true )
+  ObjectHideSubObjectPermanently( self, "HEAD02", true )
+  ObjectHideSubObjectPermanently( self, "HEAD03", true )
+	ObjectHideSubObjectPermanently( self, "FACEMASK", true )
+-- normal bodies
+  ObjectHideSubObjectPermanently( self, "BODY01", true )
+  ObjectHideSubObjectPermanently( self, "BODY02", true )
+  ObjectHideSubObjectPermanently( self, "BODY03", true )
+  ObjectHideSubObjectPermanently( self, "HOODDOWN01", true )
+  ObjectHideSubObjectPermanently( self, "HOODDOWN02", true )
+  ObjectHideSubObjectPermanently( self, "HOODDOWN03", true )
+	ObjectHideSubObjectPermanently( self, "HOODUP01", true )
+  ObjectHideSubObjectPermanently( self, "HOODUP02", true )
+  ObjectHideSubObjectPermanently( self, "HOODUP03", true )
+	ObjectHideSubObjectPermanently( self, "ARMS01", true )
+  ObjectHideSubObjectPermanently( self, "ARMS02", true )
+	ObjectHideSubObjectPermanently( self, "HOODDOWNHA", true )
+	ObjectHideSubObjectPermanently( self, "HOODUPHA", true )
+
+    local heads         =    GetRandomNumber()
+	
+    local body         =    GetRandomNumber()
+	
+	local hoodha         =    GetRandomNumber()
+	
+	local arms         =    GetRandomNumber()
+	
+    local bow         =    GetRandomNumber()
+	
+	local mask         =    GetRandomNumber()
+
+    if heads <= 0.4 then
+        ObjectHideSubObjectPermanently( self, "HEAD01", false )
+    elseif heads <= 0.7 then
+        ObjectHideSubObjectPermanently( self, "HEAD02", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HEAD03", false )
+    end  
+	
+    if body <= 0.16 then
+        ObjectHideSubObjectPermanently( self, "BODY01", false )
+        ObjectHideSubObjectPermanently( self, "HOODDOWN01", false )
+    elseif body <= 0.33 then
+        ObjectHideSubObjectPermanently( self, "BODY01", false )
+        ObjectHideSubObjectPermanently( self, "HOODUP01", false )
+     elseif body <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "BODY02", false )
+        ObjectHideSubObjectPermanently( self, "HOODDOWN02", false )
+	elseif body <= 0.66 then
+        ObjectHideSubObjectPermanently( self, "BODY02", false )
+        ObjectHideSubObjectPermanently( self, "HOODUP02", false )
+	elseif body <= 0.83 then
+        ObjectHideSubObjectPermanently( self, "BODY03", false )
+        ObjectHideSubObjectPermanently( self, "HOODDOWN03", false )
+	else
+        ObjectHideSubObjectPermanently( self, "BODY03", false )
+        ObjectHideSubObjectPermanently( self, "HOODUP03", false )			
+		
+    end
+	
+    if bow <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "BOW01", false )
+     else
+        ObjectHideSubObjectPermanently( self, "BOW02", false )
+    end 
+	
+	if hoodha <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HOODDOWNHA", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HOODUPHA", false )
+    end 
+	
+	if arms <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "ARMS01", false )
+     else
+        ObjectHideSubObjectPermanently( self, "ARMS02", false )
+    end 
+	
+	if mask <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "FACEMASK", false )
+     else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end 
+end
+
 -- Axemen of Loss
 function OnAxemenofLossCreated(self)
     ObjectHideSubObjectPermanently( self, "Forged_Blade", true )

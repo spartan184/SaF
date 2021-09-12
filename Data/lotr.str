@@ -574,6 +574,13 @@ OBJECT:HordeDwarvenPhalanx
 "Dwarven Phalanx"
 END
 
+OBJECT:RivendellMirkwoodArcher
+"Mirkwood Archer"
+END
+OBJECT:HordeRivendellMirkwoodArcher
+"Mirkwood Archers"
+END
+
 // ============================================================ //
 // ================ #Rivendell Unit Abilities ================= //
 // ============================================================ //
