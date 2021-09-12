@@ -248,13 +248,13 @@ function OnDwarvenPhalanxCreated(self)
 
     if weapon <= 0.33 then
       ObjectHideSubObjectPermanently( self, "WEAP01", false )
-      ObjectGrantUpgrade( self, "Upgrade_AragornCostume_01" )		
+      --ObjectGrantUpgrade( self, "Upgrade_AragornCostume_01" )		
     elseif weapon <= 0.66 then
       ObjectHideSubObjectPermanently( self, "WEAP02", false )
-      ObjectGrantUpgrade( self, "Upgrade_AragornCostume_02" )		
+      --ObjectGrantUpgrade( self, "Upgrade_AragornCostume_02" )		
      else
       ObjectHideSubObjectPermanently( self, "WEAP03", false )
-      ObjectGrantUpgrade( self, "Upgrade_AragornCostume_03" )		
+      --ObjectGrantUpgrade( self, "Upgrade_AragornCostume_03" )		
     end   
 end
 
