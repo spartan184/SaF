@@ -160,6 +160,104 @@ function OnRivendellNoldorCreated(self)
 
 end
 
+-- Rivendell Dwarven Spearmen
+function OnDwarvenGuardianCreated(self)
+	ObjectHideSubObjectPermanently( self, "FORGED_BLADE", true )
+	ObjectHideSubObjectPermanently( self, "FORGED_01", true )
+	ObjectHideSubObjectPermanently( self, "FORGED_02", true )
+	ObjectHideSubObjectPermanently( self, "FORGED_03", true )
+	ObjectHideSubObjectPermanently( self, "FORGED_HAMMER", true )
+	ObjectHideSubObjectPermanently( self, "MITHRIL", true )
+	ObjectHideSubObjectPermanently( self, "HAMMER", true )
+    ObjectHideSubObjectPermanently( self, "BODY01", true )
+    ObjectHideSubObjectPermanently( self, "BODY02", true )
+    ObjectHideSubObjectPermanently( self, "BODY03", true )
+    ObjectHideSubObjectPermanently( self, "BODY04", true )
+    ObjectHideSubObjectPermanently( self, "BODY05", true )
+    ObjectHideSubObjectPermanently( self, "BODY06", true )
+    ObjectHideSubObjectPermanently( self, "HEAD01", true )
+    ObjectHideSubObjectPermanently( self, "HEAD02", true )
+    ObjectHideSubObjectPermanently( self, "HEAD03", true )
+    ObjectHideSubObjectPermanently( self, "HEAD04", true )
+    ObjectHideSubObjectPermanently( self, "HEAD05", true )
+    ObjectHideSubObjectPermanently( self, "HEAD06", true )
+    ObjectHideSubObjectPermanently( self, "SHIELDA01", true )
+    ObjectHideSubObjectPermanently( self, "SHIELDA02", true )
+    ObjectHideSubObjectPermanently( self, "SHIELDA03", true )
+    ObjectHideSubObjectPermanently( self, "SHIELDB01", true )
+    ObjectHideSubObjectPermanently( self, "SHIELDB02", true )
+    ObjectHideSubObjectPermanently( self, "SHIELDB03", true )
+    ObjectHideSubObjectPermanently( self, "SHIELDB04", true )
+    ObjectHideSubObjectPermanently( self, "SHIELDC", true )
+    ObjectHideSubObjectPermanently( self, "WEAP01", true )
+    ObjectHideSubObjectPermanently( self, "WEAP02", true )
+    ObjectHideSubObjectPermanently( self, "WEAP03", true )
+    ObjectHideSubObjectPermanently( self, "HA", true )
+    ObjectHideSubObjectPermanently( self, "MASK", true )
+
+    local armor         =    GetRandomNumber()
+    local head          =    GetRandomNumber()
+    local shield          =    GetRandomNumber()
+    local weapon          =    GetRandomNumber()
+
+    if armor <= 0.17 then
+        ObjectHideSubObjectPermanently( self, "BODY01", false )
+    elseif armor <= 0.34 then
+        ObjectHideSubObjectPermanently( self, "BODY02", false )
+    elseif armor <= 0.51 then
+        ObjectHideSubObjectPermanently( self, "BODY03", false )
+    elseif armor <= 0.68 then
+        ObjectHideSubObjectPermanently( self, "BODY04", false )
+    elseif armor <= 0.85 then
+        ObjectHideSubObjectPermanently( self, "BODY05", false )
+     else
+        ObjectHideSubObjectPermanently( self, "BODY06", false )
+    end   
+
+    if head <= 0.17 then
+        ObjectHideSubObjectPermanently( self, "HEAD01", false )
+    elseif head <= 0.34 then
+        ObjectHideSubObjectPermanently( self, "HEAD02", false )
+    elseif head <= 0.51 then
+        ObjectHideSubObjectPermanently( self, "HEAD03", false )
+    elseif head <= 0.68 then
+        ObjectHideSubObjectPermanently( self, "HEAD04", false )
+    elseif head <= 0.85 then
+        ObjectHideSubObjectPermanently( self, "HEAD05", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HEAD06", false )
+    end   
+
+    if shield <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "SHIELDC", false )
+    elseif shield <= 0.57 then
+        ObjectHideSubObjectPermanently( self, "SHIELDA01", false )
+    elseif shield <= 0.64 then
+        ObjectHideSubObjectPermanently( self, "SHIELDA02", false )
+    elseif shield <= 0.71 then
+        ObjectHideSubObjectPermanently( self, "SHIELDA03", false )
+    elseif shield <= 0.79 then
+        ObjectHideSubObjectPermanently( self, "SHIELDB01", false )
+    elseif shield <= 0.86 then
+        ObjectHideSubObjectPermanently( self, "SHIELDB02", false )
+    elseif shield <= 0.93 then
+        ObjectHideSubObjectPermanently( self, "SHIELDB03", false )
+     else
+        ObjectHideSubObjectPermanently( self, "SHIELDB04", false )
+    end   
+
+    if weapon <= 0.33 then
+      ObjectHideSubObjectPermanently( self, "WEAP01", false )
+      ObjectGrantUpgrade( self, "Upgrade_AragornCostume_01" )		
+    elseif weapon <= 0.66 then
+      ObjectHideSubObjectPermanently( self, "WEAP02", false )
+      ObjectGrantUpgrade( self, "Upgrade_AragornCostume_02" )		
+     else
+      ObjectHideSubObjectPermanently( self, "WEAP03", false )
+      ObjectGrantUpgrade( self, "Upgrade_AragornCostume_03" )		
+    end   
+end
+
 -- Axemen of Loss
 function OnAxemenofLossCreated(self)
     ObjectHideSubObjectPermanently( self, "Forged_Blade", true )

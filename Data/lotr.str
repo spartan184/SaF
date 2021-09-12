@@ -566,6 +566,14 @@ END
 OBJECT:NoldorVeterans
 "Noldor Veteran"
 END
+
+OBJECT:DwarvenPhalanx
+"Dwarven Phalanx"
+END
+OBJECT:HordeDwarvenPhalanx
+"Dwarven Phalanx"
+END
+
 // ============================================================ //
 // ================ #Rivendell Unit Abilities ================= //
 // ============================================================ //
