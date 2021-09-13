@@ -61,7 +61,7 @@ CONTROLBAR:SpellManyMeetings
 "Many Meetings"
 End
 CONTROLBAR:ToolTipSpellBookManyMeetings
-"Randomly summons 3 battalions from across Middle-earth \n Left click icon then left click on pathable location"
+"Summons 3 battalions from across Middle-earth \n Left click icon then left click on pathable location"
 END
 
 CONTROLBAR:OldKingdom
@@ -585,7 +585,14 @@ OBJECT:LaketownGuard
 "Laketown Guard"
 END
 OBJECT:HordeLaketownGuard
-"Laketown Guards"
+"LakeTown Guards"
+END
+
+OBJECT:BreeRamCrew
+"Breeland Ram Crew"
+END
+OBJECT:BreelandBatteringRam
+"Breeland Battering Ram"
 END
 
 // ============================================================ //
