@@ -353,6 +353,27 @@ function OnMirkwoodArcherCreated(self)
     end 
 end
 
+-- Laketown Master Guards
+function OnLaketownGuard(self)
+    ObjectHideSubObjectPermanently( self, "FORGED_BLADE", true )
+    ObjectHideSubObjectPermanently( self, "HEADA", true )
+    ObjectHideSubObjectPermanently( self, "HEADB", true )
+    ObjectHideSubObjectPermanently( self, "HEADC", true )
+    ObjectHideSubObjectPermanently( self, "HEADD", true )
+	
+    local head          =    GetRandomNumber()
+	
+    if head <= 0.2 then
+        ObjectHideSubObjectPermanently( self, "HEADA", false )
+    elseif head <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HEADB", false )
+    elseif head <= 0.8 then
+        ObjectHideSubObjectPermanently( self, "HEADC", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HEADD", false )
+    end   
+end
+
 -- Axemen of Loss
 function OnAxemenofLossCreated(self)
     ObjectHideSubObjectPermanently( self, "Forged_Blade", true )

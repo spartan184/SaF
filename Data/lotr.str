@@ -581,6 +581,13 @@ OBJECT:HordeRivendellMirkwoodArcher
 "Mirkwood Archers"
 END
 
+OBJECT:LaketownGuard
+"Laketown Guard"
+END
+OBJECT:HordeLaketownGuard
+"Laketown Guards"
+END
+
 // ============================================================ //
 // ================ #Rivendell Unit Abilities ================= //
 // ============================================================ //
