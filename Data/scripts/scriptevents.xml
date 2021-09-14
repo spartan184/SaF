@@ -349,7 +349,7 @@
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnRivendellNoldorCreated" DebugSingleStep="false"/>
     </EventList>
 
-    <EventList Name="LAElvenNoldorBannerFunctions" Inherit="SaFInfantryFunctions">
+    <EventList Name="RivendellVeteranBannerFunctions" Inherit="SaFInfantryFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnLANoldorBannerCreated" DebugSingleStep="false"/>
     </EventList>
     

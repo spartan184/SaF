@@ -84,7 +84,9 @@ Asset EBFORGE_D1.BOX02 in file ebforge_d1.w3d depends on unknown asset normalmap
 Asset EUGALADHRIMBNR in file eugaladhrimbnr.w3d depends on unknown asset h*gubanner_skl.
 Asset EULANCER_SKN in file eulancer_skn.w3d depends on unknown asset h*rurohrm_skl.
 Asset EULANCER_SKNH in file eulancer_sknh.w3d depends on unknown asset h*rurohrm_skl.
+Asset EUNOLDORBAN_SKN in file eunoldorban_skn.w3d depends on unknown asset h*gubanner_skl.
 Asset EURIVBAN_SKN in file eurivban_skn.w3d depends on unknown asset h*gubanner_skl.
+Asset EURIVBAN_SKNH in file eurivban_sknh.w3d depends on unknown asset h*gubanner_skl.
 Asset EUWORKER_SKN in file euworker_skn.w3d depends on unknown asset h*guworker_skl.
 Asset EXDEBUFF.PLANE07 in file exdebuff.w3d depends on unknown asset excloudcr01.tga.
 Asset EXPOWERRING.PLANE01 in file expowerring.w3d depends on unknown asset exlightaura02.tga.
