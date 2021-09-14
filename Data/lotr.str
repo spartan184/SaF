@@ -442,6 +442,10 @@ OBJECT:ElvenWorker
 "Rivendell Peasant"
 END
 
+OBJECT:RivendellElfBanner
+"Rivendell Banner Carrier"
+END
+
 OBJECT:RivendellBounder
 "Hobbit Bounder"
 END

@@ -319,6 +319,8 @@
     
     <EventList Name="TookArcherFunctions" Inherit="InfantryFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnTookArcherCreated" DebugSingleStep="false"/>
+      <EventHandler EventName="User1Achieved"	  ScriptFunctionName="OnFireSpecialActivation"  DebugSingleStep="false"/>
+      <EventHandler EventName="User1Lost"       ScriptFunctionName="OnFireSpecialStop"  DebugSingleStep="false"/>
     </EventList>
     
     <EventList Name="BreelandTownsGuardFunctions" Inherit="SaFInfantryFunctions">
@@ -327,6 +329,8 @@
     
     <EventList Name="DunedainRangerFunctions" Inherit="ArcherFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnDunedainRangerCreated" DebugSingleStep="false"/>
+      <EventHandler EventName="User1Achieved"	  ScriptFunctionName="OnFireSpecialActivation"  DebugSingleStep="false"/>
+      <EventHandler EventName="User1Lost"       ScriptFunctionName="OnFireSpecialStop"  DebugSingleStep="false"/>
     </EventList>
 
     <EventList Name="GreyCompanyRangerFunctions" Inherit="SaFInfantryFunctions">
