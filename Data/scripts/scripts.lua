@@ -61,6 +61,85 @@ function OnTelperionActivated(self) --
 	ObjectBroadcastEventToEnemies( self, "BeUncontrollablyAfraid", 350 )
 end
 
+-- Hobbit Bounders
+function OnHobbitBounderCreated(self)
+	ObjectHideSubObjectPermanently( self, "BAG01", true )
+	ObjectHideSubObjectPermanently( self, "HAT01", true )
+	ObjectHideSubObjectPermanently( self, "HAT02", true )
+	ObjectHideSubObjectPermanently( self, "HAT03", true )
+	ObjectHideSubObjectPermanently( self, "HAT04", true )
+	ObjectHideSubObjectPermanently( self, "BODY01", true )
+	ObjectHideSubObjectPermanently( self, "BODY02", true )
+	ObjectHideSubObjectPermanently( self, "BODY03", true )
+	ObjectHideSubObjectPermanently( self, "BODY04", true )
+	ObjectHideSubObjectPermanently( self, "BODY05", true )
+	ObjectHideSubObjectPermanently( self, "PIPE", true )
+	ObjectHideSubObjectPermanently( self, "HEAD01", true )
+    ObjectHideSubObjectPermanently( self, "HEAD02", true )
+    ObjectHideSubObjectPermanently( self, "HEAD03", true )
+    ObjectHideSubObjectPermanently( self, "FOOT01", true )
+    ObjectHideSubObjectPermanently( self, "FOOT02", true )
+    ObjectHideSubObjectPermanently( self, "FOOT03", true )
+	
+	local head          =    GetRandomNumber()
+	local bag          =    GetRandomNumber()
+	local hat          =    GetRandomNumber()
+	local body          =    GetRandomNumber()
+	local pipe          =    GetRandomNumber()
+	local feet          =    GetRandomNumber()
+	
+    if head <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "HEAD01", false )
+    elseif head <= 0.7 then
+        ObjectHideSubObjectPermanently( self, "HEAD02", false )
+	else
+        ObjectHideSubObjectPermanently( self, "HEAD03", false )
+    end 
+	
+    if pipe <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "PIPE", false )
+	else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end 
+ 
+    if bag <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "BAG01", false )
+	else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end 
+	
+    if hat <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "HAT01", false )
+    elseif hat <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HAT02", false )
+    elseif hat <= 0.7 then
+        ObjectHideSubObjectPermanently( self, "HAT03", false )
+	else
+        ObjectHideSubObjectPermanently( self, "HAT04", false )
+    end 
+	
+    if body <= 0.2 then
+        ObjectHideSubObjectPermanently( self, "BODY01", false )
+    elseif body <= 0.4 then
+        ObjectHideSubObjectPermanently( self, "BODY02", false )
+    elseif body <= 0.6 then
+        ObjectHideSubObjectPermanently( self, "BODY03", false )
+    elseif body <= 0.8 then
+        ObjectHideSubObjectPermanently( self, "BODY04", false )
+	else
+        ObjectHideSubObjectPermanently( self, "BODY05", false )
+    end 
+	
+    if feet <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "FOOT01", false )
+    elseif feet <= 0.7 then
+        ObjectHideSubObjectPermanently( self, "FOOT02", false )
+	else
+        ObjectHideSubObjectPermanently( self, "FOOT03", false )
+    end 
+
+end
+
 -- Breeland Guard
 function OnBreelandTownsGuardCreated(self)
 	ObjectHideSubObject( self, "ARROW", true )

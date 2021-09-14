@@ -313,7 +313,11 @@
     </EventList>
     
     <!---------- Rivendell Units -->
-    <EventList Name="BreelandTownsGuardFunctions" Inherit="InfantryFunctions">
+    <EventList Name="HobbitBounderFunctions" Inherit="SaFInfantryFunctions">
+      <EventHandler EventName="OnCreated"				ScriptFunctionName="OnHobbitBounderCreated" DebugSingleStep="false"/>
+    </EventList>
+    
+    <EventList Name="BreelandTownsGuardFunctions" Inherit="SaFInfantryFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnBreelandTownsGuardCreated" DebugSingleStep="false"/>
     </EventList>
     
@@ -325,15 +329,15 @@
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnGreyCompanyRangerCreated" DebugSingleStep="false"/>
     </EventList>
     
-    <EventList Name="RivendellNoldorExilesFunctions" Inherit="InfantryFunctions">
+    <EventList Name="RivendellNoldorExilesFunctions" Inherit="SaFInfantryFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnNoldorExilesCreated" DebugSingleStep="false"/>
     </EventList>
 
-    <EventList Name="RivendellNoldorFunctions" Inherit="InfantryFunctions">
+    <EventList Name="RivendellNoldorFunctions" Inherit="SaFInfantryFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnRivendellNoldorCreated" DebugSingleStep="false"/>
     </EventList>
     
-    <EventList Name="DwarvenPhalanxFunctions" Inherit="InfantryFunctions">
+    <EventList Name="DwarvenPhalanxFunctions" Inherit="SaFInfantryFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnDwarvenPhalanxCreated" DebugSingleStep="false"/>
     </EventList>
     
@@ -341,7 +345,7 @@
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnMirkwoodArcherCreated" DebugSingleStep="false"/>
     </EventList>
     
-    <EventList Name="LaketownGuardFunctions" Inherit="InfantryFunctions">
+    <EventList Name="LaketownGuardFunctions" Inherit="SaFInfantryFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnLaketownGuard" DebugSingleStep="false"/>
     </EventList>
     
