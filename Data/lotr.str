@@ -113,7 +113,7 @@ END
 // ============================================================ //
 // ===================== #Rivendell Heroes ==================== //
 // ============================================================ //
-// ========= #Glorfindel
+// -- #Glorfindel
 OBJECT:Glorfindel
 "Glorfindel"
 END
@@ -163,7 +163,7 @@ CONTROLBAR:ToolTipGlorfindelSlayer
 "Blasts back units in a wide radius surrounding Glorfindel\n Enemy heroes are in the radius of the blast are pinned for a short time \n Left click to activate"
 END
 
-// ========= #Elrohir
+// -- #Elrohir
 OBJECT:Elrohir
 "Elrohir"
 END
@@ -204,7 +204,7 @@ CONTROLBAR:ToolTipElrohirSwiftStrikes
 "Required: Rank 3 \n Elrohir temporarily gains +33% attack speed at the cost of -33% armor \n left click to activate"
 END
 
-// ========= #Elladan
+// -- #Elladan
 OBJECT:Elladan
 "Elladan"
 END
@@ -235,7 +235,7 @@ CONTROLBAR:ToolTipElladanBrightBlade
 "Required: Rank 3 \n A powerful sword strike that knocks over enemy units \n left click to activate"
 END
 
-// ========= #Elrond
+// -- #Elrond
 OBJECT:ElvenElrond
 "Elrond"
 END
@@ -284,7 +284,7 @@ CONTROLBAR:ToolTipElrondRingOfAir
 "Required: Rank 10 \n Creates a circular sanctuary in which friendly troops are buffed \n left click to activate"
 END
 
-// ========= #Aragorn
+// -- #Aragorn
 CONTROLBAR:RivendellAragornRecruit
 "Recruit Aragorn, the Chieftain of the Dunedain. \n \n 'All that is gold does not glitter, Not all those who wander are lost; The old that is strong does not wither, Deep roots are not reached by the frost. From the ashes a fire shall be woken, A light from the shadows shall spring; Renewed shall be blade that was broken, The crownless again shall be king.'"
 END
@@ -322,7 +322,7 @@ END
 CONTROLBAR:ToolTipAragornIsildursHeir
 "Required: Level 9 \n Aragorn gains Anduril, deals +50% Damage \nPassive ability \n\n Allies near Aragorn gain \n +50% Damage, +50% Armor and become immune to fear \n Left click to activate"
 END
-// ========= #Gildor
+// -- #Gildor
 OBJECT:Gildor
 "Gildor Inglorion"
 END
@@ -356,7 +356,7 @@ END
 CONTROLBAR:TooltipGildorExiles
 "Requires Level 8 \nGildor summons three groups of Noldor Exiles to his side \n Left click icon to activate"
 END
-// ========= #Halbarad
+// -- #Halbarad
 OBJECT:Halbarad
 "Halbarad"
 END
@@ -405,7 +405,7 @@ CONTROLBAR:ToolTipHalbaradBannerOfArwen
 "Required: Rank 10 \n Halbarad unfurls his banner. \n For 60 seconds, allied units and heroes in a large radius gain +25% damage and +100% experience. \n Enemy units and heroes lose -25% damage \n Left click to activate"
 END
 
-// ========= #Farmer Maggot
+// -- #Farmer Maggot
 OBJECT:FarmerMaggot
 "Farmer Maggot"
 END
@@ -478,7 +478,7 @@ CONTROLBAR:ConstructRivendellBreelandGuardHorde
 "Recruit Bree-land Guards"
 END
 CONTROLBAR:ToolTipRivendellBreelandGuardHorde
-"Required: Level 2 Encampment \nStrong vs. Cavalry and Heroes \n\n Though the Dúnedain Rangers silently protected the denizens of the Breeland from the darkness that sought to overtake them, the villages still maintained a small, voluntary militia, to take care of problems occuring from within."
+"Required: Level 2 Encampment \nStrong vs. Cavalry and Heroes \n\n Though the Dunedain Rangers silently protected the denizens of the Breeland from the darkness that sought to overtake them, the villages still maintained a small, voluntary militia, to take care of problems occuring from within."
 END
 
 OBJECT:RivendellBreelandRam

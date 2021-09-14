@@ -61,6 +61,76 @@ function OnTelperionActivated(self) --
 	ObjectBroadcastEventToEnemies( self, "BeUncontrollablyAfraid", 350 )
 end
 
+-- Breeland Guard
+function OnBreelandTownsGuardCreated(self)
+	ObjectHideSubObject( self, "ARROW", true )
+	ObjectHideSubObject( self, "ARROWNOCKUP", true )
+	ObjectHideSubObject( self, "QUIVERUP", true )
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
+	
+	ObjectHideSubObjectPermanently( self, "BODY01", true )
+	ObjectHideSubObjectPermanently( self, "BODY02", true )
+	ObjectHideSubObjectPermanently( self, "BODY03", true )
+	ObjectHideSubObjectPermanently( self, "BODY04", true )
+	
+	ObjectHideSubObjectPermanently( self, "HEAD01", true )
+	ObjectHideSubObjectPermanently( self, "HEAD02", true )
+	ObjectHideSubObjectPermanently( self, "HEAD03", true )
+	ObjectHideSubObjectPermanently( self, "HEAD04", true )
+	ObjectHideSubObjectPermanently( self, "HEAD05", true )
+	
+	ObjectHideSubObjectPermanently( self, "HELMET01", true )
+	ObjectHideSubObjectPermanently( self, "HELMET02", true )
+	ObjectHideSubObjectPermanently( self, "HELMET03", true )
+
+	ObjectHideSubObjectPermanently( self, "LEGS01", true )
+  ObjectHideSubObjectPermanently( self, "LEGS02", true )
+	
+
+  local head         =    GetRandomNumber()
+	local body         =    GetRandomNumber()
+	local legs         =    GetRandomNumber()
+	local helm         =    GetRandomNumber()
+	
+	if legs <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "LEGS01", false )
+     else
+        ObjectHideSubObjectPermanently( self, "LEGS02", false )
+    end   
+	
+	if helm <= 0.333 then
+        ObjectHideSubObjectPermanently( self, "HELMET01", false )
+    elseif helm <= 0.666 then
+        ObjectHideSubObjectPermanently( self, "HELMET02", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HELMET03", false )
+    end 
+	
+	if head <= 0.2 then
+        ObjectHideSubObjectPermanently( self, "HEAD01", false )
+    elseif head <= 0.4 then
+        ObjectHideSubObjectPermanently( self, "HEAD02", false )
+    elseif head <= 0.6 then
+        ObjectHideSubObjectPermanently( self, "HEAD03", false )
+    elseif head <= 0.8 then
+        ObjectHideSubObjectPermanently( self, "HEAD04", false )
+	else
+        ObjectHideSubObjectPermanently( self, "HEAD05", false )
+    end  
+	
+	if body <= 0.25 then
+        ObjectHideSubObjectPermanently( self, "BODY01", false )
+	elseif body <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "BODY02", false )
+	elseif body <= 0.75 then
+        ObjectHideSubObjectPermanently( self, "BODY03", false )
+     else
+        ObjectHideSubObjectPermanently( self, "BODY04", false )
+    end 
+
+end
+
 -- Noldor Exiles
 function OnNoldorExilesCreated(self)
 	ObjectHideSubObject( self, "ARROW", true )

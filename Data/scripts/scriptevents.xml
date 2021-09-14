@@ -313,12 +313,8 @@
     </EventList>
     
     <!---------- Rivendell Units -->
-    <EventList Name="RivendellNoldorExilesFunctions" Inherit="InfantryFunctions">
-      <EventHandler EventName="OnCreated"				ScriptFunctionName="OnNoldorExilesCreated" DebugSingleStep="false"/>
-    </EventList>
-
-    <EventList Name="RivendellNoldorFunctions" Inherit="InfantryFunctions">
-      <EventHandler EventName="OnCreated"				ScriptFunctionName="OnRivendellNoldorCreated" DebugSingleStep="false"/>
+    <EventList Name="BreelandTownsGuardFunctions" Inherit="InfantryFunctions">
+      <EventHandler EventName="OnCreated"				ScriptFunctionName="OnBreelandTownsGuardCreated" DebugSingleStep="false"/>
     </EventList>
     
     <EventList Name="DunedainRangerFunctions" Inherit="ArcherFunctions">
@@ -327,6 +323,14 @@
 
     <EventList Name="GreyCompanyRangerFunctions" Inherit="SaFInfantryFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnGreyCompanyRangerCreated" DebugSingleStep="false"/>
+    </EventList>
+    
+    <EventList Name="RivendellNoldorExilesFunctions" Inherit="InfantryFunctions">
+      <EventHandler EventName="OnCreated"				ScriptFunctionName="OnNoldorExilesCreated" DebugSingleStep="false"/>
+    </EventList>
+
+    <EventList Name="RivendellNoldorFunctions" Inherit="InfantryFunctions">
+      <EventHandler EventName="OnCreated"				ScriptFunctionName="OnRivendellNoldorCreated" DebugSingleStep="false"/>
     </EventList>
     
     <EventList Name="DwarvenPhalanxFunctions" Inherit="InfantryFunctions">
