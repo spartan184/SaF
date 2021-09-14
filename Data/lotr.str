@@ -445,7 +445,10 @@ END
 OBJECT:RivendellBounder
 "Hobbit Bounder"
 END
-OBJECT:HordeRivendellTookArcher
+CONTROLBAR:RivendellBounderRecruit
+"&B"
+END
+OBJECT:HordeRivendellBounder
 "Hobbit Bounders"
 END
 CONTROLBAR:ConstructRivendellBounderHorde
@@ -453,6 +456,10 @@ CONTROLBAR:ConstructRivendellBounderHorde
 END
 CONTROLBAR:ToolTipRivendellBounderHorde
 "Hobbit Bounders \n Strong vs. Infantry, Siege"
+END
+
+OBJECT:HordeHobbitBounderArcherCombo
+"Hobbit Bounder Archer Horde"
 END
 
 OBJECT:RivendellTookArcher

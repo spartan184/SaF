@@ -19,6 +19,7 @@ Asset ABWELL_D1.FLOOR01 in file abwell_d1.w3d depends on unknown asset normalmap
 Asset ABWELL_D1.FLOOR2 in file abwell_d1.w3d depends on unknown asset normalmapped.fx.
 Asset ABWELL_D2.FLOOR01 in file abwell_d2.w3d depends on unknown asset normalmapped.fx.
 Asset ABWELL_D2.FLOOR2 in file abwell_d2.w3d depends on unknown asset normalmapped.fx.
+Asset AUBOUNDER_SKN in file aubounder_skn.w3d depends on unknown asset h*rufrodo_skl.
 Asset AUNGLORF_MNT in file aunglorf_mnt.w3d depends on unknown asset h*ruhhs_theo_skl.
 Asset AURAM_SKN in file auram_skn.w3d depends on unknown asset h*iubattrram_skl.
 Asset AUTWNSGRDBA_SKN in file autwnsgrdba_skn.w3d depends on unknown asset h*iuurukahi_skl.

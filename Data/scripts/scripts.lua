@@ -140,6 +140,87 @@ function OnHobbitBounderCreated(self)
 
 end
 
+-- Took Archers
+function OnTookArcherCreated(self)
+	ObjectHideSubObject( self, "ARROW", true )
+	ObjectHideSubObjectPermanently( self, "ARROWNOCK_UP", true )
+	ObjectHideSubObjectPermanently( self, "QUIVERUP", true )
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
+	
+	ObjectHideSubObjectPermanently( self, "BODY01", true )
+	ObjectHideSubObjectPermanently( self, "BODY02", true )
+	ObjectHideSubObjectPermanently( self, "BODY03", true )
+	
+	ObjectHideSubObjectPermanently( self, "PIPE", true )
+	
+	ObjectHideSubObjectPermanently( self, "HEAD01", true )
+	ObjectHideSubObjectPermanently( self, "HEAD02", true )
+	ObjectHideSubObjectPermanently( self, "HEAD03", true )
+	
+	ObjectHideSubObjectPermanently( self, "HAT01", true )
+	ObjectHideSubObjectPermanently( self, "HAT02", true )
+	ObjectHideSubObjectPermanently( self, "HAT03", true )
+	
+	ObjectHideSubObjectPermanently( self, "FOOT01", true )
+    ObjectHideSubObjectPermanently( self, "FOOT02", true )
+	
+	ObjectHideSubObjectPermanently( self, "BAG01", true )
+	
+
+    local head         =    GetRandomNumber()
+	local body         =    GetRandomNumber()
+	local pipe         =    GetRandomNumber()
+	local legs         =    GetRandomNumber()
+	local bag         =    GetRandomNumber()
+	local hat         =    GetRandomNumber()
+	
+	if bag <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "BAG01", false )
+     else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end   
+	
+	if pipe <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "PIPE", false )
+     else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end   
+	
+	if legs <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "FOOT01", false )
+     else
+        ObjectHideSubObjectPermanently( self, "FOOT02", false )
+    end   
+	
+	if body <= 0.333 then
+        ObjectHideSubObjectPermanently( self, "BODY01", false )
+    elseif body <= 0.666 then
+        ObjectHideSubObjectPermanently( self, "BODY02", false )
+     else
+        ObjectHideSubObjectPermanently( self, "BODY03", false )
+    end 
+	
+	if head <= 0.333 then
+        ObjectHideSubObjectPermanently( self, "HEAD01", false )
+    elseif head <= 0.666 then
+        ObjectHideSubObjectPermanently( self, "HEAD02", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HEAD03", false )
+    end 
+	
+	if hat <= 0.25 then
+        ObjectHideSubObjectPermanently( self, "HAT01", false )
+	elseif hat <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "HAT02", false )
+	elseif hat <= 0.75 then
+        ObjectHideSubObjectPermanently( self, "HAT03", false )
+     else
+        ObjectHideSubObjectPermanently( self, "NOTHING", false )
+    end 
+
+end
+
 -- Breeland Guard
 function OnBreelandTownsGuardCreated(self)
 	ObjectHideSubObject( self, "ARROW", true )
@@ -210,6 +291,267 @@ function OnBreelandTownsGuardCreated(self)
 
 end
 
+-- Rivendell Infantry
+function OnRivendellWarriorCreated(self)
+	ObjectHideSubObject( self, "ARROW", true )
+	ObjectHideSubObject( self, "ARROWNOCKUP", true )
+	ObjectHideSubObject( self, "QUIVERUP", true )
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
+	ObjectHideSubObjectPermanently( self, "BANNER01", true )
+	ObjectHideSubObjectPermanently( self, "BANNER02", true )
+	ObjectHideSubObjectPermanently( self, "BANNER03", true )
+	
+	ObjectHideSubObjectPermanently( self, "REGELF01", true )
+	ObjectHideSubObjectPermanently( self, "REGELF02", true )
+	ObjectHideSubObjectPermanently( self, "REGELF03", true )
+	ObjectHideSubObjectPermanently( self, "REGELF04", true )
+	ObjectHideSubObjectPermanently( self, "HAELF01", true )
+	ObjectHideSubObjectPermanently( self, "HAELF02", true )
+	ObjectHideSubObjectPermanently( self, "HAELF03", true )
+	ObjectHideSubObjectPermanently( self, "HAELF04", true )
+
+    ObjectHideSubObjectPermanently( self, "HEADBLACK", true )
+	ObjectHideSubObjectPermanently( self, "HEADBLACKHA", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK1", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK1HA", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK2", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK2HA", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK3", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK3HA", true )
+	ObjectHideSubObjectPermanently( self, "HEADBROWN", true )
+    ObjectHideSubObjectPermanently( self, "HEADBROWN1", true )
+    ObjectHideSubObjectPermanently( self, "HEADBROWN1HA", true )
+	ObjectHideSubObjectPermanently( self, "HEADBROWNHA", true )
+	ObjectHideSubObjectPermanently( self, "HEADGRAY", true )
+    ObjectHideSubObjectPermanently( self, "HEADGRAY1", true )
+    ObjectHideSubObjectPermanently( self, "HEADGRAY1HA", true )
+	ObjectHideSubObjectPermanently( self, "HEADGRAYHA", true )
+
+    local head         =    GetRandomNumber()
+	local body         =    GetRandomNumber()
+	local banner         =    GetRandomNumber()
+
+    if head <= 0.1 then
+        ObjectHideSubObjectPermanently( self, "HEADBLACK", false )
+		ObjectHideSubObjectPermanently( self, "HEADBLACKHA", false )
+    elseif head <= 0.2 then
+        ObjectHideSubObjectPermanently( self, "HEADBLACK1", false )
+		ObjectHideSubObjectPermanently( self, "HEADBLACK1HA", false )
+	elseif head <= 0.4 then
+        ObjectHideSubObjectPermanently( self, "HEADBLACK2", false )
+		ObjectHideSubObjectPermanently( self, "HEADBLACK2HA", false )
+	elseif head <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HEADBLACK3", false )
+		ObjectHideSubObjectPermanently( self, "HEADBLACK3HA", false )
+	elseif head <= 0.6 then
+        ObjectHideSubObjectPermanently( self, "HEADBROWN", false )
+		ObjectHideSubObjectPermanently( self, "HEADBROWNHA", false )
+	elseif head <= 0.7 then
+        ObjectHideSubObjectPermanently( self, "HEADBROWN1", false )
+		ObjectHideSubObjectPermanently( self, "HEADBROWN1HA", false )
+	elseif head <= 0.8 then
+        ObjectHideSubObjectPermanently( self, "HEADGRAY", false )
+		ObjectHideSubObjectPermanently( self, "HEADGRAYHA", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HEADGRAY1", false )
+		ObjectHideSubObjectPermanently( self, "HEADGRAY1HA", false )
+    end   
+	
+	if body <= 0.25 then
+        ObjectHideSubObjectPermanently( self, "REGELF01", false )
+		ObjectHideSubObjectPermanently( self, "HAELF01", false )
+	elseif body <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "REGELF02", false )
+		ObjectHideSubObjectPermanently( self, "HAELF02", false )
+	elseif body <= 0.75 then
+        ObjectHideSubObjectPermanently( self, "REGELF03", false )
+		ObjectHideSubObjectPermanently( self, "HAELF03", false )
+     else
+        ObjectHideSubObjectPermanently( self, "REGELF04", false )
+		ObjectHideSubObjectPermanently( self, "HAELF04", false )
+    end 
+
+	if banner <= 0.4 then
+        ObjectHideSubObjectPermanently( self, "BANNER01", false )
+	elseif banner <= 0.8 then
+        ObjectHideSubObjectPermanently( self, "BANNER02", false )
+     else
+        ObjectHideSubObjectPermanently( self, "BANNER03", false )
+    end 
+
+end
+
+-- Rivendell Knights
+function OnRivendellWarriorMountCreated(self)
+	ObjectHideSubObject( self, "ARROW", true )
+	ObjectHideSubObject( self, "ARROWNOCKUP", true )
+	ObjectHideSubObject( self, "QUIVERUP", true )
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
+
+	ObjectHideSubObjectPermanently( self, "HORSE01", true )
+	ObjectHideSubObjectPermanently( self, "HORSE02", true )
+	ObjectHideSubObjectPermanently( self, "HORSE03", true )
+	ObjectHideSubObjectPermanently( self, "HORSE04", true )
+	
+	ObjectHideSubObjectPermanently( self, "REGELF01", true )
+	ObjectHideSubObjectPermanently( self, "REGELF02", true )
+	ObjectHideSubObjectPermanently( self, "REGELF03", true )
+	ObjectHideSubObjectPermanently( self, "REGELF04", true )
+	ObjectHideSubObjectPermanently( self, "HAELF01", true )
+	ObjectHideSubObjectPermanently( self, "HAELF02", true )
+	ObjectHideSubObjectPermanently( self, "HAELF03", true )
+	ObjectHideSubObjectPermanently( self, "HAELF04", true )
+
+    ObjectHideSubObjectPermanently( self, "HEADBLACK", true )
+	ObjectHideSubObjectPermanently( self, "HEADBLACKHA", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK1", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK1HA", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK2", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK2HA", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK3", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK3HA", true )
+	ObjectHideSubObjectPermanently( self, "HEADBROWN", true )
+    ObjectHideSubObjectPermanently( self, "HEADBROWN1", true )
+    ObjectHideSubObjectPermanently( self, "HEADBROWN1HA", true )
+	ObjectHideSubObjectPermanently( self, "HEADBROWNHA", true )
+	ObjectHideSubObjectPermanently( self, "HEADGRAY", true )
+    ObjectHideSubObjectPermanently( self, "HEADGRAY1", true )
+    ObjectHideSubObjectPermanently( self, "HEADGRAY1HA", true )
+	ObjectHideSubObjectPermanently( self, "HEADGRAYHA", true )
+
+    local head         =    GetRandomNumber()
+    local horse         =    GetRandomNumber()
+	local body         =    GetRandomNumber()
+	local banner         =    GetRandomNumber()
+
+    if head <= 0.1 then
+        ObjectHideSubObjectPermanently( self, "HEADBLACK", false )
+		ObjectHideSubObjectPermanently( self, "HEADBLACKHA", false )
+    elseif head <= 0.2 then
+        ObjectHideSubObjectPermanently( self, "HEADBLACK1", false )
+		ObjectHideSubObjectPermanently( self, "HEADBLACK1HA", false )
+	elseif head <= 0.4 then
+        ObjectHideSubObjectPermanently( self, "HEADBLACK2", false )
+		ObjectHideSubObjectPermanently( self, "HEADBLACK2HA", false )
+	elseif head <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HEADBLACK3", false )
+		ObjectHideSubObjectPermanently( self, "HEADBLACK3HA", false )
+	elseif head <= 0.6 then
+        ObjectHideSubObjectPermanently( self, "HEADBROWN", false )
+		ObjectHideSubObjectPermanently( self, "HEADBROWNHA", false )
+	elseif head <= 0.7 then
+        ObjectHideSubObjectPermanently( self, "HEADBROWN1", false )
+		ObjectHideSubObjectPermanently( self, "HEADBROWN1HA", false )
+	elseif head <= 0.8 then
+        ObjectHideSubObjectPermanently( self, "HEADGRAY", false )
+		ObjectHideSubObjectPermanently( self, "HEADGRAYHA", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HEADGRAY1", false )
+		ObjectHideSubObjectPermanently( self, "HEADGRAY1HA", false )
+    end   
+	
+	if body <= 0.25 then
+        ObjectHideSubObjectPermanently( self, "REGELF01", false )
+		ObjectHideSubObjectPermanently( self, "HAELF01", false )
+	elseif body <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "REGELF02", false )
+		ObjectHideSubObjectPermanently( self, "HAELF02", false )
+	elseif body <= 0.75 then
+        ObjectHideSubObjectPermanently( self, "REGELF03", false )
+		ObjectHideSubObjectPermanently( self, "HAELF03", false )
+     else
+        ObjectHideSubObjectPermanently( self, "REGELF04", false )
+		ObjectHideSubObjectPermanently( self, "HAELF04", false )
+    end 
+
+	if horse <= 0.25 then
+        ObjectHideSubObjectPermanently( self, "HORSE01", false )
+	elseif horse <= 0.50 then
+        ObjectHideSubObjectPermanently( self, "HORSE02", false )
+	elseif horse <= 0.75 then
+        ObjectHideSubObjectPermanently( self, "HORSE03", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HORSE04", false )
+    end 
+	
+	if banner <= 0.4 then
+        ObjectHideSubObjectPermanently( self, "BANNER01", false )
+	elseif banner <= 0.8 then
+        ObjectHideSubObjectPermanently( self, "BANNER02", false )
+     else
+        ObjectHideSubObjectPermanently( self, "BANNER03", false )
+    end 
+
+end
+
+-- Rivendell Veterans Banner
+function OnLANoldorBannerCreated(self)
+	ObjectHideSubObject( self, "ARROW", true )
+	ObjectHideSubObject( self, "ARROWNOCKUP", true )
+	ObjectHideSubObject( self, "QUIVERUP", true )
+	ObjectHideSubObject( self, "SHEATHED", true )
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
+end
+
+-- Rivendell Veterans
+function OnLANoldorCreated(self)
+	ObjectHideSubObject( self, "ARROW", true )
+	ObjectHideSubObject( self, "ARROWNOCKUP", true )
+	ObjectHideSubObject( self, "QUIVERUP", true )
+	ObjectHideSubObject( self, "SHEATHED", true )
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
+
+    ObjectHideSubObjectPermanently( self, "HEADBLACK", true )
+	ObjectHideSubObjectPermanently( self, "HEADBLACKHA", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK1", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK1HA", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK2", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK2HA", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK3", true )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK3HA", true )
+	ObjectHideSubObjectPermanently( self, "HEADBROWN", true )
+    ObjectHideSubObjectPermanently( self, "HEADBROWN1", true )
+    ObjectHideSubObjectPermanently( self, "HEADBROWN1HA", true )
+	ObjectHideSubObjectPermanently( self, "HEADBROWNHA", true )
+	ObjectHideSubObjectPermanently( self, "HEADGRAY", true )
+    ObjectHideSubObjectPermanently( self, "HEADGRAY1", true )
+    ObjectHideSubObjectPermanently( self, "HEADGRAY1HA", true )
+	ObjectHideSubObjectPermanently( self, "HEADGRAYHA", true )
+
+    local head         =    GetRandomNumber()
+
+    if head <= 0.1 then
+        ObjectHideSubObjectPermanently( self, "HEADBLACK", false )
+		ObjectHideSubObjectPermanently( self, "HEADBLACKHA", false )
+    elseif head <= 0.2 then
+        ObjectHideSubObjectPermanently( self, "HEADBLACK1", false )
+		ObjectHideSubObjectPermanently( self, "HEADBLACK1HA", false )
+	elseif head <= 0.4 then
+        ObjectHideSubObjectPermanently( self, "HEADBLACK2", false )
+		ObjectHideSubObjectPermanently( self, "HEADBLACK2HA", false )
+	elseif head <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HEADBLACK3", false )
+		ObjectHideSubObjectPermanently( self, "HEADBLACK3HA", false )
+	elseif head <= 0.6 then
+        ObjectHideSubObjectPermanently( self, "HEADBROWN", false )
+		ObjectHideSubObjectPermanently( self, "HEADBROWNHA", false )
+	elseif head <= 0.7 then
+        ObjectHideSubObjectPermanently( self, "HEADBROWN1", false )
+		ObjectHideSubObjectPermanently( self, "HEADBROWN1HA", false )
+	elseif head <= 0.8 then
+        ObjectHideSubObjectPermanently( self, "HEADGRAY", false )
+		ObjectHideSubObjectPermanently( self, "HEADGRAYHA", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HEADGRAY1", false )
+		ObjectHideSubObjectPermanently( self, "HEADGRAY1HA", false )
+    end
+
+end
+
 -- Noldor Exiles
 function OnNoldorExilesCreated(self)
 	ObjectHideSubObject( self, "ARROW", true )
@@ -255,7 +597,7 @@ function OnNoldorExilesCreated(self)
 
 end
 
--- Noldor
+-- Rivendell Noldor
 function OnRivendellNoldorCreated(self)
 	ObjectHideSubObject( self, "ARROW", true )
 	ObjectHideSubObject( self, "ARROWNOCKUP", true )

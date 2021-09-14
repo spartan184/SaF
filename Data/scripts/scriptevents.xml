@@ -317,6 +317,10 @@
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnHobbitBounderCreated" DebugSingleStep="false"/>
     </EventList>
     
+    <EventList Name="TookArcherFunctions" Inherit="InfantryFunctions">
+      <EventHandler EventName="OnCreated"				ScriptFunctionName="OnTookArcherCreated" DebugSingleStep="false"/>
+    </EventList>
+    
     <EventList Name="BreelandTownsGuardFunctions" Inherit="SaFInfantryFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnBreelandTownsGuardCreated" DebugSingleStep="false"/>
     </EventList>
@@ -327,6 +331,22 @@
 
     <EventList Name="GreyCompanyRangerFunctions" Inherit="SaFInfantryFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnGreyCompanyRangerCreated" DebugSingleStep="false"/>
+    </EventList>
+    
+    <EventList Name="RivendellElvenWarriorFunctions" Inherit="InfantryFunctions">
+      <EventHandler EventName="OnCreated"				ScriptFunctionName="OnRivendellWarriorCreated" DebugSingleStep="false"/>
+    </EventList>
+
+    <EventList Name="RivendellElvenWarriorMountFunctions" Inherit="InfantryFunctions">
+      <EventHandler EventName="OnCreated"				ScriptFunctionName="OnRivendellWarriorMountCreated" DebugSingleStep="false"/>
+    </EventList>
+
+    <EventList Name="RivendellVeteranFunctions" Inherit="InfantryFunctions">
+      <EventHandler EventName="OnCreated"				ScriptFunctionName="OnRivendellNoldorCreated" DebugSingleStep="false"/>
+    </EventList>
+
+    <EventList Name="LAElvenNoldorBannerFunctions" Inherit="SaFInfantryFunctions">
+      <EventHandler EventName="OnCreated"				ScriptFunctionName="OnLANoldorBannerCreated" DebugSingleStep="false"/>
     </EventList>
     
     <EventList Name="RivendellNoldorExilesFunctions" Inherit="SaFInfantryFunctions">
