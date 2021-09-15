@@ -1,24 +1,12 @@
 Internal animation is named mublkrider_wlkabMUBLKRIDER_SKL; Could not get info for art\w3d\mublkrider_wlkab.w3d
-Asset A_URUKBOLT.ARROWNOCK in file a_urukbolt.w3d depends on unknown asset iuurukhai.tga.
-Asset A_URUKBOLTFIRE.ARROWNOCK in file a_urukboltfire.w3d depends on unknown asset iuurukhai.tga.
 Asset ABNORCHARD_D1.HEAD12 in file abnorchard_d1.w3d depends on unknown asset eulancer_heads.psd.
 Asset ABNORCHARD_D1.HEAD11 in file abnorchard_d1.w3d depends on unknown asset eulancer_heads.psd.
 Asset ABNORCHARD_D1.HEAD10 in file abnorchard_d1.w3d depends on unknown asset eulancer_heads.psd.
 Asset ABNORCHARD_D2.HEAD12 in file abnorchard_d2.w3d depends on unknown asset eulancer_heads.psd.
 Asset ABNORCHARD_D2.HEAD11 in file abnorchard_d2.w3d depends on unknown asset eulancer_heads.psd.
 Asset ABNORCHARD_D2.HEAD10 in file abnorchard_d2.w3d depends on unknown asset eulancer_heads.psd.
-Asset ABRIVTOWER_D1.ABRIVTOWER in file abrivtower_d1.w3d depends on unknown asset normalmapped.fx.
-Asset ABRIVTOWER_D2.ABRIVTOWER in file abrivtower_d2.w3d depends on unknown asset normalmapped.fx.
 Asset abstatue_d1.OBJECT01 in file abstatue_d1.w3d depends on unknown asset normalmapped.fx.
 Asset abstatue_d1.OBJECT02 in file abstatue_d1.w3d depends on unknown asset normalmapped.fx.
-Asset ABSTATUE_D2.OBJECT01 in file abstatue_d2.w3d depends on unknown asset normalmapped.fx.
-Asset ABSTATUE_D2.STATUE in file abstatue_d2.w3d depends on unknown asset normalmapped.fx.
-Asset ABSTATUE_D2.PLINTH in file abstatue_d2.w3d depends on unknown asset normalmapped.fx.
-Asset ABSTATUE_D2.SHIELD in file abstatue_d2.w3d depends on unknown asset normalmapped.fx.
-Asset ABWELL_D1.FLOOR01 in file abwell_d1.w3d depends on unknown asset normalmapped.fx.
-Asset ABWELL_D1.FLOOR2 in file abwell_d1.w3d depends on unknown asset normalmapped.fx.
-Asset ABWELL_D2.FLOOR01 in file abwell_d2.w3d depends on unknown asset normalmapped.fx.
-Asset ABWELL_D2.FLOOR2 in file abwell_d2.w3d depends on unknown asset normalmapped.fx.
 Asset AUBOUNDER_SKN in file aubounder_skn.w3d depends on unknown asset h*rufrodo_skl.
 Asset AUNGLORF_MNT in file aunglorf_mnt.w3d depends on unknown asset h*ruhhs_theo_skl.
 Asset AURAM_SKN in file auram_skn.w3d depends on unknown asset h*iubattrram_skl.
@@ -78,9 +66,6 @@ Asset CHWZ_YW_U_SKN.WIZARDSTAFF01 in file chwz_yw_u_skn.w3d depends on unknown a
 Asset CHWZ_YW_U_SKN.SLDR_01 in file chwz_yw_u_skn.w3d depends on unknown asset chhw_swn_gear_01.tga.
 Asset CHWZ_YW_U_SKN.SLDR_02 in file chwz_yw_u_skn.w3d depends on unknown asset chhw_swn_gear_02.tga.
 Asset CUGIANTBAT_SKN in file cugiantbat_skn.w3d depends on unknown asset h*cufellbst_skl.
-Asset EBFORGE_D1.V2B in file ebforge_d1.w3d depends on unknown asset normalmapped.fx.
-Asset EBFORGE_D1.V2 in file ebforge_d1.w3d depends on unknown asset normalmapped.fx.
-Asset EBFORGE_D1.BOX02 in file ebforge_d1.w3d depends on unknown asset normalmapped.fx.
 Asset EUGALADHRIMBNR in file eugaladhrimbnr.w3d depends on unknown asset h*gubanner_skl.
 Asset EULANCER_SKN in file eulancer_skn.w3d depends on unknown asset h*rurohrm_skl.
 Asset EULANCER_SKNH in file eulancer_sknh.w3d depends on unknown asset h*rurohrm_skl.
