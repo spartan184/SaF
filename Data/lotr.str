@@ -512,7 +512,7 @@ CONTROLBAR:ConstructDunedainRangerHorde
 "Dunedain of the North"
 END
 CONTROLBAR:ToolTipDunedainRangerHorde
-"Recruit Rangers of the North. Initially only recruited with bows.\n Strong vs. Archers, Monsters"
+"Recruit Rangers of the North. Skilled with bow and sword.\n Strong vs. Archers, Monsters"
 END
 
 OBJECT:GreyCompanyRanger
@@ -525,7 +525,7 @@ CONTROLBAR:ConstructGreyCompanyRangerHorde
 "Dunedain of the Grey Company"
 END
 CONTROLBAR:ToolTipGreyCompanyRangerHorde
-"Required: Rank 3 Gathering \n Limited to 3 units \n Strong vs. Normal Infantry and Monsters"
+"Required: Rank 3 Gathering \n Limited to 3 units \n Strong vs. Infantry, Cavalry and Monsters"
 END
 
 OBJECT:RivendellGuardian
