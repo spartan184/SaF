@@ -180,6 +180,10 @@ Asset MUBLKRIDER_SKN.NAZGUL_SKIN in file mublkrider_skn.w3d depends on unknown a
 Asset MUBLKRIDER_SKN.GUHORSETEMP in file mublkrider_skn.w3d depends on unknown asset mublkriderhorseh.tga.
 Asset MUCATAPULT_ROCK.BOX02 in file mucatapult_rock.w3d depends on unknown asset gbbricks.tga.
 Asset MUCATAPULT_SKN in file mucatapult_skn.w3d depends on unknown asset h*mucatapult_skl.
+Asset MUCAVTROLL_SKN.TRUNK01 in file mucavtroll_skn.w3d depends on unknown asset ptree08.tga.
+Asset MUCAVTROLL_SKN in file mucavtroll_skn.w3d depends on unknown asset h*mucavtroll_skl.
+Asset MUCAVTROLL_SKNL.TRUNK01 in file mucavtroll_sknl.w3d depends on unknown asset ptree08.tga.
+Asset MUCAVTROLL_SKNL in file mucavtroll_sknl.w3d depends on unknown asset h*mucavtroll_skl.
 Asset MUCAVTROLL_SKNM.TRUNK01 in file mucavtroll_sknm.w3d depends on unknown asset ptree08.tga.
 Asset MUCAVTROLL_SKNM in file mucavtroll_sknm.w3d depends on unknown asset h*mucavtroll_skl.
 Asset MUDRMTROLL_SKN in file mudrmtroll_skn.w3d depends on unknown asset h*mudrmtroll_skl.
