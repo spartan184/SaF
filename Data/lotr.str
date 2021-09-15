@@ -612,10 +612,24 @@ END
 CONTROLBAR:GreyCompanyGrimResolve
 "Grim Resolve"
 END
-
 CONTROLBAR:ToolTipGreyCompanyGrimResolve
 "Nearby enemies lose 10% armour and damage and have reduced fear resistance \n Each time a ranger falls the other members of the\nbattalion gain a small damage and armor boost for a short time \n Passive Ability"
 END
+
+CONTROLBAR:RivendellVeteranLALeadership
+"Veterans of the Last Alliance"
+END
+CONTROLBAR:ToolTipRivendellVeteranLALeadership
+"Nearby Dunedain and Breelanders gain +25% Armor \n Nearby Elven units gain +25% Damage \n Passive Ability"
+END
+
+CONTROLBAR:RivendellVeteransAbility
+"Veterans of Eregion"
+END
+CONTROLBAR:ToolTipRivendellVeteransAbility
+"The Veterans remember the times of Sauron's attack on the elven kingdoms of the North. \nThe battalion is temporarily immune to knockback and gains +50% Damage \n Left Click to Activate"
+END
+
 // ============================================================= //
 // ================= #Rivendell Unit Upgrades ================== //
 // ============================================================= //
@@ -627,17 +641,20 @@ CONTROLBAR:PurchaseTechnologyRivendellBanner
 "Rivendell &Banners Upgrade"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyRivendellBanner
-"Ranks a new unit to level 2 veterancy \n Can only be equipped at Level 1 \n Purchase Captain Upgrade \n Select a horde to equip upgrade"
+"Purchase Banner Upgrade \nRanks a new unit to level 2 veterancy \n Can only be equipped at Level 1  \n Select a horde to equip upgrade"
 END
 TOOLTIP:LackLevel2RivendellForgeBanner
 "Required: Level 2 Forge \nRanks a new unit to level 2 veterancy \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
 
 CONTROLBAR:PurchaseUpgradeRivendellBanner
+"Elven &Banner Upgrade"
+END
+CONTROLBAR:PurchaseUpgradeRivendellDunedainBanner
 "Dunedain &Captain Upgrade"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeRivendellBanner
-"Ranks a new unit to level 2 veterancy \n Can only be equipped at Level 1 \n Purchase Captain Upgrade \n Select a horde to equip upgrade"
+"Purchase Banner Upgrade \nRanks a new unit to level 2 veterancy \n Can only be equipped at Level 1"
 END
 TOOLTIP:LackRivendellBanner
 "Ranks a new unit to level 2 veterancy \n Purchase upgrade at the Forge to enable this equipment"
