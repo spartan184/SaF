@@ -809,6 +809,10 @@ OBJECT:RivendellCastleGate
 "Rivendell Castle Gate"
 END
 
+OBJECT:RivendellCastleDoor
+"Rivendell Castle Door"
+END
+
 OBJECT:RivendellBuildingFoundation
 "Rivendell Building Foundation"
 END
