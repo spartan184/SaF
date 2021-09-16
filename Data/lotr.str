@@ -836,6 +836,12 @@ CONTROLBAR:ToolTipBuildRivendellOrchard
 "Reduces the Cost of Cavalry\n 2 Farms: 10%\n 3 Farms: 15% \n 4 Farms: 20%\n 5 Farms: 25%\n 6+ Farms: 30%"
 END
 
+CONTROLBAR:UnpackRivendellOrchard
+"Rivendell &Orchard"
+END
+CONTROLBAR:ToolTipRivendellOrchard
+"Reduces the Cost of Cavalry\n 2 Farms: 10%\n 3 Farms: 15% \n 4 Farms: 20%\n 5 Farms: 25%\n 6+ Farms: 30%"
+END
 // -- Rivendell Forge
 OBJECT:RivendellForge
 "Rivendell Forge"
