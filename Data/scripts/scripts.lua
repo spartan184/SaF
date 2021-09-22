@@ -1,4 +1,24 @@
 -- define lua functions
+function OnFireSpecialActivation(self)
+	ObjectHideSubObjectPermanently( self, "FIREAROWTIP", false )
+end
+function OnFireSpecialStop(self)
+	ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
+end
+function HordeFireArrowActivationHook(self)
+	HordeBroadcastEventToMembers( self, "User1Achieved", true )
+end
+function HordeFireArrowDeactivationHook(self)
+	HordeBroadcastEventToMembers( self, "User1Lost", true )
+end
+
+function OnFireSpecialActivationRanger(self)
+    ObjectDoSpecialPower( self, "SpecialAbilityRank2" )
+    ObjectHideSubObjectPermanently( self, "FIREAROWTIP", false )
+end
+function OnFireSpecialStopRanger(self)
+    ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
+end
 
 -- Blessing of Ulmo
 function OnBlessingOfUlmoCreated(self)
@@ -289,6 +309,11 @@ function OnBreelandTownsGuardCreated(self)
         ObjectHideSubObjectPermanently( self, "BODY04", false )
     end 
 
+end
+
+-- Dunedain Rangers
+function HordeDoSpecialAbilityDunedainSwitchToMelee(self)
+    ObjectDoSpecialPower( self, "SpecialAbilityRank2" )
 end
 
 -- Rivendell Infantry
@@ -1244,28 +1269,6 @@ function OnKingsguardCreated(self)
      else
         ObjectHideSubObjectPermanently( self, "QUIVERB", false )
     end 
-end
-
-function OnFireSpecialActivation(self)
-	ObjectHideSubObjectPermanently( self, "FIREAROWTIP", false )
-end
-function OnFireSpecialStop(self)
-	ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
-end
-function HordeFireArrowActivationHook(self)
-	HordeBroadcastEventToMembers( self, "User1Achieved", true )
-end
-function HordeFireArrowDeactivationHook(self)
-	HordeBroadcastEventToMembers( self, "User1Lost", true )
-end
-
-function OnFireSpecialActivationRanger(self)
-    ObjectDoSpecialPower( self, "SpecialAbilityRank2" )
-    ObjectHideSubObjectPermanently( self, "FIREAROWTIP", false )
-end
-
-function OnFireSpecialStopRanger(self)
-    ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
 end
 
 function OnWitchKingCreated(self)

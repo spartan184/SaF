@@ -94,7 +94,7 @@
       </ModelConditionEvent>
 
       <ModelConditionEvent Name="CaveTrollUsingHammer">
-              <Conditions>-WEAPONSTATE_ONE +PLAYER_UPGRADE_2</Conditions>
+        <Conditions>-WEAPONSTATE_ONE +PLAYER_UPGRADE_2</Conditions>
       </ModelConditionEvent>
     
       <ModelConditionEvent Name="CaveTrollUsingRockThrow">
@@ -149,7 +149,7 @@
       <ModelConditionEvent Name="WeaponsetToggleOff">
         <Conditions>-WEAPONSET_TOGGLE_1</Conditions>
       </ModelConditionEvent>
-
+      
       <ModelConditionEvent Name="WeaponsetPlayerUpgrade">
         <Conditions>+WEAPONSET_PLAYER_UPGRADE</Conditions>
       </ModelConditionEvent>
@@ -331,8 +331,17 @@
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnDunedainRangerCreated" DebugSingleStep="false"/>
       <EventHandler EventName="User1Achieved"	  ScriptFunctionName="OnFireSpecialActivation"  DebugSingleStep="false"/>
       <EventHandler EventName="User1Lost"       ScriptFunctionName="OnFireSpecialStop"  DebugSingleStep="false"/>
+      <EventHandler EventName="WeaponsetToggleOn" ScriptFunctionName="HordeDoSpecialAbilityDunedainSwitchToMelee"  DebugSingleStep="false"/>
+      <EventHandler EventName="WEAPONSET_PLAYER_UPGRADE" ScriptFunctionName="HordeDoSpecialAbilityDunedainSwitchToMelee"  DebugSingleStep="false"/>
     </EventList>
-
+	
+    <EventList Name="DunedainRangerHordeFunctions" Inherit="GondorArcherFunctions">
+      <EventHandler EventName="WeaponlockActivated"	ScriptFunctionName="HordeFireArrowActivationHook"  DebugSingleStep="false"/>
+      <EventHandler EventName="WeaponlockDeactivated" ScriptFunctionName="HordeFireArrowDeactivationHook"  DebugSingleStep="false"/>
+      <EventHandler EventName="WeaponsetToggleOn" ScriptFunctionName="HordeDoSpecialAbilityDunedainSwitchToMelee"  DebugSingleStep="false"/>
+      <EventHandler EventName="WeaponsetPlayerUpgrade" ScriptFunctionName="HordeDoSpecialAbilityDunedainSwitchToMelee"  DebugSingleStep="false"/>
+    </EventList>
+    
     <EventList Name="GreyCompanyRangerFunctions" Inherit="SaFInfantryFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnGreyCompanyRangerCreated" DebugSingleStep="false"/>
     </EventList>

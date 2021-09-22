@@ -630,8 +630,38 @@ CONTROLBAR:ToolTipRivendellVeteransAbility
 "The Veterans remember the times of Sauron's attack on the elven kingdoms of the North. \nThe battalion is temporarily immune to knockback and gains +50% Damage \n Left Click to Activate"
 END
 
+TOOLTIP:DunedainSpears
+"Equip Spears"
+END
+CONTROLBAR:UpgradeDunedainSpears
+"Spears Equiped"
+END
+TOOLTIP:DunedainSwords
+"Equip Swords"
+END
+CONTROLBAR:UpgradeDunedainSwords
+"Swords Equiped"
+END
+CONTROLBAR:PurchaseUpgradeDunedainSpears
+"Purchase Swords"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDunedainSpears
+"Rangers permanantly equip themselves with spears, granting them a damage bonus towards calvary and heroes"
+END
+CONTROLBAR:ToolTipUpgradeDunedainSpears
+"Rangers permanantly equip themselves with spears, granting them a damage bonus towards calvary and heroes"
+END
+CONTROLBAR:PurchaseUpgradeDunedainSwords
+"Purchase Swords"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDunedainSwords
+"Rangers permanantly equip themselves with swords, granting them a damage bonus towards infantry and slighly increased armor"
+END
+CONTROLBAR:ToolTipUpgradeDunedainSwords
+"Rangers permanantly equip themselves with swords, granting them a damage bonus towards infantry and slighly increased armor"
+END
 // ============================================================= //
-// ================= #Rivendell Unit Upgrades ================== //
+// ================ #Rivendell Faction Upgrades ================ //
 // ============================================================= //
 // -- Banner Carrier
 UPGRADE:RivendellBanner
