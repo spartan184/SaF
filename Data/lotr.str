@@ -442,6 +442,42 @@ END
 CONTROLBAR:ToolTipMaggotFarmSummon
 "Required: Rank 2 \n Summons Farmer Maggot's farm for a short time \nGenerates a large amount of resources \n Left click then right click on target"
 END
+
+// -- #Grey Pilgrim
+CONTROLBAR:GreyPilgrimCartSummon
+"Gandalf's &Cart"
+END
+CONTROLBAR:ToolTipGreyPilgrimCartSummon
+"Summons Farmer Gandalf's Cart for a short time \nHeals nearby units \n Left click then right click on target"
+END
+
+CONTROLBAR:GreyPilgrimMoreLight
+"Let's &Risk A Little More Light"
+END
+CONTROLBAR:ToolTipGreyPilgrimMoreLight
+"Nearby archers gain +20% range and +15% damage \nLeft click to activate"
+END
+
+CONTROLBAR:GreyPilgrimDisturbPeace
+"&Disturber of the Peace"
+END
+CONTROLBAR:ToolTipGreyPilgrimDisturbPeace
+"Gandalf shoots off a peculiar firework at the selected target \nLeft click icon then left click on target"
+END
+
+CONTROLBAR:GreyPilgrimFoeHammer
+"The &Foe-Hammer"
+END
+CONTROLBAR:ToolTipGreyPilgrimFoeHammer
+"Shoots out lightning bolts from Glamdring\n Left click icon then left click on target area"
+END
+
+CONTROLBAR:GreyPilgrimShallNotPass
+"You Sh&all Not Pass"
+END
+CONTROLBAR:ToolTipGreyPilgrimShallNotPass
+"Stuns enemy units in a wide radius around Gandalf \nLeft click to activate."
+END
 // ============================================================ //
 // ===================== #Rivendell Units ===================== //
 // ============================================================ //
@@ -998,6 +1034,14 @@ OBJECT:RivendellMaggotsFarm
 END
 OBJECT:RivendellMaggotsFarmDesc
 "Generates a large amount of resources"
+END
+
+// -- Grey Pilgrim Cart
+OBJECT:GandalfCart
+"Gandalf's Cart"
+END
+OBJECT:GandalfCartDesc
+"Gandalf's Cart is full of suprises! \n Heals nearby allies"
 END
 
 // -- Remnant of the Old Kingdom
