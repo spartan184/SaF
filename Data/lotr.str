@@ -37,6 +37,13 @@ END
 CONTROLBAR:GenericHeroRevive
 "Revive your Fallen Hero"
 END
+
+CONTROLBAR:ToggleWeapons
+"&Toggle Weapon"
+END
+CONTROLBAR:ToolTipToggleWeaponSpear
+"Left click to toggle between bow and spear"
+END
 // ############################################################ //
 // ======================== #Rivendell ======================== //
 // ############################################################ //
