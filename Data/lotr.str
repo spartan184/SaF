@@ -636,20 +636,21 @@ END
 CONTROLBAR:UpgradeDunedainSpears
 "Spears Equiped"
 END
-TOOLTIP:DunedainSwords
-"Equip Swords"
-END
-CONTROLBAR:UpgradeDunedainSwords
-"Swords Equiped"
-END
 CONTROLBAR:PurchaseUpgradeDunedainSpears
-"Purchase Swords"
+"Purchase Spears"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDunedainSpears
 "Rangers permanantly equip themselves with spears, granting them a damage bonus towards calvary and heroes"
 END
 CONTROLBAR:ToolTipUpgradeDunedainSpears
 "Rangers permanantly equip themselves with spears, granting them a damage bonus towards calvary and heroes"
+END
+
+TOOLTIP:DunedainSwords
+"Equip Swords"
+END
+CONTROLBAR:UpgradeDunedainSwords
+"Swords Equiped"
 END
 CONTROLBAR:PurchaseUpgradeDunedainSwords
 "Purchase Swords"
