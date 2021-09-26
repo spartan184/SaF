@@ -317,7 +317,7 @@
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnHobbitBounderCreated" DebugSingleStep="false"/>
     </EventList>
     
-    <EventList Name="TookArcherFunctions" Inherit="InfantryFunctions">
+    <EventList Name="TookArcherFunctions" Inherit="SaFInfantryFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnTookArcherCreated" DebugSingleStep="false"/>
       <EventHandler EventName="User1Achieved"	  ScriptFunctionName="OnFireSpecialActivation"  DebugSingleStep="false"/>
       <EventHandler EventName="User1Lost"       ScriptFunctionName="OnFireSpecialStop"  DebugSingleStep="false"/>
@@ -342,7 +342,7 @@
       <EventHandler EventName="WeaponsetPlayerUpgrade" ScriptFunctionName="HordeDoSpecialAbilityDunedainSwitchToMelee"  DebugSingleStep="false"/>
     </EventList>
     
-    <EventList Name="GreyCompanyRangerFunctions" Inherit="SaFInfantryFunctions">
+    <EventList Name="GreyCompanyRangerFunctions" Inherit="InfantryFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnGreyCompanyRangerCreated" DebugSingleStep="false"/>
     </EventList>
     
@@ -358,19 +358,19 @@
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnRivendellNoldorCreated" DebugSingleStep="false"/>
     </EventList>
 
-    <EventList Name="RivendellVeteranBannerFunctions" Inherit="SaFInfantryFunctions">
+    <EventList Name="RivendellVeteranBannerFunctions" Inherit="InfantryFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnLANoldorBannerCreated" DebugSingleStep="false"/>
     </EventList>
     
-    <EventList Name="RivendellNoldorExilesFunctions" Inherit="SaFInfantryFunctions">
+    <EventList Name="RivendellNoldorExilesFunctions" Inherit="InfantryFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnNoldorExilesCreated" DebugSingleStep="false"/>
     </EventList>
 
-    <EventList Name="RivendellNoldorFunctions" Inherit="SaFInfantryFunctions">
+    <EventList Name="RivendellNoldorFunctions" Inherit="InfantryFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnRivendellNoldorCreated" DebugSingleStep="false"/>
     </EventList>
     
-    <EventList Name="DwarvenPhalanxFunctions" Inherit="SaFInfantryFunctions">
+    <EventList Name="DwarvenPhalanxFunctions" Inherit="InfantryFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnDwarvenPhalanxCreated" DebugSingleStep="false"/>
     </EventList>
     
@@ -378,7 +378,7 @@
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnMirkwoodArcherCreated" DebugSingleStep="false"/>
     </EventList>
     
-    <EventList Name="LaketownGuardFunctions" Inherit="SaFInfantryFunctions">
+    <EventList Name="LaketownGuardFunctions" Inherit="InfantryFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnLaketownGuard" DebugSingleStep="false"/>
     </EventList>
     

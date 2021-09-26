@@ -581,7 +581,7 @@ CONTROLBAR:ConstructRivendellGuardianHorde
 "Recruit Rivendell Guardians"
 END
 CONTROLBAR:ToolTipRivendellGuardianHorde
-"Rivendell Guardsmen \n Strong vs. Pikemen and Siege \n\nThere is no Elf in Rivendell that has not been trained, at one point or another, to masterfully wield a longsword."
+"Rivendell Guardsmen \n Strong vs. Pikemen and Siege \n\nThere is no Elf in Rivendell that has not been trained, at one point or another, to masterfully wield a longsword as well as a bow."
 END
 
 OBJECT:RivendellKnight
