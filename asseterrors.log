@@ -94,6 +94,9 @@ Asset GBFORGE_D2 in file gbforge_d2.w3d depends on unknown asset gbforge_d2.obje
 Asset GBFORGE_SKN in file gbforge_skn.w3d depends on unknown asset gbforge_skn.object04.
 Asset GBSTABLE_SKNA.V2FLAG in file gbstable_skna.w3d depends on unknown asset exgflagseq.tga.
 Asset GBSTABLE_SKNA in file gbstable_skna.w3d depends on unknown asset h*gbstable_skl.
+Asset GPCAMPFIRE.BONFIRE in file gpcampfire.w3d depends on unknown asset pcampfire.tga.
+Asset GPCAMPFIRE.PBARREL_S in file gpcampfire.w3d depends on unknown asset pbarrel.tga.
+Asset GPCAMPFIRE.BOX04 in file gpcampfire.w3d depends on unknown asset gbcastelev.tga.
 Asset GUANORIENB_SKN in file guanorienb_skn.w3d depends on unknown asset h*gubanner_skl.
 Asset GUANORIENC_SKN in file guanorienc_skn.w3d depends on unknown asset h*gucavalry_skl.
 Asset GUBOROMIR_CLOAK in file guboromir_cloak.w3d depends on unknown asset h*guboromir_skl.
