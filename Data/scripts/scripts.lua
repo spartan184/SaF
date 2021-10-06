@@ -429,85 +429,85 @@ function OnRivendellWarriorMountCreated(self)
 	ObjectHideSubObjectPermanently( self, "HAELF03", true )
 	ObjectHideSubObjectPermanently( self, "HAELF04", true )
 
-    ObjectHideSubObjectPermanently( self, "HEADBLACK", true )
+  ObjectHideSubObjectPermanently( self, "HEADBLACK", true )
 	ObjectHideSubObjectPermanently( self, "HEADBLACKHA", true )
-    ObjectHideSubObjectPermanently( self, "HEADBLACK1", true )
-    ObjectHideSubObjectPermanently( self, "HEADBLACK1HA", true )
-    ObjectHideSubObjectPermanently( self, "HEADBLACK2", true )
-    ObjectHideSubObjectPermanently( self, "HEADBLACK2HA", true )
-    ObjectHideSubObjectPermanently( self, "HEADBLACK3", true )
-    ObjectHideSubObjectPermanently( self, "HEADBLACK3HA", true )
+  ObjectHideSubObjectPermanently( self, "HEADBLACK1", true )
+  ObjectHideSubObjectPermanently( self, "HEADBLACK1HA", true )
+  ObjectHideSubObjectPermanently( self, "HEADBLACK2", true )
+  ObjectHideSubObjectPermanently( self, "HEADBLACK2HA", true )
+  ObjectHideSubObjectPermanently( self, "HEADBLACK3", true )
+  ObjectHideSubObjectPermanently( self, "HEADBLACK3HA", true )
 	ObjectHideSubObjectPermanently( self, "HEADBROWN", true )
-    ObjectHideSubObjectPermanently( self, "HEADBROWN1", true )
-    ObjectHideSubObjectPermanently( self, "HEADBROWN1HA", true )
+  ObjectHideSubObjectPermanently( self, "HEADBROWN1", true )
+  ObjectHideSubObjectPermanently( self, "HEADBROWN1HA", true )
 	ObjectHideSubObjectPermanently( self, "HEADBROWNHA", true )
 	ObjectHideSubObjectPermanently( self, "HEADGRAY", true )
-    ObjectHideSubObjectPermanently( self, "HEADGRAY1", true )
-    ObjectHideSubObjectPermanently( self, "HEADGRAY1HA", true )
+  ObjectHideSubObjectPermanently( self, "HEADGRAY1", true )
+  ObjectHideSubObjectPermanently( self, "HEADGRAY1HA", true )
 	ObjectHideSubObjectPermanently( self, "HEADGRAYHA", true )
 
-    local head         =    GetRandomNumber()
-    local horse         =    GetRandomNumber()
+  local head         =    GetRandomNumber()
+  local horse         =    GetRandomNumber()
 	local body         =    GetRandomNumber()
 	local banner         =    GetRandomNumber()
 
-    if head <= 0.1 then
-        ObjectHideSubObjectPermanently( self, "HEADBLACK", false )
-		ObjectHideSubObjectPermanently( self, "HEADBLACKHA", false )
-    elseif head <= 0.2 then
-        ObjectHideSubObjectPermanently( self, "HEADBLACK1", false )
+  if head <= 0.1 then
+    ObjectHideSubObjectPermanently( self, "HEADBLACK", false )
+    ObjectHideSubObjectPermanently( self, "HEADBLACKHA", false )
+  elseif head <= 0.2 then
+    ObjectHideSubObjectPermanently( self, "HEADBLACK1", false )
 		ObjectHideSubObjectPermanently( self, "HEADBLACK1HA", false )
 	elseif head <= 0.4 then
-        ObjectHideSubObjectPermanently( self, "HEADBLACK2", false )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK2", false )
 		ObjectHideSubObjectPermanently( self, "HEADBLACK2HA", false )
 	elseif head <= 0.5 then
-        ObjectHideSubObjectPermanently( self, "HEADBLACK3", false )
+    ObjectHideSubObjectPermanently( self, "HEADBLACK3", false )
 		ObjectHideSubObjectPermanently( self, "HEADBLACK3HA", false )
 	elseif head <= 0.6 then
-        ObjectHideSubObjectPermanently( self, "HEADBROWN", false )
+    ObjectHideSubObjectPermanently( self, "HEADBROWN", false )
 		ObjectHideSubObjectPermanently( self, "HEADBROWNHA", false )
 	elseif head <= 0.7 then
-        ObjectHideSubObjectPermanently( self, "HEADBROWN1", false )
+    ObjectHideSubObjectPermanently( self, "HEADBROWN1", false )
 		ObjectHideSubObjectPermanently( self, "HEADBROWN1HA", false )
 	elseif head <= 0.8 then
-        ObjectHideSubObjectPermanently( self, "HEADGRAY", false )
+    ObjectHideSubObjectPermanently( self, "HEADGRAY", false )
 		ObjectHideSubObjectPermanently( self, "HEADGRAYHA", false )
-     else
-        ObjectHideSubObjectPermanently( self, "HEADGRAY1", false )
+  else
+    ObjectHideSubObjectPermanently( self, "HEADGRAY1", false )
 		ObjectHideSubObjectPermanently( self, "HEADGRAY1HA", false )
-    end   
+  end   
 	
 	if body <= 0.25 then
-        ObjectHideSubObjectPermanently( self, "REGELF01", false )
+    ObjectHideSubObjectPermanently( self, "REGELF01", false )
 		ObjectHideSubObjectPermanently( self, "HAELF01", false )
 	elseif body <= 0.50 then
-        ObjectHideSubObjectPermanently( self, "REGELF02", false )
+    ObjectHideSubObjectPermanently( self, "REGELF02", false )
 		ObjectHideSubObjectPermanently( self, "HAELF02", false )
 	elseif body <= 0.75 then
-        ObjectHideSubObjectPermanently( self, "REGELF03", false )
+    ObjectHideSubObjectPermanently( self, "REGELF03", false )
 		ObjectHideSubObjectPermanently( self, "HAELF03", false )
-     else
-        ObjectHideSubObjectPermanently( self, "REGELF04", false )
+  else
+    ObjectHideSubObjectPermanently( self, "REGELF04", false )
 		ObjectHideSubObjectPermanently( self, "HAELF04", false )
-    end 
+  end 
 
 	if horse <= 0.25 then
-        ObjectHideSubObjectPermanently( self, "HORSE01", false )
+    ObjectHideSubObjectPermanently( self, "HORSE01", false )
 	elseif horse <= 0.50 then
-        ObjectHideSubObjectPermanently( self, "HORSE02", false )
+    ObjectHideSubObjectPermanently( self, "HORSE02", false )
 	elseif horse <= 0.75 then
-        ObjectHideSubObjectPermanently( self, "HORSE03", false )
-     else
-        ObjectHideSubObjectPermanently( self, "HORSE04", false )
-    end 
+    ObjectHideSubObjectPermanently( self, "HORSE03", false )
+  else
+    ObjectHideSubObjectPermanently( self, "HORSE04", false )
+  end 
 	
 	if banner <= 0.4 then
-        ObjectHideSubObjectPermanently( self, "BANNER01", false )
+    ObjectHideSubObjectPermanently( self, "BANNER01", false )
 	elseif banner <= 0.8 then
-        ObjectHideSubObjectPermanently( self, "BANNER02", false )
-     else
-        ObjectHideSubObjectPermanently( self, "BANNER03", false )
-    end 
+    ObjectHideSubObjectPermanently( self, "BANNER02", false )
+  else
+    ObjectHideSubObjectPermanently( self, "BANNER03", false )
+  end 
 
 end
 
