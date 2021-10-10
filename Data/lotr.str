@@ -900,6 +900,10 @@ OBJECT:RivendellCastleWall
 "Rivendell Castle Wall"
 END
 
+OBJECT:RivendellCastleWallUpgrade
+"Rivendell Castle Wall"
+END
+
 OBJECT:RivendellCastleGate
 "Rivendell Castle Gate"
 END
