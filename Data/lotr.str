@@ -920,6 +920,19 @@ OBJECT:RivendellBaseDefenseFoundation
 "Rivendell Defensive Foundation"
 END
 
+// -- Rivendell Castle Upgrades
+OBJECT:RivendellWallTower
+"Rivendell Battle Tower"
+END
+
+OBJECT:RivendellBallistaOutcropping
+"Rivendell Ballista Rampart"
+END
+
+OBJECT:RivendellPosternGate
+"Rivendell Postern Gate"
+END
+
 // -- Rivendell Hall of Fire aka Citadel
 OBJECT:RivendellHallOfFire
 "Hall of Fire"
