@@ -537,7 +537,7 @@ OBJECT:HordeRivendellTookArcher
 "Took Archers"
 END
 CONTROLBAR:ConstructRivendellTookArcherHorde
-"Recruit Took Archers from the Shire"
+"Recruit Took Archers"
 END
 CONTROLBAR:ToolTipRivendellTookArcherHorde
 "Strong vs. Infantry \n Can stealth near trees \n \n Like all Hobbits, these archers are blessed with keen eyes and steady hands, with an added dose of courage native to the Took family."
@@ -1031,7 +1031,7 @@ END
 
 // -- Rivendell Well
 OBJECT:RivendellWell
-"Well of Celebrain"
+"Well of Celebrian"
 END
 OBJECT:RivendellWellDesc
 "Units near well auto-heal if not under attack \n Detects stealth"
