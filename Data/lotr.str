@@ -197,7 +197,7 @@ OBJECT:Elrohir
 END
 
 CONTROLBAR:ElrohirRecruit
-"Recruit the bow-wielding Elrohir, son of Elrond."
+"Recruit the Son of Elrond, Elrohir \n \n Son of Elrond and brother to Elladan, Elrohir was a fearless warrior, fighting alongside his companions throughout the War of the Ring.""
 END
 
 CONTROLBAR:ElrohirRevive
@@ -237,7 +237,7 @@ OBJECT:Elladan
 "Elladan"
 END
 CONTROLBAR:ElladanRecruit
-"Recruit the sword-wielding Elladan, son of Elrond."
+"Recruit the Son of Elrond, Elladan \n \n Son of Elrond and brother to Elrohir, Elladan was wise like his father, and a valuable companion to the Grey Company and Aragorn."
 END
 CONTROLBAR:ElladanRevive
 "Revive the fallen Hero, Elladan"
@@ -265,10 +265,10 @@ END
 
 // -- #Elrond
 OBJECT:ElvenElrond
-"Elrond"
+"Lord Elrond"
 END
 CONTROLBAR:ElrondRecruit
-"Recruit the wandering Noldor, Gildor. \n \n 'Elves seldom give unguarded advice, for advice is a dangerous gift, even from the wise to the wise, and all courses may run ill.'"
+"Recruit the Lord of Rivendell. \n \n 'It is perilous to study too deeply the arts of the Enemy, for good or for ill. But such falls and betrayals, alas, have happened before.'"
 END
 CONTROLBAR:ElrondRevive
 "Revive the fallen Hero, Elrond"
@@ -355,10 +355,10 @@ OBJECT:Gildor
 "Gildor Inglorion"
 END
 CONTROLBAR:GildorRecruit
-"Recruit the wandering Noldor, Gildor. \n \n 'Elves seldom give unguarded advice, for advice is a dangerous gift, even from the wise to the wise, and all courses may run ill.'"
+"Recruit the wandering Noldor, Gildor Inglorion. \n \n 'Elves seldom give unguarded advice, for advice is a dangerous gift, even from the wise to the wise, and all courses may run ill.'"
 END
 CONTROLBAR:GildorRevive
-"Revive the fallen Hero, Gildor"
+"Revive the fallen Hero, Gildor Inglorion"
 END
 CONTROLBAR:GildorHotKey
 "Gil&dor"
@@ -390,7 +390,7 @@ OBJECT:Halbarad
 END
 
 CONTROLBAR:HalbaradRecruit
-"Recruit Halbarad, Captain of the Dunedain."
+"Recruit the captain of the Dúnedain, Halbarad. \n \n 'This is an evil door, and my death lies beyond it. I will dare to pass it nonetheless.'"
 END
 
 CONTROLBAR:HalbaradRevive
