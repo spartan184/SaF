@@ -925,6 +925,10 @@ OBJECT:RivendellWallTower
 "Rivendell Battle Tower"
 END
 
+OBJECT:RivendellWallBallista
+"Rivendell Ballista"
+END
+
 OBJECT:RivendellBallistaOutcropping
 "Rivendell Ballista Rampart"
 END
