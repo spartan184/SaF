@@ -874,7 +874,7 @@ CONTROLBAR:PurchaseTechnologyRivendellDagorlad
 "Reflection&s Upon the Battle of Dagorlad"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyRivendellDagorlad
-"A collection of writings on the Battle of Dagorlad. Timelines, battleplans and poetry, gathered by Valandil, son of Isildur. \n\n Sauron's fall came at great cost. With Gil-galad slain, many Elven veterans chose to linger in Rivendell, house of their late King's herald. \n Units recruited from the Dormitory gain +25% damage"
+"A collection of writings on the Battle of Dagorlad. Timelines, battleplans and poetry, gathered by Valandil, son of Isildur. \n\n Sauron's fall came at great cost. With Gil-galad slain, many Elven veterans chose to linger in Rivendell, house of their late King's herald. \n Units recruited from the Dormitory gain +25% damage \n Library must be present to retain affect"
 END
 
 // -- Practical Application of Feanorian Smithing
