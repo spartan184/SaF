@@ -967,13 +967,13 @@ OBJECT:RivendellForge
 "Rivendell Forge"
 END
 OBJECT:RivendellForgeDesc
-"Provides worked metals as a resource based on available terrain \n Upgrades weapons and armor \n Reduces cost of upgrades"
+"Steel Bonus - Reduced Cost of Upgrades \n 2 Blacksmiths: 10% \n 3 Blacksmiths: 15% \n 4 Blacksmiths: 20% \n 5 Blacksmiths: 30% \n 6+ Blacksmiths: 40%"
 END
 CONTROLBAR:ConstructRivendellForge
 "Rivendell &Forge"
 END
 CONTROLBAR:ToolTipBuildRivendellForge
-"Provides worked metals as a resource based on available terrain \n Upgrades weapons and armor \n Reduces cost of upgrades"
+"Steel Bonus - Reduced Cost of Upgrades \n 2 Blacksmiths: 10% \n 3 Blacksmiths: 15% \n 4 Blacksmiths: 20% \n 5 Blacksmiths: 30% \n 6+ Blacksmiths: 40%"
 END
 
 // -- Rivendell Library
@@ -995,7 +995,7 @@ OBJECT:RivendellEriadorEncampment
 "Rivendell Bree-land Encampment"
 END
 OBJECT:RivendellEriadorEncampmentDesc
-"Trains Hobbits and Men from Bree"
+"Trains Hobbits and Men from Bree \nRank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
 END
 CONTROLBAR:ConstructRivendellEriadorEncampment
 "Rivendell &Bree-land Encampment"
@@ -1009,13 +1009,13 @@ OBJECT:RivDunedainGathering
 "Dunedain Gathering"
 END
 OBJECT:RivDunedainGatheringDesc
-"Recruit Rangers of the North"
+"Recruit Rangers of the North \nRank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
 END
 CONTROLBAR:ConstructRivDunedainGathering
 "Dunedain &Gathering"
 END
 CONTROLBAR:ToolTipBuildRivDunedainGathering
-"Recruit Rangers of the North"
+"Recruit Rangers of the North \nRank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
 END
 
 // -- Rivendell Dormitory
@@ -1023,13 +1023,13 @@ OBJECT:RivendellDormitory
 "Rivendell Dormitory"
 END
 OBJECT:RivendellDormitoryDesc
-"Trains the Elves of Rivendell"
+"Trains the Elves of Rivendell \nRank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
 END
 CONTROLBAR:ConstructRivendellDormitory
 "Rivendell &Dormitory"
 END
 CONTROLBAR:ToolTipBuildRivendellDormitory
-"Trains the Elves of Rivendell"
+"Trains the Elves of Rivendell \nRank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
 END
 
 // -- Rivendell WatchTower
@@ -1051,13 +1051,13 @@ OBJECT:RivendellWell
 "Well of Celebrian"
 END
 OBJECT:RivendellWellDesc
-"Units near well auto-heal if not under attack \n Detects stealth"
+"Units near well auto-heal if not under attack \n Detects stealth \nWater Bonus - Reduced Cost of Infantry \n 2 Wells: 20% \n 3 Wells: 30%"
 END
 CONTROLBAR:ConstructRivendellWell
 "Well of &Celebrain"
 END
 CONTROLBAR:ToolTipBuildRivendellWell
-"Units near well auto-heal if not under attack \n Detects stealth"
+"Units near well auto-heal if not under attack \n Detects stealth \nWater Bonus - Reduced Cost of Infantry \n 2 Wells: 20% \n 3 Wells: 30%"
 END
 
 // -- Rivendell Statue
@@ -1065,13 +1065,13 @@ OBJECT:RivendellStatue
 "Statue of Gil-Galad"
 END
 OBJECT:RivendellStatueDesc
-"Reduces cost of heroes \n Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack"
+"Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack \nHero Bonus - Reduced Cost of Heroes \n 2 Statues: 10% \n 3 Statues: 20% \n 4 Statues: 30%"
 END
 CONTROLBAR:ConstructRivendellStatue
 "&Statue of Gil-Galad"
 END
 CONTROLBAR:ToolTipBuildRivendellStatue
-"Reduces cost of heroes \n Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack"
+"Allies near the statue gain \n +50% Damage, +50% Armor, \n and earn experience twice as fast \n Does not stack \nHero Bonus - Reduced Cost of Heroes \n 2 Statues: 10% \n 3 Statues: 20% \n 4 Statues: 30%"
 END
 
 // -- Maggot's Farm
