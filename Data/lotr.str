@@ -126,16 +126,19 @@ CONTROLBAR:ToolTipBlessingofUlmo
 END
 
 CONTROLBAR:Laurefindele
-"Glorfindel"
+"Laurefindele"
 END
 CONTROLBAR:ToolTipLaurefindele
-"Unlocks Glorfindel from the citadel \n Recruit Glorfindel at the Citadel"
+"Unlocks Glorfindel from the Hall of Fire"
 END
 TOOLTIP:ToolTipLackLaurefindele
 "Required: Laurefindele Spellbook \n Recruit the Lord of the House of the Golden Flower \n \n 'Glorfindel was tall and straight; his hair was of shining gold,\n his face fair and young and fearless and full of joy;\n his eyes were bright and keen, and his voice like music;\n on his brow sat wisdom, and in his hand was strength.' \n Rank 10"
 END
+CONTROLBAR:ConstructGlorfindel
+"Glorfindel"
+END
 CONTROLBAR:LaurefindeleDescription
-"Required: Laurefindele Spellbook \n Recruit the Lord of the House of the Golden Flower \n \n 'Glorfindel was tall and straight; his hair was of shining gold,\n his face fair and young and fearless and full of joy;\n his eyes were bright and keen, and his voice like music;\n on his brow sat wisdom, and in his hand was strength.' \n Rank 10"
+"Required: Laurefindele Spellbook \n Recruit the Lord of the House of the Golden Flower \n \n 'Glorfindel was tall and straight; his hair was of shining gold,his face fair and young and fearless and full of joy;\n his eyes were bright and keen, and his voice like music;\n on his brow sat wisdom, and in his hand was strength.' \n Rank 10"
 END
 
 // ============================================================ //
