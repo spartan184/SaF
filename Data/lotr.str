@@ -393,7 +393,7 @@ OBJECT:Halbarad
 END
 
 CONTROLBAR:HalbaradRecruit
-"Recruit the captain of the Dúnedain, Halbarad. \n \n 'This is an evil door, and my death lies beyond it. I will dare to pass it nonetheless.'"
+"Recruit the captain of the Dunedain, Halbarad. \n \n 'This is an evil door, and my death lies beyond it. I will dare to pass it nonetheless.'"
 END
 
 CONTROLBAR:HalbaradRevive
