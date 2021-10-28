@@ -433,7 +433,7 @@ CONTROLBAR:HalbaradBannerOfArwen
 "The Banner of Arwen"
 END
 CONTROLBAR:ToolTipHalbaradBannerOfArwen
-"Required: Rank 10 \n Halbarad unfurls his banner. \n For 60 seconds, allied units and heroes in a large radius gain +25% damage and +100% experience. \n Enemy units and heroes lose -25% damage \n Left click to activate"
+"Required: Rank 10 \n Halbarad unfurls the Banner wrought by Arwen Undomiel.\n For 60 seconds, allied units and heroes in a large radius gain +25% damage and +100% experience. \n Enemy units and heroes lose -25% damage \n Left click to activate"
 END
 
 // -- #Farmer Maggot
