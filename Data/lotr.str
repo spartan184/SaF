@@ -419,7 +419,7 @@ CONTROLBAR:HalbaradMusterDunedain
 "Muster the Dunedain"
 END
 CONTROLBAR:ToolTipHalbaradMusterDunedain
-"Required: Rank 6 \n Targeted Gathering gains +75% unit production speed for a short time \n Left click then right click on target"
+"Required: Rank 4 \n Targeted Gathering gains +75% unit production speed for a short time \n Left click then right click on target"
 END
 
 CONTROLBAR:HalbaradPerseverance
