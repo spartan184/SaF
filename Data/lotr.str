@@ -653,10 +653,10 @@ OBJECT:HordeDwarvenPhalanx
 END
 
 OBJECT:RivendellMirkwoodArcher
-"Mirkwood Archer"
+"Silvan Archer"
 END
 OBJECT:HordeRivendellMirkwoodArcher
-"Mirkwood Archers"
+"Silvan Archers"
 END
 
 OBJECT:LaketownGuard
