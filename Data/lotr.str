@@ -676,25 +676,18 @@ END
 // ============================================================ //
 // ================ #Rivendell Unit Abilities ================= //
 // ============================================================ //
-CONTROLBAR:GreyCompanyGrimResolve
-"Grim Resolve"
+CONTROLBAR:RivendellBounderRank2
+"Peace-Keepers"
 END
-CONTROLBAR:ToolTipGreyCompanyGrimResolve
-"Nearby enemies lose 10% armour and damage and have reduced fear resistance \n Each time a ranger falls the other members of the\nbattalion gain a small damage and armor boost for a short time \n Passive Ability"
-END
-
-CONTROLBAR:RivendellVeteranLALeadership
-"Veterans of the Last Alliance"
-END
-CONTROLBAR:ToolTipRivendellVeteranLALeadership
-"Nearby Dunedain and Breelanders gain +25% Armor \n Nearby Elven units gain +25% Damage \n Passive Ability"
+CONTROLBAR:ToolTipRivendellBounderRank2
+"Required: Rank 2\n \n'The Bounders are peace-keepers, patrolling the roads, paths, and borders of the Shire, settling disputes and keeping an eye out for wicked things and foreigners alike.'\n Bounders gain +15% Speed and +25% Armor \n Left Click to Activate"
 END
 
-CONTROLBAR:RivendellVeteransAbility
-"Veterans of Eregion"
+CONTROLBAR:RivendellBreelandGuardRank2
+"Armour from the Barrows"
 END
-CONTROLBAR:ToolTipRivendellVeteransAbility
-"The Veterans remember the times of Sauron's attack on the elven kingdoms of the North. \nThe battalion is temporarily immune to knockback and gains +50% Damage \n Left Click to Activate"
+CONTROLBAR:ToolTipRivendellBreelandGuardRank2
+"Required: Rank 2\n Units permanently gain +33% armour"
 END
 
 TOOLTIP:DunedainSpears
@@ -729,6 +722,13 @@ CONTROLBAR:ToolTipUpgradeDunedainSwords
 "Rangers permanantly equip themselves with swords, granting them a damage bonus towards infantry and slighly increased armor"
 END
 
+CONTROLBAR:GreyCompanyGrimResolve
+"Grim Resolve"
+END
+CONTROLBAR:ToolTipGreyCompanyGrimResolve
+"Nearby enemies lose 10% armour and damage and have reduced fear resistance \n Each time a ranger falls the other members of the\nbattalion gain a small damage and armor boost for a short time \n Passive Ability"
+END
+
 CONTROLBAR:RivendellElvesRank2
 "Song of Finwe"
 END
@@ -737,6 +737,20 @@ CONTROLBAR:ToolTipRivendellGuardianRank2
 END
 CONTROLBAR:ToolTipRivendellKnightRank2
 "Required: Rank 2\n The seasoned warriors sing a song of past victories.\n +33% damage and -33% deceleration \n Left Click to Activate"
+END
+
+CONTROLBAR:RivendellVeteranLALeadership
+"Veterans of the Last Alliance"
+END
+CONTROLBAR:ToolTipRivendellVeteranLALeadership
+"Nearby Dunedain and Breelanders gain +25% Armor \n Nearby Elven units gain +25% Damage \n Passive Ability"
+END
+
+CONTROLBAR:RivendellVeteransAbility
+"Veterans of Eregion"
+END
+CONTROLBAR:ToolTipRivendellVeteransAbility
+"The Veterans remember the times of Sauron's attack on the elven kingdoms of the North. \nThe battalion is temporarily immune to knockback and gains +50% Damage \n Left Click to Activate"
 END
 // ============================================================= //
 // ================ #Rivendell Faction Upgrades ================ //
