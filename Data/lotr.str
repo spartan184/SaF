@@ -728,6 +728,16 @@ END
 CONTROLBAR:ToolTipUpgradeDunedainSwords
 "Rangers permanantly equip themselves with swords, granting them a damage bonus towards infantry and slighly increased armor"
 END
+
+CONTROLBAR:RivendellElvesRank2
+"Song of Finwe"
+END
+CONTROLBAR:ToolTipRivendellGuardianRank2
+"Required: Rank 2\n The seasoned warriors sing a song of past victories.\n +33% damage and +33% range if using bows \n Left Click to Activate"
+END
+CONTROLBAR:ToolTipRivendellKnightRank2
+"Required: Rank 2\n The seasoned warriors sing a song of past victories.\n +33% damage and -33% deceleration \n Left Click to Activate"
+END
 // ============================================================= //
 // ================ #Rivendell Faction Upgrades ================ //
 // ============================================================= //
