@@ -680,7 +680,7 @@ CONTROLBAR:RivendellBounderRank2
 "Peace-Keepers"
 END
 CONTROLBAR:ToolTipRivendellBounderRank2
-"Required: Rank 2\n \n'The Bounders are peace-keepers, patrolling the roads, paths, and borders of the Shire, settling disputes and keeping an eye out for wicked things and foreigners alike.'\n Bounders gain +15% Speed and +25% Armor \n Left Click to Activate"
+"Required: Rank 2\n \n'The Bounders are peace-keepers, patrolling the roads, paths, and borders of the Shire, settling disputes and keeping an eye out for wicked things and foreigners alike.'\n Bounders gain +15% Speed and +33% Vision \n Left Click to Activate"
 END
 
 CONTROLBAR:RivendellBreelandGuardRank2
