@@ -284,7 +284,7 @@ CONTROLBAR:ElrondLeadership
 "Lord of Rivendell"
 END
 CONTROLBAR:ToolTipElrondLeadership
-"+150% experience gain to nearby units \nPassive Ability"
+"+33% Damage, +33% Armor, and +100% experience gain to nearby Elven units \nPassive Ability"
 END
 
 CONTROLBAR:ElrondWisdom
@@ -412,7 +412,7 @@ CONTROLBAR:HalbaradArmor
 "The Grey Company"
 END
 CONTROLBAR:ToolTipHalbaradArmor
-"Required: Rank 3 \n 'Receiving orders from Elrond to seek out Aragorn in Rohan, Halbarad gathered a large company of Rangers to head south.' \n Halbarad equips his armor \n +10% armor \n Passive Ability"
+"Required: Rank 3 \n 'Receiving orders from Elrond to seek out Aragorn in Rohan, Halbarad gathered a large company of Rangers to head south.' \n Halbarad equips his armor \n Nearby Dunedain gain +50% Experience \n Passive Ability"
 END
 
 CONTROLBAR:HalbaradMusterDunedain
