@@ -1342,6 +1342,71 @@ END
 OBJECT:Ruins
 "Ruins"
 END
+// ############################################################ //
+// ========================== #Isengard ======================= //
+// ############################################################ //
+
+// ============================================================ //
+// ==================== #Isengard Heroes ====================== //
+// ============================================================ //
+// -- #Ugluk
+
+OBJECT:IsengardUgluk
+"Ugluk"
+END
+CONTROLBAR:IsengardUglukRecruit
+"Recruit the Uruk Captain, Ugluk \n \n 'They have something. An Elvish weapon. The master wants it for the war.'"
+END
+CONTROLBAR:IsengardUglukRevive
+"Revive the fallen Hero, Ugluk"
+END
+CONTROLBAR:IsengardUglukHotkey
+"&Ugluk"
+END
+
+CONTROLBAR:UglukLeadership
+"Hunt for the &Ring"
+END
+CONTROLBAR:ToolTipUglukLeadership
+"Required: Rank 2\nNearby infantry and heroes gain a 15% speed bonus, a 50% experience bonus\n Passive Ability"
+END
+
+CONTROLBAR:UglukSupper
+"Orcish Med&icine"
+END
+CONTROLBAR:TooltipSupper
+"Required: Rank 3 \n Heals nearby friendly Uruk-hai units and heroes \n Left click to activate"
+END
+
+CONTROLBAR:IsengardUglukReinforcements
+"Reinforce&ments from Saruman"
+END
+CONTROLBAR:ToolTipIsengardUglukReinforcements
+"Requires Level 5 \n Summons 2 hordes of Uruks \n Left click to activate"
+END
+
+CONTROLBAR:IsengardUglukHeadhunter
+"Headh&unter"
+END
+
+CONTROLBAR:ToolTipIsengardUglukHeadhunter
+"Requires Level 7 \n Ugluk and nearby Uruks temporarily gain +100% Damage\n Left click icon to activate"
+END
+// ############################################################ //
+// ========================== #Mordor ========================= //
+// ############################################################ //
+
+// ============================================================ //
+// ====================== #Mordor Heroes ====================== //
+// ============================================================ //
+
+// ############################################################ //
+// ========================== #Gundabad ======================= //
+// ############################################################ //
+
+// ============================================================ //
+// ==================== #Gundabad Heroes ====================== //
+// ============================================================ //
 
 // ############################################################ //
 // ========================= #Vanilla ========================= //
@@ -1369,55 +1434,7 @@ CONTROLBAR:ToolTipBuildIsengardBattleTower
 "Defensive structure"
 END
 
-// -- Isengard Ugluk---------------//////////////////////////////////////
 
-OBJECT:IsengardUgluk
-"Ugluk"
-END
-
-CONTROLBAR:IsengardUglukRecruit
-"Recruit the Uruk Captain, Ugluk \n \n 'They have something. An Elvish weapon. The master wants it for the war.'"
-END
-
-CONTROLBAR:IsengardUglukRevive
-"Revive the fallen Hero, Ugluk"
-END
-
-CONTROLBAR:IsengardUglukHotkey
-"&Ugluk"
-END
-
-CONTROLBAR:UglukLeadership
-"Hunt for the &Ring"
-END
-
-CONTROLBAR:ToolTipUglukLeadership
-"Required: Rank 2\nNearby infantry and heroes gain a 15% speed bonus, a 50% experience bonus and resistance to fear\n Passive Ability"
-END
-
-CONTROLBAR:UglukSupper
-"Orcish Med&icine"
-END
-
-CONTROLBAR:TooltipSupper
-"Required: Rank 3 \n Heals nearby friendly Uruk-hai units and heroes \n Left click to activate"
-END
-
-CONTROLBAR:IsengardUglukReinforcements
-"Reinforce&ments from Saruman"
-END
-
-CONTROLBAR:ToolTipIsengardUglukReinforcements
-"Requires Level 5 \n Summons 2 hordes of Uruks \n Left click to activate"
-END
-
-CONTROLBAR:IsengardUglukHeadhunter
-"Headh&unter"
-END
-
-CONTROLBAR:ToolTipIsengardUglukHeadhunter
-"Requires Level 7 \n Ugluk and nearby Uruks temporarily gain +100% Damage\n Left click icon to activate"
-END
 
 // ================= Isengard Shield Bearers ================= //
 OBJECT:IsengardShieldBearer
