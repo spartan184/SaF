@@ -45,6 +45,22 @@ CONTROLBAR:ToolTipToggleWeaponSpear
 "Left click to toggle between bow and spear"
 END
 // ############################################################ //
+// ========================= #Gondor ========================== //
+// ############################################################ //
+
+// ============================================================ //
+// ====================== #Gondor Heroes ====================== //
+// ============================================================ //
+; -- #Elessar
+CONTROLBAR:ToolTipElessarLeadership
+"Leadership bonus to nearby troops \n +50% Damage, +100% Combat Experience \n Passive ability"
+END
+
+CONTROLBAR:ToolTipElessarBladeMaster
+"Aragorn recieves Anduril, the sword which was reforged from the shards of Narsil.\n+100% Damage, +50% armor, +25% speed \n Passive upgrade \n +50% Damage, +50% Armor \n When activated"
+END
+
+// ############################################################ //
 // ======================== #Rivendell ======================== //
 // ############################################################ //
 
