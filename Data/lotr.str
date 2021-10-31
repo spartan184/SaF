@@ -61,6 +61,211 @@ CONTROLBAR:ToolTipElessarBladeMaster
 END
 
 // ############################################################ //
+// ========================== #Rohan ========================== //
+// ############################################################ //
+
+// ============================================================ //
+// ====================== #Rohan Heroes ======================= //
+// ============================================================ //
+//================================================ Vannila Faction Stuff ====================================
+// ========================== Hama ========================= //
+OBJECT:RohanHama
+"Hama"
+END
+
+CONTROLBAR:RohanHamaRecruit
+"Recruit the Door-warden."
+END
+
+CONTROLBAR:RohanHamaRevive
+"Revive the fallen Hero, Háma"
+END
+
+CONTROLBAR:RohanHamaHotkey
+"&Hama"
+END
+
+CONTROLBAR:HamaPassiveLeadership
+"Doorward of the Meduseld and Captain of Theoden's guard"
+END
+
+CONTROLBAR:ToolTipHamaPassiveLeadership
+"Required: Rank 3 \n Nearby Kings Guard and Theoden gain +150% damage and +50% Armor \n Passive ability"
+END
+
+CONTROLBAR:HamaSummon
+"Call for the Kings &Guard"
+END
+
+CONTROLBAR:ToolTipHamaSummon
+"Required: Rank 7 \n Hama summons two hordes of the Kings Guard"
+END
+// ========================== Gamling ========================= //
+CONTROLBAR:RohanGamlingRecruit
+"Gamling"
+End
+
+CONTROLBAR:RohanGamlingHotkey
+"&Gamling"
+END
+
+CONTROLBAR:RohanGamlingRevive
+"Revive Gaming"
+End
+
+CONTROLBAR:GamlingPassiveLeadership
+"Defender of Helms Deep"
+END
+
+CONTROLBAR:ToolTipGamlingPassiveLeadership
+"Required: Rank 3 \n Every villager able to wield a sword has been sent to the armory my lord \n Nearby Yeomen Spearmen, Archers and peasants gain +150% experience and resist fear \n Passive ability"
+END
+
+CONTROLBAR:GamlingSummon
+"Defender of Helms &Dike"
+END
+
+CONTROLBAR:ToolTipGamlingSummon
+"Required: Rank 5 \n Gamling summons a rabble of peasants, archers and spearmen"
+END
+
+// -- #Theodred
+OBJECT:RohanTheodred
+"Theodred"
+END
+CONTROLBAR:RohanTheodredRecruit
+"Recruit the Theodred, the Prince of Rohan. \n \n 'Ne on theostrum licgeth Theodred se leofa heletha holdost.'"
+END
+CONTROLBAR:RohanTheodredRevive
+"Revive the fallen Hero, Theodred"
+END
+CONTROLBAR:RohanTheodredHotKey
+"Theo&dred"
+END
+
+CONTROLBAR:TheodredLuckOfBattle
+"&Luck of Battle"
+END
+CONTROLBAR:ToolTipSpecialAbilityTheodredLuckOfBattle
+"Required: Rank 3 \n Theodred equips his helmet, gains +33% armor \n When activated, Theodred temporarily avoids all ranged damage \n Left click to activate"
+END
+
+CONTROLBAR:TheodredPassiveLeadership
+"Prince of the Riddermark"
+END
+CONTROLBAR:ToolTipTheodredPassiveLeadership
+"Required: Rank 5 \n Nearby Peasants, Yeomen Spearmen, Archers, and Doorwardens gain +100% damage \n Passive ability"
+END
+
+CONTROLBAR:TheodredBloodLeadership
+"Bonds of Blood"
+END
+CONTROLBAR:ToolTipTheodredBloodLeadership
+"Required: Rank 7 \n Theoden, Eowyn, and Eomer gain +10% to attack damage, health, armor, and power regeneration when near Theodred \n Passive ability"
+END
+
+CONTROLBAR:RohanTheodredHeal
+"Determination"
+END
+CONTROLBAR:TooltipRohanTheodredHeal
+"Required: Rank 9 \n Theodred regains 75% of his maximum health"
+END
+
+// -- #Radagast
+OBJECT:RohanRadagast
+"Radagast the Brown"
+END
+
+CONTROLBAR:RohanRadagastRecruit
+"Recruit one of the wandering Istari, Radagast the Brown. \n \n 'A worthy wizard, a master of shapes and changes of hue; and he has much lore of herbs and beasts, and birds are especially his friends.'"
+END
+
+CONTROLBAR:RohanRadagastRevive
+"Revive the fallen Hero, Radagast"
+END
+
+CONTROLBAR:RohanRadagastHotKey
+"&Radagast"
+END
+
+CONTROLBAR:RadagastMount
+"&Mount"
+END
+
+CONTROLBAR:ToolTipRadagastMount
+"Left click to mount horse \n +25% Armor vs. Footmen and Cavalry \n -50% Armor vs. Archers and Pikes \n 100% more damage from archers and spearmen"
+END
+
+CONTROLBAR:RadagastLeadership
+"A Very Great Wizard"
+END
+
+CONTROLBAR:ToolTipRadagastLeadership
+"Nearby units gain +50% attack and +150% experience gain \n Passive ability"
+END
+
+CONTROLBAR:RadagastSiphonLeadership
+"Siphon Witchcraft"
+END
+
+CONTROLBAR:ToolTipRadagastSiphonLeadership
+"Required: Rank 5 \n Radagast continously heals nearby friendly heroes and units \n Passive ability"
+END
+
+CONTROLBAR:SpawnRadagastGwaihir
+"Summon G&waihir"
+END
+
+CONTROLBAR:TooltipSpawnRadagastGwaihir
+"Required: Rank 10 \n Summons Gwaihir, Lord of Eagles"
+END
+
+OBJECT:RohanGwaihir
+"Gwaihir, Lord of Eagles"
+END
+
+// -- #Haldir
+CONTROLBAR:HaldirLeadership
+"Marchwarden of the Golden Wood"
+END
+
+CONTROLBAR:ToolTipHaldirLeadership
+"Required: Rank 3 \n Haldir and nearby Galadhrim gain +25% attack and +15% speed \n Passive ability"
+END
+
+CONTROLBAR:HaldirArmor
+"Heavy Raiment of the Golden Wood"
+END
+
+CONTROLBAR:ToolTipHaldirArmor
+"Required: Rank 5 \n Haldir dons his Armor and gains +10% Armor \n Passive ability"
+END
+
+CONTROLBAR:HaldirVigilance
+"Vigilance"
+END
+
+CONTROLBAR:TooltipHaldirVigilance
+"Required: Rank 6 \n Reveals a small portion of the map \n left click then right click on target"
+END
+
+CONTROLBAR:HaldirSkill
+"Elven Skill"
+END
+
+CONTROLBAR:TooltipHaldirSkill
+"Required: Rank 8 \n Grants experience to non-Elven archers within a radius \n left click then right click on target"
+END
+
+CONTROLBAR:HaldirQuickDraw
+"Quick Draw"
+END
+
+CONTROLBAR:ToolTipHaldirQuickDraw
+"Haldir temporarily gains +25% Attack Speed \n left click to activate"
+END
+
+// ############################################################ //
 // ======================== #Rivendell ======================== //
 // ############################################################ //
 
@@ -1526,210 +1731,6 @@ END
 
 TOOLTIP:LackGondorImprovedArrowsmithing
 "+25% Damage to units \n Purchase upgrade at Archery Range to enable this equipment"
-END
-
-
-
-//================================================ Vannila Faction Stuff ====================================
-// ========================== Hama ========================= //
-OBJECT:RohanHama
-"Hama"
-END
-
-CONTROLBAR:RohanHamaRecruit
-"Recruit the Door-warden."
-END
-
-CONTROLBAR:RohanHamaRevive
-"Revive the fallen Hero, Háma"
-END
-
-CONTROLBAR:RohanHamaHotkey
-"&Hama"
-END
-
-CONTROLBAR:HamaPassiveLeadership
-"Doorward of the Meduseld and Captain of Theoden's guard"
-END
-
-CONTROLBAR:ToolTipHamaPassiveLeadership
-"Required: Rank 3 \n Nearby Kings Guard and Theoden gain +150% damage and +50% Armor \n Passive ability"
-END
-
-CONTROLBAR:HamaSummon
-"Call for the Kings &Guard"
-END
-
-CONTROLBAR:ToolTipHamaSummon
-"Required: Rank 7 \n Hama summons two hordes of the Kings Guard"
-END
-// ========================== Gamling ========================= //
-CONTROLBAR:RohanGamlingRecruit
-"Gamling"
-End
-
-CONTROLBAR:RohanGamlingHotkey
-"&Gamling"
-END
-
-CONTROLBAR:RohanGamlingRevive
-"Revive Gaming"
-End
-
-CONTROLBAR:GamlingPassiveLeadership
-"Defender of Helms Deep"
-END
-
-CONTROLBAR:ToolTipGamlingPassiveLeadership
-"Required: Rank 3 \n Every villager able to wield a sword has been sent to the armory my lord \n Nearby Yeomen Spearmen, Archers and peasants gain +150% experience and resist fear \n Passive ability"
-END
-
-CONTROLBAR:GamlingSummon
-"Defender of Helms &Dike"
-END
-
-CONTROLBAR:ToolTipGamlingSummon
-"Required: Rank 5 \n Gamling summons a rabble of peasants, archers and spearmen"
-END
-// ========================= Theodred ======================== //
-OBJECT:RohanTheodred
-"Theodred"
-END
-
-CONTROLBAR:RohanTheodredRecruit
-"Recruit the Theodred, the Prince of Rohan. \n \n 'Ne on theostrum licgeth Theodred se leofa heletha holdost.'"
-END
-
-CONTROLBAR:TheodredPassiveLeadership
-"Prince of the Riddermark"
-END
-
-CONTROLBAR:ToolTipTheodredPassiveLeadership
-"Required: Rank 5 \n Nearby Peasants, Yeomen Spearmen, Archers, and Doorwardens gain +150% attack \n Passive ability"
-END
-
-CONTROLBAR:TheodredBloodLeadership
-"Bonds of Blood"
-END
-
-CONTROLBAR:ToolTipTheodredBloodLeadership
-"Required: Rank 3 \n Theoden, Eowyn, and Eomer gain +10% to attack damage, health, armor, and power regeneration when near Theodred \n Passive ability"
-END
-
-CONTROLBAR:RohanTheodredHeal
-"Determination"
-END
-
-CONTROLBAR:TooltipRohanTheodredHeal
-"Required: Rank 9 \n Theodred regains 75% of his maximum health"
-END
-
-CONTROLBAR:TheodredLuckOfBattle
-"&Luck of Battle"
-END
-
-CONTROLBAR:ToolTipSpecialAbilityTheodredLuckOfBattle
-"Requires Level 7 \n Theodred equips his helmet, gains +33% armor \n When activated, Theodred temporarily avoids all ranged damage \n Left click to activate"
-END
-
-CONTROLBAR:RohanTheodredRevive
-"Revive the fallen Hero, Theodred"
-END
-
-CONTROLBAR:RohanTheodredHotKey
-"Theo&dred"
-END
-
-OBJECT:RohanRadagast
-"Radagast the Brown"
-END
-
-CONTROLBAR:RohanRadagastRecruit
-"Recruit one of the wandering Istari, Radagast the Brown. \n \n 'A worthy wizard, a master of shapes and changes of hue; and he has much lore of herbs and beasts, and birds are especially his friends.'"
-END
-
-CONTROLBAR:RohanRadagastRevive
-"Revive the fallen Hero, Radagast"
-END
-
-CONTROLBAR:RohanRadagastHotKey
-"&Radagast"
-END
-
-CONTROLBAR:RadagastMount
-"&Mount"
-END
-
-CONTROLBAR:ToolTipRadagastMount
-"Left click to mount horse \n +25% Armor vs. Footmen and Cavalry \n -50% Armor vs. Archers and Pikes \n 100% more damage from archers and spearmen"
-END
-
-CONTROLBAR:RadagastLeadership
-"A Very Great Wizard"
-END
-
-CONTROLBAR:ToolTipRadagastLeadership
-"Nearby units gain +50% attack and +150% experience gain \n Passive ability"
-END
-
-CONTROLBAR:RadagastSiphonLeadership
-"Siphon Witchcraft"
-END
-
-CONTROLBAR:ToolTipRadagastSiphonLeadership
-"Required: Rank 5 \n Radagast continously heals nearby friendly heroes and units \n Passive ability"
-END
-
-CONTROLBAR:SpawnRadagastGwaihir
-"Summon G&waihir"
-END
-
-CONTROLBAR:TooltipSpawnRadagastGwaihir
-"Required: Rank 10 \n Summons Gwaihir, Lord of Eagles"
-END
-
-OBJECT:RohanGwaihir
-"Gwaihir, Lord of Eagles"
-END
-
-CONTROLBAR:HaldirLeadership
-"Marchwarden of the Golden Wood"
-END
-
-CONTROLBAR:ToolTipHaldirLeadership
-"Required: Rank 3 \n Haldir and nearby Galadhrim gain +25% attack and +15% speed \n Passive ability"
-END
-
-CONTROLBAR:HaldirArmor
-"Heavy Raiment of the Golden Wood"
-END
-
-CONTROLBAR:ToolTipHaldirArmor
-"Required: Rank 5 \n Haldir dons his Armor and gains +10% Armor \n Passive ability"
-END
-
-CONTROLBAR:HaldirVigilance
-"Vigilance"
-END
-
-CONTROLBAR:TooltipHaldirVigilance
-"Required: Rank 6 \n Reveals a small portion of the map \n left click then right click on target"
-END
-
-CONTROLBAR:HaldirSkill
-"Elven Skill"
-END
-
-CONTROLBAR:TooltipHaldirSkill
-"Required: Rank 8 \n Grants experience to non-Elven archers within a radius \n left click then right click on target"
-END
-
-CONTROLBAR:HaldirQuickDraw
-"Quick Draw"
-END
-
-CONTROLBAR:ToolTipHaldirQuickDraw
-"Haldir temporarily gains +25% Attack Speed \n left click to activate"
 END
 
 OBJECT:LossarnachAxeMan
