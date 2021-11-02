@@ -44,20 +44,272 @@ END
 CONTROLBAR:ToolTipToggleWeaponSpear
 "Left click to toggle between bow and spear"
 END
-// ############################################################ //
-// ========================= #Gondor ========================== //
-// ############################################################ //
 
-// ============================================================ //
-// ====================== #Gondor Heroes ====================== //
-// ============================================================ //
-; -- #Elessar
+CONTROLBAR:FlamingArrowVolley
+"&Flaming Arrow Volley"
+END
+CONTROLBAR:ToolTipFlamingArrowVolley
+"Requires: Rank 2 \n Archers fire a series of flaming arrow volleys \n Deals +50% damage to structures."
+END
+
+// ############################################################# //
+// -------------------------- #Gondor --------------------------
+// ############################################################# //
+CONTROLBAR:PurchaseTechnologyGondorImprovedArrowsmithing
+"&Steel-tipped Arrows"
+END
+CONTROLBAR:GondorImprovedArrowsmithing
+"Steel-tip&ped Arrows"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyGondorImprovedArrowsmithing
+"+25% Damage to units \n Select a battalion to equip upgrade"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeGondorImprovedArrowsmithing
+"+25% Damage to units \n Left click to upgrade this unit"
+END
+TOOLTIP:LackLevelGondorImprovedArrowsmithing 
+"Required: Rank 2 Archery Range \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+END
+TOOLTIP:LackGondorImprovedArrowsmithing
+"+25% Damage to units \n Purchase upgrade at Archery Range to enable this equipment"
+END
+
+// ------------------------------------------------------------- //
+// ------------------ #Gondor Spellbook Powers ----------------- //
+// ------------------------------------------------------------- //
+
+// ------------------------------------------------------------- //
+// ------------------ #Gondor Heroes --------------------------- //
+// ------------------------------------------------------------- //
+// -- #Elessar
 CONTROLBAR:ToolTipElessarLeadership
 "Leadership bonus to nearby troops \n +50% Damage, +100% Combat Experience \n Passive ability"
 END
 
 CONTROLBAR:ToolTipElessarBladeMaster
 "Aragorn recieves Anduril, the sword which was reforged from the shards of Narsil.\n+100% Damage, +50% armor, +25% speed \n Passive upgrade \n +50% Damage, +50% Armor \n When activated"
+END
+
+// -- #Faramir 
+CONTROLBAR:FaramirLeadership
+"Captain of Ithilien"
+END
+
+// -- #Boromir 
+CONTROLBAR:BoromirArmor
+"Veteran Warrior"
+END
+CONTROLBAR:ToolTipBoromirArmor
+"Required: Rank 5 \n Boromir dons his armor \n +30% Armor \n Passive ability"
+END
+
+CONTROLBAR:BoromirBash
+"Shield &Bash"
+END
+CONTROLBAR:ToolTipBoromirBash
+"Bash enemies with Boromir's shield \n left click then right click on target"
+END
+
+// -- #Imrahil
+OBJECT:GondorImrahil
+"Prince Imrahil"
+END
+CONTROLBAR:GondorImrahilRecruit
+"Recruit the Prince of Dol Amroth, Imrahil. \n \n 'For a while I stand in the place of the Steward of Gondor, and it is mine to think first of its people.' - Imrahil"
+END
+CONTROLBAR:GondorImrahilRevive
+"Revive the fallen Hero, Imrahil"
+END
+CONTROLBAR:GondorImrahilHotKey
+"&Imrahil"
+END
+
+CONTROLBAR:ImrahilLeadership
+"Fair Lord"
+END
+CONTROLBAR:ToolTipImrahilLeadership
+"Leadership bonus to Cavalry near Imrahil \n +30% Armor, +20% Damage, and fear immunity \n Passive ability"
+END
+
+CONTROLBAR:SpecialPowerImrahilUnscathed
+"&Unscathed"
+END
+CONTROLBAR:ToolTipSpecialPowerImrahilUnscathed
+"Required: Rank 3 \n Imrahil temporarily gains +300% Armor and is resistant to knockback  \n Left click to activate"
+END
+
+CONTROLBAR:ImrahilCounsel
+"&Wise Counsel"
+END
+CONTROLBAR:ToolTipImrahilCounsel
+"Required: Rank 7 \n Units gain experience \n left click then right click on target"
+END
+
+CONTROLBAR:ImrahilAmroth
+"Amroth for Go&ndor!"
+END
+CONTROLBAR:ToolTipImrahilAmroth
+"Required: Rank 5 \n Imrahil and nearby troops +50% armor, and -50% crush decelleration. \n Imrahil must be mounted to use ability \n Left click to activate"
+END
+
+// -- #Beregond
+OBJECT:GondorBeregond
+"Beregond"
+End
+CONTROLBAR:GondorBeregondRecruit
+"Recruit a loyal Citadel Guard of Minas Tirith. \n \n 'I am no captain. Neither office nor rank nor lordship have I, being but a plain man of arms of the Third Company of the Citadel.'"
+END
+CONTROLBAR:GondorBeregondRevive
+"Revive the fallen Citadel Guard, Beregond"
+END
+CONTROLBAR:GondorBeregondHotkey
+"Bere&gond"
+END
+
+CONTROLBAR:BeregondGuard
+"Guard of the Citadel"
+END
+CONTROLBAR:ToolTipBeregondGuard
+"Leadership bonus to nearby Structures \n +50% Armor \n Passive ability"
+END
+
+CONTROLBAR:SpawnGondorCitadelGuard
+"Captain of the White Guard"
+END
+CONTROLBAR:ToolTipSpawnGondorCitadelGuard
+"Required: Rank 6 \n Summons three Guards of the Citadel to aid Beregond in battle \n Left click then right click on target"
+END
+
+CONTROLBAR:BeregondPin
+"Pin Down"
+END
+CONTROLBAR:ToolTipBeregondPin
+"Required: Rank 3 \n Damages and pins down an enemy hero \n Left click then right click on target"
+END
+
+CONTROLBAR:BeregondRenowned
+"Renowned Soldier"
+END
+CONTROLBAR:ToolTipBeregondRenowned
+"Required: Rank 3 \n Leadership bonus to nearby troops \n +15% to all stats \n Passive ability"
+END
+
+CONTROLBAR:BeregondLoyalty
+"Fierce Loyalty"
+END
+CONTROLBAR:ToolTipBeregondLoyalty
+"Beregond gains +25% damage and health when near Faramir \n Passive ability"
+END
+
+// -- #Forlong
+OBJECT:GondorForlong
+"Forlong"
+END
+CONTROLBAR:GondorForlongRecruit
+"Recruit the Lord of Lossarnach \n \n 'True heart, true friend! Forlong!'"
+END
+CONTROLBAR:GondorForlongRevive
+"Revive the fallen Hero, Forlong"
+END
+CONTROLBAR:GondorForlongHotkey
+"For&long"
+END
+
+CONTROLBAR:ForlongLeadership
+"Lord of Lossarnach"
+END
+CONTROLBAR:TooltipForlongLeadership
+"Lossarnach Axemen near Forlong gain 150% damage \n and become immune to Fear \n Passive ability"
+END
+
+// -- #Pippin 
+CONTROLBAR:ToolTipPippinGuardCitadelPassiveLeadership
+"When Peregrin Took arrived to Minas Tirith, he offered his services as payment for Boromir's sacrifice to save his life. \n He was outfitted in the garb of the Tower, and was instructed by Beregond of the Third Company. \n Pippin gains +100% Damage while near Beregond. \n Passive ability"
+END
+CONTROLBAR:PippinGuardCitadelPassiveLeadership
+"Guard of the Citadel"
+END
+
+// ------------------------------------------------------------- //
+// ------------------ #Gondor Units ---------------------------- //
+// ------------------------------------------------------------- //
+// -- Gondor Ranger
+OBJECT:GondorRangerCaptain
+"Ithilien Ranger Captain"
+END
+
+// -- Lossarnach Axemen
+OBJECT:LossarnachAxeMan
+"Lossarnach Axeman"
+END
+OBJECT:HordeLossarnachAxeMen
+"Lossarnach Axemen"
+END
+
+// -- Amroth Knights
+OBJECT:GondorDolAmroth
+"Gondor Dol Amroth Knight"
+END
+CONTROLBAR:ConstructGondorDolAmrothHorde
+"Knights of &Dol Amroth"
+END
+CONTROLBAR:ToolTipBuildGondorDolAmrothHorde
+"Required: Rank 3 Stables \n Gondors Elite Calvary unit, The Knights of Dol Amroth or Swan Knights are a group of soldiers who serve Prince Imrahil. \n Strong vs. Swordsmen, Archers \n Weak vs. Pikemen, Monsters \n Limited to 3 units"
+END
+OBJECT:HordeGondorDolAmroth
+"Dol Amroth Knight Battalion"
+END
+
+// ------------------------------------------------------------- //
+// ------------------ #Gondor Unit Abilities ------------------- //
+// ------------------------------------------------------------- //
+CONTROLBAR:GondorTowerGuardFaithful
+"Faithful Guardian"
+END
+CONTROLBAR:ToolTipGondorTowerGuardFaithful
+"Nearby structures gain +50% armor \n Passive ability"
+END
+
+CONTROLBAR:GondorTowerGuardUndying
+"Undying Hope"
+END
+CONTROLBAR:ToolTipGondorTowerGuardUndying
+"Required: Rank 3 \n Nearby Heroes gain +10% to all stats \n Passive ability"
+END
+
+CONTROLBAR:GondorFighterRank2
+"Defenders of the White City"
+END
+CONTROLBAR:ToolTipGondorFighterRank2
+"Required: Rank 2 \n Temporarily gain +15% movement speed and +25% armor \n Left click to activate"
+END
+
+CONTROLBAR:GondorGuardRank2
+"Oathbound"
+END
+CONTROLBAR:ToolTipGondorGuardRank2
+"Required: Rank 2 \n Citadel Guards gain +15% Speed and +100% Resist knockback \n Left click to activate"
+END
+
+CONTROLBAR:GondorRangerRank2
+"Woodland Mastery"
+END
+CONTROLBAR:ToolTipGondorRangerRank2
+"Required: Rank 2 \n Temporarily gain +25% range and +25% attack speed \n Left click to activate"
+END
+
+CONTROLBAR:GondorKnightRank2
+"Desperate Charge"
+END
+CONTROLBAR:ToolTipGondorKnightRank2
+"Required: Rank 2 \n Temporarily gain +25% movement speed and -25% crush decelleration \n Left click to activate"
+END
+
+CONTROLBAR:AmrothKnightsBloodOfEldar
+"Blood of the Eldar"
+END
+CONTROLBAR:ToolTipAmrothKnightsBloodOfEldar
+"Amroth Knights heal outside of combat \n Passive ability"
 END
 
 // ############################################################ //
@@ -67,20 +319,16 @@ END
 // ============================================================ //
 // ====================== #Rohan Heroes ======================= //
 // ============================================================ //
-//================================================ Vannila Faction Stuff ====================================
-// ========================== Hama ========================= //
+// -- #Hama
 OBJECT:RohanHama
 "Hama"
 END
-
 CONTROLBAR:RohanHamaRecruit
 "Recruit the Door-warden."
 END
-
 CONTROLBAR:RohanHamaRevive
 "Revive the fallen Hero, Háma"
 END
-
 CONTROLBAR:RohanHamaHotkey
 "&Hama"
 END
@@ -88,7 +336,6 @@ END
 CONTROLBAR:HamaPassiveLeadership
 "Doorward of the Meduseld and Captain of Theoden's guard"
 END
-
 CONTROLBAR:ToolTipHamaPassiveLeadership
 "Required: Rank 3 \n Nearby Kings Guard and Theoden gain +150% damage and +50% Armor \n Passive ability"
 END
@@ -96,19 +343,16 @@ END
 CONTROLBAR:HamaSummon
 "Call for the Kings &Guard"
 END
-
 CONTROLBAR:ToolTipHamaSummon
 "Required: Rank 7 \n Hama summons two hordes of the Kings Guard"
 END
-// ========================== Gamling ========================= //
+// -- #Gamling
 CONTROLBAR:RohanGamlingRecruit
 "Gamling"
 End
-
 CONTROLBAR:RohanGamlingHotkey
 "&Gamling"
 END
-
 CONTROLBAR:RohanGamlingRevive
 "Revive Gaming"
 End
@@ -116,7 +360,6 @@ End
 CONTROLBAR:GamlingPassiveLeadership
 "Defender of Helms Deep"
 END
-
 CONTROLBAR:ToolTipGamlingPassiveLeadership
 "Required: Rank 3 \n Every villager able to wield a sword has been sent to the armory my lord \n Nearby Yeomen Spearmen, Archers and peasants gain +150% experience and resist fear \n Passive ability"
 END
@@ -124,7 +367,6 @@ END
 CONTROLBAR:GamlingSummon
 "Defender of Helms &Dike"
 END
-
 CONTROLBAR:ToolTipGamlingSummon
 "Required: Rank 5 \n Gamling summons a rabble of peasants, archers and spearmen"
 END
@@ -263,6 +505,54 @@ END
 
 CONTROLBAR:ToolTipHaldirQuickDraw
 "Haldir temporarily gains +25% Attack Speed \n left click to activate"
+END
+
+// ============================================================ //
+// ======================= #Rohan Units ======================= //
+// ============================================================ //
+// -- Mounted Kings Guard
+OBJECT:RohanMountedKingsguard
+"Royal Vanguard"
+END
+OBJECT:RohanMountedKingsguardHorde
+"Royal Vanguard Battalion"
+END
+CONTROLBAR:ConstructRohanMountedKingsguardHorde
+"Royal Vanguard"
+END
+CONTROLBAR:ToolTipBuildRohanMountedKingsguardHorde
+"Required: Rank 3 Stables \n Elite Horsemen \n Limited to 3 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan."
+END
+
+// -- On Foot Kings Guard
+OBJECT:RohanKingsguard
+"Edoras Kingsguard"
+END
+OBJECT:HordeRohanKingsguard
+"Edoras Kingsguard Battalion"
+END
+OBJECT:RohanKingsguardHotkey
+"Edoras &Kingsguard"
+END
+CONTROLBAR:ConstructRohanKingsguardHorde
+"Edoras Kingsguard"
+END
+CONTROLBAR:ToolTipBuildRohanKingsguardHorde
+"Required: Rank 3 Barracks \n Elite Footmen of Rohan \n Limited to 3 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan."
+END
+
+// -- Rohan Spearmen
+OBJECT:RohanSpearmen
+"Yeoman Spearmen"
+END
+OBJECT:HordeRohanSpearmen
+"Yeoman Spearmen Battalion"
+END
+CONTROLBAR:ConstructRohanSpearmenHorde
+"Yeoman Spearmen"
+END
+CONTROLBAR:ToolTipBuildRohanSpearmenHorde
+"Strong vs. Cavalry and Heroes \n \n In times of war, men of Rohan wealthy enough to own a plot of land would organize themselves into regiments and take up arms to defend their homes."
 END
 
 // ############################################################ //
@@ -1368,7 +1658,7 @@ CONTROLBAR:UglukLeadership
 "Hunt for the &Ring"
 END
 CONTROLBAR:ToolTipUglukLeadership
-"Required: Rank 2\nNearby infantry and heroes gain a 15% speed bonus, a 50% experience bonus\n Passive Ability"
+"Required: Rank 2\nNearby Uruks gain a 15% speed and 50% experience bonus\n Passive Ability"
 END
 
 CONTROLBAR:UglukSupper
@@ -1388,41 +1678,155 @@ END
 CONTROLBAR:IsengardUglukHeadhunter
 "Headh&unter"
 END
-
 CONTROLBAR:ToolTipIsengardUglukHeadhunter
 "Requires Level 7 \n Ugluk and nearby Uruks temporarily gain +100% Damage\n Left click icon to activate"
 END
-// ############################################################ //
-// ========================== #Mordor ========================= //
-// ############################################################ //
 
-// ============================================================ //
-// ====================== #Mordor Heroes ====================== //
-// ============================================================ //
-
-// ############################################################ //
-// ========================== #Gundabad ======================= //
-// ############################################################ //
-
-// ============================================================ //
-// ==================== #Gundabad Heroes ====================== //
-// ============================================================ //
-
-// ############################################################ //
-// ========================= #Vanilla ========================= //
-// ############################################################ //
-
-// -- Mordor Battle Tower
-OBJECT:MordorBattleTower
-"Mordor Battle Tower"
+// -- #Wulfgar
+OBJECT:IsengardWulfgar
+"Wulfgar"
 END
-CONTROLBAR:ConstructMordorBattleTower
-"Mordor Battle &Tower"
+CONTROLBAR:IsengardWulfgarRecruit
+"Recruit the Dunlending Chieftain, Wulfgar \n \n 'Once a noble warrior-chief, Wulfgar refused Saruman's demands of sworn allegiance, until the White Wizard demonstrated his absolute power by crushing the Rohirrim at the Fords of Isen.'"
 END
-CONTROLBAR:ToolTipBuildMordorBattleTower
-"Defensive structure"
+CONTROLBAR:IsengardWulfgarRevive
+"Revive the fallen Chieftain, Wulfgar"
+END
+CONTROLBAR:IsengardWulfgarHotKey
+"&Wulfgar"
 END
 
+CONTROLBAR:KingoftheHills
+"&King of the Hills"
+END
+CONTROLBAR:ToolTipKingoftheHills
+"Requires Level 8\nRallies nearby Dunlendings temporarily increasing their armor by 200% \n Left click to activate"
+END
+
+CONTROLBAR:WulfgarSubjugation
+"Dunlending Subjugation"
+End
+CONTROLBAR:ToolTipWulfgarSubjugation
+"Though hesitant, Wulfgar was left with no choice\nbut to pledge his warriors to Saruman's cause\nRequires Level 3 \nDunlendings near Wulfgar gain +50% damage \nPassive ability"
+END
+
+CONTROLBAR:SwordStrike
+"Sw&ord Strike"
+END
+CONTROLBAR:ToolTipSwordStrike
+"Powerful attack that causes meta impact \n Left click icon then left click on target"
+END
+
+// -- #Grishnakh 
+CONTROLBAR:ToolTipOrcishTenacityPassiveLeadership
+"Malevolent and blood thirsty, Grishnakh is hard to kill \n Grishnakh gains +25% Armor \n Passive ability"
+END
+CONTROLBAR:OrcishTenacityPassiveLeadership
+"Orcish Tenacity"
+END
+// ============================================================ //
+// ====================== #Isengard Units ===================== //
+// ============================================================ //
+// -- Isengard Shield Bearers
+OBJECT:IsengardShieldBearer
+"Uruk-hai Shieldbearer"
+END
+OBJECT:HordeIsengardShieldBearer
+"Uruk-hai Shieldbearers"
+END
+
+// -- Dunland Archers
+OBJECT:IsengardDunlandArcher
+"Dunlending Longbowman"
+END
+OBJECT:HordeIsengardDunlandArcher
+"Dunlending Longbowmen"
+END
+CONTROLBAR:ConstructIsengardDunlandArcherHorde
+"Dunlending &Longbowmen"
+END
+CONTROLBAR:ToolTipBuildIsengardDunlandArcherHorde
+"Strong vs. Infantry \n \n 'The rocky hills of Dunland are difficult to farm, resulting in a sprawling culture of hunting based around the legend of the White Crow.'"
+END
+OBJECT:HordeIsengardDunlandAxemanArcherCombo
+"Dunlending Axemen - Longbowmen Horde"
+END
+
+// -- Dunland Axemen 
+OBJECT:IsengardDunlandAxeman
+"Dunlending Axeman"
+END
+OBJECT:DunlandAxemenHorde
+"Dunlending Axemen"
+END
+CONTROLBAR:ConstructIsengardDunlandAxemenHorde
+"Dunlending &Axemen"
+END
+CONTROLBAR:ToolTipBuildIsengardDunlandAxemenHorde
+"Strong vs. Pikemen \n \n An axe, a shield, and a helmet. These are the most valuable possessions of any Dunnish warrior."
+END
+
+// -- Dunland Huskarls
+OBJECT:IsengardDunlandHuskarl
+"Dunlending Huskarl"
+END
+OBJECT:DunlandHuskarlHorde
+"Dunlending Huskarls"
+END
+CONTROLBAR:ConstructIsengardDunlandHuskarlHorde
+"Dunlending Hus&karls"
+END
+CONTROLBAR:ToolTipBuildIsengardDunlandHuskarlHorde
+"Requires Dunlending Longhouse Level 3\nElite Infantry \nStrong vs. Pikemen \n Limited to 3 \n \n The Huskarls of Frecalund are fierce fighters, gathered from respectable houses to serve as the king's personal guard."
+END
+CONTROLBAR:LW_Unit_DunlandHuskarlHorde
+"Dunlending Huskarls Battalion"
+END
+CONTROLBAR:LW_ToolTip_DunlandHuskarlHorde
+"\nUnit Type: Elite Infantry\nStrong vs. Pikemen"
+END
+CONTROLBAR:LW_ToolTipBuild_DunlandHuskarlHorde
+"Unit Type: Elite Infantry\nStrong vs. Pikemen\n"
+END
+
+CONTROLBAR:DunlandMordhauGrip
+"Mordhau G&rip"
+END
+CONTROLBAR:ToolTipDunlandMordhauGrip
+"Dunlending Huskarls temporarily use mordhau grip,\n dealing +15% bonus damage against structures\nLeft click to activate"
+END
+
+CONTROLBAR:DunlandNobleLineage
+"Noble Lineage"
+END
+CONTROLBAR:ToolTipDunlandNobleLineage
+"Modifier Type: Leadership\nNearby Dunlendings receive\n+50% experience gain and fear resistance\nPassive ability"
+END
+
+CONTROLBAR:RecklessSwings
+"Reckless Swings"
+END
+CONTROLBAR:ToolTipRecklessSwings
+"Requires Level 3 \n Consecutive attacks temporarily increase attack damage by 5% but reduce armour by 5% \n Passive ability"
+END
+
+// -- Dunland Axemen
+OBJECT:IsengardDunlandAxeman
+"Dunlending Axeman"
+END
+OBJECT:DunlandAxemenHorde
+"Dunlending Axemen"
+END
+CONTROLBAR:ConstructIsengardDunlandAxemenHorde
+"Dunlending &Axemen"
+END
+CONTROLBAR:ToolTipBuildIsengardDunlandAxemenHorde
+"Elite Infantry \nStrong vs. Pikemen \n \n An axe, a shield, and a helmet. These are the most valuable possessions of any Dunnish warrior."
+END
+
+// ============================================================ //
+// ==================== #Isengard Buildings =================== //
+// ============================================================ //
 // -- Isengard Battle Tower
 OBJECT:IsengardBattleTower
 "Isengard Battle Tower"
@@ -1434,165 +1838,47 @@ CONTROLBAR:ToolTipBuildIsengardBattleTower
 "Defensive structure"
 END
 
+// ############################################################ //
+// ========================== #Mordor ========================= //
+// ############################################################ //
 
+// ============================================================ //
+// ====================== #Mordor Heroes ====================== //
+// ============================================================ //
 
-// ================= Isengard Shield Bearers ================= //
-OBJECT:IsengardShieldBearer
-"Uruk-hai Shieldbearer"
+// ============================================================ //
+// ======================= #Mordor Units ====================== //
+// ============================================================ //
+
+// ============================================================ //
+// ===================== #Mordor Buildings ==================== //
+// ============================================================ //
+// -- Mordor Battle Tower
+OBJECT:MordorBattleTower
+"Mordor Battle Tower"
+END
+CONTROLBAR:ConstructMordorBattleTower
+"Mordor Battle &Tower"
+END
+CONTROLBAR:ToolTipBuildMordorBattleTower
+"Defensive structure"
 END
 
-OBJECT:HordeIsengardShieldBearer
-"Uruk-hai Shieldbearers"
-END
-//------------ Wulfgar ---------------
-OBJECT:IsengardWulfgar
-"Wulfgar"
-END
+// ############################################################ //
+// ========================== #Gundabad ======================= //
+// ############################################################ //
 
-CONTROLBAR:IsengardWulfgarRecruit
-"Recruit the Dunlending Chieftain, Wulfgar \n \n 'Once a noble warrior-chief, Wulfgar refused Saruman's demands of sworn allegiance, until the White Wizard demonstrated his absolute power by crushing the Rohirrim at the Fords of Isen.'"
-END
+// ============================================================ //
+// ==================== #Gundabad Heroes ====================== //
+// ============================================================ //
 
-CONTROLBAR:IsengardWulfgarRevive
-"Revive the fallen Chieftain, Wulfgar"
-END
+// ============================================================ //
+// ====================== #Gundabad Units ===================== //
+// ============================================================ //
 
-CONTROLBAR:IsengardWulfgarHotKey
-"&Wulfgar"
-END
-
-CONTROLBAR:KingoftheHills
-"&King of the Hills"
-END
-
-CONTROLBAR:ToolTipKingoftheHills
-"Requires Level 8\nRallies nearby Dunlendings temporarily increasing their armor by 200% \n Left click to activate"
-END
-
-CONTROLBAR:WulfgarSubjugation
-"Dunlending Subjugation"
-End
-
-CONTROLBAR:ToolTipWulfgarSubjugation
-"Though hesitant, Wulfgar was left with no choice\nbut to pledge his warriors to Saruman's cause\nRequires Level 3 \nDunlendings near Wulfgar gain +50% damage \nPassive ability"
-END
-
-CONTROLBAR:SwordStrike
-"Sw&ord Strike"
-END
-
-CONTROLBAR:ToolTipSwordStrike
-"Powerful attack that causes meta impact \n Left click icon then left click on target"
-END
-//------------ Dunland Archers ---------------
-OBJECT:IsengardDunlandArcher
-"Dunlending Longbowman"
-END
-
-OBJECT:HordeIsengardDunlandArcher
-"Dunlending Longbowmen"
-END
-
-CONTROLBAR:ConstructIsengardDunlandArcherHorde
-"Dunlending &Longbowmen"
-END
-
-CONTROLBAR:ToolTipBuildIsengardDunlandArcherHorde
-"Strong vs. Infantry \n \n 'The rocky hills of Dunland are difficult to farm, resulting in a sprawling culture of hunting based around the legend of the White Crow.'"
-END
-
-OBJECT:HordeIsengardDunlandAxemanArcherCombo
-"Dunlending Axemen - Longbowmen Horde"
-END
-
-//------------ Dunland Axemen ---------------
-OBJECT:IsengardDunlandAxeman
-"Dunlending Axeman"
-END
-
-OBJECT:DunlandAxemenHorde
-"Dunlending Axemen"
-END
-
-CONTROLBAR:ConstructIsengardDunlandAxemenHorde
-"Dunlending &Axemen"
-END
-
-CONTROLBAR:ToolTipBuildIsengardDunlandAxemenHorde
-"Strong vs. Pikemen \n \n An axe, a shield, and a helmet. These are the most valuable possessions of any Dunnish warrior."
-END
-
-//------------ Dunland Huskarls ---------------
-OBJECT:IsengardDunlandHuskarl
-"Dunlending Huskarl"
-END
-
-OBJECT:DunlandHuskarlHorde
-"Dunlending Huskarls"
-END
-
-CONTROLBAR:ConstructIsengardDunlandHuskarlHorde
-"Dunlending Hus&karls"
-END
-
-CONTROLBAR:ToolTipBuildIsengardDunlandHuskarlHorde
-"Requires Dunlending Longhouse Level 3\nElite Infantry \nStrong vs. Pikemen \n Limited to 3 \n \n The Huskarls of Frecalund are fierce fighters, gathered from respectable houses to serve as the king's personal guard."
-END
-
-CONTROLBAR:LW_Unit_DunlandHuskarlHorde
-"Dunlending Huskarls Battalion"
-END
-
-CONTROLBAR:LW_ToolTip_DunlandHuskarlHorde
-"\nUnit Type: Elite Infantry\nStrong vs. Pikemen"
-END
-
-CONTROLBAR:LW_ToolTipBuild_DunlandHuskarlHorde
-"Unit Type: Elite Infantry\nStrong vs. Pikemen\n"
-END
-
-CONTROLBAR:DunlandMordhauGrip
-"Mordhau G&rip"
-END
-
-CONTROLBAR:ToolTipDunlandMordhauGrip
-"Dunlending Huskarls temporarily use mordhau grip,\n dealing +15% bonus damage against structures\nLeft click to activate"
-END
-
-CONTROLBAR:DunlandNobleLineage
-"Noble Lineage"
-END
-
-CONTROLBAR:ToolTipDunlandNobleLineage
-"Modifier Type: Leadership\nNearby Dunlendings receive\n+50% experience gain and fear resistance\nPassive ability"
-END
-
-CONTROLBAR:RecklessSwings
-"Reckless Swings"
-END
-
-CONTROLBAR:ToolTipRecklessSwings
-"Requires Level 3 \n Consecutive attacks temporarily increase attack damage by 5% but reduce armour by 5% \n Passive ability"
-END
-
-//------------ Dunland Axemen ---------------
-OBJECT:IsengardDunlandAxeman
-"Dunlending Axeman"
-END
-
-OBJECT:DunlandAxemenHorde
-"Dunlending Axemen"
-END
-
-CONTROLBAR:ConstructIsengardDunlandAxemenHorde
-"Dunlending &Axemen"
-END
-
-CONTROLBAR:ToolTipBuildIsengardDunlandAxemenHorde
-"Elite Infantry \nStrong vs. Pikemen \n \n An axe, a shield, and a helmet. These are the most valuable possessions of any Dunnish warrior."
-END
-
-//---------------------------
+// ############################################################ //
+// ========================= #Vanilla ========================= //
+// ############################################################ //
 
 CONTROLBAR:AttackTrollPassiveLeadership
 "Olog-hai Attack-troll"
@@ -1600,14 +1886,6 @@ END
 
 CONTROLBAR:ToolTipAttackTrollPassiveLeadership
 "Required: Rank 2 \n Upgrades Mountain-troll into a deadly Attack-troll \n Troll gains 50% armor vs Pierce, 25% damage increase \n Passive ability \n \n The cruelest, most intelligent of the Olog-hai were clad in jagged black armor and sent to the front line to serve as some of Sauron's most feared warriors."
-END
-
-CONTROLBAR:ToolTipOrcishTenacityPassiveLeadership
-"Malevolent and blood thirsty, Grishnakh is hard to kill \n Grishnakh gains +25% Armor \n Passive ability"
-END
-
-CONTROLBAR:OrcishTenacityPassiveLeadership
-"Orcish Tenacity"
 END
 
 CONTROLBAR:ToolTipMerryEsquirePassiveLeadership
@@ -1618,13 +1896,6 @@ CONTROLBAR:MerryEsquirePassiveLeadership
 "Esquire of Rohan"
 END
 
-CONTROLBAR:ToolTipPippinGuardCitadelPassiveLeadership
-"When Peregrin Took arrived to Minas Tirith, he offered his services as payment for Boromir's sacrifice to save his life. \n He was outfitted in the garb of the Tower, and was instructed by Beregond of the Third Company. \n Pippin gains +100% Damage while near Beregond. \n Passive ability"
-END
-
-CONTROLBAR:PippinGuardCitadelPassiveLeadership
-"Guard of the Citadel"
-END
 
 CONTROLBAR:CrebainPassiveLeadership
 "Crebain"
@@ -1648,14 +1919,6 @@ END
 
 CONTROLBAR:ToolTipIsengardUrukRank2
 "Required: Rank 2 \n Instantly heals units for 50% total Health \n Left click to activate"
-END
-
-CONTROLBAR:FlamingArrowVolley
-"&Flaming Arrow Volley"
-END
-
-CONTROLBAR:ToolTipFlamingArrowVolley
-"Requires: Rank 2 \n Archers fire a series of flaming arrow volleys \n Deals +50% damage to structures."
 END
 
 CONTROLBAR:PurchaseTechnologyIsengardImprovedArrowsmithing
@@ -1724,126 +1987,6 @@ END
 
 TOOLTIP:LackRohanImprovedArrowsmithing
 "+25% Damage to units \n Purchase upgrade at Archery Range to enable this equipment"
-END
-
-CONTROLBAR:PurchaseTechnologyGondorImprovedArrowsmithing
-"&Steel-tipped Arrows"
-END
-
-CONTROLBAR:GondorImprovedArrowsmithing
-"Steel-tip&ped Arrows"
-END
-
-CONTROLBAR:ToolTipPurchaseTechnologyGondorImprovedArrowsmithing
-"+25% Damage to units \n Select a battalion to equip upgrade"
-END
-
-CONTROLBAR:ToolTipPurchaseUpgradeGondorImprovedArrowsmithing
-"+25% Damage to units \n Left click to upgrade this unit"
-END
-
-TOOLTIP:LackLevelGondorImprovedArrowsmithing 
-"Required: Rank 2 Archery Range \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
-END
-
-TOOLTIP:LackGondorImprovedArrowsmithing
-"+25% Damage to units \n Purchase upgrade at Archery Range to enable this equipment"
-END
-
-OBJECT:LossarnachAxeMan
-"Lossarnach Axeman"
-END
-
-OBJECT:HordeLossarnachAxeMen
-"Lossarnach Axemen"
-END
-
-OBJECT:GondorForlong
-"Forlong"
-END
-
-CONTROLBAR:GondorForlongRecruit
-"Recruit the Lord of Lossarnach \n \n 'True heart, true friend! Forlong!'"
-END
-
-CONTROLBAR:GondorForlongRevive
-"Revive the fallen Hero, Forlong"
-END
-
-CONTROLBAR:GondorForlongHotkey
-"For&long"
-END
-
-CONTROLBAR:ForlongLeadership
-"Lord of Lossarnach"
-END
-
-CONTROLBAR:TooltipForlongLeadership
-"Lossarnach Axemen near Forlong gain 150% damage \n and become immune to Fear \n Passive ability"
-END
-
-OBJECT:GondorImrahil
-"Prince Imrahil"
-END
-
-CONTROLBAR:GondorImrahilRecruit
-"Recruit the Prince of Dol Amroth, Imrahil. \n \n 'For a while I stand in the place of the Steward of Gondor, and it is mine to think first of its people.' - Imrahil"
-END
-
-CONTROLBAR:GondorImrahilRevive
-"Revive the fallen Hero, Imrahil"
-END
-
-CONTROLBAR:GondorImrahilHotKey
-"&Imrahil"
-END
-
-CONTROLBAR:ImrahilLeadership
-"Fair Lord"
-END
-
-CONTROLBAR:ToolTipImrahilLeadership
-"Leadership bonus to Cavalry near Imrahil \n +30% Armor, +20% Damage, and fear immunity \n Passive ability"
-END
-
-CONTROLBAR:SpecialPowerImrahilUnscathed
-"&Unscathed"
-END
-
-CONTROLBAR:ToolTipSpecialPowerImrahilUnscathed
-"Required: Rank 3 \n Imrahil temporarily gains +300% Armor and is resistant to knockback  \n Left click to activate"
-END
-
-CONTROLBAR:ImrahilCounsel
-"&Wise Counsel"
-END
-
-CONTROLBAR:ToolTipImrahilCounsel
-"Required: Rank 7 \n Units gain experience \n left click then right click on target"
-END
-
-CONTROLBAR:ImrahilAmroth
-"Amroth for Go&ndor!"
-END
-
-CONTROLBAR:ToolTipImrahilAmroth
-"Required: Rank 5 \n Imrahil and nearby troops +50% armor, and -50% crush decelleration. \n Imrahil must be mounted to use ability \n Left click to activate"
-END
-
-OBJECT:GondorDolAmroth
-"Gondor Dol Amroth Knight"
-END
-
-CONTROLBAR:ConstructGondorDolAmrothHorde
-"Knights of &Dol Amroth"
-END
-
-CONTROLBAR:ToolTipBuildGondorDolAmrothHorde
-"Required: Rank 3 Stables \n Gondors Elite Calvary unit, The Knights of Dol Amroth or Swan Knights are a group of soldiers who serve Prince Imrahil. \n Strong vs. Swordsmen, Archers \n Weak vs. Pikemen, Monsters \n Limited to 3 units"
-END
-
-OBJECT:HordeGondorDolAmroth
-"Dol Amroth Knight Battalion"
 END
 
 CONTROLBAR:SpecialAbilityAragornHunter
@@ -2310,141 +2453,6 @@ CONTROLBAR:ToolTipMordorEasterlingRank2
 "Required: Rank 2 \n Temporarily gain +25% Armor and +15% Speed \n Left click to activate"
 END
 
-CONTROLBAR:GondorTowerGuardFaithful
-"Faithful Guardian"
-END
-
-CONTROLBAR:ToolTipGondorTowerGuardFaithful
-"Nearby structures gain +50% armor \n Passive ability"
-END
-
-CONTROLBAR:GondorTowerGuardUndying
-"Undying Hope"
-END
-
-CONTROLBAR:ToolTipGondorTowerGuardUndying
-"Required: Rank 3 \n Nearby Heroes gain +10% to all stats \n Passive ability"
-END
-
-CONTROLBAR:AmrothKnightsBloodOfEldar
-"Blood of the Eldar"
-END
-
-CONTROLBAR:ToolTipAmrothKnightsBloodOfEldar
-"Amroth Knights heal outside of combat \n Passive ability"
-END
-
-CONTROLBAR:BoromirArmor
-"Veteran Warrior"
-END
-
-CONTROLBAR:BoromirBash
-"Shield &Bash"
-END
-
-CONTROLBAR:ToolTipBoromirBash
-"Bash enemies with Boromir's shield \n left click then right click on target"
-END
-
-OBJECT:GondorBeregond
-"Beregond"
-End
-
-CONTROLBAR:ToolTipBoromirArmor
-"Required: Rank 5 \n Boromir dons his armor \n +30% Armor \n Passive ability"
-END
-
-CONTROLBAR:FaramirLeadership
-"Captain of Ithilien"
-END
-
-CONTROLBAR:GondorBeregondRecruit
-"Recruit a loyal Citadel Guard of Minas Tirith. \n \n 'I am no captain. Neither office nor rank nor lordship have I, being but a plain man of arms of the Third Company of the Citadel.'"
-END
-
-CONTROLBAR:GondorBeregondRevive
-"Revive the fallen Citadel Guard, Beregond"
-END
-
-CONTROLBAR:GondorBeregondHotkey
-"Bere&gond"
-END
-
-CONTROLBAR:BeregondGuard
-"Guard of the Citadel"
-END
-
-CONTROLBAR:ToolTipBeregondGuard
-"Leadership bonus to nearby Structures \n +50% Armor \n Passive ability"
-END
-
-CONTROLBAR:SpawnGondorCitadelGuard
-"Captain of the White Guard"
-END
-
-CONTROLBAR:ToolTipSpawnGondorCitadelGuard
-"Required: Rank 6 \n Summons three Guards of the Citadel to aid Beregond in battle \n Left click then right click on target"
-END
-
-CONTROLBAR:BeregondPin
-"Pin Down"
-END
-
-CONTROLBAR:ToolTipBeregondPin
-"Required: Rank 3 \n Damages and pins down an enemy hero \n Left click then right click on target"
-END
-
-CONTROLBAR:BeregondRenowned
-"Renowned Soldier"
-END
-
-CONTROLBAR:ToolTipBeregondRenowned
-"Required: Rank 3 \n Leadership bonus to nearby troops \n +15% to all stats \n Passive ability"
-END
-
-CONTROLBAR:BeregondLoyalty
-"Fierce Loyalty"
-END
-
-CONTROLBAR:ToolTipBeregondLoyalty
-"Beregond gains +25% damage and health when near Faramir \n Passive ability"
-END
-
-OBJECT:GondorRangerCaptain
-"Ithilien Ranger Captain"
-END
-
-CONTROLBAR:GondorFighterRank2
-"Defenders of the White City"
-END
-
-CONTROLBAR:ToolTipGondorFighterRank2
-"Required: Rank 2 \n Temporarily gain +15% movement speed and +25% armor \n Left click to activate"
-END
-
-CONTROLBAR:GondorKnightRank2
-"Desperate Charge"
-END
-
-CONTROLBAR:ToolTipGondorKnightRank2
-"Required: Rank 2 \n Temporarily gain +25% movement speed and -25% crush decelleration \n Left click to activate"
-END
-
-CONTROLBAR:GondorGuardRank2
-"Oathbound"
-END
-
-CONTROLBAR:ToolTipGondorGuardRank2
-"Required: Rank 2 \n Citadel Guards gain +15% Speed and +100% Resist knockback \n Left click to activate"
-END
-
-CONTROLBAR:GondorRangerRank2
-"Woodland Mastery"
-END
-
-CONTROLBAR:ToolTipGondorRangerRank2
-"Required: Rank 2 \n Temporarily gain +25% range and +25% attack speed \n Left click to activate"
-END
 
 OBJECT:MordorUruk
 "Mordor Black Uruk"
@@ -2502,57 +2510,6 @@ CONTROLBAR:ToolTipBuildRohanBarracks
 "Builds Yeoman Spearmen and Edoras Kingsguard"
 END
 
-OBJECT:RohanMountedKingsguard
-"Royal Vanguard"
-END
-
-OBJECT:RohanMountedKingsguardHorde
-"Royal Vanguard Battalion"
-END
-
-CONTROLBAR:ConstructRohanMountedKingsguardHorde
-"Royal Vanguard"
-END
-
-CONTROLBAR:ToolTipBuildRohanMountedKingsguardHorde
-"Required: Rank 3 Stables \n Elite Horsemen \n Limited to 3 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan."
-END
-
-OBJECT:RohanKingsguard
-"Edoras Kingsguard"
-END
-
-OBJECT:HordeRohanKingsguard
-"Edoras Kingsguard Battalion"
-END
-
-OBJECT:RohanKingsguardHotkey
-"Edoras &Kingsguard"
-END
-
-CONTROLBAR:ConstructRohanKingsguardHorde
-"Edoras Kingsguard"
-END
-
-CONTROLBAR:ToolTipBuildRohanKingsguardHorde
-"Required: Rank 3 Barracks \n Elite Footmen of Rohan \n Limited to 3 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan."
-END
-
-OBJECT:RohanSpearmen
-"Yeoman Spearmen"
-END
-
-OBJECT:HordeRohanSpearmen
-"Yeoman Spearmen Battalion"
-END
-
-CONTROLBAR:ConstructRohanSpearmenHorde
-"Yeoman Spearmen"
-END
-
-CONTROLBAR:ToolTipBuildRohanSpearmenHorde
-"Strong vs. Cavalry and Heroes \n \n In times of war, men of Rohan wealthy enough to own a plot of land would organize themselves into regiments and take up arms to defend their homes."
-END
 
 //================================================= Shadow&Flame =====================================
 
