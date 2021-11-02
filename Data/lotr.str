@@ -315,10 +315,163 @@ END
 // ############################################################ //
 // ========================== #Rohan ========================== //
 // ############################################################ //
+CONTROLBAR:PurchaseTechnologyRohanImprovedArrowsmithing
+"&Elven Fletching"
+END
+CONTROLBAR:RohanImprovedArrowsmithing
+"Elve&n Fletching"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyRohanImprovedArrowsmithing
+"+25% Damage to units \n Select a battalion to equip upgrade"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeRohanImprovedArrowsmithing
+"+25% Damage to units \n Left click to upgrade this unit"
+END
+TOOLTIP:LackLevelRohanImprovedArrowsmithing 
+"Required: Rank 2 Archery Range \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+END
+TOOLTIP:LackRohanImprovedArrowsmithing
+"+25% Damage to units \n Purchase upgrade at Archery Range to enable this equipment"
+END
 
 // ============================================================ //
 // ====================== #Rohan Heroes ======================= //
 // ============================================================ //
+// -- #Theoden
+CONTROLBAR:TheodenRally
+"&Rally To Me!"
+END
+CONTROLBAR:TooltipTheodenRally
+"Required: Rank 8 \n Theoden calls upon a battalion of Royal Guard Horsemen \n Left click to activate"
+END
+
+CONTROLBAR:TheodenArmor
+"Armor of the King"
+END
+CONTROLBAR:ToolTipTheodenArmor
+"Required: Rank 3 \n Theoden dons his war armor \n Passive ability"
+END
+
+CONTROLBAR:TheodenLeadership
+"King of Rohan"
+END
+
+// -- #Eomer
+CONTROLBAR:SpecialAbilityEomerGuthwineThirst
+"Thirst of Guthwine"
+END
+CONTROLBAR:ToolTipSpecialAbilityEomerGuthwineThirst
+"Required: Rank 5 \n +50% damage, +50% armor \n left click to activate"
+END
+
+CONTROLBAR:StandGround
+"Stand Your Ground!"
+END
+CONTROLBAR:ToolTipStandGround
+"Required: Rank 8 \n Eomer and nearby troops gain +100% armor and +25% health \n Left click to activate"
+END
+
+CONTROLBAR:EomerMarshalLeadership
+"Third Marshal of the Mark"
+END
+CONTROLBAR:ToolTipEomerMarshalLeadership
+"Leadership bonus to nearby Cavalry \n +50% damage and -25% trample deceleration \n Passive ability"
+END
+
+CONTROLBAR:EomerOutlawLeadership
+"Lord in Exile"
+END
+CONTROLBAR:ToolTipEomerOutlawLeadership
+"Required: Rank 3 \n Nearby units earn resources per kill \n Passive ability"
+END
+
+// -- #Aragorn
+CONTROLBAR:SpecialAbilityAragornHunter
+"Hunter"
+END
+CONTROLBAR:ToolTipSpecialAbilityAragornHunter
+"Aragorn gains +10% attack damage and +5% speed when near Legolas and Gimli \n Passive ability"
+END
+
+CONTROLBAR:SpecialAbilityStriderBlademaster
+"Mas&ter Swordsman"
+END
+CONTROLBAR:ToolTipSpecialAbilityAragornRohanBladeMaster
+"Aragorn unleashes the power of the Dunedain \n +50% Damage, +50% Armor \n left click to activate""
+END
+
+CONTROLBAR:AragornRohanLeadership
+"Heir of Isildur"
+END
+CONTROLBAR:ToolTipRohanAragornLeadership
+"Aragorn gives hope to nearby troops \n +50% Armor +150% Combat Experience \n Passive ability"
+END
+
+CONTROLBAR:RohanAragornAthelas
+"&Kingsfoil"
+END
+CONTROLBAR:ToolTipRohanAragornAthelas
+"Aragorn's healing skill mends nearby friendly heroes and units \n left click to activate"
+END
+
+// -- #Legolas
+CONTROLBAR:SpecialAbilityLegolasHunter
+"Hunter"
+END
+CONTROLBAR:ToolTipSpecialAbilityLegolasHunter
+"Legolas gains +10% attack damage and +5% speed when near Aragorn and Gimli \n Passive ability"
+END
+
+CONTROLBAR:LegolasSkillOfElves
+"Skill of the E&lves"
+END
+CONTROLBAR:ToolTipLegolasSkillOfElves
+"Legolas fires two arrows towards his foe \n left click then right click on target"
+END
+
+CONTROLBAR:LegolasWhiteKnives
+"White &Knives"
+END
+CONTROLBAR:ToolTipLegolasWhiteKnives
+"Legolas unsheaths his knives \n +25% attack damage and +100% Armor \n left click to activate "
+END
+
+CONTROLBAR:LegolasLorienArrows
+"Arrows of Lot&hlorien"
+END
+CONTROLBAR:ToolTipLegolasLorienArrows
+"Legolas sends off devastating volley of Lorien arrows \n left click then right click on target"
+END
+
+// -- #Gimli
+CONTROLBAR:SpecialAbilityGimliHunter
+"Hunter"
+END
+CONTROLBAR:ToolTipSpecialAbilityGimliHunter
+"Gimli gains +10% attack damage and +5% speed when near Aragorn and Legolas \n Passive ability"
+END
+
+CONTROLBAR:GimliKhazadAiMenu
+"&Khazad ai-menu!"
+END
+CONTROLBAR:ToolTipGimliKhazad
+"Gimli unleashes the ancestral cry of the Dwarves \n +60% Damage, +25% Armor \n left click to activate""
+END
+
+CONTROLBAR:RohanGimliAxeThrow
+"A&xe Throw"
+END
+CONTROLBAR:ToolTipRohanGimliAxeThrow
+"Gimli hurls his axe at a nearby foes pinning them in place \n left click then right click on target"
+END
+
+CONTROLBAR:GimliNaturalSprinter
+"Natural Sp&rinter"
+END
+CONTROLBAR:ToolTipGimliNaturalSprinter
+"Dwarves are natural sprinters \n +30% Speed \n left click to activate"
+END
+
 // -- #Hama
 OBJECT:RohanHama
 "Hama"
@@ -346,6 +499,7 @@ END
 CONTROLBAR:ToolTipHamaSummon
 "Required: Rank 7 \n Hama summons two hordes of the Kings Guard"
 END
+
 // -- #Gamling
 CONTROLBAR:RohanGamlingRecruit
 "Gamling"
@@ -417,15 +571,12 @@ END
 OBJECT:RohanRadagast
 "Radagast the Brown"
 END
-
 CONTROLBAR:RohanRadagastRecruit
 "Recruit one of the wandering Istari, Radagast the Brown. \n \n 'A worthy wizard, a master of shapes and changes of hue; and he has much lore of herbs and beasts, and birds are especially his friends.'"
 END
-
 CONTROLBAR:RohanRadagastRevive
 "Revive the fallen Hero, Radagast"
 END
-
 CONTROLBAR:RohanRadagastHotKey
 "&Radagast"
 END
@@ -433,7 +584,6 @@ END
 CONTROLBAR:RadagastMount
 "&Mount"
 END
-
 CONTROLBAR:ToolTipRadagastMount
 "Left click to mount horse \n +25% Armor vs. Footmen and Cavalry \n -50% Armor vs. Archers and Pikes \n 100% more damage from archers and spearmen"
 END
@@ -441,7 +591,6 @@ END
 CONTROLBAR:RadagastLeadership
 "A Very Great Wizard"
 END
-
 CONTROLBAR:ToolTipRadagastLeadership
 "Nearby units gain +50% attack and +150% experience gain \n Passive ability"
 END
@@ -449,7 +598,6 @@ END
 CONTROLBAR:RadagastSiphonLeadership
 "Siphon Witchcraft"
 END
-
 CONTROLBAR:ToolTipRadagastSiphonLeadership
 "Required: Rank 5 \n Radagast continously heals nearby friendly heroes and units \n Passive ability"
 END
@@ -457,20 +605,30 @@ END
 CONTROLBAR:SpawnRadagastGwaihir
 "Summon G&waihir"
 END
-
 CONTROLBAR:TooltipSpawnRadagastGwaihir
 "Required: Rank 10 \n Summons Gwaihir, Lord of Eagles"
 END
-
 OBJECT:RohanGwaihir
 "Gwaihir, Lord of Eagles"
 END
 
 // -- #Haldir
+OBJECT:ElvenHaldir
+"Haldir"
+END
+CONTROLBAR:ElvenHaldirRecruit
+"Recruit the captain of the Galadhrim. \n \n 'The world is indeed full of peril, and in it there are many dark places; but still there is much that is fair, and though in all lands love is now mingled with grief, it grows perhaps the greater.'"
+END
+CONTROLBAR:ElvenHaldirRevive
+"Revive the fallen Hero, Haldir"
+END
+CONTROLBAR:ElvenHaldirHotkey
+"&Haldir"
+END
+
 CONTROLBAR:HaldirLeadership
 "Marchwarden of the Golden Wood"
 END
-
 CONTROLBAR:ToolTipHaldirLeadership
 "Required: Rank 3 \n Haldir and nearby Galadhrim gain +25% attack and +15% speed \n Passive ability"
 END
@@ -478,7 +636,6 @@ END
 CONTROLBAR:HaldirArmor
 "Heavy Raiment of the Golden Wood"
 END
-
 CONTROLBAR:ToolTipHaldirArmor
 "Required: Rank 5 \n Haldir dons his Armor and gains +10% Armor \n Passive ability"
 END
@@ -486,7 +643,6 @@ END
 CONTROLBAR:HaldirVigilance
 "Vigilance"
 END
-
 CONTROLBAR:TooltipHaldirVigilance
 "Required: Rank 6 \n Reveals a small portion of the map \n left click then right click on target"
 END
@@ -494,7 +650,6 @@ END
 CONTROLBAR:HaldirSkill
 "Elven Skill"
 END
-
 CONTROLBAR:TooltipHaldirSkill
 "Required: Rank 8 \n Grants experience to non-Elven archers within a radius \n left click then right click on target"
 END
@@ -502,9 +657,16 @@ END
 CONTROLBAR:HaldirQuickDraw
 "Quick Draw"
 END
-
 CONTROLBAR:ToolTipHaldirQuickDraw
 "Haldir temporarily gains +25% Attack Speed \n left click to activate"
+END
+
+// -- #Merry
+CONTROLBAR:ToolTipMerryEsquirePassiveLeadership
+"Merry is Emboldened in the presence of the Lady. \n Merry gains +100% Damage while near Eowyn. \n Passive ability"
+END
+CONTROLBAR:MerryEsquirePassiveLeadership
+"Esquire of Rohan"
 END
 
 // ============================================================ //
@@ -553,6 +715,60 @@ CONTROLBAR:ConstructRohanSpearmenHorde
 END
 CONTROLBAR:ToolTipBuildRohanSpearmenHorde
 "Strong vs. Cavalry and Heroes \n \n In times of war, men of Rohan wealthy enough to own a plot of land would organize themselves into regiments and take up arms to defend their homes."
+END
+
+// ============================================================ //
+// ======================= #Rohan Unit Abilities ============== //
+// ============================================================ //
+CONTROLBAR:RohanSoldierRank2
+"For Lord and Land"
+END
+CONTROLBAR:ToolTipRohanSoldierRank2
+"Required: Rank 2 \n Temporarily gain +15% movement speed and +10% Health \n Left click to activate"
+END
+
+CONTROLBAR:RohanRiderRank2
+"For Death and Glory"
+END
+CONTROLBAR:ToolTipRohanRiderRank2
+"Required: Rank 2 \n Temporarily gain +25% movement speed and +10% Health \n Left click to activate"
+END
+
+CONTROLBAR:RohanGuardRank2
+"Oathbound"
+END
+CONTROLBAR:ToolTipRohanGuardRank2
+"Required: Rank 2 \n Temporarily gain +15% movement speed and +25% Armor \n Left click to activate"
+END
+
+CONTROLBAR:RohanGaladhrimRank2
+"Elvish Mastery"
+END
+CONTROLBAR:ToolTipRohanGaladhrimRank2
+"Required: Rank 2 \n Temporarily gain +50% range and +25% attack speed \n Left click to activate"
+END
+
+// ============================================================ //
+// ======================= #Rohan Buildings =================== //
+// ============================================================ //
+OBJECT:RohanGuardTower
+"Guard Tower"
+END
+CONTROLBAR:ConstructRohanGuardTower
+"Build Rohan Guard &Tower"
+END
+CONTROLBAR:ToolTipBuildRohanGuardTower
+"Guard Tower will fire at enemy units"
+END
+
+CONTROLBAR:ConstructRohanBarracks
+"Build Rohan &Garrison"
+END
+OBJECT:RohanBarracksDescription
+"Rank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
+END
+CONTROLBAR:ToolTipBuildRohanBarracks
+"Builds Yeoman Spearmen and Edoras Kingsguard"
 END
 
 // ############################################################ //
@@ -1635,6 +1851,21 @@ END
 // ############################################################ //
 // ========================== #Isengard ======================= //
 // ############################################################ //
+CONTROLBAR:PurchaseTechnologyIsengardImprovedArrowsmithing
+"&Steel Bolts Upgrade"
+END
+CONTROLBAR:IsengardImprovedArrowsmithing
+"Steel B&olts"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyIsengardImprovedArrowsmithing
+"+25% Damage \n No added damage to Structures \n Select a battalion to equip upgrade"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeIsengardImprovedArrowsmithing
+"+25% Damage \n No added damage to Structures \n Left click to upgrade this unit"
+END
+TOOLTIP:LackIsengardIsengardImprovedArrowsmithing
+"+25% Damage \n No added damage to Structures \n Purchase upgrade at Armory to enable this equipment"
+END
 
 // ============================================================ //
 // ==================== #Isengard Heroes ====================== //
@@ -1789,6 +2020,44 @@ CONTROLBAR:LW_ToolTipBuild_DunlandHuskarlHorde
 "Unit Type: Elite Infantry\nStrong vs. Pikemen\n"
 END
 
+// -- Dunland Axemen
+OBJECT:IsengardDunlandAxeman
+"Dunlending Axeman"
+END
+OBJECT:DunlandAxemenHorde
+"Dunlending Axemen"
+END
+CONTROLBAR:ConstructIsengardDunlandAxemenHorde
+"Dunlending &Axemen"
+END
+CONTROLBAR:ToolTipBuildIsengardDunlandAxemenHorde
+"Elite Infantry \nStrong vs. Pikemen \n \n An axe, a shield, and a helmet. These are the most valuable possessions of any Dunnish warrior."
+END
+
+// ============================================================ //
+// ====================== #Isengard Unit Abilities ============ //
+// ============================================================ //
+CONTROLBAR:CrebainPassiveLeadership
+"Crebain"
+END
+CONTROLBAR:ToolTipCrebainPassiveLeadership
+"Applies a 25% Armor Debuff to nearby Enemy units \n Passive ability"
+END
+
+CONTROLBAR:ToolTipSapperPassiveLeadership
+"These Uruk Berserkers carry smaller bombs on their back to set alight, killing themselves and all people around them. \n Attack a target to Explode"
+END
+CONTROLBAR:SapperPassiveLeadership
+"Berserker Sapper"
+END
+
+CONTROLBAR:IsengardUrukRank2
+"Feast"
+END
+CONTROLBAR:ToolTipIsengardUrukRank2
+"Required: Rank 2 \n Instantly heals units for 50% total Health \n Left click to activate"
+END
+
 CONTROLBAR:DunlandMordhauGrip
 "Mordhau G&rip"
 END
@@ -1809,21 +2078,6 @@ END
 CONTROLBAR:ToolTipRecklessSwings
 "Requires Level 3 \n Consecutive attacks temporarily increase attack damage by 5% but reduce armour by 5% \n Passive ability"
 END
-
-// -- Dunland Axemen
-OBJECT:IsengardDunlandAxeman
-"Dunlending Axeman"
-END
-OBJECT:DunlandAxemenHorde
-"Dunlending Axemen"
-END
-CONTROLBAR:ConstructIsengardDunlandAxemenHorde
-"Dunlending &Axemen"
-END
-CONTROLBAR:ToolTipBuildIsengardDunlandAxemenHorde
-"Elite Infantry \nStrong vs. Pikemen \n \n An axe, a shield, and a helmet. These are the most valuable possessions of any Dunnish warrior."
-END
-
 // ============================================================ //
 // ==================== #Isengard Buildings =================== //
 // ============================================================ //
@@ -1847,11 +2101,21 @@ END
 // ============================================================ //
 
 // ============================================================ //
-// ======================= #Mordor Units ====================== //
+// ====================== #Mordor Units ======================= //
 // ============================================================ //
 
 // ============================================================ //
-// ===================== #Mordor Buildings ==================== //
+// ====================== #Mordor Unit Abilities ============== //
+// ============================================================ //
+CONTROLBAR:AttackTrollPassiveLeadership
+"Olog-hai Attack-troll"
+END
+CONTROLBAR:ToolTipAttackTrollPassiveLeadership
+"Required: Rank 2 \n Upgrades Mountain-troll into a deadly Attack-troll \n Troll gains 50% armor vs Pierce, 25% damage increase \n Passive ability \n \n The cruelest, most intelligent of the Olog-hai were clad in jagged black armor and sent to the front line to serve as some of Sauron's most feared warriors."
+END
+
+// ============================================================ //
+// ====================== #Mordor Buildings =================== //
 // ============================================================ //
 // -- Mordor Battle Tower
 OBJECT:MordorBattleTower
@@ -1880,66 +2144,6 @@ END
 // ========================= #Vanilla ========================= //
 // ############################################################ //
 
-CONTROLBAR:AttackTrollPassiveLeadership
-"Olog-hai Attack-troll"
-END
-
-CONTROLBAR:ToolTipAttackTrollPassiveLeadership
-"Required: Rank 2 \n Upgrades Mountain-troll into a deadly Attack-troll \n Troll gains 50% armor vs Pierce, 25% damage increase \n Passive ability \n \n The cruelest, most intelligent of the Olog-hai were clad in jagged black armor and sent to the front line to serve as some of Sauron's most feared warriors."
-END
-
-CONTROLBAR:ToolTipMerryEsquirePassiveLeadership
-"Merry is Emboldened in the presence of the Lady. \n Merry gains +100% Damage while near Eowyn. \n Passive ability"
-END
-
-CONTROLBAR:MerryEsquirePassiveLeadership
-"Esquire of Rohan"
-END
-
-
-CONTROLBAR:CrebainPassiveLeadership
-"Crebain"
-END
-
-CONTROLBAR:ToolTipSapperPassiveLeadership
-"These Uruk Berserkers carry smaller bombs on their back to set alight, killing themselves and all people around them. \n Attack a target to Explode"
-END
-
-CONTROLBAR:SapperPassiveLeadership
-"Berserker Sapper"
-END
-
-CONTROLBAR:ToolTipCrebainPassiveLeadership
-"Applies a 25% Armor Debuff to nearby Enemy units \n Passive ability"
-END
-
-CONTROLBAR:IsengardUrukRank2
-"Feast"
-END
-
-CONTROLBAR:ToolTipIsengardUrukRank2
-"Required: Rank 2 \n Instantly heals units for 50% total Health \n Left click to activate"
-END
-
-CONTROLBAR:PurchaseTechnologyIsengardImprovedArrowsmithing
-"&Steel Bolts Upgrade"
-END
-
-CONTROLBAR:IsengardImprovedArrowsmithing
-"Steel B&olts"
-END
-
-CONTROLBAR:ToolTipPurchaseTechnologyIsengardImprovedArrowsmithing
-"+25% Damage \n No added damage to Structures \n Select a battalion to equip upgrade"
-END
-
-CONTROLBAR:ToolTipPurchaseUpgradeIsengardImprovedArrowsmithing
-"+25% Damage \n No added damage to Structures \n Left click to upgrade this unit"
-END
-
-TOOLTIP:LackIsengardIsengardImprovedArrowsmithing
-"+25% Damage \n No added damage to Structures \n Purchase upgrade at Armory to enable this equipment"
-END
 
 CONTROLBAR:PurchaseTechnologyMordorImprovedArrowsmithing
 "&Barbed Arrows"
@@ -1963,210 +2167,6 @@ END
 
 TOOLTIP:LackMordorImprovedArrowsmithing
 "+25% Damage \n No added damage to Structures \n Purchase upgrade at Orc Pit to enable this equipment"
-END
-
-CONTROLBAR:PurchaseTechnologyRohanImprovedArrowsmithing
-"&Elven Fletching"
-END
-
-CONTROLBAR:RohanImprovedArrowsmithing
-"Elve&n Fletching"
-END
-
-CONTROLBAR:ToolTipPurchaseTechnologyRohanImprovedArrowsmithing
-"+25% Damage to units \n Select a battalion to equip upgrade"
-END
-
-CONTROLBAR:ToolTipPurchaseUpgradeRohanImprovedArrowsmithing
-"+25% Damage to units \n Left click to upgrade this unit"
-END
-
-TOOLTIP:LackLevelRohanImprovedArrowsmithing 
-"Required: Rank 2 Archery Range \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
-END
-
-TOOLTIP:LackRohanImprovedArrowsmithing
-"+25% Damage to units \n Purchase upgrade at Archery Range to enable this equipment"
-END
-
-CONTROLBAR:SpecialAbilityAragornHunter
-"Hunter"
-END
-
-CONTROLBAR:ToolTipSpecialAbilityAragornHunter
-"Aragorn gains +10% attack damage and +5% speed when near Legolas and Gimli \n Passive ability"
-END
-
-CONTROLBAR:SpecialAbilityStriderBlademaster
-"Mas&ter Swordsman"
-END
-
-CONTROLBAR:ToolTipSpecialAbilityAragornRohanBladeMaster
-"Aragorn unleashes the power of the Dunedain \n +50% Damage, +50% Armor \n left click to activate""
-END
-
-CONTROLBAR:AragornRohanLeadership
-"Heir of Isildur"
-END
-
-CONTROLBAR:ToolTipRohanAragornLeadership
-"Aragorn gives hope to nearby troops \n +50% Armor +150% Combat Experience \n Passive ability"
-END
-
-CONTROLBAR:RohanAragornAthelas
-"&Kingsfoil"
-END
-
-CONTROLBAR:ToolTipRohanAragornAthelas
-"Aragorn's healing skill mends nearby friendly heroes and units \n left click to activate"
-END
-
-CONTROLBAR:SpecialAbilityLegolasHunter
-"Hunter"
-END
-
-CONTROLBAR:ToolTipSpecialAbilityLegolasHunter
-"Legolas gains +10% attack damage and +5% speed when near Aragorn and Gimli \n Passive ability"
-END
-
-CONTROLBAR:LegolasSkillOfElves
-"Skill of the E&lves"
-END
-
-CONTROLBAR:ToolTipLegolasSkillOfElves
-"Legolas fires two arrows towards his foe \n left click then right click on target"
-END
-
-CONTROLBAR:LegolasWhiteKnives
-"White &Knives"
-END
-
-CONTROLBAR:ToolTipLegolasWhiteKnives
-"Legolas unsheaths his knives \n +25% attack damage and +100% Armor \n left click to activate "
-END
-
-CONTROLBAR:LegolasLorienArrows
-"Arrows of Lot&hlorien"
-END
-
-CONTROLBAR:ToolTipLegolasLorienArrows
-"Legolas sends off devastating volley of Lorien arrows \n left click then right click on target"
-END
-
-CONTROLBAR:SpecialAbilityGimliHunter
-"Hunter"
-END
-
-CONTROLBAR:ToolTipSpecialAbilityGimliHunter
-"Gimli gains +10% attack damage and +5% speed when near Aragorn and Legolas \n Passive ability"
-END
-
-CONTROLBAR:GimliKhazadAiMenu
-"&Khazad ai-menu!"
-END
-
-CONTROLBAR:ToolTipGimliKhazad
-"Gimli unleashes the ancestral cry of the Dwarves \n +60% Damage, +25% Armor \n left click to activate""
-END
-
-CONTROLBAR:RohanGimliAxeThrow
-"A&xe Throw"
-END
-
-CONTROLBAR:ToolTipRohanGimliAxeThrow
-"Gimli hurls his axe at a nearby foes pinning them in place \n left click then right click on target"
-END
-
-CONTROLBAR:GimliNaturalSprinter
-"Natural Sp&rinter"
-END
-
-CONTROLBAR:ToolTipGimliNaturalSprinter
-"Dwarves are natural sprinters \n +30% Speed \n left click to activate"
-END
-
-CONTROLBAR:SpecialAbilityEomerGuthwineThirst
-"Thirst of Guthwine"
-END
-
-CONTROLBAR:ToolTipSpecialAbilityEomerGuthwineThirst
-"Required: Rank 5 \n +50% damage, +50% armor \n left click to activate"
-END
-
-CONTROLBAR:StandGround
-"Stand Your Ground!"
-END
-
-CONTROLBAR:ToolTipStandGround
-"Required: Rank 8 \n Eomer and nearby troops gain +100% armor and +25% health \n Left click to activate"
-END
-
-CONTROLBAR:EomerMarshalLeadership
-"Third Marshal of the Mark"
-END
-
-CONTROLBAR:ToolTipEomerMarshalLeadership
-"Leadership bonus to nearby Cavalry \n +50% damage and -25% trample deceleration \n Passive ability"
-END
-
-CONTROLBAR:EomerOutlawLeadership
-"Lord in Exile"
-END
-
-CONTROLBAR:ToolTipEomerOutlawLeadership
-"Required: Rank 3 \n Nearby units earn resources per kill \n Passive ability"
-END
-
-CONTROLBAR:TheodenRally
-"&Rally To Me!"
-END
-
-CONTROLBAR:TooltipTheodenRally
-"Required: Rank 8 \n Theoden calls upon a battalion of Royal Guard Horsemen \n Left click to activate"
-END
-
-CONTROLBAR:TheodenArmor
-"Armor of the King"
-END
-
-CONTROLBAR:ToolTipTheodenArmor
-"Required: Rank 3 \n Theoden dons his war armor \n Passive ability"
-END
-
-CONTROLBAR:TheodenLeadership
-"King of Rohan"
-END
-
-CONTROLBAR:RohanSoldierRank2
-"For Lord and Land"
-END
-
-CONTROLBAR:ToolTipRohanSoldierRank2
-"Required: Rank 2 \n Temporarily gain +15% movement speed and +10% Health \n Left click to activate"
-END
-
-CONTROLBAR:RohanRiderRank2
-"For Death and Glory"
-END
-
-CONTROLBAR:ToolTipRohanRiderRank2
-"Required: Rank 2 \n Temporarily gain +25% movement speed and +10% Health \n Left click to activate"
-END
-
-CONTROLBAR:RohanGuardRank2
-"Oathbound"
-END
-
-CONTROLBAR:ToolTipRohanGuardRank2
-"Required: Rank 2 \n Temporarily gain +15% movement speed and +25% Armor \n Left click to activate"
-END
-
-CONTROLBAR:RohanGaladhrimRank2
-"Elvish Mastery"
-END
-
-CONTROLBAR:ToolTipRohanGaladhrimRank2
-"Required: Rank 2 \n Temporarily gain +50% range and +25% attack speed \n Left click to activate"
 END
 
 OBJECT:MordorWitchKing
@@ -2469,47 +2469,6 @@ END
 CONTROLBAR:ConstructMordorUrukHorde
 "Mordor Black Uruks"
 END
-
-OBJECT:ElvenHaldir
-"Haldir"
-END
-
-CONTROLBAR:ElvenHaldirRecruit
-"Recruit the captain of the Galadhrim. \n \n 'The world is indeed full of peril, and in it there are many dark places; but still there is much that is fair, and though in all lands love is now mingled with grief, it grows perhaps the greater.'"
-END
-
-CONTROLBAR:ElvenHaldirRevive
-"Revive the fallen Hero, Haldir"
-END
-
-CONTROLBAR:ElvenHaldirHotkey
-"&Haldir"
-END
-
-OBJECT:RohanGuardTower
-"Guard Tower"
-END
-
-CONTROLBAR:ConstructRohanGuardTower
-"Build Rohan Guard &Tower"
-END
-
-CONTROLBAR:ToolTipBuildRohanGuardTower
-"Guard Tower will fire at enemy units"
-END
-
-CONTROLBAR:ConstructRohanBarracks
-"Build Rohan &Garrison"
-END
-
-OBJECT:RohanBarracksDescription
-"Rank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
-END
-
-CONTROLBAR:ToolTipBuildRohanBarracks
-"Builds Yeoman Spearmen and Edoras Kingsguard"
-END
-
 
 //================================================= Shadow&Flame =====================================
 
