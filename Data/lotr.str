@@ -2243,7 +2243,7 @@ CONTROLBAR:GrimaSabotage
 "&Sabotage"
 END
 CONTROLBAR:ToolTipGrimaSabotage
-"Required: Rank 3 \n Enemy Resource structure is Disabled for a moderate amount of time \n Left click then right click on target"
+"Required: Rank 3 \n Enemy Resource structure production is reduced by 50% for a minute\n Left click then right click on target"
 END
 
 // ============================================================ //
