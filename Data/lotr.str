@@ -131,6 +131,13 @@ CONTROLBAR:ToolTipSummonBeaconGondor
 "Erects a Beacon of Gondor. Surrounding units gain +50% armor. Enemy leadership is negated. \n Left click then right click on target"
 END
 
+CONTROLBAR:KingElessar
+"King Elessar Telcontar"
+END
+CONTROLBAR:ToolTipKingElessar
+"Unlocks King Elessar \n Recruit King Elessar at the Citadel"
+END
+
 // ============================================================= //
 // ================== #Gondor Heroes =========================== //
 // ============================================================= //
@@ -138,12 +145,7 @@ END
 OBJECT:GondorKingElessar
 "King Elessar"
 END
-CONTROLBAR:KingElessar
-"King Elessar Telcontar"
-END
-CONTROLBAR:ToolTipKingElessar
-"Unlocks King Elessar \n Recruit King Elessar at the Citadel"
-END
+
 TOOLTIP:ToolTipLackKingElessar
 "Required: The King Elessar Telcontar Spellbook Power \n Recruit King Elessar, the last High King of Gondor \n \n 'Out of the Great Sea to Middle-earth I am come. In this place will I abide, and my heirs, unto the ending of the world.' \n Rank 10"
 END
@@ -391,11 +393,11 @@ CONTROLBAR:ToolTipSummonRohanHelmHammerhand
 "Spawns Statue of Helm Hammerhand. Surrounding units gain +50% armor. Enemy leadership is negated. \n Left click then right click on target"
 END
 
-CONTROLBAR:RohanGondorianDescription
-"Calls upon two Battalions of Gondor Soldiers and Gondor Archers"
-END
 CONTROLBAR:SummonRohanGondorian
 "Call for Aid"
+END
+CONTROLBAR:RohanGondorianDescription
+"Calls upon two Battalions of Gondor Soldiers and Gondor Archers"
 END
 CONTROLBAR:ToolTipSummonRohanGondorian
 "Calls upon two Battalions of Gondor Soldiers and Gondor Archers \n Left click then right click on target"
@@ -2044,10 +2046,6 @@ CONTROLBAR:ToolTipSarumanCalltheHorde
 END
 
 // -- #Lurtz
-CONTROLBAR:LurtzSummonScouts
-"Fighting Uruk-Hai"
-END
-
 CONTROLBAR:SpawnLurtzScouts
 "Fighting Uruk-Hai"
 END
@@ -2418,6 +2416,13 @@ CONTROLBAR:ToolTipSummonMordorMorgulStatue
 "Spawns a Defiled Statue. Surrounding units gain +50% armor. Enemy leadership is negated. \n Left click then right click on target"
 END
 
+CONTROLBAR:Sauron
+"The Dark Lord"
+END
+CONTROLBAR:ToolTipSauron
+"Unlocks Sauron \n Recruit Sauron at the Citadel"
+END
+
 // ============================================================ //
 // ====================== #Mordor Heroes ====================== //
 // ============================================================ //
@@ -2425,15 +2430,8 @@ END
 CONTROLBAR:SauronDescription
 "Recruit the Lord of the Rings himself  \n \n 'Ash nazg durbatulok, ash nazg gimbatul \n Ash nazg thrakatulok agh burzum-ishi krimpatul.'""
 END
-CONTROLBAR:Sauron
-"The Dark Lord"
-END
 CONTROLBAR:SauronHover
 "The Dark Lord Sauron"
-END
-
-CONTROLBAR:ToolTipSauron
-"Unlocks Sauron \n Recruit Sauron at the Citadel"
 END
 TOOLTIP:ToolTipLackSauron
 "Required: The Dark Lord \n Recruit the Lord of the Rings. \n \n 'Ash nazg durbatulok, ash nazg gimbatul \n Ash nazg thrakatulok agh burzum-ishi krimpatul.' \n Rank 10"
