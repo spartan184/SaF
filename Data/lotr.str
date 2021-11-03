@@ -3091,10 +3091,12 @@ END
 OBJECT:GundabadBanner
 "Mountain-orc Banner Carrier"
 END
+
 OBJECT:GundabadWargRiderBanner
 "Warg-rider Banner Carrier"
 END
-OBJECT:GundabadWargBanner
+
+OBJECT:GundabadWargPackBanner
 "Alpha Warg"
 END
 
@@ -3215,11 +3217,6 @@ CONTROLBAR:ConstructGundabadWolfPack
 END
 CONTROLBAR:ToolTipBuildGundabadWolfPack
 "Strong vs. Archers \n Weak vs. Cavalry and Heroes \n \n Fast-moving and ferocious, packs of Wargs have oft been the bane of unwary travelers."
-END
-
-// -- Whitewolf
-OBJECT:GundabadWhiteWolf
-"White Warg"
 END
 
 // -- Gundabad Cavetroll
