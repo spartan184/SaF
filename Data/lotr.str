@@ -2027,10 +2027,24 @@ CONTROLBAR:ToolTipSummonIsengardWhiteHand
 "Spawns White Hand Monument. Surrounding units gain +50% armor. Enemy leadership is negated. \n Left click then right click on target"
 END
 
+CONTROLBAR:LordofOrthancPower
+"Lord of Orthanc"
+END
+CONTROLBAR:ToolTipLordofOrthancPower
+"Allows Saruman to be recruited from the citadel"
+END
+
 // ============================================================ //
 // ==================== #Isengard Heroes ====================== //
 // ============================================================ //
 // -- #Saruman
+CONTROLBAR:ToolTipSaru
+"Unlocks Saruman \n Recruit Saruman at the Citadel"
+END
+TOOLTIP:ToolTipLackSaru
+"Required: Lord of Orthanc Power \n Recruit Saruman"
+END
+
 CONTROLBAR:ThunderBolt
 "&Redhorn's Wrath"
 END
@@ -2043,6 +2057,13 @@ CONTROLBAR:SarumanCalltheHorde
 END
 CONTROLBAR:ToolTipSarumanCalltheHorde
 "Uruk-hai are produced at a significantly increased rate for a moderate duration \n Left click to activate"
+END
+
+CONTROLBAR:EndlessSupplies
+"Endless Supplies"
+END
+CONTROLBAR:ToolTipEndlessSupplies
+"Required: Rank 7 \n Instantly upgrades Isengard units in radius with all upgrades"
 END
 
 // -- #Lurtz
@@ -2166,6 +2187,27 @@ CONTROLBAR:IsengardSharkuHotkey
 "Shar&ku"
 END
 
+CONTROLBAR:SharkuLeadership
+"Warg Rider Captain"
+END
+CONTROLBAR:ToolTipSharkuLeadership
+"Leadership \n Nearby Warg Riders gain +25% damage. \n Passive ability"
+END
+
+CONTROLBAR:SharkuIntercept
+"&Intercept"
+END
+CONTROLBAR:ToolTipSharkuIntercept
+"Required: Rank 3 \n Sharku and surrounding Warg-riders gain +25% speed. \n Left click to activate"
+END
+
+CONTROLBAR:SharkuSummon
+"&Pack Leader"
+END
+CONTROLBAR:ToolTipSharkuSummon
+"Required: Rank 10 \n Sharku summons 2 Warg Packs to his side for a short time\n Left click to activate"
+END
+
 // -- #Grima
 OBJECT:IsengardGrima
 "Grima Wormtongue"
@@ -2181,6 +2223,27 @@ CONTROLBAR:IsengardGrimaRevive
 END
 CONTROLBAR:IsengardGrimaHotkey
 "&Grima"
+END
+
+CONTROLBAR:GrimaSiegeLeadership
+"Exploit &Weakness"
+END
+CONTROLBAR:ToolTipGrimaSiegeLeadership
+"Required: Rank 8 \n Nearby Siege Engines gain +25% damage."
+END
+
+CONTROLBAR:GrimaLeechcraft
+"&Leechcraft"
+END
+CONTROLBAR:ToolTipGrimaLeechcraft
+"Required: Rank 5 \n Enemy heroes lose -25% Damage and -20% Health for a short amount of time \n Left click then right click on target"
+END
+
+CONTROLBAR:GrimaSabotage
+"&Sabotage"
+END
+CONTROLBAR:ToolTipGrimaSabotage
+"Required: Rank 3 \n Enemy Resource structure is Disabled for a moderate amount of time \n Left click then right click on target"
 END
 
 // ============================================================ //
@@ -2296,6 +2359,13 @@ END
 // ============================================================ //
 // ====================== #Isengard Unit Abilities ============ //
 // ============================================================ //
+UPGRADE:IsengardPortableMines
+"Portable Mines Upgrades"
+END
+TOOLTIP:IsengardPortableMines
+"Portable Mines: Equip a Berserker with a Portable Mine. They may detonate it at will"
+END
+
 CONTROLBAR:CrebainPassiveLeadership
 "Crebain"
 END
@@ -35773,82 +35843,6 @@ END
 
 CONTROLBAR:PurchaseTechnologyMordorForgedBlades
 "Fire Arro&ws Upgrade"
-END
-
-CONTROLBAR:LordofOrthancPower
-"Lord of Orthanc"
-END
-
-CONTROLBAR:ToolTipLordofOrthancPower
-"Allows Saruman to be recruited from the citadel"
-END
-
-CONTROLBAR:ToolTipSaru
-"Unlocks Saruman \n Recruit Saruman at the Citadel"
-END
-
-TOOLTIP:ToolTipLackSaru
-"Required: Lord of Orthanc Power \n Recruit Saruman"
-END
-
-CONTROLBAR:EndlessSupplies
-"Endless Supplies"
-END
-
-CONTROLBAR:ToolTipEndlessSupplies
-"Required: Rank 7 \n Instantly upgrades Isengard units in radius with all upgrades"
-END
-
-UPGRADE:IsengardPortableMines
-"Portable Mines Upgrades"
-END
-
-TOOLTIP:IsengardPortableMines
-"Portable Mines: Equip a Berserker with a Portable Mine. They may detonate it at will"
-END
-
-CONTROLBAR:SharkuLeadership
-"Warg Rider Captain"
-END
-CONTROLBAR:ToolTipSharkuLeadership
-"Leadership \n Nearby Warg Riders gain +25% damage. \n Passive ability"
-END
-
-CONTROLBAR:SharkuIntercept
-"&Intercept"
-END
-CONTROLBAR:ToolTipSharkuIntercept
-"Required: Rank 3 \n Sharku and surrounding Warg-riders gain +25% speed. \n Left click to activate"
-END
-CONTROLBAR:SharkuSummon
-"&Pack Leader"
-END
-CONTROLBAR:ToolTipSharkuSummon
-"Required: Rank 10 \n Sharku summons 2 Warg Packs to his side for a short time\n Left click to activate"
-END
-
-CONTROLBAR:GrimaSiegeLeadership
-"Exploit &Weakness"
-END
-
-CONTROLBAR:ToolTipGrimaSiegeLeadership
-"Required: Rank 8 \n Nearby Siege Engines gain +25% damage."
-END
-
-CONTROLBAR:GrimaLeechcraft
-"&Leechcraft"
-END
-
-CONTROLBAR:ToolTipGrimaLeechcraft
-"Required: Rank 5 \n Enemy heroes lose -25% Damage and -20% Health for a short amount of time \n Left click then right click on target"
-END
-
-CONTROLBAR:GrimaSabotage
-"&Sabotage"
-END
-
-CONTROLBAR:ToolTipGrimaSabotage
-"Required: Rank 3 \n Enemy Resource structure is Disabled for a moderate amount of time \n Left click then right click on target"
 END
 
 CONTROLBAR:GiantBatBatman
