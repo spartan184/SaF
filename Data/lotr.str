@@ -1,4 +1,3 @@
-
 // CAMERA SYSTEM
 CONTROLBAR:RJCameraGeneralView
 "General's View"
@@ -31,6 +30,7 @@ CONTROLBAR:ToolTipRJCameraOverheadView
 "Have a bird's eye view of the battlefield"
 END
 // END CAMERA
+
 // ############################################################ //
 // ========================= #Generics ======================== //
 // ############################################################ //
@@ -52,8 +52,25 @@ CONTROLBAR:ToolTipFlamingArrowVolley
 "Requires: Rank 2 \n Archers fire a series of flaming arrow volleys \n Deals +50% damage to structures."
 END
 
+// ############################################################ //
+// =========================== #Maps ========================== //
+// ############################################################ //
+Map:MAPMPMountGundabad
+"Gundabad Wasteland"
+END
+Map:MAPMPMountGundabad/Desc
+"These jagged wastelands surrounding Mount Gundabad have been home to warring orc-tribes for generations. \n Number of Players: 3 \n Starting Positions: Castles \n Expansion Points: 3 \n Settlements: 6 \n Lairs: Goblins, Trolls"
+END
+
+Map:MAPMPWoodyEnd
+"Woody End"
+END
+Map:MAPMPWoodyEnd/Desc
+"A forested land west of the Shire. Frodo, Sam and Pippin hid from one of the Nazgul on their way to Bree in this region. \n Credits: Kobrakai \n Number of Players: 2 \n Starting Positions: Camps \n Expansion Points: 2 \n Settlements: 8"
+END
+
 // ############################################################# //
-// -------------------------- #Gondor --------------------------
+// ========================= #Gondor ===========================
 // ############################################################# //
 CONTROLBAR:PurchaseTechnologyGondorImprovedArrowsmithing
 "&Steel-tipped Arrows"
@@ -74,14 +91,66 @@ TOOLTIP:LackGondorImprovedArrowsmithing
 "+25% Damage to units \n Purchase upgrade at Archery Range to enable this equipment"
 END
 
-// ------------------------------------------------------------- //
-// ------------------ #Gondor Spellbook Powers ----------------- //
-// ------------------------------------------------------------- //
+// ============================================================= //
+// ================== #Gondor Spellbook Powers ================= //
+// ============================================================= //
+CONTROLBAR:Economy
+"Lands Kept Safe"
+END
+CONTROLBAR:ToolTipEconomy
+"Stoneworker and Marketplace upgrades are 50% cheaper \n Passive power"
+END
 
-// ------------------------------------------------------------- //
-// ------------------ #Gondor Heroes --------------------------- //
-// ------------------------------------------------------------- //
+CONTROLBAR:GreyCompany
+"The Grey Company"
+END
+CONTROLBAR:ToolTipGreyCompany
+"Summons two battalions of Dunedain Rangers, led by Halbarad \n Left click then right click on target"
+END
+
+CONTROLBAR:FiefdomSummon
+"Fiefdom Allies"
+END
+CONTROLBAR:ToolTipFiefdomSummon
+"Summons Forlong and two battalions of Lossarnach Axemen. \n Left click then right click on target"
+END
+CONTROLBAR:ToolTipFiefdomSummonMP
+"Summons three battalions of Lossarnach Axemen. \n Left click then right click on target"
+END
+
+OBJECT:GondorBeacon
+"Beacon of Gondor"
+END
+OBJECT:GondorBeaconDescription
+"Surrounding units gain +50% armor. \n Enemy leadership is negated."
+END
+CONTROLBAR:SummonBeaconGondor
+"Beacon of Gondor"
+END
+CONTROLBAR:ToolTipSummonBeaconGondor
+"Erects a Beacon of Gondor. Surrounding units gain +50% armor. Enemy leadership is negated. \n Left click then right click on target"
+END
+
+// ============================================================= //
+// ================== #Gondor Heroes =========================== //
+// ============================================================= //
 // -- #Elessar
+OBJECT:GondorKingElessar
+"King Elessar"
+END
+CONTROLBAR:KingElessar
+"King Elessar Telcontar"
+END
+CONTROLBAR:ToolTipKingElessar
+"Unlocks King Elessar \n Recruit King Elessar at the Citadel"
+END
+TOOLTIP:ToolTipLackKingElessar
+"Required: The King Elessar Telcontar Spellbook Power \n Recruit King Elessar, the last High King of Gondor \n \n 'Out of the Great Sea to Middle-earth I am come. In this place will I abide, and my heirs, unto the ending of the world.' \n Rank 10"
+END
+CONTROLBAR:KingElessarDescription
+"Required: The King Elessar Telcontar Spellbook Power \n Recruit King Elessar, the last High King of Gondor \n \n 'Out of the Great Sea to Middle-earth I am come. In this place will I abide, and my heirs, unto the ending of the world.' \n Rank 10"
+END
+
 CONTROLBAR:ToolTipElessarLeadership
 "Leadership bonus to nearby troops \n +50% Damage, +100% Combat Experience \n Passive ability"
 END
@@ -230,9 +299,9 @@ CONTROLBAR:PippinGuardCitadelPassiveLeadership
 "Guard of the Citadel"
 END
 
-// ------------------------------------------------------------- //
-// ------------------ #Gondor Units ---------------------------- //
-// ------------------------------------------------------------- //
+// ============================================================ //
+// ================= #Gondor Units ============================ //
+// ============================================================ //
 // -- Gondor Ranger
 OBJECT:GondorRangerCaptain
 "Ithilien Ranger Captain"
@@ -260,9 +329,9 @@ OBJECT:HordeGondorDolAmroth
 "Dol Amroth Knight Battalion"
 END
 
-// ------------------------------------------------------------- //
-// ------------------ #Gondor Unit Abilities ------------------- //
-// ------------------------------------------------------------- //
+// ============================================================ //
+// ================= #Gondor Unit Abilities =================== //
+// ============================================================ //
 CONTROLBAR:GondorTowerGuardFaithful
 "Faithful Guardian"
 END
@@ -315,23 +384,58 @@ END
 // ############################################################ //
 // ========================== #Rohan ========================== //
 // ############################################################ //
-CONTROLBAR:PurchaseTechnologyRohanImprovedArrowsmithing
-"&Elven Fletching"
+CONTROLBAR:SummonRohanHelmHammerhand
+"Statue of Helm Hammerhand"
 END
-CONTROLBAR:RohanImprovedArrowsmithing
-"Elve&n Fletching"
+CONTROLBAR:ToolTipSummonRohanHelmHammerhand
+"Spawns Statue of Helm Hammerhand. Surrounding units gain +50% armor. Enemy leadership is negated. \n Left click then right click on target"
 END
-CONTROLBAR:ToolTipPurchaseTechnologyRohanImprovedArrowsmithing
-"+25% Damage to units \n Select a battalion to equip upgrade"
+
+CONTROLBAR:RohanGondorianDescription
+"Calls upon two Battalions of Gondor Soldiers and Gondor Archers"
 END
-CONTROLBAR:ToolTipPurchaseUpgradeRohanImprovedArrowsmithing
-"+25% Damage to units \n Left click to upgrade this unit"
+CONTROLBAR:SummonRohanGondorian
+"Call for Aid"
 END
-TOOLTIP:LackLevelRohanImprovedArrowsmithing 
-"Required: Rank 2 Archery Range \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+CONTROLBAR:ToolTipSummonRohanGondorian
+"Calls upon two Battalions of Gondor Soldiers and Gondor Archers \n Left click then right click on target"
 END
-TOOLTIP:LackRohanImprovedArrowsmithing
-"+25% Damage to units \n Purchase upgrade at Archery Range to enable this equipment"
+
+
+CONTROLBAR:SummonRohanThreeHunters
+"Three Hunters"
+END
+CONTROLBAR:ToolTipSummonRohanThreeHunters
+"Calls upon the Three Hunters, Legolas, Aragorn, and Gimli \n Left click then right click on target"
+END
+CONTROLBAR:RohanThreeHuntersDescription
+"Calls upon the Three Hunters, Legolas, Aragorn, and Gimli"
+END
+
+CONTROLBAR:GOTW
+"The White Wizard"
+END
+CONTROLBAR:ToolTipGOTW
+"Unlocks Gandalf the White \n Recruit Gandalf the White at the Citadel"
+END
+TOOLTIP:ToolTipLackGOTW
+"Required: The White Wizard Spellbook \n Recruit Gandalf, the White Wizard \n \n 'I am Gandalf the White. And I come back to you now, at the turn of the tide.' \n Rank 10"
+END
+CONTROLBAR:GOTWDescription
+"Required: The White Wizard Spellbook \n Recruit Gandalf, the White Wizard \n \n 'I am Gandalf the White. And I come back to you now, at the turn of the tide.' \n Rank 10"
+END
+
+CONTROLBAR:RADTBDescription
+"Recruit one of the wandering Istari, Radagast the Brown. \n \n 'A worthy wizard, a master of shapes and changes of hue; and he has much lore of herbs and beasts, and birds are especially his friends.' - Gandalf"
+END
+CONTROLBAR:RADTB
+"The Brown Wizard"
+END
+CONTROLBAR:ToolTipRADTB
+"Unlocks Radagast the Brown \n Recruit Radagast at the Citadel"
+END
+TOOLTIP:ToolTipLackRADTB
+"Required: The Brown Wizard \n Recruit one of the wandering Istari, Radagast the Brown. \n \n 'A worthy wizard, a master of shapes and changes of hue; and he has much lore of herbs and beasts, and birds are especially his friends.' - Gandalf \n Rank 10"
 END
 
 // ============================================================ //
@@ -748,6 +852,32 @@ CONTROLBAR:ToolTipRohanGaladhrimRank2
 "Required: Rank 2 \n Temporarily gain +50% range and +25% attack speed \n Left click to activate"
 END
 
+CONTROLBAR:PurchaseTechnologyRohanImprovedArrowsmithing
+"&Elven Fletching"
+END
+CONTROLBAR:RohanImprovedArrowsmithing
+"Elve&n Fletching"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyRohanImprovedArrowsmithing
+"+25% Damage to units \n Select a battalion to equip upgrade"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeRohanImprovedArrowsmithing
+"+25% Damage to units \n Left click to upgrade this unit"
+END
+TOOLTIP:LackLevelRohanImprovedArrowsmithing 
+"Required: Rank 2 Archery Range \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+END
+TOOLTIP:LackRohanImprovedArrowsmithing
+"+25% Damage to units \n Purchase upgrade at Archery Range to enable this equipment"
+END
+
+CONTROLBAR:HelmHammerhand
+"Horn of Helm Hammerhand"
+End
+CONTROLBAR:ToolTipHelmHammerhand
+"When activated, cavalry across the map gain -25% crush decelleration for a limited time."
+End
+
 // ============================================================ //
 // ======================= #Rohan Buildings =================== //
 // ============================================================ //
@@ -769,6 +899,19 @@ OBJECT:RohanBarracksDescription
 END
 CONTROLBAR:ToolTipBuildRohanBarracks
 "Builds Yeoman Spearmen and Edoras Kingsguard"
+END
+
+OBJECT:RohanHelmHammerhand
+"Statue of Helm Hammerhand"
+END
+OBJECT:RohanHelmHammerhandDescription
+"Surrounding units gain +50% armor. \n Enemy leadership is negated."
+END
+CONTROLBAR:RohanHelmHammerhand
+"Statue of Helm Hammerhand"
+END
+CONTROLBAR:RohanHelmHammerhandDescription
+"Surrounding units gain +50% armor. \n Enemy leadership is negated."
 END
 
 // ############################################################ //
@@ -1851,27 +1994,75 @@ END
 // ############################################################ //
 // ========================== #Isengard ======================= //
 // ############################################################ //
-CONTROLBAR:PurchaseTechnologyIsengardImprovedArrowsmithing
-"&Steel Bolts Upgrade"
+// ============================================================ //
+// ==================== #Isengard SpellBook =================== //
+// ============================================================ //
+CONTROLBAR:Crebain
+"Crebain from Dunland"
 END
-CONTROLBAR:IsengardImprovedArrowsmithing
-"Steel B&olts"
+CONTROLBAR:TooltipCrebain
+"Reveals stealthed enemies. \n +50% Damage +100% Experience +50% Armor \n Left click then right click on target"
 END
-CONTROLBAR:ToolTipPurchaseTechnologyIsengardImprovedArrowsmithing
-"+25% Damage \n No added damage to Structures \n Select a battalion to equip upgrade"
+
+CONTROLBAR:MordorScum
+"Mordor Scum"
 END
-CONTROLBAR:ToolTipPurchaseUpgradeIsengardImprovedArrowsmithing
-"+25% Damage \n No added damage to Structures \n Left click to upgrade this unit"
+CONTROLBAR:TooltipMordorScum
+"Summons Grishnakh and four battalions of Mordor Orcs \n Left click then right click on target"
 END
-TOOLTIP:LackIsengardIsengardImprovedArrowsmithing
-"+25% Damage \n No added damage to Structures \n Purchase upgrade at Armory to enable this equipment"
+
+CONTROLBAR:EndlessSupplies
+"&Metal and Wheels"
+END
+CONTROLBAR:TooltipEndlessSupplies
+"Instantly upgrades Infantry units in radius with heavy armor, forged blades and banner carriers\n Left click then right click on target"
+END
+
+CONTROLBAR:SummonIsengardWhiteHand
+"The White Hand"
+END
+CONTROLBAR:ToolTipSummonIsengardWhiteHand
+"Spawns White Hand Monument. Surrounding units gain +50% armor. Enemy leadership is negated. \n Left click then right click on target"
 END
 
 // ============================================================ //
 // ==================== #Isengard Heroes ====================== //
 // ============================================================ //
-// -- #Ugluk
+// -- #Saruman
+CONTROLBAR:ThunderBolt
+"&Redhorn's Wrath"
+END
+CONTROLBAR:ToolTipThunderBolt
+"Required: Rank 10 \n Calls down a bolt of lightning within the targeted area \n Left click then right click on target"
+END
 
+CONTROLBAR:SarumanCalltheHorde
+"Build Me An Army"
+END
+CONTROLBAR:ToolTipSarumanCalltheHorde
+"Uruk-hai are produced at a significantly increased rate for a moderate duration \n Left click to activate"
+END
+
+// -- #Lurtz
+CONTROLBAR:LurtzSummonScouts
+"Fighting Uruk-Hai"
+END
+
+CONTROLBAR:SpawnLurtzScouts
+"Fighting Uruk-Hai"
+END
+CONTROLBAR:TooltipSpawnLurtzScouts
+"Required: Rank 7 \n Call forth the Scouts of Isengard \n Left click then right click on target"
+END
+
+CONTROLBAR:LurtzThickArmor
+"Thick Armor"
+END
+CONTROLBAR:TooltipLurtzThickArmor
+"Lurtz permanently gains +75% armor"
+END
+
+// -- #Ugluk
 OBJECT:IsengardUgluk
 "Ugluk"
 END
@@ -1949,21 +2140,91 @@ CONTROLBAR:ToolTipSwordStrike
 END
 
 // -- #Grishnakh 
+OBJECT:IsengardGrishnakh
+"Grishnakh"
+END
+CONTROLBAR:IsengardGrishnakhHotkey
+"&Grishnakh"
+END
+
 CONTROLBAR:ToolTipOrcishTenacityPassiveLeadership
 "Malevolent and blood thirsty, Grishnakh is hard to kill \n Grishnakh gains +25% Armor \n Passive ability"
 END
 CONTROLBAR:OrcishTenacityPassiveLeadership
 "Orcish Tenacity"
 END
+
+// -- #Sharku
+OBJECT:IsengardSharku
+"Sharku"
+END
+CONTROLBAR:IsengardSharkuRecruit
+"Recruit the captain of the Warg Riders. \n \n 'He's dead. Took a little tumble off the cliff.'"
+END
+CONTROLBAR:IsengardSharkuRevive
+"Revive the captain of the Warg Riders."
+END
+CONTROLBAR:IsengardSharkuHotkey
+"Shar&ku"
+END
+
+// -- #Grima
+OBJECT:IsengardGrima
+"Grima Wormtongue"
+END
+CONTROLBAR:ToolTipBuildIsengardGrima
+"Saruman's corrupt puppet"
+END
+CONTROLBAR:IsengardGrimaRecruit
+"Recruit Saruman's trusted spy. \n \n 'Saruman the White has ever been our friend and ally.'"
+END
+CONTROLBAR:IsengardGrimaRevive
+"Revive Grima Wormtongue."
+END
+CONTROLBAR:IsengardGrimaHotkey
+"&Grima"
+END
+
 // ============================================================ //
 // ====================== #Isengard Units ===================== //
 // ============================================================ //
+OBJECT:Crebain
+"Crebain"
+END
+
 // -- Isengard Shield Bearers
 OBJECT:IsengardShieldBearer
 "Uruk-hai Shieldbearer"
 END
 OBJECT:HordeIsengardShieldBearer
 "Uruk-hai Shieldbearers"
+END
+
+// -- Mine Beserker
+OBJECT:IsengardMineBeserker
+"Isengard Sapper"
+END
+
+CONTROLBAR:ConstructIsengardMineBerserker
+"Isengard &Sapper"
+END
+CONTROLBAR:ToolTipBuildIsengardMineBerserker
+"Required: Portable Mines Upgrade and Rank 3 Uruk Pit \n \n These Uruk Berserkers carry smaller bombs on their back to set alight, killing themselves and all people around them."
+END
+
+// -- Uruk Scouts
+OBJECT:IsengardScout
+"Isengard Uruk Scout"
+END
+OBJECT:HordeIsengardScout
+"Isengard Uruk Scouts"
+END
+
+CONTROLBAR:ConstructIsengardScoutHorde
+"Isengard Scou&ts"
+END
+CONTROLBAR:ToolTipBuildIsengardScoutHorde
+"Required: Rank 3 Uruk Pit \n Elite infantry proficient with sword and bow \n Strong vs. Infantry, Archers \n Weak vs. Cavalry"
 END
 
 // -- Dunland Archers
@@ -2078,6 +2339,37 @@ END
 CONTROLBAR:ToolTipRecklessSwings
 "Requires Level 3 \n Consecutive attacks temporarily increase attack damage by 5% but reduce armour by 5% \n Passive ability"
 END
+
+CONTROLBAR:PurchaseTechnologyIsengardImprovedArrowsmithing
+"&Steel Bolts Upgrade"
+END
+CONTROLBAR:IsengardImprovedArrowsmithing
+"Steel B&olts"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyIsengardImprovedArrowsmithing
+"+25% Damage \n No added damage to Structures \n Select a battalion to equip upgrade"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeIsengardImprovedArrowsmithing
+"+25% Damage \n No added damage to Structures \n Left click to upgrade this unit"
+END
+TOOLTIP:LackIsengardIsengardImprovedArrowsmithing
+"+25% Damage \n No added damage to Structures \n Purchase upgrade at Armory to enable this equipment"
+END
+
+CONTROLBAR:ToggleUrukScoutWeapons
+"Alterna&te Weapon"
+END
+CONTROLBAR:ToolTipToggleUrukScoutWeapons
+"Left click to switch weapons"
+END
+
+CONTROLBAR:ToWar
+"To War!"
+End
+CONTROLBAR:ToolTipToWar
+"When activated, all units build 2x faster for a limited time."
+End
+
 // ============================================================ //
 // ==================== #Isengard Buildings =================== //
 // ============================================================ //
@@ -2092,17 +2384,299 @@ CONTROLBAR:ToolTipBuildIsengardBattleTower
 "Defensive structure"
 END
 
+OBJECT:IsengardWhiteHand
+"White Hand Monument"
+END
+OBJECT:IsengardWhiteHandDescription
+"Surrounding units gain +50% armor. \n Enemy leadership is negated."
+END
+
 // ############################################################ //
 // ========================== #Mordor ========================= //
 // ############################################################ //
+// ============================================================ //
+// ====================== #Mordor Spellbook Powers ============ //
+// ============================================================ //
+CONTROLBAR:SummonEvilMen
+"Men of Shadow"
+END
+CONTROLBAR:ToolTipSummonEvilMen
+"Summons two Battalions of Easterlings and two Battalions of Haradrim \n Left click then right click on target"
+END
+
+CONTROLBAR:SummonFellBeast
+"Wraiths on Wings"
+END
+CONTROLBAR:ToolTipSummonFellBeast
+"Summons two Nazgul riding Fell Beasts \n Left click then right click on target"
+END
+
+CONTROLBAR:SummonMordorMorgulStatue
+"Defiled Statue"
+END
+CONTROLBAR:ToolTipSummonMordorMorgulStatue
+"Spawns a Defiled Statue. Surrounding units gain +50% armor. Enemy leadership is negated. \n Left click then right click on target"
+END
 
 // ============================================================ //
 // ====================== #Mordor Heroes ====================== //
 // ============================================================ //
+// -- #Sauron
+CONTROLBAR:SauronDescription
+"Recruit the Lord of the Rings himself  \n \n 'Ash nazg durbatulok, ash nazg gimbatul \n Ash nazg thrakatulok agh burzum-ishi krimpatul.'""
+END
+CONTROLBAR:Sauron
+"The Dark Lord"
+END
+CONTROLBAR:SauronHover
+"The Dark Lord Sauron"
+END
+
+CONTROLBAR:ToolTipSauron
+"Unlocks Sauron \n Recruit Sauron at the Citadel"
+END
+TOOLTIP:ToolTipLackSauron
+"Required: The Dark Lord \n Recruit the Lord of the Rings. \n \n 'Ash nazg durbatulok, ash nazg gimbatul \n Ash nazg thrakatulok agh burzum-ishi krimpatul.' \n Rank 10"
+END
+
+CONTROLBAR:SauronLeadership
+"Gorthaur"
+END
+CONTROLBAR:ToolTipSauronLeadership
+"Sauron inspires fear into all nearby units, be they friend or foe"
+END
+
+CONTROLBAR:SauronConflagaration
+"Confla&gration"
+END
+CONTROLBAR:ToolTipSauronConflagaration
+"Destroy enemy hero \n (only deals 25% of total damage to Durin's Bane, Gandalf the White, Saruman, Elessar, and Radagast)"
+END
+
+CONTROLBAR:SpecialAbilityTelekinesis
+"Telekinesis"
+END
+CONTROLBAR:ToolTipSpecialAbilityTelekinesis
+"Sauron can manipulate objects with his mind \n Knocksback battalion or hero from range."
+END
+
+CONTROLBAR:SauronDominate
+"Annatar, Lor&d of Gifts"
+END
+CONTROLBAR:ToolTipSauronDominate
+"Temporarily converts enemy units in large radius"
+END
+
+// -- #WitchKing 
+OBJECT:MordorWitchKing
+"Witch-king of Angmar"
+End
+CONTROLBAR:MordorWitchKingRecruit
+"Recruit the Lord of the Nazgul. \n \n 'Send forth all legions. Do not stop the attack until the city is taken. Slay them all.'"
+END
+CONTROLBAR:MordorWitchKingRevive
+"Revive the Lord of the Nazgul."
+END
+CONTROLBAR:MordorWitchKingHotkey
+"&Witch-king"
+END
+
+CONTROLBAR:WitchKingLeadership
+"Black Captain"
+END
+CONTROLBAR:ToolTipWitchKingLeadership
+"'The Witch-king rode at the head of the army in black, upon a black horse, as he had in the time of the wars of Angmar.' \n +50% Damage, +50% Experience bonus to nearby Units \n +25% Damage bonus to nearby Nazguls  /n -25% Health to nearby enemies \n Passive ability"
+END
+
+CONTROLBAR:FireWitchKingMace
+"Toggle War Mace"
+END
+CONTROLBAR:ToolTipFireWitchKingMace
+"Toggle between the Witch-king's War Mace that deals splash damage and Sword for a faster attack \n Must be on foot"
+END
+
+CONTROLBAR:FireWitchKingMorgulBlade
+"Morgul Blade"
+END
+CONTROLBAR:ToolTipMorgulBlade
+"Required: Rank 5 \n Stuns and greatly damages an enemy hero \n Requires sword"
+END
+
+CONTROLBAR:WitchKingWight
+"Lord of Wights"
+END
+CONTROLBAR:ToolTipWitchKingWight
+"Requires: Rank 8 \n The Witch-king summons several Barrow-wights"
+END
+
+CONTROLBAR:WitchKingDoom
+"Hour of Doom"
+END
+CONTROLBAR:ToolTipWitchKingDoom
+"Requires: Rank 10 \n Intial blast in a circular radius \n Bonus for the Witch King \n +50% Armor \n +150% Damage \n Sword alights with flame"
+END
+
+// -- #Mouth of Sauron
+OBJECT:MordorMouth
+"Mouth of Sauron"
+End
+CONTROLBAR:MordorMouthRecruit
+"Recruit the Black Numenorean Emissary of Sauron. \n \n 'Surety you crave! Sauron gives none. If you sue for his clemency then you must do his bidding.'"
+END
+CONTROLBAR:MordorMouthRevive
+"Revive the Mouth of Sauron."
+END
+CONTROLBAR:MordorMouthHotkey
+"&Mouth of Sauron"
+END
+
+CONTROLBAR:VileEloquence
+"Vile Eloquence"
+END
+CONTROLBAR:ToolTipVileEloquence
+"Required: Rank 6 \n Units in radius gain experience"
+END
+
+CONTROLBAR:BlackSorcery
+"Black &Sorcery"
+END
+CONTROLBAR:ToolTipBlackSorcery
+"Required: Rank 4 \n Mouth of Sauron and nearby troops gain +30% damage and +75% armor \n Left click to activate"
+END
+
+CONTROLBAR:BlackSpeech
+"Black Speech"
+END
+CONTROLBAR:ToolTipBlackSpeech
+"Required: Rank 2 \n Enemy units lose 40% Armor and 40% damage for a short time (Area effect) \n Left click to activate"
+END
+
+// -- #Gothmog 
+OBJECT:MordorGothmog
+"Gothmog"
+End
+CONTROLBAR:MordorGothmogRecruit
+"Recruit the cruel lieutenant of Minas Morgul. \n \n 'The Age of Men is over. The Time of the Orc has come.'"
+END
+CONTROLBAR:MordorGothmogRevive
+"Revive the lieutenant of Minas Morgul."
+END
+CONTROLBAR:MordorGothmogHotkey
+"&Gothmog"
+END
+
+CONTROLBAR:GothmogLeadership
+"Lieutenant of Morgul"
+END
+CONTROLBAR:ToolTipGothmogLeadership
+"Leadership bonus to nearby Orcs \n +15% Movement speed, +25% Damage, and +50% Experience gain \n Passive ability"
+END
+
+CONTROLBAR:GothmogSiegeLeadership
+"Master of Siege"
+END
+CONTROLBAR:ToolTipGothmogSiegeLeadership
+"Required: Rank 3 \n Nearby siege equipment gain +15% movement speed and +15% decreased reload time."
+END
+
+CONTROLBAR:GothmogOrcs
+"Time of the &Orc"
+END
+CONTROLBAR:ToolTipGothmogOrcs
+"Required: Rank 6 \n Gothmog summons two hordes of orcs and uruks."
+END
+
+// -- #Uvatha
+OBJECT:MordorUvatha
+"Uvatha"
+End
+CONTROLBAR:MordorUvathaRecruit
+"Recruit the Scourge of the South. \n \n 'Blinded by their greed, they took them without question, one by one falling into darkness. Now they are slaves to his will.'"
+END
+CONTROLBAR:MordorUvathaRevive
+"Revive the Scourge of the South."
+END
+CONTROLBAR:MordorUvathaHotkey
+"&Uvatha"
+END
+
+CONTROLBAR:UvathaLeadership
+"The Scourge of the South"
+END
+CONTROLBAR:ToolTipUvathaLeadership
+"Uvatha is equipped with his heavy armor \n Leadership bonus to nearby Haradrim \n +50% Experience, +15% Knockback Resistance \n Passive ability"
+END
+
+CONTROLBAR:UvathaNegLeadership
+"Black Breath"
+END
+CONTROLBAR:ToolTipUvathaNegLeadership
+"Required: Rank 2 \n Nearby enemy calvary lose -15% speed \n Passive ability"
+END
+
+// -- #Khamul
+OBJECT:MordorKhamul
+"Khamul"
+End
+CONTROLBAR:MordorKhamulRecruit
+"Recruit the Shadow of the East. \n \n 'They were once men; great kings of men. Then Sauron the Deceiver gave to them nine Rings of Power.'"
+END
+CONTROLBAR:MordorKhamulRevive
+"Revive the Shadow of the East."
+END
+CONTROLBAR:MordorKhamulHotkey
+"&Khamul"
+END
+
+CONTROLBAR:KhamulLeadership
+"The Black Easterling"
+END
+CONTROLBAR:ToolTipKhamulLeadership
+"Khamul is equipped with his heavy armor \n Leadership bonus to nearby Easterlings \n +50% Experience, +15% Speed \n Passive ability"
+END
+
+CONTROLBAR:KhamulNegLeadership
+"Black Breath"
+END
+CONTROLBAR:ToolTipKhamulNegLeadership
+"Required: Rank 2 \n Nearby enemy units lose -15% damage \n Passive ability"
+END
+
+CONTROLBAR:RelentlessPursuit
+"Relentless Pursuit"
+END
+CONTROLBAR:ToolTipRelentlessPursuit
+"Required: Rank 5 \n Movement speed and damage increased by 25%, armor by 10% for a brief time \n Must be mounted "
+END
+
+// -- #Gollum 
+CONTROLBAR:GollumWring
+"&Wring Its Filthy Little Neck"
+END
+CONTROLBAR:ToolTipGollumWring
+"Deals moderate damage to a unit \n left click then right click on target"
+END
 
 // ============================================================ //
 // ====================== #Mordor Units ======================= //
 // ============================================================ //
+OBJECT:MordorWight
+"Wight"
+End
+
+// -- Mordor Black Uruk
+OBJECT:MordorUruk
+"Mordor Black Uruk"
+END
+OBJECT:HordeMordorUruk
+"Mordor Black Uruks"
+END
+CONTROLBAR:ToolTipBuildMordorUrukHorde
+"Strong vs. Archers \n Weak vs. Cavalry, Monsters, Heroes \n \n The Black Uruks of Barad-dur are the elite of Sauron's orc armies, first bred by him to devastate the Gondorian province of Ithilien."
+END
+CONTROLBAR:ConstructMordorUrukHorde
+"Mordor Black Uruks"
+END
 
 // ============================================================ //
 // ====================== #Mordor Unit Abilities ============== //
@@ -2113,6 +2687,84 @@ END
 CONTROLBAR:ToolTipAttackTrollPassiveLeadership
 "Required: Rank 2 \n Upgrades Mountain-troll into a deadly Attack-troll \n Troll gains 50% armor vs Pierce, 25% damage increase \n Passive ability \n \n The cruelest, most intelligent of the Olog-hai were clad in jagged black armor and sent to the front line to serve as some of Sauron's most feared warriors."
 END
+
+CONTROLBAR:MordorOrcRank2
+"Crack the &Whip"
+END
+CONTROLBAR:ToolTipMordorOrcRank2
+"Required: Rank 2 \n Temporarily gain +20% movement speed and Fear immunity \n Left click to activate"
+END
+
+CONTROLBAR:MordorUrukRank2
+"Single-minded &Assault"
+END
+CONTROLBAR:ToolTipMordorUrukRank2
+"Required: Rank 2 \n Temporarily gain +25% Damage against Heroes \n Left click to activate"
+END
+
+CONTROLBAR:MordorHaradrimRank2
+"Southron Ma&rksmanship"
+END
+CONTROLBAR:ToolTipMordorHaradrimRank2
+"Required: Rank 2 \n Temporarily gain +25% Damage and +25% Reload speed \n Left click to activate"
+END
+
+CONTROLBAR:MordorEasterlingRank2
+"&Dark Resolve"
+END
+CONTROLBAR:ToolTipMordorEasterlingRank2
+"Required: Rank 2 \n Temporarily gain +25% Armor and +15% Speed \n Left click to activate"
+END
+
+CONTROLBAR:PurchaseTechnologyMordorImprovedArrowsmithing
+"&Barbed Arrows"
+END
+CONTROLBAR:MordorImprovedArrowsmithing
+"&Barbed Arrows"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyMordorImprovedArrowsmithing
+"+25% Damage \n No added damage to Structures \n Select a battalion to equip upgrade"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMordorImprovedArrowsmithing
+"+25% Damage \n No added damage to Structures \n Left click to upgrade this unit"
+END
+TOOLTIP:LackLevelMordorImprovedArrowsmithing
+"Required: Rank 2 Orc Pit \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+END
+TOOLTIP:LackMordorImprovedArrowsmithing
+"+25% Damage \n No added damage to Structures \n Purchase upgrade at Orc Pit to enable this equipment"
+END
+
+UPGRADE:MordorFireStones
+"Fire Stones Upgrades"
+END
+TOOLTIP:LackMordorFireStones
+"Purchase Upgrade at Siege Workshop to enable this equipment"
+END
+CONTROLBAR:PurchaseTechnologyMordorFireStones
+"&Fire Stone Upgrade"
+END
+
+CONTROLBAR:ToolTipPurchaseTechnologyMordorFireStones
+"Purchase Fire Stones Upgrade \n Select a Catapult to equip upgrade \n Requires Level 2 Siege Workshop"
+END
+CONTROLBAR:PurchaseUpgradeMordorFireStones
+"&Fire Stones"
+END
+
+CONTROLBAR:ToolTipPurchaseUpgradeMordorFireStones
+"+350 Damage \n Left click to upgrade this unit"
+END
+TOOLTIP:MordorFireStones
+"Fire Stones: +50 siege damage and +300 fire damage per rock, +15% range"
+END
+
+CONTROLBAR:MorgulDread
+"Morgul Dread"
+End
+CONTROLBAR:ToolTipMorgulDread
+"When activated, enemy units flee in terror for a limited time."
+End
 
 // ============================================================ //
 // ====================== #Mordor Buildings =================== //
@@ -2128,354 +2780,16 @@ CONTROLBAR:ToolTipBuildMordorBattleTower
 "Defensive structure"
 END
 
+OBJECT:MordorMorgulStatue
+"Defiled Statue"
+END
+OBJECT:MordorMorgulStatueDescription
+"Surrounding units gain +50% armor. \n Enemy leadership is negated."
+END
+
 // ############################################################ //
 // ========================== #Gundabad ======================= //
 // ############################################################ //
-
-// ============================================================ //
-// ==================== #Gundabad Heroes ====================== //
-// ============================================================ //
-
-// ============================================================ //
-// ====================== #Gundabad Units ===================== //
-// ============================================================ //
-
-// ############################################################ //
-// ========================= #Vanilla ========================= //
-// ############################################################ //
-
-
-CONTROLBAR:PurchaseTechnologyMordorImprovedArrowsmithing
-"&Barbed Arrows"
-END
-
-CONTROLBAR:MordorImprovedArrowsmithing
-"&Barbed Arrows"
-END
-
-CONTROLBAR:ToolTipPurchaseTechnologyMordorImprovedArrowsmithing
-"+25% Damage \n No added damage to Structures \n Select a battalion to equip upgrade"
-END
-
-CONTROLBAR:ToolTipPurchaseUpgradeMordorImprovedArrowsmithing
-"+25% Damage \n No added damage to Structures \n Left click to upgrade this unit"
-END
-
-TOOLTIP:LackLevelMordorImprovedArrowsmithing
-"Required: Rank 2 Orc Pit \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
-END
-
-TOOLTIP:LackMordorImprovedArrowsmithing
-"+25% Damage \n No added damage to Structures \n Purchase upgrade at Orc Pit to enable this equipment"
-END
-
-OBJECT:MordorWitchKing
-"Witch-king of Angmar"
-End
-
-CONTROLBAR:MordorWitchKingRecruit
-"Recruit the Lord of the Nazgul. \n \n 'Send forth all legions. Do not stop the attack until the city is taken. Slay them all.'"
-END
-
-CONTROLBAR:MordorWitchKingRevive
-"Revive the Lord of the Nazgul."
-END
-
-CONTROLBAR:MordorWitchKingHotkey
-"&Witch-king"
-END
-
-CONTROLBAR:WitchKingLeadership
-"Black Captain"
-END
-
-CONTROLBAR:ToolTipWitchKingLeadership
-"'The Witch-king rode at the head of the army in black, upon a black horse, as he had in the time of the wars of Angmar.' \n +50% Damage, +50% Experience bonus to nearby Units \n +25% Damage bonus to nearby Nazguls  /n -25% Health to nearby enemies \n Passive ability"
-END
-
-CONTROLBAR:FireWitchKingMace
-"Toggle War Mace"
-END
-
-CONTROLBAR:ToolTipFireWitchKingMace
-"Toggle between the Witch-king's War Mace that deals splash damage and Sword for a faster attack \n Must be on foot"
-END
-
-CONTROLBAR:FireWitchKingMorgulBlade
-"Morgul Blade"
-END
-
-CONTROLBAR:ToolTipMorgulBlade
-"Required: Rank 5 \n Stuns and greatly damages an enemy hero \n Requires sword"
-END
-
-CONTROLBAR:WitchKingWight
-"Lord of Wights"
-END
-
-CONTROLBAR:ToolTipWitchKingWight
-"Requires: Rank 8 \n The Witch-king summons several Barrow-wights"
-END
-
-CONTROLBAR:WitchKingDoom
-"Hour of Doom"
-END
-
-CONTROLBAR:ToolTipWitchKingDoom
-"Requires: Rank 10 \n Intial blast in a circular radius \n Bonus for the Witch King \n +50% Armor \n +150% Damage \n Sword alights with flame"
-END
-
-OBJECT:MordorWight
-"Wight"
-End
-
-OBJECT:MordorKhamul
-"Khamul"
-End
-
-CONTROLBAR:MordorKhamulRecruit
-"Recruit the Shadow of the East. \n \n 'They were once men; great kings of men. Then Sauron the Deceiver gave to them nine Rings of Power.'"
-END
-
-CONTROLBAR:MordorKhamulRevive
-"Revive the Shadow of the East."
-END
-
-CONTROLBAR:MordorKhamulHotkey
-"&Khamul"
-END
-
-CONTROLBAR:KhamulLeadership
-"The Black Easterling"
-END
-
-CONTROLBAR:ToolTipKhamulLeadership
-"Khamul is equipped with his heavy armor \n Leadership bonus to nearby Easterlings \n +50% Experience, +15% Speed \n Passive ability"
-END
-
-CONTROLBAR:KhamulNegLeadership
-"Black Breath"
-END
-
-CONTROLBAR:ToolTipKhamulNegLeadership
-"Required: Rank 2 \n Nearby enemy units lose -15% damage \n Passive ability"
-END
-
-CONTROLBAR:RelentlessPursuit
-"Relentless Pursuit"
-END
-
-CONTROLBAR:ToolTipRelentlessPursuit
-"Required: Rank 5 \n Movement speed and damage increased by 25%, armor by 10% for a brief time \n Must be mounted "
-END
-
-OBJECT:MordorUvatha
-"Uvatha"
-End
-
-CONTROLBAR:MordorUvathaRecruit
-"Recruit the Scourge of the South. \n \n 'Blinded by their greed, they took them without question, one by one falling into darkness. Now they are slaves to his will.'"
-END
-
-CONTROLBAR:MordorUvathaRevive
-"Revive the Scourge of the South."
-END
-
-CONTROLBAR:MordorUvathaHotkey
-"&Uvatha"
-END
-
-CONTROLBAR:UvathaLeadership
-"The Scourge of the South"
-END
-
-CONTROLBAR:ToolTipUvathaLeadership
-"Uvatha is equipped with his heavy armor \n Leadership bonus to nearby Haradrim \n +50% Experience, +15% Knockback Resistance \n Passive ability"
-END
-
-CONTROLBAR:UvathaNegLeadership
-"Black Breath"
-END
-
-CONTROLBAR:ToolTipUvathaNegLeadership
-"Required: Rank 2 \n Nearby enemy calvary lose -15% speed \n Passive ability"
-END
-
-OBJECT:MordorMouth
-"Mouth of Sauron"
-End
-
-CONTROLBAR:MordorMouthRecruit
-"Recruit the Black Numenorean Emissary of Sauron. \n \n 'Surety you crave! Sauron gives none. If you sue for his clemency then you must do his bidding.'"
-END
-
-CONTROLBAR:MordorMouthRevive
-"Revive the Mouth of Sauron."
-END
-
-CONTROLBAR:MordorMouthHotkey
-"&Mouth of Sauron"
-END
-
-CONTROLBAR:VileEloquence
-"Vile Eloquence"
-END
-
-CONTROLBAR:ToolTipVileEloquence
-"Required: Rank 6 \n Units in radius gain experience"
-END
-
-CONTROLBAR:BlackSorcery
-"Black &Sorcery"
-END
-
-CONTROLBAR:ToolTipBlackSorcery
-"Required: Rank 4 \n Mouth of Sauron and nearby troops gain +30% damage and +75% armor \n Left click to activate"
-END
-
-CONTROLBAR:BlackSpeech
-"Black Speech"
-END
-
-CONTROLBAR:ToolTipBlackSpeech
-"Required: Rank 2 \n Enemy units lose 40% Armor and 40% damage for a short time (Area effect) \n Left click to activate"
-END
-
-OBJECT:MordorGothmog
-"Gothmog"
-End
-
-CONTROLBAR:MordorGothmogRecruit
-"Recruit the cruel lieutenant of Minas Morgul. \n \n 'The Age of Men is over. The Time of the Orc has come.'"
-END
-
-CONTROLBAR:MordorGothmogRevive
-"Revive the lieutenant of Minas Morgul."
-END
-
-CONTROLBAR:MordorGothmogHotkey
-"&Gothmog"
-END
-
-CONTROLBAR:GothmogLeadership
-"Lieutenant of Morgul"
-END
-
-CONTROLBAR:ToolTipGothmogLeadership
-"Leadership bonus to nearby Orcs \n +15% Movement speed, +25% Damage, and +50% Experience gain \n Passive ability"
-END
-
-CONTROLBAR:GothmogSiegeLeadership
-"Master of Siege"
-END
-
-CONTROLBAR:ToolTipGothmogSiegeLeadership
-"Required: Rank 3 \n Nearby siege equipment gain +15% movement speed and +15% decreased reload time."
-END
-
-CONTROLBAR:GothmogOrcs
-"Time of the &Orc"
-END
-
-CONTROLBAR:ToolTipGothmogOrcs
-"Required: Rank 6 \n Gothmog summons two hordes of orcs and uruks."
-END
-
-CONTROLBAR:GollumWring
-"&Wring Its Filthy Little Neck"
-END
-
-CONTROLBAR:ToolTipGollumWring
-"Deals moderate damage to a unit \n left click then right click on target"
-END
-
-CONTROLBAR:SauronLeadership
-"Gorthaur"
-END
-
-CONTROLBAR:ToolTipSauronLeadership
-"Sauron inspires fear into all nearby units, be they friend or foe"
-END
-
-CONTROLBAR:SauronConflagaration
-"Confla&gration"
-END
-
-CONTROLBAR:ToolTipSauronConflagaration
-"Destroy enemy hero \n (only deals 25% of total damage to Durin's Bane, Gandalf the White, Saruman, Elessar, and Radagast)"
-END
-
-CONTROLBAR:SpecialAbilityTelekinesis
-"Telekinesis"
-END
-
-CONTROLBAR:ToolTipSpecialAbilityTelekinesis
-"Sauron can manipulate objects with his mind \n Knocksback battalion or hero from range."
-END
-
-CONTROLBAR:SauronDominate
-"Annatar, Lor&d of Gifts"
-END
-
-CONTROLBAR:ToolTipSauronDominate
-"Temporarily converts enemy units in large radius"
-END
-
-CONTROLBAR:MordorOrcRank2
-"Crack the &Whip"
-END
-
-CONTROLBAR:ToolTipMordorOrcRank2
-"Required: Rank 2 \n Temporarily gain +20% movement speed and Fear immunity \n Left click to activate"
-END
-
-CONTROLBAR:MordorUrukRank2
-"Single-minded &Assault"
-END
-
-CONTROLBAR:ToolTipMordorUrukRank2
-"Required: Rank 2 \n Temporarily gain +25% Damage against Heroes \n Left click to activate"
-END
-
-CONTROLBAR:MordorHaradrimRank2
-"Southron Ma&rksmanship"
-END
-
-CONTROLBAR:ToolTipMordorHaradrimRank2
-"Required: Rank 2 \n Temporarily gain +25% Damage and +25% Reload speed \n Left click to activate"
-END
-
-CONTROLBAR:MordorEasterlingRank2
-"&Dark Resolve"
-END
-
-CONTROLBAR:ToolTipMordorEasterlingRank2
-"Required: Rank 2 \n Temporarily gain +25% Armor and +15% Speed \n Left click to activate"
-END
-
-
-OBJECT:MordorUruk
-"Mordor Black Uruk"
-END
-
-OBJECT:HordeMordorUruk
-"Mordor Black Uruks"
-END
-
-CONTROLBAR:ToolTipBuildMordorUrukHorde
-"Strong vs. Archers \n Weak vs. Cavalry, Monsters, Heroes \n \n The Black Uruks of Barad-dur are the elite of Sauron's orc armies, first bred by him to devastate the Gondorian province of Ithilien."
-END
-
-CONTROLBAR:ConstructMordorUrukHorde
-"Mordor Black Uruks"
-END
-
-//================================================= Shadow&Flame =====================================
-
-//================================================= Faction Stuff ====================================
-
-//================================= Gundabad =========================================================
-
 APT:Gundabad
 "Gundabad"
 END
@@ -2503,134 +2817,9 @@ END
 UPGRADE:GundabadFaction
 "Gundabad"
 END
-
-OBJECT:GundabadBuildingFoundation
-"Gundabad Building Foundation"
-END
-
-OBJECT:GundabadBaseDefenseFoundation
-"Gundabad Defensive Foundation"
-END
-
-OBJECT:MBGundCastFloor
-"Gundabad Castle Floor"
-END
-
-OBJECT:MBGundCampFloor
-"Gundabad Camp Floor"
-END
-
-//=================================UNIT ABILITIES==========================
-CONTROLBAR:GundabadBeserkerLeadership
-"&Unpierceable Ranks"
-END
-CONTROLBAR:ToolTipGundabadBeserkerLeadership
-"Berserkers and nearby allies have resistance to knockback and trampling \n Passive Ability"
-END
-
-CONTROLBAR:GundabadBeserkerRank2
-"&Terror of the Mountains"
-END
-CONTROLBAR:ToolTipGundabadBeserkerRank2
-"Required: Rank 2 \n Temporarily gain +25% Damage and +15% Speed \n Left click to activate"
-END
-
-CONTROLBAR:TooltipGundabadWargScoutHowl
-"Required: Rank 2 \n +60% damage \n left click to activate"
-END
-
-CONTROLBAR:SnowTrollTrollishArmor
-"Trollish Armor"
-END
-CONTROLBAR:TooltipSnowTrollTrollishArmor
-"Required: Rank 2 \n Increases melee damage and armor by 50% \n Passive Ability"
-END
-
-CONTROLBAR:HillTrollHoardedArmor
-"Hoarded Armor"
-END
-CONTROLBAR:DescriptionHillTrollHoardedArmor
-"Required: Rank 2 \n The Hill-trolls equip armor from their hoard, increasing armor by 20% \n Passive Ability"
-END
-
-CONTROLBAR:BolgLeadership
-"Gundabad Chieftain"
-END
-CONTROLBAR:ToolTipBolgLeadership
-"Leadership bonus to nearby troops \n +50% Damage, +150% Experience \n Passive ability"
-END
-
-CONTROLBAR:BolgCruelty
-"Savage &Blade"
-END
-CONTROLBAR:TooltipBolgCruelty
-"Required: Rank 3 \n Bolg gains a temporary increase to damage and attack speed \n +50% Damage, +50% Attack Speed \n left click to activate"
-END
-
-CONTROLBAR:GundabadBolgRuledByFear
-"&Ruled By Fear"
-END
-CONTROLBAR:ToolTipGundabadBolgRuledByFear
-"Required: Rank 5 \n Troops within the radius gain experience. \n Left click then right click on target"
-END
-
-CONTROLBAR:SummonGoblinHordes
-"Bolg's Bod&yguards"
-END
-CONTROLBAR:ToolTipSummonGoblinHordes
-"Required: Rank 8 \n Summon two hordes of Gundabad bodyguards to Bolgs side. \n Left click to activate"
-END
-
-CONTROLBAR:UrshakLeadership
-"High Shaman"
-END
-CONTROLBAR:ToolTipUrshakLeadership
-"Leadership bonus to nearby Moria-orcs and trolls \n +50% Armor, +50% Experience \n Passive ability"
-END
-
-CONTROLBAR:UrshakWordOfHoar
-"&Word of Hoar"
-END
-CONTROLBAR:ToolTipUrshakWordOfHoar
-"Required: Rank 3 \n Urshak utters a dark incantation, cursing the enemy. Stuns target hero for a short duration or deals significant damage to units.\n Left click then right click on target"
-END
-
-CONTROLBAR:UrshakDarkProphecy
-"&Dark Prophecy"
-END
-CONTROLBAR:ToolTipUrshakDarkProphecy
-"Required: Rank 5 \n Urshak unveils his prophecy come true. Enemy units around Urshak have their leadership removed and are stunned with fear for a short duration \n Does not affect Heroes \n Left click to activate"
-END
-
-CONTROLBAR:UrshakShadowAndFlame
-"Shadow and &Flame"
-END
-CONTROLBAR:ToolTipUrshakShadowAndFlame
-"Required: Rank 8 \n Urshak channels his sorcery and unleashes a firey blast that deals great damage to all units around him in a small radius \n Left click to activate"
-END
-
-CONTROLBAR:GundabadLugLeadership
-"Leader of the Pack"
-END
-CONTROLBAR:ToolTipGundabadLugLeadership
-"Leadership \n Warg-scouts and Warg Riders gain +25% experience and +25% damage. \n Passive ability"
-END
-
-CONTROLBAR:GundabadLugDreadfangsCall
-"&Dreadfang's Call"
-END
-CONTROLBAR:TooltipGundabadLugDreadfangsCall
-"Required: Rank 3 \n Lugs Warg howls, freezing the blood of the enemy and stunning them for a short time. \n left click to activate"
-END
-
-CONTROLBAR:GundabadLugScentOfBlood
-"Scent of &Blood"
-END
-CONTROLBAR:ToolTipGundabadLugScentOfBlood
-"Required: Rank 5 \n Lug and surrounding Warg-riders gain +20% speed and crush. \n Left click to activate"
-END
-
-//=================================SPELLBOOK==========================
+// ============================================================ //
+// ================== #Gundabad SpellBook ===================== //
+// ============================================================ //
 
 OBJECT:GundabadDrumsDeep
 "Drums in the Deep"
@@ -2692,47 +2881,10 @@ CONTROLBAR:ToolTipDurinsBane
 "Unlocks Durin's Bane \n Recruit a Balrog of Morgoth from the Citadel"
 END
 
-//=================================HEROES==========================
-
-OBJECT:GundabadBolg
-"Bolg the Defiler"
-END
-CONTROLBAR:GundabadBolgRecruit
-"Recruit Bolg the Defiler, terror of Mount Gundabad \n \n 'The Goblins are upon you! Bolg of the North is coming.   O Dain! whose father you slew in Moria. Behold! the bats are above his army like a sea of locusts. They ride upon wolves and Wargs are in their train!'"
-END
-CONTROLBAR:GundabadBolgRevive
-"Revive the fallen Hero, Bolg"
-END
-CONTROLBAR:GundabadBolgHotkey
-"&Bolg the Defiler"
-END
-
-OBJECT:GundabadLug
-"Lug the Mauled"
-END
-CONTROLBAR:GundabadLugRecruit
-"Recruit Lug the Mauled, Beast Master of Gundabad \n \n 'Few orcs share a bond as fierce as Lug and his warg. It cost him and arm, but the leg he got to keep.'"
-END
-CONTROLBAR:GundabadLugRevive
-"Revive the fallen Hero, Lug the Mauled"
-END
-CONTROLBAR:GundabadLugHotkey
-"&Lug the Mauled"
-END
-
-OBJECT:GundabadUrshak
-"Urshak the Shaman"
-END
-CONTROLBAR:GundabadUrshakRecruit
-"Recruit Urshak the Shaman \n \n 'A powerful and zealous shaman, Urshak is capable of elevating even the meekest of his followers into committing acts of great cruelty and derangement.'"
-END
-CONTROLBAR:GundabadUrshakRevive
-"Revive the fallen Orcish Shaman, Urshak"
-END
-CONTROLBAR:GundabadUrshakHotkey
-"&Urshak the Shaman"
-END
-
+// ============================================================ //
+// ================== #Gundabad Heroes ======================== //
+// ============================================================ //
+// -- #Durins Bane (Balrog)
 OBJECT:DurinsBane
 "Durin's Bane"
 END
@@ -2746,157 +2898,144 @@ TOOLTIP:ToolTipLackDurinsBaneSpellbook
 "Required: Durin's Bane Spellbook Unlock \n \n Recruit Durin's Bane, a Balrog of Morgoth \n \n 'It was like a great shadow, in the middle of which was a dark form, of man-shape maybe, yet greater; and a power and terror seemed to be in it and to go before it. Its streaming mane kindled, and blazed behind it. In its right hand was a blade like a stabbing tongue of fire; in its left it held a whip of many thongs...' \n Rank 10"
 END
 
-//=================================UNITS==========================
+// -- #Bolg 
+OBJECT:GundabadBolg
+"Bolg the Defiler"
+END
+CONTROLBAR:GundabadBolgRecruit
+"Recruit Bolg the Defiler, terror of Mount Gundabad \n \n 'The Goblins are upon you! Bolg of the North is coming.   O Dain! whose father you slew in Moria. Behold! the bats are above his army like a sea of locusts. They ride upon wolves and Wargs are in their train!'"
+END
+CONTROLBAR:GundabadBolgRevive
+"Revive the fallen Hero, Bolg"
+END
+CONTROLBAR:GundabadBolgHotkey
+"&Bolg the Defiler"
+END
 
+CONTROLBAR:BolgLeadership
+"Gundabad Chieftain"
+END
+CONTROLBAR:ToolTipBolgLeadership
+"Leadership bonus to nearby troops \n +50% Damage, +150% Experience \n Passive ability"
+END
+
+CONTROLBAR:BolgCruelty
+"Savage &Blade"
+END
+CONTROLBAR:TooltipBolgCruelty
+"Required: Rank 3 \n Bolg gains a temporary increase to damage and attack speed \n +50% Damage, +50% Attack Speed \n left click to activate"
+END
+
+CONTROLBAR:GundabadBolgRuledByFear
+"&Ruled By Fear"
+END
+CONTROLBAR:ToolTipGundabadBolgRuledByFear
+"Required: Rank 5 \n Troops within the radius gain experience. \n Left click then right click on target"
+END
+
+CONTROLBAR:SummonGoblinHordes
+"Bolg's Bod&yguards"
+END
+CONTROLBAR:ToolTipSummonGoblinHordes
+"Required: Rank 8 \n Summon two hordes of Gundabad bodyguards to Bolgs side. \n Left click to activate"
+END
+
+// -- #Urshank
+OBJECT:GundabadUrshak
+"Urshak the Shaman"
+END
+CONTROLBAR:GundabadUrshakRecruit
+"Recruit Urshak the Shaman \n \n 'A powerful and zealous shaman, Urshak is capable of elevating even the meekest of his followers into committing acts of great cruelty and derangement.'"
+END
+CONTROLBAR:GundabadUrshakRevive
+"Revive the fallen Orcish Shaman, Urshak"
+END
+CONTROLBAR:GundabadUrshakHotkey
+"&Urshak the Shaman"
+END
+
+CONTROLBAR:UrshakLeadership
+"High Shaman"
+END
+CONTROLBAR:ToolTipUrshakLeadership
+"Leadership bonus to nearby Moria-orcs and trolls \n +50% Armor, +50% Experience \n Passive ability"
+END
+
+CONTROLBAR:UrshakWordOfHoar
+"&Word of Hoar"
+END
+CONTROLBAR:ToolTipUrshakWordOfHoar
+"Required: Rank 3 \n Urshak utters a dark incantation, cursing the enemy. Stuns target hero for a short duration or deals significant damage to units.\n Left click then right click on target"
+END
+
+CONTROLBAR:UrshakDarkProphecy
+"&Dark Prophecy"
+END
+CONTROLBAR:ToolTipUrshakDarkProphecy
+"Required: Rank 5 \n Urshak unveils his prophecy come true. Enemy units around Urshak have their leadership removed and are stunned with fear for a short duration \n Does not affect Heroes \n Left click to activate"
+END
+
+CONTROLBAR:UrshakShadowAndFlame
+"Shadow and &Flame"
+END
+CONTROLBAR:ToolTipUrshakShadowAndFlame
+"Required: Rank 8 \n Urshak channels his sorcery and unleashes a firey blast that deals great damage to all units around him in a small radius \n Left click to activate"
+END
+
+// -- #Lug 
+OBJECT:GundabadLug
+"Lug the Mauled"
+END
+CONTROLBAR:GundabadLugRecruit
+"Recruit Lug the Mauled, Beast Master of Gundabad \n \n 'Few orcs share a bond as fierce as Lug and his warg. It cost him and arm, but the leg he got to keep.'"
+END
+CONTROLBAR:GundabadLugRevive
+"Revive the fallen Hero, Lug the Mauled"
+END
+CONTROLBAR:GundabadLugHotkey
+"&Lug the Mauled"
+END
+
+CONTROLBAR:GundabadLugLeadership
+"Leader of the Pack"
+END
+CONTROLBAR:ToolTipGundabadLugLeadership
+"Leadership \n Warg-scouts and Warg Riders gain +25% experience and +25% damage. \n Passive ability"
+END
+
+CONTROLBAR:GundabadLugDreadfangsCall
+"&Dreadfang's Call"
+END
+CONTROLBAR:TooltipGundabadLugDreadfangsCall
+"Required: Rank 3 \n Lugs Warg howls, freezing the blood of the enemy and stunning them for a short time. \n left click to activate"
+END
+
+CONTROLBAR:GundabadLugScentOfBlood
+"Scent of &Blood"
+END
+CONTROLBAR:ToolTipGundabadLugScentOfBlood
+"Required: Rank 5 \n Lug and surrounding Warg-riders gain +20% speed and crush. \n Left click to activate"
+END
+
+// ============================================================ //
+// ================== #Gundabad Units ========================= //
+// ============================================================ //
 OBJECT:GundabadBanner
 "Mountain-orc Banner Carrier"
 END
-
 OBJECT:GundabadWargRiderBanner
 "Warg-rider Banner Carrier"
 END
-
 OBJECT:GundabadWargBanner
 "Alpha Warg"
 END
 
+// -- Gundabad Goblins
 OBJECT:GundabadGoblinSwarmHorde
 "Moria-orc Swarm"
 END
-
 OBJECT:GundabadSwarmGoblin
 "Moria-orc"
-END
-
-OBJECT:GundabadMountainOrcsHorde
-"Mountain-orc Slasher Horde"
-END
-
-OBJECT:GundabadBerserker
-"Gundabad Berserker"
-END
-
-OBJECT:GundabadBerserkerHorde
-"Gundabad Berserker Horde"
-END
-
-OBJECT:GundabadMountainOrcs
-"Mountain-orc Slasher"
-END
-
-OBJECT:GundabadPikemanHorde
-"Mountain-orc Pikemen Horde"
-END
-
-OBJECT:GundabadPikeman
-"Mountain-orc Pikeman"
-END
-
-OBJECT:GundabadArcher
-"Mountain-orc Hunter"
-END
-
-OBJECT:HordeGundabadArchers
-"Mountain-orc Hunter Horde"
-END
-
-OBJECT:HordeGundabadFighterArcherCombo
-"Mountain-orc Slasher - Mountain-orc Hunter Horde"
-END
-OBJECT:HordeGundabadPikemenArcherCombo
-"Mountain-orc Pikemen - Mountain-orc Hunter Horde"
-END
-
-OBJECT:GundabadWargRiderHorde
-"Gundabad Warg-rider Horde"
-END
-
-OBJECT:HordeGundabadWargRiders
-"Gundabad Warg-rider Horde"
-END
-
-OBJECT:GundabadWargRider
-"Gundabad Warg-rider"
-END
-
-OBJECT:GundabadWolfPackHorde
-"Warg-scout Horde"
-END
-
-OBJECT:GundabadWolfPack
-"Warg-scout"
-END
-
-OBJECT:GundabadWhiteWolf
-"White Warg"
-END
-
-OBJECT:GundabadSnowTroll
-"Stone-troll Monstrosity"
-END
-
-OBJECT:GundabadCaveTroll
-"Cave-troll"
-END
-
-OBJECT:GundabadHillTroll
-"Snow-troll Stalker"
-END
-
-OBJECT:HordeHillTroll
-"Snow-troll Stalkers"
-END
-
-OBJECT:GundabadGiantBat
-"Giant Bat"
-END
-
-OBJECT:GundabadDrummerGoblin
-"Mountain-orc Drummer"
-END
-
-OBJECT:GundabadBolgBodyguard
-"Bolg's Bodyguard"
-END
-OBJECT:GundabadBolgBodyguardHorde
-"Bolg's Bodyguard Horde"
-END
-
-//=================================UNIT PRODUCTION==========================
-
-CONTROLBAR:ConstructGundabadWargRiders
-"Gundabad Warg &Riders"
-END
-CONTROLBAR:ToolTipGundabadWargRiders
-"Strong vs. swordsmen \n Weak vs. Spearmen, Archers \n \n For generations, Orcs have ridden Wargs - not as masters, but as equals - to track and ambush the Free Peoples."
-END
-
-CONTROLBAR:ConstructGundabadBerserkerHorde
-"Gundabad &Berserkers"
-END
-CONTROLBAR:ToolTipBuildGundabadBerserkerHorde
-"Required: Rank 3 Mountain-orc Lodge \n Strong vs. Spearmen, Swordsmen, Cavalry, Heroes \n Weak vs. Archers \n Limited to 3 units \n \n Mount Gundabad has long been occupied by large, fierce orcs under the command of Bolg and his spawn."
-END
-
-CONTROLBAR:ConstructGundabadOrcHorde
-"Mountain-orc &Slashers"
-END
-CONTROLBAR:ToolTipBuildGundabadOrcHorde
-"Strong vs. spearmen, swordsmen \n Weak vs. Archers, Cavalry \n \n Hardened through generations of war and weather, these Mountain-orcs were finally united under one banner by Bolg."
-END
-
-CONTROLBAR:ConstructGundabadOrcPikeHorde
-"Mountain-orc &Pikemen"
-END
-CONTROLBAR:ToolTipBuildGundabadOrcPikeHorde
-"Required: Rank 2 Mountain-orc Lodge \n Strong vs. Cavalry, Archers \n Weak vs. Swordsmen \n \n Tasked with guarding the cold valleys and foothills of Orc-held territory, these pikemen have been known to ambush Elven scouting parties."
-END
-
-CONTROLBAR:ConstructGundabadOrcArcherHorde
-"Mountain-orc &Hunters"
-END
-CONTROLBAR:ToolTipBuildGundabadOrcArcherHorde
-"Strong vs. Pikemen, Monsters \n Weak vs. Swordsmen, Heroes \n \n Feared throughout Eriador, these Mountain-orc manhunters have a reputation for being cruel and ruthless in tracking down their quarry."
 END
 
 CONTROLBAR:ConstructGundabadSwarmHorde
@@ -2913,6 +3052,96 @@ CONTROLBAR:ToolTipSummonGundabadSwarmHorde
 "Summons Moria-orc Screechers \n Respects Command Point Limit \n Left click to activate"
 END
 
+// -- Gundabad Beserkers
+CONTROLBAR:ConstructGundabadBerserkerHorde
+"Gundabad &Berserkers"
+END
+CONTROLBAR:ToolTipBuildGundabadBerserkerHorde
+"Required: Rank 3 Mountain-orc Lodge \n Strong vs. Spearmen, Swordsmen, Cavalry, Heroes \n Weak vs. Archers \n Limited to 3 units \n \n Mount Gundabad has long been occupied by large, fierce orcs under the command of Bolg and his spawn."
+END
+OBJECT:GundabadBerserker
+"Gundabad Berserker"
+END
+OBJECT:GundabadBerserkerHorde
+"Gundabad Berserker Horde"
+END
+
+// -- Gundabad Orcs
+OBJECT:GundabadMountainOrcsHorde
+"Mountain-orc Slasher Horde"
+END
+OBJECT:GundabadMountainOrcs
+"Mountain-orc Slasher"
+END
+OBJECT:HordeGundabadFighterArcherCombo
+"Mountain-orc Slasher - Mountain-orc Hunter Horde"
+END
+
+CONTROLBAR:ConstructGundabadOrcHorde
+"Mountain-orc &Slashers"
+END
+CONTROLBAR:ToolTipBuildGundabadOrcHorde
+"Strong vs. spearmen, swordsmen \n Weak vs. Archers, Cavalry \n \n Hardened through generations of war and weather, these Mountain-orcs were finally united under one banner by Bolg."
+END
+
+// -- Gundabad Orc Pikemen
+OBJECT:GundabadPikemanHorde
+"Mountain-orc Pikemen Horde"
+END
+OBJECT:GundabadPikeman
+"Mountain-orc Pikeman"
+END
+OBJECT:HordeGundabadPikemenArcherCombo
+"Mountain-orc Pikemen - Mountain-orc Hunter Horde"
+END
+
+CONTROLBAR:ConstructGundabadOrcPikeHorde
+"Mountain-orc &Pikemen"
+END
+CONTROLBAR:ToolTipBuildGundabadOrcPikeHorde
+"Required: Rank 2 Mountain-orc Lodge \n Strong vs. Cavalry, Archers \n Weak vs. Swordsmen \n \n Tasked with guarding the cold valleys and foothills of Orc-held territory, these pikemen have been known to ambush Elven scouting parties."
+END
+
+// -- Gundabad Orc Archer
+OBJECT:GundabadArcher
+"Mountain-orc Hunter"
+END
+OBJECT:HordeGundabadArchers
+"Mountain-orc Hunter Horde"
+END
+
+CONTROLBAR:ConstructGundabadOrcArcherHorde
+"Mountain-orc &Hunters"
+END
+CONTROLBAR:ToolTipBuildGundabadOrcArcherHorde
+"Strong vs. Pikemen, Monsters \n Weak vs. Swordsmen, Heroes \n \n Feared throughout Eriador, these Mountain-orc manhunters have a reputation for being cruel and ruthless in tracking down their quarry."
+END
+
+// -- Gundabad Warg-rider
+OBJECT:GundabadWargRiderHorde
+"Gundabad Warg-rider Horde"
+END
+OBJECT:HordeGundabadWargRiders
+"Gundabad Warg-rider Horde"
+END
+OBJECT:GundabadWargRider
+"Gundabad Warg-rider"
+END
+CONTROLBAR:ConstructGundabadWargRiders
+"Gundabad Warg &Riders"
+END
+CONTROLBAR:ToolTipGundabadWargRiders
+"Strong vs. swordsmen \n Weak vs. Spearmen, Archers \n \n For generations, Orcs have ridden Wargs - not as masters, but as equals - to track and ambush the Free Peoples."
+END
+
+// -- Wolf Pack
+OBJECT:GundabadWolfPackHorde
+"Warg-scout Horde"
+END
+OBJECT:GundabadWolfPack
+"Warg-scout"
+END
+
 CONTROLBAR:ConstructGundabadWolfPack
 "Gundabad &Warg-scouts"
 END
@@ -2920,11 +3149,14 @@ CONTROLBAR:ToolTipBuildGundabadWolfPack
 "Strong vs. Archers \n Weak vs. Cavalry and Heroes \n \n Fast-moving and ferocious, packs of Wargs have oft been the bane of unwary travelers."
 END
 
-CONTROLBAR:ConstructGundabadSnowTroll
-"Stone-troll &Monstrosity"
+// -- Whitewolf
+OBJECT:GundabadWhiteWolf
+"White Warg"
 END
-CONTROLBAR:ToolTipBuildGundabadSnowTroll
-"Required: Rank 3 Troll Cave \n Strong vs. Infantry, Cavalry, Structures \n Limited to 5 units \n \n These Stone-trolls originate from the darkest, most hostile environments in the Misty Mountains. Their hides are tough, their grasping limbs long and powerful, and their cruelty is second to none."
+
+// -- Gundabad Cavetroll
+OBJECT:GundabadCaveTroll
+"Cave-troll"
 END
 
 CONTROLBAR:ConstructGundabadCaveTroll
@@ -2934,11 +3166,36 @@ CONTROLBAR:ToolTipBuildGundabadCaveTroll
 "Strong vs. Swordsmen and Structures \n \n Pestered and tormented for years by its goblin captors, this small and relatively docile Troll has been blinded by rage and frustration."
 END
 
+// -- Snowtroll
+OBJECT:GundabadSnowTroll
+"Stone-troll Monstrosity"
+END
+
+CONTROLBAR:ConstructGundabadSnowTroll
+"Stone-troll &Monstrosity"
+END
+CONTROLBAR:ToolTipBuildGundabadSnowTroll
+"Required: Rank 3 Troll Cave \n Strong vs. Infantry, Cavalry, Structures \n Limited to 5 units \n \n These Stone-trolls originate from the darkest, most hostile environments in the Misty Mountains. Their hides are tough, their grasping limbs long and powerful, and their cruelty is second to none."
+END
+
+// -- Gundabad Hill Troll
+OBJECT:GundabadHillTroll
+"Snow-troll Stalker"
+END
+OBJECT:HordeHillTroll
+"Snow-troll Stalkers"
+END
+
 CONTROLBAR:ConstructGundabadHillTrollHorde
 "Snow-troll &Stalkers"
 END
 CONTROLBAR:ToolTipBuildGundabadHillTrollHorde
 "Required: Rank 2 Troll Cave \n Strong vs. Infantry, Cavalry \n Weak vs. Archers, Monsters, Heroes \n \n Snow-trolls are often thought of as a fairy-tale creature in more civilised parts of Middle-earth, but those that dwell in the harsh climate of the northern Misty Mountains and beyond know better. These wicked trolls are lean, deceptively powerful, and possess a great talent for cruelty."
+END
+
+// -- Moria Drummer
+OBJECT:GundabadDrummerGoblin
+"Mountain-orc Drummer"
 END
 
 CONTROLBAR:ConstructGundabadDrummerGoblin
@@ -2947,6 +3204,7 @@ END
 CONTROLBAR:TooltipConstructGundabadDrummerGoblin
 "Required: Rank 3 Mountain-orc Lodge \n Leadership bonus to nearby infantry \n +25% Damage, +25% Armor, +15% Movement Speed, and +15% Experience \n Limited to 4 units \n \n When marching to war through the piercing cold of the Misty Mountains, keeping pace is important. Orc-drummers are often seen accompanying warbands, keeping them warm and moving steadily."
 END
+
 CONTROLBAR:GundabadDrummerGoblinLeadership
 "Iron Discipline"
 END
@@ -2954,146 +3212,56 @@ CONTROLBAR:TooltipGundabadDrummerGoblinLeadership
 "Leadership bonus for infantry: \n +25% Damage, +25% Armor, +15% Movement Speed, and +15% Experience\n Passive Ability"
 END
 
-//=================================STRUCTURES=====================
-
-OBJECT:GundabadCastleKeep
-"Gundabad Castle Keep"
+// -- Bolg Bodyguards
+OBJECT:GundabadBolgBodyguard
+"Bolg's Bodyguard"
 END
-OBJECT:GundabadCampKeep
-"Gundabad Camp Keep"
-END
-OBJECT:GundabadOutpostKeep
-"Gundabad Outpost Keep"
+OBJECT:GundabadBolgBodyguardHorde
+"Bolg's Bodyguard Horde"
 END
 
-OBJECT:GundabadWall
-"Gundabad Wall"
+// -- Giant Bats
+OBJECT:GundabadGiantBat
+"Giant Bat"
+END
+// ============================================================ //
+// ================== #Gundabad Unit Abilities ================ //
+// ============================================================ //
+CONTROLBAR:GundabadBeserkerLeadership
+"&Unpierceable Ranks"
+END
+CONTROLBAR:ToolTipGundabadBeserkerLeadership
+"Berserkers and nearby allies have resistance to knockback and trampling \n Passive Ability"
 END
 
-OBJECT:GundabadSentryTower
-"Gundabad Sentry Tower"
+CONTROLBAR:GundabadBeserkerRank2
+"&Terror of the Mountains"
+END
+CONTROLBAR:ToolTipGundabadBeserkerRank2
+"Required: Rank 2 \n Temporarily gain +25% Damage and +15% Speed \n Left click to activate"
 END
 
-OBJECT:GundabadGuardTower
-"Gundabad Guard Tower"
+CONTROLBAR:TooltipGundabadWargScoutHowl
+"Required: Rank 2 \n +60% damage \n left click to activate"
 END
 
-OBJECT:GundabadForge
-"Gundabad Deepforge"
+CONTROLBAR:SnowTrollTrollishArmor
+"Trollish Armor"
+END
+CONTROLBAR:TooltipSnowTrollTrollishArmor
+"Required: Rank 2 \n Increases melee damage and armor by 50% \n Passive Ability"
 END
 
-OBJECT:GundabadMine
-"Gundabad Mine"
+CONTROLBAR:HillTrollHoardedArmor
+"Hoarded Armor"
 END
-OBJECT:GundabadMineDescription
-"Produces resources. \n Reduces cost of infantry with each mine built. \n 2 Mines: 5% \n 3 Mines: 10% \n 4 Mines: 15% \n 5 Mines: 20% \n 6 Mines: 25%"
-END
-
-GUI:MINE_DISCOUNT
-"Mine Bonus -%d%%"
+CONTROLBAR:DescriptionHillTrollHoardedArmor
+"Required: Rank 2 \n The Hill-trolls equip armor from their hoard, increasing armor by 20% \n Passive Ability"
 END
 
-OBJECT:GundabadLodge
-"Mountain-orc Lodge"
-END
-OBJECT:GundabadLodgeDescription
-"Rank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
-END
-
-OBJECT:GundabadCave
-"Moria-orc Cave"
-END
-OBJECT:GundabadCaveDescription
-"Rank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
-END
-
-OBJECT:GundabadWolfDen
-"Gundabad Warg Den"
-END
-OBJECT:GundabadWolfDenDescription
-"Rank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
-END
-
-OBJECT:GundabadTrollCave
-"Gundabad Troll Cave"
-END
-OBJECT:GundabadTrollCaveDescription
-"Rank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
-END
-
-OBJECT:GundabadLumberMill
-"Gundabad Lumber Mill"
-END
-OBJECT:GundabadLumberMillDescription
-"Reduces cost of structures with each lumbermill built. \n 2 Lumber Mills: 5% \n 3 Lumber Mills: 10% \n 4 Lumber Mills: 15% \n 5 Lumber Mills: 20% \n 6 Lumber Mills: 25%"
-END
-
-//=================================STRUCTURE PRODUCTION=====================
-
-CONTROLBAR:UnpackGundabadMine
-"Gundabad &Mine"
-END
-CONTROLBAR:ConstructGundabadMine
-"Build a Gundabad &Mine"
-END
-CONTROLBAR:ToolTipGundabadMine
-"Produces resources \n Reduces cost of infantry with each mine built \n 2 Mines: 5% \n 3 Mines: 10% \n 4 Mines: 15% \n 5 Mines: 20% \n 6 Mines: 25%"
-END
-
-CONTROLBAR:ConstructGundabadLodge
-"Build a Mountain-orc &Lodge"
-END
-CONTROLBAR:ToolTipGundabadLodge
-"Trains Mountain-orcs and Berserkers of Gundabad"
-END
-
-CONTROLBAR:UnpackGundabadCave
-"Moria-orc &Cave"
-END
-CONTROLBAR:ConstructGundabadCave
-"Build a Moria-orc &Cave"
-END
-CONTROLBAR:ToolTipGundabadCave
-"Does not produce resources\nTrains Moria-orc Screechers"
-END
-
-CONTROLBAR:ConstructGundabadWolfDen
-"Build a Gundabad Warg &Den"
-END
-CONTROLBAR:ToolTipGundabadWolfDen
-"Trains Warg-scouts and Warg-riders"
-END
-
-CONTROLBAR:ConstructGundabadTrollCave
-"Build a Gundabad Troll &Cave"
-END
-CONTROLBAR:ToolTipGundabadTrollCave
-"Recruits the Savage Snow-trolls and Monstrous Stone-troll of Gundabad"
-END
-
-
-CONTROLBAR:ConstructGundabadForge
-"Build a Gundabad Deep&forge"
-END
-CONTROLBAR:ToolTipGundabadForge
-"Gathers resources and contains unit upgrades. \Reduces cost of unit upgrades with each forge built. \n 2 Forges: 10% \n 3 Forges: 20% \n 4 Forges: 25% \n 5 Forges: 30% \n 6 Forges: 35%"
-END
-
-CONTROLBAR:ConstructGundabadSentryTower
-"Sentry &Tower"
-END
-CONTROLBAR:ToolTipGundabadBuildSentryTower
-"Sentry Tower will fire at enemy units"
-END
-
-CONTROLBAR:ConstructGundabadGuardTower
-"Guard &Tower"
-END
-CONTROLBAR:ToolTipGundabadBuildGuardTower
-"Guard Tower will fire at enemy units"
-END
-
-//=================================UPGRADES=====================
+// ============================================================ //
+// ================== #Gundabad Unit Upgrades ================= //
+// ============================================================ //
 
 UPGRADE:GundabadUrukCaptain
 "Gundabad Banners"
@@ -3281,441 +3449,170 @@ END
 UPGRADE:GundabadWillOfSauron
 "Will of Sauron"
 END
-
-//================================================= Maps ====================================
-
-Map:MAPMPMountGundabad
-"Gundabad Wasteland"
-END
-Map:MAPMPMountGundabad/Desc
-"These jagged wastelands surrounding Mount Gundabad have been home to warring orc-tribes for generations. \n Number of Players: 3 \n Starting Positions: Castles \n Expansion Points: 3 \n Settlements: 6 \n Lairs: Goblins, Trolls"
-END
-
-//================================================== Maps ============================================
-
-Map:MAPMPWoodyEnd
-"Woody End"
-END
-
-Map:MAPMPWoodyEnd/Desc
-"A forested land west of the Shire. Frodo, Sam and Pippin hid from one of the Nazgul on their way to Bree in this region. \n Credits: Kobrakai \n Number of Players: 2 \n Starting Positions: Camps \n Expansion Points: 2 \n Settlements: 8"
-END
-
-//================================================== Vanilla Misc  ============================================
-
-OBJECT:Crebain
-"Crebain"
-END
-
-CONTROLBAR:Crebain
-"Crebain from Dunland"
-END
-
-CONTROLBAR:TooltipCrebain
-"Reveals stealthed enemies. \n +50% Damage +100% Experience +50% Armor \n Left click then right click on target"
-END
-
-CONTROLBAR:MordorScum
-"Mordor Scum"
-END
-
-CONTROLBAR:TooltipMordorScum
-"Summons Grishnakh and four battalions of Mordor Orcs \n Left click then right click on target"
-END
-
-CONTROLBAR:EndlessSupplies
-"&Metal and Wheels"
-END
-
-CONTROLBAR:TooltipEndlessSupplies
-"Instantly upgrades Infantry units in radius with heavy armor, forged blades and banner carriers\n Left click then right click on target"
-END
-
-CONTROLBAR:ThunderBolt
-"&Redhorn's Wrath"
-END
-
-CONTROLBAR:ToolTipThunderBolt
-"Required: Rank 10 \n Calls down a bolt of lightning within the targeted area \n Left click then right click on target"
-END
-
-CONTROLBAR:SarumanCalltheHorde
-"Build Me An Army"
-END
-
-CONTROLBAR:ToolTipSarumanCalltheHorde
-"Uruk-hai are produced at a significantly increased rate for a moderate duration \n Left click to activate"
-END
-
-CONTROLBAR:SpawnLurtzScouts
-"Fighting Uruk-Hai"
-END
-
-CONTROLBAR:TooltipSpawnLurtzScouts
-"Required: Rank 7 \n Call forth the Scouts of Isengard \n Left click then right click on target"
-END
-
-CONTROLBAR:LurtzThickArmor
-"Thick Armor"
-END
-
-CONTROLBAR:TooltipLurtzThickArmor
-"Lurtz permanently gains +75% armor"
-END
-
-UPGRADE:MordorFireStones
-"Fire Stones Upgrades"
-END
-
-TOOLTIP:LackMordorFireStones
-"Purchase Upgrade at Siege Workshop to enable this equipment"
-END
-
-CONTROLBAR:PurchaseTechnologyMordorFireStones
-"&Fire Stone Upgrade"
-END
-
-CONTROLBAR:ToolTipPurchaseTechnologyMordorFireStones
-"Purchase Fire Stones Upgrade \n Select a Catapult to equip upgrade \n Requires Level 2 Siege Workshop"
-END
-
-CONTROLBAR:PurchaseUpgradeMordorFireStones
-"&Fire Stones"
-END
-
-CONTROLBAR:ToolTipPurchaseUpgradeMordorFireStones
-"+350 Damage \n Left click to upgrade this unit"
-END
-
-TOOLTIP:MordorFireStones
-"Fire Stones: +50 siege damage and +300 fire damage per rock, +15% range"
-END
-
-CONTROLBAR:SummonEvilMen
-"Men of Shadow"
-END
-CONTROLBAR:ToolTipSummonEvilMen
-"Summons two Battalions of Easterlings and two Battalions of Haradrim \n Left click then right click on target"
-END
-
-CONTROLBAR:SummonFellBeast
-"Wraiths on Wings"
-END
-CONTROLBAR:ToolTipSummonFellBeast
-"Summons two Nazgul riding Fell Beasts \n Left click then right click on target"
-END
-
-CONTROLBAR:SauronDescription
-"Recruit the Lord of the Rings himself  \n \n 'Ash nazg durbatulok, ash nazg gimbatul \n Ash nazg thrakatulok agh burzum-ishi krimpatul.'""
-END
-
-CONTROLBAR:Sauron
-"The Dark Lord"
-END
-
-CONTROLBAR:SauronHover
-"The Dark Lord Sauron"
-END
-
-CONTROLBAR:ToolTipSauron
-"Unlocks Sauron \n Recruit Sauron at the Citadel"
-END
-
-TOOLTIP:ToolTipLackSauron
-"Required: The Dark Lord \n Recruit the Lord of the Rings. \n \n 'Ash nazg durbatulok, ash nazg gimbatul \n Ash nazg thrakatulok agh burzum-ishi krimpatul.' \n Rank 10"
-END
-
-CONTROLBAR:Economy
-"Lands Kept Safe"
-END
-
-CONTROLBAR:ToolTipEconomy
-"Stoneworker and Marketplace upgrades are 50% cheaper \n Passive power"
-END
-
-CONTROLBAR:GreyCompany
-"The Grey Company"
-END
-
-CONTROLBAR:ToolTipGreyCompany
-"Summons two battalions of Dunedain Rangers, led by Halbarad \n Left click then right click on target"
-END
-
-CONTROLBAR:FiefdomSummon
-"Fiefdom Allies"
-END
-CONTROLBAR:ToolTipFiefdomSummon
-"Summons Forlong and two battalions of Lossarnach Axemen. \n Left click then right click on target"
-END
-CONTROLBAR:ToolTipFiefdomSummonMP
-"Summons three battalions of Lossarnach Axemen. \n Left click then right click on target"
-END
-
-OBJECT:GondorBeacon
-"Beacon of Gondor"
-END
-
-OBJECT:GondorBeaconDescription
-"Surrounding units gain +50% armor. \n Enemy leadership is negated."
-END
-
-CONTROLBAR:SummonBeaconGondor
-"Beacon of Gondor"
-END
-
-CONTROLBAR:ToolTipSummonBeaconGondor
-"Erects a Beacon of Gondor. Surrounding units gain +50% armor. Enemy leadership is negated. \n Left click then right click on target"
-END
-
-CONTROLBAR:RohanGondorianDescription
-"Calls upon two Battalions of Gondor Soldiers and Gondor Archers"
-END
-
-CONTROLBAR:SummonRohanGondorian
-"Call for Aid"
-END
-
-CONTROLBAR:ToolTipSummonRohanGondorian
-"Calls upon two Battalions of Gondor Soldiers and Gondor Archers \n Left click then right click on target"
-END
-
-CONTROLBAR:RohanThreeHuntersDescription
-"Calls upon the Three Hunters, Legolas, Aragorn, and Gimli"
-END
-
-CONTROLBAR:SummonRohanThreeHunters
-"Three Hunters"
-END
-
-CONTROLBAR:ToolTipSummonRohanThreeHunters
-"Calls upon the Three Hunters, Legolas, Aragorn, and Gimli \n Left click then right click on target"
-END
-
-CONTROLBAR:RADTBDescription
-"Recruit one of the wandering Istari, Radagast the Brown. \n \n 'A worthy wizard, a master of shapes and changes of hue; and he has much lore of herbs and beasts, and birds are especially his friends.' - Gandalf"
-END
-
-CONTROLBAR:RADTB
-"The Brown Wizard"
-END
-
-CONTROLBAR:ToolTipRADTB
-"Unlocks Radagast the Brown \n Recruit Radagast at the Citadel"
-END
-
-TOOLTIP:ToolTipLackRADTB
-"Required: The Brown Wizard \n Recruit one of the wandering Istari, Radagast the Brown. \n \n 'A worthy wizard, a master of shapes and changes of hue; and he has much lore of herbs and beasts, and birds are especially his friends.' - Gandalf \n Rank 10"
-END
-
-OBJECT:GondorKingElessar
-"King Elessar"
-END
-
-CONTROLBAR:KingElessar
-"King Elessar Telcontar"
-END
-
-CONTROLBAR:ToolTipKingElessar
-"Unlocks King Elessar \n Recruit King Elessar at the Citadel"
+// ============================================================ //
+// ================== #Gundabad Buildings ===================== //
+// ============================================================ //
+// -- Gundabad Foundations
+OBJECT:GundabadBuildingFoundation
+"Gundabad Building Foundation"
 END
-
-TOOLTIP:ToolTipLackKingElessar
-"Required: The King Elessar Telcontar Spellbook Power \n Recruit King Elessar, the last High King of Gondor \n \n 'Out of the Great Sea to Middle-earth I am come. In this place will I abide, and my heirs, unto the ending of the world.' \n Rank 10"
+OBJECT:GundabadBaseDefenseFoundation
+"Gundabad Defensive Foundation"
 END
 
-CONTROLBAR:KingElessarDescription
-"Required: The King Elessar Telcontar Spellbook Power \n Recruit King Elessar, the last High King of Gondor \n \n 'Out of the Great Sea to Middle-earth I am come. In this place will I abide, and my heirs, unto the ending of the world.' \n Rank 10"
+// -- Gundabad Castle
+OBJECT:MBGundCastFloor
+"Gundabad Castle Floor"
 END
-
-CONTROLBAR:GOTW
-"The White Wizard"
+OBJECT:MBGundCampFloor
+"Gundabad Camp Floor"
 END
 
-CONTROLBAR:ToolTipGOTW
-"Unlocks Gandalf the White \n Recruit Gandalf the White at the Citadel"
+// -- Gundabad Keeps
+OBJECT:GundabadCastleKeep
+"Gundabad Castle Keep"
 END
-
-TOOLTIP:ToolTipLackGOTW
-"Required: The White Wizard Spellbook \n Recruit Gandalf, the White Wizard \n \n 'I am Gandalf the White. And I come back to you now, at the turn of the tide.' \n Rank 10"
+OBJECT:GundabadCampKeep
+"Gundabad Camp Keep"
 END
-
-CONTROLBAR:GOTWDescription
-"Required: The White Wizard Spellbook \n Recruit Gandalf, the White Wizard \n \n 'I am Gandalf the White. And I come back to you now, at the turn of the tide.' \n Rank 10"
+OBJECT:GundabadOutpostKeep
+"Gundabad Outpost Keep"
 END
 
-OBJECT:RohanHelmHammerhand
-"Statue of Helm Hammerhand"
+OBJECT:GundabadWall
+"Gundabad Wall"
 END
 
-OBJECT:RohanHelmHammerhandDescription
-"Surrounding units gain +50% armor. \n Enemy leadership is negated."
+// -- Gundabad Sentry Tower
+OBJECT:GundabadSentryTower
+"Gundabad Sentry Tower"
 END
 
-CONTROLBAR:RohanHelmHammerhand
-"Statue of Helm Hammerhand"
+CONTROLBAR:ConstructGundabadSentryTower
+"Sentry &Tower"
 END
-
-CONTROLBAR:RohanHelmHammerhandDescription
-"Surrounding units gain +50% armor. \n Enemy leadership is negated."
+CONTROLBAR:ToolTipGundabadBuildSentryTower
+"Sentry Tower will fire at enemy units"
 END
 
-CONTROLBAR:SummonRohanHelmHammerhand
-"Statue of Helm Hammerhand"
+// -- Gundabad Battle Tower
+OBJECT:GundabadGuardTower
+"Gundabad Guard Tower"
 END
-
-CONTROLBAR:ToolTipSummonRohanHelmHammerhand
-"Spawns Statue of Helm Hammerhand. Surrounding units gain +50% armor. Enemy leadership is negated. \n Left click then right click on target"
+CONTROLBAR:ConstructGundabadGuardTower
+"Guard &Tower"
 END
-
-CONTROLBAR:HelmHammerhand
-"Horn of Helm Hammerhand"
-End
-
-CONTROLBAR:ToolTipHelmHammerhand
-"When activated, cavalry across the map gain -25% crush decelleration for a limited time."
-End
-
-OBJECT:IsengardWhiteHand
-"White Hand Monument"
+CONTROLBAR:ToolTipGundabadBuildGuardTower
+"Guard Tower will fire at enemy units"
 END
 
-OBJECT:IsengardWhiteHandDescription
-"Surrounding units gain +50% armor. \n Enemy leadership is negated."
+// -- Gundabad Forge
+OBJECT:GundabadForge
+"Gundabad Deepforge"
 END
 
-CONTROLBAR:SummonIsengardWhiteHand
-"The White Hand"
+CONTROLBAR:ConstructGundabadForge
+"Build a Gundabad Deep&forge"
 END
-
-CONTROLBAR:ToolTipSummonIsengardWhiteHand
-"Spawns White Hand Monument. Surrounding units gain +50% armor. Enemy leadership is negated. \n Left click then right click on target"
+CONTROLBAR:ToolTipGundabadForge
+"Gathers resources and contains unit upgrades. \Reduces cost of unit upgrades with each forge built. \n 2 Forges: 10% \n 3 Forges: 20% \n 4 Forges: 25% \n 5 Forges: 30% \n 6 Forges: 35%"
 END
-
-CONTROLBAR:ToWar
-"To War!"
-End
 
-CONTROLBAR:ToolTipToWar
-"When activated, all units build 2x faster for a limited time."
-End
-
-OBJECT:MordorMorgulStatue
-"Defiled Statue"
+// -- Gundabad Mine
+OBJECT:GundabadMine
+"Gundabad Mine"
 END
-
-OBJECT:MordorMorgulStatueDescription
-"Surrounding units gain +50% armor. \n Enemy leadership is negated."
+OBJECT:GundabadMineDescription
+"Produces resources. \n Reduces cost of infantry with each mine built. \n 2 Mines: 5% \n 3 Mines: 10% \n 4 Mines: 15% \n 5 Mines: 20% \n 6 Mines: 25%"
 END
-
-CONTROLBAR:SummonMordorMorgulStatue
-"Defiled Statue"
+GUI:MINE_DISCOUNT
+"Mine Bonus -%d%%"
 END
 
-CONTROLBAR:ToolTipSummonMordorMorgulStatue
-"Spawns a Defiled Statue. Surrounding units gain +50% armor. Enemy leadership is negated. \n Left click then right click on target"
+CONTROLBAR:UnpackGundabadMine
+"Gundabad &Mine"
 END
-
-CONTROLBAR:MorgulDread
-"Morgul Dread"
-End
-
-CONTROLBAR:ToolTipMorgulDread
-"When activated, enemy units flee in terror for a limited time."
-End
-
-CONTROLBAR:MorgulDread
-"Chillwind"
-End
-
-CONTROLBAR:ToolTipMorgulDread
-"When activated, enemy units are frozen in place for a limited time."
-End
-
-OBJECT:IsengardGrishnakh
-"Grishnakh"
+CONTROLBAR:ConstructGundabadMine
+"Build a Gundabad &Mine"
 END
-
-CONTROLBAR:IsengardGrishnakhHotkey
-"&Grishnakh"
+CONTROLBAR:ToolTipGundabadMine
+"Produces resources \n Reduces cost of infantry with each mine built \n 2 Mines: 5% \n 3 Mines: 10% \n 4 Mines: 15% \n 5 Mines: 20% \n 6 Mines: 25%"
 END
 
-OBJECT:IsengardGrima
-"Grima Wormtongue"
+// -- Gundabad Lodge
+OBJECT:GundabadLodge
+"Mountain-orc Lodge"
 END
-
-CONTROLBAR:ToolTipBuildIsengardGrima
-"Saruman's corrupt puppet"
+OBJECT:GundabadLodgeDescription
+"Rank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
 END
 
-CONTROLBAR:IsengardGrimaRecruit
-"Recruit Saruman's trusted spy. \n \n 'Saruman the White has ever been our friend and ally.'"
+CONTROLBAR:ConstructGundabadLodge
+"Build a Mountain-orc &Lodge"
 END
-
-CONTROLBAR:IsengardGrimaRevive
-"Revive Grima Wormtongue."
+CONTROLBAR:ToolTipGundabadLodge
+"Trains Mountain-orcs and Berserkers of Gundabad"
 END
 
-CONTROLBAR:IsengardGrimaHotkey
-"&Grima"
+// -- Gundabad Cave
+OBJECT:GundabadCave
+"Moria-orc Cave"
 END
-
-OBJECT:IsengardSharku
-"Sharku"
+OBJECT:GundabadCaveDescription
+"Rank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
 END
 
-CONTROLBAR:IsengardSharkuRecruit
-"Recruit the captain of the Warg Riders. \n \n 'He's dead. Took a little tumble off the cliff.'"
+CONTROLBAR:UnpackGundabadCave
+"Moria-orc &Cave"
 END
-
-CONTROLBAR:IsengardSharkuRevive
-"Revive the captain of the Warg Riders."
+CONTROLBAR:ConstructGundabadCave
+"Build a Moria-orc &Cave"
 END
-
-CONTROLBAR:IsengardSharkuHotkey
-"Shar&ku"
+CONTROLBAR:ToolTipGundabadCave
+"Does not produce resources\nTrains Moria-orc Screechers"
 END
 
-OBJECT:IsengardMineBeserker
-"Isengard Sapper"
+// -- Gundabad Den
+OBJECT:GundabadWolfDen
+"Gundabad Warg Den"
 END
-
-CONTROLBAR:ConstructIsengardMineBerserker
-"Isengard &Sapper"
+OBJECT:GundabadWolfDenDescription
+"Rank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
 END
 
-CONTROLBAR:ToolTipBuildIsengardMineBerserker
-"Required: Portable Mines Upgrade and Rank 3 Uruk Pit \n \n These Uruk Berserkers carry smaller bombs on their back to set alight, killing themselves and all people around them."
+CONTROLBAR:ConstructGundabadWolfDen
+"Build a Gundabad Warg &Den"
 END
-
-OBJECT:IsengardScout
-"Isengard Uruk Scout"
+CONTROLBAR:ToolTipGundabadWolfDen
+"Trains Warg-scouts and Warg-riders"
 END
 
-OBJECT:HordeIsengardScout
-"Isengard Uruk Scouts"
+// -- Gundabad Troll Cave
+OBJECT:GundabadTrollCave
+"Gundabad Troll Cave"
 END
-
-CONTROLBAR:ConstructIsengardScoutHorde
-"Isengard Scou&ts"
+OBJECT:GundabadTrollCaveDescription
+"Rank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
 END
 
-CONTROLBAR:ToolTipBuildIsengardScoutHorde
-"Required: Rank 3 Uruk Pit \n Elite infantry proficient with sword and bow \n Strong vs. Infantry, Archers \n Weak vs. Cavalry"
+CONTROLBAR:ConstructGundabadTrollCave
+"Build a Gundabad Troll &Cave"
 END
-
-CONTROLBAR:ToggleUrukScoutWeapons
-"Alterna&te Weapon"
+CONTROLBAR:ToolTipGundabadTrollCave
+"Recruits the Savage Snow-trolls and Monstrous Stone-troll of Gundabad"
 END
 
-CONTROLBAR:ToolTipToggleUrukScoutWeapons
-"Left click to switch weapons"
+// -- Gundabad Lumbermill
+OBJECT:GundabadLumberMill
+"Gundabad Lumber Mill"
 END
-
-CONTROLBAR:LurtzSummonScouts
-"Fighting Uruk-Hai"
+OBJECT:GundabadLumberMillDescription
+"Reduces cost of structures with each lumbermill built. \n 2 Lumber Mills: 5% \n 3 Lumber Mills: 10% \n 4 Lumber Mills: 15% \n 5 Lumber Mills: 20% \n 6 Lumber Mills: 25%"
 END
 
-//================================================== End ============================================
+// ############################################################ //
+// ========================= #Vanilla ========================= //
+// ############################################################ //
 
 LETTER:G
 "G"
