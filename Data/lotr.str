@@ -1578,6 +1578,14 @@ CONTROLBAR:ToolTipUpgradeDunedainSpears
 "Rangers permanantly equip themselves with spears, granting them a damage bonus towards calvary and heroes"
 END
 
+
+CONTROLBAR:DunedainRangerSpecialAbility
+"Woodscraft"
+END
+CONTROLBAR:ToolTipDunedainRangerSpecialAbility
+"Becomes invisible while standing still. \n Passive Ability"
+END
+
 TOOLTIP:DunedainSwords
 "Equip Swords"
 END
