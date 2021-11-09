@@ -1545,6 +1545,16 @@ OBJECT:BreelandBatteringRam
 "Breeland Battering Ram"
 END
 
+OBJECT:RivendellReveler
+"Quentaroli"
+END
+CONTROLBAR:ConstructRivendellReveler
+"Quentaroli"
+END
+CONTROLBAR:ToolTipRivendellReveler
+"Rivendell Revelers \n Required: Rank 2 Dormitory \n A party of Elven Revelers \n Limited to 5\n\nThe long history of the Elves is oft related through song and music, both sad and joyous."
+END
+
 // ============================================================ //
 // ================ #Rivendell Unit Abilities ================= //
 // ============================================================ //

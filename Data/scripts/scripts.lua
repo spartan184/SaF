@@ -577,6 +577,31 @@ function OnLANoldorCreated(self)
 
 end
 
+-- Rivendell Revelers
+function OnRevelerCreated(self)
+	ObjectHideSubObjectPermanently( self, "FIREPLANE", true )
+	ObjectHideSubObjectPermanently( self, "HEAD01", true )
+    ObjectHideSubObjectPermanently( self, "HEAD02", true )
+    ObjectHideSubObjectPermanently( self, "BODY01", true )
+    ObjectHideSubObjectPermanently( self, "BODY02", true )
+    ObjectHideSubObjectPermanently( self, "BODY03", true )
+	local head          =    GetRandomNumber()
+	local body          =    GetRandomNumber()
+    if head <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HEAD01", false )
+	else
+        ObjectHideSubObjectPermanently( self, "HEAD02", false )
+    end   
+	
+    if body <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "BODY01", false )
+    elseif body <= 0.7 then
+        ObjectHideSubObjectPermanently( self, "BODY02", false )
+	else
+        ObjectHideSubObjectPermanently( self, "BODY03", false )
+    end    
+end
+
 -- Noldor Exiles
 function OnNoldorExilesCreated(self)
 	ObjectHideSubObject( self, "ARROW", true )

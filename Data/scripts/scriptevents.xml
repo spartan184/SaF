@@ -362,6 +362,10 @@
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnLANoldorBannerCreated" DebugSingleStep="false"/>
     </EventList>
     
+    <EventList Name="RevelerFunctions" Inherit="InfantryFunctions">
+	    <EventHandler EventName="OnCreated"				ScriptFunctionName="OnRevelerCreated"	DebugSingleStep="false"/>
+    </EventList>  
+    
     <EventList Name="RivendellNoldorExilesFunctions" Inherit="InfantryFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnNoldorExilesCreated" DebugSingleStep="false"/>
     </EventList>
