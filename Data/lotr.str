@@ -1531,6 +1531,7 @@ OBJECT:HordeRivendellMirkwoodArcher
 "Silvan Archers"
 END
 
+// -- Laketown Guard
 OBJECT:LaketownGuard
 "Laketown Guard"
 END
@@ -1538,6 +1539,7 @@ OBJECT:HordeLaketownGuard
 "LakeTown Guards"
 END
 
+// -- Breeland Ram
 OBJECT:BreeRamCrew
 "Breeland Ram Crew"
 END
@@ -1545,7 +1547,11 @@ OBJECT:BreelandBatteringRam
 "Breeland Battering Ram"
 END
 
+// -- Revelers
 OBJECT:RivendellReveler
+"Quentaroli"
+END
+OBJECT:HordeRivendellReveler
 "Quentaroli"
 END
 CONTROLBAR:ConstructRivendellReveler
@@ -1553,6 +1559,41 @@ CONTROLBAR:ConstructRivendellReveler
 END
 CONTROLBAR:ToolTipRivendellReveler
 "Rivendell Revelers \n Required: Rank 2 Dormitory \n A party of Elven Revelers \n Limited to 5\n\nThe long history of the Elves is oft related through song and music, both sad and joyous."
+END
+
+CONTROLBAR:StoryTeller
+"Story-teller"
+End
+CONTROLBAR:ToolTipStoryTeller
+"Increases experience gain of friendly units by 10% \n Passively decreases the cooldown of the Hall of Fire's \n vivid retellings by 10% \n Passive ability"
+End
+
+CONTROLBAR:RevelerWeapon
+"Break the Fourth Wall"
+END
+CONTROLBAR:ToolTipRevelerWeapon
+"Quentaroli don't deal damage but can attack units reducing their movement speed by 10%\nand structures reducing their armor by 5% while targeting it\nCan stack with other Revelers\nPassive ability"
+END
+
+CONTROLBAR:StayAWhileAndListen
+"Stay Awhile and Listen"
+End
+CONTROLBAR:ToolTipStayAWhileAndListen
+"Passively decreases the speed and attack damage of enemy units in a wide radius by 15% \n Passive ability"
+End
+
+CONTROLBAR:SongOfSpring
+"Ainulindalë"
+End
+CONTROLBAR:ToolTipSongOfSpring
+"When cast on an Orchard, temporarily increases its resource production by 50%\n Left click icon then left click on target"
+End
+
+CONTROLBAR:RevelersAkallabeth
+"Akallabêth"
+END
+CONTROLBAR:ToolTipRevelersAkallabeth
+"Quentaroli can target units to decrease their speed by 5% up to 25% and buildings to decrease their armor by 5% up to 25% \n Passive ability \n Deals significant damage over time to structures \n Can be cast from a large distance \n Left click icon then left click on target"
 END
 
 // ============================================================ //
@@ -1642,6 +1683,36 @@ END
 CONTROLBAR:ToolTipRivendellVeteransAbility
 "The Veterans remember the times of Sauron's attack on the elven kingdoms of the North. \nThe battalion is temporarily immune to knockback and gains +50% Damage \n Left Click to Activate"
 END
+
+// -- Revelers
+CONTROLBAR:StoryTeller
+"Story-teller"
+End
+CONTROLBAR:ToolTipStoryTeller
+"Increases experience gain of friendly units by 10% \n Passive ability"
+End
+
+CONTROLBAR:StayAWhileAndListen
+"Stay Awhile and Listen"
+End
+CONTROLBAR:ToolTipStayAWhileAndListen
+"Passively decreases the speed and attack damage of enemy units in a wide radius by 15% \n Passive ability"
+End
+
+CONTROLBAR:SongOfSpring
+"Ainulindale"
+End
+CONTROLBAR:ToolTipSongOfSpring
+"When cast on an Orchard, temporarily increases its resource production by 50%\n Left click icon then left click on target"
+End
+
+CONTROLBAR:RevelersAkallabeth
+"Akallabeth"
+END
+CONTROLBAR:ToolTipRevelersAkallabeth
+"Quentaroli can target units to decrease their speed by 25% and buildings to decrease their armor by 25% \n Passive ability \n Deals significant damage over time to structures \n Can be cast from a large distance \n Left click icon then left click on target"
+END
+
 // ============================================================= //
 // ================ #Rivendell Faction Upgrades ================ //
 // ============================================================= //
