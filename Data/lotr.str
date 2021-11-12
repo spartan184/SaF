@@ -2849,7 +2849,7 @@ CONTROLBAR:MordorOrcRank2
 "Crack the &Whip"
 END
 CONTROLBAR:ToolTipMordorOrcRank2
-"Required: Rank 2 \n Temporarily gain +20% movement speed and Fear immunity \n Left click to activate"
+"Required: Rank 2 \n Temporarily gain +10% movement speed and +10% Damage \n Left click to activate"
 END
 
 CONTROLBAR:MordorUrukRank2
