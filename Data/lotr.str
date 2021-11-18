@@ -2480,7 +2480,7 @@ CONTROLBAR:DunlandMordhauGrip
 "Mordhau G&rip"
 END
 CONTROLBAR:ToolTipDunlandMordhauGrip
-"Dunlending Huskarls temporarily use mordhau grip,\n dealing +15% bonus damage against structures\nLeft click to activate"
+"Dunlending Huskarls temporarily use Mordhau grip \n Whilst active, Huskarls deal 25% bonus damage vs heroes \n Left click to activate"
 END
 
 CONTROLBAR:DunlandNobleLineage
