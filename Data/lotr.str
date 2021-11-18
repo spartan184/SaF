@@ -1159,11 +1159,11 @@ CONTROLBAR:ToolTipElrondLeadership
 "+33% Damage, +33% Armor, and +100% experience gain to nearby Elven units \nPassive Ability"
 END
 
-CONTROLBAR:ElrondWisdom
-"Wisdom of the Elves"
+CONTROLBAR:ElrondSkillOfElves
+"&Skill of the Elves"
 END
-CONTROLBAR:ToolTipElrondWisdom
-"Required: Rank 3 \n Targeted units gain experience\nLeft click icon then left click on target area"
+CONTROLBAR:ToolTipElrondSkillOfElves
+"Required: Rank 3 \nElrond's attacks temporarily deal splash and knockback damage\n Left click to activate"
 END
 
 CONTROLBAR:ElrondArmorUpgrade
