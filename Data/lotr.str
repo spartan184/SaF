@@ -14589,7 +14589,7 @@ CONTROLBAR:ToolTipSlaughterHouse
 END
 
 CONTROLBAR:ToolTipIsengardSlaughterHouse
-"Provides food as a resource \n Food Bonus: Reduced cost of Warg Riders"
+"Provides food as a resource \n Food Bonus: Reduced cost of Warg Riders and Uruks"
 END
 
 CONTROLBAR:ToolTipLumberMill
