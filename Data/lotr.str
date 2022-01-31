@@ -2350,6 +2350,13 @@ OBJECT:HordeIsengardShieldBearer
 "Uruk-hai Shieldbearers"
 END
 
+CONTROLBAR:ConstructIsengardShieldbearerHorde
+"Uruk-hai Shieldbearer"
+END
+CONTROLBAR:ToolTipBuildIsengardShieldbearerHorde
+"Heavily armored support unit \n Able to switch formation for improved defensive capabilities \n \n 'This is no rabble of mindless orcs. These are Uruk-hai. Their armor is thick and their shields broad.'"
+END
+
 // -- Mine Beserker
 OBJECT:IsengardMineBeserker
 "Isengard Sapper"
