@@ -1297,10 +1297,11 @@ function OnKingsguardCreated(self)
 end
 
 function OnWitchKingCreated(self)
-    ObjectHideSubObjectPermanently( self, "FIRE", true )
+  ObjectHideSubObjectPermanently( self, "FIRE", true )
 end
 function HourOfDoomActivation(self)
 	ObjectHideSubObjectPermanently( self, "FIRE", false )
+  ObjectDoSpecialPower(self, "SpecialAbilityHourOfDoomBlast")
 end
 function HourOfDoomStop(self)
 	ObjectHideSubObjectPermanently( self, "FIRE", true )
@@ -1309,13 +1310,13 @@ end
 function EndlessSupplyGrantUpgrades(self)
 	ObjectGrantUpgrade( self, "Upgrade_IsengardForgedBlades" )
 	ObjectGrantUpgrade( self, "Upgrade_IsengardHeavyArmor" )
-    ObjectGrantUpgrade( self, "Upgrade_IsengardBasicTraining" )
-    ObjectGrantUpgrade( self, "Upgrade_ImprovedArrowsmithing2" )
-    ObjectSetChanting(self, true)
+  ObjectGrantUpgrade( self, "Upgrade_IsengardBasicTraining" )
+  ObjectGrantUpgrade( self, "Upgrade_ImprovedArrowsmithing2" )
+  ObjectSetChanting(self, true)
 end
 
 function SarumanMetalAndWheelsVeterencyHack(self)
-            ObjectDoSpecialPower(self, "SpecialAbilityEndlessSuppliesVeterency")
+  ObjectDoSpecialPower(self, "SpecialAbilityEndlessSuppliesVeterency")
 end
 
 function OnGondorDolAmrothCreated(self)
