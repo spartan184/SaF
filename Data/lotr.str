@@ -2262,6 +2262,20 @@ CONTROLBAR:OrcishTenacityPassiveLeadership
 "Orcish Tenacity"
 END
 
+CONTROLBAR:SpecialAbilityGrishnakhCarnage
+"&Crack the Whip"
+END
+CONTROLBAR:ToolTipSpecialAbilityGrishnakhCarnage
+"Required: Rank 3 \n Grishnakh gains +100% Damage, +20% Armor \n left click to activate"
+END
+
+CONTROLBAR:GrishnakhMordorScumSummon
+"Mordor Scum"
+END
+CONTROLBAR:TooltipGrishnakhMordorScumSummon
+"Required: Rank 6 \nSummons four battalions of Mordor Orcs to his side for a short time\n Left click to activate"
+END
+
 // -- #Sharku
 OBJECT:IsengardSharku
 "Sharku"
