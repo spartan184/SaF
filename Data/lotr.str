@@ -2099,7 +2099,7 @@ CONTROLBAR:MordorScum
 "Mordor Scum"
 END
 CONTROLBAR:TooltipMordorScum
-"Summons Grishnakh and four battalions of Mordor Orcs \n Left click then right click on target"
+"Summons Grishnakh and two battalions of Mordor Orcs \n Left click then right click on target"
 END
 
 CONTROLBAR:EndlessSupplies
