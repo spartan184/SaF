@@ -1,0 +1,6 @@
+1. Remove normal maps
+2. Set specular to 0
+3. Change material settings to Vertex
+4. Reapply texture
+
+Building animations => export w3d -> model animation
