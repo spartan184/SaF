@@ -30,7 +30,18 @@ CONTROLBAR:ToolTipRJCameraOverheadView
 "Have a bird's eye view of the battlefield"
 END
 // END CAMERA
-
+CONTROLBAR:TestDamage
+"Test Damage"
+END
+CONTROLBAR:ToolTipTestDamage
+"Test damage any unit or structure"
+END
+CONTROLBAR:TestSummon
+"Test Summon"
+END
+CONTROLBAR:ToolTipTestSummon
+"Test Summon units to the battlefield"
+END
 // ############################################################ //
 // ========================= #Generics ======================== //
 // ############################################################ //
