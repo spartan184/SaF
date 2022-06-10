@@ -1936,6 +1936,11 @@ OBJECT:RivendellPosternGate
 "Rivendell Postern Gate"
 END
 
+// -- Rivendell Camp
+OBJECT:RivendellCampWall
+"Rivendell Camp Wall"
+END
+
 // -- Rivendell Hall of Fire aka Citadel
 OBJECT:RivendellHallOfFire
 "Hall of Fire"
