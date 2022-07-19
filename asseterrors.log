@@ -1,1 +1,4 @@
 Internal animation is named mublkrider_wlkabMUBLKRIDER_SKL; Could not get info for art\w3d\mublkrider_wlkab.w3d
+Asset rbcfence_bld.FLAG in file rbcfence_bld.w3d depends on unknown asset rbstables.dds.
+Asset rbcfence_bld.POST in file rbcfence_bld.w3d depends on unknown asset rbwallhub.dds.
+Asset rbcfence_bld.WALL in file rbcfence_bld.w3d depends on unknown asset rbwallhub.dds.
