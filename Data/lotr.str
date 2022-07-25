@@ -1195,7 +1195,7 @@ CONTROLBAR:ElrondRingOfAir
 "Ring of Air"
 END
 CONTROLBAR:ToolTipElrondRingOfAir
-"Required: Rank 10 \n Creates a circular sanctuary in which friendly troops are buffed \n +50% Damage and +100% Experience \n left click to activate"
+"Required: Rank 10 \n Creates a circular sanctuary in which friendly troops are buffed \n +50% Damage, +100% Experience, +25% Ability Recharge Time Speed \n left click to activate"
 END
 
 // -- #Aragorn
