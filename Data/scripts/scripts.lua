@@ -4369,7 +4369,7 @@ end
 function OnElvenWarriorCreated(self)
     ObjectHideSubObject( self, "ARROW", true )
     ObjectHideSubObject( self, "ARROWNOCK", true )
-    ObjectHideSubObject( self, "Forged_Blade", true )
+    ObjectHideSubObjectPermanently( self, "FORGED_BLADE", true )
     ObjectHideSubObject( self, "FIREAROWTIP", true )
 end
 
