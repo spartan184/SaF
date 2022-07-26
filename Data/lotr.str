@@ -31,13 +31,13 @@ CONTROLBAR:ToolTipRJCameraOverheadView
 END
 // END CAMERA
 CONTROLBAR:TestDamage
-"Test Damage"
+"Test &Damage"
 END
 CONTROLBAR:ToolTipTestDamage
 "Test damage any unit or structure"
 END
 CONTROLBAR:TestSummon
-"Test Summon"
+"Test &Summon"
 END
 CONTROLBAR:ToolTipTestSummon
 "Test Summon units to the battlefield"
@@ -170,6 +170,13 @@ END
 
 CONTROLBAR:ToolTipElessarBladeMaster
 "Aragorn recieves Anduril, the sword which was reforged from the shards of Narsil.\n+100% Damage, +50% armor, +25% speed \n Passive upgrade \n +50% Damage, +50% Armor \n When activated"
+END
+
+CONTROLBAR:ElessarFakeRoyalGuardsButton
+"King of Gondor"
+END
+CONTROLBAR:ToolTipElessarFakeRoyalGuardsButton
+"Elessar is guarded by 4 very powerful and skillful Gondor Royal Guard \n Passive ability"
 END
 
 // -- #Faramir 
@@ -318,6 +325,11 @@ END
 // -- Gondor Ranger
 OBJECT:GondorRangerCaptain
 "Ithilien Ranger Captain"
+END
+
+// -- Gondor Kings Guard
+OBJECT:GondorKingsGuard
+"Royal Guard"
 END
 
 // -- Lossarnach Axemen
