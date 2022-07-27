@@ -1896,7 +1896,7 @@ CONTROLBAR:PurchaseTechnologyRivendellFeanorSmithing
 "Practical Application of Feanorian &Smithing"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyRivendellFeanorSmithing
-"This exhaustive treatise on Noldorin smithing techniques was authored by Celebrimbor. \n\n Permanently reduces cost of unit upgrades by 25%"
+"This exhaustive treatise on Noldorin smithing techniques was authored by Celebrimbor. \n\n Units recruited from the Dormitory gain +25% armor \n Library must be present to retain affect"
 END
 
 // ============================================================ //
