@@ -31,13 +31,13 @@ CONTROLBAR:ToolTipRJCameraOverheadView
 END
 // END CAMERA
 CONTROLBAR:TestDamage
-"Test &Damage"
+"Test Damage"
 END
 CONTROLBAR:ToolTipTestDamage
 "Test damage any unit or structure"
 END
 CONTROLBAR:TestSummon
-"Test &Summon"
+"Test Summon"
 END
 CONTROLBAR:ToolTipTestSummon
 "Test Summon units to the battlefield"
