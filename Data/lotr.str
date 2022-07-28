@@ -2779,7 +2779,7 @@ CONTROLBAR:MordorGothmogHotkey
 END
 
 CONTROLBAR:GothmogLeadership
-"Lieutenant of Morgul"
+"Time of the &Orc"
 END
 CONTROLBAR:ToolTipGothmogLeadership
 "Leadership bonus to nearby Orcs \n +15% Movement speed, +25% Damage, and +50% Experience gain \n Passive ability"
@@ -2793,7 +2793,7 @@ CONTROLBAR:ToolTipGothmogSiegeLeadership
 END
 
 CONTROLBAR:GothmogOrcs
-"Time of the &Orc"
+"Lieutenant of Morgul"
 END
 CONTROLBAR:ToolTipGothmogOrcs
 "Required: Rank 6 \n Gothmog summons two hordes of orcs and uruks."
