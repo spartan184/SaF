@@ -501,6 +501,10 @@
       <EventHandler EventName="BeUncontrollablyAfraid"	ScriptFunctionName="MordorFighterBecomeUncontrollablyAfraid"	 DebugSingleStep="false"/>
     </EventList>
     
+    <EventList Name="MorgulOrcFunctions" Inherit="SaFInfantryFunctions">
+      <EventHandler EventName="OnCreated"				ScriptFunctionName="OnMorgulOrcCreated" DebugSingleStep="false"/>
+    </EventList>
+    
 		<!-- This contains events specific to the IsengardFighter. Kris -->
     <EventList Name="IsengardFighterFunctions" Inherit="SaFInfantryFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnIsengardFighterCreated" DebugSingleStep="false"/>

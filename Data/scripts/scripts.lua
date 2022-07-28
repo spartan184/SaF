@@ -3019,7 +3019,46 @@ function OnOrcWarriorsCreated(self)
         ObjectHideSubObjectPermanently( self, "NOTHING", false )
     end
 end
+function OnMorgulOrcCreated(self)
+    ObjectHideSubObjectPermanently( self, "HEAD06", true )
+    ObjectHideSubObjectPermanently( self, "HEAD05", true )
+    ObjectHideSubObjectPermanently( self, "HEAD04", true )
+    ObjectHideSubObjectPermanently( self, "HEAD03", true )
+    ObjectHideSubObjectPermanently( self, "HEAD02", true )
+    ObjectHideSubObjectPermanently( self, "HEAD01", true )
+    ObjectHideSubObjectPermanently( self, "FORGED_BLADE", true )
+    ObjectHideSubObjectPermanently( self, "SHIELD1", true )
+    ObjectHideSubObjectPermanently( self, "SHIELD2", true )
+    ObjectHideSubObjectPermanently( self, "SHIELD3", true )
+    ObjectHideSubObjectPermanently( self, "SHOULDER", true )
+    ObjectHideSubObjectPermanently( self, "LEGGUARD", true )
 
+    local head          =    GetRandomNumber()
+    local shield          =    GetRandomNumber()
+
+
+    if shield <= 0.2 then
+        ObjectHideSubObjectPermanently( self, "SHIELD2", false )
+    elseif shield <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "SHIELD3", false )
+     else
+        ObjectHideSubObjectPermanently( self, "SHIELD1", false )
+    end  
+
+    if head <= 0.1 then
+        ObjectHideSubObjectPermanently( self, "HEAD06", false )
+    elseif head <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "HEAD05", false )
+    elseif head <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HEAD04", false )
+    elseif head <= 0.7 then
+        ObjectHideSubObjectPermanently( self, "HEAD03", false )
+    elseif head <= 0.9 then
+        ObjectHideSubObjectPermanently( self, "HEAD01", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HEAD02", false )
+    end   
+end
 function OnMountainOrcCreated(self)
 
     -- hide all weapons

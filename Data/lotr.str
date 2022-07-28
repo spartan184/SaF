@@ -2803,7 +2803,7 @@ CONTROLBAR:GothmogOrcs
 "Lieutenant of Morgul"
 END
 CONTROLBAR:ToolTipGothmogOrcs
-"Required: Rank 6 \n Gothmog summons two hordes of Morgul Vanguard."
+"Required: Rank 6 \n Gothmog summons three hordes of Morgul Pikemen."
 END
 
 // -- #Uvatha
@@ -2896,6 +2896,14 @@ CONTROLBAR:ToolTipBuildMordorUrukHorde
 END
 CONTROLBAR:ConstructMordorUrukHorde
 "Mordor Black Uruks"
+END
+
+// -- Mordor Morgul Orc Pikemen
+OBJECT:MordorMorgulOrcPike
+"Morgul Orc Pike"
+END
+OBJECT:HordeMordorMorgulOrcPike
+"Morgul Orc Pike Horde"
 END
 
 // ============================================================ //
