@@ -2656,21 +2656,28 @@ CONTROLBAR:SauronConflagaration
 "Confla&gration"
 END
 CONTROLBAR:ToolTipSauronConflagaration
-"Destroy enemy hero \n (only deals 25% of total damage to Durin's Bane, Gandalf the White, Saruman, Elessar, and Radagast)"
+"Destroy enemy hero \n (only deals 25% of total damage to Durin's Bane, Gandalf the White, Saruman, Elessar, and Radagast) \n Left click then right click on target"
 END
 
 CONTROLBAR:SpecialAbilityTelekinesis
 "Telekinesis"
 END
 CONTROLBAR:ToolTipSpecialAbilityTelekinesis
-"Sauron can manipulate objects with his mind \n Knocksback battalion or hero from range."
+"Sauron can manipulate objects with his mind \n Knocksback battalion or hero from range. \n Left click then right click on target"
 END
 
 CONTROLBAR:SauronDominate
 "Annatar, Lor&d of Gifts"
 END
 CONTROLBAR:ToolTipSauronDominate
-"Temporarily converts enemy units in large radius"
+"Temporarily converts enemy units in large radius \n Left click then right click on target"
+END
+
+CONTROLBAR:SauronSummonOrcs
+"Dark Lord of Mordor"
+END
+CONTROLBAR:ToolTipSauronSummonOrcs
+"Sauron calls upon reinforcements \n Summons two hordes of Orcs and Uruks \n Left click to activate"
 END
 
 // -- #WitchKing 
