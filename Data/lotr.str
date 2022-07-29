@@ -2670,7 +2670,7 @@ CONTROLBAR:SauronSummonOrcs
 "Dark Lord of Mordor"
 END
 CONTROLBAR:ToolTipSauronSummonOrcs
-""He is gathering all evil to him" Sauron calls upon reinforcements \n Summons two hordes of Orcs and Uruks \n Left click to activate"
+"'He is gathering all evil to him' \n Sauron calls upon reinforcements \n Summons two hordes of Orcs and Uruks \n Left click to activate"
 END
 
 CONTROLBAR:SauronHeroMode
