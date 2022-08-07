@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aptdata>
+    <movieclip>
+        <imports/>
+        <exports>
+            <export name="AbilityButtonFrame.tga" character="3"/>
+            <export name="PalantirSubGlass" character="6"/>
+            <export name="PalantirMainGlass" character="9"/>
+            <export name="spellFrameAttachment.tga" character="12"/>
+            <export name="spellFrame06.tga" character="15"/>
+            <export name="spellFrame05.tga" character="18"/>
+            <export name="spellFrame04.tga" character="21"/>
+            <export name="spellFrame03.tga" character="24"/>
+            <export name="spellFrame02.tga" character="27"/>
+            <export name="spellFrame01.tga" character="30"/>
+            <export name="spellButtonRing.tga" character="33"/>
+            <export name="Rack_outside.tga" character="36"/>
+            <export name="rack_unit.tga" character="39"/>
+            <export name="rack_top.tga" character="42"/>
+            <export name="Rack_base.tga" character="45"/>
+            <export name="abilitiesHighlight" character="48"/>
+            <export name="abilitiesPassiveHightlight" character="51"/>
+            <export name="Beam.tga" character="54"/>
+            <export name="Enabled_NotSelectable.tga" character="57"/>
+            <export name="LightGlow_Quater.tga" character="60"/>
+            <export name="Ring.tga" character="63"/>
+            <export name="white_star.tga" character="66"/>
+            <export name="SideCommandBar01.tga" character="69"/>
+            <export name="SideCommandBar02.tga" character="72"/>
+            <export name="SideCommandBar03.tga" character="75"/>
+            <export name="SideCommandBar04.tga" character="78"/>
+            <export name="SideCommandBar05.tga" character="81"/>
+            <export name="SideCommandBar06.tga" character="84"/>
+            <export name="SideCommandBar07.tga" character="87"/>
+            <export name="SideCommandBar08.tga" character="90"/>
+            <export name="SideCommandBar09.tga" character="93"/>
+            <export name="SideCommandBar10.tga" character="96"/>
+            <export name="SideCommandBar11.tga" character="99"/>
+            <export name="SideCommandBar12.tga" character="102"/>
+            <export name="StanceButtonTestButtonSelectHighlight.tga" character="105"/>
+            <export name="StanceButtonTestStanceButtonFrame.tga" character="108"/>
+            <export name="StanceButtonTestStanceButtonFrameGlow.tga" character="111"/>
+            <export name="OneRingMiniMapIcon.tga" character="114"/>
+            <export name="FellowshipHeroSelection.tga" character="117"/>
+            <export name="DwarfHeroSelection.tga" character="120"/>
+            <export name="FellowshipHeroSelection_reg.tga" character="123"/>
+            <export name="DwarfHeroSelection_reg.tga" character="126"/>
+            <export name="ElvenHeroSelection.tga" character="129"/>
+            <export name="ElvenHeroSelection_reg.tga" character="132"/>
+            <export name="GoblinHeroSelection.tga" character="135"/>
+            <export name="GoblinHeroSelection_reg.tga" character="138"/>
+            <export name="HeroRallyGon_Mo.tga" character="141"/>
+            <export name="HeroRallyGon_reg.tga" character="144"/>
+            <export name="HeroRallyIsen_Mo.tga" character="147"/>
+            <export name="HeroRallyIsen_reg.tga" character="150"/>
+            <export name="HeroRallyMor_Mo.tga" character="153"/>
+            <export name="HeroRallyMor_reg.tga" character="156"/>
+            <export name="HeroRallyRoh_Mo.tga" character="159"/>
+            <export name="HeroRallyRoh_reg.tga" character="162"/>
+            <export name="HeroRallyImla_Mo.tga" character="165"/>
+            <export name="HeroRallyImla_reg.tga" character="168"/>
+            <export name="HaradHeroSelection.tga" character="171"/>
+            <export name="HaradHeroSelection_reg.tga" character="174"/>
+            <export name="MirkwoodHeroSelection.tga" character="177"/>
+            <export name="MirkwoodHeroSelection_reg.tga" character="180"/>
+            <export name="GuldurHeroSelection.tga" character="183"/>
+            <export name="GuldurHeroSelection_reg.tga" character="186"/>
+        </exports>
+        <frames>
+            <frame id="0">
+                <background color="-10066330"/>
+            </frame>
+        </frames>
+    </movieclip>
+    <image id="1" image="1"/>
+    <shape id="2" top="0.000000" left="0.000000" bottom="198.000000" right="128.000000" geometry="2"/>
+    <sprite id="3">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="2" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="4" image="4"/>
+    <shape id="5" top="0.000000" left="0.000000" bottom="165.000000" right="139.000000" geometry="5"/>
+    <sprite id="6">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="5" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="7" image="7"/>
+    <shape id="8" top="0.000000" left="0.000000" bottom="185.000000" right="219.000000" geometry="8"/>
+    <sprite id="9">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="8" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="10" image="10"/>
+    <shape id="11" top="0.000000" left="0.000000" bottom="19.000000" right="12.000000" geometry="11"/>
+    <sprite id="12">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="11" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="13" image="13"/>
+    <shape id="14" top="0.000000" left="0.000000" bottom="82.000000" right="33.000000" geometry="14"/>
+    <sprite id="15">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="14" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="16" image="16"/>
+    <shape id="17" top="0.000000" left="0.000000" bottom="65.000000" right="32.000000" geometry="17"/>
+    <sprite id="18">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="17" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="19" image="19"/>
+    <shape id="20" top="0.000000" left="0.000000" bottom="61.000000" right="24.000000" geometry="20"/>
+    <sprite id="21">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="20" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="22" image="22"/>
+    <shape id="23" top="0.000000" left="0.000000" bottom="62.000000" right="29.000000" geometry="23"/>
+    <sprite id="24">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="23" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="25" image="25"/>
+    <shape id="26" top="0.000000" left="0.000000" bottom="74.000000" right="57.000000" geometry="26"/>
+    <sprite id="27">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="26" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="28" image="28"/>
+    <shape id="29" top="0.000000" left="0.000000" bottom="117.000000" right="46.000000" geometry="29"/>
+    <sprite id="30">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="29" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="31" image="31"/>
+    <shape id="32" top="0.000000" left="0.000000" bottom="46.000000" right="46.000000" geometry="32"/>
+    <sprite id="33">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="32" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="34" image="34"/>
+    <shape id="35" top="0.000000" left="0.000000" bottom="67.000000" right="73.000000" geometry="35"/>
+    <sprite id="36">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="35" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="37" image="37"/>
+    <shape id="38" top="0.000000" left="0.000000" bottom="78.000000" right="78.000000" geometry="38"/>
+    <sprite id="39">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="38" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="40" image="40"/>
+    <shape id="41" top="0.000000" left="0.000000" bottom="56.000000" right="63.000000" geometry="41"/>
+    <sprite id="42">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="41" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="43" image="43"/>
+    <shape id="44" top="0.000000" left="0.000000" bottom="97.000000" right="78.000000" geometry="44"/>
+    <sprite id="45">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="44" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="46" image="46"/>
+    <shape id="47" top="0.000000" left="0.000000" bottom="64.000000" right="64.000000" geometry="47"/>
+    <sprite id="48">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="47" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="49" image="49"/>
+    <shape id="50" top="0.000000" left="0.000000" bottom="64.000000" right="64.000000" geometry="50"/>
+    <sprite id="51">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="50" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="52" image="52"/>
+    <shape id="53" top="0.000000" left="0.000000" bottom="124.000000" right="541.000000" geometry="53"/>
+    <sprite id="54">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="53" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="55" image="55"/>
+    <shape id="56" top="0.000000" left="0.000000" bottom="64.000000" right="64.000000" geometry="56"/>
+    <sprite id="57">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="56" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="58" image="58"/>
+    <shape id="59" top="0.000000" left="0.000000" bottom="256.000000" right="256.000000" geometry="59"/>
+    <sprite id="60">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="59" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="61" image="61"/>
+    <shape id="62" top="0.000000" left="0.000000" bottom="67.000000" right="67.000000" geometry="62"/>
+    <sprite id="63">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="62" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="64" image="64"/>
+    <shape id="65" top="0.000000" left="0.000000" bottom="140.000000" right="140.000000" geometry="65"/>
+    <sprite id="66">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="65" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="67" image="67"/>
+    <shape id="68" top="0.000000" left="0.000000" bottom="63.000000" right="46.000000" geometry="68"/>
+    <sprite id="69">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="68" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="70" image="70"/>
+    <shape id="71" top="0.000000" left="0.000000" bottom="46.000000" right="46.000000" geometry="71"/>
+    <sprite id="72">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="71" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="73" image="73"/>
+    <shape id="74" top="0.000000" left="0.000000" bottom="46.000000" right="46.000000" geometry="74"/>
+    <sprite id="75">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="74" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="76" image="76"/>
+    <shape id="77" top="0.000000" left="0.000000" bottom="46.000000" right="46.000000" geometry="77"/>
+    <sprite id="78">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="77" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="79" image="79"/>
+    <shape id="80" top="0.000000" left="0.000000" bottom="46.000000" right="46.000000" geometry="80"/>
+    <sprite id="81">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="80" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="82" image="82"/>
+    <shape id="83" top="0.000000" left="0.000000" bottom="46.000000" right="46.000000" geometry="83"/>
+    <sprite id="84">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="83" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="85" image="85"/>
+    <shape id="86" top="0.000000" left="0.000000" bottom="46.000000" right="46.000000" geometry="86"/>
+    <sprite id="87">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="86" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="88" image="88"/>
+    <shape id="89" top="0.000000" left="0.000000" bottom="46.000000" right="46.000000" geometry="89"/>
+    <sprite id="90">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="89" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="91" image="91"/>
+    <shape id="92" top="0.000000" left="0.000000" bottom="46.000000" right="46.000000" geometry="92"/>
+    <sprite id="93">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="92" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="94" image="94"/>
+    <shape id="95" top="0.000000" left="0.000000" bottom="46.000000" right="46.000000" geometry="95"/>
+    <sprite id="96">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="95" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="97" image="97"/>
+    <shape id="98" top="0.000000" left="0.000000" bottom="46.000000" right="46.000000" geometry="98"/>
+    <sprite id="99">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="98" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="100" image="100"/>
+    <shape id="101" top="0.000000" left="0.000000" bottom="46.000000" right="46.000000" geometry="101"/>
+    <sprite id="102">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="101" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="103" image="103"/>
+    <shape id="104" top="0.000000" left="0.000000" bottom="133.000000" right="132.000000" geometry="104"/>
+    <sprite id="105">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="104" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="106" image="106"/>
+    <shape id="107" top="0.000000" left="0.000000" bottom="69.000000" right="54.000000" geometry="107"/>
+    <sprite id="108">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="107" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="109" image="109"/>
+    <shape id="110" top="0.000000" left="0.000000" bottom="77.000000" right="62.000000" geometry="110"/>
+    <sprite id="111">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="110" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="112" image="112"/>
+    <shape id="113" top="0.000000" left="0.000000" bottom="44.000000" right="43.000000" geometry="113"/>
+    <sprite id="114">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="113" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="115" image="115"/>
+    <shape id="116" top="0.000000" left="0.000000" bottom="61.000000" right="61.000000" geometry="116"/>
+    <sprite id="117">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="116" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="118" image="118"/>
+    <shape id="119" top="0.000000" left="0.000000" bottom="61.000000" right="61.000000" geometry="119"/>
+    <sprite id="120">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="119" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="121" image="121"/>
+    <shape id="122" top="0.000000" left="0.000000" bottom="61.000000" right="61.000000" geometry="122"/>
+    <sprite id="123">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="122" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="124" image="124"/>
+    <shape id="125" top="0.000000" left="0.000000" bottom="61.000000" right="61.000000" geometry="125"/>
+    <sprite id="126">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="125" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="127" image="127"/>
+    <shape id="128" top="0.000000" left="0.000000" bottom="61.000000" right="61.000000" geometry="128"/>
+    <sprite id="129">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="128" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="130" image="130"/>
+    <shape id="131" top="0.000000" left="0.000000" bottom="61.000000" right="61.000000" geometry="131"/>
+    <sprite id="132">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="131" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="133" image="133"/>
+    <shape id="134" top="0.000000" left="0.000000" bottom="61.000000" right="61.000000" geometry="134"/>
+    <sprite id="135">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="134" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="136" image="136"/>
+    <shape id="137" top="0.000000" left="0.000000" bottom="61.000000" right="61.000000" geometry="137"/>
+    <sprite id="138">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="137" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="139" image="139"/>
+    <shape id="140" top="0.000000" left="0.000000" bottom="59.000000" right="59.000000" geometry="140"/>
+    <sprite id="141">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="140" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="142" image="142"/>
+    <shape id="143" top="0.000000" left="0.000000" bottom="59.000000" right="59.000000" geometry="143"/>
+    <sprite id="144">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="143" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="145" image="145"/>
+    <shape id="146" top="0.000000" left="0.000000" bottom="59.000000" right="59.000000" geometry="146"/>
+    <sprite id="147">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="146" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="148" image="148"/>
+    <shape id="149" top="0.000000" left="0.000000" bottom="59.000000" right="59.000000" geometry="149"/>
+    <sprite id="150">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="149" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="151" image="151"/>
+    <shape id="152" top="0.000000" left="0.000000" bottom="59.000000" right="59.000000" geometry="152"/>
+    <sprite id="153">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="152" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="154" image="154"/>
+    <shape id="155" top="0.000000" left="0.000000" bottom="59.000000" right="59.000000" geometry="155"/>
+    <sprite id="156">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="155" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="157" image="157"/>
+    <shape id="158" top="0.000000" left="0.000000" bottom="59.000000" right="59.000000" geometry="158"/>
+    <sprite id="159">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="158" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="160" image="160"/>
+    <shape id="161" top="0.000000" left="0.000000" bottom="59.000000" right="59.000000" geometry="161"/>
+    <sprite id="162">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="161" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="163" image="163"/>
+    <shape id="164" top="0.000000" left="0.000000" bottom="59.000000" right="59.000000" geometry="164"/>
+    <sprite id="165">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="164" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="166" image="166"/>
+    <shape id="167" top="0.000000" left="0.000000" bottom="59.000000" right="59.000000" geometry="167"/>
+    <sprite id="168">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="167" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="169" image="169"/>
+    <shape id="170" top="0.000000" left="0.000000" bottom="59.000000" right="59.000000" geometry="170"/>
+    <sprite id="171">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="170" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="172" image="172"/>
+    <shape id="173" top="0.000000" left="0.000000" bottom="59.000000" right="59.000000" geometry="173"/>
+    <sprite id="174">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="173" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="175" image="175"/>
+    <shape id="176" top="0.000000" left="0.000000" bottom="59.000000" right="59.000000" geometry="176"/>
+    <sprite id="177">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="176" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="178" image="178"/>
+    <shape id="179" top="0.000000" left="0.000000" bottom="59.000000" right="59.000000" geometry="179"/>
+    <sprite id="180">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="179" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="181" image="181"/>
+    <shape id="182" top="0.000000" left="0.000000" bottom="59.000000" right="59.000000" geometry="182"/>
+    <sprite id="183">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="182" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+    <image id="184" image="184"/>
+    <shape id="185" top="0.000000" left="0.000000" bottom="59.000000" right="59.000000" geometry="185"/>
+    <sprite id="186">
+        <frames>
+            <frame id="0">
+                <placeobject depth="1" character="185" rotm00="1.000000" rotm01="0.000000" rotm10="0.000000" rotm11="1.000000" tx="0.000000" ty="0.000000" red="255" green="255" blue="255" alpha="255" ratio="0.000000" clipdepth="-1" unknown="0">
+                    <poflags value="HasCharacter|HasMatrix"/>
+                </placeobject>
+            </frame>
+        </frames>
+    </sprite>
+</aptdata>
