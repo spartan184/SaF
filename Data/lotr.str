@@ -1932,6 +1932,13 @@ OBJECT:RivendellBaseDefenseFoundation
 END
 
 // -- Rivendell Castle Upgrades
+CONTROLBAR:RivendellWallBallistaUpgrade
+"Build Wall &Ballista Upgrade"
+END
+CONTROLBAR:ToolTipRivendellWallBallistaUpgrade
+"Builds a ballista"
+END
+
 OBJECT:RivendellWallTower
 "Rivendell Battle Tower"
 END
