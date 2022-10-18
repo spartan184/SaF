@@ -179,6 +179,12 @@ CONTROLBAR:ToolTipElessarFakeRoyalGuardsButton
 "Elessar is guarded by 4 very powerful and skillful Gondor Royal Guard \n Passive ability"
 END
 
+CONTROLBAR:SpecialAbilityLegolasGimliCompanions
+"The Three Companions"
+END
+CONTROLBAR:ToolTipSpecialAbilityLegolasGimliCompanions
+"Reunite the three companions once again to embark on one last journey \n Permanently summon Legolas and Gimli \n Left Click to Activate"
+END
 // -- #Faramir 
 CONTROLBAR:FaramirLeadership
 "Captain of Ithilien"
