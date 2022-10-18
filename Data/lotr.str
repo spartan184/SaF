@@ -164,8 +164,11 @@ CONTROLBAR:KingElessarDescription
 "Required: The King Elessar Telcontar Spellbook Power \n Recruit King Elessar, the last High King of Gondor \n \n 'Out of the Great Sea to Middle-earth I am come. In this place will I abide, and my heirs, unto the ending of the world.' \n Rank 10"
 END
 
+CONTROLBAR:ElessarLeadership
+"King of Gondor"
+END
 CONTROLBAR:ToolTipElessarLeadership
-"Leadership bonus to nearby troops \n +50% Damage, +100% Combat Experience \n Passive ability"
+"Elessar is guarded by 4 Gondor Royal Guard \n Leadership bonus to nearby troops \n +50% Damage, +100% Combat Experience \n Passive ability"
 END
 
 CONTROLBAR:ToolTipElessarBladeMaster
@@ -176,7 +179,7 @@ CONTROLBAR:ElessarFakeRoyalGuardsButton
 "King of Gondor"
 END
 CONTROLBAR:ToolTipElessarFakeRoyalGuardsButton
-"Elessar is guarded by 4 very powerful and skillful Gondor Royal Guard \n Passive ability"
+"Elessar is guarded by 4 Gondor Royal Guard \n Passive ability"
 END
 
 CONTROLBAR:SpecialAbilityLegolasGimliCompanions
