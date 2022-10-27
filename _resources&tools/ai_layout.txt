@@ -1,0 +1,18 @@
+AI Faction Skirmish File Laylout:
+  All -> 
+    Unit Special Abilities
+    Formations
+  Hard ->
+    Hard Initialize
+    Hard Buildings
+    Hard Overrides
+    
+AI Faction File Laylout:
+  AI Init Overrides ->
+  Side Specific Scripts ->
+    Build Conditions
+    Formations
+    Patrol Teams Controls
+    Priority Lists
+    Recruit Scripts
+    
