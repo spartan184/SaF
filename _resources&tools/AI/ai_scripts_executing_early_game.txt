@@ -1,0 +1,147 @@
+1373 Run script - Player_4/g_PredBuild - Monitor
+1373 Run script - Player_4/g_PredBuild - Monitor Buildings
+1373 Run script - Player_5/g_PredBuild - Set Priorities
+1373 Run script - Player_5/g_PredBuild - Set Economy Building Priority
+1373 Run script - Player_5/g_PredBuild - Set Economy Building Filler Priority
+1373 Run script - Player_5/g_PredBuild - Set Artillery Building Priority
+1373 Run script - Player_5/g_PredBuild - Set Cavalry Building Filler Priority
+1373 Run script - Player_5/d_Recruit Team - Factories
+1373 Advancing SeqScript 'b_AIAttack - Patrol Combat Areas Mk2a' on Defend - Infantry Team -- Team Team '<This Team>' will move to the nearest object of type 'Economy_Flags' that is owned by the player Player '<This Player's Allies incl Self>'.
+1374 Player_3/Economy - Expansion Econ Merry - creating team instance.
+1374 Economy - Expansion Econ Merry - starting team build.
+1374 Team 'Economy - Expansion Econ Merry' recruits RohanMerryMP from team 'teamPlayer_3'
+1374 Run script - Player_4/b_AIAttack - Patrol Combat Areas Mk2
+1374 Generic script 'b_AIAttack - Patrol Combat Areas' run on team Defend - Infantry Team
+1374 Run script - Player_5/g_PredBuild - Monitor
+1374 Run script - Player_5/g_PredBuild - Monitor Buildings
+1374 Advancing SeqScript 'b_AIAttack - Patrol Combat Areas Mk2a' on Defend - Infantry Team -- Team Team '<This Team>' will move to the nearest object of type 'Economy_Flags' that is owned by the player Player '<This Player's Allies incl Self>'.
+1375 Generic script 'b_Defense - Report Camp Center Threat' run on team AI Base Team
+1375 Run script - Player_4/b_AIAttack - Patrol Combat Areas Mk2
+1375 Generic script 'b_AIAttack - Patrol Combat Areas' run on team Defend - Infantry Team
+1375 Run script - Player_1/d_Recruit Team - Citadels
+1375 Player_1/Citadel Building Team - creating team instance.
+1375 Run script - Player_3/d_Recruit Team - Factories
+1375 Run script - Player_4/d_Recruit Team - Citadels
+1375 Run script - Player_3/b_Econ_Secure_LumberMill
+1375 Advancing SeqScript 'b_AIAttack - Patrol Combat Areas Mk2a' on Defend - Infantry Team -- Team Team '<This Team>' will move to the nearest object of type 'Economy_Flags' that is owned by the player Player '<This Player's Allies incl Self>'.
+1375 Advancing SeqScript 'be_Econ_Secure_LumberMill' on Economy - Expansion Econ Merry -- Team Team '<This Team>' will move to the nearest object of type 'Economy_Flags' that is owned by the player Player 'PlyrCivilian'.
+1376 Generic script 'b_Defense - Report Camp Center Threat' run on team AI Base Team
+1376 Run script false -Player_4/b_AIAttack - Patrol Combat Areas Mk2
+1376 Generic script 'b_AIAttack - Patrol Combat Areas' run on team Defend - Infantry Team
+1376 Generic script 'b_Defense - Report Camp Center Threat' run on team AI Base Team
+1376 Run script - Player_1/g_PredBuild - Monitor
+1376 Run script - Player_1/g_PredBuild - Monitor Buildings
+1376 Run script - Player_4/g_PredBuild - Set Priorities
+1376 Run script - Player_4/g_PredBuild - Set Economy Building Priority
+1376 Run script - Player_4/g_PredBuild - Set Economy Building Filler Priority
+1376 Run script - Player_4/g_PredBuild - Set Cavalry Building Filler Priority
+1376 Run script - Player_5/g_Attack - Monitor Command Points
+1376 Advancing SeqScript 'b_AIAttack - Patrol Combat Areas Mk2b' on Defend - Infantry Team -- Team Team '<This Team>' will move to the nearest object of type 'CombatAreas'.
+1377 Run script false -Player_4/b_AIAttack - Patrol Combat Areas Mk2
+1377 Generic script 'b_AIAttack - Patrol Combat Areas' run on team Defend - Infantry Team
+1377 Advancing SeqScript 'b_AIAttack - Patrol Combat Areas Mk2b' on Defend - Infantry Team -- Team Team '<This Team>' will move to the nearest object of type 'CombatAreas'.
+1378 Run script - Player_4/b_AIAttack - Patrol Combat Areas Mk2
+1378 Generic script 'b_AIAttack - Patrol Combat Areas' run on team Defend - Infantry Team
+1378 Run script - Player_3/g_Economy - Update Current Money
+1378 Run script - Player_4/g_PredBuild - Monitor
+1378 Run script - Player_4/g_PredBuild - Monitor Buildings
+1378 Run script - Player_5/g_PredBuild - Set Priorities
+1378 Run script - Player_5/g_PredBuild - Set Economy Building Priority
+1378 Run script - Player_5/g_PredBuild - Set Economy Building Filler Priority
+1378 Run script - Player_5/g_PredBuild - Set Artillery Building Priority
+1378 Run script - Player_5/g_PredBuild - Set Cavalry Building Filler Priority
+1378 Run script - Player_5/g_Update - Opposition
+1378 Advancing SeqScript 'b_AIAttack - Patrol Combat Areas Mk2a' on Defend - Infantry Team -- Team Team '<This Team>' will move to the nearest object of type 'Economy_Flags' that is owned by the player Player '<This Player's Allies incl Self>'.
+1379 Run script - Player_4/b_AIAttack - Patrol Combat Areas Mk2
+1379 Generic script 'b_AIAttack - Patrol Combat Areas' run on team Defend - Infantry Team
+1379 Run script - Player_3/g_Upgrades - Rohan - Castle Check Tick
+1379 Run script - Player_4/g_Economy - Update Current Money
+1379 Run script - Player_5/g_PredBuild - Monitor
+1379 Run script - Player_5/g_PredBuild - Monitor Buildings
+1379 Run script - Player_5/g_Economy - Update Current Money
+1379 Advancing SeqScript 'b_AIAttack - Patrol Combat Areas Mk2a' on Hero - Wulgar --  Team '<This Team>' begins guarding.
+1379 Advancing SeqScript 'b_AIAttack - Patrol Combat Areas Mk2a' on Defend - Infantry Team -- Team Team '<This Team>' will move to the nearest object of type 'Economy_Flags' that is owned by the player Player '<This Player's Allies incl Self>'.
+1380 Run script - Player_1/g_Urgency - Raise Attack Med
+1380 Generic script 'g_Attack - Count This Team As Attacker' run on team Patrol Team Early Game
+1380 Run script - Player_4/b_AIAttack - Patrol Combat Areas Mk2
+1380 Generic script 'b_AIAttack - Patrol Combat Areas' run on team Defend - Infantry Team
+1380 Run script - Player_1/g_Economy - Update Current Money
+1380 Run script - Player_3/g_PredBuild - Monitor
+1380 Run script - Player_3/g_PredBuild - Monitor Buildings
+1380 Advancing SeqScript 'b_AIAttack - Patrol Combat Areas Mk2a' on Defend - Infantry Team -- Team Team '<This Team>' will move to the nearest object of type 'Economy_Flags' that is owned by the player Player '<This Player's Allies incl Self>'.
+1381 Run script - Player_4/b_AIAttack - Patrol Combat Areas Mk2
+1381 Generic script 'b_AIAttack - Patrol Combat Areas' run on team Defend - Infantry Team
+1381 Run script - Player_1/g_Update - Opposition
+1381 Run script - Player_3/g_Update - Opposition
+1381 Run script - Player_4/g_PredBuild - Set Priorities
+1381 Run script - Player_4/g_PredBuild - Set Economy Building Priority
+1381 Run script - Player_4/g_PredBuild - Set Economy Building Filler Priority
+1381 Run script - Player_4/g_PredBuild - Set Cavalry Building Filler Priority
+1381 Advancing SeqScript 'b_AIAttack - Patrol Combat Areas Mk2a' on Defend - Infantry Team -- Team Team '<This Team>' will move to the nearest object of type 'Economy_Flags' that is owned by the player Player '<This Player's Allies incl Self>'.
+1382 Run script - Player_4/b_AIAttack - Patrol Combat Areas Mk2
+1382 Generic script 'b_AIAttack - Patrol Combat Areas' run on team Defend - Infantry Team
+1382 Advancing SeqScript 'b_AIAttack - Patrol Combat Areas Mk2a' on Defend - Infantry Team -- Team Team '<This Team>' will move to the nearest object of type 'Economy_Flags' that is owned by the player Player '<This Player's Allies incl Self>'.
+1383 Generic script 'b_Defense - Report Camp Front Threat' run on team AI Base - Front
+1383 Generic script 'b_Defense - Report Camp Back Threat' run on team AI Base - Back
+1383 Generic script 'b_Defense - Report Camp Left Threat' run on team AI Base - Left
+1383 Generic script 'b_Defense - Report Camp Right Threat' run on team AI Base - Right
+1383 Generic script 'b_Defense - Report Camp Front Threat' run on team AI Base - Front
+1383 Generic script 'b_Defense - Report Camp Back Threat' run on team AI Base - Back
+1383 Generic script 'b_Defense - Report Camp Left Threat' run on team AI Base - Left
+1383 Generic script 'b_Defense - Report Camp Right Threat' run on team AI Base - Right
+1383 Generic script 'b_Merry - Set Unit Ref' run on team Hero - Team Merry
+1383 Generic script 'G Rohan Forged Blades Upgrade' run on team Hero - Team Merry
+1383 Generic script 'G Rohan Heavy Armor Upgrade' run on team Hero - Team Merry
+1383 Generic script 'b_Defense - Report Camp Front Threat' run on team AI Base - Front
+1383 Generic script 'b_Defense - Report Camp Back Threat' run on team AI Base - Back
+1383 Generic script 'b_Defense - Report Camp Left Threat' run on team AI Base - Left
+1383 Generic script 'b_Defense - Report Camp Right Threat' run on team AI Base - Right
+1383 Run script - Player_4/b_AIAttack - Patrol Combat Areas Mk2
+1383 Generic script 'b_AIAttack - Patrol Combat Areas' run on team Defend - Infantry Team
+1383 Generic script 'b_Defense - Report Camp Front Threat' run on team AI Base - Front
+1383 Generic script 'b_Defense - Report Camp Back Threat' run on team AI Base - Back
+1383 Generic script 'b_Defense - Report Camp Left Threat' run on team AI Base - Left
+1383 Generic script 'b_Defense - Report Camp Right Threat' run on team AI Base - Right
+1383 Generic script 'b_Mouth of Sauron - Set Unit Ref' run on team Hero - Mouth Sauron
+1383 Run script - Player_1/g_Attack - Monitor Command Points
+1383 Run script - Player_1/g_Economy - Money Change - Take End Sample
+1383 Run script - Player_4/g_PredBuild - Monitor
+1383 Run script - Player_4/g_PredBuild - Monitor Buildings
+1383 Run script - Player_5/g_PredBuild - Set Priorities
+1383 Run script - Player_5/g_PredBuild - Set Economy Building Priority
+1383 Run script - Player_5/g_PredBuild - Set Economy Building Filler Priority
+1383 Run script - Player_5/g_PredBuild - Set Artillery Building Priority
+1383 Run script - Player_5/g_PredBuild - Set Cavalry Building Filler Priority
+1383 Advancing SeqScript 'b_AIAttack - Patrol Combat Areas Mk2a' on Defend - Infantry Team -- Team Team '<This Team>' will move to the nearest object of type 'Economy_Flags' that is owned by the player Player '<This Player's Allies incl Self>'.
+1384 Player_5 acquiring target enemy player: Player_2
+1384 Player_3 acquiring target enemy player: Player_5
+1384 Player_4 acquiring target enemy player: Player_1
+1384 Generic script 'b_Wulfgar - Set Unit Ref' run on team Hero - Wulgar
+1384 Run script false -Player_4/b_AIAttack - Patrol Combat Areas Mk2
+1384 Generic script 'b_AIAttack - Patrol Combat Areas' run on team Defend - Infantry Team
+1384 Player_5/Creep Hunters - creating team instance.
+1384 Creep Hunters - starting team build.
+1384 Generic script 'p_Anti-Creep Priority Assignment' run on team Creep Hunters
+1384 Generic script 'b_Formation - Uruk Crossbowmen - Init Formation' run on team Creep Hunters
+1384 Generic script 'b_Formation - Uruk Crossbowmen - Wedge' run on team Creep Hunters
+1384 Generic script 'b_Formation - Uruk Fighter - Init Formation' run on team Creep Hunters
+1384 Run script - Player_1/g_Economy - Money Change - Evaluate Money Difference
+1384 Run script - Player_1/g_Economy - Money Change - Take Beginning Sample
+1384 Run script - Player_4/g_Update - Opposition
+1384 Run script - Player_5/g_PredBuild - Monitor
+1384 Run script - Player_5/g_PredBuild - Monitor Buildings
+1384 Advancing SeqScript 'b_AIAttack - Patrol Combat Areas Mk2b' on Defend - Infantry Team -- Team Team '<This Team>' will move to the nearest object of type 'CombatAreas'.
+1385 Run script false -Player_4/b_AIAttack - Patrol Combat Areas Mk2
+1385 Generic script 'b_AIAttack - Patrol Combat Areas' run on team Defend - Infantry Team
+1385 Run script - Player_3/g_Attack - Monitor Command Points
+1385 Run script - Player_4/g_Attack - Monitor Command Points
+1385 Advancing SeqScript 'b_AIAttack - Patrol Combat Areas Mk2b' on Defend - Infantry Team -- Team Team '<This Team>' will move to the nearest object of type 'CombatAreas'.
+1386 Run script false -Player_4/b_AIAttack - Patrol Combat Areas Mk2
+1386 Generic script 'b_AIAttack - Patrol Combat Areas' run on team Defend - Infantry Team
+1386 Run script - Player_4/g_PredBuild - Set Priorities
+1386 Run script - Player_4/g_PredBuild - Set Economy Building Priority
+1386 Run script - Player_4/g_PredBuild - Set Economy Building Filler Priority
+1386 Run script - Player_4/g_PredBuild - Set Cavalry Building Filler Priority
+1386 Advancing SeqScript 'b_AIAttack - Patrol Combat Areas Mk2b' on Defend - Infantry Team -- Team Team '<This Team>' will move to the nearest object of type 'CombatAreas'.
+1387 Run script false -Player_4/b_AIAttack - Patrol Combat Areas Mk2
+1387 Generic script 'b_AIAttack - Patrol Combat Areas' run on team Defend - Infantry Team

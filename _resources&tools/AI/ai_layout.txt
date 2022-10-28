@@ -15,4 +15,6 @@ AI Faction File Laylout:
     Patrol Teams Controls
     Priority Lists
     Recruit Scripts
+    AI - Overrides
+    Lib - Overrides
     
