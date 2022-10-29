@@ -15,8 +15,6 @@ AI Faction File Laylout:
     Patrol Teams Controls
     Priority Lists
     Recruit Scripts
-    AI - Attack Execution
-    AI - Defense Execution
-    AI - Predictive Building Overrides
+    AI - Overrides 
     Lib - Overrides
     
