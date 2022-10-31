@@ -1,0 +1,442 @@
+4945 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4946 Run script - Player_1/be_AIAttack - Get Treasure
+4946 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Warg
+4946 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4946 Run script false -Player_1/g_PredBuild - Set CCS Buildable Cycles
+4946 Run script - Player_2/g_Economy - Update Current Money
+4947 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4948 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4948 Run script - Player_2/be_AIAttack - Get Treasure
+4948 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Troll
+4949 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4949 Run script - Player_2/be_AIAttack - Get Treasure
+4949 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Warg
+4949 Run script - Player_1/g_Economy - Update Current Money
+4949 Run script - Player_2/g_PredBuild - Set CCS Buildable Cycles
+4949 Run script - Player_2/g_PredBuild - Run Build Scripts
+4950 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4951 Run script - Player_1/be_AIAttack - Get Treasure
+4951 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Warg
+4951 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4951 Run script - Player_1/a_Launch - Launch Attack - Hard Tech 2
+4951 Run script - Player_1/Launch Attack 
+4951 Run script false -Player_1/g_Defense - Check Current Defense Construction Site
+4951 Run script - Player_1/g_Spells - Run Evil Spells {Non-Team-Specific}
+4951 Run script false -Player_1/g_PredBuild - Set CCS Buildable Cycles
+4951 Run script - Player_1/g_PredBuild - Set Priorities
+4951 Run script - Player_1/g_PredBuild - Set Economy Building Priority
+4951 Run script - Player_1/g_PredBuild - Set Economy Building Filler Priority
+4951 Run script - Player_1/g_PredBuild - Set Archer Building Priority
+4951 Run script - Player_1/g_PredBuild - Set Archer Building Filler Priority
+4951 Run script - Player_1/g_PredBuild - Set Infantry Building Priority
+4951 Run script - Player_1/g_PredBuild - Set Infantry Building Filler Priority
+4951 Run script - Player_1/g_Attack - Monitor Command Points
+4951 Run script - Player_1/g_TechTree - Set Level 2 Vars
+4951 Run script - Player_2/e_Update Current Construction Site
+4951 Run script - Player_2/ee_Check Current Construction Site
+4952 Player_1/AI Attack Weakpoint - Infantry - creating team instance.
+4952 Generic script 'b_AIAttack - Join Attack Weakpoint - Infantry' run on team Tower Guards Power
+4952 Generic script 'p_Anti-Archer Priority Assignment' run on team AI Attack Weakpoint - Infantry
+4952 Generic script 'b_Formation - Archers - Init Formation' run on team AI Attack Weakpoint - Infantry
+4952 Generic script 'b_Formation - Archers - Wedge' run on team AI Attack Weakpoint - Infantry
+4952 Generic script 'b_Formation - Rangers - Init Formation' run on team AI Attack Weakpoint - Infantry
+4952 Generic script 'b_Formation - Rangers - Skirmish' run on team AI Attack Weakpoint - Infantry
+4952 Generic script 'b_Formation - Soldiers - Init Formation' run on team AI Attack Weakpoint - Infantry
+4952 Player_1/AI Attack Weakpoint - Artillery - creating team instance.
+4952 Generic script 'b_AIAttack - Join Attack Weakpoint - Artillery' run on team Attack - Artillery Team 1
+4952 Player_1/AI Attack Weakpoint - Cavalry - creating team instance.
+4952 Generic script 'b_AIAttack - Join Attack Weakpoint - Cavalry' run on team Attack - Knights Team
+4952 Player_1/AI Attack NonWeakpoint - Cavalry - creating team instance.
+4952 Generic script 'b_AIAttack - Join Attack NonWeakpoint - Cavalry' run on team Attack - Citadel Guards
+4952 Player_1/AI Attack NonWeakpoint - Archers - creating team instance.
+4952 Generic script 'b_AIAttack - Join Attack NonWeakpoint - Archers' run on team Attack - Citadel Guards
+4952 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4952 Run script - Player_1/g_Attack - Raise if Low on Command Points
+4952 Run script - Player_1/g_Urgency - Raise Attack High
+4952 Run script - Player_1/a_Launch - Reset Launch Flag
+4952 Run script - Player_1/g_Defense - Rebuild Citadel
+4952 Run script - Player_1/g_Economy - Money Change - Take End Sample
+4952 Run script - Player_2/g_Attack - Monitor Command Points
+4952 Run script - Player_1/b_AIAttackTeam - Set to Advancing
+4952 Run script - Player_1/b_AIAttackTeam - Set to Advancing
+4952 Run script - Player_1/b_AIAttackTeam - Set to Advancing
+4952 Run script - Player_1/b_AIAttackTeam - Set to Advancing
+4952 Run script - Player_1/b_AIAttackTeam - Set to Advancing
+4953 Generic script 'b_Defense - Report Camp Front Threat' run on team AI Base - Front
+4953 Generic script 'b_Defense - Report Camp Back Threat' run on team AI Base - Back
+4953 Generic script 'b_Defense - Report Camp Left Threat' run on team AI Base - Left
+4953 Generic script 'b_Defense - Report Camp Right Threat' run on team AI Base - Right
+4953 Generic script 'G Gondor Forged Blades Upgrade' run on team Attack - Knights Team
+4953 Generic script 'G Gondor Heavy Armor Upgrade' run on team Attack - Knights Team
+4953 Generic script 'b_Defense - Report Camp Front Threat' run on team AI Base - Front
+4953 Generic script 'b_Defense - Report Camp Back Threat' run on team AI Base - Back
+4953 Generic script 'b_Defense - Report Camp Left Threat' run on team AI Base - Left
+4953 Generic script 'b_Defense - Report Camp Right Threat' run on team AI Base - Right
+4953 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4953 Run script - Player_2/be_AIAttack - Get Treasure
+4953 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Troll
+4953 Run script - Player_1/a_Launch - Reset Attack Team Launch Flag
+4953 Run script - Player_1/e_Update Current Construction Site
+4953 Run script false -Player_1/ee_Check Current Construction Site
+4953 Run script - Player_1/ee_Set Current Construction Site
+4953 Run script - Player_1/g_Economy - Money Change - Evaluate Money Difference
+4953 Run script - Player_1/g_Economy - Money Change - Gain Low Revert
+4953 Run script - Player_1/g_Urgency - Raise Economy Low
+4953 Run script - Player_1/g_Economy - Money Change - Take Beginning Sample
+4953 Run script false -Player_1/g_TechTree - Set Level 3 Vars
+4953 Run script - Player_1/g_Inherit - Set Flags Owned
+4953 Run script - Player_1/g_Inherit - Set Flag 1 Owned
+4953 Run script false -Player_1/g_Inherit - Set Flag 2 Owned
+4953 Run script false -Player_1/g_Inherit - Set Flag 3 Owned
+4953 Run script false -Player_1/g_Inherit - Set Flag 4 Owned
+4953 Run script - Player_1/g_Inherit - Set Flag 5 Owned
+4953 Run script false -Player_1/g_Inherit - Set Flag 6 Owned
+4953 Run script false -Player_1/g_Inherit - Set Flag 7 Owned
+4953 Run script - Player_1/g_Inherit - Transfer Inherit Teams
+4953 Run script - Player_2/g_Economy - Raise if Expansion Need Check
+4954 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4954 Run script - Player_2/be_AIAttack - Get Treasure
+4954 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Warg
+4954 Run script - Player_2/g_PredBuild - Set CCS Buildable Cycles
+4954 Run script - Player_2/g_PredBuild - Run Build Scripts
+4954 Run script - Player_2/g_Update - Attack Urgency
+4955 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4955 Run script - Player_1/g_Urgency -  Unbottom Economy
+4955 Run script - Player_2/g_PredBuild - Monitor
+4955 Run script - Player_2/g_PredBuild - Monitor Buildings
+4955 Run script - Player_2/g_Defense - Rebuild Citadel
+4955 Run script - Player_2/g_Economy - Money Change - Take End Sample
+4955 Run script false -Player_2/g_TechTree - Set Level 3 Vars
+4955 Run script - Player_2/g_Inherit - Set Flags Owned
+4955 Run script false -Player_2/g_Inherit - Set Flag 1 Owned
+4955 Run script - Player_2/g_Inherit - Set Flag 2 Owned
+4955 Run script false -Player_2/g_Inherit - Set Flag 3 Owned
+4955 Run script - Player_2/g_Inherit - Set Flag 4 Owned
+4955 Run script false -Player_2/g_Inherit - Set Flag 5 Owned
+4955 Run script - Player_2/g_Inherit - Set Flag 6 Owned
+4955 Run script - Player_2/g_Inherit - Set Flag 7 Owned
+4955 Run script - Player_2/g_Inherit - Transfer Inherit Teams
+4956 Run script - Player_1/be_AIAttack - Get Treasure
+4956 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Warg
+4956 Generic script 'b_Haldir - Set Unit Ref' run on team Hero - Team Haldir
+4956 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4956 Generic script 'G Rohan Forged Blades Upgrade' run on team Hero - Team Haldir
+4956 Generic script 'G Rohan Heavy Armor Upgrade' run on team Hero - Team Haldir
+4956 Run script - Player_3/g_Inherit - Set Flags Owned
+4956 Run script false -Player_3/g_Inherit - Set Flag 1 Owned
+4956 Run script false -Player_3/g_Inherit - Set Flag 2 Owned
+4956 Run script - Player_3/g_Inherit - Set Flag 3 Owned
+4956 Run script false -Player_3/g_Inherit - Set Flag 4 Owned
+4956 Run script false -Player_3/g_Inherit - Set Flag 5 Owned
+4956 Run script false -Player_3/g_Inherit - Set Flag 6 Owned
+4956 Run script false -Player_3/g_Inherit - Set Flag 7 Owned
+4956 Run script - Player_3/g_Inherit - Transfer Inherit Teams
+4956 Run script - Player_1/g_Spells - Run Good Spells {Non-Team-Specific}
+4956 Run script false -Player_1/g_PredBuild - Set CCS Buildable Cycles
+4956 Run script - Player_2/g_Economy - Update Current Money
+4956 Run script - Player_2/g_Economy - Money Change - Evaluate Money Difference
+4956 Run script - Player_2/g_Economy - Money Change - Take Beginning Sample
+4957 Generic script 'b_Defense - Report Camp Center Threat' run on team AI Base Team
+4957 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4957 Run script - Player_1/g_PredBuild - Monitor
+4957 Run script - Player_1/g_PredBuild - Monitor Buildings
+4957 Run script - Player_2/g_PredBuild - Set Priorities
+4957 Run script - Player_2/g_PredBuild - Set Economy Building Priority
+4957 Run script - Player_2/g_PredBuild - Set Economy Building Filler Priority
+4957 Run script - Player_2/g_PredBuild - Set Artillery Building Priority
+4957 Run script - Player_2/g_PredBuild - Set Cavalry Building Filler Priority
+4957 Run script - Player_2/g_TechTree - Set Level 2 Vars
+4957 Run script - Player_2/b_Econ_Secure_LumberMill
+4957 Advancing SeqScript 'be_Econ_Secure_LumberMill' on Economy - Expansion Econ Merry -- Team Team '<This Team>' will move to the nearest object of type 'Economy_Flags' that is owned by the player Player 'PlyrCivilian'.
+4957 Advancing SeqScript 'be_Econ_Secure_LumberMill' on Economy - Expansion Econ Merry --  Team '<This Team>' guards for  5  frames.
+4958 Defense - Infantry Team 1 - team disbanded, build time expired.
+4958 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4958 Run script - Player_2/be_AIAttack - Get Treasure
+4958 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Troll
+4958 Run script - Player_1/g_Update - Attack Urgency
+4958 Run script - Player_1/g_Attack - Time Increase
+4958 Run script - Player_1/g_Urgency - Raise Attack Low
+4958 Run script false -Player_1/g_Economy - Raise if Expansion Need Check
+4958 Run script - Player_2/g_Attack - Raise if Low on Command Points
+4958 Run script - Player_2/g_Urgency - Raise Attack High
+4958 Run script - Player_2/g_Upgrades - Rohan - Castle Check Tick
+4959 Generic script 'b_Defense - Report Camp Center Threat' run on team AI Base Team
+4959 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4959 Run script - Player_2/be_AIAttack - Get Treasure
+4959 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Warg
+4959 Run script - /___MusicScript_HomeBaseUpdate
+4959 Run script - /___MusicScript_HomeBaseSubroutine
+4959 Run script - Player_1/g_Economy - Update Current Money
+4959 Run script - Player_2/g_Defense - Check Current Defense Construction Site
+4959 Run script - Player_2/g_Spells - Run Good Spells {Non-Team-Specific}
+4959 Run script - Player_2/g_PredBuild - Set CCS Buildable Cycles
+4959 Run script - Player_2/g_PredBuild - Run Build Scripts
+4960 Player_1/Defense - Infantry Team 1 - creating team instance.
+4960 Defense - Infantry Team 1 - starting team build.
+4960 Generic script 'b_Faramir - Set Unit Ref' run on team Hero - Faramir
+4960 Generic script 'G Gondor Fire Arrow Upgrade' run on team Hero - Faramir
+4960 Generic script 'G Gondor Forged Blades Upgrade' run on team Hero - Faramir
+4960 Generic script 'G Gondor Heavy Armor Upgrade' run on team Hero - Faramir
+4960 Generic script 'p_Anti-Infantry Priority Assignment' run on team Defense - Infantry Team 1
+4960 Generic script 'b_Formation - Soldiers - Init Formation' run on team Defense - Infantry Team 1
+4960 Generic script 'G Gondor Forged Blades Upgrade' run on team Defense - Infantry Team 1
+4960 Generic script 'G Gondor Heavy Armor Upgrade' run on team Defense - Infantry Team 1
+4960 Generic script 'b_SpecialAbilities - Gondor Infantry Ability' run on team Defense - Infantry Team 1
+4960 Generic script 'b_SpecialAbilities - Gondor Citadel Guard Ability' run on team Defense - Infantry Team 1
+4960 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4960 Run script - Player_1/g_Upgrades - Gondor - Castle Check Tick
+4960 Run script - Player_1/g_Upgrades - Gondor - Tower - Back
+4960 Run script - Player_2/g_Spells - Run Evil Spells {Non-Team-Specific}
+4961 Run script - Player_1/be_AIAttack - Get Treasure
+4961 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Warg
+4961 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4961 Run script false -Player_1/g_PredBuild - Set CCS Buildable Cycles
+4962 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4962 Run script - Player_1/g_Opposition - Set Lowest Enemy Threat
+4962 Run script - Player_1/g_Opposition - Set Lowest Threat Center
+4962 Advancing SeqScript 'be_Econ_Secure_LumberMill' on Economy - Expansion Econ Merry --  Player '<This Player>' gets $ 200 
+4962 Run script - Player_2/b_Econ_Try_Unpacking_LumberMills
+4962 Advancing SeqScript 'be_Econ_Secure_LumberMill' on Economy - Expansion Econ Merry -- Run Subroutine 'b_Econ_Try_Unpacking_LumberMills'.
+4962 Advancing SeqScript 'be_Econ_Secure_LumberMill' on Economy - Expansion Econ Merry --  Team '<This Team>' guards for  5  seconds.
+4963 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4963 Run script - Player_2/be_AIAttack - Get Treasure
+4963 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Troll
+4964 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4964 Run script - Player_2/be_AIAttack - Get Treasure
+4964 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Warg
+4964 Run script - Player_2/g_PredBuild - Set CCS Buildable Cycles
+4964 Run script - Player_2/g_PredBuild - Run Build Scripts
+4964 Run script - Player_2/g_Opposition - Set Lowest Enemy Threat
+4964 Run script - Player_2/g_Opposition - Set Lowest Threat Backdoor
+4965 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4966 Run script - Player_1/be_AIAttack - Get Treasure
+4966 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Warg
+4966 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4966 Run script false -Player_1/g_PredBuild - Set CCS Buildable Cycles
+4966 Run script - Player_2/g_Economy - Update Current Money
+4967 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4967 Advancing SeqScript 'be_Attack Flank - Hero' on Hero - Team Haldir --  Team '<This Team>' begins hunting.
+4967 Advancing SeqScript 'be_Attack Flank - Hero' on Hero - Team Haldir -- Team Team '<This Team>' will move to the nearest object of type 'Flank3' that is owned by the player Player '<This Player's Enemies>'.
+4968 Generic script 'b_Defense - Report Camp Front Threat' run on team AI Base - Front
+4968 Generic script 'b_Defense - Report Camp Back Threat' run on team AI Base - Back
+4968 Generic script 'b_Defense - Report Camp Left Threat' run on team AI Base - Left
+4968 Generic script 'b_Defense - Report Camp Right Threat' run on team AI Base - Right
+4968 Generic script 'b_Defense - Report Camp Front Threat' run on team AI Base - Front
+4968 Generic script 'b_Defense - Report Camp Back Threat' run on team AI Base - Back
+4968 Generic script 'b_Defense - Report Camp Left Threat' run on team AI Base - Left
+4968 Generic script 'b_Defense - Report Camp Right Threat' run on team AI Base - Right
+4968 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4968 Run script - Player_2/be_AIAttack - Get Treasure
+4968 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Troll
+4968 Advancing SeqScript 'be_Attack Flank - Hero' on Hero - Team Haldir --  Team '<This Team>' guards for  15  seconds.
+4969 Generic script 'G Gondor Fire Arrow Upgrade' run on team Patrol Team Early Game
+4969 Generic script 'G Gondor Forged Blades Upgrade' run on team Patrol Team Early Game
+4969 Generic script 'G Gondor Heavy Armor Upgrade' run on team Patrol Team Early Game
+4969 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4969 Run script - Player_2/be_AIAttack - Get Treasure
+4969 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Warg
+4969 Run script - Player_1/g_Economy - Update Current Money
+4969 Run script - Player_2/g_PredBuild - Set CCS Buildable Cycles
+4969 Run script - Player_2/g_PredBuild - Run Build Scripts
+4970 Generic script 'b_Boromir - Set Unit Ref' run on team Hero - Boromir
+4970 Generic script 'G Gondor Forged Blades Upgrade' run on team Hero - Boromir
+4970 Generic script 'G Gondor Heavy Armor Upgrade' run on team Hero - Boromir
+4970 Generic script 'G Gondor Fire Arrow Upgrade' run on team Hero - Boromir
+4970 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4970 Run script - Player_2/g_PredBuild - Monitor
+4970 Run script - Player_2/g_PredBuild - Monitor Buildings
+4971 Run script - Player_1/be_AIAttack - Get Treasure
+4971 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Warg
+4971 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4971 Run script false -Player_1/g_PredBuild - Set CCS Buildable Cycles
+4972 Generic script 'b_Defense - Report Camp Center Threat' run on team AI Base Team
+4972 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4972 Run script - Player_1/g_PredBuild - Monitor
+4972 Run script - Player_1/g_PredBuild - Monitor Buildings
+4973 Generic script 'G Gondor Forged Blades Upgrade' run on team Patrol Team Mid Game 03
+4973 Generic script 'G Gondor Heavy Armor Upgrade' run on team Patrol Team Mid Game 03
+4973 Generic script 'G Gondor Fire Arrow Upgrade' run on team Patrol Team Mid Game 03
+4973 Generic script 'b_SpecialAbilities - Gondor Ranger Ability' run on team Patrol Team Mid Game 03
+4973 Generic script 'b_SpecialAbilities - Gondor Infantry Ability' run on team Patrol Team Mid Game 03
+4973 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4973 Run script - Player_2/be_AIAttack - Get Treasure
+4973 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Troll
+4974 Generic script 'b_Defense - Report Camp Center Threat' run on team AI Base Team
+4974 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4974 Run script - Player_2/be_AIAttack - Get Treasure
+4974 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Warg
+4974 Run script - Player_2/g_PredBuild - Set CCS Buildable Cycles
+4974 Run script - Player_2/g_PredBuild - Run Build Scripts
+4975 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4976 Run script - Player_1/be_AIAttack - Get Treasure
+4976 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Warg
+4976 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4976 Run script - Player_1/a_Launch - Launch Attack - Hard Tech 2
+4976 Run script - Player_1/Launch Attack 
+4976 Run script false -Player_1/g_PredBuild - Set CCS Buildable Cycles
+4976 Run script - Player_1/g_Attack - Monitor Command Points
+4976 Run script - Player_2/a_Launch - Launch Attack
+4976 Run script - Player_2/Launch Attack 
+4976 Run script - Player_2/g_Urgency - Lower Attack High
+4976 Run script - Player_2/g_Urgency - Lower Attack High
+4976 Run script - Player_2/g_Urgency - Lower Attack High
+4976 Run script - Player_2/g_Urgency - Lower Attack High
+4976 Run script - Player_2/g_Economy - Update Current Money
+4977 Generic script 'b_Beregond - Set Unit Ref' run on team Hero - Beregond
+4977 Generic script 'G Gondor Fire Arrow Upgrade' run on team Hero - Beregond
+4977 Generic script 'G Gondor Banner Upgrade' run on team Hero - Beregond
+4977 Generic script 'G Gondor Forged Blades Upgrade' run on team Hero - Beregond
+4977 Generic script 'G Gondor Heavy Armor Upgrade' run on team Hero - Beregond
+4977 Run script - Player_1/g_Urgency - Lower Attack Med
+4977 Player_1/AI Attack Weakpoint - Infantry - creating team instance.
+4977 Generic script 'b_AIAttack - Join Attack Weakpoint - Infantry' run on team Tower Guards Power
+4977 Generic script 'G Gondor Forged Blades Upgrade' run on team Economy - Expansion Team 1
+4977 Generic script 'G Gondor Heavy Armor Upgrade' run on team Economy - Expansion Team 1
+4977 Generic script 'p_Anti-Archer Priority Assignment' run on team AI Attack Weakpoint - Infantry
+4977 Generic script 'b_Formation - Archers - Init Formation' run on team AI Attack Weakpoint - Infantry
+4977 Generic script 'b_Formation - Archers - Wedge' run on team AI Attack Weakpoint - Infantry
+4977 Generic script 'b_Formation - Rangers - Init Formation' run on team AI Attack Weakpoint - Infantry
+4977 Generic script 'b_Formation - Rangers - Skirmish' run on team AI Attack Weakpoint - Infantry
+4977 Generic script 'b_Formation - Soldiers - Init Formation' run on team AI Attack Weakpoint - Infantry
+4977 Run script - Player_1/g_Urgency - Lower Attack Med
+4977 Player_1/AI Attack Weakpoint - Artillery - creating team instance.
+4977 Generic script 'b_AIAttack - Join Attack Weakpoint - Artillery' run on team Attack - Artillery Team 1
+4977 Run script - Player_1/g_Urgency - Lower Attack Med
+4977 Player_1/AI Attack Weakpoint - Cavalry - creating team instance.
+4977 Generic script 'b_AIAttack - Join Attack Weakpoint - Cavalry' run on team Attack - Knights Team
+4977 Run script - Player_1/g_Urgency - Lower Attack Med
+4977 Player_1/AI Attack NonWeakpoint - Cavalry - creating team instance.
+4977 Generic script 'b_AIAttack - Join Attack NonWeakpoint - Cavalry' run on team Attack - Citadel Guards
+4977 Generic script 'b_SpecialAbilities - Gondor Citadel Guard Ability' run on team Attack - Citadel Guards
+4977 Player_1/AI Attack NonWeakpoint - Archers - creating team instance.
+4977 Generic script 'b_AIAttack - Join Attack NonWeakpoint - Archers' run on team Attack - Citadel Guards
+4977 Run script - Player_2/g_Urgency - Lower Attack Med
+4977 Generic script 'b_AIAttack - Backdoor - Hero' run on team Hero - Team Theodred
+4977 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4977 Run script - Player_2/g_Urgency - Lower Attack Med
+4977 Generic script 'b_AIAttack - Backdoor - Hero' run on team Hero - Team Haldir
+4977 Run script - Player_2/g_Urgency - Lower Attack Med
+4977 Generic script 'b_AIAttack - Backdoor - Hero' run on team Hero - Team Eowyn
+4977 Run script - Player_1/a_Launch - Reset Launch Flag
+4977 Run script - Player_2/a_Launch - Reset Launch Flag
+4977 Run script - Player_2/g_Attack - Monitor Command Points
+4977 Run script - Player_1/b_AIAttackTeam - Set to Advancing
+4977 Run script - Player_1/b_AIAttackTeam - Set to Advancing
+4977 Run script - Player_1/b_AIAttackTeam - Set to Advancing
+4977 Run script - Player_1/b_AIAttackTeam - Set to Advancing
+4977 Run script - Player_1/b_AIAttackTeam - Set to Advancing
+4977 Advancing SeqScript 'be_Hero - Retreat to Combat Area' on Hero - Team Theodred --  Team '<This Team>' change their attitude to Aggressive
+4977 Advancing SeqScript 'be_Hero - Retreat to Combat Area' on Hero - Team Theodred -- Set Team '<This Team>' to 'AI_DEFENDING'.
+4977 Advancing SeqScript 'be_Attack Backdoor - Hero' on Hero - Team Theodred -- Team Team '<This Team>' will move to the nearest object of type 'Backdoor3' that is owned by the player Player '<This Player's Enemies>'.
+4977 Advancing SeqScript 'be_Attack Backdoor - Hero' on Hero - Team Eowyn --  Team '<This Team>' guards for  15  seconds.
+4978 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4978 Run script - Player_2/be_AIAttack - Get Treasure
+4978 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Troll
+4978 Run script - Player_1/a_Launch - Reset Attack Team Launch Flag
+4978 Run script - Player_2/a_Launch - Reset Attack Team Launch Flag
+4979 Generic script 'b_Theodred - Set Unit Ref' run on team Hero - Team Theodred
+4979 Generic script 'G Rohan Heavy Armor Upgrade' run on team Hero - Team Theodred
+4979 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4979 Run script - Player_2/be_AIAttack - Get Treasure
+4979 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Warg
+4979 Run script - Player_1/g_Economy - Update Current Money
+4979 Run script - Player_2/g_PredBuild - Set CCS Buildable Cycles
+4979 Run script - Player_2/g_PredBuild - Run Build Scripts
+4980 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4980 Generic script 'b_Eowyn - Set Unit Ref' run on team Hero - Team Eowyn
+4980 Generic script 'G Rohan Forged Blades Upgrade' run on team Hero - Team Eowyn
+4980 Generic script 'G Rohan Heavy Armor Upgrade' run on team Hero - Team Eowyn
+4981 Run script - Player_1/be_AIAttack - Get Treasure
+4981 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Warg
+4981 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4981 Run script false -Player_1/g_PredBuild - Set CCS Buildable Cycles
+4982 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4983 Generic script 'b_Defense - Report Camp Front Threat' run on team AI Base - Front
+4983 Generic script 'b_Defense - Report Camp Back Threat' run on team AI Base - Back
+4983 Generic script 'b_Defense - Report Camp Left Threat' run on team AI Base - Left
+4983 Generic script 'b_Defense - Report Camp Right Threat' run on team AI Base - Right
+4983 Generic script 'b_Defense - Report Camp Front Threat' run on team AI Base - Front
+4983 Generic script 'b_Defense - Report Camp Back Threat' run on team AI Base - Back
+4983 Generic script 'b_Defense - Report Camp Left Threat' run on team AI Base - Left
+4983 Generic script 'b_Defense - Report Camp Right Threat' run on team AI Base - Right
+4983 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4983 Run script - Player_2/be_AIAttack - Get Treasure
+4983 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Troll
+4983 Run script - Player_2/g_Upgrades - Rohan - Castle Check Tick
+4984 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4984 Run script - Player_2/be_AIAttack - Get Treasure
+4984 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Warg
+4984 Run script - Player_2/g_PredBuild - Set CCS Buildable Cycles
+4984 Run script - Player_2/g_PredBuild - Run Build Scripts
+4985 Generic script 'G Gondor Heavy Armor Upgrade' run on team Attack - Artillery Team 1
+4985 Generic script 'G Gondor Forged Blades Upgrade' run on team Attack - Artillery Team 1
+4985 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4985 Run script - Player_2/g_PredBuild - Monitor
+4985 Run script - Player_2/g_PredBuild - Monitor Buildings
+4986 Run script - Player_1/be_AIAttack - Get Treasure
+4986 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Warg
+4986 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4986 Run script false -Player_1/g_PredBuild - Set CCS Buildable Cycles
+4986 Run script - Player_2/g_Economy - Update Current Money
+4987 Generic script 'b_Defense - Report Camp Center Threat' run on team AI Base Team
+4987 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4987 Run script - Player_1/g_PredBuild - Monitor
+4987 Run script - Player_1/g_PredBuild - Monitor Buildings
+4987 Advancing SeqScript 'be_Econ_Secure_LumberMill' on Economy - Expansion Econ Merry --  Team '<This Team>' stops, then disbands.
+4988 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4988 Run script - Player_2/be_AIAttack - Get Treasure
+4988 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Troll
+4989 Generic script 'b_Defense - Report Camp Center Threat' run on team AI Base Team
+4989 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4989 Run script - Player_2/be_AIAttack - Get Treasure
+4989 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Warg
+4989 Run script - /___MusicScript_HomeBaseUpdate
+4989 Run script - /___MusicScript_HomeBaseSubroutine
+4989 Run script - Player_1/g_Economy - Update Current Money
+4989 Run script - Player_2/g_PredBuild - Set CCS Buildable Cycles
+4989 Run script - Player_2/g_PredBuild - Run Build Scripts
+4990 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4991 Run script - Player_1/be_AIAttack - Get Treasure
+4991 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Warg
+4991 Generic script 'b_Formation - Archers - Normal' run on team Creep Hunters Warg
+4991 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4991 Run script false -Player_1/g_PredBuild - Set CCS Buildable Cycles
+4992 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4993 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4993 Run script - Player_2/be_AIAttack - Get Treasure
+4993 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Troll
+4994 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4994 Run script - Player_2/be_AIAttack - Get Treasure
+4994 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Warg
+4994 Run script - Player_2/g_PredBuild - Set CCS Buildable Cycles
+4994 Run script - Player_2/g_PredBuild - Run Build Scripts
+4995 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4996 Run script - Player_1/be_AIAttack - Get Treasure
+4996 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Warg
+4996 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4996 Run script false -Player_1/g_PredBuild - Set CCS Buildable Cycles
+4996 Run script - Player_2/g_Economy - Update Current Money
+4997 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4998 Generic script 'b_Defense - Report Camp Front Threat' run on team AI Base - Front
+4998 Generic script 'b_Defense - Report Camp Back Threat' run on team AI Base - Back
+4998 Generic script 'b_Defense - Report Camp Left Threat' run on team AI Base - Left
+4998 Generic script 'b_Defense - Report Camp Right Threat' run on team AI Base - Right
+4998 Generic script 'b_Defense - Report Camp Front Threat' run on team AI Base - Front
+4998 Generic script 'b_Defense - Report Camp Back Threat' run on team AI Base - Back
+4998 Generic script 'b_Defense - Report Camp Left Threat' run on team AI Base - Left
+4998 Generic script 'b_Defense - Report Camp Right Threat' run on team AI Base - Right
+4998 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4998 Run script - Player_2/be_AIAttack - Get Treasure
+4998 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Troll
+4999 Run script - Player_2/d_Defense - Defense Alert
+4999 Generic script 'b_Defense - Team Raise Alert' run on team Hero - Team Theodred
+4999 Generic script 'b_Theodred - Use Luck of Battle' run on team Hero - Team Theodred
+4999 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir
+4999 Generic script 'b_Defense - Respond to Alert' run on team Hero - Team Eowyn
+4999 Run script - Player_2/be_AIAttack - Get Treasure
+4999 Generic script 'b_AIAttack - Get Treasure' run on team Creep Hunters Warg
+4999 Run script - Player_1/g_Economy - Update Current Money
+4999 Run script - Player_2/g_PredBuild - Set CCS Buildable Cycles
+4999 Run script - Player_2/g_PredBuild - Run Build Scripts
+4999 Run script - Player_2/d_Defense - Defense Alert Flag Revert
+5000 Generic script 'b_Haldir - Retreat to Combat Area' run on team Hero - Team Haldir

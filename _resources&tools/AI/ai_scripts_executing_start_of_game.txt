@@ -1,0 +1,727 @@
+0 /team - creating team instance.
+0 PlyrCivilian/teamPlyrCivilian - creating team instance.
+0 PlyrCreeps/teamPlyrCreeps - creating team instance.
+0 ReplayObserver/teamReplayObserver - creating team instance.
+0 Player_3/teamPlayer_3 - creating team instance.
+0 Player_1/teamPlayer_1 - creating team instance.
+0 Player_2/teamPlayer_2 - creating team instance.
+0 PlyrCivilian/Player_2_Inherit - creating team instance.
+0 PlyrCivilian/Player_3_Inherit - creating team instance.
+0 PlyrCivilian/Player_1_Inherit - creating team instance.
+1 Run script - /___MusicScript_FirstFrameInit
+1 Run script - /___MusicScript_InitController
+1 Run script - /___MusicScript_PlayerFactionInit
+1 Run script - /___MusicScript_TestEriador
+1 Run script - /___MusicScript_PhaseInit
+1 Run script - /___MusicScript_InitLevel1Music
+1 Run script - /___MusicScript_InitLevel1MusicGood
+1 Run script - /___MusicScript_InitLevel1MusicGood_Eriador
+1 Run script - /___MusicScript_HomeBaseSubroutine
+1 Run script - /___MusicScript_NewLevel0Music
+1 Run script - /___MusicScript_DoBaseBuildGood_Eriador
+1 Run script - /___MusicScript_DoBaseBuildGood3_Eriador
+1 Run script - Player_3/Decide If Unpacking Is Appropriate
+1 Run script - Player_3/MP - Init Timer
+1 Run script false -Player_3/g_Init - Unpack Base for Pos 1
+1 Run script false -Player_3/g_Init - Unpack Base for Pos 2
+1 Run script - Player_3/g_Init - Unpack Base for Pos 3
+1 Run script false -Player_3/g_Init - Unpack Base for Pos 4
+1 Run script false -Player_3/g_Init - Unpack Base for Pos 5
+1 Run script false -Player_3/g_Init - Unpack Base for Pos 6
+1 Run script false -Player_3/g_Init - Unpack Base for Pos 7
+1 Run script false -Player_3/g_Init - Unpack Base for Pos 8
+1 Run script - Player_3/g_Inherit - Initialize
+1 Run script false -Player_3/g_Inherit - Disable Flag 8 Check
+1 Run script - Player_3/mp_Multiplayer - Check if it is a MP game
+1 Run script - Player_3/Execute All Object List Subroutines
+1 Run script - Player_3/g_Init - Air Lists
+1 Run script - Player_3/g_Init - Archer Lists
+1 Run script - Player_3/g_Init - Artillery Lists
+1 Run script - Player_3/g_Init - Base Active Defense Lists
+1 Run script - Player_3/g_Init - Base Defense Lists
+1 Run script - Player_3/g_Init - Base Walls Lists
+1 Run script - Player_3/g_Init - Camp Citadels
+1 Run script - Player_3/g_Init - Cavalry Lists
+1 Run script - Player_3/g_Init - Creep Lists
+1 Run script - Player_3/g_Init - Economy Lists
+1 Run script - Player_3/g_Init - Evil Units List
+1 Run script - Player_3/g_Init - Factory Lists
+1 Run script - Player_3/g_Init - Flag Lists
+1 Run script - Player_3/g_Init - Flammable List
+1 Run script - Player_3/g_Init - Gondor Lists
+1 Run script - Player_3/g_Init - Good Units List
+1 Run script - Player_3/g_Init - Hero Lists
+1 Run script - Player_3/g_Init - Infantry Lists
+1 Run script - Player_3/g_Init - Isengard Lists
+1 Run script - Player_3/g_Init - Mordor Lists
+1 Run script - Player_3/g_Init - Gundabad Lists
+1 Run script - Player_3/g_Init - Offensive Unit List
+1 Run script - Player_3/g_Init - Rohan Lists
+1 Run script - Player_3/g_Init - Siege Lists
+1 Run script - Player_3/g_Init - Spellbooks
+1 Run script - Player_3/g_Init - Tactical Marker Lists
+1 Run script - Player_3/g_Init - Treasure Chests
+1 Run script - Player_3/g_Init - Upgrade Building Lists
+1 Run script - Player_3/g_Init - Rivendell List
+1 Run script - Player_3/g_EnemyDet - Get Enemy Faction
+1 Run script false -Player_3/g_EnemyDet - Check for Isengard
+1 Run script false -Player_3/g_EnemyDet - Check for Mordor
+1 Run script false -Player_3/g_EnemyDet - Check for Gundabad
+1 Run script - Player_3/g_EnemyDet - Check for Rohan
+1 Run script false -Player_3/g_EnemyDet - Check for Gondor
+1 Run script false -Player_3/g_EnemyDet - Check for Rivendell
+1 Run script - Player_1/Execute All Object List Subroutines
+1 Run script - Player_1/g_Init - Air Lists
+1 Run script - Player_1/g_Init - Archer Lists
+1 Run script - Player_1/g_Init - Artillery Lists
+1 Run script - Player_1/g_Init - Base Active Defense Lists
+1 Run script - Player_1/g_Init - Base Defense Lists
+1 Run script - Player_1/g_Init - Base Walls Lists
+1 Run script - Player_1/g_Init - Camp Citadels
+1 Run script - Player_1/g_Init - Cavalry Lists
+1 Run script - Player_1/g_Init - Creep Lists
+1 Run script - Player_1/g_Init - Economy Lists
+1 Run script - Player_1/g_Init - Evil Units List
+1 Run script - Player_1/g_Init - Factory Lists
+1 Run script - Player_1/g_Init - Flag Lists
+1 Run script - Player_1/g_Init - Flammable List
+1 Run script - Player_1/g_Init - Gondor Lists
+1 Run script - Player_1/g_Init - Good Units List
+1 Run script - Player_1/g_Init - Hero Lists
+1 Run script - Player_1/g_Init - Infantry Lists
+1 Run script - Player_1/g_Init - Isengard Lists
+1 Run script - Player_1/g_Init - Mordor Lists
+1 Run script - Player_1/g_Init - Gundabad Lists
+1 Run script - Player_1/g_Init - Offensive Unit List
+1 Run script - Player_1/g_Init - Rohan Lists
+1 Run script - Player_1/g_Init - Siege Lists
+1 Run script - Player_1/g_Init - Spellbooks
+1 Run script - Player_1/g_Init - Tactical Marker Lists
+1 Run script - Player_1/g_Init - Treasure Chests
+1 Run script - Player_1/g_Init - Upgrade Building Lists
+1 Run script - Player_1/g_Init - Rivendell List
+1 Run script - Player_1/g_Init - Initialize AI Subsystems
+1 Run script - Player_1/g_Init - Initialize Global AI Values
+1 Run script - Player_1/g_Init - Initialize Defend AI Values
+1 Run script - Player_1/g_Init - Initialize Economy AI Values
+1 Run script - Player_1/g_Init - Initialize Attack AI Values
+1 Run script - Player_1/g_Init - Initialize Upgrade Values
+1 Run script - Player_1/g_Init - Initialize Predictive Building Values
+1 Run script - Player_1/a_Launch - Launch Attack - Hard Tech 2
+1 Run script - Player_1/Launch Attack 
+1 Run script - Player_1/mp_Multiplayer - Check if it is a MP game
+1 Run script - Player_1/Detect Level of Enemy Expansion Mk1
+1 Run script false -Player_1/g_Defense - Check Current Defense Construction Site
+1 Run script - Player_1/a_Launch - Launch Attack
+1 Run script - Player_1/Launch Attack 
+1 Run script - Player_1/ab_Init - Set Attack Flag
+1 Run script - Player_1/g_Init - Assign Priority Lists
+1 Run script - Player_1/Initialize Spell Purchased Flags and Counters
+1 Run script - Player_1/Enable Gondor Spell System
+1 Run script - Player_1/Gondor Spell List 02 Go
+1 Run script - Player_1/g_Spells - Run Evil Spells {Non-Team-Specific}
+1 Run script - Player_1/g_Econ - Behaviors Init
+1 Run script - Player_1/g_PredBuild - Variable Inits
+1 Run script - Player_1/d_Recruit Team - Economy
+1 Player_1/Economy Building Team - creating team instance.
+1 Run script - Player_1/g_EnemyDet - Get Enemy Faction
+1 Run script false -Player_1/g_EnemyDet - Check for Isengard
+1 Run script false -Player_1/g_EnemyDet - Check for Mordor
+1 Run script false -Player_1/g_EnemyDet - Check for Gundabad
+1 Run script - Player_1/g_EnemyDet - Check for Rohan
+1 Run script false -Player_1/g_EnemyDet - Check for Gondor
+1 Run script false -Player_1/g_EnemyDet - Check for Rivendell
+1 Run script - Player_1/g_Attack - Monitor Command Points
+1 Run script - Player_1/g_Economy - AI Switch Effect True
+1 Run script - Player_1/g_TechTree - Set Level 1 Vars
+1 Run script false -Player_1/g_TechTree - Set Level 2 Vars
+1 Run script - Player_1/g_Opposition - Initial Wait
+1 Run script - Player_1/d_Init - Defense Flags
+1 Run script - Player_1/d_Defense - Resume Defending
+1 Run script - Player_1/d_AntiArtillery_Init
+1 Run script - Player_1/Initialize Upgrade Flags
+1 Run script false -Player_1/Activate Mordor Tech Upgrade System
+1 Run script false -Player_1/Activate Isengard Tech Upgrade System
+1 Run script false -Player_1/Activate Gundabad Tech Upgrade System
+1 Run script - Player_1/Activate Gondor Tech Upgrade System
+1 Run script false -Player_1/Activate Rohan Tech Upgrade System
+1 Run script false -Player_1/Activate Rivendell Tech Upgrade System
+1 Run script - Player_1/g_Init - Initialize Opposition Values
+1 Run script - Player_1/g_Init - Initialize Defensive Building Values
+1 Run script - Player_1/g_Init - Turn on AI Money Trickle Timer
+1 Run script - Player_1/g_Init - Set Gondor Faction
+1 Run script - Player_1/g_Init - Turn on Build
+1 Run script - Player_1/g_Init - Spawn Sequencer Team
+1 Player_1/AI Sequencer - creating team instance.
+1 Run script - Player_1/g_Init - Initialize Global Variables (NonOverride)
+1 Run script - Player_1/g_Init - Skirmish Inherit 1
+1 Run script - Player_1/g_Init - Unpack Base for AI 1
+1 Run script false -Player_1/g_Init - Unpack Base for AI 2
+1 Run script false -Player_1/g_Init - Unpack Base for AI 3
+1 Run script false -Player_1/g_Init - Unpack Base for AI 4
+1 Run script false -Player_1/g_Init - Unpack Base for AI 5
+1 Run script false -Player_1/g_Init - Unpack Base for AI 6
+1 Run script false -Player_1/g_Init - Unpack Base for AI 7
+1 Run script false -Player_1/g_Init - Unpack Base for AI 8
+1 Run script - Player_1/g_Inherit - Initialize
+1 Run script false -Player_1/g_Inherit - Disable Flag 8 Check
+1 Run script - Player_2/Execute All Object List Subroutines
+1 Run script - Player_2/g_Init - Air Lists
+1 Run script - Player_2/g_Init - Archer Lists
+1 Run script - Player_2/g_Init - Artillery Lists
+1 Run script - Player_2/g_Init - Base Active Defense Lists
+1 Run script - Player_2/g_Init - Base Defense Lists
+1 Run script - Player_2/g_Init - Base Walls Lists
+1 Run script - Player_2/g_Init - Camp Citadels
+1 Run script - Player_2/g_Init - Cavalry Lists
+1 Run script - Player_2/g_Init - Creep Lists
+1 Run script - Player_2/g_Init - Economy Lists
+1 Run script - Player_2/g_Init - Evil Units List
+1 Run script - Player_2/g_Init - Factory Lists
+1 Run script - Player_2/g_Init - Flag Lists
+1 Run script - Player_2/g_Init - Flammable List
+1 Run script - Player_2/g_Init - Gondor Lists
+1 Run script - Player_2/g_Init - Good Units List
+1 Run script - Player_2/g_Init - Hero Lists
+1 Run script - Player_2/g_Init - Infantry Lists
+1 Run script - Player_2/g_Init - Isengard Lists
+1 Run script - Player_2/g_Init - Mordor Lists
+1 Run script - Player_2/g_Init - Gundabad Lists
+1 Run script - Player_2/g_Init - Offensive Unit List
+1 Run script - Player_2/g_Init - Rohan Lists
+1 Run script - Player_2/g_Init - Siege Lists
+1 Run script - Player_2/g_Init - Spellbooks
+1 Run script - Player_2/g_Init - Tactical Marker Lists
+1 Run script - Player_2/g_Init - Treasure Chests
+1 Run script - Player_2/g_Init - Upgrade Building Lists
+1 Run script - Player_2/g_Init - Rivendell List
+1 Run script - Player_2/g_Init - Initialize AI Subsystems
+1 Run script - Player_2/g_Init - Initialize Global AI Values
+1 Run script - Player_2/g_Init - Initialize Attack AI Values
+1 Run script - Player_2/g_Init - Initialize Defend AI Values
+1 Run script - Player_2/g_Init - Initialize Economy AI Values
+1 Run script - Player_2/g_Init - Initialize Predictive Building Values
+1 Run script - Player_2/g_Init - Initialize Upgrade Values
+1 Run script - Player_2/mp_Multiplayer - Check if it is a MP game
+1 Run script - Player_2/a_Launch - Launch Attack
+1 Run script - Player_2/Launch Attack 
+1 Run script - Player_2/g_Init - Assign Priority Lists
+1 Run script - Player_2/ab_Init - Set Attack Flag
+1 Run script - Player_2/Initialize Spell Purchased Flags and Counters
+1 Run script - Player_2/Enable Rohan Spell System
+1 Run script - Player_2/Rohan Spell List 03 Go
+1 Run script - Player_2/e_Update Current Construction Site
+1 Run script false -Player_2/ee_Check Current Construction Site
+1 Run script - Player_2/ee_Set Current Construction Site
+1 Run script - Player_2/g_Econ - Behaviors Init
+1 Run script - Player_2/g_PredBuild - Variable Inits
+1 Run script - Player_2/g_EnemyDet - Get Enemy Faction
+1 Run script false -Player_2/g_EnemyDet - Check for Isengard
+1 Run script false -Player_2/g_EnemyDet - Check for Mordor
+1 Run script false -Player_2/g_EnemyDet - Check for Gundabad
+1 Run script false -Player_2/g_EnemyDet - Check for Rohan
+1 Run script - Player_2/g_EnemyDet - Check for Gondor
+1 Run script - Player_2/g_EnemyDet - Check for Rivendell
+1 Run script - Player_2/g_Economy - AI Switch Effect True
+1 Run script - Player_2/g_TechTree - Set Level 1 Vars
+1 Run script - Player_2/g_Opposition - Initial Wait
+1 Run script - Player_2/d_Init - Defense Flags
+1 Run script - Player_2/d_Defense - Resume Defending
+1 Run script - Player_2/d_AntiArtillery_Init
+1 Run script - Player_2/Initialize Upgrade Flags
+1 Run script false -Player_2/Activate Mordor Tech Upgrade System
+1 Run script false -Player_2/Activate Isengard Tech Upgrade System
+1 Run script false -Player_2/Activate Gundabad Tech Upgrade System
+1 Run script false -Player_2/Activate Gondor Tech Upgrade System
+1 Run script - Player_2/Activate Rohan Tech Upgrade System
+1 Run script false -Player_2/Activate Rivendell Tech Upgrade System
+1 Run script - Player_2/g_Init - Initialize Opposition Values
+1 Run script - Player_2/g_Init - Initialize Defensive Building Values
+1 Run script - Player_2/g_Init - Turn on AI Money Trickle Timer
+1 Run script - Player_2/g_Init - Set Rohan Faction
+1 Run script - Player_2/g_Init - Turn on Build
+1 Run script - Player_2/g_Init - Spawn Sequencer Team
+1 Player_2/AI Sequencer - creating team instance.
+1 Run script - Player_2/g_Init - Initialize Global Variables (NonOverride)
+1 Run script - Player_2/g_Init - Skirmish Inherit 2
+1 Run script false -Player_2/g_Init - Unpack Base for AI 1
+1 Run script - Player_2/g_Init - Unpack Base for AI 2
+1 Run script false -Player_2/g_Init - Unpack Base for AI 3
+1 Run script false -Player_2/g_Init - Unpack Base for AI 4
+1 Run script false -Player_2/g_Init - Unpack Base for AI 5
+1 Run script false -Player_2/g_Init - Unpack Base for AI 6
+1 Run script false -Player_2/g_Init - Unpack Base for AI 7
+1 Run script false -Player_2/g_Init - Unpack Base for AI 8
+1 Run script - Player_2/g_Inherit - Initialize
+1 Run script false -Player_2/g_Inherit - Disable Flag 8 Check
+2 Player_1/Economy - Expansion Econ Team Pippin - creating team instance.
+2 Economy - Expansion Econ Team Pippin - starting team build.
+2 Player_2/Economy - Expansion Econ Merry - creating team instance.
+2 Economy - Expansion Econ Merry - starting team build.
+2 Run script - Player_3/mp_Spawn - Base Flag Assignment 
+2 Run script - Player_3/mp_Spawn - Base Flag Assignment 3
+2 Run script - Player_3/mp_Spawn - Teams
+2 Run script - Player_3/mp_Spawn - Initial Rivendell
+2 Player_3/Start Team - Rivendell - creating team instance.
+2 Run script - Player_1/g_Init - Initialize Attack Launch T1
+2 Run script - Player_1/mp_Spawn - Base Flag Assignment 
+2 Run script - Player_1/mp_Spawn - Base Flag Assignment 1
+2 Run script - Player_1/mp_Spawn - Teams
+2 Run script - Player_1/mp_Spawn - Initial Gondor
+2 Player_1/Start Team - Gondor - creating team instance.
+2 Run script - Player_1/a_Launch - Reset Launch Flag
+2 Run script - Player_1/g_Init - Priority List Anti-Mine
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_Mine
+2 Run script - Player_1/g_Init - Priority List Anti-Infantry
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_Infantry
+2 Run script - Player_1/g_Init - Priority List Anti-Creep
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_Creep
+2 Run script - Player_1/g_Init - Priority List Anti-Archer
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_Archer
+2 Run script - Player_1/g_Init - Priority List Anti-Cavalry
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_Cavalry
+2 Run script - Player_1/g_Init - Priority List Anti-Ent
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_Ent
+2 Run script - Player_1/g_Init - Priority List Anti-Artillery
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_Artillery
+2 Run script - Player_1/g_Init - Priority List Anti-Siege
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_Siege
+2 Run script - Player_1/g_Init - Priority List Anti-Air
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_Air
+2 Run script - Player_1/g_Init - Priority List Anti-Factory
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_Factory
+2 Run script - Player_1/g_Init - Priority List Anti-Base Defenses - NonGate
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_BaseD_NonGate
+2 Run script - Player_1/g_Init - Priority List Anti-Base Defenses and Walls
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_BaseD
+2 Run script - Player_1/g_Init - Priority List Anti-Economy
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_Economy
+2 Run script - Player_1/Gondor Spell List 02 - Hard - Purchase Elven Wood
+2 Run script - Player_1/g_Defense - Rebuild Citadel
+2 Run script - Player_1/d_Recruit Team - Factories
+2 Player_1/Factory Building Team - creating team instance.
+2 Run script - Player_1/g_Defense - Recruit Base Area Teams
+2 Run script - Player_1/g_Defense - Recruit Base Teams
+2 Player_1/AI Base - Front - creating team instance.
+2 Player_1/AI Base - Left - creating team instance.
+2 Player_1/AI Base - Back - creating team instance.
+2 Player_1/AI Base - Right - creating team instance.
+2 Run script - Player_1/d_Defense - Resume Defense Flag Revert
+2 Run script - Player_2/g_Init - Initialize Attack Launch T1
+2 Run script - Player_2/mp_Spawn - Base Flag Assignment 
+2 Run script - Player_2/mp_Spawn - Base Flag Assignment 2
+2 Run script - Player_2/mp_Spawn - Teams
+2 Run script - Player_2/mp_Spawn - Initial Rohan
+2 Player_2/Start Team - Rohan - creating team instance.
+2 Run script - Player_2/g_Init - Priority List For Ents
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Priority List For Ents
+2 Run script false -Player_2/g_Defense - Set Turrets Buildable Flag
+2 Run script - Player_2/a_Launch - Reset Launch Flag
+2 Run script - Player_2/g_Init - Priority List Anti-Mine
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_Mine
+2 Run script - Player_2/g_Init - Priority List Anti-Infantry
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_Infantry
+2 Run script - Player_2/g_Init - Priority List Anti-Creep
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_Creep
+2 Run script - Player_2/g_Init - Priority List Anti-Archer
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_Archer
+2 Run script - Player_2/g_Init - Priority List Anti-Cavalry
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_Cavalry
+2 Run script - Player_2/g_Init - Priority List Anti-Ent
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_Ent
+2 Run script - Player_2/g_Init - Priority List Anti-Artillery
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_Artillery
+2 Run script - Player_2/g_Init - Priority List Anti-Siege
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_Siege
+2 Run script - Player_2/g_Init - Priority List Anti-Air
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_Air
+2 Run script - Player_2/g_Init - Priority List Anti-Factory
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_Factory
+2 Run script - Player_2/g_Init - Priority List Anti-Base Defenses - NonGate
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_BaseD_NonGate
+2 Run script - Player_2/g_Init - Priority List Anti-Base Defenses and Walls
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_BaseD
+2 Run script - Player_2/g_Init - Priority List Anti-Economy
+2 ***Attempting to set attack priority on an invalid thing:***
+2 Anti_Economy
+2 Run script - Player_2/d_Recruit Team - Economy
+2 Player_2/Economy Building Team - creating team instance.
+2 Run script - Player_2/d_Recruit Team - Citadels
+2 Player_2/Citadel Building Team - creating team instance.
+2 Run script - Player_2/g_Attack - Monitor Command Points
+2 Run script - Player_2/g_Defense - Recruit Base Area Teams
+2 Run script - Player_2/g_Defense - Recruit Base Teams
+2 Player_2/AI Base - Front - creating team instance.
+2 Player_2/AI Base - Left - creating team instance.
+2 Player_2/AI Base - Back - creating team instance.
+2 Player_2/AI Base - Right - creating team instance.
+2 Run script - Player_2/d_Defense - Resume Defense Flag Revert
+3 Generic script 'mp_Spawn - Disband' run on team Start Team - Rivendell
+3 Generic script 'b_Defense - Report Camp Front Threat' run on team AI Base - Front
+3 Generic script 'b_Defense - Report Camp Back Threat' run on team AI Base - Back
+3 Generic script 'b_Defense - Report Camp Left Threat' run on team AI Base - Left
+3 Generic script 'b_Defense - Report Camp Right Threat' run on team AI Base - Right
+3 Generic script 'mp_Spawn - Disband' run on team Start Team - Gondor
+3 Generic script 'b_Defense - Report Camp Front Threat' run on team AI Base - Front
+3 Generic script 'b_Defense - Report Camp Back Threat' run on team AI Base - Back
+3 Generic script 'b_Defense - Report Camp Left Threat' run on team AI Base - Left
+3 Generic script 'b_Defense - Report Camp Right Threat' run on team AI Base - Right
+3 Generic script 'mp_Spawn - Disband' run on team Start Team - Rohan
+3 Run script - Player_1/a_Launch - Reset Attack Team Launch Flag
+3 Run script - Player_1/e_Update Current Construction Site
+3 Run script - Player_1/ee_Check Current Construction Site
+3 Run script - Player_1/ee_Current Construction Missing
+3 Run script false -Player_1/g_TechTree - Set Level 3 Vars
+3 Run script - Player_1/g_Inherit - Set Flags Owned
+3 Run script - Player_1/g_Inherit - Set Flag 1 Owned
+3 Run script false -Player_1/g_Inherit - Set Flag 2 Owned
+3 Run script false -Player_1/g_Inherit - Set Flag 3 Owned
+3 Run script false -Player_1/g_Inherit - Set Flag 4 Owned
+3 Run script false -Player_1/g_Inherit - Set Flag 5 Owned
+3 Run script false -Player_1/g_Inherit - Set Flag 6 Owned
+3 Run script false -Player_1/g_Inherit - Set Flag 7 Owned
+3 Run script - Player_1/g_Inherit - Transfer Inherit Teams
+3 Run script - Player_1/g_Inherit - Transfer Inherit Team 1 To Player
+3 Run script - Player_1/g_Inherit - Move Team 1 To Player
+3 Run script - Player_2/a_Launch - Reset Attack Team Launch Flag
+3 Run script - Player_2/d_Recruit Team - Factories
+3 Player_2/Factory Building Team - creating team instance.
+3 Run script - Player_2/g_Economy - Raise if Expansion Need Check
+3 Run script - Player_2/g_Opposition - Threat Finder Spawn At Base
+3 Player_2/Threat Finder - Center - creating team instance.
+3 Player_2/Threat Finder - Flank - creating team instance.
+3 Player_2/Threat Finder - Backdoor - creating team instance.
+3 Advancing SeqScript 'mpe_Spawn - Disband' on Start Team - Rivendell -- Set Team '<This Team>' to be assimilated by the first walk on army.
+3 Advancing SeqScript 'mpe_Spawn - Disband' on Start Team - Rivendell -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'BASE_FOUNDATION'.
+3 Advancing SeqScript 'mpe_Spawn - Disband' on Start Team - Gondor -- Set Team '<This Team>' to be assimilated by the first walk on army.
+3 Advancing SeqScript 'mpe_Spawn - Disband' on Start Team - Gondor -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'BASE_FOUNDATION'.
+3 Advancing SeqScript 'mpe_Spawn - Disband' on Start Team - Rohan -- Set Team '<This Team>' to be assimilated by the first walk on army.
+3 Advancing SeqScript 'mpe_Spawn - Disband' on Start Team - Rohan -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'BASE_FOUNDATION'.
+4 Generic script 'mp_Spawn - Disband' run on team Start Team - Rivendell
+4 Generic script 'mp_Spawn - Disband' run on team Start Team - Gondor
+4 Generic script 'b_Opposition - Threat Find - Center' run on team Threat Finder - Center
+4 Generic script 'b_Opposition - Threat Find - Flank' run on team Threat Finder - Flank
+4 Generic script 'b_Opposition - Threat Find - Backdoor' run on team Threat Finder - Backdoor
+4 Generic script 'mp_Spawn - Disband' run on team Start Team - Rohan
+4 Run script - Player_1/d_Recruit Team - Citadels
+4 Player_1/Citadel Building Team - creating team instance.
+4 Run script - Player_1/g_Defense - Low Threat Decrease
+4 Run script - Player_1/g_Urgency - Lower Defense Med
+4 Run script - Player_2/g_Update - Attack Urgency
+4 Run script - Player_2/g_Attack - Time Increase
+4 Run script - Player_2/g_Urgency - Raise Attack Low
+4 Run script - Player_2/g_Opposition - Set Lowest Enemy Threat
+4 Run script - Player_2/g_Opposition - Set Lowest Threat Backdoor
+4 Run script - Player_2/g_Opposition - Set Lowest Threat Flank
+4 Run script - Player_2/g_Opposition - Set Lowest Threat Center
+4 Advancing SeqScript 'mpe_Spawn - Disband' on Start Team - Rivendell --  Team '<This Team>' stops, then disbands.
+4 Advancing SeqScript 'mpe_Spawn - Disband' on Start Team - Gondor --  Team '<This Team>' stops, then disbands.
+4 Advancing SeqScript 'mpe_Spawn - Disband' on Start Team - Rohan --  Team '<This Team>' stops, then disbands.
+4 Advancing SeqScript 'be_Opposition - Threat Find - Center' on Threat Finder - Center -- Team Team '<This Team>' will move to the nearest object of type 'Center1' that is owned by the player Player '<This Player's Enemies>'.
+4 Advancing SeqScript 'be_Opposition - Threat Find - Flank' on Threat Finder - Flank -- Team Team '<This Team>' will move to the nearest object of type 'Flank1' that is owned by the player Player '<This Player's Enemies>'.
+4 Advancing SeqScript 'be_Opposition - Threat Find - Backdoor' on Threat Finder - Backdoor -- Team Team '<This Team>' will move to the nearest object of type 'Backdoor1' that is owned by the player Player '<This Player's Enemies>'.
+5 Generic script 'mp_Spawn - Disband' run on team Start Team - Rivendell
+5 Generic script 'mp_Spawn - Disband' run on team Start Team - Gondor
+5 Generic script 'mp_Spawn - Disband' run on team Start Team - Rohan
+5 Run script - Player_2/g_Defense - Rebuild Citadel
+5 Run script false -Player_2/g_TechTree - Set Level 3 Vars
+5 Run script - Player_2/g_Inherit - Set Flags Owned
+5 Run script false -Player_2/g_Inherit - Set Flag 1 Owned
+5 Run script - Player_2/g_Inherit - Set Flag 2 Owned
+5 Run script false -Player_2/g_Inherit - Set Flag 3 Owned
+5 Run script false -Player_2/g_Inherit - Set Flag 4 Owned
+5 Run script false -Player_2/g_Inherit - Set Flag 5 Owned
+5 Run script false -Player_2/g_Inherit - Set Flag 6 Owned
+5 Run script false -Player_2/g_Inherit - Set Flag 7 Owned
+5 Run script - Player_2/g_Inherit - Transfer Inherit Teams
+5 Run script - Player_2/g_Inherit - Transfer Inherit Team 2 To Player
+5 Run script - Player_2/g_Inherit - Move Team 2 To Player
+6 Run script - Player_3/g_Inherit - Set Flags Owned
+6 Run script false -Player_3/g_Inherit - Set Flag 1 Owned
+6 Run script false -Player_3/g_Inherit - Set Flag 2 Owned
+6 Run script - Player_3/g_Inherit - Set Flag 3 Owned
+6 Run script false -Player_3/g_Inherit - Set Flag 4 Owned
+6 Run script false -Player_3/g_Inherit - Set Flag 5 Owned
+6 Run script false -Player_3/g_Inherit - Set Flag 6 Owned
+6 Run script false -Player_3/g_Inherit - Set Flag 7 Owned
+6 Run script - Player_3/g_Inherit - Transfer Inherit Teams
+6 Run script - Player_3/g_Inherit - Transfer Inherit Team 3 To Player
+6 Run script - Player_3/g_Inherit - Move Team 3 To Player
+6 Run script - Player_1/g_Init - Recruit Spellbook Team
+6 Player_1/AI Spellbook - creating team instance.
+6 Run script - Player_1/g_Spells - Run Good Spells {Non-Team-Specific}
+6 Run script - Player_1/g_PredBuild - Set CCS Buildable Cycles
+6 Run script - Player_1/g_PredBuild - Run Build Scripts
+6 Run script - Player_1/g_Init - Put Main Base on Team
+6 Player_1/AI Base Team - creating team instance.
+6 Run script - Player_2/g_Init - Recruit Spellbook Team
+6 Player_2/AI Spellbook - creating team instance.
+6 Run script - Player_2/g_Economy - Update Current Money
+7 Generic script 'b_Defense - Report Camp Center Threat' run on team AI Base Team
+7 Run script - Player_1/g_PredBuild - Monitor
+7 Run script - Player_1/g_PredBuild - Monitor Buildings
+7 Run script - Player_2/ee_Current Construction Missing
+7 Run script - Player_2/g_PredBuild - Set Priorities
+7 Run script - Player_2/g_PredBuild - Set Economy Building Priority
+7 Run script - Player_2/g_PredBuild - Set Economy Building Filler Priority
+7 Run script - Player_2/g_PredBuild - Set Archer Building Priority
+7 Run script - Player_2/g_PredBuild - Set Archer Building Filler Priority
+7 Run script - Player_2/g_PredBuild - Set Cavalry Building Filler Priority
+7 Run script - Player_2/g_PredBuild - Set Infantry Building Priority
+7 Run script - Player_2/g_PredBuild - Set Infantry Building Filler Priority
+7 Run script - Player_2/g_PredBuild - Set Upgrade Building Priority
+7 Run script false -Player_2/g_TechTree - Set Level 2 Vars
+8 Run script - Player_1/a_Skirmish - Init Build - Cavalry
+8 Run script false -Player_1/g_Defense - Set Turrets Buildable Flag
+8 Run script - Player_1/g_Defense - Gate - Set Ref
+8 Run script - Player_1/g_Defense - Disable Gate Ref
+8 Run script - Player_1/g_Update - Attack Urgency
+8 Run script - Player_1/g_Attack - Time Increase
+8 Run script - Player_1/g_Urgency - Raise Attack Low
+8 Run script - Player_1/g_Economy - Raise if Expansion Need Check
+8 Run script - Player_1/g_Upgrades - Rohan - Turn off if not Rohan
+8 Run script - Player_2/g_Defense - Disable Gate Ref
+8 Run script - Player_2/g_Upgrades - Rohan - Castle Check Tick
+8 Run script - Player_2/g_Init - Put Main Base on Team
+8 Player_2/AI Base Team - creating team instance.
+9 Generic script 'b_Defense - Report Camp Center Threat' run on team AI Base Team
+9 Run script - /___MusicScript_HomeBaseUpdate
+9 Run script - /___MusicScript_HomeBaseSubroutine
+9 Run script - Player_1/g_Economy - Update Current Money
+9 Run script - Player_1/g_Opposition - Threat Finder Spawn At Base
+9 Player_1/Threat Finder - Center - creating team instance.
+9 Player_1/Threat Finder - Flank - creating team instance.
+9 Player_1/Threat Finder - Backdoor - creating team instance.
+9 Run script - Player_2/Detect Level of Enemy Expansion Mk1
+9 Run script false -Player_2/g_Defense - Check Current Defense Construction Site
+9 Run script - Player_2/Rohan Spell List 03 - Hard - Purchase Draft
+9 Run script - Player_2/g_Spells - Run Good Spells {Non-Team-Specific}
+9 Run script - Player_2/g_PredBuild - Set CCS Buildable Cycles
+9 Run script - Player_2/g_PredBuild - Run Build Scripts
+9 Run script - Player_2/g_PredBuild - Upgrade Building Is Highest Priority
+9 Run script - Player_2/g_PredBuild - Build Upgrade Building
+9 Run script - Player_2/g_PredBuild - Clear Pred Build Priorities
+9 Run script - Player_2/g_Defense - Low Threat Decrease
+9 Run script - Player_2/g_Urgency - Lower Defense Med
+10 Generic script 'b_Opposition - Threat Find - Center' run on team Threat Finder - Center
+10 Generic script 'b_Opposition - Threat Find - Flank' run on team Threat Finder - Flank
+10 Generic script 'b_Opposition - Threat Find - Backdoor' run on team Threat Finder - Backdoor
+10 Run script - Player_1/g_Upgrades - Gondor - Castle Check Tick
+10 Run script - Player_1/g_Upgrades - Gondor - Postern Gate
+10 Run script - Player_2/g_Spells - Run Evil Spells {Non-Team-Specific}
+10 Run script - Player_2/g_Update - Opposition
+10 Advancing SeqScript 'be_Opposition - Threat Find - Center' on Threat Finder - Center -- Team Team '<This Team>' will move to the nearest object of type 'Center1' that is owned by the player Player '<This Player's Enemies>'.
+10 Advancing SeqScript 'be_Opposition - Threat Find - Flank' on Threat Finder - Flank -- Team Team '<This Team>' will move to the nearest object of type 'Flank1' that is owned by the player Player '<This Player's Enemies>'.
+10 Advancing SeqScript 'be_Opposition - Threat Find - Backdoor' on Threat Finder - Backdoor -- Team Team '<This Team>' will move to the nearest object of type 'Backdoor1' that is owned by the player Player '<This Player's Enemies>'.
+11 Run script - Player_1/g_PredBuild - Set CCS Buildable Cycles
+11 Run script - Player_1/g_PredBuild - Run Build Scripts
+11 Run script - Player_2/a_Skirmish - Init Build - Cavalry
+14 Run script - Player_2/g_PredBuild - Set CCS Buildable Cycles
+14 Run script - Player_2/g_PredBuild - Run Build Scripts
+16 Run script - Player_1/g_PredBuild - Set CCS Buildable Cycles
+16 Run script - Player_1/g_PredBuild - Run Build Scripts
+16 Run script - Player_2/g_Economy - Update Current Money
+18 Player_1/Economy - Expansion Econ Team 1 - creating team instance.
+18 Economy - Expansion Econ Team 1 - starting team build.
+18 Team 'Economy - Expansion Econ Team 1' recruits GondorFighterHorde from team 'teamPlayer_1'
+18 Generic script 'b_Defense - Report Camp Front Threat' run on team AI Base - Front
+18 Generic script 'b_Defense - Report Camp Back Threat' run on team AI Base - Back
+18 Generic script 'b_Defense - Report Camp Left Threat' run on team AI Base - Left
+18 Generic script 'b_Defense - Report Camp Right Threat' run on team AI Base - Right
+18 Player_2/Economy - Expansion Basic - creating team instance.
+18 Economy - Expansion Basic - starting team build.
+18 Team 'Economy - Expansion Basic' recruits RohanPeasantHorde from team 'teamPlayer_2'
+18 Generic script 'b_Defense - Report Camp Front Threat' run on team AI Base - Front
+18 Generic script 'b_Defense - Report Camp Back Threat' run on team AI Base - Back
+18 Generic script 'b_Defense - Report Camp Left Threat' run on team AI Base - Left
+18 Generic script 'b_Defense - Report Camp Right Threat' run on team AI Base - Right
+19 Run script - Player_1/g_Economy - Update Current Money
+19 Run script - Player_2/g_PredBuild - Set CCS Buildable Cycles
+19 Run script - Player_2/g_PredBuild - Run Build Scripts
+19 Run script - Player_1/b_Econ_Secure_LumberMill
+19 Run script - Player_2/b_Econ_Secure_Camp
+19 Advancing SeqScript 'be_Econ_Secure_LumberMill' on Economy - Expansion Econ Team 1 -- Team Team '<This Team>' will move to the nearest object of type 'Economy_Flags' that is owned by the player Player 'PlyrCivilian'.
+19 Advancing SeqScript 'be_Econ_Secure_Camp' on Economy - Expansion Basic -- Team Team '<This Team>' will move to the nearest object of type 'Flag_Expansion' that is owned by the player Player 'PlyrCivilian'.
+20 Run script - Player_2/g_PredBuild - Monitor
+20 Run script - Player_2/g_PredBuild - Monitor Buildings
+21 Run script - Player_1/g_PredBuild - Set CCS Buildable Cycles
+21 Run script - Player_1/g_PredBuild - Run Build Scripts
+22 Generic script 'b_Defense - Report Camp Center Threat' run on team AI Base Team
+22 Run script - Player_1/g_PredBuild - Monitor
+22 Run script - Player_1/g_PredBuild - Monitor Buildings
+24 Generic script 'b_Defense - Report Camp Center Threat' run on team AI Base Team
+24 Run script - Player_2/g_PredBuild - Set CCS Buildable Cycles
+24 Run script - Player_2/g_PredBuild - Run Build Scripts
+26 Run script - Player_1/g_PredBuild - Set CCS Buildable Cycles
+26 Run script - Player_1/g_PredBuild - Run Build Scripts
+26 Run script - Player_1/g_Attack - Monitor Command Points
+26 Run script - Player_2/g_Economy - Update Current Money
+27 Run script - Player_2/g_Attack - Monitor Command Points
+29 Run script - Player_1/g_Economy - Update Current Money
+29 Run script - Player_2/g_PredBuild - Set CCS Buildable Cycles
+29 Run script - Player_2/g_PredBuild - Run Build Scripts
+31 Run script - Player_1/g_PredBuild - Set CCS Buildable Cycles
+31 Run script - Player_1/g_PredBuild - Run Build Scripts
+33 Generic script 'b_Defense - Report Camp Front Threat' run on team AI Base - Front
+33 Generic script 'b_Defense - Report Camp Back Threat' run on team AI Base - Back
+33 Generic script 'b_Defense - Report Camp Left Threat' run on team AI Base - Left
+33 Generic script 'b_Defense - Report Camp Right Threat' run on team AI Base - Right
+33 Generic script 'b_Defense - Report Camp Front Threat' run on team AI Base - Front
+33 Generic script 'b_Defense - Report Camp Back Threat' run on team AI Base - Back
+33 Generic script 'b_Defense - Report Camp Left Threat' run on team AI Base - Left
+33 Generic script 'b_Defense - Report Camp Right Threat' run on team AI Base - Right
+33 Run script - Player_2/g_Upgrades - Rohan - Castle Check Tick
+34 Player_2/Economy - Expansion Basic - creating team instance.
+34 Economy - Expansion Basic - starting team build.
+34 Team 'Economy - Expansion Basic' recruits RohanPeasantHorde from team 'teamPlayer_2'
+34 Run script - Player_2/g_PredBuild - Set CCS Buildable Cycles
+34 Run script - Player_2/g_PredBuild - Run Build Scripts
+35 Run script - Player_2/g_PredBuild - Monitor
+35 Run script - Player_2/g_PredBuild - Monitor Buildings
+35 Run script - Player_2/b_Econ_Secure_Camp
+35 Advancing SeqScript 'be_Econ_Secure_Camp' on Economy - Expansion Basic -- Team Team '<This Team>' will move to the nearest object of type 'Flag_Expansion' that is owned by the player Player 'PlyrCivilian'.
+36 Run script - Player_1/g_PredBuild - Set CCS Buildable Cycles
+36 Run script - Player_1/g_PredBuild - Run Build Scripts
+36 Run script - Player_2/g_Economy - Update Current Money
+37 Generic script 'b_Defense - Report Camp Center Threat' run on team AI Base Team
+37 Run script - Player_1/g_PredBuild - Monitor
+37 Run script - Player_1/g_PredBuild - Monitor Buildings
+39 Generic script 'b_Defense - Report Camp Center Threat' run on team AI Base Team
+39 Run script - /___MusicScript_HomeBaseUpdate
+39 Run script - /___MusicScript_HomeBaseSubroutine
+39 Run script - Player_1/g_Economy - Update Current Money
+39 Run script - Player_2/g_PredBuild - Set CCS Buildable Cycles
+39 Run script - Player_2/g_PredBuild - Run Build Scripts
+41 Run script - Player_1/g_PredBuild - Set CCS Buildable Cycles
+41 Run script - Player_1/g_PredBuild - Run Build Scripts
+44 Run script - Player_2/g_PredBuild - Set CCS Buildable Cycles
+44 Run script - Player_2/g_PredBuild - Run Build Scripts
+46 Run script - Player_1/g_PredBuild - Set CCS Buildable Cycles
+46 Run script - Player_1/g_PredBuild - Run Build Scripts
+46 Run script - Player_2/g_Economy - Update Current Money
+48 Generic script 'b_Defense - Report Camp Front Threat' run on team AI Base - Front
+48 Generic script 'b_Defense - Report Camp Back Threat' run on team AI Base - Back
+48 Generic script 'b_Defense - Report Camp Left Threat' run on team AI Base - Left
+48 Generic script 'b_Defense - Report Camp Right Threat' run on team AI Base - Right
+48 Generic script 'b_Defense - Report Camp Front Threat' run on team AI Base - Front
+48 Generic script 'b_Defense - Report Camp Back Threat' run on team AI Base - Back
+48 Generic script 'b_Defense - Report Camp Left Threat' run on team AI Base - Left
+48 Generic script 'b_Defense - Report Camp Right Threat' run on team AI Base - Right
+49 Run script - Player_1/g_Economy - Update Current Money
+49 Run script - Player_2/g_PredBuild - Set CCS Buildable Cycles
+49 Run script - Player_2/g_PredBuild - Run Build Scripts
+50 Player_2/Economy - Expansion Econ - creating team instance.
+50 Economy - Expansion Econ - starting team build.
+50 Run script - Player_2/g_PredBuild - Monitor
+50 Run script - Player_2/g_PredBuild - Monitor Buildings
+51 Run script - Player_1/g_Spells - Run Evil Spells {Non-Team-Specific}
+51 Run script - Player_1/g_PredBuild - Set CCS Buildable Cycles
+51 Run script - Player_1/g_PredBuild - Run Build Scripts
+51 Run script - Player_1/g_PredBuild - Set Priorities
+51 Run script - Player_1/g_PredBuild - Set Economy Building Priority
+51 Run script - Player_1/g_PredBuild - Set Economy Building Filler Priority
+51 Run script - Player_1/g_PredBuild - Set Archer Building Priority
+51 Run script - Player_1/g_PredBuild - Set Archer Building Filler Priority
+51 Run script - Player_1/g_PredBuild - Set Cavalry Building Filler Priority
+51 Run script - Player_1/g_PredBuild - Set Infantry Building Priority
+51 Run script - Player_1/g_PredBuild - Set Infantry Building Filler Priority
+51 Run script - Player_1/g_Attack - Monitor Command Points
+51 Run script - Player_2/g_Upgrades - Gondor - Turn off if not Gondor
+52 Generic script 'b_Defense - Report Camp Center Threat' run on team AI Base Team
+52 Run script - Player_1/g_PredBuild - Monitor
+52 Run script - Player_1/g_PredBuild - Monitor Buildings
+52 Run script - Player_2/g_Attack - Monitor Command Points
+53 Run script - Player_1/g_Inherit - Set Flags Owned
+53 Run script - Player_1/g_Inherit - Set Flag 1 Owned
+53 Run script false -Player_1/g_Inherit - Set Flag 2 Owned
+53 Run script false -Player_1/g_Inherit - Set Flag 3 Owned
+53 Run script false -Player_1/g_Inherit - Set Flag 4 Owned
+53 Run script false -Player_1/g_Inherit - Set Flag 5 Owned
+53 Run script false -Player_1/g_Inherit - Set Flag 6 Owned
+53 Run script false -Player_1/g_Inherit - Set Flag 7 Owned
+53 Run script - Player_1/g_Inherit - Transfer Inherit Teams
+54 Generic script 'b_Defense - Report Camp Center Threat' run on team AI Base Team
+54 Run script - Player_2/g_PredBuild - Set CCS Buildable Cycles
+54 Run script - Player_2/g_PredBuild - Run Build Scripts
+54 Run script - Player_2/g_Update - Attack Urgency
+54 Run script - Player_2/g_Attack - Time Increase
+54 Run script - Player_2/g_Urgency - Raise Attack Low
+54 Run script - Player_2/g_Upgrades - Rivendell - Turn off if not Rivendell
+55 Run script - Player_1/g_Upgrades - Rivendell - Turn off if not Rivendell
+55 Run script - Player_2/g_Inherit - Set Flags Owned
+55 Run script false -Player_2/g_Inherit - Set Flag 1 Owned
+55 Run script - Player_2/g_Inherit - Set Flag 2 Owned
+55 Run script false -Player_2/g_Inherit - Set Flag 3 Owned
+55 Run script false -Player_2/g_Inherit - Set Flag 4 Owned
+55 Run script false -Player_2/g_Inherit - Set Flag 5 Owned
+55 Run script false -Player_2/g_Inherit - Set Flag 6 Owned
+55 Run script false -Player_2/g_Inherit - Set Flag 7 Owned
+55 Run script - Player_2/g_Inherit - Transfer Inherit Teams
+56 Run script - Player_3/g_Inherit - Set Flags Owned
+56 Run script false -Player_3/g_Inherit - Set Flag 1 Owned
+56 Run script false -Player_3/g_Inherit - Set Flag 2 Owned
+56 Run script - Player_3/g_Inherit - Set Flag 3 Owned
+56 Run script false -Player_3/g_Inherit - Set Flag 4 Owned
+56 Run script false -Player_3/g_Inherit - Set Flag 5 Owned
+56 Run script false -Player_3/g_Inherit - Set Flag 6 Owned
+56 Run script false -Player_3/g_Inherit - Set Flag 7 Owned
+56 Run script - Player_3/g_Inherit - Transfer Inherit Teams
+56 Run script - Player_1/g_Spells - Run Good Spells {Non-Team-Specific}
+56 Run script - Player_1/g_PredBuild - Set CCS Buildable Cycles
+56 Run script - Player_1/g_PredBuild - Run Build Scripts
+56 Run script - Player_1/g_PredBuild - Archery Building Is Highest Priority
+56 Run script - Player_1/g_PredBuild - Build Archer Building
+56 Run script - Player_1/g_PredBuild - Clear Pred Build Priorities
+56 Run script - Player_2/g_Economy - Update Current Money
+57 Run script - Player_2/g_PredBuild - Set Priorities
+57 Run script - Player_2/g_PredBuild - Set Economy Building Priority
+57 Run script - Player_2/g_PredBuild - Set Economy Building Filler Priority
+57 Run script - Player_2/g_PredBuild - Set Archer Building Priority
+57 Run script - Player_2/g_PredBuild - Set Archer Building Filler Priority
+57 Run script - Player_2/g_PredBuild - Set Cavalry Building Filler Priority
+57 Run script - Player_2/g_PredBuild - Set Infantry Building Priority
+57 Run script - Player_2/g_PredBuild - Set Infantry Building Filler Priority
+57 Run script - Player_2/g_PredBuild - Set Upgrade Building Priority
+58 Run script - Player_1/g_Update - Attack Urgency
+58 Run script - Player_1/g_Attack - Time Increase
+58 Run script - Player_1/g_Urgency - Raise Attack Low
+58 Run script - Player_2/g_Upgrades - Rohan - Castle Check Tick
+59 Run script - Player_1/g_Economy - Update Current Money
+59 Run script - Player_2/g_Spells - Run Good Spells {Non-Team-Specific}
+59 Run script - Player_2/g_PredBuild - Set CCS Buildable Cycles
+59 Run script - Player_2/g_PredBuild - Run Build Scripts
+59 Run script - Player_2/g_PredBuild - Upgrade Building Is Highest Priority
+59 Run script - Player_2/g_PredBuild - Build Upgrade Building
+59 Run script - Player_2/g_PredBuild - Clear Pred Build Priorities
+60 Run script - Player_2/g_Spells - Run Evil Spells {Non-Team-Specific}
+61 Run script - Player_1/g_PredBuild - Set CCS Buildable Cycles
+61 Run script - Player_1/g_PredBuild - Run Build Scripts
+61 Advancing SeqScript 'be_Opposition - Threat Find - Flank' on Threat Finder - Flank --  Team '<This Team>' stops.
+61 Advancing SeqScript 'be_Opposition - Threat Find - Flank' on Threat Finder - Flank -- Set 'g_Opposition_Threat_Flank' to Team '<This Team>' radius of 500.00
+61 Advancing SeqScript 'be_Opposition - Threat Find - Flank' on Threat Finder - Flank --  Team '<This Team>' idles for  30  seconds.
