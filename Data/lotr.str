@@ -1052,7 +1052,7 @@ CONTROLBAR:GlorfindelRevive
 "Revive the fallen Hero, Glorfindel"
 END
 CONTROLBAR:GlorfindelHotKey
-"&Glorfindel"
+"G&lorfindel"
 END
 
 CONTROLBAR:GlorfindelLeadership
@@ -1105,7 +1105,7 @@ CONTROLBAR:ElrohirRevive
 END
 
 CONTROLBAR:ElrohirHotkey
-"Elrohir&"
+"Elrohi&r"
 END
 
 CONTROLBAR:SpecialAbilityBrotherofElladan
@@ -1143,7 +1143,7 @@ CONTROLBAR:ElladanRevive
 "Revive the fallen Hero, Elladan"
 END
 CONTROLBAR:ElladanHotKey
-"Elladan&"
+"Ella&dan"
 END
 
 CONTROLBAR:SpecialAbilityBrotherofElrohir
@@ -1174,7 +1174,7 @@ CONTROLBAR:ElrondRevive
 "Revive the fallen Hero, Elrond"
 END
 CONTROLBAR:ElrondHotKey
-"El&rond"
+"&Elrond"
 END
 
 CONTROLBAR:ElrondLeadership
@@ -1220,7 +1220,7 @@ CONTROLBAR:RivendellAragornRevive
 "Revive the fallen Hero, Aragorn"
 END
 CONTROLBAR:RivendellAragornHotkey
-"Aragorn"
+"&Aragorn"
 END
 
 CONTROLBAR:AragornChieftainLeadership
@@ -1261,7 +1261,7 @@ CONTROLBAR:GildorRevive
 "Revive the fallen Hero, Gildor Inglorion"
 END
 CONTROLBAR:GildorHotKey
-"Gil&dor"
+"&Gildor"
 END
 
 CONTROLBAR:GildorLeadership
@@ -1298,7 +1298,7 @@ CONTROLBAR:HalbaradRevive
 END
 
 CONTROLBAR:HalbaradHotKey
-"Halbarad&"
+"&Halbarad"
 END
 
 CONTROLBAR:ToolTipToggleHalbaradWeapons
