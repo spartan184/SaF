@@ -1935,7 +1935,7 @@ END
 
 // -- Rivendell Castle Upgrades
 CONTROLBAR:RivendellWallBallistaUpgrade
-"Build Wall &Ballista Upgrade"
+"Build Wall Ballis&ta Upgrade"
 END
 CONTROLBAR:ToolTipRivendellWallBallistaUpgrade
 "Builds a ballista"
