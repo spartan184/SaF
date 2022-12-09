@@ -782,7 +782,7 @@ CONTROLBAR:HaldirSkill
 "Elven Skill"
 END
 CONTROLBAR:TooltipHaldirSkill
-"Required: Rank 8 \n Grants experience to non-Elven archers within a radius \n left click then right click on target"
+"Required: Rank 8 \n Grants experience to archers within a radius \n left click then right click on target"
 END
 
 CONTROLBAR:HaldirQuickDraw
