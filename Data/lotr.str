@@ -1185,7 +1185,7 @@ CONTROLBAR:ToolTipElrondLeadership
 END
 
 CONTROLBAR:ElrondSkillOfElves
-"&Skill of the Elves"
+"Skill of the &Elves"
 END
 CONTROLBAR:ToolTipElrondSkillOfElves
 "Required: Rank 3 \nElrond's attacks temporarily deal splash and knockback damage\n Left click to activate"
