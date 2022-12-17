@@ -1,0 +1,1208 @@
+0 /team - creating team instance.
+0 PlyrMordor/teamPlyrMordor - creating team instance.
+0 PlyrCivilian/teamPlyrCivilian - creating team instance.
+0 PlyrGondor/teamPlyrGondor - creating team instance.
+0 PlyrMordor02/teamPlyrMordor02 - creating team instance.
+0 PlyrMordor03/teamPlyrMordor03 - creating team instance.
+0 /teamSkirmishGondor - creating team instance.
+0 /teamSkirmishRohan - creating team instance.
+0 /teamSkirmishMordor - creating team instance.
+0 /teamSkirmishIsengard - creating team instance.
+0 /teamPlyrCreeps - creating team instance.
+0 /teamPlayer_1 - creating team instance.
+0 /teamPlayer_2 - creating team instance.
+0 /teamPlyrNeutral - creating team instance.
+0 /teamSkirmishGundabad - creating team instance.
+0 ReplayObserver/teamReplayObserver - creating team instance.
+0 PlyrMordor03/Gate Wall Archers - creating team instance.
+0 PlyrMordor/1st Attack Wave - 05 - creating team instance.
+0 PlyrMordor/1st Attack Wave - 04 - creating team instance.
+0 PlyrMordor/1st Attack Wave - 02 - creating team instance.
+0 PlyrMordor/1st Attack Wave - 03 - creating team instance.
+1 Run script - /Objective Text Handling
+1 Run script - /Turn off house color
+1 Run script - /Map_Reveal
+1 Run script - /Disallow Spells
+1 Run script - /Set Player's Money
+1 Run script - /Temp - Set Mordor Rank
+1 Run script - /Grant Camera Sciences
+1 Run script - /Set up Camera View
+1 Run script - /Intro Cine Picker Timer
+1 Run script - /Hero Team Picker Timer
+1 Run script - /timers
+1 Run script - /___MusicScript_FirstFrameInit
+1 Run script - /___MusicScript_InitController
+1 Run script - /___MusicScript_PlayerFactionInit
+1 Run script - /___MusicScript_TestGondor
+1 Run script - /___MusicScript_PhaseInit
+1 Run script - /___MusicScript_InitLevel1Music
+1 Run script - /___MusicScript_InitLevel1MusicGood
+1 Run script - /___MusicScript_HomeBaseSubroutine
+1 Run script - /___MusicScript_NewLevel0Music
+1 Run script - /___MusicScript_DoBaseBuildGood
+1 Run script - /___MusicScript_DoBaseBuildGood30
+1 Run script - PlyrMordor/FS - AttackWave2 Spawn Timer
+1 Run script - PlyrMordor/AttackWave2_Counter
+1 Run script - PlyrMordor/AW2 - Death Counter
+1 Run script - PlyrMordor/AttackWave3_Counter
+1 Run script - PlyrMordor/AW3 - Death Counter
+1 Run script - PlyrMordor/AttackWave4_Counter
+1 Run script - PlyrMordor/AW4 - Death Counter
+1 Run script - PlyrMordor/AW5 - Death Counter
+1 Run script - PlyrGondor/Player Object List
+1 Run script - PlyrGondor/Determine Player Faction
+1 Run script - PlyrMordor03/Gate Wall Archers Guard
+1 ***Script not defined:***
+1 /p_Anti-Infantry Priority Assignment
+1 ***Script not defined:***
+1 /p_Anti-Archer Priority Assignment
+1 ***Script not defined:***
+1 /p_Anti-Cavalry Priority Assignment
+1 ***Script not defined:***
+1 /p_Anti-Cavalry Priority Assignment
+2 Run script - /set refs
+3 Run script - /teleport heroes
+4 Run script - /Intro Cine Picker
+4 Run script - /Hero Team Picker
+4 Run script - /___MusicScript_HomeBaseUpdate
+4 Run script - /___MusicScript_HomeBaseSubroutine
+5 Run script - /Aragorn Checker
+5 Run script - /Intro Cine 1 (Aragorn)
+5 Run script - /Aragorn Checker Bonus Objective
+15 Run script - /Give Experience
+15 Run script - /Intro Cine 2 (Aragorn)
+34 Run script - /___MusicScript_HomeBaseUpdate
+34 Run script - /___MusicScript_HomeBaseSubroutine
+64 Run script - /___MusicScript_HomeBaseUpdate
+64 Run script - /___MusicScript_HomeBaseSubroutine
+94 Run script - /___MusicScript_HomeBaseUpdate
+94 Run script - /___MusicScript_HomeBaseSubroutine
+105 Run script - /Intro Cine 3 (Aragorn)
+124 Run script - /___MusicScript_HomeBaseUpdate
+124 Run script - /___MusicScript_HomeBaseSubroutine
+125 Run script - /Intro Cine 4 (Aragorn)
+145 Run script - /Intro Cine 5 (Aragorn)
+150 Run script - /End Cine (Aragorn)
+150 Run script - PlyrMordor/Gate Open
+150 Run script - PlyrMordor/Gate Opening Sounds 1
+151 Generic script '1stAW - 02 - FollowPath' run on team 1st Attack Wave - 02
+151 Generic script '1stAW - 03 - FollowPath' run on team 1st Attack Wave - 03
+151 Generic script '1stAW - 04 - FollowPath' run on team 1st Attack Wave - 04
+151 Generic script '1stAW - 05 - FollowPath' run on team 1st Attack Wave - 05
+154 Run script - /___MusicScript_HomeBaseUpdate
+154 Run script - /___MusicScript_HomeBaseSubroutine
+165 Run script - PlyrMordor/Gate Opening Sounds 2
+184 Run script - /___MusicScript_HomeBaseUpdate
+184 Run script - /___MusicScript_HomeBaseSubroutine
+214 Run script - /___MusicScript_HomeBaseUpdate
+214 Run script - /___MusicScript_HomeBaseSubroutine
+244 Run script - /___MusicScript_HomeBaseUpdate
+244 Run script - /___MusicScript_HomeBaseSubroutine
+274 Run script - /___MusicScript_HomeBaseUpdate
+274 Run script - /___MusicScript_HomeBaseSubroutine
+301 Run script - PlyrMordor/AttackWave2 Spawn
+303 Error : team '2nd Attack Wave - 01' has no Home Position (or Origin).
+303 PlyrMordor/2nd Attack Wave - 01 - creating team instance.
+303 2nd Attack Wave - 01 - starting team build.
+304 Run script - /___MusicScript_HomeBaseUpdate
+304 Run script - /___MusicScript_HomeBaseSubroutine
+320 Run script - /___MusicScript_ScanForActionTrackGood
+320 Run script - /___MusicScript_StartActionTrackGoodSubroutine
+320 Run script - /___MusicScript_DoActionGood
+320 Run script - /___MusicScript_DoActionGood6
+328 Error : team '2nd Attack Wave - 02' has no Home Position (or Origin).
+328 PlyrMordor/2nd Attack Wave - 02 - creating team instance.
+328 2nd Attack Wave - 02 - starting team build.
+334 Run script - /___MusicScript_HomeBaseUpdate
+334 Run script - /___MusicScript_HomeBaseSubroutine
+353 Error : team '2nd Attack Wave - 03' has no Home Position (or Origin).
+353 PlyrMordor/2nd Attack Wave - 03 - creating team instance.
+353 2nd Attack Wave - 03 - starting team build.
+364 Run script - /___MusicScript_HomeBaseUpdate
+364 Run script - /___MusicScript_HomeBaseSubroutine
+378 Error : team '2nd Attack Wave - 04' has no Home Position (or Origin).
+378 PlyrMordor/2nd Attack Wave - 04 - creating team instance.
+378 2nd Attack Wave - 04 - starting team build.
+394 Run script - /___MusicScript_HomeBaseUpdate
+394 Run script - /___MusicScript_HomeBaseSubroutine
+403 Error : team '2nd Attack Wave - 05' has no Home Position (or Origin).
+403 PlyrMordor/2nd Attack Wave - 05 - creating team instance.
+403 2nd Attack Wave - 05 - starting team build.
+419 Run script - PlyrMordor/AttackWave1-04_Destroyed
+424 Run script - /___MusicScript_HomeBaseUpdate
+424 Run script - /___MusicScript_HomeBaseSubroutine
+428 Error : team '2nd Attack Wave - 06' has no Home Position (or Origin).
+428 PlyrMordor/2nd Attack Wave - 06 - creating team instance.
+428 2nd Attack Wave - 06 - starting team build.
+430 Run script - PlyrMordor/AttackWave1-02_Destroyed
+440 Run script - PlyrMordor/AttackWave1-03_Destroyed
+453 Error : team '2nd Attack Wave - 07' has no Home Position (or Origin).
+453 PlyrMordor/2nd Attack Wave - 07 - creating team instance.
+453 2nd Attack Wave - 07 - starting team build.
+454 Run script - /___MusicScript_HomeBaseUpdate
+454 Run script - /___MusicScript_HomeBaseSubroutine
+470 Run script - PlyrMordor/AttackWave2_Spawned_Fighter
+478 Error : team '2nd Attack Wave - 08' has no Home Position (or Origin).
+478 PlyrMordor/2nd Attack Wave - 08 - creating team instance.
+478 2nd Attack Wave - 08 - starting team build.
+484 Run script - /___MusicScript_HomeBaseUpdate
+484 Run script - /___MusicScript_HomeBaseSubroutine
+499 Run script - /___MusicScript_OnEndOfGoodLevel1Track
+499 Run script - /___MusicScript_CheckForActionTrackCancelGood
+499 Run script - /___MusicScript_EndActionTrackGoodSubroutine
+503 Error : team '2nd Attack Wave - 09' has no Home Position (or Origin).
+503 PlyrMordor/2nd Attack Wave - 09 - creating team instance.
+503 2nd Attack Wave - 09 - starting team build.
+514 Run script - /___MusicScript_HomeBaseUpdate
+514 Run script - /___MusicScript_HomeBaseSubroutine
+520 Run script - PlyrMordor/AttackWave2_Spawned_Fighter
+528 Error : team '2nd Attack Wave - 10' has no Home Position (or Origin).
+528 PlyrMordor/2nd Attack Wave - 10 - creating team instance.
+528 2nd Attack Wave - 10 - starting team build.
+544 Run script - /___MusicScript_HomeBaseUpdate
+544 Run script - /___MusicScript_HomeBaseSubroutine
+553 Error : team '2nd Attack Wave - 11' has no Home Position (or Origin).
+553 PlyrMordor/2nd Attack Wave - 11 - creating team instance.
+553 2nd Attack Wave - 11 - starting team build.
+570 Run script - PlyrMordor/AttackWave2_Spawned_Fighter
+574 Run script - /___MusicScript_HomeBaseUpdate
+574 Run script - /___MusicScript_HomeBaseSubroutine
+578 Error : team '2nd Attack Wave - 12' has no Home Position (or Origin).
+578 PlyrMordor/2nd Attack Wave - 12 - creating team instance.
+578 2nd Attack Wave - 12 - starting team build.
+603 Error : team '2nd Attack Wave - 14' has no Home Position (or Origin).
+603 PlyrMordor/2nd Attack Wave - 14 - creating team instance.
+603 2nd Attack Wave - 14 - starting team build.
+604 Run script - /___MusicScript_HomeBaseUpdate
+604 Run script - /___MusicScript_HomeBaseSubroutine
+620 Run script - PlyrMordor/AttackWave2_Spawned_Fighter
+628 Error : team '2nd Attack Wave - 16' has no Home Position (or Origin).
+628 PlyrMordor/2nd Attack Wave - 16 - creating team instance.
+628 2nd Attack Wave - 16 - starting team build.
+634 Run script - /___MusicScript_HomeBaseUpdate
+634 Run script - /___MusicScript_HomeBaseSubroutine
+637 Run script - PlyrMordor/AttackWave2_Spawned_Archer
+653 Error : team '2nd Attack Wave - 18' has no Home Position (or Origin).
+653 PlyrMordor/2nd Attack Wave - 18 - creating team instance.
+653 2nd Attack Wave - 18 - starting team build.
+653 Run script - /___MusicScript_Level0MusicIsDone
+653 Run script - /___MusicScript_StartLevel0MusicShortly
+664 Run script - /___MusicScript_HomeBaseUpdate
+664 Run script - /___MusicScript_HomeBaseSubroutine
+664 Run script - PlyrMordor/AttackWave1-05_Destroyed
+670 Run script - PlyrMordor/AttackWave2_Spawned_Fighter
+678 Error : team '2nd Attack Wave - 20' has no Home Position (or Origin).
+678 PlyrMordor/2nd Attack Wave - 20 - creating team instance.
+678 2nd Attack Wave - 20 - starting team build.
+687 Run script - PlyrMordor/AttackWave2_Spawned_Archer
+694 Run script - /___MusicScript_HomeBaseUpdate
+694 Run script - /___MusicScript_HomeBaseSubroutine
+703 Error : team '2nd Attack Wave - 13' has no Home Position (or Origin).
+703 PlyrMordor/2nd Attack Wave - 13 - creating team instance.
+703 2nd Attack Wave - 13 - starting team build.
+703 Run script - /___MusicScript_NewLevel0Music
+703 Run script - /___MusicScript_DoBaseBuildGood
+703 Run script - /___MusicScript_DoBaseBuildGood17
+720 Run script - PlyrMordor/AttackWave2_Spawned_Fighter
+724 Run script - /___MusicScript_HomeBaseUpdate
+724 Run script - /___MusicScript_HomeBaseSubroutine
+737 Error : team '2nd Attack Wave - 15' has no Home Position (or Origin).
+737 PlyrMordor/2nd Attack Wave - 15 - creating team instance.
+737 2nd Attack Wave - 15 - starting team build.
+737 Run script - PlyrMordor/AttackWave2_Spawned_Archer
+754 Run script - /___MusicScript_HomeBaseUpdate
+754 Run script - /___MusicScript_HomeBaseSubroutine
+784 Run script - /___MusicScript_HomeBaseUpdate
+784 Run script - /___MusicScript_HomeBaseSubroutine
+787 Run script - PlyrMordor/AttackWave2_Spawned_Archer
+788 Run script - PlyrMordor03/Nazgul_Spawn_01
+788 PlyrMordor03/Nazgul - creating team instance.
+788 PlyrMordor03/Nazgul 1 - creating team instance.
+788 PlyrMordor03/Nazgul 2 - creating team instance.
+788 Run script - PlyrMordor03/Nazgul_Attack 1
+788 Run script - PlyrMordor03/Nazgul_Attack
+788 Run script - PlyrMordor03/Nazgul_Attack
+789 Generic script 'PlyrMordor/p_Anti-Building Priority Assignment' run on team Nazgul
+789 Generic script 'PlyrMordor/p_Anti-Building Priority Assignment' run on team Nazgul 1
+789 Generic script 'PlyrMordor/p_Anti-Building Priority Assignment' run on team Nazgul 2
+804 Run script - PlyrMordor/AttackWave2_Spawned_Archer
+814 Run script - /___MusicScript_HomeBaseUpdate
+814 Run script - /___MusicScript_HomeBaseSubroutine
+837 Run script - PlyrMordor/AttackWave2_Spawned_Archer
+844 Run script - /___MusicScript_HomeBaseUpdate
+844 Run script - /___MusicScript_HomeBaseSubroutine
+860 Run script - /___MusicScript_ScanForActionTrackGood
+860 Run script - /___MusicScript_StartActionTrackGoodSubroutine
+860 Run script - /___MusicScript_DoActionGood
+860 Run script - /___MusicScript_DoActionGood4
+870 Error : team '2nd Attack Wave - 17' has no Home Position (or Origin).
+870 PlyrMordor/2nd Attack Wave - 17 - creating team instance.
+870 2nd Attack Wave - 17 - starting team build.
+870 Run script - PlyrMordor/AttackWave2_Spawned_Fighter
+874 Run script - /___MusicScript_HomeBaseUpdate
+874 Run script - /___MusicScript_HomeBaseSubroutine
+887 Run script - PlyrMordor/AttackWave2_Spawned_Archer
+895 Error : team '2nd Attack Wave - 19' has no Home Position (or Origin).
+895 PlyrMordor/2nd Attack Wave - 19 - creating team instance.
+895 2nd Attack Wave - 19 - starting team build.
+904 Run script - /___MusicScript_HomeBaseUpdate
+904 Run script - /___MusicScript_HomeBaseSubroutine
+904 Run script - PlyrMordor/AttackWave2_Spawned_Fighter
+913 Run script - PlyrMordor03/Nazgul Screech
+918 Run script - PlyrMordor03/Nazgul Screech4
+923 Run script - PlyrMordor03/Nazgul Screech2
+928 Run script - PlyrMordor03/Nazgul Screech3
+934 Run script - /___MusicScript_HomeBaseUpdate
+934 Run script - /___MusicScript_HomeBaseSubroutine
+954 Run script - PlyrMordor/AttackWave2_Spawned_Archer
+964 Run script - /___MusicScript_HomeBaseUpdate
+964 Run script - /___MusicScript_HomeBaseSubroutine
+971 Run script - PlyrMordor/AttackWave2_Spawned_Archer
+994 Run script - /___MusicScript_HomeBaseUpdate
+994 Run script - /___MusicScript_HomeBaseSubroutine
+1004 Run script - PlyrMordor/AttackWave2_Spawned_Archer
+1024 Run script - /___MusicScript_HomeBaseUpdate
+1024 Run script - /___MusicScript_HomeBaseSubroutine
+1031 Run script - /___MusicScript_OnEndOfGoodLevel1Track
+1031 Run script - /___MusicScript_CheckForActionTrackCancelGood
+1031 Run script - /___MusicScript_EndActionTrackGoodSubroutine
+1037 Run script - PlyrMordor/AttackWave2_Spawned_Fighter
+1054 Run script - /___MusicScript_HomeBaseUpdate
+1054 Run script - /___MusicScript_HomeBaseSubroutine
+1062 Run script - PlyrMordor/AttackWave2_Spawned_Fighter
+1063 Run script - PlyrMordor/AW2_Counter_Reached
+1064 Generic script 'AW2-01_Recruit' run on team 2nd Attack Wave - 09
+1064 Generic script 'AW2-02_Recruit' run on team 2nd Attack Wave - 10
+1064 Generic script 'AW2-03_Recruit' run on team 2nd Attack Wave - 11
+1064 Generic script 'AW2-04_Recruit' run on team 2nd Attack Wave - 12
+1064 Generic script 'AW2-05_Recruit' run on team 2nd Attack Wave - 13
+1064 Generic script 'AW2-06_Recruit' run on team 2nd Attack Wave - 14
+1064 Generic script 'AW2-07_Recruit' run on team 2nd Attack Wave - 15
+1064 Generic script 'AW2-08_Recruit' run on team 2nd Attack Wave - 16
+1064 Generic script 'AW2-01_Recruit' run on team 2nd Attack Wave - 17
+1064 Generic script 'AW2-02_Recruit' run on team 2nd Attack Wave - 18
+1064 Generic script 'AW2-03_Recruit' run on team 2nd Attack Wave - 19
+1064 Generic script 'AW2-04_Recruit' run on team 2nd Attack Wave - 20
+1084 Run script - /___MusicScript_HomeBaseUpdate
+1084 Run script - /___MusicScript_HomeBaseSubroutine
+1088 Run script - PlyrMordor/Eye Of Sauron
+1088 PlyrMordor/Eye Of Sauron - creating team instance.
+1088 Run script - PlyrMordor/AW2-01_Attack
+1088 Run script - PlyrMordor/AW2-02_Attack
+1088 Run script - PlyrMordor/AW2-03_Attack
+1088 Run script - PlyrMordor/AW2-04_Attack
+1088 Run script - PlyrMordor/AW2-05_Attack
+1088 Run script - PlyrMordor/AW2-06_Attack
+1088 Run script - PlyrMordor/AW2-07_Attack
+1088 Run script - PlyrMordor/AW2-08_Attack
+1088 Run script - PlyrMordor/Attack Wave 2 Hunt Timer
+1088 Run script - PlyrMordor/b_Spell - Eye Of Sauron
+1088 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'CASTLE_KEEP' that is owned by the player Player '<This Player's Enemies>'.
+1104 Run script - /___MusicScript_Level0MusicIsDone
+1104 Run script - /___MusicScript_StartLevel0MusicEventually
+1114 Run script - /___MusicScript_HomeBaseUpdate
+1114 Run script - /___MusicScript_HomeBaseSubroutine
+1127 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'FS_FACTORY' that is owned by the player Player '<This Player's Enemies>'.
+1128 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Allies incl Self>'.
+1144 Run script - /___MusicScript_HomeBaseUpdate
+1144 Run script - /___MusicScript_HomeBaseSubroutine
+1166 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Enemies>'.
+1174 Run script - /___MusicScript_HomeBaseUpdate
+1174 Run script - /___MusicScript_HomeBaseSubroutine
+1178 Run script - PlyrMordor03/Destroy Extra Nazgul
+1195 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Allies incl Self>'.
+1204 Run script - /___MusicScript_HomeBaseUpdate
+1204 Run script - /___MusicScript_HomeBaseSubroutine
+1219 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Enemies>'.
+1234 Run script - /___MusicScript_HomeBaseUpdate
+1234 Run script - /___MusicScript_HomeBaseSubroutine
+1243 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Allies incl Self>'.
+1252 Run script - /___MusicScript_ScanForActionTrackGood
+1252 Run script - /___MusicScript_StartActionTrackGoodSubroutine
+1252 Run script - /___MusicScript_DoActionGood
+1252 Run script - /___MusicScript_DoActionGood4
+1253 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Enemies>'.
+1262 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'HORDE' that is owned by the player Player '<This Player's Allies incl Self>'.
+1264 Run script - /___MusicScript_HomeBaseUpdate
+1264 Run script - /___MusicScript_HomeBaseSubroutine
+1269 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'HORDE' that is owned by the player Player '<This Player's Enemies>'.
+1276 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'HORDE' that is owned by the player Player '<This Player's Allies incl Self>'.
+1283 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Enemies>'.
+1288 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Allies incl Self>'.
+1289 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Enemies>'.
+1290 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Allies incl Self>'.
+1291 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Enemies>'.
+1294 Run script - /___MusicScript_HomeBaseUpdate
+1294 Run script - /___MusicScript_HomeBaseSubroutine
+1294 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Allies incl Self>'.
+1297 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Enemies>'.
+1303 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Allies incl Self>'.
+1306 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'ARCHER' that is owned by the player Player '<This Player's Enemies>'.
+1316 Run script - PlyrMordor/AW2 - TeamDie
+1317 Run script - PlyrMordor/Spawn AW4 Team 01
+1317 PlyrCivilian/4th Attack Wave - 01 - creating team instance.
+1318 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'ARCHER' that is owned by the player Player '<This Player's Allies incl Self>'.
+1324 Run script - /___MusicScript_HomeBaseUpdate
+1324 Run script - /___MusicScript_HomeBaseSubroutine
+1330 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'ARCHER' that is owned by the player Player '<This Player's Enemies>'.
+1340 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'ARCHER' that is owned by the player Player '<This Player's Allies incl Self>'.
+1350 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'ARCHER' that is owned by the player Player '<This Player's Enemies>'.
+1354 Run script - /___MusicScript_HomeBaseUpdate
+1354 Run script - /___MusicScript_HomeBaseSubroutine
+1360 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'ARCHER' that is owned by the player Player '<This Player's Allies incl Self>'.
+1367 Run script - PlyrMordor/AW2 - TeamDie
+1368 Run script - PlyrMordor/Spawn AW4 Team 02
+1368 PlyrCivilian/4th Attack Wave - 02 - creating team instance.
+1370 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'ARCHER' that is owned by the player Player '<This Player's Enemies>'.
+1380 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'ARCHER' that is owned by the player Player '<This Player's Allies incl Self>'.
+1384 Run script - /___MusicScript_HomeBaseUpdate
+1384 Run script - /___MusicScript_HomeBaseSubroutine
+1388 Run script - PlyrMordor/Attack Wave 2 Hunt
+1400 Run script - PlyrMordor/AW2 - TeamDie
+1401 Run script - PlyrMordor/Spawn AW4 Team 03
+1401 PlyrCivilian/4th Attack Wave - 03 - creating team instance.
+1401 Run script - PlyrMordor/AW2 - TeamDie
+1410 Run script - PlyrMordor/AW2 - TeamDie
+1412 Run script - /___MusicScript_OnEndOfGoodLevel1Track
+1412 Run script - /___MusicScript_DoActionGood
+1412 Run script - /___MusicScript_DoActionGood1
+1414 Run script - /___MusicScript_HomeBaseUpdate
+1414 Run script - /___MusicScript_HomeBaseSubroutine
+1435 Run script - PlyrMordor/AW2 - TeamDie
+1436 Run script - PlyrMordor/Spawn AW4 Team 04
+1436 PlyrCivilian/4th Attack Wave - 04 - creating team instance.
+1437 Run script - PlyrMordor/AW2 - TeamDie
+1438 Run script - PlyrMordor/Spawn AW4 Team 05
+1438 PlyrCivilian/4th Attack Wave - 05 - creating team instance.
+1444 Run script - /___MusicScript_HomeBaseUpdate
+1444 Run script - /___MusicScript_HomeBaseSubroutine
+1449 Run script - PlyrMordor/AW2 - TeamDie
+1450 Run script - PlyrMordor/AttackWave2_Destroyed2
+1450 Run script - PlyrMordor/Attack Wave 3 Start Timer
+1450 Run script - PlyrMordor/Spawn AW4 Team 06
+1450 PlyrCivilian/4th Attack Wave - 06 - creating team instance.
+1455 Run script - PlyrMordor02/Mini-Attack Wave 02 Spawn
+1455 PlyrMordor02/1st Mini-Attack Wave - 02 - creating team instance.
+1455 Run script - PlyrMordor02/Mini-Attack Wave 02 Behavoir
+1459 Run script - PlyrMordor02/Mini-Attack Wave 03 Spawn
+1459 PlyrMordor02/1st Mini-Attack Wave - 03 - creating team instance.
+1459 Run script - PlyrMordor02/Mini-Attack Wave 03 Behavoir
+1462 Error : team '3rd Attack Wave - 01' has no Home Position (or Origin).
+1462 PlyrMordor/3rd Attack Wave - 01 - creating team instance.
+1462 3rd Attack Wave - 01 - starting team build.
+1474 Run script - /___MusicScript_HomeBaseUpdate
+1474 Run script - /___MusicScript_HomeBaseSubroutine
+1487 Error : team '3rd Attack Wave - 02' has no Home Position (or Origin).
+1487 PlyrMordor/3rd Attack Wave - 02 - creating team instance.
+1487 3rd Attack Wave - 02 - starting team build.
+1504 Run script - /___MusicScript_HomeBaseUpdate
+1504 Run script - /___MusicScript_HomeBaseSubroutine
+1512 Error : team '3rd Attack Wave - 03' has no Home Position (or Origin).
+1512 PlyrMordor/3rd Attack Wave - 03 - creating team instance.
+1512 3rd Attack Wave - 03 - starting team build.
+1534 Run script - /___MusicScript_HomeBaseUpdate
+1534 Run script - /___MusicScript_HomeBaseSubroutine
+1537 Error : team '3rd Attack Wave - 04' has no Home Position (or Origin).
+1537 PlyrMordor/3rd Attack Wave - 04 - creating team instance.
+1537 3rd Attack Wave - 04 - starting team build.
+1555 Run script - PlyrMordor02/Mini-Attack Wave 01 Alert Sound
+1562 Error : team '3rd Attack Wave - 05' has no Home Position (or Origin).
+1562 PlyrMordor/3rd Attack Wave - 05 - creating team instance.
+1562 3rd Attack Wave - 05 - starting team build.
+1564 Run script - /___MusicScript_HomeBaseUpdate
+1564 Run script - /___MusicScript_HomeBaseSubroutine
+1587 Error : team '3rd Attack Wave - 06' has no Home Position (or Origin).
+1587 PlyrMordor/3rd Attack Wave - 06 - creating team instance.
+1587 3rd Attack Wave - 06 - starting team build.
+1594 Run script - /___MusicScript_HomeBaseUpdate
+1594 Run script - /___MusicScript_HomeBaseSubroutine
+1612 Error : team '3rd Attack Wave - 08' has no Home Position (or Origin).
+1612 PlyrMordor/3rd Attack Wave - 08 - creating team instance.
+1612 3rd Attack Wave - 08 - starting team build.
+1624 Run script - /___MusicScript_HomeBaseUpdate
+1624 Run script - /___MusicScript_HomeBaseSubroutine
+1629 Run script - PlyrMordor/AW3 - 01_Spawned
+1629 Advancing SeqScript 'AW3 - 01_SeqScript' on 3rd Attack Wave - 01 -- Move Team '3rd Attack Wave - 01' to Waypoint 'AW03 - MoveTo - 01'.
+1637 Error : team '3rd Attack Wave - 09' has no Home Position (or Origin).
+1637 PlyrMordor/3rd Attack Wave - 09 - creating team instance.
+1637 3rd Attack Wave - 09 - starting team build.
+1654 Run script - /___MusicScript_HomeBaseUpdate
+1654 Run script - /___MusicScript_HomeBaseSubroutine
+1654 Run script - PlyrMordor/AW3 - 02_Spawned
+1654 Advancing SeqScript 'AW3 - 02_SeqScript' on 3rd Attack Wave - 02 -- Move Team '3rd Attack Wave - 02' to Waypoint 'AW03 - MoveTo - 02'.
+1662 Error : team '3rd Attack Wave - 11' has no Home Position (or Origin).
+1662 PlyrMordor/3rd Attack Wave - 11 - creating team instance.
+1662 3rd Attack Wave - 11 - starting team build.
+1662 Run script - /___MusicScript_OnEndOfGoodLevel1Track
+1662 Run script - /___MusicScript_CheckForActionTrackCancelGood
+1662 Run script - /___MusicScript_EndActionTrackGoodSubroutine
+1663 Run script - /___MusicScript_NewLevel0Music
+1663 Run script - /___MusicScript_DoBaseBuildGood
+1663 Run script - /___MusicScript_DoBaseBuildGood16
+1679 Run script - PlyrMordor/AW3 - 03_Spawned
+1679 Advancing SeqScript 'AW3 - 03_SeqScript' on 3rd Attack Wave - 03 -- Move Team '3rd Attack Wave - 03' to Waypoint 'AW03 - MoveTo - 03'.
+1683 Run script - /___MusicScript_ScanForActionTrackGood
+1683 Run script - /___MusicScript_StartActionTrackGoodSubroutine
+1683 Run script - /___MusicScript_DoActionGood
+1683 Run script - /___MusicScript_DoActionGood1
+1684 Run script - /___MusicScript_HomeBaseUpdate
+1684 Run script - /___MusicScript_HomeBaseSubroutine
+1687 Error : team '3rd Attack Wave - 12' has no Home Position (or Origin).
+1687 PlyrMordor/3rd Attack Wave - 12 - creating team instance.
+1687 3rd Attack Wave - 12 - starting team build.
+1704 Run script - PlyrMordor/AW3 - 04_Spawned
+1704 Advancing SeqScript 'AW3 - 04_SeqScript' on 3rd Attack Wave - 04 -- Move Team '3rd Attack Wave - 04' to Waypoint 'AW03 - MoveTo - 04'.
+1712 Error : team '3rd Attack Wave - 14' has no Home Position (or Origin).
+1712 PlyrMordor/3rd Attack Wave - 14 - creating team instance.
+1712 3rd Attack Wave - 14 - starting team build.
+1714 Run script - /___MusicScript_HomeBaseUpdate
+1714 Run script - /___MusicScript_HomeBaseSubroutine
+1737 Error : team '3rd Attack Wave - 15' has no Home Position (or Origin).
+1737 PlyrMordor/3rd Attack Wave - 15 - creating team instance.
+1737 3rd Attack Wave - 15 - starting team build.
+1744 Run script - /___MusicScript_HomeBaseUpdate
+1744 Run script - /___MusicScript_HomeBaseSubroutine
+1750 Run script - PlyrMordor/Attack Wave 3 Start
+1750 Run script - PlyrMordor/AW3_Counter_Reached
+1750 PlyrMordor/3rd Attack Wave - 25 - creating team instance.
+1750 PlyrMordor/3rd Attack Wave - 26 - creating team instance.
+1750 PlyrMordor/3rd Attack Wave - 28 - creating team instance.
+1750 PlyrMordor/3rd Attack Wave - 29 - creating team instance.
+1750 PlyrMordor/3rd Attack Wave - 18 - creating team instance.
+1750 PlyrMordor/3rd Attack Wave - 20 - creating team instance.
+1750 PlyrMordor/3rd Attack Wave - 22 - creating team instance.
+1750 PlyrMordor/3rd Attack Wave - 24 - creating team instance.
+1750 Run script - PlyrMordor/WargRider Spawn 01
+1750 PlyrMordor/Warg Riders - creating team instance.
+1750 Run script - PlyrMordor/WargRider Spawn 02
+1750 PlyrMordor/Warg Riders 2 - creating team instance.
+1750 Run script - PlyrMordor/AW3 - 18_Spawned
+1750 Run script - PlyrMordor/AW3 - 20_Spawned
+1750 Run script - PlyrMordor/AW3 - 22_Spawned
+1750 Run script - PlyrMordor/AW3 - 24_Spawned
+1751 Generic script 'AW3 - 25_Spawned' run on team 3rd Attack Wave - 25
+1751 Generic script 'AW3 - 26_Spawned' run on team 3rd Attack Wave - 26
+1751 Generic script 'AW3 - 28_Spawned' run on team 3rd Attack Wave - 28
+1751 Generic script 'AW3 - 29_Spawned' run on team 3rd Attack Wave - 29
+1751 Advancing SeqScript 'AW3 - 25_SeqScript' on 3rd Attack Wave - 25 -- Spawn Unit 'Troll 1' of type 'MordorMountainTroll' on Team '3rd Attack Wave - 25' at waypoint Waypoint 'Waypoint 361'
+1751 Advancing SeqScript 'AW3 - 25_SeqScript' on 3rd Attack Wave - 25 -- Spawn Unit 'Troll 2' of type 'MordorMountainTroll' on Team '3rd Attack Wave - 25' at waypoint Waypoint 'Waypoint 364'
+1751 Advancing SeqScript 'AW3 - 25_SeqScript' on 3rd Attack Wave - 25 --  Unit 'Troll 1' use Ability 'Command_SpecialAbilityTrollFindRock'.
+1751 Advancing SeqScript 'AW3 - 25_SeqScript' on 3rd Attack Wave - 25 --  Unit 'Troll 2' use Ability 'Command_SpecialAbilityTrollFindRock'.
+1751 Advancing SeqScript 'AW3 - 25_SeqScript' on 3rd Attack Wave - 25 -- Gives Team '<This Team>' experience points  1500 .
+1751 Advancing SeqScript 'AW3 - 25_SeqScript' on 3rd Attack Wave - 25 -- Set timer 'Trolls Move' to expire in 10.00 seconds.
+1751 Advancing SeqScript 'AW3 - 26_SeqScript' on 3rd Attack Wave - 26 -- Spawn Unit 'Troll 5' of type 'MordorMountainTroll' on Team '3rd Attack Wave - 26' at waypoint Waypoint 'Waypoint 363'
+1751 Advancing SeqScript 'AW3 - 26_SeqScript' on 3rd Attack Wave - 26 -- Spawn Unit 'Troll 6' of type 'MordorMountainTroll' on Team '3rd Attack Wave - 26' at waypoint Waypoint 'Waypoint 366'
+1751 Advancing SeqScript 'AW3 - 26_SeqScript' on 3rd Attack Wave - 26 --  Unit 'Troll 5' use Ability 'Command_SpecialAbilityTrollFindTree'.
+1751 Advancing SeqScript 'AW3 - 26_SeqScript' on 3rd Attack Wave - 26 --  Unit 'Troll 6' use Ability 'Command_SpecialAbilityTrollFindTree'.
+1751 Advancing SeqScript 'AW3 - 26_SeqScript' on 3rd Attack Wave - 26 -- Gives Team '<This Team>' experience points  1500 .
+1751 Advancing SeqScript 'AW3 - 28_SeqScript' on 3rd Attack Wave - 28 -- Spawn Unit 'Troll 9' of type 'MordorMountainTroll' on Team '3rd Attack Wave - 28' at waypoint Waypoint 'Waypoint 349'
+1751 Advancing SeqScript 'AW3 - 28_SeqScript' on 3rd Attack Wave - 28 -- Spawn Unit 'Troll 11' of type 'MordorMountainTroll' on Team '3rd Attack Wave - 28' at waypoint Waypoint 'Waypoint 355'
+1751 Advancing SeqScript 'AW3 - 28_SeqScript' on 3rd Attack Wave - 28 --  Unit 'Troll 9' use Ability 'Command_SpecialAbilityTrollFindRock'.
+1751 Advancing SeqScript 'AW3 - 28_SeqScript' on 3rd Attack Wave - 28 --  Unit 'Troll 11' use Ability 'Command_SpecialAbilityTrollFindRock'.
+1751 Advancing SeqScript 'AW3 - 28_SeqScript' on 3rd Attack Wave - 28 -- Gives Team '<This Team>' experience points  1500 .
+1751 Advancing SeqScript 'AW3 - 29_SeqScript' on 3rd Attack Wave - 29 -- Spawn Unit 'Troll 13' of type 'MordorMountainTroll' on Team '3rd Attack Wave - 29' at waypoint Waypoint 'Waypoint 350'
+1751 Advancing SeqScript 'AW3 - 29_SeqScript' on 3rd Attack Wave - 29 -- Spawn Unit 'Troll 15' of type 'MordorMountainTroll' on Team '3rd Attack Wave - 29' at waypoint Waypoint 'Waypoint 357'
+1751 Advancing SeqScript 'AW3 - 29_SeqScript' on 3rd Attack Wave - 29 --  Unit 'Troll 13' use Ability 'Command_SpecialAbilityTrollFindTree'.
+1751 Advancing SeqScript 'AW3 - 29_SeqScript' on 3rd Attack Wave - 29 --  Unit 'Troll 15' use Ability 'Command_SpecialAbilityTrollFindTree'.
+1751 Advancing SeqScript 'AW3 - 29_SeqScript' on 3rd Attack Wave - 29 -- Gives Team '<This Team>' experience points  1500 .
+1754 Run script - PlyrMordor/AW3 - 06_Spawned
+1754 Advancing SeqScript 'AW3 - 06_SeqScript' on 3rd Attack Wave - 06 -- Move Team '3rd Attack Wave - 06' to Waypoint 'AW03 - MoveTo - 06'.
+1774 Run script - /___MusicScript_HomeBaseUpdate
+1774 Run script - /___MusicScript_HomeBaseSubroutine
+1796 Run script - PlyrMordor/AW3 - 05_Spawned
+1796 Advancing SeqScript 'AW3 - 05_SeqScript' on 3rd Attack Wave - 05 -- Move Team '3rd Attack Wave - 05' to Waypoint 'AW03 - MoveTo - 05'.
+1801 Run script - PlyrMordor/AttackWave3_TrollMove
+1804 Run script - /___MusicScript_HomeBaseUpdate
+1804 Run script - /___MusicScript_HomeBaseSubroutine
+1810 Advancing SeqScript 'AW3 - 02_SeqScript' on 3rd Attack Wave - 02 -- Add  1  to counter 'AttackWave3_Counter'
+1810 Advancing SeqScript 'AW3 - 02_SeqScript' on 3rd Attack Wave - 02 --  Team '<This Team>' sets model condition ModelCondition State: EMOTION_TAUNTING for 300.00 seconds. Percentage 100.00%.
+1829 Run script - PlyrMordor/AW3 - 11_Spawned
+1829 Advancing SeqScript 'AW3 - 11_SeqScript' on 3rd Attack Wave - 11 -- Move Team '3rd Attack Wave - 11' to Waypoint 'AW03 - MoveTo - 11'.
+1834 Run script - /___MusicScript_HomeBaseUpdate
+1834 Run script - /___MusicScript_HomeBaseSubroutine
+1848 Advancing SeqScript 'AW3 - 04_SeqScript' on 3rd Attack Wave - 04 -- Add  1  to counter 'AttackWave3_Counter'
+1848 Advancing SeqScript 'AW3 - 04_SeqScript' on 3rd Attack Wave - 04 --  Team '<This Team>' sets model condition ModelCondition State: EMOTION_TAUNTING for 300.00 seconds. Percentage 100.00%.
+1850 Run script - PlyrMordor/Warg Rider Incoming Sound
+1859 Run script - PlyrMordor/Warg Rider 01 Hunt
+1864 Run script - /___MusicScript_HomeBaseUpdate
+1864 Run script - /___MusicScript_HomeBaseSubroutine
+1865 Advancing SeqScript 'AW3 - 06_SeqScript' on 3rd Attack Wave - 06 -- Add  1  to counter 'AttackWave3_Counter'
+1865 Advancing SeqScript 'AW3 - 06_SeqScript' on 3rd Attack Wave - 06 --  Team '<This Team>' sets model condition ModelCondition State: EMOTION_TAUNTING for 300.00 seconds. Percentage 100.00%.
+1866 Run script - PlyrMordor/Warg Rider 02 Hunt
+1894 Run script - /___MusicScript_HomeBaseUpdate
+1894 Run script - /___MusicScript_HomeBaseSubroutine
+1906 Run script - /___MusicScript_OnEndOfGoodLevel1Track
+1906 Run script - /___MusicScript_DoActionGood
+1906 Run script - /___MusicScript_DoActionGood4
+1907 Advancing SeqScript 'AW3 - 05_SeqScript' on 3rd Attack Wave - 05 -- Add  1  to counter 'AttackWave3_Counter'
+1907 Advancing SeqScript 'AW3 - 05_SeqScript' on 3rd Attack Wave - 05 --  Team '<This Team>' sets model condition ModelCondition State: EMOTION_TAUNTING for 300.00 seconds. Percentage 100.00%.
+1924 Run script - /___MusicScript_HomeBaseUpdate
+1924 Run script - /___MusicScript_HomeBaseSubroutine
+1932 Advancing SeqScript 'AW3 - 11_SeqScript' on 3rd Attack Wave - 11 -- Add  1  to counter 'AttackWave3_Counter'
+1932 Advancing SeqScript 'AW3 - 11_SeqScript' on 3rd Attack Wave - 11 --  Team '<This Team>' sets model condition ModelCondition State: EMOTION_TAUNTING for 300.00 seconds. Percentage 100.00%.
+1954 Run script - /___MusicScript_HomeBaseUpdate
+1954 Run script - /___MusicScript_HomeBaseSubroutine
+1963 Run script - PlyrMordor/AW3 - 08_Spawned
+1963 Advancing SeqScript 'AW3 - 08_SeqScript' on 3rd Attack Wave - 08 -- Move Team '3rd Attack Wave - 08' to Waypoint 'AW03 - MoveTo - 08'.
+1984 Run script - /___MusicScript_HomeBaseUpdate
+1984 Run script - /___MusicScript_HomeBaseSubroutine
+2014 Run script - /___MusicScript_HomeBaseUpdate
+2014 Run script - /___MusicScript_HomeBaseSubroutine
+2021 Run script - PlyrMordor/AW3 - 14_Spawned
+2021 Advancing SeqScript 'AW3 - 14_SeqScript' on 3rd Attack Wave - 14 -- Move Team '3rd Attack Wave - 14' to Waypoint 'AW03 - MoveTo - 14'.
+2044 Run script - /___MusicScript_HomeBaseUpdate
+2044 Run script - /___MusicScript_HomeBaseSubroutine
+2066 Run script - /___MusicScript_OnEndOfGoodLevel1Track
+2066 Run script - /___MusicScript_CheckForActionTrackCancelGood
+2066 Run script - /___MusicScript_EndActionTrackGoodSubroutine
+2074 Run script - /___MusicScript_HomeBaseUpdate
+2074 Run script - /___MusicScript_HomeBaseSubroutine
+2079 Advancing SeqScript 'AW3 - 08_SeqScript' on 3rd Attack Wave - 08 -- Add  1  to counter 'AttackWave3_Counter'
+2079 Advancing SeqScript 'AW3 - 08_SeqScript' on 3rd Attack Wave - 08 --  Team '<This Team>' sets model condition ModelCondition State: EMOTION_TAUNTING for 300.00 seconds. Percentage 100.00%.
+2104 Run script - /___MusicScript_HomeBaseUpdate
+2104 Run script - /___MusicScript_HomeBaseSubroutine
+2114 Advancing SeqScript 'AW3 - 14_SeqScript' on 3rd Attack Wave - 14 -- Add  1  to counter 'AttackWave3_Counter'
+2114 Advancing SeqScript 'AW3 - 14_SeqScript' on 3rd Attack Wave - 14 --  Team '<This Team>' sets model condition ModelCondition State: EMOTION_TAUNTING for 300.00 seconds. Percentage 100.00%.
+2134 Run script - /___MusicScript_HomeBaseUpdate
+2134 Run script - /___MusicScript_HomeBaseSubroutine
+2143 Run script - PlyrMordor/Eye of Sauron\Darkness
+2143 PlyrMordor/Eye Of Sauron - creating team instance.
+2143 Run script - PlyrMordor/AW3 - 02_Attack
+2143 Run script - PlyrMordor/AW3 - 04_Attack
+2143 Run script - PlyrMordor/AW3 - 06_Attack
+2143 Run script - PlyrMordor/AW3 - 09_Attack
+2143 Run script - PlyrMordor/AW3 - 12_Attack
+2143 Run script - PlyrMordor/AW3 - 15_Attack
+2143 Run script - PlyrMordor/AW3 - 18_Attack
+2143 Run script - PlyrMordor/AW3 - 20_Attack
+2143 Run script - PlyrMordor/AW3 - 22_Attack
+2143 Run script - PlyrMordor/AW3 - 24_Attack
+2143 Run script - PlyrMordor/Attack Wave 3 Hunt Timer
+2143 Run script - PlyrMordor/b_Spell - Eye Of Sauron
+2143 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'CASTLE_KEEP' that is owned by the player Player '<This Player's Enemies>'.
+2164 Run script - /___MusicScript_HomeBaseUpdate
+2164 Run script - /___MusicScript_HomeBaseSubroutine
+2182 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'FS_FACTORY' that is owned by the player Player '<This Player's Enemies>'.
+2183 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Allies incl Self>'.
+2194 Run script - /___MusicScript_HomeBaseUpdate
+2194 Run script - /___MusicScript_HomeBaseSubroutine
+2211 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Enemies>'.
+2224 Run script - /___MusicScript_HomeBaseUpdate
+2224 Run script - /___MusicScript_HomeBaseSubroutine
+2227 Run script - /___MusicScript_ScanForActionTrackGood
+2227 Run script - /___MusicScript_StartActionTrackGoodSubroutine
+2227 Run script - /___MusicScript_DoActionGood
+2227 Run script - /___MusicScript_DoActionGood6
+2230 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Allies incl Self>'.
+2242 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Enemies>'.
+2252 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Allies incl Self>'.
+2254 Run script - /___MusicScript_HomeBaseUpdate
+2254 Run script - /___MusicScript_HomeBaseSubroutine
+2258 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Enemies>'.
+2264 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'HORDE' that is owned by the player Player '<This Player's Allies incl Self>'.
+2266 Run script - PlyrMordor/AW3 - TeamDie
+2272 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'HORDE' that is owned by the player Player '<This Player's Enemies>'.
+2279 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'HORDE' that is owned by the player Player '<This Player's Allies incl Self>'.
+2284 Run script - /___MusicScript_HomeBaseUpdate
+2284 Run script - /___MusicScript_HomeBaseSubroutine
+2288 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Enemies>'.
+2293 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Allies incl Self>'.
+2299 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Enemies>'.
+2305 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Allies incl Self>'.
+2311 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Enemies>'.
+2314 Run script - /___MusicScript_HomeBaseUpdate
+2314 Run script - /___MusicScript_HomeBaseSubroutine
+2317 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Allies incl Self>'.
+2323 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Enemies>'.
+2329 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Allies incl Self>'.
+2335 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'ARCHER' that is owned by the player Player '<This Player's Enemies>'.
+2344 Run script - /___MusicScript_HomeBaseUpdate
+2344 Run script - /___MusicScript_HomeBaseSubroutine
+2347 Run script - PlyrMordor/AW3 - TeamDie
+2347 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'ARCHER' that is owned by the player Player '<This Player's Allies incl Self>'.
+2348 Run script - PlyrMordor/Spawn AW4 MumTeam 01
+2348 PlyrCivilian/4th Attack Wave - 08 - creating team instance.
+2366 Run script - PlyrMordor/AW3 - TeamDie
+2374 Run script - /___MusicScript_HomeBaseUpdate
+2374 Run script - /___MusicScript_HomeBaseSubroutine
+2379 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'ARCHER' that is owned by the player Player '<This Player's Enemies>'.
+2397 Run script - PlyrMordor/AW3 - TeamDie
+2398 Run script - PlyrMordor/Spawn AW4 MumTeam 02
+2398 PlyrCivilian/4th Attack Wave - 09 - creating team instance.
+2404 Run script - /___MusicScript_HomeBaseUpdate
+2404 Run script - /___MusicScript_HomeBaseSubroutine
+2405 Run script - /___MusicScript_OnEndOfGoodLevel1Track
+2405 Run script - /___MusicScript_DoActionGood
+2405 Run script - /___MusicScript_DoActionGood1
+2407 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'ARCHER' that is owned by the player Player '<This Player's Allies incl Self>'.
+2434 Run script - /___MusicScript_HomeBaseUpdate
+2434 Run script - /___MusicScript_HomeBaseSubroutine
+2435 Run script - PlyrMordor/AW3 - TeamDie
+2435 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'ARCHER' that is owned by the player Player '<This Player's Enemies>'.
+2443 Run script - PlyrMordor/Attack Wave 3 Hunt
+2464 Run script - /___MusicScript_HomeBaseUpdate
+2464 Run script - /___MusicScript_HomeBaseSubroutine
+2476 Run script - PlyrMordor/AW3 - TeamDie
+2494 Run script - /___MusicScript_HomeBaseUpdate
+2494 Run script - /___MusicScript_HomeBaseSubroutine
+2517 Run script - PlyrMordor/AW3 - TeamDie
+2524 Run script - /___MusicScript_HomeBaseUpdate
+2524 Run script - /___MusicScript_HomeBaseSubroutine
+2554 Run script - /___MusicScript_HomeBaseUpdate
+2554 Run script - /___MusicScript_HomeBaseSubroutine
+2584 Run script - /___MusicScript_HomeBaseUpdate
+2584 Run script - /___MusicScript_HomeBaseSubroutine
+2614 Run script - /___MusicScript_HomeBaseUpdate
+2614 Run script - /___MusicScript_HomeBaseSubroutine
+2621 Run script - /___MusicScript_OnEndOfGoodLevel1Track
+2621 Run script - /___MusicScript_CheckForActionTrackCancelGood
+2621 Run script - /___MusicScript_EndActionTrackGoodSubroutine
+2644 Run script - /___MusicScript_HomeBaseUpdate
+2644 Run script - /___MusicScript_HomeBaseSubroutine
+2674 Run script - /___MusicScript_HomeBaseUpdate
+2674 Run script - /___MusicScript_HomeBaseSubroutine
+2704 Run script - /___MusicScript_HomeBaseUpdate
+2704 Run script - /___MusicScript_HomeBaseSubroutine
+2714 Run script - /___MusicScript_Level0MusicIsDone
+2714 Run script - /___MusicScript_StartLevel0MusicEventually
+2734 Run script - /___MusicScript_HomeBaseUpdate
+2734 Run script - /___MusicScript_HomeBaseSubroutine
+2764 Run script - /___MusicScript_HomeBaseUpdate
+2764 Run script - /___MusicScript_HomeBaseSubroutine
+2794 Run script - /___MusicScript_HomeBaseUpdate
+2794 Run script - /___MusicScript_HomeBaseSubroutine
+2824 Run script - /___MusicScript_HomeBaseUpdate
+2824 Run script - /___MusicScript_HomeBaseSubroutine
+2854 Run script - /___MusicScript_HomeBaseUpdate
+2854 Run script - /___MusicScript_HomeBaseSubroutine
+2884 Run script - /___MusicScript_HomeBaseUpdate
+2884 Run script - /___MusicScript_HomeBaseSubroutine
+2914 Run script - /___MusicScript_NewLevel0Music
+2914 Run script - /___MusicScript_DoBaseBuildGood
+2914 Run script - /___MusicScript_DoBaseBuildGood9
+2914 Run script - /___MusicScript_HomeBaseUpdate
+2914 Run script - /___MusicScript_HomeBaseSubroutine
+2944 Run script - /___MusicScript_HomeBaseUpdate
+2944 Run script - /___MusicScript_HomeBaseSubroutine
+2974 Run script - /___MusicScript_HomeBaseUpdate
+2974 Run script - /___MusicScript_HomeBaseSubroutine
+3004 Run script - /___MusicScript_HomeBaseUpdate
+3004 Run script - /___MusicScript_HomeBaseSubroutine
+3034 Run script - /___MusicScript_HomeBaseUpdate
+3034 Run script - /___MusicScript_HomeBaseSubroutine
+3064 Run script - /___MusicScript_HomeBaseUpdate
+3064 Run script - /___MusicScript_HomeBaseSubroutine
+3094 Run script - /___MusicScript_HomeBaseUpdate
+3094 Run script - /___MusicScript_HomeBaseSubroutine
+3124 Run script - /___MusicScript_HomeBaseUpdate
+3124 Run script - /___MusicScript_HomeBaseSubroutine
+3154 Run script - /___MusicScript_HomeBaseUpdate
+3154 Run script - /___MusicScript_HomeBaseSubroutine
+3184 Run script - /___MusicScript_HomeBaseUpdate
+3184 Run script - /___MusicScript_HomeBaseSubroutine
+3193 Run script - PlyrMordor/AttackWave4 Spawn
+3196 Error : team '5th Attack Wave - 01' has no Home Position (or Origin).
+3196 PlyrMordor/5th Attack Wave - 01 - creating team instance.
+3196 5th Attack Wave - 01 - starting team build.
+3196 Team '5th Attack Wave - 01' recruits MordorFighterHorde from team 'teamPlyrMordor'
+3196 Team '5th Attack Wave - 01' recruits MordorFighterHorde from team 'teamPlyrMordor'
+3197 Run script - PlyrMordor/AttackWave5_Spawned
+3204 Run script - PlyrMordor02/Mini-Attack Wave 02 Spawn 2
+3204 PlyrMordor02/1st Mini-Attack Wave - 02 - creating team instance.
+3204 Run script - PlyrMordor02/Mini-Attack Wave 02 Behavoir
+3206 Run script - PlyrMordor02/Mini-Attack Wave 03 Spawn 2
+3206 PlyrMordor02/1st Mini-Attack Wave - 03 - creating team instance.
+3206 Run script - PlyrMordor02/Mini-Attack Wave 03 Behavoir
+3214 Run script - /___MusicScript_HomeBaseUpdate
+3214 Run script - /___MusicScript_HomeBaseSubroutine
+3221 Error : team '5th Attack Wave - 02' has no Home Position (or Origin).
+3221 PlyrMordor/5th Attack Wave - 02 - creating team instance.
+3221 5th Attack Wave - 02 - starting team build.
+3221 Team '5th Attack Wave - 02' recruits MordorFighterHorde from team 'teamPlyrMordor'
+3244 Run script - /___MusicScript_HomeBaseUpdate
+3244 Run script - /___MusicScript_HomeBaseSubroutine
+3246 Error : team '5th Attack Wave - 03' has no Home Position (or Origin).
+3246 PlyrMordor/5th Attack Wave - 03 - creating team instance.
+3246 5th Attack Wave - 03 - starting team build.
+3271 Error : team '5th Attack Wave - 04' has no Home Position (or Origin).
+3271 PlyrMordor/5th Attack Wave - 04 - creating team instance.
+3271 5th Attack Wave - 04 - starting team build.
+3274 Run script - /___MusicScript_HomeBaseUpdate
+3274 Run script - /___MusicScript_HomeBaseSubroutine
+3296 Error : team '5th Attack Wave - 05' has no Home Position (or Origin).
+3296 PlyrMordor/5th Attack Wave - 05 - creating team instance.
+3296 5th Attack Wave - 05 - starting team build.
+3304 Run script - /___MusicScript_HomeBaseUpdate
+3304 Run script - /___MusicScript_HomeBaseSubroutine
+3304 Run script - PlyrMordor02/Mini-Attack Wave 02 Alert Sound
+3321 Error : team '5th Attack Wave - 06' has no Home Position (or Origin).
+3321 PlyrMordor/5th Attack Wave - 06 - creating team instance.
+3321 5th Attack Wave - 06 - starting team build.
+3334 Run script - /___MusicScript_HomeBaseUpdate
+3334 Run script - /___MusicScript_HomeBaseSubroutine
+3346 Error : team '5th Attack Wave - 07' has no Home Position (or Origin).
+3346 PlyrMordor/5th Attack Wave - 07 - creating team instance.
+3346 5th Attack Wave - 07 - starting team build.
+3358 Run script - PlyrMordor/AttackWave5_Spawned
+3364 Run script - /___MusicScript_HomeBaseUpdate
+3364 Run script - /___MusicScript_HomeBaseSubroutine
+3371 Error : team '5th Attack Wave - 08' has no Home Position (or Origin).
+3371 PlyrMordor/5th Attack Wave - 08 - creating team instance.
+3371 5th Attack Wave - 08 - starting team build.
+3394 Run script - /___MusicScript_HomeBaseUpdate
+3394 Run script - /___MusicScript_HomeBaseSubroutine
+3396 Error : team '5th Attack Wave - 09' has no Home Position (or Origin).
+3396 PlyrMordor/5th Attack Wave - 09 - creating team instance.
+3396 5th Attack Wave - 09 - starting team build.
+3421 Error : team '5th Attack Wave - 10' has no Home Position (or Origin).
+3421 PlyrMordor/5th Attack Wave - 10 - creating team instance.
+3421 5th Attack Wave - 10 - starting team build.
+3424 Run script - /___MusicScript_HomeBaseUpdate
+3424 Run script - /___MusicScript_HomeBaseSubroutine
+3432 Run script - /___MusicScript_ScanForActionTrackGood
+3432 Run script - /___MusicScript_StartActionTrackGoodSubroutine
+3432 Run script - /___MusicScript_DoActionGood
+3432 Run script - /___MusicScript_DoActionGood3
+3454 Run script - /___MusicScript_HomeBaseUpdate
+3454 Run script - /___MusicScript_HomeBaseSubroutine
+3484 Run script - /___MusicScript_HomeBaseUpdate
+3484 Run script - /___MusicScript_HomeBaseSubroutine
+3514 Run script - /___MusicScript_HomeBaseUpdate
+3514 Run script - /___MusicScript_HomeBaseSubroutine
+3544 Run script - /___MusicScript_HomeBaseUpdate
+3544 Run script - /___MusicScript_HomeBaseSubroutine
+3574 Run script - /___MusicScript_HomeBaseUpdate
+3574 Run script - /___MusicScript_HomeBaseSubroutine
+3604 Run script - /___MusicScript_HomeBaseUpdate
+3604 Run script - /___MusicScript_HomeBaseSubroutine
+3614 Run script - PlyrMordor/AttackWave5_Spawned
+3634 Run script - /___MusicScript_HomeBaseUpdate
+3634 Run script - /___MusicScript_HomeBaseSubroutine
+3639 Run script - PlyrMordor/AttackWave5_Spawned
+3664 Run script - /___MusicScript_HomeBaseUpdate
+3664 Run script - /___MusicScript_HomeBaseSubroutine
+3694 Run script - /___MusicScript_HomeBaseUpdate
+3694 Run script - /___MusicScript_HomeBaseSubroutine
+3724 Run script - /___MusicScript_HomeBaseUpdate
+3724 Run script - /___MusicScript_HomeBaseSubroutine
+3754 Run script - /___MusicScript_HomeBaseUpdate
+3754 Run script - /___MusicScript_HomeBaseSubroutine
+3781 Run script - PlyrMordor/AttackWave5_Spawned
+3781 Run script - PlyrMordor/AttackWave5_Spawned
+3784 Run script - /___MusicScript_HomeBaseUpdate
+3784 Run script - /___MusicScript_HomeBaseSubroutine
+3806 Run script - PlyrMordor/AttackWave5_Spawned
+3814 Run script - /___MusicScript_HomeBaseUpdate
+3814 Run script - /___MusicScript_HomeBaseSubroutine
+3844 Run script - /___MusicScript_HomeBaseUpdate
+3844 Run script - /___MusicScript_HomeBaseSubroutine
+3874 Run script - /___MusicScript_HomeBaseUpdate
+3874 Run script - /___MusicScript_HomeBaseSubroutine
+3904 Run script - /___MusicScript_HomeBaseUpdate
+3904 Run script - /___MusicScript_HomeBaseSubroutine
+3918 Run script - PlyrMordor/AttackWave5_Spawned
+3919 Run script - PlyrMordor/Eye of Sauron\Darkness 2
+3919 PlyrMordor/Eye Of Sauron - creating team instance.
+3919 Run script - PlyrMordor/AW4_Attack
+3919 Run script - PlyrMordor/Attack Wave 4 Hunt Timer
+3919 Run script - PlyrMordor/b_Spell - Eye Of Sauron
+3919 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'CASTLE_KEEP' that is owned by the player Player '<This Player's Enemies>'.
+3920 Run script - PlyrMordor/Give Units Experience
+3934 Run script - /___MusicScript_HomeBaseUpdate
+3934 Run script - /___MusicScript_HomeBaseSubroutine
+3958 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'FS_FACTORY' that is owned by the player Player '<This Player's Enemies>'.
+3959 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Allies incl Self>'.
+3964 Run script - /___MusicScript_HomeBaseUpdate
+3964 Run script - /___MusicScript_HomeBaseSubroutine
+3994 Run script - /___MusicScript_HomeBaseUpdate
+3994 Run script - /___MusicScript_HomeBaseSubroutine
+3997 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Enemies>'.
+4024 Run script - /___MusicScript_HomeBaseUpdate
+4024 Run script - /___MusicScript_HomeBaseSubroutine
+4025 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Allies incl Self>'.
+4053 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Enemies>'.
+4054 Run script - /___MusicScript_HomeBaseUpdate
+4054 Run script - /___MusicScript_HomeBaseSubroutine
+4081 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Allies incl Self>'.
+4084 Run script - /___MusicScript_HomeBaseUpdate
+4084 Run script - /___MusicScript_HomeBaseSubroutine
+4109 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Enemies>'.
+4114 Run script - /___MusicScript_HomeBaseUpdate
+4114 Run script - /___MusicScript_HomeBaseSubroutine
+4137 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'HORDE' that is owned by the player Player '<This Player's Allies incl Self>'.
+4144 Run script - /___MusicScript_HomeBaseUpdate
+4144 Run script - /___MusicScript_HomeBaseSubroutine
+4152 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'HORDE' that is owned by the player Player '<This Player's Enemies>'.
+4168 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'HORDE' that is owned by the player Player '<This Player's Allies incl Self>'.
+4174 Run script - /___MusicScript_HomeBaseUpdate
+4174 Run script - /___MusicScript_HomeBaseSubroutine
+4184 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Enemies>'.
+4200 Run script - /Aragorn Team Bonus Objective - Failed
+4203 Advancing SeqScript 'be_Spell - Eye Of Sauron' on Eye Of Sauron -- Team Team '<This Team>' will move to the nearest object of kindof Kind is 'INFANTRY' that is owned by the player Player '<This Player's Allies incl Self>'.
+4204 Run script - /___MusicScript_HomeBaseUpdate
+4204 Run script - /___MusicScript_HomeBaseSubroutine
+4219 Run script - PlyrMordor/AttackWave5 Spawn
+4219 Run script - PlyrMordor/Attack Wave 4 Hunt
+4220 Run script - PlyrMordor/AttackWave4_Destroyed
+4234 Run script - /___MusicScript_HomeBaseUpdate
+4234 Run script - /___MusicScript_HomeBaseSubroutine
+4243 Error : team '5th Attack Wave - 11' has no Home Position (or Origin).
+4243 PlyrMordor/5th Attack Wave - 11 - creating team instance.
+4243 5th Attack Wave - 11 - starting team build.
+4264 Run script - /___MusicScript_HomeBaseUpdate
+4264 Run script - /___MusicScript_HomeBaseSubroutine
+4268 Error : team '5th Attack Wave - 12' has no Home Position (or Origin).
+4268 PlyrMordor/5th Attack Wave - 12 - creating team instance.
+4268 5th Attack Wave - 12 - starting team build.
+4293 Error : team '5th Attack Wave - 14' has no Home Position (or Origin).
+4293 PlyrMordor/5th Attack Wave - 14 - creating team instance.
+4293 5th Attack Wave - 14 - starting team build.
+4294 Run script - /___MusicScript_HomeBaseUpdate
+4294 Run script - /___MusicScript_HomeBaseSubroutine
+4318 Error : team '5th Attack Wave - 13' has no Home Position (or Origin).
+4318 PlyrMordor/5th Attack Wave - 13 - creating team instance.
+4318 5th Attack Wave - 13 - starting team build.
+4324 Run script - /___MusicScript_HomeBaseUpdate
+4324 Run script - /___MusicScript_HomeBaseSubroutine
+4354 Run script - /___MusicScript_HomeBaseUpdate
+4354 Run script - /___MusicScript_HomeBaseSubroutine
+4384 Run script - /___MusicScript_HomeBaseUpdate
+4384 Run script - /___MusicScript_HomeBaseSubroutine
+4414 Run script - /___MusicScript_HomeBaseUpdate
+4414 Run script - /___MusicScript_HomeBaseSubroutine
+4422 Run script - PlyrMordor/PlyrMordor/AW4 - TeamDie
+4423 Run script - PlyrMordor/PlyrMordor/AW4 - TeamDie
+4432 Run script - PlyrMordor/PlyrMordor/AW4 - TeamDie
+4441 Run script - PlyrMordor/PlyrMordor/AW4 - TeamDie
+4444 Run script - /___MusicScript_HomeBaseUpdate
+4444 Run script - /___MusicScript_HomeBaseSubroutine
+4444 Run script - PlyrMordor/PlyrMordor/AW4 - TeamDie
+4448 Run script - PlyrMordor/PlyrMordor/AW4 - TeamDie
+4474 Run script - /___MusicScript_HomeBaseUpdate
+4474 Run script - /___MusicScript_HomeBaseSubroutine
+4504 Run script - /___MusicScript_HomeBaseUpdate
+4504 Run script - /___MusicScript_HomeBaseSubroutine
+4534 Run script - /___MusicScript_HomeBaseUpdate
+4534 Run script - /___MusicScript_HomeBaseSubroutine
+4551 Run script - PlyrMordor/PlyrMordor/AW4 - TeamDie
+4564 Run script - /___MusicScript_HomeBaseUpdate
+4564 Run script - /___MusicScript_HomeBaseSubroutine
+4594 Run script - /___MusicScript_HomeBaseUpdate
+4594 Run script - /___MusicScript_HomeBaseSubroutine
+4612 Run script - PlyrMordor/AttackWave5_Spawned
+4624 Run script - /___MusicScript_HomeBaseUpdate
+4624 Run script - /___MusicScript_HomeBaseSubroutine
+4645 Run script - PlyrMordor/AttackWave5_Spawned
+4654 Run script - /___MusicScript_HomeBaseUpdate
+4654 Run script - /___MusicScript_HomeBaseSubroutine
+4684 Run script - /___MusicScript_HomeBaseUpdate
+4684 Run script - /___MusicScript_HomeBaseSubroutine
+4685 Run script - PlyrMordor/PlyrMordor/AW4 - TeamDie
+4688 Run script - PlyrMordor/AttackWave5_Spawned2
+4688 Run script - PlyrMordor/AttackWave5_Spawned2
+4688 Run script - PlyrMordor/AttackWave5_Spawned2
+4688 Run script - PlyrMordor/AttackWave5_Spawned2
+4689 Run script - PlyrMordor02/AttackWave5_SwitchSides
+4689 Run script - PlyrMordor02/AttackWave5_Attack
+4714 Run script - /___MusicScript_HomeBaseUpdate
+4714 Run script - /___MusicScript_HomeBaseSubroutine
+4744 Run script - /___MusicScript_HomeBaseUpdate
+4744 Run script - /___MusicScript_HomeBaseSubroutine
+4774 Run script - /___MusicScript_HomeBaseUpdate
+4774 Run script - /___MusicScript_HomeBaseSubroutine
+4804 Run script - /___MusicScript_HomeBaseUpdate
+4804 Run script - /___MusicScript_HomeBaseSubroutine
+4834 Run script - /___MusicScript_HomeBaseUpdate
+4834 Run script - /___MusicScript_HomeBaseSubroutine
+4848 Run script - PlyrMordor/AW5 - TeamDie
+4864 Run script - /___MusicScript_HomeBaseUpdate
+4864 Run script - /___MusicScript_HomeBaseSubroutine
+4894 Run script - /___MusicScript_HomeBaseUpdate
+4894 Run script - /___MusicScript_HomeBaseSubroutine
+4924 Run script - /___MusicScript_HomeBaseUpdate
+4924 Run script - /___MusicScript_HomeBaseSubroutine
+4954 Run script - /___MusicScript_HomeBaseUpdate
+4954 Run script - /___MusicScript_HomeBaseSubroutine
+4984 Run script - /___MusicScript_HomeBaseUpdate
+4984 Run script - /___MusicScript_HomeBaseSubroutine
+4989 Run script - PlyrMordor03/Final_NazgulSpawn
+4989 PlyrMordor03/Nazgul Final Attack Wave - creating team instance.
+4989 PlyrMordor03/Nazgul Final Attack Wave 2 - creating team instance.
+4989 PlyrMordor03/Nazgul Final Attack Wave 5 - creating team instance.
+4989 PlyrMordor03/Nazgul Final Attack Wave 6 - creating team instance.
+4989 Run script - PlyrMordor03/Final_NazgulAttack
+4989 Run script - PlyrMordor03/Final_NazgulAttack
+4989 Run script - PlyrMordor03/Final_NazgulAttack
+4989 Run script - PlyrMordor03/Final_NazgulAttack
+4990 Generic script 'p_Anti-Eagle Priority Assignment' run on team Nazgul Final Attack Wave
+4990 Generic script 'p_Anti-Eagle Priority Assignment' run on team Nazgul Final Attack Wave 2
+4990 Generic script 'p_Anti-Eagle Priority Assignment' run on team Nazgul Final Attack Wave 5
+4990 Generic script 'p_Anti-Eagle Priority Assignment' run on team Nazgul Final Attack Wave 6
+5001 Run script - PlyrMordor/AW5 - TeamDie
+5014 Run script - /___MusicScript_HomeBaseUpdate
+5014 Run script - /___MusicScript_HomeBaseSubroutine
+5026 Run script - PlyrMordor/AW5 - TeamDie
+5035 Run script - PlyrMordor/AW5 - TeamDie
+5044 Run script - /___MusicScript_HomeBaseUpdate
+5044 Run script - /___MusicScript_HomeBaseSubroutine
+5044 Run script - PlyrMordor/AW5 - TeamDie
+5045 Run script - PlyrMordor02/Turn On Mini-Attack Waves
+5051 Run script - PlyrMordor02/Mini-Attack Wave 01 Spawn
+5051 PlyrMordor02/1st Mini-Attack Wave - 01 - creating team instance.
+5051 Run script - PlyrMordor02/Mini-Attack Wave 01 Behavoir
+5063 Error : team 'Final Attack Wave 05' has no Home Position (or Origin).
+5063 PlyrMordor/Final Attack Wave 05 - creating team instance.
+5063 Final Attack Wave 05 - starting team build.
+5070 Run script - PlyrMordor/AW5 - TeamDie
+5074 Run script - /___MusicScript_HomeBaseUpdate
+5074 Run script - /___MusicScript_HomeBaseSubroutine
+5087 Run script - PlyrMordor/AW5 - TeamDie
+5088 Error : team 'Final Attack Wave 02' has no Home Position (or Origin).
+5088 PlyrMordor/Final Attack Wave 02 - creating team instance.
+5088 Final Attack Wave 02 - starting team build.
+5104 Run script - /___MusicScript_HomeBaseUpdate
+5104 Run script - /___MusicScript_HomeBaseSubroutine
+5113 Error : team 'Final Attack Wave 06' has no Home Position (or Origin).
+5113 PlyrMordor/Final Attack Wave 06 - creating team instance.
+5113 Final Attack Wave 06 - starting team build.
+5114 Run script - PlyrMordor03/Nazgul Alert Sound 02
+5132 Run script - PlyrMordor02/Mini-Attack Wave 04 Spawn
+5132 PlyrMordor02/1st Mini-Attack Wave - 04 - creating team instance.
+5132 Run script - PlyrMordor02/Mini-Attack Wave 01 Behavoir
+5134 Run script - /___MusicScript_HomeBaseUpdate
+5134 Run script - /___MusicScript_HomeBaseSubroutine
+5138 Error : team 'Final Attack Wave 04' has no Home Position (or Origin).
+5138 PlyrMordor/Final Attack Wave 04 - creating team instance.
+5138 Final Attack Wave 04 - starting team build.
+5144 Run script - PlyrMordor/AW5 - TeamDie
+5163 Error : team 'Final Attack Wave 01' has no Home Position (or Origin).
+5163 PlyrMordor/Final Attack Wave 01 - creating team instance.
+5163 Final Attack Wave 01 - starting team build.
+5164 Run script - /___MusicScript_HomeBaseUpdate
+5164 Run script - /___MusicScript_HomeBaseSubroutine
+5164 Run script - PlyrMordor03/Nazgul Alert Sound 03
+5169 Run script - PlyrMordor/AW5 - TeamDie
+5188 Error : team 'Final Attack Wave 03' has no Home Position (or Origin).
+5188 PlyrMordor/Final Attack Wave 03 - creating team instance.
+5188 Final Attack Wave 03 - starting team build.
+5194 Run script - /___MusicScript_HomeBaseUpdate
+5194 Run script - /___MusicScript_HomeBaseSubroutine
+5198 Run script - PlyrMordor/AW5 - TeamDie
+5224 Run script - /___MusicScript_HomeBaseUpdate
+5224 Run script - /___MusicScript_HomeBaseSubroutine
+5225 ***Script not defined:***
+5225 /Final Fighter/Troll Team On Create
+5254 Run script - /___MusicScript_HomeBaseUpdate
+5254 Run script - /___MusicScript_HomeBaseSubroutine
+5275 ***Script not defined:***
+5275 /Final Fighter/Troll Team On Create
+5284 Run script - /___MusicScript_HomeBaseUpdate
+5284 Run script - /___MusicScript_HomeBaseSubroutine
+5307 ***Script not defined:***
+5307 /Final Fighter/Troll Team On Create
+5314 Run script - /___MusicScript_HomeBaseUpdate
+5314 Run script - /___MusicScript_HomeBaseSubroutine
+5344 Run script - /___MusicScript_HomeBaseUpdate
+5344 Run script - /___MusicScript_HomeBaseSubroutine
+5357 ***Script not defined:***
+5357 /Final Fighter/Troll Team On Create
+5362 Run script - PlyrMordor/Final Archer Team On Create
+5374 Run script - /___MusicScript_HomeBaseUpdate
+5374 Run script - /___MusicScript_HomeBaseSubroutine
+5404 Run script - /___MusicScript_HomeBaseUpdate
+5404 Run script - /___MusicScript_HomeBaseSubroutine
+5434 Run script - /___MusicScript_HomeBaseUpdate
+5434 Run script - /___MusicScript_HomeBaseSubroutine
+5438 Run script - /___MusicScript_OnEndOfGoodLevel1Track
+5438 Run script - /___MusicScript_DoActionGood
+5438 Run script - /___MusicScript_DoActionGood1
+5464 Run script - /___MusicScript_HomeBaseUpdate
+5464 Run script - /___MusicScript_HomeBaseSubroutine
+5494 Run script - /___MusicScript_HomeBaseUpdate
+5494 Run script - /___MusicScript_HomeBaseSubroutine
+5499 Run script - PlyrMordor/Final Archer Team On Create
+5506 Run script - PlyrMordor02/Mini-Attack Wave 05 Spawn
+5506 PlyrMordor02/1st Mini-Attack Wave - 05 - creating team instance.
+5506 Run script - PlyrMordor02/Mini-Attack Wave 01 Behavoir
+5510 Run script - PlyrMordor02/Mini-Attack Wave 01 Destroyed
+5524 Run script - /___MusicScript_HomeBaseUpdate
+5524 Run script - /___MusicScript_HomeBaseSubroutine
+5535 Run script - PlyrMordor02/Mini-Attack Wave 01 Spawn
+5535 PlyrMordor02/1st Mini-Attack Wave - 01 - creating team instance.
+5535 Run script - PlyrMordor02/Mini-Attack Wave 01 Behavoir
+5536 Run script - PlyrMordor02/Mini-Attack Wave 01 Destroyed
+5538 Run script - PlyrMordor/AW5 - TeamDie
+5553 Run script - PlyrMordor02/Mini-Attack Wave 04 Destroyed
+5554 Run script - /___MusicScript_HomeBaseUpdate
+5554 Run script - /___MusicScript_HomeBaseSubroutine
+5578 Run script - PlyrMordor02/Mini-Attack Wave 04 Spawn
+5578 PlyrMordor02/1st Mini-Attack Wave - 04 - creating team instance.
+5578 Run script - PlyrMordor02/Mini-Attack Wave 01 Behavoir
+5579 Run script - PlyrMordor02/Mini-Attack Wave 04 Destroyed
+5584 Run script - /___MusicScript_HomeBaseUpdate
+5584 Run script - /___MusicScript_HomeBaseSubroutine
+5585 Run script - PlyrMordor02/Mini-Attack Wave 01 Spawn
+5585 PlyrMordor02/1st Mini-Attack Wave - 01 - creating team instance.
+5585 Run script - PlyrMordor02/Mini-Attack Wave 01 Behavoir
+5614 Run script - /___MusicScript_HomeBaseUpdate
+5614 Run script - /___MusicScript_HomeBaseSubroutine
+5628 Run script - PlyrMordor02/Mini-Attack Wave 04 Spawn
+5628 PlyrMordor02/1st Mini-Attack Wave - 04 - creating team instance.
+5628 Run script - PlyrMordor02/Mini-Attack Wave 01 Behavoir
+5644 Run script - /___MusicScript_HomeBaseUpdate
+5644 Run script - /___MusicScript_HomeBaseSubroutine
+5674 Run script - /___MusicScript_HomeBaseUpdate
+5674 Run script - /___MusicScript_HomeBaseSubroutine
+5704 Run script - /___MusicScript_HomeBaseUpdate
+5704 Run script - /___MusicScript_HomeBaseSubroutine
+5734 Run script - /___MusicScript_HomeBaseUpdate
+5734 Run script - /___MusicScript_HomeBaseSubroutine
+5749 Error : team 'Final Attack Wave 01' has no Home Position (or Origin).
+5749 PlyrMordor/Final Attack Wave 01 - creating team instance.
+5749 Final Attack Wave 01 - starting team build.
+5764 Run script - /___MusicScript_HomeBaseUpdate
+5764 Run script - /___MusicScript_HomeBaseSubroutine
+5794 Run script - /___MusicScript_HomeBaseUpdate
+5794 Run script - /___MusicScript_HomeBaseSubroutine
+5824 Run script - /___MusicScript_HomeBaseUpdate
+5824 Run script - /___MusicScript_HomeBaseSubroutine
+5854 Run script - /___MusicScript_HomeBaseUpdate
+5854 Run script - /___MusicScript_HomeBaseSubroutine
+5877 Run script - /___MusicScript_OnEndOfGoodLevel1Track
+5877 Run script - /___MusicScript_DoActionGood
+5877 Run script - /___MusicScript_DoActionGood4
+5884 Run script - /___MusicScript_HomeBaseUpdate
+5884 Run script - /___MusicScript_HomeBaseSubroutine
+5886 Run script - PlyrMordor/Final Archer Team On Create
+5914 Run script - /___MusicScript_HomeBaseUpdate
+5914 Run script - /___MusicScript_HomeBaseSubroutine
+5944 Run script - /___MusicScript_HomeBaseUpdate
+5944 Run script - /___MusicScript_HomeBaseSubroutine
+5974 Run script - /___MusicScript_HomeBaseUpdate
+5974 Run script - /___MusicScript_HomeBaseSubroutine
+5989 Run script - PlyrMordor02/Mini-Attack Wave 01 Destroyed
+6004 Run script - /___MusicScript_HomeBaseUpdate
+6004 Run script - /___MusicScript_HomeBaseSubroutine
+6014 Run script - PlyrMordor02/Mini-Attack Wave 01 Spawn
+6014 PlyrMordor02/1st Mini-Attack Wave - 01 - creating team instance.
+6014 Run script - PlyrMordor02/Mini-Attack Wave 01 Behavoir
+6015 Run script - PlyrMordor02/Mini-Attack Wave 01 Destroyed
+6034 Run script - /___MusicScript_HomeBaseUpdate
+6034 Run script - /___MusicScript_HomeBaseSubroutine
+6039 Run script - PlyrMordor03/Final_NazgulLeave
+6064 Run script - /___MusicScript_HomeBaseUpdate
+6064 Run script - /___MusicScript_HomeBaseSubroutine
+6064 Run script - PlyrMordor02/Mini-Attack Wave 01 Spawn
+6064 PlyrMordor02/1st Mini-Attack Wave - 01 - creating team instance.
+6064 Run script - PlyrMordor02/Mini-Attack Wave 01 Behavoir
+6080 Run script - PlyrMordor02/Mini-Attack Wave 05 Destroyed
+6094 Run script - /___MusicScript_HomeBaseUpdate
+6094 Run script - /___MusicScript_HomeBaseSubroutine
+6095 Run script - PlyrMordor02/Mini-Attack Wave 01 Destroyed
+6105 Run script - PlyrMordor02/Mini-Attack Wave 05 Spawn
+6105 PlyrMordor02/1st Mini-Attack Wave - 05 - creating team instance.
+6105 Run script - PlyrMordor02/Mini-Attack Wave 01 Behavoir
+6106 Run script - PlyrMordor02/Mini-Attack Wave 05 Destroyed
+6111 Error : team 'Final Attack Wave 03' has no Home Position (or Origin).
+6111 PlyrMordor/Final Attack Wave 03 - creating team instance.
+6111 Final Attack Wave 03 - starting team build.
+6119 Run script - PlyrMordor02/Mini-Attack Wave 04 Destroyed
+6120 Run script - PlyrMordor02/Mini-Attack Wave 01 Spawn
+6120 PlyrMordor02/1st Mini-Attack Wave - 01 - creating team instance.
+6120 Run script - PlyrMordor02/Mini-Attack Wave 01 Behavoir
+6121 Run script - PlyrMordor02/Mini-Attack Wave 01 Destroyed
+6124 Run script - /___MusicScript_HomeBaseUpdate
+6124 Run script - /___MusicScript_HomeBaseSubroutine
+6140 Run script - /___MusicScript_OnEndOfGoodLevel1Track
+6140 Run script - /___MusicScript_DoActionGood
+6140 Run script - /___MusicScript_DoActionGood3
+6144 Run script - PlyrMordor02/Mini-Attack Wave 04 Spawn
+6144 PlyrMordor02/1st Mini-Attack Wave - 04 - creating team instance.
+6144 Run script - PlyrMordor02/Mini-Attack Wave 01 Behavoir
+6145 Run script - PlyrMordor02/Mini-Attack Wave 04 Destroyed
+6154 Run script - /___MusicScript_HomeBaseUpdate
+6154 Run script - /___MusicScript_HomeBaseSubroutine
+6155 Run script - PlyrMordor02/Mini-Attack Wave 05 Spawn
+6155 PlyrMordor02/1st Mini-Attack Wave - 05 - creating team instance.
+6155 Run script - PlyrMordor02/Mini-Attack Wave 01 Behavoir
+6170 Run script - PlyrMordor02/Mini-Attack Wave 01 Spawn
+6170 PlyrMordor02/1st Mini-Attack Wave - 01 - creating team instance.
+6170 Run script - PlyrMordor02/Mini-Attack Wave 01 Behavoir
+6184 Run script - /___MusicScript_HomeBaseUpdate
+6184 Run script - /___MusicScript_HomeBaseSubroutine
+6194 Run script - PlyrMordor02/Mini-Attack Wave 04 Spawn
+6194 PlyrMordor02/1st Mini-Attack Wave - 04 - creating team instance.
+6194 Run script - PlyrMordor02/Mini-Attack Wave 01 Behavoir
+6208 Run script - PlyrMordor/Final Archer Team On Create
+6214 Run script - /___MusicScript_HomeBaseUpdate
+6214 Run script - /___MusicScript_HomeBaseSubroutine
+6230 Run script - PlyrMordor02/Mini-Attack Wave 04 Destroyed
+6233 Error : team 'Final Attack Wave 01' has no Home Position (or Origin).
+6233 PlyrMordor/Final Attack Wave 01 - creating team instance.
+6233 Final Attack Wave 01 - starting team build.
+6244 Run script - /___MusicScript_HomeBaseUpdate
+6244 Run script - /___MusicScript_HomeBaseSubroutine
+6255 Run script - PlyrMordor02/Mini-Attack Wave 04 Spawn
+6255 PlyrMordor02/1st Mini-Attack Wave - 04 - creating team instance.
+6255 Run script - PlyrMordor02/Mini-Attack Wave 01 Behavoir
+6256 Run script - PlyrMordor02/Mini-Attack Wave 04 Destroyed
+6266 Run script - /Reinforcements Arrive - Eomer
+6274 Run script - /___MusicScript_HomeBaseUpdate
+6274 Run script - /___MusicScript_HomeBaseSubroutine
+6304 Run script - /___MusicScript_HomeBaseUpdate
+6304 Run script - /___MusicScript_HomeBaseSubroutine
+6305 Run script - PlyrMordor02/Mini-Attack Wave 04 Spawn
+6305 PlyrMordor02/1st Mini-Attack Wave - 04 - creating team instance.
+6305 Run script - PlyrMordor02/Mini-Attack Wave 01 Behavoir
+6330 Run script - PlyrMordor/Final Archer Team On Create
+6334 Run script - /___MusicScript_HomeBaseUpdate
+6334 Run script - /___MusicScript_HomeBaseSubroutine
+6341 Run script - /___MusicScript_OnEndOfGoodLevel1Track
+6341 Run script - /___MusicScript_DoActionGood
+6341 Run script - /___MusicScript_DoActionGood3
+6364 Run script - /___MusicScript_HomeBaseUpdate
+6364 Run script - /___MusicScript_HomeBaseSubroutine
+6394 Run script - /___MusicScript_HomeBaseUpdate
+6394 Run script - /___MusicScript_HomeBaseSubroutine
+6417 Run script - PlyrMordor02/Mini-Attack Wave 01 Destroyed
+6424 Run script - /___MusicScript_HomeBaseUpdate
+6424 Run script - /___MusicScript_HomeBaseSubroutine
+6442 Run script - PlyrMordor02/Mini-Attack Wave 01 Spawn
+6442 PlyrMordor02/1st Mini-Attack Wave - 01 - creating team instance.
+6442 Run script - PlyrMordor02/Mini-Attack Wave 01 Behavoir
+6443 Run script - PlyrMordor02/Mini-Attack Wave 01 Destroyed
+6454 Run script - /___MusicScript_HomeBaseUpdate
+6454 Run script - /___MusicScript_HomeBaseSubroutine
+6484 Run script - /___MusicScript_HomeBaseUpdate
+6484 Run script - /___MusicScript_HomeBaseSubroutine
+6489 Run script - PlyrGondor/Victory Condition (OVERRIDE ME)
+6489 Run script - PlyrGondor/Mission Won
+6489 Run script - PlyrGondor/Player Victory Good Music
+6492 Run script - PlyrMordor02/Mini-Attack Wave 01 Spawn
+6492 PlyrMordor02/1st Mini-Attack Wave - 01 - creating team instance.
+6492 Run script - PlyrMordor02/Mini-Attack Wave 01 Behavoir
+6493 Run script - PlyrMordor02/Mini-Attack Wave 01 Destroyed
+6512 Run script - PlyrMordor02/Mini-Attack Wave 04 Destroyed
+6514 Run script - /___MusicScript_HomeBaseUpdate
+6514 Run script - /___MusicScript_HomeBaseSubroutine
+6519 Run script - PlyrGondor/Victory Audio
+6519 Run script - PlyrGondor/Play Good Victory Audio 7
+6528 Run script - PlyrMordor02/Mini-Attack Wave 05 Destroyed
+6534 Run script - PlyrGondor/Victory Fade
+6537 Run script - PlyrMordor02/Mini-Attack Wave 04 Spawn
+6537 PlyrMordor02/1st Mini-Attack Wave - 04 - creating team instance.
+6537 Run script - PlyrMordor02/Mini-Attack Wave 01 Behavoir
+6538 Run script - PlyrMordor02/Mini-Attack Wave 04 Destroyed
+6539 Run script - PlyrGondor/Announce Victory
+6542 Run script - PlyrMordor02/Mini-Attack Wave 01 Spawn
+6542 PlyrMordor02/1st Mini-Attack Wave - 01 - creating team instance.
+6542 Run script - PlyrMordor02/Mini-Attack Wave 01 Behavoir
+6543 Run script - PlyrMordor02/Mini-Attack Wave 01 Destroyed
+6544 Run script - /___MusicScript_HomeBaseUpdate
+6544 Run script - /___MusicScript_HomeBaseSubroutine
+6553 Run script - PlyrMordor02/Mini-Attack Wave 05 Spawn
+6553 PlyrMordor02/1st Mini-Attack Wave - 05 - creating team instance.
+6553 Run script - PlyrMordor02/Mini-Attack Wave 01 Behavoir
+6554 Run script - PlyrMordor02/Mini-Attack Wave 05 Destroyed
+6562 Run script - PlyrGondor/Victory Cleanup - Run Sequentially
+6564 Run script - PlyrGondor/Victory Movie (OVERRIDE ME)
