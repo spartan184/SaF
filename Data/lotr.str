@@ -2376,7 +2376,7 @@ CONTROLBAR:GrimaLeechcraft
 "&Leechcraft"
 END
 CONTROLBAR:ToolTipGrimaLeechcraft
-"Required: Rank 5 \n Enemy heroes lose -25% Damage and -20% Health for a short amount of time \n Left click then right click on target"
+"Required: Rank 5 \n Enemy units lose -25% Damage and -20% Health for a short amount of time \n Left click then right click on target"
 END
 
 CONTROLBAR:GrimaSabotage
