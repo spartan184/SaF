@@ -1311,6 +1311,9 @@ END
 CONTROLBAR:ToolTipHalbaradArmor
 "Required: Rank 3 \n 'Receiving orders from Elrond to seek out Aragorn in Rohan, Halbarad gathered a large company of Rangers to head south.' \n Halbarad equips his armor \n Nearby Dunedain gain +50% Experience \n Passive Ability"
 END
+CONTROLBAR:ToolTipHalbaradArmorSP
+"Required: Rank 3 \n 'Receiving orders from Elrond to seek out Aragorn in Rohan, Halbarad gathered a large company of Rangers to head south.' \n Halbarad equips his armor \n Nearby archers gain +50% Experience \n Passive Ability"
+END
 
 CONTROLBAR:HalbaradMusterDunedain
 "Muster the Dunedain"
@@ -1318,12 +1321,18 @@ END
 CONTROLBAR:ToolTipHalbaradMusterDunedain
 "Required: Rank 4 \n Targeted Gathering gains +75% unit production speed for a short time \n Left click then right click on target"
 END
+CONTROLBAR:ToolTipHalbaradMusterDunedainSP
+"Required: Rank 4 \n Targeted Archery, Barracks, or Stable gains +75% unit production speed for a short time \n Left click then right click on target"
+END
 
 CONTROLBAR:HalbaradPerseverance
 "Perseverance"
 END
 CONTROLBAR:ToolTipHalbaradPerseverance
 "Required: Rank 7 \n Nearby Dunedain gain +30% armor and 50% knockback resistance for a short time \n Left click to activate"
+END
+CONTROLBAR:ToolTipHalbaradPerseveranceSP
+"Required: Rank 7 \n Nearby units gain +30% armor and 50% knockback resistance for a short time \n Left click to activate"
 END
 
 CONTROLBAR:HalbaradBannerOfArwen
