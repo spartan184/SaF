@@ -2815,6 +2815,34 @@ CONTROLBAR:ToolTipGothmogOrcs
 "Required: Rank 6 \n Gothmog summons three hordes of Morgul Pikemen."
 END
 
+// -- #Mollock
+OBJECT:MordorMollock
+"Mollock"
+End
+OBJECT:MordorMollock
+"Mollock"
+End
+CONTROLBAR:MordorMollockRecruit
+"Hero Unit. Recruit the Olog-Hai Chieftain"
+End
+CONTROLBAR:MordorMollockRevive
+"Revive the fallen Hero, Mollock"
+End
+CONTROLBAR:MordorMollockHotkey
+"Moll&ock"
+End
+
+CONTROLBAR:SpecialAbilityRage
+"Rage"
+END
+
+CONTROLBAR:SpecialAbilitySlamGround
+"Slam Ground"
+END
+CONTROLBAR:TooltipSpecialAbilitySlamGround
+"Required: Rank 5 \n Mollock leaps into the air and slams the ground"
+END
+
 // -- #Uvatha
 OBJECT:MordorUvatha
 "Uvatha"
@@ -13597,7 +13625,7 @@ SCRIPT:GoodBlackGateOpenText_01
 END
 
 SCRIPT:GoodBlackGateOpenText_02
-"Use these camps to support your army."
+"Use these outposts to support your army."
 END
 
 SCRIPT:GoodBlackGateHintText_01
@@ -13613,11 +13641,11 @@ SCRIPT:GoodBlackGateHintText_03
 END
 
 SCRIPT:GoodBlackGateHintText_04
-"Mordor is emptying. Defend your camps at all costs."
+"Mordor is emptying. Defend your outposts at all costs."
 END
 
 SCRIPT:GoodBlackGateHintText_05
-"Defend your camps."
+"Defend your outposts."
 END
 
 SCRIPT:GoodBlackGateTimerText_01
