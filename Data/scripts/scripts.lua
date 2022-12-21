@@ -20,6 +20,78 @@ function OnFireSpecialStopRanger(self)
     ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
 end
 
+-- New Galadhrim
+function OnLorienMarchwardenCreated(self)
+	ObjectHideSubObject( self, "ARROW", true )
+	ObjectHideSubObject( self, "ARROWNOCK", true )
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
+	ObjectHideSubObjectPermanently( self, "MALLORNBOW", true )
+	
+	ObjectHideSubObjectPermanently( self, "MARCHBODY01", true )
+	ObjectHideSubObjectPermanently( self, "MARCHARMSA01", true )
+	ObjectHideSubObjectPermanently( self, "SASH01", true )
+	
+	ObjectHideSubObjectPermanently( self, "MARCHBODY02", true )
+	ObjectHideSubObjectPermanently( self, "MARCHARMSA02", true )
+	ObjectHideSubObjectPermanently( self, "SASH02", true )
+
+	ObjectHideSubObjectPermanently( self, "CAPE01", true )
+	ObjectHideSubObjectPermanently( self, "CAPE02", true )
+
+    ObjectHideSubObjectPermanently( self, "HEAD01", true )
+    ObjectHideSubObjectPermanently( self, "HEAD02", true )
+    ObjectHideSubObjectPermanently( self, "HEAD03", true )
+
+    local helmet         =    GetRandomNumber()
+	
+	local body         =    GetRandomNumber()
+	
+	local cape         =    GetRandomNumber()
+
+    if helmet <= 0.333 then
+        ObjectHideSubObjectPermanently( self, "HEAD01", false )
+    elseif helmet <= 0.666 then
+        ObjectHideSubObjectPermanently( self, "HEAD02", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HEAD03", false )
+    end  
+
+	if body <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "MARCHBODY01", false )
+		ObjectHideSubObjectPermanently( self, "MARCHARMSA01", false )
+		ObjectHideSubObjectPermanently( self, "SASH01", false )
+     else
+        ObjectHideSubObjectPermanently( self, "MARCHBODY02", false )
+		ObjectHideSubObjectPermanently( self, "MARCHARMSA02", false )
+		ObjectHideSubObjectPermanently( self, "SASH02", false )
+    end		 
+
+	if cape <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "CAPE01", false )
+     else
+        ObjectHideSubObjectPermanently( self, "CAPE02", false )
+    end		
+
+end
+
+-- Haldir
+
+function OnHaldirCreated (self)
+	ObjectHideSubObjectPermanently( self, "CAPE01", true )
+	ObjectHideSubObjectPermanently( self, "CAPE02", true )
+	ObjectHideSubObjectPermanently( self, "CAPE02PIN", true )
+	
+	local cape         =    GetRandomNumber()
+	
+	if cape <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "CAPE01", false )
+     else
+        ObjectHideSubObjectPermanently( self, "CAPE02", false )
+		ObjectHideSubObjectPermanently( self, "CAPE02PIN", false )
+    end
+end
+
 -- Blessing of Ulmo
 function OnBlessingOfUlmoCreated(self)
     ObjectDoSpecialPower( self, "SpellBookBlessingOfUlmo" )

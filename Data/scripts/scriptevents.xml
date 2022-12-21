@@ -429,7 +429,7 @@
     </EventList>
 
     <EventList Name="RohanElvenWarriorFunctions" Inherit="SaFInfantryFunctions">
-      <EventHandler EventName="OnCreated"				ScriptFunctionName="OnElvenWarriorCreated" DebugSingleStep="false"/>
+      <EventHandler EventName="OnCreated"				ScriptFunctionName="OnLorienMarchwardenCreated" DebugSingleStep="false"/>
     </EventList> 
     
     <EventList Name="RangerFunctions" Inherit="ArcherFunctions">
