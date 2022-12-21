@@ -2702,7 +2702,7 @@ CONTROLBAR:SauronConflagaration
 "Confla&gration"
 END
 CONTROLBAR:ToolTipSauronConflagaration
-"Destroy enemy hero \n (only deals 25% of total damage to Durin's Bane, Gandalf the White, Saruman, Elessar, and Radagast) \n Left click then right click on target"
+"Destroy enemy hero \n (only deals 25% of total damage to Durin's Bane, Gandalf the White, Saruman and King Ellessar) \n Left click then right click on target"
 END
 
 // -- #WitchKing 
