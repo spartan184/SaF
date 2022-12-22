@@ -361,6 +361,10 @@
     <EventList Name="RivendellVeteranBannerFunctions" Inherit="InfantryFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnLANoldorBannerCreated" DebugSingleStep="false"/>
     </EventList>
+
+    <EventList Name="GaladhrimBannerFunctions" Inherit="InfantryFunctions">
+      <EventHandler EventName="OnCreated"				ScriptFunctionName="OnLorienMarchwardenBannerCreated" DebugSingleStep="false"/>
+    </EventList>
     
     <EventList Name="RevelerFunctions" Inherit="InfantryFunctions">
 	    <EventHandler EventName="OnCreated"				ScriptFunctionName="OnRevelerCreated"	DebugSingleStep="false"/>
