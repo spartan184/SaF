@@ -75,6 +75,91 @@ function OnLorienMarchwardenCreated(self)
 
 end
 
+-- Banner
+
+function OnLorienMarchwardenBannerCreated(self)
+	ObjectHideSubObject( self, "ARROW", true )
+	ObjectHideSubObject( self, "ARROWNOCK", true )
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
+	ObjectHideSubObjectPermanently( self, "MALLORNBOW", true )
+	
+	ObjectHideSubObjectPermanently( self, "MARCHBODYA", true )
+	ObjectHideSubObjectPermanently( self, "MARCHARMSB", true )
+	ObjectHideSubObjectPermanently( self, "SASHB", true )
+
+	
+	ObjectHideSubObjectPermanently( self, "MARCHBODYB", true )
+	ObjectHideSubObjectPermanently( self, "MARCHARMSA", true )
+	ObjectHideSubObjectPermanently( self, "SASHA", true )
+
+	ObjectHideSubObjectPermanently( self, "CAPE01", true )
+	ObjectHideSubObjectPermanently( self, "CAPE02", true )
+
+    ObjectHideSubObjectPermanently( self, "HEAD01", true )
+    ObjectHideSubObjectPermanently( self, "HEAD02", true )
+    ObjectHideSubObjectPermanently( self, "HEAD03", true )
+	
+	ObjectHideSubObjectPermanently( self, "HEAD04", true )
+    ObjectHideSubObjectPermanently( self, "HEAD05", true )
+    ObjectHideSubObjectPermanently( self, "HEAD06", true )
+	
+	ObjectHideSubObjectPermanently( self, "BANNER1", true )
+    ObjectHideSubObjectPermanently( self, "BANNER2", true )
+    ObjectHideSubObjectPermanently( self, "BANNER3", true )
+
+    local helmet         =    GetRandomNumber()
+	
+	local headha         =    GetRandomNumber()
+	
+	local banner         =    GetRandomNumber()
+	
+	local body         =    GetRandomNumber()
+	
+	local cape         =    GetRandomNumber()
+
+    if helmet <= 0.333 then
+        ObjectHideSubObjectPermanently( self, "HEAD01", false )
+    elseif helmet <= 0.666 then
+        ObjectHideSubObjectPermanently( self, "HEAD02", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HEAD03", false )
+    end  
+	
+	if headha <= 0.333 then
+        ObjectHideSubObjectPermanently( self, "HEAD04", false )
+    elseif helmet <= 0.666 then
+        ObjectHideSubObjectPermanently( self, "HEAD05", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HEAD06", false )
+    end
+
+	if banner <= 0.333 then
+        ObjectHideSubObjectPermanently( self, "BANNER1", false )
+    elseif helmet <= 0.666 then
+        ObjectHideSubObjectPermanently( self, "BANNER2", false )
+     else
+        ObjectHideSubObjectPermanently( self, "BANNER3", false )
+    end  
+
+	if body <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "MARCHBODYA", false )
+		ObjectHideSubObjectPermanently( self, "MARCHARMSB", false )
+		ObjectHideSubObjectPermanently( self, "SASHB", false )
+     else
+        ObjectHideSubObjectPermanently( self, "MARCHBODYB", false )
+		ObjectHideSubObjectPermanently( self, "MARCHARMSA", false )
+		ObjectHideSubObjectPermanently( self, "SASHA", false )
+    end		 
+
+	if cape <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "CAPE01", false )
+     else
+        ObjectHideSubObjectPermanently( self, "CAPE02", false )
+    end		
+
+end
+
 -- Haldir
 
 function OnHaldirCreated (self)
