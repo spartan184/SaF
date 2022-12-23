@@ -14153,6 +14153,14 @@ SCRIPT:OBJECTIVE_CastleBreached
 "Attack while the city is in panic."
 END
 
+SCRIPT:OBJECTIVE_KillForlong
+"Kill Forlong and his axemen."
+END
+
+SCRIPT:OBJECTIVE_KillImrahil
+"Kill Imrahil and his knights."
+END
+
 SCRIPT:OBJECTIVE_KillRohirrim
 "Kill Eowyn and the Rohirrim."
 END
