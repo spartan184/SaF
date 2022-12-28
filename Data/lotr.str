@@ -2203,7 +2203,7 @@ END
 
 // -- #Lurtz
 CONTROLBAR:SpawnLurtzScouts
-"Fighting Uruk-Hai"
+"Fighting Uruk-Ha&i"
 END
 CONTROLBAR:TooltipSpawnLurtzScouts
 "Required: Rank 7 \n Call forth the Scouts of Isengard \n Left click then right click on target"
@@ -2316,7 +2316,7 @@ CONTROLBAR:ToolTipSpecialAbilityGrishnakhCarnage
 END
 
 CONTROLBAR:GrishnakhMordorScumSummon
-"Mordor Scum"
+"&Mordor Scum"
 END
 CONTROLBAR:TooltipGrishnakhMordorScumSummon
 "Required: Rank 6 \nSummons four battalions of Mordor Orcs to his side for a short time\n Left click to activate"
@@ -2537,7 +2537,7 @@ CONTROLBAR:SapperPassiveLeadership
 END
 
 CONTROLBAR:IsengardUrukRank2
-"Feast"
+"&Feast"
 END
 CONTROLBAR:ToolTipIsengardUrukRank2
 "Required: Rank 2 \n Instantly heals units for 50% total Health \n Left click to activate"
@@ -15870,7 +15870,7 @@ CONTROLBAR:ToolTipBuildSaruman
 END
 
 CONTROLBAR:IsengardSarumanRecruit
-"Required: Lord of Orthanc Spellbook \nRecruit the Lord of Isengard. \n \n 'A new power is rising. Its victory is at hand. We have only to remove those who oppose us.' \n Rank 10"
+"Required: Lord of Orthanc &Spellbook \nRecruit the Lord of Isengard. \n \n 'A new power is rising. Its victory is at hand. We have only to remove those who oppose us.' \n Rank 10"
 END
 
 CONTROLBAR:IsengardSarumanRevive
