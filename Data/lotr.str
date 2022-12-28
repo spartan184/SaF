@@ -3253,7 +3253,7 @@ CONTROLBAR:UrshakShadowAndFlame
 "Shadow and &Flame"
 END
 CONTROLBAR:ToolTipUrshakShadowAndFlame
-"Required: Rank 8 \n Urshak channels his sorcery and unleashes a firey blast that deals great damage to all units around him in a small radius \n Left click to activate"
+"Required: Rank 8 \n Urshak channels his sorcery and unleashes a firey blast that deals great damage to all enemy units around him in a small radius \n Left click to activate"
 END
 
 // -- #Lug 
