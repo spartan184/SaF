@@ -589,6 +589,13 @@ CONTROLBAR:TheodenLeadership
 END
 
 // -- #Eomer
+CONTROLBAR:ThrowSpear
+"&Throws Spear"
+END
+CONTROLBAR:ToolTipThrowSpear
+"Single powerful and fast-recharge ranged attack \n left click then right click on target"
+END
+
 CONTROLBAR:EomerOutlawLeadership
 "Lord in Exile"
 END
@@ -597,7 +604,7 @@ CONTROLBAR:ToolTipEomerOutlawLeadership
 END
 
 CONTROLBAR:SpecialAbilityEomerGuthwineThirst
-"Thirst of &Guthwine"
+"Thirst of Guth&wine"
 END
 CONTROLBAR:ToolTipSpecialAbilityEomerGuthwineThirst
 "Required: Rank 5 \n +50% damage, +50% armor \n left click to activate"
@@ -617,6 +624,12 @@ CONTROLBAR:ToolTipEomerMarshalLeadership
 "Leadership bonus to nearby Cavalry \n +50% damage and -25% trample deceleration \n Passive ability"
 END
 
+CONTROLBAR:EomerMount
+"&Mount"
+END
+CONTROLBAR:ToolTipEomerMount
+"Left click to mount horse \n +25% Armor vs. Footmen and Cavalry \n -50% Armor vs. Archers and Pikes \n 100% more damage from archers and spearmen"
+END
 // -- #Aragorn
 CONTROLBAR:SpecialAbilityAragornHunter
 "Hunter"
@@ -880,14 +893,14 @@ CONTROLBAR:TooltipHaldirVigilance
 END
 
 CONTROLBAR:HaldirSkill
-"&Elven Skill"
+"Elve&n Skill"
 END
 CONTROLBAR:TooltipHaldirSkill
 "Required: Rank 8 \n Grants experience to archers within a radius \n left click then right click on target"
 END
 
 CONTROLBAR:HaldirQuickDraw
-"&Quick Draw"
+"Quick &Draw"
 END
 CONTROLBAR:ToolTipHaldirQuickDraw
 "Haldir temporarily gains +25% Attack Speed \n left click to activate"
@@ -960,28 +973,28 @@ CONTROLBAR:ToolTipRohanSoldierRank2
 END
 
 CONTROLBAR:RohanRiderRank2
-"For Death and &Glory"
+"For &Death and Glory"
 END
 CONTROLBAR:ToolTipRohanRiderRank2
 "Required: Rank 2 \n Temporarily gain +25% movement speed and +10% Health \n Left click to activate"
 END
 
 CONTROLBAR:RohanGuardRank2
-"Oathbound"
+"&Oathbound"
 END
 CONTROLBAR:ToolTipRohanGuardRank2
 "Required: Rank 2 \n Temporarily gain +15% movement speed and +25% Armor \n Left click to activate"
 END
 
 CONTROLBAR:RohanGaladhrimRank2
-"&Elvish Mastery"
+"Elvish Mas&tery"
 END
 CONTROLBAR:ToolTipRohanGaladhrimRank2
 "Required: Rank 2 \n Temporarily gain +50% range and +25% attack speed \n Left click to activate"
 END
 
 CONTROLBAR:PurchaseTechnologyRohanImprovedArrowsmithing
-"&Elven Fletching"
+"El&ven Fletching"
 END
 CONTROLBAR:RohanImprovedArrowsmithing
 "Elve&n Fletching"
@@ -11111,7 +11124,7 @@ OBJECT:RohanBanner
 END
 
 OBJECT:RohanEomerCavalry
-"oomer"
+"Eomer"
 END
 
 OBJECT:RohanEowyn
@@ -14883,7 +14896,7 @@ CONTROLBAR:ToolTipIsengardArmory
 END
 
 CONTROLBAR:ConstructElvenBarracks
-"Build Elven Barrack"
+"Build Elven &Barrack"
 END
 
 CONTROLBAR:ConstructElvenFarm
@@ -16713,22 +16726,6 @@ END
 
 CONTROLBAR:ToolTipElvenCloak
 "Becomes invisible when standing still \n left click to activate"
-END
-
-CONTROLBAR:EomerMount
-"&Mount"
-END
-
-CONTROLBAR:ToolTipEomerMount
-"Left click to mount horse \n +25% Armor vs. Footmen and Cavalry \n -50% Armor vs. Archers and Pikes \n 100% more damage from archers and spearmen"
-END
-
-CONTROLBAR:ThrowSpear
-"&Throws Spear"
-END
-
-CONTROLBAR:ToolTipThrowSpear
-"Single powerful and fast-recharge ranged attack \n left click then right click on target"
 END
 
 CONTROLBAR:ToggleShieldWallFormation
