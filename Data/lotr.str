@@ -10526,7 +10526,7 @@ CONTROLBAR:Bloodthirsty
 END
 
 CONTROLBAR:ToolTipBloodthirsty
-"Order this unit to kill a friendly unit \n to gain combat experience \n left click then right click on target"
+"Order this unit to kill a friendly unit of the same kind \n to gain combat experience \n left click then right click on target"
 END
 
 CONTROLBAR:UnderConstructionDesc
