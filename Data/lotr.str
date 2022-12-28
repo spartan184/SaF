@@ -1133,7 +1133,7 @@ TOOLTIP:ToolTipLackLaurefindele
 "Required: Laurefindele Spellbook \n Recruit the Lord of the House of the Golden Flower \n \n 'Glorfindel was tall and straight; his hair was of shining gold,\n his face fair and young and fearless and full of joy;\n his eyes were bright and keen, and his voice like music;\n on his brow sat wisdom, and in his hand was strength.' \n Rank 10"
 END
 CONTROLBAR:ConstructGlorfindel
-"Glorfindel"
+"&Glorfindel"
 END
 CONTROLBAR:LaurefindeleDescription
 "Required: Laurefindele Spellbook \n Recruit the Lord of the House of the Golden Flower \n \n 'Glorfindel was tall and straight; his hair was of shining gold,his face fair and young and fearless and full of joy;\n his eyes were bright and keen, and his voice like music;\n on his brow sat wisdom, and in his hand was strength.' \n Rank 10"
@@ -1165,28 +1165,28 @@ CONTROLBAR:ToolTipGlorfindelLeadership
 END
 
 CONTROLBAR:GlorfindelNoroLim
-"Noro Lim, Asfaloth!"
+"&Noro Lim, Asfaloth!"
 END
 CONTROLBAR:ToolTipGlorfindelNoroLim
 "Asfaloth goes fast! \n Glorfindel gains +40% Speed \n and glides past enemies like the wind \n Can only be used mounted \n Left click to activate"
 END
 
 CONTROLBAR:GlorfindelWrath
-"Revealed in Wrath"
+"Revealed in &Wrath"
 END
 CONTROLBAR:ToolTipGlorfindelWrath
 "Glorfindel gains +100% Damage. \n Passively instills fear into enemies, including Nazguls \n Left click to activate"
 END
 
 CONTROLBAR:GlorfindelAman
-"Light of Aman"
+"&Light of Aman"
 END
 CONTROLBAR:ToolTipGlorfindelAman
 "Enemy units flee in terror \n Left click to activate"
 END
 
 CONTROLBAR:GlorfindelSlayer
-"Slayer of Demons"
+"Slayer of &Demons"
 END
 CONTROLBAR:ToolTipGlorfindelSlayer
 "Blasts back units in a wide radius surrounding Glorfindel\n Enemy heroes are in the radius of the blast are pinned for a short time \n Left click to activate"
@@ -1218,7 +1218,7 @@ CONTROLBAR:ToolTipSpecialAbilityBrotherofElladan
 END
 
 CONTROLBAR:TwinsHatredOfOrcs
-"Hatred of Orcs"
+"Hatred of &Orcs"
 END
 
 CONTROLBAR:ToolTipElrohirHatredOfOrcs
@@ -1226,7 +1226,7 @@ CONTROLBAR:ToolTipElrohirHatredOfOrcs
 END
 
 CONTROLBAR:ElrohirSwiftStrikes
-"Swift Strikes"
+"S&wift Strikes"
 END
 
 CONTROLBAR:ToolTipElrohirSwiftStrikes
@@ -1258,7 +1258,7 @@ CONTROLBAR:ToolTipElladanHatredOfOrcs
 END
 
 CONTROLBAR:ElladanBrightBlade
-"Bright Blade"
+"&Bright Blade"
 END
 CONTROLBAR:ToolTipElladanBrightBlade
 "Required: Rank 3 \n A powerful sword strike that knocks over enemy units \n left click to activate"
@@ -1300,14 +1300,14 @@ CONTROLBAR:ToolTipElrondArmorUpgrade
 END
 
 CONTROLBAR:ElrondHomelyHouse
-"The Last Homely House"
+"The &Last Homely House"
 END
 CONTROLBAR:ToolTipElrondHomelyHouse
 "Required: Rank 7 \n Heal your units\nLeft click icon then left click on target area"
 END
 
 CONTROLBAR:ElrondRingOfAir
-"Ring of Air"
+"&Ring of Air"
 END
 CONTROLBAR:ToolTipElrondRingOfAir
 "Required: Rank 10 \n Creates a circular sanctuary in which friendly troops are buffed \n +50% Damage, +100% Experience, +25% Ability Recharge Time Speed \n left click to activate"
@@ -1332,21 +1332,21 @@ CONTROLBAR:ToolTipAragornChieftainLeadership
 END
 
 CONTROLBAR:AragornMasterTracker
-"Master Tracker"
+"Master &Tracker"
 END
 CONTROLBAR:ToolTipAragornMasterTracker
 "Required: Level 3 \n Aragorn and nearby allies gain\n+15% Speed \n Passive Ability \n\n When using his bow \n Aragorn temporarily gains +150% vision range and +25% range \nLeft click to activate"
 END
 
 CONTROLBAR:AragornFlameOfTheWest
-"A Fire Shall Be Woken"
+"A &Fire Shall Be Woken"
 END
 CONTROLBAR:ToolTipAragornFlameOfTheWest
 "Required: Level 6 \n Aragorn temporarily gains\n+75% Damage, +25% Armor, and wields a torch \n Can only use with sword equipped \n Left click to activate"
 END
 
 CONTROLBAR:AragornIsildursHeir
-"Isildur's Heir"
+"&Isildur's Heir"
 END
 CONTROLBAR:ToolTipAragornIsildursHeir
 "Required: Level 9 \n Aragorn gains Anduril, deals +50% Damage \nPassive ability \n\n Allies near Aragorn gain \n +50% Damage, +50% Armor and become immune to fear \n Left click to activate"
@@ -1399,7 +1399,7 @@ CONTROLBAR:HalbaradRevive
 END
 
 CONTROLBAR:HalbaradHotKey
-"&Halbarad"
+"Hal&barad"
 END
 
 CONTROLBAR:ToolTipToggleHalbaradWeapons
@@ -1417,7 +1417,7 @@ CONTROLBAR:ToolTipHalbaradArmorSP
 END
 
 CONTROLBAR:HalbaradMusterDunedain
-"Muster the Dunedain"
+"Muster the &Dunedain"
 END
 CONTROLBAR:ToolTipHalbaradMusterDunedain
 "Required: Rank 4 \n Targeted Gathering gains +75% unit production speed for a short time \n Left click then right click on target"
@@ -1427,7 +1427,7 @@ CONTROLBAR:ToolTipHalbaradMusterDunedainSP
 END
 
 CONTROLBAR:HalbaradPerseverance
-"Perseverance"
+"&Perseverance"
 END
 CONTROLBAR:ToolTipHalbaradPerseverance
 "Required: Rank 7 \n Nearby Dunedain gain +30% armor and 50% knockback resistance for a short time \n Left click to activate"
@@ -1437,7 +1437,7 @@ CONTROLBAR:ToolTipHalbaradPerseveranceSP
 END
 
 CONTROLBAR:HalbaradBannerOfArwen
-"The Banner of Arwen"
+"The &Banner of Arwen"
 END
 CONTROLBAR:ToolTipHalbaradBannerOfArwen
 "Required: Rank 10 \n Halbarad unfurls the Banner wrought by Arwen Undomiel.\n For 60 seconds, allied units and heroes in a large radius gain +25% damage and +100% experience. \n Enemy units and heroes lose -25% damage \n Left click to activate"
@@ -1468,7 +1468,7 @@ CONTROLBAR:ToolTipMaggotHounds
 END
 
 CONTROLBAR:MaggotFarmSummon
-"Bamfurlong"
+"&Bamfurlong"
 END
 CONTROLBAR:ToolTipMaggotFarmSummon
 "Required: Rank 2 \n Summons Farmer Maggot's farm for a short time \nGenerates a large amount of resources \n Left click then right click on target"
@@ -1504,7 +1504,7 @@ CONTROLBAR:ToolTipGreyPilgrimFoeHammer
 END
 
 CONTROLBAR:GreyPilgrimShallNotPass
-"You Sh&all Not Pass"
+"You Shall Not &Pass"
 END
 CONTROLBAR:ToolTipGreyPilgrimShallNotPass
 "Stuns enemy units in a wide radius around Gandalf \nLeft click to activate."
@@ -1530,14 +1530,10 @@ OBJECT:HordeRivendellBounder
 "Hobbit Bounders"
 END
 CONTROLBAR:ConstructRivendellBounderHorde
-"Recruit Hobbit Bounders"
+"Recruit Hobbit &Bounders"
 END
 CONTROLBAR:ToolTipRivendellBounderHorde
 "Hobbit Bounders \n Strong vs. Infantry, Siege"
-END
-
-OBJECT:HordeHobbitBounderArcherCombo
-"Hobbit Bounder Archer Horde"
 END
 
 OBJECT:RivendellTookArcher
@@ -1547,10 +1543,14 @@ OBJECT:HordeRivendellTookArcher
 "Took Archers"
 END
 CONTROLBAR:ConstructRivendellTookArcherHorde
-"Recruit Took Archers"
+"Recruit &Took Archers"
 END
 CONTROLBAR:ToolTipRivendellTookArcherHorde
 "Strong vs. Infantry \n Can stealth near trees \n \n Like all Hobbits, these archers are blessed with keen eyes and steady hands, with an added dose of courage native to the Took family."
+END
+
+OBJECT:HordeHobbitBounderArcherCombo
+"Hobbit Bounder Archer Horde"
 END
 
 OBJECT:RivendellBreelandGuard
@@ -1560,7 +1560,7 @@ OBJECT:HordeRivendellBreelandGuard
 "Bree-land Guards"
 END
 CONTROLBAR:ConstructRivendellBreelandGuardHorde
-"Recruit Bree-land Guards"
+"Recruit Bree-land &Guards"
 END
 CONTROLBAR:ToolTipRivendellBreelandGuardHorde
 "Required: Level 2 Encampment \nStrong vs. Cavalry and Heroes \n\n Though the Dunedain Rangers silently protected the denizens of the Breeland from the darkness that sought to overtake them, the villages still maintained a small, voluntary militia, to take care of problems occuring from within."
@@ -1570,7 +1570,7 @@ OBJECT:RivendellBreelandRam
 "Bree-land Battling Ram"
 END
 CONTROLBAR:ConstructRivendellBreelandRam
-"Construct a Battling Ram"
+"Construct a Battling &Ram"
 END
 CONTROLBAR:ToolTipRivendellBreelandRam
 "Bree-land Battling Ram\nRequired: Level 2 Barracks \n Strong vs. Structures"
@@ -1583,7 +1583,7 @@ OBJECT:HordeDunedainRanger
 "Dunedain of the North"
 END
 CONTROLBAR:ConstructDunedainRangerHorde
-"Dunedain of the North"
+"&Dunedain of the North"
 END
 CONTROLBAR:ToolTipDunedainRangerHorde
 "Recruit Rangers of the North. Skilled with bow and sword.\n Strong vs. Archers, Monsters"
@@ -1596,7 +1596,7 @@ OBJECT:HordeGreyCompanyRanger
 "Dunedain of the Grey Company"
 END
 CONTROLBAR:ConstructGreyCompanyRangerHorde
-"Dunedain of the Grey Company"
+"Dunedain of the &Grey Company"
 END
 CONTROLBAR:ToolTipGreyCompanyRangerHorde
 "Required: Rank 3 Gathering \n Limited to 3 units \n Strong vs. Infantry, Cavalry and Monsters"
@@ -1609,7 +1609,7 @@ OBJECT:HordeRivendellGuardian
 "Rivendell Guardians"
 END
 CONTROLBAR:ConstructRivendellGuardianHorde
-"Recruit Rivendell Guardians"
+"Recruit Rivendell &Guardians"
 END
 CONTROLBAR:ToolTipRivendellGuardianHorde
 "Rivendell Guardsmen \n Strong vs. Pikemen and Siege \n\nThere is no Elf in Rivendell that has not been trained, at one point or another, to masterfully wield a longsword as well as a bow."
@@ -1622,7 +1622,7 @@ OBJECT:HordeRivendellKnight
 "Rivendell Knights"
 END
 CONTROLBAR:ConstructRivendellKnightHorde
-"Recruit Rivendell Knights"
+"Recruit Rivendell &Knights"
 END
 CONTROLBAR:ToolTipRivendellKnightHorde
 "Rivendell Knights \n Required: Level 2 Dormitory \n Strong vs. Infantry, Archers, and Siege\n\nWhen the lands beyond the Valley are in danger, these Knights will ride out to vanquish any orcish warband they encounter."
@@ -1635,7 +1635,7 @@ OBJECT:HordeRivendellVeteran
 "Veterans of the Last Alliance"
 END
 CONTROLBAR:ConstructRivendellVeteranHorde
-"Recruit Veterans of the Last Alliance"
+"Recruit &Veterans of the Last Alliance"
 END
 CONTROLBAR:ToolTipRivendellVeteranHorde
 "Strong vs. All Normal Troops\nRequired: Level 3 Dormitory\nCan stealth near trees\nOnly 3 units of Last Alliance Veterans are allowed at any time."
@@ -1690,7 +1690,7 @@ OBJECT:HordeRivendellReveler
 "Quentaroli"
 END
 CONTROLBAR:ConstructRivendellReveler
-"Quentaroli"
+"&Quentaroli"
 END
 CONTROLBAR:ToolTipRivendellReveler
 "Rivendell Revelers \n Required: Rank 2 Dormitory \n A party of Elven Revelers \n Limited to 5\n\nThe long history of the Elves is oft related through song and music, both sad and joyous."
@@ -1735,7 +1735,7 @@ END
 // ================ #Rivendell Unit Abilities ================= //
 // ============================================================ //
 CONTROLBAR:RivendellBounderRank2
-"Peace-Keepers"
+"&Peace-Keepers"
 END
 CONTROLBAR:ToolTipRivendellBounderRank2
 "Required: Rank 2\n \n'The Bounders are peace-keepers, patrolling the roads, paths, and borders of the Shire, settling disputes and keeping an eye out for wicked things and foreigners alike.'\n Bounders gain +15% Speed and +33% Vision \n Left Click to Activate"
@@ -1755,7 +1755,7 @@ CONTROLBAR:UpgradeDunedainSpears
 "Spears Equiped"
 END
 CONTROLBAR:PurchaseUpgradeDunedainSpears
-"Purchase Spears"
+"Purchase Sp&ears"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDunedainSpears
 "Rangers permanantly equip themselves with spears, granting them a damage bonus towards calvary and heroes"
@@ -1779,7 +1779,7 @@ CONTROLBAR:UpgradeDunedainSwords
 "Swords Equiped"
 END
 CONTROLBAR:PurchaseUpgradeDunedainSwords
-"Purchase Swords"
+"&Purchase Swords"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeDunedainSwords
 "Rangers permanantly equip themselves with swords, granting them a damage bonus towards infantry and slighly increased armor"
@@ -1796,7 +1796,7 @@ CONTROLBAR:ToolTipGreyCompanyGrimResolve
 END
 
 CONTROLBAR:RivendellElvesRank2
-"Song of Finwe"
+"Song of &Finwe"
 END
 CONTROLBAR:ToolTipRivendellGuardianRank2
 "Required: Rank 2\n The seasoned warriors sing a song of past victories.\n gain +33% damage and if using bows +33% range \n Left Click to Activate"
@@ -1813,7 +1813,7 @@ CONTROLBAR:ToolTipRivendellVeteranLALeadership
 END
 
 CONTROLBAR:RivendellVeteransAbility
-"Veterans of Eregion"
+"Veterans of &Eregion"
 END
 CONTROLBAR:ToolTipRivendellVeteransAbility
 "The Veterans remember the times of Sauron's attack on the elven kingdoms of the North. \nThe battalion is temporarily immune to knockback and gains +50% Damage \n Left Click to Activate"
@@ -1835,14 +1835,14 @@ CONTROLBAR:ToolTipStayAWhileAndListen
 End
 
 CONTROLBAR:SongOfSpring
-"Ainulindale"
+"Ain&ulindale"
 End
 CONTROLBAR:ToolTipSongOfSpring
 "When cast on an Orchard, temporarily increases its resource production by 50%\n Left click icon then left click on target"
 End
 
 CONTROLBAR:RevelersAkallabeth
-"Akallabeth"
+"Akal&labeth"
 END
 CONTROLBAR:ToolTipRevelersAkallabeth
 "Quentaroli can target units to decrease their speed by 25% and buildings to decrease their armor by 25% \n Passive ability \n Deals significant damage over time to structures \n Can be cast from a large distance \n Left click icon then left click on target"
@@ -1994,7 +1994,7 @@ END
 
 // -- Reflections Upon the Battle of Dagorlad
 CONTROLBAR:PurchaseTechnologyRivendellDagorlad
-"Reflection&s Upon the Battle of Dagorlad"
+"Reflections Upon the Battle of &Dagorlad"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyRivendellDagorlad
 "A collection of writings on the Battle of Dagorlad. Timelines, battleplans and poetry, gathered by Valandil, son of Isildur. \n\n Sauron's fall came at great cost. With Gil-galad slain, many Elven veterans chose to linger in Rivendell, house of their late King's herald. \n Units recruited from the Dormitory gain +25% damage \n Library must be present to retain affect"
@@ -16656,7 +16656,7 @@ END
 
 
 CONTROLBAR:Mount
-"Mount"
+"&Mount"
 END
 
 CONTROLBAR:ToolTipMount
