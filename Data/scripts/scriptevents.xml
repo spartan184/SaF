@@ -522,10 +522,12 @@
     
     <EventList Name="IsengardShieldBearerFunctions" Inherit="SaFInfantryFunctions">
       <EventHandler EventName="OnCreated" ScriptFunctionName="OnIsengardShieldBearerCreated" DebugSingleStep="false"/>
+      <EventHandler EventName="User5Achieved"	        ScriptFunctionName="EndlessSupplyGrantUpgrades"	DebugSingleStep="false"/>
     </EventList>
     
     <EventList Name="IsengardScoutFunctions" Inherit="SaFInfantryFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnIsengardScoutCreated" DebugSingleStep="false"/>
+      <EventHandler EventName="User5Achieved"	        ScriptFunctionName="EndlessSupplyGrantUpgrades"	DebugSingleStep="false"/>
     </EventList>
     
     <EventList Name="WargRiderFunctions" Inherit="CavalryFunctions">
@@ -831,25 +833,30 @@
 
     <EventList Name="IsengardDunlandFunctions" Inherit="IsengardBaseHordeFunctions">
       <EventHandler EventName="OnCreated"                ScriptFunctionName="OnIsengardDunlandCreated" DebugSingleStep="false"/>
+      <EventHandler EventName="User5Achieved"	        ScriptFunctionName="EndlessSupplyGrantUpgrades"	DebugSingleStep="false"/>
     </EventList>
 
     <EventList Name="IsengardDunlandAxemanFunctions" Inherit="IsengardBaseHordeFunctions">
       <EventHandler EventName="OnCreated"                ScriptFunctionName="OnIsengardDunlandAxemanCreated" DebugSingleStep="false"/>
+      <EventHandler EventName="User5Achieved"	        ScriptFunctionName="EndlessSupplyGrantUpgrades"	DebugSingleStep="false"/>
     </EventList>
 
     <EventList Name="IsengardDunlandArcherHordeFunctions" Inherit="IsengardDunlandArcherFunctions">
       <EventHandler EventName="WeaponlockActivated"	ScriptFunctionName="HordeFireArrowActivationHook"  DebugSingleStep="false"/>
       <EventHandler EventName="WeaponlockDeactivated" ScriptFunctionName="HordeFireArrowDeactivationHook"  DebugSingleStep="false"/>
+      <EventHandler EventName="User5Achieved"	        ScriptFunctionName="EndlessSupplyGrantUpgrades"	DebugSingleStep="false"/>
     </EventList>
 	
     <EventList Name="IsengardDunlandArcherFunctions" Inherit="IsengardBaseHordeFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnIsengardDunlandAxemanCreated" DebugSingleStep="false"/>
       <EventHandler EventName="User1Achieved"	        ScriptFunctionName="OnFireSpecialActivation"        DebugSingleStep="false"/>
       <EventHandler EventName="User1Lost"             ScriptFunctionName="OnFireSpecialStop"              DebugSingleStep="false"/>
+      <EventHandler EventName="User5Achieved"	        ScriptFunctionName="EndlessSupplyGrantUpgrades"	DebugSingleStep="false"/>
     </EventList>
 
     <EventList Name="DunlandHuskarlFunctions" Inherit="IsengardBaseHordeFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnDunlandHuskarlCreated" DebugSingleStep="false"/>
+      <EventHandler EventName="User5Achieved"	        ScriptFunctionName="EndlessSupplyGrantUpgrades"	DebugSingleStep="false"/>
     </EventList>
 
     <EventList Name="SharkuFunctions" Inherit="BaseScriptFunctions">
