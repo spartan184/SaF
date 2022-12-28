@@ -2772,7 +2772,7 @@ CONTROLBAR:ToolTipSauronLeadership
 END
 
 CONTROLBAR:SpecialAbilityTelekinesis
-"Telekinesis"
+"&Telekinesis"
 END
 CONTROLBAR:ToolTipSpecialAbilityTelekinesis
 "Sauron can manipulate objects with his mind \n Knocksback battalion or hero from range. \n Left click then right click on target"
@@ -2786,7 +2786,7 @@ CONTROLBAR:ToolTipSauronDominate
 END
 
 CONTROLBAR:SauronSummonOrcs
-"Dark Lord of Mordor"
+"Dark &Lord of Mordor"
 END
 CONTROLBAR:ToolTipSauronSummonOrcs
 "'He is gathering all evil to him' \n Sauron calls upon reinforcements \n Summons two hordes of Orcs and Uruks \n Left click to activate"
@@ -2828,28 +2828,28 @@ CONTROLBAR:ToolTipWitchKingLeadership
 END
 
 CONTROLBAR:FireWitchKingMace
-"Toggle War Mace"
+"&Toggle War Mace"
 END
 CONTROLBAR:ToolTipFireWitchKingMace
 "Toggle between the Witch-king's War Mace that deals splash damage and Sword for a faster attack \n Must be on foot"
 END
 
 CONTROLBAR:FireWitchKingMorgulBlade
-"Morgul Blade"
+"Morgul &Blade"
 END
 CONTROLBAR:ToolTipMorgulBlade
 "Required: Rank 5 \n Stuns and greatly damages an enemy hero \n Requires sword"
 END
 
 CONTROLBAR:WitchKingWight
-"Lord of Wights"
+"Lord of &Wights"
 END
 CONTROLBAR:ToolTipWitchKingWight
-"Requires: Rank 8 \n The Witch-king summons several Barrow-wights"
+"Requires: Rank 8 \n The Witch-king summons several Barrow-wights temporarily"
 END
 
 CONTROLBAR:WitchKingDoom
-"Hour of Doom"
+"Hour of &Doom"
 END
 CONTROLBAR:ToolTipWitchKingDoom
 "Requires: Rank 10 \n Intial blast in a circular radius \n Bonus for the Witch King \n +50% Armor \n +150% Damage \n Sword alights with flame"
@@ -2870,7 +2870,7 @@ CONTROLBAR:MordorMouthHotkey
 END
 
 CONTROLBAR:VileEloquence
-"Vile Eloquence"
+"&Vile Eloquence"
 END
 CONTROLBAR:ToolTipVileEloquence
 "Required: Rank 6 \n Units in radius gain experience"
@@ -2884,7 +2884,7 @@ CONTROLBAR:ToolTipBlackSorcery
 END
 
 CONTROLBAR:BlackSpeech
-"Black Speech"
+"&Black Speech"
 END
 CONTROLBAR:ToolTipBlackSpeech
 "Required: Rank 2 \n Enemy units lose 40% Armor and 40% damage for a short time (Area effect) \n Left click to activate"
@@ -2919,10 +2919,10 @@ CONTROLBAR:ToolTipGothmogSiegeLeadership
 END
 
 CONTROLBAR:GothmogOrcs
-"Lieutenant of Morgul"
+"&Lieutenant of Morgul"
 END
 CONTROLBAR:ToolTipGothmogOrcs
-"Required: Rank 6 \n Gothmog summons three hordes of Morgul Pikemen."
+"Required: Rank 6 \n Gothmog summons three hordes of Morgul Pikemen temporarily"
 END
 
 // -- #Mollock
@@ -2943,11 +2943,11 @@ CONTROLBAR:MordorMollockHotkey
 End
 
 CONTROLBAR:SpecialAbilityRage
-"Rage"
+"&Rage"
 END
 
 CONTROLBAR:SpecialAbilitySlamGround
-"Slam Ground"
+"Slam &Ground"
 END
 CONTROLBAR:TooltipSpecialAbilitySlamGround
 "Required: Rank 5 \n Mollock leaps into the air and slams the ground"
@@ -3010,7 +3010,7 @@ CONTROLBAR:ToolTipKhamulNegLeadership
 END
 
 CONTROLBAR:RelentlessPursuit
-"Relentless Pursuit"
+"&Relentless Pursuit"
 END
 CONTROLBAR:ToolTipRelentlessPursuit
 "Required: Rank 5 \n Movement speed and damage increased by 25%, armor by 10% for a brief time \n Must be mounted "
@@ -3042,7 +3042,7 @@ CONTROLBAR:ToolTipBuildMordorUrukHorde
 "Strong vs. Archers \n Weak vs. Cavalry, Monsters, Heroes \n \n The Black Uruks of Barad-dur are the elite of Sauron's orc armies, first bred by him to devastate the Gondorian province of Ithilien."
 END
 CONTROLBAR:ConstructMordorUrukHorde
-"Mordor Black Uruks"
+"Mordor Black &Uruks"
 END
 
 // -- Mordor Morgul Orc Pikemen
@@ -3071,7 +3071,7 @@ CONTROLBAR:ToolTipMordorOrcRank2
 END
 
 CONTROLBAR:MordorUrukRank2
-"Single-minded &Assault"
+"Single-&minded Assault"
 END
 CONTROLBAR:ToolTipMordorUrukRank2
 "Required: Rank 2 \n Temporarily gain +25% Damage against Heroes \n Left click to activate"
@@ -36015,7 +36015,7 @@ OBJECT:NA2
 END
 
 CONTROLBAR:MordorGollumHotkey
-"&Gollum"
+"Gollu&m"
 END
 
 CONTROLBAR:MordorGollumRevive
