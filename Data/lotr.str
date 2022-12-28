@@ -83,25 +83,6 @@ END
 // ############################################################# //
 // ========================= #Gondor ===========================
 // ############################################################# //
-CONTROLBAR:PurchaseTechnologyGondorImprovedArrowsmithing
-"&Steel-tipped Arrows"
-END
-CONTROLBAR:GondorImprovedArrowsmithing
-"Steel-tip&ped Arrows"
-END
-CONTROLBAR:ToolTipPurchaseTechnologyGondorImprovedArrowsmithing
-"+25% Damage to units \n Select a battalion to equip upgrade"
-END
-CONTROLBAR:ToolTipPurchaseUpgradeGondorImprovedArrowsmithing
-"+25% Damage to units \n Left click to upgrade this unit"
-END
-TOOLTIP:LackLevelGondorImprovedArrowsmithing 
-"Required: Rank 2 Archery Range \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
-END
-TOOLTIP:LackGondorImprovedArrowsmithing
-"+25% Damage to units \n Purchase upgrade at Archery Range to enable this equipment"
-END
-
 // ============================================================= //
 // ================== #Gondor Spellbook Powers ================= //
 // ============================================================= //
@@ -215,9 +196,6 @@ CONTROLBAR:ToolTipFaramirWarSpeech
 "Required: Rank 10 \n Nearby troops gain leadership bonus \n Passive ability"
 END
 
-CONTROLBAR:FaramirKnightRanger
-"Knight/Ranger Toggle &M"
-END
 CONTROLBAR:ToolTipFaramirKnightRanger
 "Switch between Knight and Ranger modes \n left click to activate"
 END
@@ -458,6 +436,27 @@ CONTROLBAR:ToolTipAmrothKnightsBloodOfEldar
 "Amroth Knights heal outside of combat \n Passive ability"
 END
 
+// ============================================================ //
+// ================= #Gondor Unit Upgrades =================== //
+// ============================================================ //
+CONTROLBAR:PurchaseTechnologyGondorImprovedArrowsmithing
+"&Steel-tipped Arrows"
+END
+CONTROLBAR:GondorImprovedArrowsmithing
+"Steel-tip&ped Arrows"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyGondorImprovedArrowsmithing
+"+25% Damage to units \n Select a battalion to equip upgrade"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeGondorImprovedArrowsmithing
+"+25% Damage to units \n Left click to upgrade this unit"
+END
+TOOLTIP:LackLevelGondorImprovedArrowsmithing 
+"Required: Rank 2 Archery Range \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+END
+TOOLTIP:LackGondorImprovedArrowsmithing
+"+25% Damage to units \n Purchase upgrade at Archery Range to enable this equipment"
+END
 // ############################################################ //
 // ========================== #Rohan ========================== //
 // ############################################################ //
@@ -492,6 +491,9 @@ END
 CONTROLBAR:GOTW
 "The White Wizard"
 END
+CONTROLBAR:ConstructGOTW
+"The White &Wizard"
+END
 CONTROLBAR:ToolTipGOTW
 "Unlocks Gandalf the White \n Recruit Gandalf the White at the Citadel"
 END
@@ -518,6 +520,55 @@ END
 // ============================================================ //
 // ====================== #Rohan Heroes ======================= //
 // ============================================================ //
+// -- #Gandalf
+CONTROLBAR:Bubble
+"Servant of the S&ecret Fire"
+END
+CONTROLBAR:TooltipBubble
+"Gandalf temporarily gains +600% armor \n left click to activate"
+END
+
+CONTROLBAR:Rejuvenation
+"&Rejuvenation"
+END
+CONTROLBAR:TooltipRejuvenation
+"Nearby heroes are healed and temporarily gain +50% attack \n left click to activate"
+END
+
+CONTROLBAR:WizardBlast
+"Wizard &Blast"
+END
+CONTROLBAR:ToolTipWizardBlast
+"Blast back enemies \n left click then right click on target"
+END
+
+CONTROLBAR:WordofPower
+"&Word of Power"
+END
+CONTROLBAR:ToolTipWordofPower
+"Required: Rank 10 \n Kill surrounding enemies \n left click to activate"
+END
+
+CONTROLBAR:Shadowfax
+"&Mount"
+END
+CONTROLBAR:ToolTipShadowfax
+"Required: Rank 5 and Gandalf the White \n Left click to mount horse \n +25% Armor vs. Footmen and Cavalry \n -50% Armor vs. Archers and Pikes \n"
+END
+
+CONTROLBAR:IstariLight
+"&Flame of Arnor"
+END
+CONTROLBAR:ToolTipIstariLight
+"Required: Rank 8 \n Beam of light that damages enemies \n Additional damage to Fell Beasts and Balrogs \n left click then right click on target"
+END
+
+CONTROLBAR:LightningSword
+"Lightning Swor&d"
+END
+CONTROLBAR:ToolTipLightningSword
+"Required: Rank 2 \n Shoots lightning from Sword \n left click then right click on target"
+END
 // -- #Theoden
 CONTROLBAR:TheodenRally
 "&Rally To Me!"
@@ -538,15 +589,22 @@ CONTROLBAR:TheodenLeadership
 END
 
 // -- #Eomer
+CONTROLBAR:EomerOutlawLeadership
+"Lord in Exile"
+END
+CONTROLBAR:ToolTipEomerOutlawLeadership
+"Required: Rank 3 \n Nearby units earn resources per kill \n Passive ability"
+END
+
 CONTROLBAR:SpecialAbilityEomerGuthwineThirst
-"Thirst of Guthwine"
+"Thirst of &Guthwine"
 END
 CONTROLBAR:ToolTipSpecialAbilityEomerGuthwineThirst
 "Required: Rank 5 \n +50% damage, +50% armor \n left click to activate"
 END
 
 CONTROLBAR:StandGround
-"Stand Your Ground!"
+"Stan&d Your Ground!"
 END
 CONTROLBAR:ToolTipStandGround
 "Required: Rank 8 \n Eomer and nearby troops gain +100% armor and +25% health \n Left click to activate"
@@ -557,13 +615,6 @@ CONTROLBAR:EomerMarshalLeadership
 END
 CONTROLBAR:ToolTipEomerMarshalLeadership
 "Leadership bonus to nearby Cavalry \n +50% damage and -25% trample deceleration \n Passive ability"
-END
-
-CONTROLBAR:EomerOutlawLeadership
-"Lord in Exile"
-END
-CONTROLBAR:ToolTipEomerOutlawLeadership
-"Required: Rank 3 \n Nearby units earn resources per kill \n Passive ability"
 END
 
 // -- #Aragorn
@@ -618,7 +669,7 @@ CONTROLBAR:ToolTipLegolasWhiteKnives
 END
 
 CONTROLBAR:LegolasLorienArrows
-"Arrows of Lot&hlorien"
+"Arro&ws of Lothlorien"
 END
 CONTROLBAR:ToolTipLegolasLorienArrows
 "Legolas sends off devastating volley of Lorien arrows \n left click then right click on target"
@@ -742,7 +793,7 @@ CONTROLBAR:ToolTipTheodredBloodLeadership
 END
 
 CONTROLBAR:RohanTheodredHeal
-"Determination"
+"&Determination"
 END
 CONTROLBAR:TooltipRohanTheodredHeal
 "Required: Rank 9 \n Theodred regains 75% of his maximum health"
@@ -822,21 +873,21 @@ CONTROLBAR:ToolTipHaldirArmor
 END
 
 CONTROLBAR:HaldirVigilance
-"Vigilance"
+"&Vigilance"
 END
 CONTROLBAR:TooltipHaldirVigilance
 "Required: Rank 6 \n Reveals a small portion of the map \n left click then right click on target"
 END
 
 CONTROLBAR:HaldirSkill
-"Elven Skill"
+"&Elven Skill"
 END
 CONTROLBAR:TooltipHaldirSkill
 "Required: Rank 8 \n Grants experience to archers within a radius \n left click then right click on target"
 END
 
 CONTROLBAR:HaldirQuickDraw
-"Quick Draw"
+"&Quick Draw"
 END
 CONTROLBAR:ToolTipHaldirQuickDraw
 "Haldir temporarily gains +25% Attack Speed \n left click to activate"
@@ -861,7 +912,7 @@ OBJECT:RohanMountedKingsguardHorde
 "Royal Vanguard Battalion"
 END
 CONTROLBAR:ConstructRohanMountedKingsguardHorde
-"Royal Vanguard"
+"Royal &Vanguard"
 END
 CONTROLBAR:ToolTipBuildRohanMountedKingsguardHorde
 "Required: Rank 3 Stables \n Elite Horsemen \n Limited to 3 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan."
@@ -878,7 +929,7 @@ OBJECT:RohanKingsguardHotkey
 "Edoras &Kingsguard"
 END
 CONTROLBAR:ConstructRohanKingsguardHorde
-"Edoras Kingsguard"
+"Edoras &Kingsguard"
 END
 CONTROLBAR:ToolTipBuildRohanKingsguardHorde
 "Required: Rank 3 Barracks \n Elite Footmen of Rohan \n Limited to 3 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan."
@@ -892,7 +943,7 @@ OBJECT:HordeRohanSpearmen
 "Yeoman Spearmen Battalion"
 END
 CONTROLBAR:ConstructRohanSpearmenHorde
-"Yeoman Spearmen"
+"&Yeoman Spearmen"
 END
 CONTROLBAR:ToolTipBuildRohanSpearmenHorde
 "Strong vs. Cavalry and Heroes \n \n In times of war, men of Rohan wealthy enough to own a plot of land would organize themselves into regiments and take up arms to defend their homes."
@@ -902,14 +953,14 @@ END
 // ======================= #Rohan Unit Abilities ============== //
 // ============================================================ //
 CONTROLBAR:RohanSoldierRank2
-"For Lord and Land"
+"For Lord and &Land"
 END
 CONTROLBAR:ToolTipRohanSoldierRank2
 "Required: Rank 2 \n Temporarily gain +15% movement speed and +10% Health \n Left click to activate"
 END
 
 CONTROLBAR:RohanRiderRank2
-"For Death and Glory"
+"For Death and &Glory"
 END
 CONTROLBAR:ToolTipRohanRiderRank2
 "Required: Rank 2 \n Temporarily gain +25% movement speed and +10% Health \n Left click to activate"
@@ -923,7 +974,7 @@ CONTROLBAR:ToolTipRohanGuardRank2
 END
 
 CONTROLBAR:RohanGaladhrimRank2
-"Elvish Mastery"
+"&Elvish Mastery"
 END
 CONTROLBAR:ToolTipRohanGaladhrimRank2
 "Required: Rank 2 \n Temporarily gain +50% range and +25% attack speed \n Left click to activate"
@@ -14432,7 +14483,7 @@ CONTROLBAR:ConstructGondorStable
 END
 
 CONTROLBAR:ConstructGondorKeep
-"Build Gondor Keep &t"
+"Build Gondor Keep \n Shorcut: &T"
 END
 
 CONTROLBAR:ConstructGondorStatue
@@ -16251,22 +16302,6 @@ CONTROLBAR:TooltipAthelas
 "Heals nearby friendly heroes \n left click to activate"
 END
 
-CONTROLBAR:Bubble
-"Servant of the Secret &Fire"
-END
-
-CONTROLBAR:TooltipBubble
-"Gandalf temporarily gains +600% armor \n left click to activate"
-END
-
-CONTROLBAR:Rejuvenation
-"&Rejuvenation"
-END
-
-CONTROLBAR:TooltipRejuvenation
-"Nearby heroes are healed and temporarily gain +50% attack \n left click to activate"
-END
-
 CONTROLBAR:ToolTipElendil
 "Required: Rank 5 \n Nearby enemy units flee \n left click to activate"
 END
@@ -16619,25 +16654,6 @@ CONTROLBAR:tooltipBannerGoCombine
 "Auto-combine with the closest horde"
 END
 
-CONTROLBAR:WizardBlast
-"Wizard &Blast"
-END
-
-CONTROLBAR:ToolTipWizardBlast
-"Blast back enemies \n left click then right click on target"
-END
-
-CONTROLBAR:WordofPower
-"&Word of Power"
-END
-
-CONTROLBAR:ToolTipWordofPower
-"Required: Rank 10 \n Kill surrounding enemies \n left click to activate"
-END
-
-CONTROLBAR:Shadowfax
-"&Mount"
-END
 
 CONTROLBAR:Mount
 "Mount"
@@ -16645,10 +16661,6 @@ END
 
 CONTROLBAR:ToolTipMount
 "Left click to mount horse \n +25% Armor vs. Footmen and Cavalry \n -50% Armor vs. Archers and Pikes \n 100% more damage from archers and spearmen"
-END
-
-CONTROLBAR:ToolTipShadowfax
-"Required: Rank 5 and Gandalf the White \n Left click to mount horse \n +25% Armor vs. Footmen and Cavalry \n -50% Armor vs. Archers and Pikes \n"
 END
 
 CONTROLBAR:UseSword
@@ -16709,22 +16721,6 @@ END
 
 CONTROLBAR:ToolTipEomerMount
 "Left click to mount horse \n +25% Armor vs. Footmen and Cavalry \n -50% Armor vs. Archers and Pikes \n 100% more damage from archers and spearmen"
-END
-
-CONTROLBAR:IstariLight
-"&Flame of Arnor"
-END
-
-CONTROLBAR:ToolTipIstariLight
-"Required: Rank 8 \n Beam of light that damages enemies \n Additional damage to Fell Beasts and Balrogs \n left click then right click on target"
-END
-
-CONTROLBAR:LightningSword
-"Lightning Swor&d"
-END
-
-CONTROLBAR:ToolTipLightningSword
-"Required: Rank 2 \n Shoots lightning from Sword \n left click then right click on target"
 END
 
 CONTROLBAR:ThrowSpear
