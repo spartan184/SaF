@@ -1617,14 +1617,14 @@ CONTROLBAR:ToolTipStayAWhileAndListen
 End
 
 CONTROLBAR:SongOfSpring
-"Ainulindalë"
+"Ainulindale"
 End
 CONTROLBAR:ToolTipSongOfSpring
 "When cast on an Orchard, temporarily increases its resource production by 50%\n Left click icon then left click on target"
 End
 
 CONTROLBAR:RevelersAkallabeth
-"Akallabêth"
+"Akallabeth"
 END
 CONTROLBAR:ToolTipRevelersAkallabeth
 "Quentaroli can target units to decrease their speed by 5% up to 25% and buildings to decrease their armor by 5% up to 25% \n Passive ability \n Deals significant damage over time to structures \n Can be cast from a large distance \n Left click icon then left click on target"
