@@ -154,7 +154,7 @@ END
 // ============================================================= //
 // -- #Elessar
 OBJECT:GondorKingElessar
-"King Elessar"
+"King &Elessar"
 END
 
 TOOLTIP:ToolTipLackKingElessar
@@ -176,14 +176,50 @@ CONTROLBAR:ToolTipElessarBladeMaster
 END
 
 CONTROLBAR:SpecialAbilityLegolasGimliCompanions
-"The Three Companions"
+"The &Three Companions"
 END
 CONTROLBAR:ToolTipSpecialAbilityLegolasGimliCompanions
 "Reunite the three companions once again to embark on one last journey \n Permanently summon Legolas and Gimli \n Left Click to Activate"
 END
+
 // -- #Faramir 
 CONTROLBAR:FaramirLeadership
 "Captain of Ithilien"
+END
+
+CONTROLBAR:WoundingArrow
+"&Wounding Arrow"
+END
+CONTROLBAR:ToolTipWoundingArrow
+"Single powerful attack \n left click then right click on target"
+END
+
+CONTROLBAR:CaptainofGondor
+"&Wizard's Pupil"
+END
+CONTROLBAR:ToolTipCaptainofGondor
+"Required: Rank 5 \n Give targeted units experience \n left click then right click on target"
+END
+
+CONTROLBAR:SpawnGondorRangers
+"Men of Henneth Annu&n"
+END
+CONTROLBAR:ToolTipSpawnGondorRangers
+"Required: Rank 8 \n Summons a battalion of rangers led by Madril and Damrod \n left click then right click on target"
+END
+
+CONTROLBAR:FaramirWarSpeech
+"War Speech"
+END
+CONTROLBAR:ToolTipFaramirWarSpeech
+"Required: Rank 10 \n Nearby troops gain leadership bonus \n Passive ability"
+END
+
+CONTROLBAR:FaramirKnightRanger
+"Knight/Ranger Toggle &M"
+END
+CONTROLBAR:ToolTipFaramirKnightRanger
+"Switch between Knight and Ranger modes \n left click to activate"
 END
 
 // -- #Boromir 
@@ -199,6 +235,20 @@ CONTROLBAR:BoromirBash
 END
 CONTROLBAR:ToolTipBoromirBash
 "Bash enemies with Boromir's shield \n left click then right click on target"
+END
+
+CONTROLBAR:HornofGondor
+"Ho&rn of Gondor"
+END
+CONTROLBAR:ToolTipHornofGondor
+"Stuns enemies with terror \n nearby units gain +25% attack \n left click to activate"
+END
+
+CONTROLBAR:LastStand
+"Last Stand"
+END
+CONTROLBAR:ToolTipLastStand
+"Required: Rank 8 \n Will continue to fight after health is depleted. \n Passive Ability"
 END
 
 // -- #Imrahil
@@ -265,14 +315,14 @@ CONTROLBAR:ToolTipBeregondGuard
 END
 
 CONTROLBAR:SpawnGondorCitadelGuard
-"Captain of the White Guard"
+"Captain of the &White Guard"
 END
 CONTROLBAR:ToolTipSpawnGondorCitadelGuard
 "Required: Rank 6 \n Summons three Guards of the Citadel to aid Beregond in battle \n Left click then right click on target"
 END
 
 CONTROLBAR:BeregondPin
-"Pin Down"
+"&Pin Down"
 END
 CONTROLBAR:ToolTipBeregondPin
 "Required: Rank 3 \n Damages and pins down an enemy hero \n Left click then right click on target"
@@ -374,28 +424,28 @@ CONTROLBAR:ToolTipGondorTowerGuardUndying
 END
 
 CONTROLBAR:GondorFighterRank2
-"Defenders of the White City"
+"&Defenders of the White City"
 END
 CONTROLBAR:ToolTipGondorFighterRank2
 "Required: Rank 2 \n Temporarily gain +15% movement speed and +25% armor \n Left click to activate"
 END
 
 CONTROLBAR:GondorGuardRank2
-"Oathbound"
+"&Oathbound"
 END
 CONTROLBAR:ToolTipGondorGuardRank2
 "Required: Rank 2 \n Citadel Guards gain +15% Speed and +100% Resist knockback \n Left click to activate"
 END
 
 CONTROLBAR:GondorRangerRank2
-"Woodland Mastery"
+"&Woodland Mastery"
 END
 CONTROLBAR:ToolTipGondorRangerRank2
 "Required: Rank 2 \n Temporarily gain +25% range and +25% attack speed \n Left click to activate"
 END
 
 CONTROLBAR:GondorKnightRank2
-"Desperate Charge"
+"Desperate &Charge"
 END
 CONTROLBAR:ToolTipGondorKnightRank2
 "Required: Rank 2 \n Temporarily gain +25% movement speed and -25% crush decelleration \n Left click to activate"
@@ -754,7 +804,7 @@ CONTROLBAR:ElvenHaldirRevive
 "Revive the fallen Hero, Haldir"
 END
 CONTROLBAR:ElvenHaldirHotkey
-"&Haldir"
+"Hal&dir"
 END
 
 CONTROLBAR:HaldirLeadership
@@ -14382,7 +14432,7 @@ CONTROLBAR:ConstructGondorStable
 END
 
 CONTROLBAR:ConstructGondorKeep
-"Build Gondor &Keep"
+"Build Gondor Keep &t"
 END
 
 CONTROLBAR:ConstructGondorStatue
@@ -14979,6 +15029,10 @@ END
 
 CONTROLBAR:GandalftheWhite
 "Gandalf the White"
+END
+
+CONTROLBAR:GaldalfLeadership
+"Chief of the Istari"
 END
 
 CONTROLBAR:IstariPower
@@ -16381,14 +16435,6 @@ CONTROLBAR:ToolTipWarSpeech
 "Units gain leadership bonus \n Passive ability"
 END
 
-CONTROLBAR:LastStand
-"Last Stand"
-END
-
-CONTROLBAR:ToolTipLastStand
-"Required: Rank 8 \n Will continue to fight after health is depleted."
-END
-
 CONTROLBAR:ToolTipSummonEntAllies
 "Summons Ents \n left click then right click on target"
 END
@@ -16687,58 +16733,6 @@ END
 
 CONTROLBAR:ToolTipThrowSpear
 "Single powerful and fast-recharge ranged attack \n left click then right click on target"
-END
-
-CONTROLBAR:HornofGondor
-"Ho&rn of Gondor"
-END
-
-CONTROLBAR:ToolTipHornofGondor
-"Stuns enemies with terror \n nearby units gain +25% attack \n left click to activate"
-END
-
-CONTROLBAR:WoundingArrow
-"&Wounding Arrow"
-END
-
-CONTROLBAR:ToolTipWoundingArrow
-"Single powerful attack \n left click then right click on target"
-END
-
-CONTROLBAR:GaldalfLeadership
-"Chief of the Istari"
-END
-
-CONTROLBAR:CaptainofGondor
-"&Wizard's Pupil"
-END
-
-CONTROLBAR:ToolTipCaptainofGondor
-"Required: Rank 5 \n Give targeted units experience \n left click then right click on target"
-END
-
-CONTROLBAR:SpawnGondorRangers
-"Men of &Henneth Annun"
-END
-
-CONTROLBAR:ToolTipSpawnGondorRangers
-"Required: Rank 8 \n Summons a battalion of rangers led by Madril and Damrod \n left click then right click on target"
-END
-
-CONTROLBAR:FaramirWarSpeech
-"War Speech"
-END
-
-CONTROLBAR:ToolTipFaramirWarSpeech
-"Required: Rank 10 \n Nearby troops gain leadership bonus \n Passive ability"
-END
-
-CONTROLBAR:FaramirKnightRanger
-"Knight/&Ranger Toggle"
-END
-
-CONTROLBAR:ToolTipFaramirKnightRanger
-"Switch between Knight and Ranger modes \n left click to activate"
 END
 
 CONTROLBAR:ToggleShieldWallFormation
