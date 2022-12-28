@@ -2213,7 +2213,7 @@ CONTROLBAR:LurtzThickArmor
 "Thick Armor"
 END
 CONTROLBAR:TooltipLurtzThickArmor
-"Lurtz permanently gains +75% armor"
+"Required: Rank 9 \n Lurtz permanently gains +75% armor \n Passive Ability"
 END
 
 // -- #Ugluk
