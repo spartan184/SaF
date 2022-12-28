@@ -3431,7 +3431,7 @@ END
 
 // -- Gundabad Beserkers
 CONTROLBAR:ConstructGundabadBerserkerHorde
-"Gundabad &Berserkers"
+"Gundabad Berser&kers"
 END
 CONTROLBAR:ToolTipBuildGundabadBerserkerHorde
 "Required: Rank 3 Mountain-orc Lodge \n Strong vs. Spearmen, Swordsmen, Cavalry, Heroes \n Weak vs. Archers \n Limited to 3 units \n \n Mount Gundabad has long been occupied by large, fierce orcs under the command of Bolg and his spawn."
@@ -3488,7 +3488,7 @@ OBJECT:HordeGundabadArchers
 END
 
 CONTROLBAR:ConstructGundabadOrcArcherHorde
-"Mountain-orc &Hunters"
+"Mountain-orc Hu&nters"
 END
 CONTROLBAR:ToolTipBuildGundabadOrcArcherHorde
 "Strong vs. Pikemen, Monsters \n Weak vs. Swordsmen, Heroes \n \n Feared throughout Eriador, these Mountain-orc manhunters have a reputation for being cruel and ruthless in tracking down their quarry."
@@ -3600,7 +3600,7 @@ END
 // ================== #Gundabad Unit Abilities ================ //
 // ============================================================ //
 CONTROLBAR:GundabadBeserkerLeadership
-"&Unpierceable Ranks"
+"Unpierceable Ranks"
 END
 CONTROLBAR:ToolTipGundabadBeserkerLeadership
 "Berserkers and nearby allies have resistance to knockback and trampling \n Passive Ability"
