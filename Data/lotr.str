@@ -157,7 +157,7 @@ CONTROLBAR:ToolTipElessarBladeMaster
 END
 
 CONTROLBAR:SpecialAbilityLegolasGimliCompanions
-"The &Three Companions"
+"The Three &Companions"
 END
 CONTROLBAR:ToolTipSpecialAbilityLegolasGimliCompanions
 "Reunite the three companions once again to embark on one last journey \n Permanently summon Legolas and Gimli \n Left Click to Activate"
@@ -176,7 +176,7 @@ CONTROLBAR:ToolTipWoundingArrow
 END
 
 CONTROLBAR:CaptainofGondor
-"&Wizard's Pupil"
+"Wizard's &Pupil"
 END
 CONTROLBAR:ToolTipCaptainofGondor
 "Required: Rank 5 \n Give targeted units experience \n left click then right click on target"
@@ -423,7 +423,7 @@ CONTROLBAR:ToolTipGondorRangerRank2
 END
 
 CONTROLBAR:GondorKnightRank2
-"Desperate &Charge"
+"Desperate Cha&rge"
 END
 CONTROLBAR:ToolTipGondorKnightRank2
 "Required: Rank 2 \n Temporarily gain +25% movement speed and -25% crush decelleration \n Left click to activate"
@@ -522,7 +522,7 @@ END
 // ============================================================ //
 // -- #Gandalf
 CONTROLBAR:Bubble
-"Servant of the S&ecret Fire"
+"Servant of the Se&cret Fire"
 END
 CONTROLBAR:TooltipBubble
 "Gandalf temporarily gains +600% armor \n left click to activate"
@@ -781,7 +781,7 @@ CONTROLBAR:RohanTheodredRevive
 "Revive the fallen Hero, Theodred"
 END
 CONTROLBAR:RohanTheodredHotKey
-"Theo&dred"
+"The&odred"
 END
 
 CONTROLBAR:TheodredLuckOfBattle
@@ -14456,7 +14456,7 @@ CONTROLBAR:ConstructGondorKeep
 END
 
 CONTROLBAR:ConstructGondorStatue
-"Build Gondor Heroic S&tatue"
+"Build Gondor Heroic Stat&ue"
 END
 
 CONTROLBAR:ConstructGondorWell
@@ -15988,7 +15988,7 @@ CONTROLBAR:ToolTipThrowRocks
 END
 
 CONTROLBAR:ConstructElvenWarriorHorde
-"&Elven Warriors"
+"Elven &Warriors"
 END
 
 CONTROLBAR:ToolTipBuildElvenWarriorHorde
@@ -16468,7 +16468,7 @@ CONTROLBAR:ToolTipLeap
 END
 
 CONTROLBAR:AxeThrow
-"Axe &Throw"
+"Axe Thro&w"
 END
 
 CONTROLBAR:ToolTipAxeThrow
