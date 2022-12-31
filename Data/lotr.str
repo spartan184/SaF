@@ -42,6 +42,12 @@ END
 CONTROLBAR:ToolTipTestSummon
 "Test Summon units to the battlefield"
 END
+CONTROLBAR:TestGrantExp
+"Experience/Money"
+END
+CONTROLBAR:ToolTipTestGrantExp
+"Spawns Exp Chest and Treasure"
+END
 // ############################################################ //
 // ========================= #Generics ======================== //
 // ############################################################ //
