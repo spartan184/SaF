@@ -3302,6 +3302,13 @@ CONTROLBAR:ToolTipGundabadBolgRuledByFear
 "Required: Rank 5 \n Troops within the radius gain experience. \n Left click then right click on target"
 END
 
+CONTROLBAR:BolgSwarm
+"S&warm Over Them"
+END
+CONTROLBAR:ToolTipBolgSwarm
+"Required: Rank 6 \n +33% speed and +50% Armor to nearby infantry \n Left click to activate"
+END
+
 CONTROLBAR:SummonGoblinHordes
 "Bolg's Bod&yguards"
 END
