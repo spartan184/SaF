@@ -794,7 +794,7 @@ CONTROLBAR:TheodredLuckOfBattle
 "&Luck of Battle"
 END
 CONTROLBAR:ToolTipSpecialAbilityTheodredLuckOfBattle
-"Required: Rank 3 \n Theodred equips his helmet, gains +33% armor \n When activated, Theodred temporarily avoids all ranged damage \n Left click to activate"
+"Required: Rank 3 \n Theodred equips his helmet, gains +50% armor \n Left click to activate"
 END
 
 CONTROLBAR:TheodredPassiveLeadership
