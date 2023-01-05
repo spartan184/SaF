@@ -45,81 +45,117 @@ If you cant solve the problem yourself please feel free to email me and remember
  How to manipulate it so you get what you want!!!
 Author: Me!
 
+ ; -- System Breakdown
  System:
  Definition none = Information thats set and affect the system as a whole, all values here apply to all particles in system
+ 
  Priority   =( ALWAYS_RENDER, CRITICAL, AREA_EFFECT, WEAPON_TRAIL, CONSTANT, SEMI_CONSTANT, 
    DEATH_EXPLOSION, UNIT_DAMAGE_FX, DEBRIS_TRAIL, BUILDUP, DUST_TRAIL, SCORCH_MARK, WEAPON_EXPLOSION)
  -This is the priority for rendering the particle system in bfme, the most critical 'ALWAYS_RENDER' will however 
    make it be rendered always
+   
  Shader  = (ALPHA, ADDITIVE)
  -This is to tell the System how to display the particles, play with it to get different effects.
+ 
  SystemLifetime  = (Value)
- -This is the life of the Particle System in milliseconds, it only dies out at this time if 'IsOneShot' is set to 'Yes'
+ -This is the life of the Particle System in milliseconds, it only dies out at this time if 'IsOneShot' is set to 'Yes' (Not sure if this is true yet, that it dies out part)
+ 
  ParticleName  = (TextureName.tga)
  -This is the name of the texture located in Textures.Big
+ 
  IsOneShot  = (Yes or No)
  -If Yes, this System will die in 'SystemLifetime' amount of milliseconds, however if you wish it to render the whole 
    time you dont need to put this at all
+   
  IsGroundAligned  = (Yes or No)
  -If Yes, the particles will align with the ground so their horizontal, however if you wish it not to be ground aligned, 
    and always face the camera then you dont need to put this at all\f1
+   
  SortLevel  = (0 or 1)
  -This is by default 0, but can be set to 1. This function is unknown.
+ 
  LifeTime  = (Value Value)
  -This is the lifetime of the Particle in milliseconds, random between both values
+ 
  Size  = (Value Value)
  -This is the Size of the Particle, random between both values
+ 
  InitialDelay  =  (Value Value)
  -This is the Delay of rendering for the Particle System, set in milliseconds, random between both values
+ 
  BurstDelay  = (Value Value)
 0\fs18 -This is the delay inbetween the particles creation, set in milliseconds, random between both values
+
  BurstCount  = (Value Value)
  -This is the amount of particles to be created at each 'Burst' which happens every 'BurstDelay', set in whole numbers, 
    random between both values
+   
  StartSizerate  = (Value Value)
  -\f2 Not supported in this versionnone\f1 , function Unknown
+ 
+ ; -- Color Breakdown
  Color:
  Definition none = Color of a particle
+ 
  Color # = (R:Value G:Value B:Value Value)
  -This is the color of the particle at the certain time
  -As the particle progresses in life, it sets the color to R,G,B and then sets the destination color to the color after the 
    current one
+   
  -Values range from (0-255), Time (last value) is in milliseconds
  ColorScale  = (Value Value)
  - Not supported in this versionnone , function Unknown
+ 
+ ; -- Alpha Breakdown
  Alpha:
  Definition none = Transpareny of the Particle
+ 
  Alpha # = (Value Value Value)
  -This is the alpha (transparency) of the particle at the certain time
  -As the particle progresses in life, it sets the alpha to a random value between the first 2 Values, and then sets the 
    destination alpha to the alpha after the current one
  -Values range from (0-invisible, 1-visible), Time (last Value) is in milliseconds
+ 
+ ; -- Update Breakdown
  Update:
  Definition none = Values that effect attributes about the particle, happens every frame and continues along its life
+ 
  SizeRate  = (Value Value)
  -This is how the size progress in life, if negative the particle will shrink, if positive it will grow.
+ 
  SizeRateDamping  = (Value Value)
  -This is the damping, (acceleration) in which the sizerate increases. If 1, it will maintain a normal rate, If 1.01 or higher it will 
    increase acceleration rate, if .99 or lower it will decrease acceleration rate.
+   
  AngleZ  = (Value Value)
  -This is the Initial angle of the Particle (0-360), \f1 , random between both values\f2
+ 
  AngularRateZ  = (Value Value)
  -This is the rate at which the angle of the particle changes, if negative it will move right, if positive it will move left, 
    random between both values
+   
  AngularDamping  = (Value Value)
  -This is the damping, (acceleration) in which the angularratez  increases. If 1, it will maintain a normal rate, If 1.01 or higher it will 
    increase acceleration rate, if .99 or lower it will decrease acceleration rate.
+   
+ ; -- Physics Breakdown  
  Physics:
  Definition none = Values that effect the speed and direction of the particle along its life
+ 
  VelocityDamping  = (Value Value)
  -This is the damping, (acceleration) in which the velocity (speed) of a particle  increases. If 1, it will maintain a normal rate, If 1.01 or higher it will 
    increase acceleration rate, if .99 or lower it will decrease acceleration rate.
+   
  Gravity  = (Value Value)
  -This is the gravity of the particle, if positive the particle will rise, if negative it will fall, random between both values
+ 
  DriftVelocity  = (X:Value Y:Value Z:Value)
  -This is the 'Drift' of each particle, it will increment direction by these values.
+ 
+ ; -- Emission Velocity Breakdown
  EmissionVelocity:
  Definition none = speed and direction of the Particle
+ 
  OrthoEmissionVelocity  (X, Y, Z)
  X = (Value Value)
  -XVelocity random between both values
@@ -127,25 +163,32 @@ Author: Me!
  -YVelocity random between both values
  Z = (Value Value)
  -ZVelocity random between both values
+ 
  OutwardEmissionVelocity  (Speed, OtherSpeed)
  -Speed = (Value Value)
  -Shoots Particles away from Initial location at a value random from both values
  -OtherSpeed = (Value Value)
  - Not supported in this versionnone , function Unknown
+ 
  CylindricalEmissionVelocity  (Radial, Normal)
  -Radial = (Value Value)
  -Norma = (Value Value)
+ 
+ ; -- Emission Value Breakdown
  EmissionVolume:
  Definition none = Initial Position of a particle
+ 
  PointEmissionVolume  (IsHollow)
  -IsHollow = (Yes or No)
  - Not supported in this versionnone , function Unknown
+ 
  SphereEmissionVolume  (IsHollow, Radius)
  -IsHollow = (Yes or No)
  -If Yes, Particles will be designated on the shell of the sphere, if No, dont bother puting 
-   it the system, by default it makes them appear anywhere in the sphere
+   it the system, by default it makes them appear anywhere in the sphere   
  -Radius = (Value)
  -Sets the radius of the sphere, which is half the spheres width (diameter)
+ 
  CylinderEmissionVolume  (IsHollow, Length, Radius, RadiusRate, Offset)
  -IsHollow = (Yes or No)
  -If Yes, Particles will be designated on the shell of the cylinder, if No, dont bother puting 
@@ -158,12 +201,14 @@ Author: Me!
  - Not supported in this versionnone , function Unknown
  -Offset = (X:Value Y:Value Z:Value)
  -Sets the offset of the Cylinder relative to its actual location
+ 
  LineEmissionVolume  (IsHollow, StartPoint, EndPoint)
  -IsHollow = (Yes or No)
  - Not supported in this versionnone , function Unknown
  -StartPoint = (X:Value Y:Value Z:Value)
  -EndPoint = (X:Value Y:Value Z:Value)
  -Particles location is set between these to points, to make a "Line"
+ 
   BoxEmissonVolume  (IsHollow, Halfsize)
  -IsHollow = (Yes or No)
  -Yes then Particles are on the outside of a box, If No dont bother including it, by default it will make it in the box anywhere
