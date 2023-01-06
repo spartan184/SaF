@@ -429,7 +429,7 @@ CONTROLBAR:ToolTipGondorRangerRank2
 END
 
 CONTROLBAR:GondorKnightRank2
-"Desperate Cha&rge"
+"&Desperate Charge"
 END
 CONTROLBAR:ToolTipGondorKnightRank2
 "Required: Rank 2 \n Temporarily gain +25% movement speed and -25% crush decelleration \n Left click to activate"
