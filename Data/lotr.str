@@ -636,6 +636,36 @@ END
 CONTROLBAR:ToolTipEomerMount
 "Left click to mount horse \n +25% Armor vs. Footmen and Cavalry \n -50% Armor vs. Archers and Pikes \n 100% more damage from archers and spearmen"
 END
+
+// -- #Eowyn
+CONTROLBAR:Disguise
+"&Disguise"
+END
+CONTROLBAR:ToolTipDisguise
+"Required: Rank 4 \n Disguise as a normal Rohirrim \n left click to activate"
+END
+
+CONTROLBAR:Smite
+"Smi&te"
+END
+CONTROLBAR:ToolTipSmite
+"Powerful melee attack, Eowyn deals massively increased damage to the Witch-king \n left click then right click on target"
+END
+
+CONTROLBAR:EowynLeadership
+"Beloved Lady"
+END
+CONTROLBAR:ToolTipEowynLeadership
+"Nearby Peasants gain +25% armor and +25% experience \n Passive ability"
+END
+
+CONTROLBAR:ShieldMaiden
+"Shield Maide&n"
+END
+CONTROLBAR:ToolTipShieldMaiden
+"Required: Rank 5 \n Armor increased 50% \n left click to activate"
+END
+
 // -- #Aragorn
 CONTROLBAR:SpecialAbilityAragornHunter
 "Hunter"
@@ -815,7 +845,7 @@ CONTROLBAR:RohanTheodredHeal
 "&Determination"
 END
 CONTROLBAR:TooltipRohanTheodredHeal
-"Required: Rank 9 \n Theodred regains 75% of his maximum health"
+"Required: Rank 9 \n Theodred and troops regain some of their health back \n Left click to activate"
 END
 
 // -- #Radagast
@@ -16771,39 +16801,6 @@ END
 
 CONTROLBAR:ToolTipGrimaDominate
 "Required: Rank 10 \n Enemy units within the radius are temporarily converted \n left click then right click on target"
-END
-
-
-CONTROLBAR:Disguise
-"&Disguise"
-END
-
-CONTROLBAR:ToolTipDisguise
-"Required: Rank 4 \n Disguise as a normal Rohirrim \n left click to activate"
-END
-
-CONTROLBAR:Smite
-"Smi&te"
-END
-
-CONTROLBAR:ToolTipSmite
-"Powerful melee attack, Eowyn deals massively increased damage to the Witch-king \n left click then right click on target"
-END
-
-CONTROLBAR:EowynLeadership
-"Beloved Lady"
-END
-
-CONTROLBAR:ToolTipEowynLeadership
-"Nearby Peasants gain +25% armor and +25% experience \n Passive ability"
-END
-
-CONTROLBAR:ShieldMaiden
-"Shield Maide&n"
-END
-
-CONTROLBAR:ToolTipShieldMaiden
-"Required: Rank 5 \n Armor increased 50% \n left click to activate"
 END
 
 CONTROLBAR:ToggleTrebWeapon
