@@ -1,0 +1,116 @@
+Welcome to my tutorial about the logic of SpecialPower-Behaviors (not anims or weapons that are used)...
+
+This tutorial is for those slightly advanced coders who want to know how the basic tags of a specialpower are set up.
+So you should know the very basics about inis and how they work.
+
+Note: This tutorial is for BFME1, but I think it applies also to BFME2.
+Besides, this is a theoretical tutorial, so no files are required (although it may help to see how they are used in the game)
+And yes, there are always exceptions to the rules, I am just explaining the way that is used the most...
+
+So let's get started:
+
+The basic layout of any special power consists of three parts. Though you mostly don't need all three,
+it's just the maximum you'll need.
+
+
+The first part is the "UnpauseSpecialPowerUpgrade"-behavior. It could look like that:
+
+Behavior = UnpauseSpecialPowerUpgrade ModuleTag_AragornOathbreakersEnabler
+		SpecialPowerTemplate = SuperweaponSpawnOathbreakers
+		TriggeredBy = Upgrade_AragornOathbreakers
+EndAs you can see from the title, this behavior is required to "unpause", to activate the specialpower,
+so that you can use it afterwards (click the button and launch it).
+
+- The first tag defines the specialpower which is also used by the two following modules. This points to specialpower.ini,
+where you should have your power defined.
+- The second tag tells the game which upgrade is needed to unpause the ability. Normally this upgrade is given
+in epxeriencelevels.ini.
+
+This behavior is unique, so there are no variations with similar or the same functions.
+
+Note: This module is only required if you have "StartsPaused = Yes" in the next module (SpecialPowerModule).
+
+
+The second part is the "SpecialPowerModule". Examples:
+
+Behavior = SpecialPowerModule ModuleTag_FireballStarter					  
+	SpecialPowerTemplate		= SpecialAbilitySarumanFireball
+	UpdateModuleStartsAttack	= Yes
+	StartsPaused			= Yes
+	InitiateSound			= SarumanVoiceAttackFireball
+EndOr:
+
+Behavior = SpecialPowerModule ModuleTag_ShieldMaidenUpdate   
+	SpecialPowerTemplate	  = SpecialAbilityEowynShieldMaiden
+	UpdateModuleStartsAttack  = No
+	StartsPaused = Yes
+	AttributeModifier = EowynShieldMaidenBonus
+	AttributeModifierRange = 1
+	AttributeModifierAffectsSelf = Yes
+	AttributeModifierAffects = ANY +CAVALRY +INFANTRY
+	AttributeModifierFX = FX_EowynShieldMaiden
+EndThis module is required for any specialpower to work. If you lack this module, the power will not work.
+Though you may encounter powers where a vatiation of this module is used, more on that topic below.
+
+As you can see, I've listed two examples. The above one is the shape where you have the third behavior, a SpecialAbilityUpdate,
+the second is the shape a SpecialPowerModule could have when it does not have a following update-behavior.
+
+- The first tag is again, the reference to specialpower.ini.
+- The second, "UpdateModuleStartsAttack", tells the game if it should look for another behavior (the update)
+with the same specialpower.ini-reference. Depending on what you have use "Yes" or "No" (pretty simple).
+- The third tag here, "StartsPaused", is the one I was referring to above, if you have "Yes" you might want to
+unpause it in order to make the power available.
+
+All the following tags are custom. Many of them affect the AttributeModifiers, but you can also set ModelConditions,
+trigger FX events or play sounds. Have a look at the different powers for examples.
+
+
+The third part is the so-called "SpecialAbilityUpdate".
+
+An example:
+
+Behavior = SpecialAbilityUpdate ModuleTag_GloriousChargeAnimation
+	SpecialPowerTemplate	= SpecialAbilityTheodenGloriousCharge
+	
+	UnpackTime			  = 1000
+ 	PreparationTime		 = 0  
+ 	PersistentPrepTime	  = 0
+ 	PackTime				= 1330
+	
+	UnpackingVariation		= 1
+EndIn general, this module will set specific animations for your power.
+But if you look through some inis, you'll notice that this plain version isn't used very often.
+Most of the time, certain variations are used, but I'll explain some of them further below.
+
+Now to the different tags (I've reorganised the code a bit):
+
+- The first one is, as usual, the specialpower.ini reference
+- the following four control the animations. They can link to a special animation flag:
+
+UnpackTime --> UNPACKING (e.g. "UNPACKING PACKING_TYPE_1")
+PreparationTime --> PREPARING (e.g. "PREPARING PACKING_TYPE_1")
+PersistentPrepTime --> empty (e.g. "PACKING_TYPE_1")
+PackTime --> PACKING (e.g. "PACKING PACKING_TYPE_1")
+
+The amount of time for the different tags is very different, always depending on the type of the power.
+Also there aren't always all animations referenced.
+
+The last tag is a special animation marker. If you have more than one special power with SpecialAbilityUpdate,
+you need to tell the game which animation belongs to which power. One example to handle this is the "UnpackingVariation",
+a tag which will lead to the Anim flag "PACKING_TYPE_x" (x being the number you specify).
+Other possibilites for this are "WhichSpecialPower" (which leads to SPECIAL_POWER_x) and "WhichSpecialWeapon"
+(which leads to SPECIAL_WEAPON_y, y being ONE, TWO or THREE). Please notice that you only have
+3 different possibilities each. Besides, using all of them may lead to certain problems... [lua/xml scripts].
+
+Now as I told you, this plain version isn't used often, the common variations are:
+
+WeaponFireSpecialAbilityUpdate - used for almost any special weapon
+ModelConditionSpecialAbilityUpdate - used for special animation-based abilites (Boromir's Horn, Frodo's Phial)
+ToggleMountedSpecialAbilityUpdate - used for mounting
+HeroModeSpecialAbilityUpdate - used for a hero mode ability, like Aragorn's Blademaster
+
+Check out some of them yourself to see what additional tags they offer...
+
+I hope that this tutorial helps someone on his way towards advanced coding. If you have any questions or tips, just post and I'll edit this tutorial.
+
+Well that's it, have a nice day.
