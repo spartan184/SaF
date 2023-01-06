@@ -710,7 +710,7 @@ CONTROLBAR:ToolTipGimliKhazad
 END
 
 CONTROLBAR:RohanGimliAxeThrow
-"A&xe Throw"
+"Axe &Throw"
 END
 CONTROLBAR:ToolTipRohanGimliAxeThrow
 "Gimli hurls his axe at a nearby foes pinning them in place \n left click then right click on target"
@@ -993,7 +993,7 @@ CONTROLBAR:ToolTipRohanGuardRank2
 END
 
 CONTROLBAR:RohanGaladhrimRank2
-"Elvish Mas&tery"
+"Elvish Master&y"
 END
 CONTROLBAR:ToolTipRohanGaladhrimRank2
 "Required: Rank 2 \n Temporarily gain +50% range and +25% attack speed \n Left click to activate"
