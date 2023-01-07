@@ -2263,11 +2263,11 @@ CONTROLBAR:TooltipMordorScum
 "Summons Grishnakh and two battalions of Mordor Orcs \n Left click then right click on target"
 END
 
-CONTROLBAR:EndlessSupplies
-"&Metal and Wheels"
+CONTROLBAR:IsengardCalltheHorde
+"Build Me An Army"
 END
-CONTROLBAR:TooltipEndlessSupplies
-"Instantly upgrades Infantry units in radius with heavy armor, forged blades and banner carriers\n Left click then right click on target"
+CONTROLBAR:ToolTipIsengardCalltheHorde
+"Uruk-hai are produced at a significantly increased rate for a moderate duration \n Left click to activate"
 END
 
 CONTROLBAR:SummonIsengardWhiteHand
@@ -2318,15 +2318,8 @@ CONTROLBAR:ToolTipThunderBolt
 "Required: Rank 10 \n Calls down a bolt of lightning within the targeted area \n Left click then right click on target"
 END
 
-CONTROLBAR:SarumanCalltheHorde
-"Build Me An Army"
-END
-CONTROLBAR:ToolTipSarumanCalltheHorde
-"Uruk-hai are produced at a significantly increased rate for a moderate duration \n Left click to activate"
-END
-
 CONTROLBAR:EndlessSupplies
-"Endless Supplies"
+"Endless Suppl&ies"
 END
 CONTROLBAR:ToolTipEndlessSupplies
 "Required: Rank 7 \n Instantly upgrades Isengard units in radius with all upgrades"
