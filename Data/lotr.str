@@ -2325,6 +2325,26 @@ CONTROLBAR:ToolTipEndlessSupplies
 "Required: Rank 7 \n Instantly upgrades Isengard units in radius with all upgrades"
 END
 
+CONTROLBAR:SpeechCraft
+"Leave &None Alive"
+END
+CONTROLBAR:ToolTipSpeechCraft
+"Required: Rank 7 \n Give targeted units experience \n left click then right click on target"
+END
+
+CONTROLBAR:BuildMeAnArmy
+"Build Me An Arm&y"
+END
+CONTROLBAR:ToolTipBuildMeAnArmy
+"Required: Rank 5 \n Temporarily decreases build times of targeted Uruk Pit by 50%\n left click then right click on target"
+END
+
+CONTROLBAR:Dominate
+"&Voice of Saruman"
+END
+CONTROLBAR:ToolTipDominate
+"Temporarily gain control of targeted enemies \n left click then right click on target"
+END
 // -- #Lurtz
 CONTROLBAR:SpawnLurtzScouts
 "Fighting Uruk-Ha&i"
@@ -2498,11 +2518,11 @@ CONTROLBAR:IsengardGrimaHotkey
 "&Grima"
 END
 
-CONTROLBAR:GrimaSiegeLeadership
-"Exploit &Weakness"
+CONTROLBAR:GrimaCloak
+"Subter&fuge"
 END
-CONTROLBAR:ToolTipGrimaSiegeLeadership
-"Required: Rank 8 \n Nearby Siege Engines gain +25% damage."
+CONTROLBAR:ToolTipGrimaCloak
+"Becomes invisible, cannot attack. \n Using abilities reveals you \n left click to activate"
 END
 
 CONTROLBAR:GrimaLeechcraft
@@ -2519,6 +2539,19 @@ CONTROLBAR:ToolTipGrimaSabotage
 "Required: Rank 3 \n Enemy Resource structure production is reduced by 50% for a minute\n Left click then right click on target"
 END
 
+CONTROLBAR:GrimaSiegeLeadership
+"Exploit &Weakness"
+END
+CONTROLBAR:ToolTipGrimaSiegeLeadership
+"Required: Rank 8 \n Nearby Siege Engines gain +25% damage. \n Passive Ability"
+END
+
+CONTROLBAR:GrimaDominate
+"&Venomous Words"
+END
+CONTROLBAR:ToolTipGrimaDominate
+"Required: Rank 10 \n Enemy units within the radius are temporarily converted \n left click then right click on target"
+END
 // ============================================================ //
 // ====================== #Isengard Units ===================== //
 // ============================================================ //
@@ -2861,7 +2894,7 @@ CONTROLBAR:FireWitchKingMorgulBlade
 "Morgul &Blade"
 END
 CONTROLBAR:ToolTipMorgulBlade
-"Required: Rank 5 \n Stuns and greatly damages an enemy hero \n Requires sword"
+"Required: Rank 5 \n Stuns and greatly damages an enemy hero \n Otherwise deals damage to targeted unit \n Requires sword"
 END
 
 CONTROLBAR:WitchKingWight
@@ -16688,14 +16721,6 @@ CONTROLBAR:ToolTipFryingPan
 "Powerful melee attack \n left click then right click on target"
 END
 
-CONTROLBAR:GrimaCloak
-"Subter&fuge"
-END
-
-CONTROLBAR:ToolTipGrimaCloak
-"Becomes invisible, cannot attack. \n Using abilities reveals you \n left click to activate"
-END
-
 CONTROLBAR:ElvenCloak
 "Elven &Cloak"
 END
@@ -16762,38 +16787,6 @@ END
 
 CONTROLBAR:ToolTipBuildGondorBattleTower
 "Defensive structure"
-END
-
-CONTROLBAR:SpeechCraft
-"Leave &None Alive"
-END
-
-CONTROLBAR:ToolTipSpeechCraft
-"Required: Rank 7 \n Give targeted units experience \n left click then right click on target"
-END
-
-CONTROLBAR:BuildMeAnArmy
-"Build Me An Arm&y"
-END
-
-CONTROLBAR:ToolTipBuildMeAnArmy
-"Required: Rank 5 \n Temporarily decreases build times of targeted Uruk Pit by 50%\n left click then right click on target"
-END
-
-CONTROLBAR:Dominate
-"&Voice of Saruman"
-END
-
-CONTROLBAR:ToolTipDominate
-"Temporarily gain control of targeted enemies \n left click then right click on target"
-END
-
-CONTROLBAR:GrimaDominate
-"&Venomous Words"
-END
-
-CONTROLBAR:ToolTipGrimaDominate
-"Required: Rank 10 \n Enemy units within the radius are temporarily converted \n left click then right click on target"
 END
 
 CONTROLBAR:ToggleTrebWeapon
