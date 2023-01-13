@@ -20412,7 +20412,7 @@ OBJECT:SlaughterHouseDescription
 END
 
 OBJECT:IsengardSlaughterHouseDescription
-"Food Bonus - Reduced Cost of Warg Riders \n 2 Slaughter Houses: 10% \n 3 Slaughter Houses: 15% \n 4 Slaughter Houses: 20% \n 5 Slaughter Houses: 25% \n 6+ Slaughter Houses: 30%"
+"Food Bonus - Reduced Cost of Warg Riders and Uruks \n 2 Slaughter Houses: 10% \n 3 Slaughter Houses: 15% \n 4 Slaughter Houses: 20% \n 5 Slaughter Houses: 25% \n 6+ Slaughter Houses: 30%"
 END
 
 OBJECT:FurnaceDescription
