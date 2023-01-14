@@ -2529,14 +2529,14 @@ CONTROLBAR:GrimaLeechcraft
 "&Leechcraft"
 END
 CONTROLBAR:ToolTipGrimaLeechcraft
-"Required: Rank 5 \n Enemy units lose -25% Damage and -20% Health for a short amount of time \n Left click then right click on target"
+"Required: Rank 5 \n Targeted Heroes are dealth damage and lose -25% Damage, -20% Health for a short amount of time \n Targeted Units and structures are dealt damage\n Left click then right click on target"
 END
 
 CONTROLBAR:GrimaSabotage
 "Sabo&tage"
 END
 CONTROLBAR:ToolTipGrimaSabotage
-"Required: Rank 3 \n Enemy Resource structure production is reduced by 50% for a minute\n Left click then right click on target"
+"Required: Rank 3 \n Targeted Resource building is dealth damage and production is reduced by 50% for a minute\n Targeted Non-resource buildings are dealt damaged \n Targeted Units and heroes speed is reduced \n Left click then right click on target"
 END
 
 CONTROLBAR:GrimaSiegeLeadership
