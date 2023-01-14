@@ -3108,7 +3108,19 @@ END
 OBJECT:HordeMordorMorgulOrcPike
 "Morgul Orc Pike Horde"
 END
+CONTROLBAR:ToolTipBuildMordorMorgulOrcPikeHorde
+"Strong vs. Cavalry \n Weak vs. Archers, Monsters, Heroes"
+END
+CONTROLBAR:ConstructMordorMorgulOrcPikeHorde
+"Morgul P&ikemen"
+END
 
+OBJECT:HordeMordorFighterPikemenCombo
+"Mordor Fighter Pikemen Horde"
+END
+OBJECT:HordeMordorPikemenArcherCombo
+"Mordor Pikemen Archer Horde"
+END
 // ============================================================ //
 // ====================== #Mordor Unit Abilities ============== //
 // ============================================================ //
