@@ -845,7 +845,7 @@ CONTROLBAR:RohanTheodredHeal
 "&Determination"
 END
 CONTROLBAR:TooltipRohanTheodredHeal
-"Required: Rank 9 \n Troops near Theodred regain some of their health back \n Left click to activate"
+"Required: Rank 9 \n Theodred, heroes, and troops regain some of their health back \n Left click to activate"
 END
 
 // -- #Radagast
@@ -2925,11 +2925,11 @@ CONTROLBAR:MordorMouthHotkey
 "&Mouth of Sauron"
 END
 
-CONTROLBAR:VileEloquence
-"&Vile Eloquence"
+CONTROLBAR:BlackSpeech
+"&Black Speech"
 END
-CONTROLBAR:ToolTipVileEloquence
-"Required: Rank 6 \n Units in radius gain experience"
+CONTROLBAR:ToolTipBlackSpeech
+"Required: Rank 2 \n Enemy units lose 40% Armor and 40% damage for a short time (Area effect) \n Left click to activate"
 END
 
 CONTROLBAR:BlackSorcery
@@ -2939,13 +2939,12 @@ CONTROLBAR:ToolTipBlackSorcery
 "Required: Rank 4 \n Mouth of Sauron and nearby troops gain +30% damage and +75% armor \n Left click to activate"
 END
 
-CONTROLBAR:BlackSpeech
-"&Black Speech"
+CONTROLBAR:VileEloquence
+"&Vile Eloquence"
 END
-CONTROLBAR:ToolTipBlackSpeech
-"Required: Rank 2 \n Enemy units lose 40% Armor and 40% damage for a short time (Area effect) \n Left click to activate"
+CONTROLBAR:ToolTipVileEloquence
+"Required: Rank 6 \n Units in radius gain experience"
 END
-
 // -- #Gothmog 
 OBJECT:MordorGothmog
 "Gothmog"
