@@ -845,7 +845,7 @@ CONTROLBAR:RohanTheodredHeal
 "&Determination"
 END
 CONTROLBAR:TooltipRohanTheodredHeal
-"Required: Rank 9 \n Theodred and troops regain some of their health back \n Left click to activate"
+"Required: Rank 9 \n Troops near Theodred regain some of their health back \n Left click to activate"
 END
 
 // -- #Radagast
