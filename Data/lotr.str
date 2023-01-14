@@ -1528,7 +1528,7 @@ CONTROLBAR:GreyPilgrimCartSummon
 "Gandalf's &Cart"
 END
 CONTROLBAR:ToolTipGreyPilgrimCartSummon
-"Summons Farmer Gandalf's Cart for a short time \nHeals nearby units \n Left click then right click on target"
+"Summons Gandalf's Cart for a short time \nHeals nearby units \n Left click then right click on target"
 END
 
 CONTROLBAR:GreyPilgrimMoreLight
