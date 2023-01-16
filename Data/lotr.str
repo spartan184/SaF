@@ -2416,11 +2416,11 @@ CONTROLBAR:IsengardWulfgarHotKey
 "&Wulfgar"
 END
 
-CONTROLBAR:KingoftheHills
-"&King of the Hills"
+CONTROLBAR:SwordStrike
+"Sw&ord Strike"
 END
-CONTROLBAR:ToolTipKingoftheHills
-"Requires Level 8\nRallies nearby Dunlendings temporarily increasing their armor by 200% \n Left click to activate"
+CONTROLBAR:ToolTipSwordStrike
+"Powerful attack that causes meta impact \n Left click icon then left click on target"
 END
 
 CONTROLBAR:WulfgarSubjugation
@@ -2430,11 +2430,18 @@ CONTROLBAR:ToolTipWulfgarSubjugation
 "Though hesitant, Wulfgar was left with no choice\nbut to pledge his warriors to Saruman's cause\nRequires Level 3 \nDunlendings near Wulfgar gain +50% damage \nPassive ability"
 END
 
-CONTROLBAR:SwordStrike
-"Sw&ord Strike"
+CONTROLBAR:KingoftheHills
+"&King of the Hills"
 END
-CONTROLBAR:ToolTipSwordStrike
-"Powerful attack that causes meta impact \n Left click icon then left click on target"
+CONTROLBAR:ToolTipKingoftheHills
+"Requires Level 8\nRallies nearby Dunlendings temporarily increasing their armor by 200% \n Left click to activate"
+END
+
+CONTROLBAR:WulfgarRiderSummon
+"D&unnish Riders"
+END
+CONTROLBAR:ToolTipWulfgarRiderSummon
+"Required: Rank 10 \n Wulfgar calls to his Dunnish Riders \n Summons 3 Dunnish Rider Hordes\n Left Click To Activate"
 END
 
 // -- #Grishnakh 
@@ -2655,18 +2662,18 @@ CONTROLBAR:LW_ToolTipBuild_DunlandHuskarlHorde
 "Unit Type: Elite Infantry\nStrong vs. Pikemen\n"
 END
 
-// -- Dunland Axemen
-OBJECT:IsengardDunlandAxeman
-"Dunlending Axeman"
+// -- Dunland Rider 
+OBJECT:IsengardDunlandRider
+"Dunlending Rider"
 END
-OBJECT:DunlandAxemenHorde
-"Dunlending Axemen"
+OBJECT:IsengardDunlandRiderHorde
+"Dunlending Rider"
 END
-CONTROLBAR:ConstructIsengardDunlandAxemenHorde
-"Dunlending &Axemen"
+CONTROLBAR:ConstructIsengardDunlandRiderHorde
+"Dunlending &Rider"
 END
-CONTROLBAR:ToolTipBuildIsengardDunlandAxemenHorde
-"Elite Infantry \nStrong vs. Pikemen \n \n An axe, a shield, and a helmet. These are the most valuable possessions of any Dunnish warrior."
+CONTROLBAR:ToolTipBuildIsengardDunlandRider
+"Strong vs. Swordsmen and Archers\n 'The Men of Dunland do not take kindly to notions of Rohirric equestrian superiority, claiming their Outriders can match any Rider of Rohan.'"
 END
 
 // ============================================================ //
