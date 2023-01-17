@@ -3504,6 +3504,13 @@ CONTROLBAR:ToolTipGundabadGolfimbulDreadfangsCall
 "Required: Rank 3 \n Golfimbul Warg howls, freezing the blood of the enemy and stunning them for a short time. \n left click to activate"
 END
 
+CONTROLBAR:GolfimbulBite
+"Feeding Time!"
+END
+CONTROLBAR:ToolTipGolfimbulBite
+"Required: Rank 4 \n Golfimbul wolf lunges at target dealing significant damage \n Left click icon then left click on target"
+END
+
 CONTROLBAR:GundabadGolfimbulHatredOfFolk
 "Hatred of the Fair Fol&k"
 END
