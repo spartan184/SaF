@@ -3443,7 +3443,7 @@ OBJECT:GundabadLug
 "Lug the Mauled"
 END
 CONTROLBAR:GundabadLugRecruit
-"Recruit Lug the Mauled, Beast Master of Gundabad \n \n 'Few orcs share a bond as fierce as Lug and his warg. It cost him and arm, but the leg he got to keep.'"
+"Recruit the deranged killer for hire, Lug \n \n Harboring an equal appetite for gold and destruction, Lug is a ferocious manhunter whose murderous reputation precedes him throughout the dredges of the Misty Mountains."
 END
 CONTROLBAR:GundabadLugRevive
 "Revive the fallen Hero, Lug the Mauled"
@@ -3452,25 +3452,56 @@ CONTROLBAR:GundabadLugHotkey
 "&Lug the Mauled"
 END
 
-CONTROLBAR:GundabadLugLeadership
-"Leader of the Pack"
-END
-CONTROLBAR:ToolTipGundabadLugLeadership
-"Leadership \n Warg-scouts and Warg Riders gain +25% experience and +25% damage. \n Passive ability"
+CONTROLBAR:ToolTipLugHeadhunter
+"Puts a price on an enemy hero's head, reducing their armor and speed by 20% \n At level 3, reduces armor and speed by 30% \n At level 6, reduces armor and speed by 40% \n At level 10, reduces armor and speed by 50% \nLeft click icon then left click on target"
 END
 
-CONTROLBAR:GundabadLugDreadfangsCall
+CONTROLBAR:GoingDownSwinging
+"Goin' Down Swinging (&T)"
+END
+CONTROLBAR:ToolTipGoingDownSwinging
+"Requires Level 3 \n Lug harms himself to temporarily gain +50% armour, +50% damage and +20% speed \n Can only use with sword equipped \n Left click to activate"
+END
+
+CONTROLBAR:LugScorchedEarth
+"Scorched Earth (&C)"
+END
+CONTROLBAR:ToolTipLugScorchedEarth
+"Requires Level 6 \n Lug sets fire to the earth and burns all friendly and enemy units \n Left click to activate"
+END
+// -- #Golfimbul 
+OBJECT:GundabadGolfimbul
+"Golfimbul"
+END
+CONTROLBAR:GundabadGolfimbulRecruit
+"Recruit the Chieftain of Mount Gram \n \n 'Long after the day his ancestor's gruesome death sparked the invention of a silly Halfling sport, Golfimbul seeks to avenge the death of his namesake by laying waste to the Shire.'"
+END
+CONTROLBAR:GundabadGolfimbulRevive
+"Revive the Chieftain of Mount Gram"
+END
+CONTROLBAR:GundabadGolfimbulHotkey
+"Golfimb&ul"
+END
+
+CONTROLBAR:GundabadGolfimbulLeadership
+"Chieftain of Mount Gram"
+END
+CONTROLBAR:ToolTipGundabadGolfimbulLeadership
+"Leadership \n Wolves, Wargs, and Wolf-Riders gain +25% experience and +25% damage. \n Passive ability"
+END
+
+CONTROLBAR:GundabadGolfimbulDreadfangsCall
 "&Dreadfang's Call"
 END
-CONTROLBAR:TooltipGundabadLugDreadfangsCall
-"Required: Rank 3 \n Lugs Warg howls, freezing the blood of the enemy and stunning them for a short time. \n left click to activate"
+CONTROLBAR:ToolTipGundabadGolfimbulDreadfangsCall
+"Required: Rank 3 \n Golfimbul Warg howls, freezing the blood of the enemy and stunning them for a short time. \n left click to activate"
 END
 
-CONTROLBAR:GundabadLugScentOfBlood
-"Scent of &Blood"
+CONTROLBAR:GundabadGolfimbulHatredOfFolk
+"Hatred of the Fair Fol&k"
 END
-CONTROLBAR:ToolTipGundabadLugScentOfBlood
-"Required: Rank 5 \n Lug and surrounding Warg-riders gain +20% speed and crush. \n Left click to activate"
+CONTROLBAR:ToolTipGundabadGolfimbulHatredOfFolk
+"Required: Rank 5 \n Golfimbul seeks to exact his revenge upon the Fair-folk. \n Golfimbul and nearby Wolves, Wargs, and Wolf-Riders gain +20% speed and crush. \n Left click to activate"
 END
 
 // ============================================================ //

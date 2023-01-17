@@ -647,7 +647,11 @@
     <EventList Name="LugtheMauledFunctions" Inherit="BaseScriptFunctions">
       <EventHandler EventName="UsingSpecialOne"		ScriptFunctionName="RadiateUncontrollableFear"	DebugSingleStep="false"/>
     </EventList>
-	
+    
+    <EventList Name="GolfimbulFunctions" Inherit="BaseScriptFunctions">
+      <EventHandler EventName="UsingSpecialOne"		ScriptFunctionName="RadiateUncontrollableFear"	DebugSingleStep="false"/>
+    </EventList>	
+    
     <EventList Name="CaveTrollFunctions" Inherit="BaseScriptFunctions">
       <EventHandler EventName="ReallyDamaged"				ScriptFunctionName="GoIntoRampage"				DebugSingleStep="false"/>
       <EventHandler EventName="OnCreated"					ScriptFunctionName="OnCaveTrollCreated"			DebugSingleStep="false"/>
