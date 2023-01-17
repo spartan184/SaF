@@ -3452,22 +3452,29 @@ CONTROLBAR:GundabadLugHotkey
 "&Lug the Mauled"
 END
 
-CONTROLBAR:ToolTipLugHeadhunter
-"Puts a price on an enemy hero's head, reducing their armor and speed by 20% \n At level 3, reduces armor and speed by 30% \n At level 6, reduces armor and speed by 40% \n At level 10, reduces armor and speed by 50% \nLeft click icon then left click on target"
+CONTROLBAR:ToolTipToggleLugWeapon
+"Left click to toggle between sword and knife throw"
 END
 
-CONTROLBAR:GoingDownSwinging
-"Goin' Down Swinging (&T)"
+CONTROLBAR:LugHeadhunter
+"Head Hunter"
 END
-CONTROLBAR:ToolTipGoingDownSwinging
-"Requires Level 3 \n Lug harms himself to temporarily gain +50% armour, +50% damage and +20% speed \n Can only use with sword equipped \n Left click to activate"
+CONTROLBAR:ToolTipLugHeadhunter
+"Puts a price on an enemy hero's head, reducing their armor and speed by 20% At \nLeft click icon then left click on target"
+END
+
+CONTROLBAR:LugGoingDownSwinging
+"Goin' Down Swingi&ng"
+END
+CONTROLBAR:ToolTipLugGoingDownSwinging
+"Required: Rank 3 \n Lug temporarily gains +50% armour, +50% damage and +20% speed \n Can only use with sword equipped \n Left click to activate"
 END
 
 CONTROLBAR:LugScorchedEarth
-"Scorched Earth (&C)"
+"S&corched Earth"
 END
 CONTROLBAR:ToolTipLugScorchedEarth
-"Requires Level 6 \n Lug sets fire to the earth and burns all friendly and enemy units \n Left click to activate"
+"Required: Rank 6 \n Lug sets fire to the earth and burns all enemy units \n Left click to activate"
 END
 // -- #Golfimbul 
 OBJECT:GundabadGolfimbul
