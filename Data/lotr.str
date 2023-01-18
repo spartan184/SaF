@@ -3460,7 +3460,7 @@ CONTROLBAR:LugHeadhunter
 "Head Hunter"
 END
 CONTROLBAR:ToolTipLugHeadhunter
-"Puts a price on an enemy hero's head, reducing their armor and speed by 20% \nLeft click icon then left click on target"
+"Puts a price on an enemy hero's head, reducing their armor and speed by 20% \n All other targets are dealt damage \n Left click icon then left click on target"
 END
 
 CONTROLBAR:LugGoingDownSwinging
