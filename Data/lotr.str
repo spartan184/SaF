@@ -3579,6 +3579,9 @@ END
 OBJECT:HordeGundabadFighterArcherCombo
 "Mountain-orc Slasher - Mountain-orc Hunter Horde"
 END
+OBJECT:HordeGundabadFighterPikeComboHorde
+"Mountain-orc Slasher Pikemen Combo Horde"
+END
 
 CONTROLBAR:ConstructGundabadOrcHorde
 "Mountain-orc &Slashers"
