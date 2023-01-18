@@ -3460,7 +3460,7 @@ CONTROLBAR:LugHeadhunter
 "Head Hunter"
 END
 CONTROLBAR:ToolTipLugHeadhunter
-"Puts a price on an enemy hero's head, reducing their armor and speed by 20% At \nLeft click icon then left click on target"
+"Puts a price on an enemy hero's head, reducing their armor and speed by 20% \nLeft click icon then left click on target"
 END
 
 CONTROLBAR:LugGoingDownSwinging
@@ -3505,7 +3505,7 @@ CONTROLBAR:ToolTipGundabadGolfimbulDreadfangsCall
 END
 
 CONTROLBAR:GolfimbulBite
-"Feeding Time!"
+"&Feeding Time!"
 END
 CONTROLBAR:ToolTipGolfimbulBite
 "Required: Rank 4 \n Golfimbul wolf lunges at target dealing significant damage \n Left click icon then left click on target"
