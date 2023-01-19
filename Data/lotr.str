@@ -666,6 +666,10 @@ CONTROLBAR:ToolTipShieldMaiden
 "Required: Rank 5 \n Armor increased 50% \n left click to activate"
 END
 
+CONTROLBAR:ToolTipEowynGloriousCharge
+"Required: Rank 4 \n Eowyn and nearby troops +30% damage, +75% armor and don't slow down while crushing \n Eowyn must be mounted to use ability \n Left click to activate"
+END
+
 // -- #Aragorn
 CONTROLBAR:SpecialAbilityAragornHunter
 "Hunter"
