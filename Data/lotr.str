@@ -3016,7 +3016,7 @@ CONTROLBAR:SpecialAbilitySlamGround
 "Slam Groun&d"
 END
 CONTROLBAR:TooltipSpecialAbilitySlamGround
-"Required: Rank 5 \n Mollock leaps into the air and slams the ground"
+"Required: Rank 5 \n Mollock slams the ground \n Left click then right click on target"
 END
 
 // -- #Uvatha
