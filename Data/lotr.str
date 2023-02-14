@@ -656,7 +656,7 @@ CONTROLBAR:EowynLeadership
 "Beloved Lady"
 END
 CONTROLBAR:ToolTipEowynLeadership
-"Nearby Peasants gain +25% armor and +25% experience \n Passive ability"
+"Nearby Peasants, Spearmen, and Archers gain +25% armor and +25% experience \n Passive ability"
 END
 
 CONTROLBAR:ShieldMaiden
