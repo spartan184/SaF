@@ -675,7 +675,7 @@ CONTROLBAR:SpecialAbilityAragornHunter
 "Hunter"
 END
 CONTROLBAR:ToolTipSpecialAbilityAragornHunter
-"Aragorn gains +10% attack damage and +5% speed when near Legolas and Gimli \n Passive ability"
+"Legolas and Gimli gain +10% Damage when near Aragorn \n Passive ability"
 END
 
 CONTROLBAR:SpecialAbilityStriderBlademaster
@@ -704,7 +704,7 @@ CONTROLBAR:SpecialAbilityLegolasHunter
 "Hunter"
 END
 CONTROLBAR:ToolTipSpecialAbilityLegolasHunter
-"Legolas gains +10% attack damage and +5% speed when near Aragorn and Gimli \n Passive ability"
+"Aragorn and Gimli gain +10% Speed when near Legolas \n Passive ability"
 END
 
 CONTROLBAR:LegolasSkillOfElves
@@ -733,7 +733,7 @@ CONTROLBAR:SpecialAbilityGimliHunter
 "Hunter"
 END
 CONTROLBAR:ToolTipSpecialAbilityGimliHunter
-"Gimli gains +10% attack damage and +5% speed when near Aragorn and Legolas \n Passive ability"
+"Aragorn and Legolas gain +10% Armor when near Gimli \n Passive ability"
 END
 
 CONTROLBAR:GimliKhazadAiMenu
@@ -835,7 +835,7 @@ CONTROLBAR:TheodredPassiveLeadership
 "Prince of the Riddermark"
 END
 CONTROLBAR:ToolTipTheodredPassiveLeadership
-"Required: Rank 5 \n Nearby Peasants, Yeomen Spearmen, Archers, and Doorwardens gain +100% damage \n Passive ability"
+"Required: Rank 5 \n Nearby Peasants, Yeomen Spearmen, Archers, and Kings Guard gain +100% damage \n Passive ability"
 END
 
 CONTROLBAR:TheodredBloodLeadership
@@ -1827,7 +1827,7 @@ CONTROLBAR:RivendellVeteranLALeadership
 "Veterans of the Last Alliance"
 END
 CONTROLBAR:ToolTipRivendellVeteranLALeadership
-"Nearby Dunedain and Breelanders gain +25% Armor \n Nearby Elven units gain +25% Damage \n Passive Ability"
+"Nearby Dunedain, Hobbits, and Breelanders gain +25% Armor \n Nearby Elven units gain +25% Damage \n Passive Ability"
 END
 
 CONTROLBAR:RivendellVeteransAbility
@@ -1931,7 +1931,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyRivendellTengwarSteel
 "Up to +36 damage \n Purchase Tengwar-Inscribed Steel Upgrade \n Select a battalion to equip upgrade \n Requires Level 2 Rivendell Forge"
 END
 CONTROLBAR:PurchaseUpgradeRivendellTengwarSteel
-"Tengwar-Inscribed &Steel"
+"Tengwar-&Inscribed Steel"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeRivendellTengwarSteel
 "Up to +36 damage \n Left click to upgrade this unit"
@@ -2382,7 +2382,7 @@ CONTROLBAR:UglukLeadership
 "Hunt for the &Ring"
 END
 CONTROLBAR:ToolTipUglukLeadership
-"Required: Rank 2\nNearby Uruks gain a 15% speed and 50% experience bonus\n Passive Ability"
+"Required: Rank 2\nNearby Uruks and heroes gain a 15% speed and 50% experience bonus\n Passive Ability"
 END
 
 CONTROLBAR:UglukSupper
@@ -3300,10 +3300,10 @@ END
 
 
 CONTROLBAR:SummonWolfPack
-"Summon Gundabad Warg-scouts"
+"Summon Gundabad Wolf scouts"
 END
 CONTROLBAR:ToolTipSummonWolfPack
-"Summons a pack of Wargs \n Left click then right click on target"
+"Summons a pack of Wolves \n Left click then right click on target"
 END
 
 CONTROLBAR:FrigidWinds
@@ -3498,7 +3498,7 @@ CONTROLBAR:GundabadGolfimbulLeadership
 "Chieftain of Mount Gram"
 END
 CONTROLBAR:ToolTipGundabadGolfimbulLeadership
-"Leadership \n Wolves, Wargs, and Wolf-Riders gain +25% experience and +25% damage. \n Passive ability"
+"Leadership \n Nearby Wolves and Warg-Riders gain +25% experience and +25% damage. \n Passive ability"
 END
 
 CONTROLBAR:GundabadGolfimbulDreadfangsCall
@@ -3519,7 +3519,7 @@ CONTROLBAR:GundabadGolfimbulHatredOfFolk
 "Hatred of the Fair Fol&k"
 END
 CONTROLBAR:ToolTipGundabadGolfimbulHatredOfFolk
-"Required: Rank 5 \n Golfimbul seeks to exact his revenge upon the Fair-folk. \n Golfimbul and nearby Wolves, Wargs, and Wolf-Riders gain +20% speed and crush. \n Left click to activate"
+"Required: Rank 5 \n Golfimbul seeks to exact his revenge upon the Fair-folk. \n Golfimbul and nearby Wolves and Warg-Riders gain +20% speed and crush. \n Left click to activate"
 END
 
 // ============================================================ //
