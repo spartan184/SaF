@@ -253,7 +253,7 @@ CONTROLBAR:ImrahilLeadership
 "Fair Lord"
 END
 CONTROLBAR:ToolTipImrahilLeadership
-"Leadership bonus to Cavalry near Imrahil \n +30% Armor, +20% Damage, and fear immunity \n Passive ability"
+"Leadership bonus to Gondor Knights and Dol Amroth Knights near Imrahil \n +30% Armor, +20% Damage, and fear immunity \n Passive ability"
 END
 
 CONTROLBAR:SpecialPowerImrahilUnscathed
@@ -2955,6 +2955,12 @@ CONTROLBAR:VileEloquence
 END
 CONTROLBAR:ToolTipVileEloquence
 "Required: Rank 6 \n Units in radius gain experience"
+END
+CONTROLBAR:MouthMollockSummon
+"&Mollock The Great Troll-Chief"
+END
+CONTROLBAR:ToolTipMouthMollockSummon
+"Required: Rank 10 \n Call Mollock to the battlefield \n ""The great troll-chief that smote him down bent over him, reaching out a clutching claw; for these fell creatures would bite the throats of those that they threw down."" \n Left click to activate"
 END
 // -- #Gothmog 
 OBJECT:MordorGothmog
