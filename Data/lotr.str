@@ -2970,7 +2970,7 @@ CONTROLBAR:MouthMollockSummon
 "&Mollock The Great Troll-Chief"
 END
 CONTROLBAR:ToolTipMouthMollockSummon
-"Required: Rank 10 \n Call Mollock to the battlefield \n ""The great troll-chief that smote him down bent over him, reaching out a clutching claw; for these fell creatures would bite the throats of those that they threw down."" \n Left click to activate"
+"Required: Rank 10 \n Call Mollock to the battlefield \n 'The great troll-chief that smote him down bent over him, reaching out a clutching claw; for these fell creatures would bite the throats of those that they threw down.' \n Left click to activate"
 END
 // -- #Gothmog 
 OBJECT:MordorGothmog
