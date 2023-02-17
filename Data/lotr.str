@@ -358,6 +358,11 @@ END
 // ============================================================ //
 // ================= #Gondor Units ============================ //
 // ============================================================ //
+// -- Gondor Infantry
+OBJECT:HordeGondorFighterSpearmenHorde
+"Gondor Fighter Spearmen Combo Horde"
+END
+
 // -- Gondor Ranger
 OBJECT:GondorRangerCaptain
 "Ithilien Ranger Captain"
@@ -957,6 +962,11 @@ END
 // ============================================================ //
 // ======================= #Rohan Units ======================= //
 // ============================================================ //
+// -- Rohan Infantry
+OBJECT:HordeRohanPeasantSpearmenHorde
+"Rohan Peasant Spearmen Combo Horde"
+END
+
 // -- Mounted Kings Guard
 OBJECT:RohanMountedKingsguard
 "Royal Vanguard"
