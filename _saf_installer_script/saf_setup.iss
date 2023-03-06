@@ -1,4 +1,4 @@
-; -- The Age of the Ring Mod for BFME 2 ROTWK Installer --
+; -- The Age of the Ring Mod for BFME 2 ROTWK / SaF Mod for BFME1 Installer --
 ; by ICT
 ; later maintained by Necro
 ; mod created by Mathijs/RoR et al
@@ -6,8 +6,8 @@
 
 [Setup]
 AppName=Shadow and Flame Mod
-AppVersion=1.1
-AppId=SaF1.1
+AppVersion=2.0
+AppId=SaF2.0
 
 DefaultDirName="{userappdata}\{code:getBFMEfiles}"
 DisableDirPage=no
@@ -16,9 +16,9 @@ Compression=lzma2
 SolidCompression=yes
 DiskSpanning=yes
 SlicesPerDisk=2
-DiskSliceSize=1500000000 
+DiskSliceSize=1700000000 
 WizardImageFile=saf.bmp
-OutputBaseFilename=ShadowAndFlameInstaller1.1
+OutputBaseFilename=ShadowAndFlameInstaller2.0
 DisableProgramGroupPage=no
 DefaultGroupName=Shadow and Flame
 AppPublisher=SaF staff
@@ -39,8 +39,8 @@ Source: "saf_src\*"; DestDir:{app}; Flags: ignoreversion recursesubdirs
 #endif
 
 [Icons]
-Name: "{userdesktop}\Shadow and Flame"; Filename: "{code:getBFMEDir}\lotrbfme.exe"; Parameters: "-mod SaF1.1.big"; WorkingDir: "{code:getBFMEDir}"; IconFilename: "{userappdata}\{code:getBFMEfiles}\saf.ico"
-Name: "{group}\Shadow and Flame";      Filename: "{code:getBFMEDir}\lotrbfme.exe"; Parameters: "-mod SaF1.1.big"; WorkingDir: "{code:getBFMEDir}"; IconFilename: "{userappdata}\{code:getBFMEfiles}\saf.ico"
+Name: "{userdesktop}\Shadow and Flame"; Filename: "{code:getBFMEDir}\lotrbfme.exe"; Parameters: "-mod SaF2.0.big"; WorkingDir: "{code:getBFMEDir}"; IconFilename: "{userappdata}\{code:getBFMEfiles}\saf.ico"
+Name: "{group}\Shadow and Flame";      Filename: "{code:getBFMEDir}\lotrbfme.exe"; Parameters: "-mod SaF2.0.big"; WorkingDir: "{code:getBFMEDir}"; IconFilename: "{userappdata}\{code:getBFMEfiles}\saf.ico"
 Name: {group}\{cm:UninstallProgram, Shadow and Flame}; Filename: {uninstallexe}
 
 [Code]
@@ -82,6 +82,6 @@ begin
 end;
 
 [Run]
-Filename: https://docs.google.com/document/d/1TlKOPnJ2nD7wwB9lG4QEkyJEOUjtpWj_2HLg1JT5lsc/edit?usp=sharing; Description: "READ ME"; Flags: postinstall shellexec
+Filename: https://docs.google.com/document/d/1ZsMnGFfaKHh1J9syvTBez4FUHXAP-A_a_QpBc5V0YJo/edit?usp=sharing; Description: "READ ME"; Flags: postinstall shellexec
 Filename: https://www.moddb.com/mods/shadow-and-flame; Description: "Visit our ModDB page!"; Flags: postinstall shellexec unchecked
 Filename: https://discord.gg/TgD2G9PR; Description: "Join the SaF Discord!"; Flags: postinstall shellexec unchecked
