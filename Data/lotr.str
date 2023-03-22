@@ -2725,7 +2725,7 @@ CONTROLBAR:DunlandMordhauGrip
 "Mordhau G&rip"
 END
 CONTROLBAR:ToolTipDunlandMordhauGrip
-"Dunlending Huskarls temporarily use Mordhau grip \n Whilst active, Huskarls deal 25% bonus damage vs heroes \n Left click to activate"
+"Requires Level 2 \n Dunlending Huskarls temporarily use Mordhau grip \n Whilst active, Huskarls deal 25% bonus damage vs heroes \n Left click to activate"
 END
 
 CONTROLBAR:DunlandNobleLineage
@@ -2901,7 +2901,7 @@ CONTROLBAR:WitchKingLeadership
 "Black Captain"
 END
 CONTROLBAR:ToolTipWitchKingLeadership
-"'The Witch-king rode at the head of the army in black, upon a black horse, as he had in the time of the wars of Angmar.' \n +50% Damage, +50% Experience bonus to nearby Units \n +15% Damage and Armor bonus to nearby Nazguls  /n Nearby enemy units lose leadership \n Passive ability"
+"'The Witch-king rode at the head of the army in black, upon a black horse, as he had in the time of the wars of Angmar.' \n +50% Damage, +50% Experience bonus to nearby Units \n +15% Damage and Armor bonus to nearby Nazguls \n Nearby enemy units lose leadership \n Passive ability"
 END
 
 CONTROLBAR:FireWitchKingMace
