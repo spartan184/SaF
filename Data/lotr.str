@@ -1,4 +1,4 @@
-// CAMERA SYSTEM
+F// CAMERA SYSTEM
 CONTROLBAR:RJCameraGeneralView
 "General's View"
 END
@@ -2441,14 +2441,14 @@ CONTROLBAR:WulfgarSubjugation
 "Dunlending Subjugation"
 End
 CONTROLBAR:ToolTipWulfgarSubjugation
-"Though hesitant, Wulfgar was left with no choice\nbut to pledge his warriors to Saruman's cause\nRequires Level 3 \nDunlendings near Wulfgar gain +50% damage \nPassive ability"
+"Requires Level 3 \n Dunlendings near Wulfgar gain +50% damage \n Though hesitant, Wulfgar was left with no choice\nbut to pledge his warriors to Saruman's cause \n Passive ability"
 END
 
 CONTROLBAR:KingoftheHills
 "&King of the Hills"
 END
 CONTROLBAR:ToolTipKingoftheHills
-"Requires Level 8\nRallies nearby Dunlendings temporarily increasing their armor by 200% \n Left click to activate"
+"Requires Level 8 \n Rallies nearby Dunlendings temporarily increasing their armor by 200% \n Left click to activate"
 END
 
 CONTROLBAR:WulfgarRiderSummon
@@ -2550,14 +2550,14 @@ CONTROLBAR:GrimaLeechcraft
 "&Leechcraft"
 END
 CONTROLBAR:ToolTipGrimaLeechcraft
-"Required: Rank 5 \n Targeted Heroes are dealth damage and lose -25% Damage, -20% Health for a short amount of time \n Targeted Units and structures are dealt damage\n Left click then right click on target"
+"Required: Rank 5 \n Targeted Heroes are dealth damage and lose -25% Damage, -20% Health for a short amount of time \n Targeted units and structures are dealt damage\n Left click then right click on target"
 END
 
 CONTROLBAR:GrimaSabotage
 "Sabo&tage"
 END
 CONTROLBAR:ToolTipGrimaSabotage
-"Required: Rank 3 \n Targeted Resource building is dealth damage and production is reduced by 50% for a minute\n Targeted Non-resource buildings are dealt damaged \n Targeted Units and heroes speed is reduced \n Left click then right click on target"
+"Required: Rank 3 \n Targeted Resource building is dealt damage and production is reduced by 50% for a minute \n Targeted units and hero speed is reduced \n Left click then right click on target"
 END
 
 CONTROLBAR:GrimaSiegeLeadership
