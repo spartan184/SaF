@@ -1630,13 +1630,13 @@ CONTROLBAR:ToolTipRivendellBreelandGuardHorde
 END
 
 OBJECT:RivendellBreelandRam
-"Bree-land Battling Ram"
+"Bree-land Battering Ram"
 END
 CONTROLBAR:ConstructRivendellBreelandRam
-"Construct a Battling &Ram"
+"Construct a Battering &Ram"
 END
 CONTROLBAR:ToolTipRivendellBreelandRam
-"Bree-land Battling Ram\nRequired: Level 2 Barracks \n Strong vs. Structures"
+"Bree-land Battering Ram\nRequired: Level 2 Barracks \n Strong vs. Structures"
 END
 
 OBJECT:DunedainRanger
