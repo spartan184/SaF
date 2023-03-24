@@ -16331,7 +16331,7 @@ CONTROLBAR:ConstructMordorDrummerTrolls
 END
 
 CONTROLBAR:DescriptionConstructMordorDrummerTrolls
-"Passive Ability \n Leadership bonus for infantry, trolls and artillery: \n +50% Armor, +50% Damage +200% Experience"
+"Passive Ability \n Leadership bonus for infantry, and trolls: \n +50% Armor, +50% Damage +200% Experience"
 END
 
 CONTROLBAR:TooltipConstructMordorDrummerTrolls
