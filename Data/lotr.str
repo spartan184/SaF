@@ -218,7 +218,7 @@ CONTROLBAR:BoromirBash
 "Shield &Bash"
 END
 CONTROLBAR:ToolTipBoromirBash
-"Bash enemies with Boromir's shield \n left click then right click on target"
+"Bash enemies with Boromir's shield dealing knockback damage\n left click then right click on target"
 END
 
 CONTROLBAR:HornofGondor
@@ -2306,10 +2306,10 @@ OBJECT:IsengardSaruman
 "Saruman"
 END
 CONTROLBAR:ToolTipBuildSaruman
-"&Saruman, Sauron's puppet. Armed with an arsenal of magical powers"
+"&Saruman"
 END
 CONTROLBAR:IsengardSarumanRecruit
-"Required: Lord of Orthanc &Spellbook \nRecruit the Lord of Isengard. \n \n 'A new power is rising. Its victory is at hand. We have only to remove those who oppose us.' \n Rank 10"
+"Required: Lord of Orthanc \nRecruit the Lord of Isengard, Sauron's puppet. Armed with an arsenal of magical powers. \n \n 'A new power is rising. Its victory is at hand. We have only to remove those who oppose us.' \n Rank 10"
 END
 CONTROLBAR:IsengardSarumanRevive
 "Revive the Lord of Isengard."
@@ -2434,7 +2434,7 @@ CONTROLBAR:SwordStrike
 "Sw&ord Strike"
 END
 CONTROLBAR:ToolTipSwordStrike
-"Powerful attack that causes meta impact \n Left click icon then left click on target"
+"Powerful attack that causes knockback damage \n Left click icon then left click on target"
 END
 
 CONTROLBAR:WulfgarSubjugation
