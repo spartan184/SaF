@@ -581,6 +581,19 @@ CONTROLBAR:ToolTipLightningSword
 "Required: Rank 2 \n Shoots lightning from Sword \n left click then right click on target"
 END
 // -- #Theoden
+CONTROLBAR:ToolTipBuildTheoden
+"The King of Rohan, Theoden"
+END
+CONTROLBAR:RohanTheodenRecruit
+"Recruit the King of Rohan. \n \n 'Arise, arise, Riders of Theoden!\nFell deeds awake, fire and slaughter!\nSpear shall be shaken, shield be splintered,\na sword-day, a red day, ere the sun rises!\nRide now, ride now!'"
+END
+CONTROLBAR:RohanTheodenRevive
+"Revive the fallen Hero, Theoden"
+END
+CONTROLBAR:RohanTheodenHotkey
+"&Theoden"
+END
+
 CONTROLBAR:TheodenRally
 "&Rally To Me!"
 END
@@ -600,6 +613,19 @@ CONTROLBAR:TheodenLeadership
 END
 
 // -- #Eomer
+CONTROLBAR:ToolTipBuildEomer
+"Recruit the Leader of the outlawed Rohirrim"
+END
+CONTROLBAR:RohanEomerRecruit
+"Recruit the Third Marshal of the Riddermark. \n \n 'Now is the hour! Riders of Rohan! Oaths you have taken, now fulfill them all, to lord and land!'"
+END
+CONTROLBAR:RohanEomerRevive
+"Revive the fallen Hero, oomer"
+END
+CONTROLBAR:RohanEomerHotkey
+"&Eomer"
+END
+
 CONTROLBAR:ThrowSpear
 "&Throws Spear"
 END
@@ -643,6 +669,19 @@ CONTROLBAR:ToolTipEomerMount
 END
 
 // -- #Eowyn
+CONTROLBAR:ToolTipBuildEowyn
+"Shield Maiden of Rohan"
+END
+CONTROLBAR:RohanEowynRevive
+"Revive the fallen Hero, Eowyn"
+END
+CONTROLBAR:RohanEowynRecruit
+"Recruit the Shieldmaiden of Rohan. \n \n 'But no living man am I! You are looking upon a woman. Eowyn am I, Eomund's daughter. You stand between me and my lord and kin. Begone, if you be not deathless! For living or dark undead, I will smite you, if you touch him.'"
+END
+CONTROLBAR:RohanEowynHotkey
+"Eow&yn"
+END
+
 CONTROLBAR:Disguise
 "&Disguise"
 END
@@ -705,6 +744,19 @@ CONTROLBAR:ToolTipRohanAragornAthelas
 END
 
 // -- #Legolas
+CONTROLBAR:ToolTipBuildLegolas
+"Prince of the Mirkwood Elves"
+END
+CONTROLBAR:RohanLegolasRecruit
+"Recruit the Prince of the Woodland Realm \n \n 'Yet do not cast all hope away. Tomorrow is unknown. Rede oft is found at the rising of the sun.'"
+END
+CONTROLBAR:RohanLegolasRevive
+"Revive the fallen Hero, Legolas"
+END
+CONTROLBAR:RohanLegolasHotkey
+"Legola&s"
+END
+
 CONTROLBAR:SpecialAbilityLegolasHunter
 "Hunter"
 END
@@ -734,6 +786,19 @@ CONTROLBAR:ToolTipLegolasLorienArrows
 END
 
 // -- #Gimli
+CONTROLBAR:ToolTipBuildGimli
+"Dwarf of the Lonely Mountain"
+END
+CONTROLBAR:RohanGimliRecruit
+"Recruit the Dwarf of the Lonely Mountain \n \n 'There is one Dwarf yet in Moria who still draws breath!'"
+END
+CONTROLBAR:RohanGimliRevive
+"Revive the fallen Hero, Gimli"
+END
+CONTROLBAR:RohanGimliHotkey
+"&Gimli"
+END
+
 CONTROLBAR:SpecialAbilityGimliHunter
 "Hunter"
 END
@@ -952,6 +1017,16 @@ CONTROLBAR:ToolTipHaldirQuickDraw
 END
 
 // -- #Merry
+CONTROLBAR:RohanMerryRecruit
+"Recruit the Squire of Rohan. \n \n 'I just want to help my friends. Frodo, Sam, Pippin. More than anything, I wish I could see them again.'"
+END
+CONTROLBAR:RohanMerryRevive
+"Revive the fallen hero, Merry"
+END
+CONTROLBAR:RohanMerryHotkey
+"&Merry"
+END
+
 CONTROLBAR:ToolTipMerryEsquirePassiveLeadership
 "Merry is Emboldened in the presence of the Lady. \n Merry gains +100% Damage while near Eowyn. \n Passive ability"
 END
@@ -962,9 +1037,12 @@ END
 // ============================================================ //
 // ======================= #Rohan Units ======================= //
 // ============================================================ //
-// -- Rohan Infantry
-OBJECT:HordeRohanPeasantSpearmenHorde
-"Rohan Peasant Spearmen Combo Horde"
+// -- Rohirrim
+CONTROLBAR:ToolTipBuildRohanRohirrimHorde
+"Strong vs. Swordsmen and Archers \n \n During wartime, the King of Rohan would muster the Rohirrim, providing additional arms and armor to his subjects and organizing them into Éored's under command of a lord or marshal."
+END
+CONTROLBAR:ToolTipBuildRohanRohirrimArcherHorde
+"Strong vs. Swordsmen \n \n Rohirrim most adept at equestrian archery would form up into specialist regiments to repeatedly flanked the enemy with arrow fire before retreating out of range."
 END
 
 // -- Mounted Kings Guard
@@ -978,7 +1056,7 @@ CONTROLBAR:ConstructRohanMountedKingsguardHorde
 "Royal &Vanguard"
 END
 CONTROLBAR:ToolTipBuildRohanMountedKingsguardHorde
-"Required: Rank 3 Stables \n Elite Horsemen \n Limited to 3 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan."
+"Required: Rank 3 Stables \n Elite Horsemen \n Limited to 3 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan. \n\nStrong vs. Heroes, Swordsmen, and Archers"
 END
 
 // -- On Foot Kings Guard
@@ -995,7 +1073,15 @@ CONTROLBAR:ConstructRohanKingsguardHorde
 "Edoras &Kingsguard"
 END
 CONTROLBAR:ToolTipBuildRohanKingsguardHorde
-"Required: Rank 3 Barracks \n Elite Footmen of Rohan \n Limited to 3 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan."
+"Required: Rank 3 Barracks \n Elite Footmen of Rohan \n Limited to 3 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan. \n\nStrong vs. Heroes, Infantry and Archers"
+END
+
+// -- Rohan Elven Warrior
+CONTROLBAR:ConstructElvenWarriorHorde
+"Elven &Warriors"
+END
+CONTROLBAR:ToolTipBuildElvenWarriorHorde
+"Required: Level 2 Archery Range \n Skilled with Bow and Sword \n\n An alliance once existed between Elves and Men. Long ago we fought and died together. We come to honor that allegiance \n Strong vs. Calvary, Spearmen, and Archers"
 END
 
 // -- Rohan Spearmen
@@ -1010,6 +1096,28 @@ CONTROLBAR:ConstructRohanSpearmenHorde
 END
 CONTROLBAR:ToolTipBuildRohanSpearmenHorde
 "Strong vs. Cavalry and Heroes \n \n In times of war, men of Rohan wealthy enough to own a plot of land would organize themselves into regiments and take up arms to defend their homes."
+END
+
+// -- Rohan Peasants
+CONTROLBAR:ConstructRohanPeasant
+"Rohan &Peasants"
+END
+CONTROLBAR:ToolTipBuildRohanPeasant
+"Strong vs. Archers \n Can be drafted \n\n The Riddermark depended on its peasants to work the fields - only in times of great need could they be levied to serve their king in battle."
+END
+
+OBJECT:HordeRohanPeasantSpearmenHorde
+"Rohan Peasant Spearmen Combo Horde"
+END
+
+// -- Rohan Archers
+CONTROLBAR:ToolTipBuildRohanArcherHorde
+"Strong vs. Cavalry, Monsters \n \n In times of war, men of Rohan wealthy enough to own a plot of land would organize themselves into regiments and take up arms to defend their homes."
+END
+
+// -- Rohan Royal Guard 
+CONTROLBAR:ToolTipBuildRohanRoyalGuardHorde
+"Build Rohan Royal Guards"
 END
 
 // ============================================================ //
@@ -15614,22 +15722,6 @@ CONTROLBAR:ToolTipConstructRohanBannerUnits
 "Required: Rank 2 Armory \n Upgrades unit: +1 Unit Rank"
 END
 
-CONTROLBAR:ToolTipBuildRohanArcherHorde
-"Strong vs. Cavalry, Monsters \n \n In times of war, men of Rohan wealthy enough to own a plot of land would organize themselves into regiments and take up arms to defend their homes."
-END
-
-CONTROLBAR:ToolTipBuildRohanRoyalGuardHorde
-"Build Rohan Royal Guards"
-END
-
-CONTROLBAR:ToolTipBuildRohanRohirrimHorde
-"Strong vs. Swordsmen and Archers \n \n During wartime, the King of Rohan would muster the Rohirrim, providing additional arms and armor to his subjects and organizing them into Éored's under command of a lord or marshal."
-END
-
-CONTROLBAR:ToolTipBuildRohanRohirrimArcherHorde
-"Strong vs. Swordsmen \n \n Rohirrim most adept at equestrian archery would form up into specialist regiments to repeatedly flanked the enemy with arrow fire before retreating out of range."
-END
-
 CONTROLBAR:ToolTipBuildRohanHeavyArmorPorter
 "+100% hit points to Rohirrim and Infantry"
 END
@@ -15680,98 +15772,6 @@ END
 
 TOOLTIP:RohanFlamingArrows
 "Flaming Arrows: +37 fire damage for yeoman, +15 fire damage for Elven Warriors"
-END
-
-CONTROLBAR:ToolTipBuildTheoden
-"The King of Rohan, Theoden"
-END
-
-CONTROLBAR:RohanTheodenRecruit
-"Recruit the King of Rohan. \n \n 'Arise, arise, Riders of Theoden!\nFell deeds awake, fire and slaughter!\nSpear shall be shaken, shield be splintered,\na sword-day, a red day, ere the sun rises!\nRide now, ride now!'"
-END
-
-CONTROLBAR:RohanTheodenRevive
-"Revive the fallen Hero, Theoden"
-END
-
-CONTROLBAR:RohanTheodenHotkey
-"&Theoden"
-END
-
-CONTROLBAR:ToolTipBuildEowyn
-"Shield Maiden of Rohan"
-END
-
-CONTROLBAR:RohanEowynRevive
-"Revive the fallen Hero, Eowyn"
-END
-
-CONTROLBAR:RohanEowynRecruit
-"Recruit the Shieldmaiden of Rohan. \n \n 'But no living man am I! You are looking upon a woman. Eowyn am I, Eomund's daughter. You stand between me and my lord and kin. Begone, if you be not deathless! For living or dark undead, I will smite you, if you touch him.'"
-END
-
-CONTROLBAR:RohanEowynHotkey
-"Eow&yn"
-END
-
-CONTROLBAR:RohanMerryRecruit
-"Recruit the Squire of Rohan. \n \n 'I just want to help my friends. Frodo, Sam, Pippin. More than anything, I wish I could see them again.'"
-END
-
-CONTROLBAR:RohanMerryRevive
-"Revive the fallen hero, Merry"
-END
-
-CONTROLBAR:RohanMerryHotkey
-"&Merry"
-END
-
-CONTROLBAR:ToolTipBuildGimli
-"Dwarf of the Lonely Mountain"
-END
-
-CONTROLBAR:RohanGimliRecruit
-"Recruit the Dwarf of the Lonely Mountain \n \n 'There is one Dwarf yet in Moria who still draws breath!'"
-END
-
-CONTROLBAR:RohanGimliRevive
-"Revive the fallen Hero, Gimli"
-END
-
-CONTROLBAR:RohanGimliHotkey
-"&Gimli"
-END
-
-CONTROLBAR:ToolTipBuildEomer
-"Recruit the Leader of the outlawed Rohirrim"
-END
-
-CONTROLBAR:RohanEomerRecruit
-"Recruit the Third Marshal of the Riddermark. \n \n 'Now is the hour! Riders of Rohan! Oaths you have taken, now fulfill them all, to lord and land!'"
-END
-
-CONTROLBAR:RohanEomerRevive
-"Revive the fallen Hero, oomer"
-END
-
-CONTROLBAR:RohanEomerHotkey
-"&Eomer"
-END
-
-CONTROLBAR:ToolTipBuildLegolas
-"Prince of the Mirkwood Elves"
-END
-
-CONTROLBAR:RohanLegolasRecruit
-"Recruit the Prince of the Woodland Realm \n \n 'Yet do not cast all hope away. Tomorrow is unknown. Rede oft is found at the rising of the sun.'"
-END
-
-CONTROLBAR:RohanLegolasRevive
-"Revive the fallen Hero, Legolas"
-END
-
-CONTROLBAR:RohanLegolasHotkey
-"Legola&s"
 END
 
 OBJECT:MordorEasterling
@@ -16140,14 +16140,6 @@ END
 
 CONTROLBAR:ToolTipThrowRocks
 "Throw rocks at enemy \n Left click to throw rocks"
-END
-
-CONTROLBAR:ConstructElvenWarriorHorde
-"Elven &Warriors"
-END
-
-CONTROLBAR:ToolTipBuildElvenWarriorHorde
-"Required: Level 2 Archery Range \n Skilled with Bow and Sword \n\n An alliance once existed between Elves and Men. Long ago we fought and died together. We come to honor that allegiance"
 END
 
 CONTROLBAR:ToolTipBuildElvenWarriorHordeWithNoPrerequisites
@@ -16897,14 +16889,6 @@ END
 
 CONTROLBAR:ToolTipAutoAcquire
 "Left click to automatically fire at enemies"
-END
-
-CONTROLBAR:ConstructRohanPeasant
-"Rohan &Peasants"
-END
-
-CONTROLBAR:ToolTipBuildRohanPeasant
-"Can be drafted \n\n The Riddermark depended on its peasants to work the fields - only in times of great need could they be levied to serve their king in battle."
 END
 
 CONTROLBAR:ToolTipSpecialAbilityDwarfToss
