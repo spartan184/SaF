@@ -3013,7 +3013,7 @@ CONTROLBAR:ToolTipWitchKingLeadership
 END
 
 CONTROLBAR:FireWitchKingMace
-"&Toggle War Mace"
+"&Toggle Weapon"
 END
 CONTROLBAR:ToolTipFireWitchKingMace
 "Toggle between the Witch-king's War Mace that deals splash damage and Sword for a faster attack \n Must be on foot"
@@ -3038,6 +3038,10 @@ CONTROLBAR:WitchKingDoom
 END
 CONTROLBAR:ToolTipWitchKingDoom
 "Requires: Rank 10 \n Intial blast in a circular radius \n Bonus for the Witch King \n +50% Armor \n +150% Damage \n Sword alights with flame"
+END
+
+CONTROLBAR:ToolTipWitchKingMount
+"Left click to mount horse \n +25% Armor vs. Footmen and Cavalry \n -50% Armor vs. Archers and Pikes \n 100% more damage from archers and spearmen \m Must be using sword to mount"
 END
 
 // -- #Mouth of Sauron
