@@ -1081,7 +1081,7 @@ CONTROLBAR:ConstructElvenWarriorHorde
 "Elven &Warriors"
 END
 CONTROLBAR:ToolTipBuildElvenWarriorHorde
-"Required: Level 2 Archery Range \n Skilled with Bow and Sword \n\n An alliance once existed between Elves and Men. Long ago we fought and died together. We come to honor that allegiance \n Strong vs. Calvary, Spearmen, and Archers"
+"Required: Rank 2 Archery Range \n Skilled with Bow and Sword \n\n An alliance once existed between Elves and Men. Long ago we fought and died together. We come to honor that allegiance \n Strong vs. Calvary, Spearmen, and Archers"
 END
 
 // -- Rohan Spearmen
@@ -1506,21 +1506,21 @@ CONTROLBAR:AragornMasterTracker
 "Master Tra&cker"
 END
 CONTROLBAR:ToolTipAragornMasterTracker
-"Required: Level 3 \n Aragorn and nearby allies gain\n+15% Speed \n Passive Ability \n\n When using his bow \n Aragorn temporarily gains +150% vision range and +25% range \nLeft click to activate"
+"Required: Rank 3 \n Aragorn and nearby allies gain\n+15% Speed \n Passive Ability \n\n When using his bow \n Aragorn temporarily gains +150% vision range and +25% range \nLeft click to activate"
 END
 
 CONTROLBAR:AragornFlameOfTheWest
 "A &Fire Shall Be Woken"
 END
 CONTROLBAR:ToolTipAragornFlameOfTheWest
-"Required: Level 6 \n Aragorn temporarily gains\n+75% Damage, +25% Armor, and wields a torch \n Can only use with sword equipped \n Left click to activate"
+"Required: Rank 6 \n Aragorn temporarily gains\n+75% Damage, +25% Armor, and wields a torch \n Can only use with sword equipped \n Left click to activate"
 END
 
 CONTROLBAR:AragornIsildursHeir
 "&Isildur's Heir"
 END
 CONTROLBAR:ToolTipAragornIsildursHeir
-"Required: Level 9 \n Aragorn gains Anduril, deals +50% Damage \nPassive ability \n\n Allies near Aragorn gain \n +50% Damage, +50% Armor and become immune to fear \n Left click to activate"
+"Required: Rank 9 \n Aragorn gains Anduril, deals +50% Damage \nPassive ability \n\n Allies near Aragorn gain \n +50% Damage, +50% Armor and become immune to fear \n Left click to activate"
 END
 // -- #Gildor
 OBJECT:Gildor
@@ -1734,7 +1734,7 @@ CONTROLBAR:ConstructRivendellBreelandGuardHorde
 "Recruit Bree-land &Guards"
 END
 CONTROLBAR:ToolTipRivendellBreelandGuardHorde
-"Required: Level 2 Encampment \nStrong vs. Cavalry and Heroes \n\n Though the Dunedain Rangers silently protected the denizens of the Breeland from the darkness that sought to overtake them, the villages still maintained a small, voluntary militia, to take care of problems occuring from within."
+"Required: Rank 2 Encampment \nStrong vs. Cavalry and Heroes \n\n Though the Dunedain Rangers silently protected the denizens of the Breeland from the darkness that sought to overtake them, the villages still maintained a small, voluntary militia, to take care of problems occuring from within."
 END
 
 OBJECT:RivendellBreelandRam
@@ -1744,7 +1744,7 @@ CONTROLBAR:ConstructRivendellBreelandRam
 "Construct a Battering &Ram"
 END
 CONTROLBAR:ToolTipRivendellBreelandRam
-"Bree-land Battering Ram\nRequired: Level 2 Barracks \n Strong vs. Structures"
+"Bree-land Battering Ram\nRequired: Rank 2 Barracks \n Strong vs. Structures"
 END
 
 OBJECT:DunedainRanger
@@ -1796,7 +1796,7 @@ CONTROLBAR:ConstructRivendellKnightHorde
 "Recruit Rivendell &Knights"
 END
 CONTROLBAR:ToolTipRivendellKnightHorde
-"Rivendell Knights \n Required: Level 2 Dormitory \n Strong vs. Infantry, Archers, and Siege\n\nWhen the lands beyond the Valley are in danger, these Knights will ride out to vanquish any orcish warband they encounter."
+"Rivendell Knights \n Required: Rank 2 Dormitory \n Strong vs. Infantry, Archers, and Siege\n\nWhen the lands beyond the Valley are in danger, these Knights will ride out to vanquish any orcish warband they encounter."
 END
 
 OBJECT:RivendellVeteran
@@ -1809,7 +1809,7 @@ CONTROLBAR:ConstructRivendellVeteranHorde
 "Recruit &Veterans of the Last Alliance"
 END
 CONTROLBAR:ToolTipRivendellVeteranHorde
-"Strong vs. All Normal Troops\nRequired: Level 3 Dormitory\nCan stealth near trees\nOnly 3 units of Last Alliance Veterans are allowed at any time."
+"Strong vs. All Normal Troops\nRequired: Rank 3 Dormitory\nCan stealth near trees\nOnly 3 units of Last Alliance Veterans are allowed at any time."
 END
 
 OBJECT:NoldorExile
@@ -1998,7 +1998,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyRivendellBanner
 "Purchase Banner Upgrade \nRanks a new unit to level 2 veterancy \n Can only be equipped at Level 1  \n Select a horde to equip upgrade"
 END
 TOOLTIP:LackLevel2RivendellForgeBanner
-"Required: Level 2 Forge \nRanks a new unit to level 2 veterancy \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+"Required: Rank 2 Forge \nRanks a new unit to level 2 veterancy \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
 
 CONTROLBAR:PurchaseUpgradeRivendellBanner
@@ -2029,7 +2029,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyRivendellNoldorinArmor
 "+50% Armor, -20% Speed \n Purchase Noldorin Armor Upgrade \n Select a horde to equip upgrade \n Requires Level 2 Rivendell Forge"
 END
 TOOLTIP:LackLevel2RivendellForgeArmor
-"Required: Level 2 Forge \n+50% Armor, -20% Speed \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+"Required: Rank 2 Forge \n+50% Armor, -20% Speed \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
 CONTROLBAR:PurchaseUpgradeRivendellNoldorinArmor
 "&Noldorin Armor"
@@ -2055,7 +2055,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeRivendellTengwarSteel
 "Up to +36 damage \n Left click to upgrade this unit"
 END
 TOOLTIP:LackLevel2RivendellForgeTengwarSteel
-"Required: Level 2 Forge \nAdds damage to weapons \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+"Required: Rank 2 Forge \nAdds damage to weapons \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
 TOOLTIP:LackRivendellTengwarSteel
 "Up to +36 damage \n Purchase upgrade at the Rivendell Forge to enable this equipment"
@@ -2081,7 +2081,7 @@ CONTROLBAR:ToolTipPurchaseUpgradeRivendellImprovedArrowsmithing
 "+25% Damage to units \n Left click to upgrade this unit"
 END
 CONTROLBAR:LackLevelRivendellImprovedArrowsmithing
-"Required: Level 2 Forge \nPurchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+"Required: Rank 2 Forge \nPurchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
 TOOLTIP:LackRivendellImprovedArrowsmithing
 "+25% Damage to units \n Purchase upgrade at Forge to enable this equipment"
@@ -15907,7 +15907,7 @@ CONTROLBAR:ToolTipBuildMordorGrond
 END
 
 CONTROLBAR:ToolTipBuildMordorBannerOrc
-"Required: Level 2 Orc Pit \n Upgrades unit: +1 Unit Rank"
+"Required: Rank 2 Orc Pit \n Upgrades unit: +1 Unit Rank"
 END
 
 CONTROLBAR:ToolTipBuildWitchKing
@@ -16331,7 +16331,7 @@ CONTROLBAR:DescriptionConstructMordorDrummerTrolls
 END
 
 CONTROLBAR:TooltipConstructMordorDrummerTrolls
-"Required: Level 2 Troll Cage \n Strong vs. Archers \n Weak vs. siege \n Leadership bonus: \n +50% Armor, +50% Damage +200% Experience \n \n Beating its giant drum, a drummer troll conveys march and formation orders, keeping Mordor's rabble in check."
+"Required: Rank 2 Troll Cage \n Strong vs. Archers \n Weak vs. siege \n Leadership bonus: \n +50% Armor, +50% Damage +200% Experience \n \n Beating its giant drum, a drummer troll conveys march and formation orders, keeping Mordor's rabble in check."
 END
 
 CONTROLBAR:ConstructMordorBatteringRam
