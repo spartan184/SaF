@@ -145,10 +145,10 @@ OBJECT:GondorKingElessar
 END
 
 TOOLTIP:ToolTipLackKingElessar
-"Required: The King Elessar Telcontar Spellbook Power \n Recruit King Elessar, the last High King of Gondor \n \n 'Out of the Great Sea to Middle-earth I am come. In this place will I abide, and my heirs, unto the ending of the world.' \n Rank 10"
+"Required: The King Elessar Telcontar \n Recruit King Elessar, the last High King of Gondor \n \n 'Out of the Great Sea to Middle-earth I am come. In this place will I abide, and my heirs, unto the ending of the world.' \n Rank 10"
 END
 CONTROLBAR:KingElessarDescription
-"Required: The King Elessar Telcontar Spellbook Power \n Recruit King Elessar, the last High King of Gondor \n \n 'Out of the Great Sea to Middle-earth I am come. In this place will I abide, and my heirs, unto the ending of the world.' \n Rank 10"
+"Required: The King Elessar Telcontar \n Recruit King Elessar, the last High King of Gondor \n \n 'Out of the Great Sea to Middle-earth I am come. In this place will I abide, and my heirs, unto the ending of the world.' \n Rank 10"
 END
 
 CONTROLBAR:ElessarLeadership
@@ -509,10 +509,10 @@ CONTROLBAR:ToolTipGOTW
 "Unlocks Gandalf the White \n Recruit Gandalf the White at the Citadel"
 END
 TOOLTIP:ToolTipLackGOTW
-"Required: The White Wizard Spellbook \n Recruit Gandalf, the White Wizard \n \n 'I am Gandalf the White. And I come back to you now, at the turn of the tide.' \n Rank 10"
+"Required: The White Wizard \n Recruit Gandalf, the White Wizard \n \n 'I am Gandalf the White. And I come back to you now, at the turn of the tide.' \n Rank 10"
 END
 CONTROLBAR:GOTWDescription
-"Required: The White Wizard Spellbook \n Recruit Gandalf, the White Wizard \n \n 'I am Gandalf the White. And I come back to you now, at the turn of the tide.' \n Rank 10"
+"Required: The White Wizard \n Recruit Gandalf, the White Wizard \n \n 'I am Gandalf the White. And I come back to you now, at the turn of the tide.' \n Rank 10"
 END
 
 CONTROLBAR:RADTBDescription
