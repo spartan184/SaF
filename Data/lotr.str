@@ -740,7 +740,7 @@ CONTROLBAR:RohanAragornAthelas
 "&Kingsfoil"
 END
 CONTROLBAR:ToolTipRohanAragornAthelas
-"Aragorn's healing skill mends nearby friendly heroes and units \n left click to activate"
+"Aragorn's healing skill mends nearby friendly heroes \n left click to activate"
 END
 
 // -- #Legolas
@@ -3476,7 +3476,7 @@ CONTROLBAR:DurinsBaneRecruit
 "Required: Durin's Bane \n Recruit a Balrog of Morgoth"
 END
 TOOLTIP:ToolTipLackDurinsBaneSpellbook
-"Required: Durin's Bane Spellbook Unlock \n \n Recruit Durin's Bane, a Balrog of Morgoth \n \n 'It was like a great shadow, in the middle of which was a dark form, of man-shape maybe, yet greater; and a power and terror seemed to be in it and to go before it. Its streaming mane kindled, and blazed behind it. In its right hand was a blade like a stabbing tongue of fire; in its left it held a whip of many thongs...' \n Rank 10"
+"Required: Durin's Bane \n \n Recruit Durin's Bane, a Balrog of Morgoth \n \n 'It was like a great shadow, in the middle of which was a dark form, of man-shape maybe, yet greater; and a power and terror seemed to be in it and to go before it. Its streaming mane kindled, and blazed behind it. In its right hand was a blade like a stabbing tongue of fire; in its left it held a whip of many thongs...' \n Rank 10"
 END
 
 // -- #Bolg 
@@ -3592,7 +3592,7 @@ CONTROLBAR:LugHeadhunter
 "Head Hunter"
 END
 CONTROLBAR:ToolTipLugHeadhunter
-"Puts a price on an enemy hero's head, reducing their armor and speed by 20% \n All other targets are dealt damage \n Left click icon then left click on target"
+"Puts a price on an enemy hero's head, reducing their armor and speed by 20% \n All other targets are dealt damage \n Can only use with sword equipped \n Left click icon then left click on target"
 END
 
 CONTROLBAR:LugGoingDownSwinging
@@ -16347,7 +16347,7 @@ CONTROLBAR:ToggleCatapultWeapons
 END
 
 CONTROLBAR:TooltipToggleCatapultWeapons
-"Switch Ammunition"
+"Switch between rocks and heads"
 END
 
 CONTROLBAR:Screech
@@ -20478,7 +20478,7 @@ OBJECT:MordorHaradrimPalaceDescription
 END
 
 OBJECT:MordorMumakilPenDescription
-"Rank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed \n Units are produced at level 2"
+"Rank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
 END
 
 OBJECT:SlaughterHouseDescription
