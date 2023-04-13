@@ -16347,7 +16347,7 @@ CONTROLBAR:ToggleCatapultWeapons
 END
 
 CONTROLBAR:TooltipToggleCatapultWeapons
-"Switch between rocks and heads"
+"Switch between rock and head ammunition"
 END
 
 CONTROLBAR:Screech
