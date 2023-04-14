@@ -3119,21 +3119,21 @@ CONTROLBAR:ToolTipGothmogOrcs
 "Required: Rank 6 \n Gothmog summons three hordes of Morgul Pikemen temporarily"
 END
 
-// -- #Mollock
+// -- #Mollok
 OBJECT:MordorMollock
-"Mollock"
+"Mollok"
 End
 OBJECT:MordorMollock
-"Mollock"
+"Mollok"
 End
 CONTROLBAR:MordorMollockRecruit
 "Hero Unit. Recruit the Olog-Hai Chieftain"
 End
 CONTROLBAR:MordorMollockRevive
-"Revive the fallen Hero, Mollock"
+"Revive the fallen Hero, Mollok"
 End
 CONTROLBAR:MordorMollockHotkey
-"Mollo&ck"
+"Mollok \nHotkey:(&C)"
 End
 
 CONTROLBAR:SpecialAbilityRage
@@ -3144,7 +3144,7 @@ CONTROLBAR:SpecialAbilitySlamGround
 "Slam Groun&d"
 END
 CONTROLBAR:TooltipSpecialAbilitySlamGround
-"Required: Rank 5 \n Mollock slams the ground \n Left click then right click on target"
+"Required: Rank 5 \n Mollok slams the ground \n Left click then right click on target"
 END
 
 // -- #Uvatha
