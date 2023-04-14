@@ -3136,6 +3136,13 @@ CONTROLBAR:MordorMollockHotkey
 "Mollok \nHotkey:(&C)"
 End
 
+CONTROLBAR:MollockLeadership
+"Lord of the Olog-hai"
+END
+CONTROLBAR:ToolTipMollockLeadership
+"Nearby allied Trolls gain\n+33% damage, +33% armour\nand earn experience 50% faster\nPassive ability"
+END
+
 CONTROLBAR:SpecialAbilityRage
 "&Rage"
 END
