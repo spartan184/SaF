@@ -2019,26 +2019,26 @@ UPGRADE:RivendellNoldorinArmor
 "Noldorin Armor"
 END
 TOOLTIP:RivendellNoldorinArmor
-"Noldorin Armor: +50% Armor, -20% Speed"
+"Noldorin Armor: +50% Armor"
 END
 
 CONTROLBAR:PurchaseTechnologyRivendellNoldorinArmor
 "&Noldorin Armor"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyRivendellNoldorinArmor
-"+50% Armor, -20% Speed \n Purchase Noldorin Armor Upgrade \n Select a horde to equip upgrade \n Requires Level 2 Rivendell Forge"
+"+50% Armor \n Purchase Noldorin Armor Upgrade \n Select a horde to equip upgrade \n Requires Level 2 Rivendell Forge"
 END
 TOOLTIP:LackLevel2RivendellForgeArmor
-"Required: Rank 2 Forge \n+50% Armor, -20% Speed \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+"Required: Rank 2 Forge \n+50% Armor \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
 CONTROLBAR:PurchaseUpgradeRivendellNoldorinArmor
 "&Noldorin Armor"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeRivendellNoldorinArmor
-"+50% Armor, -20% Speed \n Left click to upgrade this unit"
+"+50% Armor \n Left click to upgrade this unit"
 END
 TOOLTIP:LackRivendellNoldorinArmor
-"+50% Armor, -20% Speed \n Purchase upgrade at Rivendell Forge to enable this equipment"
+"+50% Armor \n Purchase upgrade at Rivendell Forge to enable this equipment"
 END
 
 // -- Tengwar-Inscribed Steel
@@ -3903,7 +3903,7 @@ END
 // ================== #Gundabad Unit Upgrades ================= //
 // ============================================================ //
 TOOLTIP:GundabadScavengedArmor
-"Scavenged Armor: +50% Armor, -20% Speed"
+"Scavenged Armor: +50% Armor"
 END
 
 CONTROLBAR:PurchaseTechnologyGundabadUrukCaptain
@@ -3955,19 +3955,19 @@ CONTROLBAR:PurchaseTechnologyGundabadScavengedArmor
 "Sca&venged Armor"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyGundabadScavengedArmor
-"+50% Armor, -20% Speed \n Purchase Scavenged Armor Upgrade \n Select a horde to equip upgrade \n Requires Level 2 Gundabad Forge"
+"+50% Armor \n Purchase Scavenged Armor Upgrade \n Select a horde to equip upgrade \n Requires Level 2 Gundabad Forge"
 END
 TOOLTIP:LackLevel2GundabadCaveArmor
-"Required: Rank 2 Gundabad Forge \n +50% Armor, -20% Speed \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+"Required: Rank 2 Gundabad Forge \n +50% Armor \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
 CONTROLBAR:PurchaseUpgradeGundabadScavengedArmor
 "Sca&venged Armor"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeGundabadScavengedArmor
-"+50% Armor, -20% Speed \n Left click to upgrade this unit"
+"+50% Armor \n Left click to upgrade this unit"
 END
 TOOLTIP:LackGundabadScavengedArmor
-"+50% Armor, -20% Speed \n Purchase upgrade at Gundabad Forge to enable this equipment"
+"+50% Armor \n Purchase upgrade at Gundabad Forge to enable this equipment"
 END
 
 
@@ -15638,7 +15638,7 @@ TOOLTIP:GondorForgedBlades
 END
 
 TOOLTIP:GondorHeavyArmor
-"Heavy Armor: +60% Armor, -20% Speed"
+"Heavy Armor: +60% Armor"
 END
 
 TOOLTIP:GondorKnightShields
@@ -15770,7 +15770,7 @@ CONTROLBAR:ToolTipBuildTreebeard
 END
 
 TOOLTIP:RohanHeavyArmor
-"Heavy Armor: +60% Armor, -20% Speed"
+"Heavy Armor: +60% Armor"
 END
 
 TOOLTIP:RohanHorseShields
@@ -16018,7 +16018,7 @@ TOOLTIP:IsengardForgedBlades
 END
 
 TOOLTIP:IsengardHeavyArmor
-"Heavy Armor: +60% Armor, -20% Speed"
+"Heavy Armor: +60% Armor"
 END
 
 TOOLTIP:IsengardFireArrows
@@ -35177,7 +35177,7 @@ CONTROLBAR:PurchaseTechnologyGondorHeavyArmor
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorHeavyArmor
-"+60% Armor, -20% Speed \n Purchase Heavy Armor Upgrade \n Select a battalion to equip upgrade \n Requires Level 2 Blacksmith"
+"+60% Armor \n Purchase Heavy Armor Upgrade \n Select a battalion to equip upgrade \n Requires Level 2 Blacksmith"
 END
 
 CONTROLBAR:PurchaseUpgradeGondorHeavyArmor
@@ -35185,7 +35185,7 @@ CONTROLBAR:PurchaseUpgradeGondorHeavyArmor
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeGondorHeavyArmor
-"+60% Armor, -20% Speed \n Left click to upgrade this unit"
+"+60% Armor \n Left click to upgrade this unit"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyGondorKnightShield
@@ -35249,7 +35249,7 @@ CONTROLBAR:PurchaseTechnologyRohanHeavyArmor
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyRohanHeavyArmor
-"+60% Armor, -20% Speed \n Purchase Heavy Armor Upgrade \n Select a battalion to equip upgrade"
+"+60% Armor \n Purchase Heavy Armor Upgrade \n Select a battalion to equip upgrade"
 END
 
 CONTROLBAR:PurchaseUpgradeRohanHeavyArmor
@@ -35257,7 +35257,7 @@ CONTROLBAR:PurchaseUpgradeRohanHeavyArmor
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeRohanHeavyArmor
-"+60% Armor, -20% Speed \n Left click to upgrade this unit"
+"+60% Armor \n Left click to upgrade this unit"
 END
 
 CONTROLBAR:PurchaseTechnologyRohanHorseShield
@@ -35317,7 +35317,7 @@ CONTROLBAR:PurchaseTechnologyIsengardHeavyArmor
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyIsengardHeavyArmor
-"+60% Armor, -20% Speed \n Purchase Heavy Armor Upgrade \n Select a battalion to equip upgrade"
+"+60% Armor \n Purchase Heavy Armor Upgrade \n Select a battalion to equip upgrade"
 END
 
 CONTROLBAR:PurchaseUpgradeIsengardHeavyArmor
@@ -35325,7 +35325,7 @@ CONTROLBAR:PurchaseUpgradeIsengardHeavyArmor
 END
 
 CONTROLBAR:ToolTipPurchaseUpgradeIsengardHeavyArmor
-"+60% Armor, -20% Speed \n Left click to upgrade this unit"
+"+60% Armor \n Left click to upgrade this unit"
 END
 
 CONTROLBAR:PurchaseTechnologyMordorFireArrows
@@ -35437,7 +35437,7 @@ TOOLTIP:LackGondorForgedBlades
 END
 
 TOOLTIP:LackGondorHeavyArmor
-"+60% Armor, -20% Speed \n Purchase upgrade at Blacksmith to enable this equipment"
+"+60% Armor \n Purchase upgrade at Blacksmith to enable this equipment"
 END
 
 TOOLTIP:LackGondorKnightShield
@@ -35461,7 +35461,7 @@ TOOLTIP:LackRohanForgedBlades
 END
 
 TOOLTIP:LackRohanHeavyArmor
-"+60% Armor, -20% Speed \n Purchase Upgrade at Armory to enable this equipment"
+"+60% Armor \n Purchase Upgrade at Armory to enable this equipment"
 END
 
 TOOLTIP:LackRohanHorseShield
@@ -35485,7 +35485,7 @@ TOOLTIP:LackIsengardForgedBlades
 END
 
 TOOLTIP:LackIsengardHeavyArmor
-"+60% Armor, -20% Speed \n Purchase Upgrade at Armory to enable this equipment"
+"+60% Armor \n Purchase Upgrade at Armory to enable this equipment"
 END
 
 TOOLTIP:LackMordorFireArrow
@@ -35541,7 +35541,7 @@ TOOLTIP:LackLevel2BlacksmithBanner
 END
 
 TOOLTIP:LackLevel2BlacksmithHeavyArmor
-"Required: Rank 2 Blacksmith \n +60% Armor, -20% Speed \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+"Required: Rank 2 Blacksmith \n +60% Armor \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
 
 TOOLTIP:LackLevel2BlacksmithForgedBlades
