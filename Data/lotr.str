@@ -1056,7 +1056,7 @@ CONTROLBAR:ConstructRohanMountedKingsguardHorde
 "Royal &Vanguard"
 END
 CONTROLBAR:ToolTipBuildRohanMountedKingsguardHorde
-"Required: Rank 3 Stables \n Elite Horsemen \n Limited to 3 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan. \n\nStrong vs. Heroes, Swordsmen, and Archers"
+"Required: Rank 3 Stables \n Elite Horsemen \n Strong vs. Heroes, Swordsmen, and Archers \n Limited to 3 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan."
 END
 
 // -- On Foot Kings Guard
@@ -2727,7 +2727,7 @@ CONTROLBAR:ConstructIsengardScoutHorde
 "Isengard Scou&ts"
 END
 CONTROLBAR:ToolTipBuildIsengardScoutHorde
-"Required: Rank 3 Uruk Pit \n Elite infantry proficient with sword and bow \n Strong vs. Infantry, Archers \n Weak vs. Cavalry"
+"Required: Rank 3 Uruk Pit \n Strong vs. Infantry, Archers \n Elite infantry proficient with sword and bow  \n Weak vs. Cavalry"
 END
 
 // -- Dunland Archers
@@ -3684,7 +3684,7 @@ CONTROLBAR:ConstructGundabadSwarmHorde
 "&Moria-orc Screechers"
 END
 CONTROLBAR:ToolTipConstructGundabadSwarmHorde
-"Fast-moving infantry, very weak in small numbers \n Strong vs. Archers, Spearmen \n Weak vs. Swordsmen, Cavalry \n \n After the Dwarves abandoned Khazad-dum, these Orcish usurpers plundered and desecrated its emptied halls."
+"Strong vs. Archers, Spearmen Fast-moving infantry,\n very weak in small numbers \n Weak vs. Swordsmen, Cavalry \n \n After the Dwarves abandoned Khazad-dum, these Orcish usurpers plundered and desecrated its emptied halls."
 END
 
 CONTROLBAR:SummonGundabadSwarmHorde
