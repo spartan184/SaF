@@ -620,7 +620,7 @@ CONTROLBAR:RohanEomerRecruit
 "Recruit the Third Marshal of the Riddermark. \n \n 'Now is the hour! Riders of Rohan! Oaths you have taken, now fulfill them all, to lord and land!'"
 END
 CONTROLBAR:RohanEomerRevive
-"Revive the fallen Hero, oomer"
+"Revive the fallen Hero, Eomer"
 END
 CONTROLBAR:RohanEomerHotkey
 "&Eomer"
