@@ -16498,7 +16498,7 @@ CONTROLBAR:ToolTipCaptainofGondorBoromir
 END
 
 CONTROLBAR:ToolTipAragornLeadership
-"Required: Rank 4 \n Leadership bonus to nearby troops \n +50% Damage, +100% Combat Experience \n Passive ability"
+"Required: Rank 4 \n Leadership bonus to nearby troops \n +50% Damage, +100% Combat Experience \n Legolas and Gimli gain +10% Damage when near Aragorn \n Passive ability"
 END
 
 CONTROLBAR:HorseLordLeadership 
