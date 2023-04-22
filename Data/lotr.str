@@ -1874,7 +1874,7 @@ CONTROLBAR:RivendellBounderRank2
 "&Peace-Keepers"
 END
 CONTROLBAR:ToolTipRivendellBounderRank2
-"Required: Rank 2\n \n'The Bounders are peace-keepers, patrolling the roads, paths, and borders of the Shire, settling disputes and keeping an eye out for wicked things and foreigners alike.'\n Bounders gain +15% Speed and +33% Vision \n Left Click to Activate"
+"Required: Rank 2\n \n'The Bounders are peace-keepers, patrolling the roads, paths, and borders of the Shire, settling disputes and keeping an eye out for wicked things and foreigners alike.'\n Bounders gain +25% Speed and +33% Range \n Left Click to Activate"
 END
 
 CONTROLBAR:RivendellBreelandGuardRank2
@@ -1935,10 +1935,10 @@ CONTROLBAR:RivendellElvesRank2
 "Song of Fin&we"
 END
 CONTROLBAR:ToolTipRivendellGuardianRank2
-"Required: Rank 2\n The seasoned warriors sing a song of past victories.\n gain +33% damage and if using bows +33% range \n Left Click to Activate"
+"Required: Rank 2\n The seasoned warriors sing a song of past victories.\n gain +33% Damage and if using bows +33% Range \n Left Click to Activate"
 END
 CONTROLBAR:ToolTipRivendellKnightRank2
-"Required: Rank 2\n The seasoned warriors sing a song of past victories.\n +33% damage and -33% deceleration \n Left Click to Activate"
+"Required: Rank 2\n The seasoned warriors sing a song of past victories.\n +33% Damage and -33% Deceleration \n Left Click to Activate"
 END
 
 CONTROLBAR:RivendellVeteranLALeadership
