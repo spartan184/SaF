@@ -203,7 +203,7 @@ CONTROLBAR:ToolTipFaramirWarSpeech
 END
 
 CONTROLBAR:ToolTipFaramirKnightRanger
-"Switch between Knight and Ranger modes \n left click to activate"
+"Mount your horse as a Knight of Gondor or switch on foot as a Ranger \n left click to activate"
 END
 
 // -- #Boromir 
