@@ -981,6 +981,13 @@ CONTROLBAR:ElvenHaldirHotkey
 "Hal&dir"
 END
 
+CONTROLBAR:HaldirQuickDraw
+"Quick &Draw"
+END
+CONTROLBAR:ToolTipHaldirQuickDraw
+"Haldir temporarily gains +25% Attack Speed \n Requires Bow \n Left click to activate"
+END
+
 CONTROLBAR:HaldirLeadership
 "Marchwarden of the Golden Wood"
 END
@@ -1007,13 +1014,6 @@ CONTROLBAR:HaldirSkill
 END
 CONTROLBAR:TooltipHaldirSkill
 "Required: Rank 8 \n Grants experience to archers within a radius \n left click then right click on target"
-END
-
-CONTROLBAR:HaldirQuickDraw
-"Quick &Draw"
-END
-CONTROLBAR:ToolTipHaldirQuickDraw
-"Haldir temporarily gains +25% Attack Speed \n left click to activate"
 END
 
 // -- #Merry
