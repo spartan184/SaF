@@ -835,7 +835,7 @@ CONTROLBAR:RohanHamaRecruit
 "Recruit the Door-warden."
 END
 CONTROLBAR:RohanHamaRevive
-"Revive the fallen Hero, Háma"
+"Revive the fallen Hero, Hama"
 END
 CONTROLBAR:RohanHamaHotkey
 "&Hama"
