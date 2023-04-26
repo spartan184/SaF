@@ -14726,7 +14726,7 @@ CONTROLBAR:ConstructGondorStable
 END
 
 CONTROLBAR:ConstructGondorKeep
-"Build Gondor Keep \n Shorcut: &T"
+"Build Gondor Keep &T"
 END
 
 CONTROLBAR:ConstructGondorStatue
