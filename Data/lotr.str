@@ -13570,7 +13570,7 @@ SCRIPT:MGLDirectionsToLoth
 END
 
 SCRIPT:MGLBuildBarracks
-"Build a Barracks and train Elven Warriors."
+"Build a Barracks to train Elven Warriors."
 END
 
 SCRIPT:MGLElvenEscort
@@ -34529,7 +34529,7 @@ BONUSROUND:SPSGOODHELMSDEEPEOMER
 END
 
 BONUSROUND:SPSGOODHELMSDEEPFIREARROWS
-"Bonus: Purchase fire arrows for 3 Archer Battalions."
+"Bonus: Purchase improved arrows for 3 Archer Battalions."
 END
 
 BONUSROUND:SPSGOODMOUTHSOFTHEENTWASHNAZGUL
