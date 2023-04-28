@@ -69,6 +69,10 @@ CONTROLBAR:ToolTipFlamingArrowVolley
 "Requires: Rank 2 \n Archers fire a series of flaming arrow volleys \n Deals +50% damage to structures."
 END
 
+TOOLTIP:ImprovedArrows
+"Improved Arrows: +25% Damage"
+END
+
 // ############################################################ //
 // =========================== #Maps ========================== //
 // ############################################################ //
