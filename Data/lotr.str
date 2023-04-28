@@ -1063,7 +1063,7 @@ CONTROLBAR:ConstructRohanMountedKingsguardHorde
 "Royal &Vanguard"
 END
 CONTROLBAR:ToolTipBuildRohanMountedKingsguardHorde
-"Required: Rank 3 Stables \n Elite Horsemen \n Strong vs. Heroes, Swordsmen, and Archers \n Limited to 3 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan."
+"Strong vs. Heroes, Swordsmen, and Archers \n Required: Rank 3 Stables \n Elite Horsemen \n  Limited to 3 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan."
 END
 
 // -- On Foot Kings Guard
@@ -1080,7 +1080,7 @@ CONTROLBAR:ConstructRohanKingsguardHorde
 "Edoras &Kingsguard"
 END
 CONTROLBAR:ToolTipBuildRohanKingsguardHorde
-"Required: Rank 3 Barracks \n Elite Footmen of Rohan \n Limited to 3 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan. \n\nStrong vs. Heroes, Infantry and Archers"
+"Strong vs. Heroes, Infantry and Archers \n Required: Rank 3 Barracks \n Elite Footmen of Rohan \n Limited to 3 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan."
 END
 
 // -- Rohan Elven Warrior
@@ -1088,7 +1088,7 @@ CONTROLBAR:ConstructElvenWarriorHorde
 "Elven &Warriors"
 END
 CONTROLBAR:ToolTipBuildElvenWarriorHorde
-"Required: Rank 2 Archery Range \n Skilled with Bow and Sword \n\n An alliance once existed between Elves and Men. Long ago we fought and died together. We come to honor that allegiance \n Strong vs. Calvary, Spearmen, and Archers"
+"Strong vs. Calvary, Spearmen, and Archers \n Required: Rank 2 Archery Range \n Skilled with Bow and Sword \n\n An alliance once existed between Elves and Men. Long ago we fought and died together. We come to honor that allegiance"
 END
 
 // -- Rohan Spearmen
