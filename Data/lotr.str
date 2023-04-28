@@ -1119,7 +1119,7 @@ END
 
 // -- Rohan Archers
 CONTROLBAR:ToolTipBuildRohanArcherHorde
-"Strong vs. Cavalry, Monsters \n \n In times of war, men of Rohan wealthy enough to own a plot of land would organize themselves into regiments and take up arms to defend their homes."
+"Strong vs. Infantry, Monsters \n \n In times of war, men of Rohan wealthy enough to own a plot of land would organize themselves into regiments and take up arms to defend their homes."
 END
 
 // -- Rohan Royal Guard 
