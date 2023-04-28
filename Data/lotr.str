@@ -469,6 +469,9 @@ END
 TOOLTIP:LackLevelGondorImprovedArrowsmithing 
 "Required: Rank 2 Archery Range \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
+TOOLTIP:LackLevel2ForbiddenPool
+"Required: Rank 2 Forbidden Pool \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+END
 TOOLTIP:LackGondorImprovedArrowsmithing
 "+25% Damage to units \n Purchase upgrade at Archery Range to enable this equipment"
 END
