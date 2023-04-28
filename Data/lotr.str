@@ -35562,9 +35562,8 @@ END
 TOOLTIP:LackLevel2ForbiddenPool
 "Required: Rank 2 Forbidden Pool"
 END
-
-CONTROLBAR:TooltipBuildForbiddenPoolFireArrows
-"Required: Rank 2 Forbidden Pool \n +15 Damage"
+TOOLTIP:LackLevel2ForbiddenPoolBanner
+"Required: Rank 2 Forbidden Pool \n Ranks a new unit to level 2 veterancy \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
 END
 
 TOOLTIP:LackLevel2Stables
