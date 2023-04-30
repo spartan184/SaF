@@ -539,6 +539,13 @@ END
 // ====================== #Rohan Heroes ======================= //
 // ============================================================ //
 // -- #Gandalf
+CONTROLBAR:GandalfLeadership
+"Rekindled Hearts"
+End
+CONTROLBAR:ToolTipGandalfLeadership
+"Leadership bonus to nearby troops \n +150% Armor, +150% Damage, +150% Combat Experience \n Units nearby become invulnerable to fear \n Passive ability"
+END
+
 CONTROLBAR:Bubble
 "Servant of the Se&cret Fire"
 END
@@ -722,6 +729,13 @@ CONTROLBAR:ToolTipEowynGloriousCharge
 END
 
 // -- #Aragorn
+CONTROLBAR:AragornLeadership
+"Leader of Men"
+END
+CONTROLBAR:ToolTipAragornLeadership
+"Required: Rank 4 \n Leadership bonus to nearby troops \n +50% Damage, +100% Combat Experience \n Legolas and Gimli gain +10% Damage when near Aragorn \n Passive ability"
+END
+
 CONTROLBAR:SpecialAbilityAragornHunter
 "Hunter"
 END
@@ -16504,10 +16518,6 @@ CONTROLBAR:ToolTipCaptainofGondorBoromir
 "Required: Rank 6 \n Give targeted units experience \n Left click then right click on target"
 END
 
-CONTROLBAR:ToolTipAragornLeadership
-"Required: Rank 4 \n Leadership bonus to nearby troops \n +50% Damage, +100% Combat Experience \n Legolas and Gimli gain +10% Damage when near Aragorn \n Passive ability"
-END
-
 CONTROLBAR:HorseLordLeadership 
 "Horse Lord"
 END
@@ -16518,10 +16528,6 @@ END
 
 CONTROLBAR:ToolTipEomerLeadership
 "Required: Rank 4 \n Leadership bonus to nearby Cavalry \n +60% Damage, +50% Combat Experience \n Passive ability"
-END
-
-CONTROLBAR:ToolTipGandalfLeadership
-"Leadership bonus to nearby troops \n +150% Armor, +150% Damage, +150% Combat Experience \n Units nearby become invulnerable to fear \n Passive ability"
 END
 
 CONTROLBAR:ToolTipLurtzLeadership
