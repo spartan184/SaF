@@ -2486,7 +2486,7 @@ CONTROLBAR:Dominate
 "&Voice of Saruman"
 END
 CONTROLBAR:ToolTipDominate
-"Temporarily gain control of targeted enemies \n left click then right click on target"
+"Required: Rank 2 \nTemporarily gain control of targeted enemies \n left click then right click on target"
 END
 // -- #Lurtz
 CONTROLBAR:SpawnLurtzScouts
@@ -2570,21 +2570,21 @@ CONTROLBAR:WulfgarSubjugation
 "Dunlending Subjugation"
 End
 CONTROLBAR:ToolTipWulfgarSubjugation
-"Required: Level 3 \n Dunlendings near Wulfgar gain +50% damage \n Though hesitant, Wulfgar was left with no choice\nbut to pledge his warriors to Saruman's cause \n Passive ability"
+"Required: Rank 3 \n Dunlendings near Wulfgar gain +50% damage \n Though hesitant, Wulfgar was left with no choice\nbut to pledge his warriors to Saruman's cause \n Passive ability"
 END
 
 CONTROLBAR:KingoftheHills
 "&King of the Hills"
 END
 CONTROLBAR:ToolTipKingoftheHills
-"Required: Level 8 \n Rallies nearby Dunlendings temporarily increasing their armor by 200% \n Left click to activate"
+"Required: Rank 8 \n Rallies nearby Dunlendings temporarily increasing their armor by 200% \n Left click to activate"
 END
 
 CONTROLBAR:WulfgarRiderSummon
 "D&unnish Riders"
 END
 CONTROLBAR:ToolTipWulfgarRiderSummon
-"Required: Level 10 \n Wulfgar calls to his Dunnish Riders \n Summons 3 Dunnish Rider Hordes\n Left Click To Activate"
+"Required: Rank 10 \n Wulfgar calls to his Dunnish Riders \n Summons 3 Dunnish Rider Hordes\n Left Click To Activate"
 END
 
 // -- #Grishnakh 
