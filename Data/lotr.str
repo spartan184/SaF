@@ -761,7 +761,7 @@ CONTROLBAR:RohanAragornAthelas
 "&Kingsfoil"
 END
 CONTROLBAR:ToolTipRohanAragornAthelas
-"Aragorn's healing skill mends nearby friendly heroes \n left click to activate"
+"Aragorn's healing skill mends nearby friendly heroes and units \n left click to activate"
 END
 
 // -- #Legolas
