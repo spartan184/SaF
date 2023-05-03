@@ -608,6 +608,27 @@ CONTROLBAR:RohanTheodenHotkey
 "&Theoden"
 END
 
+CONTROLBAR:KingsFavor
+"&Oaths Fulfilled"
+END
+CONTROLBAR:ToolTipKingsFavor
+"Required: Rank 3 \n Units gain experience \n left click then right click on target"
+END
+
+CONTROLBAR:GloriousCharge
+"Glorious &Charge"
+END
+CONTROLBAR:ToolTipGloriousCharge
+"Required: Rank 4 \n Theoden and nearby calvary +30% damage, +75% armor and don't slow down while crushing \n Theoden must be mounted to use ability \n Left click to activate"
+END
+
+CONTROLBAR:TheodenMount
+"&Mount"
+END
+CONTROLBAR:ToolTipTheodenMount
+"Left click to mount horse \n +25% Armor vs. Footmen and Cavalry \n -50% Armor vs. Archers and Pikes \n 100% more damage from archers and spearmen"
+END
+
 CONTROLBAR:TheodenRally
 "&Rally To Me!"
 END
@@ -728,6 +749,12 @@ CONTROLBAR:ToolTipEowynGloriousCharge
 "Required: Rank 4 \n Eowyn and nearby troops +30% damage, +75% armor and don't slow down while crushing \n Eowyn must be mounted to use ability \n Left click to activate"
 END
 
+CONTROLBAR:EowynMount
+"&Mount"
+END
+CONTROLBAR:ToolTipEowynMount
+"Left click to mount horse \n +25% Armor vs. Footmen and Cavalry \n -50% Armor vs. Archers and Pikes \n 100% more damage from archers and spearmen"
+END
 // -- #Aragorn
 CONTROLBAR:AragornLeadership
 "Leader of Men"
@@ -16596,38 +16623,6 @@ END
 
 CONTROLBAR:ToolTipSummonEntAllies
 "Summons Ents \n left click then right click on target"
-END
-
-CONTROLBAR:KingsFavor
-"&Oaths Fulfilled"
-END
-
-CONTROLBAR:ToolTipKingsFavor
-"Required: Rank 3 \n Units gain experience \n left click then right click on target"
-END
-
-CONTROLBAR:GloriousCharge
-"Glorious &Charge"
-END
-
-CONTROLBAR:ToolTipGloriousCharge
-"Required: Rank 4 \n Theoden and nearby troops +30% damage, +75% armor and don't slow down while crushing \n Theoden must be mounted to use ability \n Left click to activate"
-END
-
-CONTROLBAR:TheodenMount
-"&Mount"
-END
-
-CONTROLBAR:ToolTipTheodenMount
-"Left click to mount horse \n +25% Armor vs. Footmen and Cavalry \n -50% Armor vs. Archers and Pikes \n 100% more damage from archers and spearmen"
-END
-
-CONTROLBAR:EowynMount
-"&Mount"
-END
-
-CONTROLBAR:ToolTipEowynMount
-"Left click to mount horse \n +25% Armor vs. Footmen and Cavalry \n -50% Armor vs. Archers and Pikes \n 100% more damage from archers and spearmen"
 END
 
 CONTROLBAR:Leap
