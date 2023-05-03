@@ -1146,6 +1146,10 @@ CONTROLBAR:ToolTipBuildRohanSpearmenHorde
 "Strong vs. Cavalry and Heroes \n \n In times of war, men of Rohan wealthy enough to own a plot of land would organize themselves into regiments and take up arms to defend their homes."
 END
 
+OBJECT:HordeRohanYeomenSpearArcherCombo
+"Rohan Spearmen Archer Combo Horde"
+END
+
 // -- Rohan Peasants
 CONTROLBAR:ConstructRohanPeasant
 "Rohan &Peasants"
