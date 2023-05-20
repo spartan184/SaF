@@ -279,7 +279,7 @@
     
     <EventList Name="GandalfFunctions" Inherit="BaseScriptFunctions">
       <EventHandler EventName="OnCreated"	ScriptFunctionName="OnGandalfCreated" DebugSingleStep="false"/>
-      <EventHandler EventName="DamageIncoming" ScriptFunctionName="GandalfConsiderUsingDefensePower" DebugSingleStep="false"/>
+      <!-- <EventHandler EventName="DamageIncoming" ScriptFunctionName="GandalfConsiderUsingDefensePower" DebugSingleStep="false"/ -->
       <EventHandler EventName="UsingSpecialOne" ScriptFunctionName="GandalfTriggerWizardBlast" DebugSingleStep="false"/>
     </EventList>
     
@@ -398,7 +398,6 @@
 
     <EventList Name="RadagastFunctions" Inherit="BaseScriptFunctions">
       <EventHandler EventName="OnCreated"	ScriptFunctionName="OnRadagastCreated" DebugSingleStep="false"/>
-      <EventHandler EventName="DamageIncoming" ScriptFunctionName="GandalfConsiderUsingDefensePower" DebugSingleStep="false"/>
       <EventHandler EventName="UsingSpecialOne" ScriptFunctionName="GandalfTriggerWizardBlast" DebugSingleStep="false"/>
       <EventHandler EventName="UsingSpecialTwoMounted"	ScriptFunctionName="OnRadagastUsingSpecialTwo"		DebugSingleStep="false"/>
       <EventHandler EventName="EndingSpecialTwoMounted"	ScriptFunctionName="OnRadagastEndingSpecialTwo"		DebugSingleStep="false"/>
