@@ -2127,10 +2127,9 @@ function OnMordorArcherCreated(self)
 end
 
 function OnMordorBannerCreated(self)
-    ObjectHideSubObjectPermanently( self, "FORGED_BLADE", true )
-	ObjectHideSubObjectPermanently( self, "FORGED_BLADES", true )
-
+    ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
     ObjectHideSubObjectPermanently( self, "GREAVES", true )
+    
     -- helmet types
     ObjectHideSubObjectPermanently( self, "HELMET01", true )
     ObjectHideSubObjectPermanently( self, "HELMET02", true )
