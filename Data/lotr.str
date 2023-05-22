@@ -159,7 +159,7 @@ CONTROLBAR:ElessarLeadership
 "King of Gondor"
 END
 CONTROLBAR:ToolTipElessarLeadership
-"Elessar is guarded by 4 Gondor Royal Guard \n Leadership bonus to nearby troops \n +50% Damage, +100% Combat Experience \n Passive ability"
+"Leadership bonus to nearby troops \n +50% Damage, +100% Combat Experience \n Passive ability"
 END
 
 CONTROLBAR:ToolTipElessarBladeMaster
