@@ -2710,7 +2710,7 @@ CONTROLBAR:GrimaLeechcraft
 "&Leechcraft"
 END
 CONTROLBAR:ToolTipGrimaLeechcraft
-"Required: Rank 5 \n Targeted Heroes are dealth damage and lose -25% Damage, -20% Health for a short amount of time \n Targeted units and structures are dealt damage\n Left click then right click on target"
+"Required: Rank 5 \n Targeted Heroes are dealt damage and lose -25% Damage, -20% Health for a short amount of time \n Targeted units and structures are dealt damage\n Left click then right click on target"
 END
 
 CONTROLBAR:GrimaSabotage
