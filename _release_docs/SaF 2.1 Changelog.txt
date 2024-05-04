@@ -1,0 +1,75 @@
+Balance Changes
+  General
+  ...
+  Good Campaign
+    REMOVED Gandalf command point requirement
+    REMOVED Legolas command point requirement
+    REMOVED Gandalf auto casting wizard blast on enemies
+  Evil Campaign
+  ...
+
+  Gondor
+    REMOVED King Elessar’s kings guard slave units.
+
+  Rohan
+  …
+
+  Rivendell
+    INCREASED Grey Pilgrim summon health from 1200 -> 2000
+    INCREASED Grey Pilgrim damage from 100 -> 120
+
+  Isengard
+  ...
+  Mordor
+  …
+  Gundabad
+  ...
+  Maps 
+  ...
+
+  AI 
+  ...
+  
+Bug fixes
+  General
+  ...
+  Good Campaign
+    FIXED Aragorn model when using blade maser and rank 10
+    
+  Evil Campaign
+  ...
+
+  Gondor
+    ADDED Beregond death Eva
+    ADDED Imrahil death Eva
+    ADDED Forlong death Eva
+    FIXED Gondor Fighter commandpoints, should be 10.
+
+  Rohan
+    ADDED Theodred death Eva
+    ADDED Haldir death Eva
+
+  Rivendell
+    FIXED Glorfindel death Eva. Was using Elrond’s.
+    FIXED Rivendell Castle floor area near the front gate causing units to fall through.
+    FIXED Rivendell Guardians being unable to guard.
+    FIXED Grey Company texture issues.
+    FIXED Dunedain Ranger Hotkey destroying Dunedain Gathering
+    FIXED Dunedain Ranger head texture issues
+
+  Isengard
+    FIXED Grima Leechcraft typo description text says "dealth damage" instead of "dealt damage”.
+    Mordor
+    FIXED Mordor Orc Pike Archer Comboing causing the banner carrier to turn into a Haradrim banner carrier instead of orc banner
+    FIXED invisible orc banner carriers
+    FIXED Mollock summon not being able to use his powers
+    
+  Gundabad
+  ...
+  
+  Maps 
+  ...
+
+  AI 
+  ...
+
