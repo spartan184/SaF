@@ -1806,7 +1806,7 @@ OBJECT:HordeDunedainRanger
 "Dunedain of the North"
 END
 CONTROLBAR:ConstructDunedainRangerHorde
-"&Dunedain of the North"
+"Dunedain of the &North"
 END
 CONTROLBAR:ToolTipDunedainRangerHorde
 "Recruit Rangers of the North. Skilled with bow and sword.\n Strong vs. Archers, Monsters"
