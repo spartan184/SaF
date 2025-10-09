@@ -1,0 +1,2 @@
+- Combo hord black uruks with siege towers doesn't work
+- Mordor siege tower says 3 limit but i can make more than that
