@@ -1,0 +1,8 @@
+# Replace whitespace between code assignments
+In the "Find what" field, enter: (\w+)\s*=\s*
+	(\w+) captures one or more word characters (letters, numbers, underscore) as a group (the "name").
+	\s* matches zero or more whitespace characters.
+	= matches the equals sign literally.
+In the "Replace with" field, enter: $1=
+	$1 inserts the content of the first captured group (the "name").
+	= inserts the equals sign.
