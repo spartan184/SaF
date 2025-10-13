@@ -447,6 +447,7 @@ Asset RUELFWAR_ATKA2.ARROWNOCK in file ruelfwar_atka2.w3d depends on unknown ass
 Asset RUFRODO_SKN in file rufrodo_skn.w3d depends on unknown asset h*rufrodo_skl.
 Asset RUGAMLINGMT in file rugamlingmt.w3d depends on unknown asset h*rurohrm_skl.
 Asset RUGIMLI3H_SKN in file rugimli3h_skn.w3d depends on unknown asset h*rugimli_skl.
+Asset RUGIMLI_FRO in file rugimli_fro.w3d depends on unknown asset h*rufrodo_skl.
 Asset RUGWAIHIR_SKN in file rugwaihir_skn.w3d depends on unknown asset h*gugwaihir_skl.
 Asset RUHAMA_MNT in file ruhama_mnt.w3d depends on unknown asset h*rurohrm_skl.
 Asset RUNBNR_SKN in file runbnr_skn.w3d depends on unknown asset h*gubanner_skl.
