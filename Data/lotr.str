@@ -1365,6 +1365,20 @@ END
 // ============================================================ //
 // ===================== #Rivendell Heroes ==================== //
 // ============================================================ //
+// -- #Bilbo
+OBJECT:Bilbo
+"Bilbo"
+END
+CONTROLBAR:BilboRecruit
+"Recruit the noble hobbit from the Shire\n\n'Sorry! I don't want any adventures, thank you. Not today. Good morning! But please come to tea - any time you like! Why not tomorrow? Good bye!'"
+END
+CONTROLBAR:BilboRevive
+"Revive the fallen Hero, Bilbo \n \n The Road goes ever on and on..."
+END
+CONTROLBAR:BilboHotKey
+"Bil&bo"
+END
+
 // -- #Glorfindel
 OBJECT:Glorfindel
 "Glorfindel"
