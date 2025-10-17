@@ -157,6 +157,18 @@
       <ModelConditionEvent Name="UnitDying">
         <Conditions>+DYING</Conditions>
       </ModelConditionEvent>
+	  
+      <ModelConditionEvent Name="ThorinSword">
+        <Conditions>-WEAPONSET_TOGGLE_1</Conditions>
+      </ModelConditionEvent>
+
+      <ModelConditionEvent Name="ThorinShield">
+        <Conditions>+WEAPONSET_TOGGLE_1</Conditions>
+      </ModelConditionEvent>
+
+      <ModelConditionEvent Name="ThorinAxe">
+        <Conditions>+WEAPONSET_TOGGLE_2 -WEAPONSET_TOGGLE_1</Conditions>
+      </ModelConditionEvent>
     </Events>
 	
     <EventList Name="BaseScriptFunctions">
@@ -391,7 +403,14 @@
     </EventList>
     
     <!---------- End of Rivendell Functions -->
-    
+    <!-- Dwarven Heroes -->
+    <EventList Name="ThorinFunctions" Inherit="BaseScriptFunctions">
+      <EventHandler EventName="OnCreated"		ScriptFunctionName="OnThorinCreated" 	DebugSingleStep="false"/>
+      <!--<EventHandler EventName="WeaponsetToggleOff" 	ScriptFunctionName="OnDainAxe" 			DebugSingleStep="false"/>
+      <EventHandler EventName="WeaponsetToggleOn" 	ScriptFunctionName="OnDainHammer" 		DebugSingleStep="false"/>
+      <EventHandler EventName="ThorinAxe" 	ScriptFunctionName="OnDainRedAxe" 		DebugSingleStep="false"/> -->
+    </EventList>
+	
     <EventList Name="ForlongFunctions" Inherit="BaseScriptFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnForlongCreated" DebugSingleStep="false"/>
     </EventList>

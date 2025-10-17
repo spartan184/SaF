@@ -20,6 +20,12 @@ function OnFireSpecialStopRanger(self)
     ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
 end
 
+-- Thorin
+function OnThorinCreated(self)
+	ObjectHideSubObjectPermanently( self, "ORCRIST01", true )
+	ObjectHideSubObjectPermanently( self, "SHEATH", true )
+end
+
 -- New Galadhrim
 function OnLorienMarchwardenCreated(self)
 	ObjectHideSubObject( self, "ARROW", true )

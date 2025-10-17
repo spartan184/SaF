@@ -2432,6 +2432,271 @@ OBJECT:Ruins
 "Ruins"
 END
 // ############################################################ //
+// ========================== #Dwarven ======================== //
+// ############################################################ //
+// ============================================================ //
+// ==================== #Dwarven Heroes ======================= //
+// ============================================================ //
+// -- #Thorin
+OBJECT:DwarvenThorin
+"Thorin Oakenshield"
+END
+
+CONTROLBAR:ToolTipBuildThorin
+"Recruit the Young Prince of Erebor"
+END
+CONTROLBAR:DwarvenThorinRecruit
+"Recruit the King Under the Mountain \n \n 'Loyalty. Honor. A willing heart. I can ask no more than that.'"
+END
+CONTROLBAR:DwarvenThorinRevive
+"Revive the fallen King, Thorin"
+END
+CONTROLBAR:DwarvenThorinHotkey
+"Thorin Oakenshield (&C)"
+END
+
+CONTROLBAR:ThorinLeadership
+"King Under the Mountain"
+End
+CONTROLBAR:ToolTipThorinLeadership
+"Modifier Type: Leadership \n Dwarves near Thorin gain 25% armour, resistance to fear and terror and earn experience 50% faster \nPassive ability"
+END
+
+CONTROLBAR:ThorinOrcrist
+"Goblin-Cleaver (&T)"
+End
+CONTROLBAR:TooltipThorinOrcrist
+"Requires Level 5 \n Thorin gains +75% magic damage and +100% armour for 30 seconds\n Left click to activate"
+END
+
+CONTROLBAR:ThorinLeadership2
+"Armour of Thrór"
+End
+CONTROLBAR:ToolTipThorinLeadership2
+"Thorin attains the armour of his grandfather, King Thrór, increasing his default armour \n Passive ability"
+END
+
+CONTROLBAR:ThorinDuBekar
+"Du Bekar! (&V)"
+END
+CONTROLBAR:ToolTipThorinDuBekar
+"Requires Level 10 \n Modifier Type: Spell \n Thorin and nearby allies gain resistance to knockback, +75% damage and +20% speed for 30 seconds\nThorin can crush enemies\n Enemies in wide radius around Thorin are stunned in fear for 15 seconds\nLeft click to activate"
+END
+
+CONTROLBAR:ThorinResentment
+"Resentment (&R)"
+END
+CONTROLBAR:ToolTipThorinResentment
+"Requires Level 3 \n Modifier Type: Active Debuff \n Targeted enemy units suffer -20% speed and -30% armour for 30 seconds\n Nullifies enemy leadership \n Left click icon then left click on target units"
+END
+
+CONTROLBAR:ThorinRestoration
+"Driven By Prophecy (&C)"
+End
+CONTROLBAR:ToolTipThorinRestoration
+"Requires Level 7 \n Heals nearby allies and fully refreshes\ntheir special ability timers \n Left click icon then left click on target area"
+END
+
+// -- #Fili
+OBJECT:DwarvenFili
+"Fili"
+END
+
+CONTROLBAR:ToolTipBuildFili
+"Recruit the young Crown Prince of Erebor"
+END
+CONTROLBAR:DwarvenFiliRecruit
+"Recruit the Crown Prince of Erebor \n \n 'We'll be right behind you! If you run into trouble, hoot twice like a barn owl, once like a brown owl.'"
+END
+CONTROLBAR:DwarvenFiliRevive
+"Revive the fallen Prince, Fili"
+END
+CONTROLBAR:DwarvenFiliHotkey
+"Fili (&T)"
+END
+
+// -- #Kili
+OBJECT:DwarvenKili
+"Kili"
+END
+
+CONTROLBAR:ToolTipBuildKili
+"Recruit the young Prince of Erebor"
+END
+CONTROLBAR:DwarvenKiliRecruit
+"Recruit the young Prince of Erebor \n \n 'I will not hide behind a wall of stone while others fight our battles for us!'"
+END
+CONTROLBAR:DwarvenKiliRevive
+"Revive the fallen Prince, Kili"
+END
+CONTROLBAR:DwarvenKiliHotkey
+"Kili (&R)"
+END
+
+// -- #Balin
+OBJECT:DwarvenBalin
+"Balin"
+END
+
+CONTROLBAR:ToolTipBuildBalin
+"Recruit the King's chief adviser"
+END
+CONTROLBAR:DwarvenThorinBalin
+"Recruit the King's chief adviser"
+END
+CONTROLBAR:DwarvenBalinRecruit
+"Recruit the King's chief adviser \n \n 'We are with you, laddie. We will see it done.'"
+END
+CONTROLBAR:DwarvenBalinRevive
+"Revive the fallen hero, Balin"
+END
+CONTROLBAR:DwarvenBalinHotkey
+"Balin (&S)"
+END
+
+// -- #Bofur
+OBJECT:DwarvenBofur
+"Bofur"
+END
+CONTROLBAR:ToolTipBuildBofur
+"Recruit a fellow companion of Thorin's company"
+END
+CONTROLBAR:DwarvenBofurRecruit
+"Recruit a fellow companion of Thorin's company"
+END
+CONTROLBAR:DwarvenBofurRevive
+"Revive the fallen companion, Bofur"
+END
+CONTROLBAR:DwarvenBofurHotkey
+"&Bofur"
+END
+
+// -- #Bifur
+OBJECT:DwarvenBifur
+"Bifur"
+END
+CONTROLBAR:ToolTipBuildBifur
+"Recruit a fellow companion of Thorin's company"
+END
+CONTROLBAR:DwarvenBifurRecruit
+"Recruit a fellow companion of Thorin's company"
+END
+CONTROLBAR:DwarvenBifurRevive
+"Revive the fallen companion, Bifur"
+END
+CONTROLBAR:DwarvenBifurHotkey
+"&Bifur"
+END
+
+// -- #Oin
+OBJECT:DwarvenOin
+"Óin"
+END
+CONTROLBAR:ToolTipBuildOin
+"Recruit a fellow companion of Thorin's company"
+END
+CONTROLBAR:DwarvenOinRecruit
+"Recruit a fellow companion of Thorin's company"
+END
+CONTROLBAR:DwarvenOinRevive
+"Revive the fallen companion, Óin"
+END
+CONTROLBAR:DwarvenOinHotkey
+"Óin"
+END
+// -- #Bombur
+OBJECT:DwarvenBombur
+"Bombur"
+END
+
+CONTROLBAR:DwarvenBomburHotkey
+"Bombur (&W)"
+END
+CONTROLBAR:DwarvenBomburRecruit
+"Recruit a fellow companion of Thorin's company"
+END
+CONTROLBAR:DwarvenBomburRevive
+"Revive the fallen companion, Bombur."
+END
+
+// -- #Ori
+OBJECT:DwarvenOri
+"Ori"
+END
+CONTROLBAR:DwarvenOriHotkey
+"Ori (&W)"
+END
+CONTROLBAR:DwarvenOriRecruit
+"Recruit a fellow companion of Thorin's company"
+END
+CONTROLBAR:DwarvenOriRevive
+"Revive the fallen companion, Ori."
+END
+
+// -- #DwarvenNori
+OBJECT:DwarvenNori
+"Nori"
+END
+
+CONTROLBAR:DwarvenNoriHotkey
+"Nori (&W)"
+END
+CONTROLBAR:DwarvenNoriRecruit
+"Recruit a fellow companion of Thorin's company"
+END
+CONTROLBAR:DwarvenNoriRevive
+"Revive the fallen companion, Nori."
+END
+
+// -- #Dori
+OBJECT:DwarvenDori
+"Dori"
+END
+
+CONTROLBAR:DwarvenDoriHotkey
+"Dori (&W)"
+END
+CONTROLBAR:DwarvenDoriRecruit
+"Recruit a fellow companion of Thorin's company"
+END
+CONTROLBAR:DwarvenDoriRevive
+"Revive the fallen companion, Dori."
+END
+
+// -- #Gloin
+OBJECT:DwarvenGloin
+"Glóin"
+END
+
+CONTROLBAR:DwarvenGloinHotkey
+"Glóin (&R)"
+END
+CONTROLBAR:DwarvenGloinRecruit
+"Recruit the father of Gimli \n \n 'The Shadow grows and draws nearer. Already war is gathering on our eastern borders...'"
+END
+CONTROLBAR:DwarvenGloinRevive
+"Revive the fallen Hero, Glóin."
+END
+
+// -- #Dwalin
+OBJECT:DwarvenDwalin
+"Dwalin"
+END
+
+CONTROLBAR:ToolTipBuildDwalin
+"Recruit Dwalin"
+END
+CONTROLBAR:DwarvenDwalinRecruit
+"Recruit the mighty Dwarf warrior, Dwalin. \n \n ''The wild is no place for gentle folk who can neither fight nor fend for themselves...'"
+END
+CONTROLBAR:DwarvenDwalinRevive
+"Revive the fallen warrior, Dwalin"
+END
+CONTROLBAR:DwarvenDwalinHotkey
+"Dwalin (&G)"
+END
+
+// ############################################################ //
 // ========================== #Isengard ======================= //
 // ############################################################ //
 // ============================================================ //
