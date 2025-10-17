@@ -18,3 +18,5 @@ FxList:
   ;  EmissionVolume = BoxEmissionVolume
 	;    HalfSize = X:10 Y:10 Z:1
 	;  End
+  ;BuffShipTemplate = CripplingStrikeBuff
+	;BuffMonsterTemplate = CripplingStrikeBuff

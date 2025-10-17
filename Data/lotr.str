@@ -2515,11 +2515,38 @@ CONTROLBAR:DwarvenFiliHotkey
 "Fili (&T)"
 END
 
+CONTROLBAR:BrotherhoodLeadership
+"Brotherhood"
+END
+CONTROLBAR:ToolTipBrotherhoodFili
+"Modifier Type: Leadership \n Kili gains +20% damage when near Fili\n Passive ability"
+END
+
+CONTROLBAR:FiliAxeThrow
+"Hidden Blade (&R)"
+END
+CONTROLBAR:ToolTipFiliAxeThrow
+"Requires Level 3 \nFili deals heavy damage to a single target,\n crippling it for 10 seconds \n Left click icon then left click on target"
+END
+
+CONTROLBAR:FiliSlayer
+"Dwarven Dexterity (&T)"
+END
+CONTROLBAR:ToolTipFiliSlayer
+"Requires Level 5 \n Fili gains +25% damage and increased attack and movement speed for 30 seconds\n Left click to activate"
+END
+
+CONTROLBAR:FiliLeadership
+"Heir to the Throne"
+End
+CONTROLBAR:ToolTipFiliLeadership
+"Requires Level 8 \nModifier Type: Leadership \n Basic Erebor Dwarves and Ered Luin Dwarves near Fili gain +33% damage and +25% armour\n Passive ability"
+END
+
 // -- #Kili
 OBJECT:DwarvenKili
 "Kili"
 END
-
 CONTROLBAR:ToolTipBuildKili
 "Recruit the young Prince of Erebor"
 END
@@ -2531,6 +2558,31 @@ CONTROLBAR:DwarvenKiliRevive
 END
 CONTROLBAR:DwarvenKiliHotkey
 "Kili (&R)"
+END
+
+CONTROLBAR:ToolTipKiliArrowDodge
+"Kili permanently gains a boost in evasion to ranged attacks \n Passive ability"
+END
+CONTROLBAR:KiliArrowDodge
+"Luck of Battle"
+END
+
+CONTROLBAR:ToolTipBrotherhoodKili
+"Modifier Type: Leadership \n Fili gains +20% damage when near Kili\n Passive ability"
+END
+
+CONTROLBAR:KiliQuickshot
+"Quick Shot (&C)"
+END
+CONTROLBAR:ToolTipKiliQuickshot
+"Requires Level 3 \n Kili gains +15% damage and +33% attack speed for 20 seconds\n Can only use with bow equipped \n Left click to activate"
+END
+
+CONTROLBAR:ToolTipKiliHighSpirits
+"Requires Level 8\n Grants experience to nearby troops.\nOnly affects dwarven units\n Left click icon then left click on target units"
+END
+CONTROLBAR:KiliHighSpirits
+"High Spirits (&V)"
 END
 
 // -- #Balin
