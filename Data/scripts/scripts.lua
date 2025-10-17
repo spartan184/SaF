@@ -20,10 +20,20 @@ function OnFireSpecialStopRanger(self)
     ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
 end
 
--- Thorin
+-- #Thorin
 function OnThorinCreated(self)
 	ObjectHideSubObjectPermanently( self, "ORCRIST01", true )
 	ObjectHideSubObjectPermanently( self, "SHEATH", true )
+end
+
+-- #Kili
+function OnKiliCreated(self)
+	--ObjectHideSubObjectPermanently( self, "ORCRIST01", true )
+end
+
+-- #Fili
+function OnFiliCreated(self)
+	--ObjectHideSubObjectPermanently( self, "ORCRIST01", true )
 end
 
 -- New Galadhrim

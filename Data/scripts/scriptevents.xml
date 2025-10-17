@@ -406,11 +406,17 @@
     <!-- Dwarven Heroes -->
     <EventList Name="ThorinFunctions" Inherit="BaseScriptFunctions">
       <EventHandler EventName="OnCreated"		ScriptFunctionName="OnThorinCreated" 	DebugSingleStep="false"/>
-      <!--<EventHandler EventName="WeaponsetToggleOff" 	ScriptFunctionName="OnDainAxe" 			DebugSingleStep="false"/>
-      <EventHandler EventName="WeaponsetToggleOn" 	ScriptFunctionName="OnDainHammer" 		DebugSingleStep="false"/>
-      <EventHandler EventName="ThorinAxe" 	ScriptFunctionName="OnDainRedAxe" 		DebugSingleStep="false"/> -->
     </EventList>
-	
+    
+	  <EventList Name="KiliFunctions" Inherit="BaseScriptFunctions">
+      <EventHandler EventName="OnCreated"		ScriptFunctionName="OnKiliCreated" 	DebugSingleStep="false"/>
+    </EventList>
+    
+    <EventList Name="FiliFunctions" Inherit="BaseScriptFunctions">
+      <EventHandler EventName="OnCreated"		ScriptFunctionName="OnFiliCreated" 	DebugSingleStep="false"/>
+    </EventList>
+    
+    <!-- Gondor Heroes -->
     <EventList Name="ForlongFunctions" Inherit="BaseScriptFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnForlongCreated" DebugSingleStep="false"/>
     </EventList>
