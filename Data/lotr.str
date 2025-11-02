@@ -2748,6 +2748,55 @@ CONTROLBAR:DwarvenDwalinHotkey
 "Dwalin (&G)"
 END
 
+CONTROLBAR:DwalinLeadership
+"Brother-in-Arms"
+END
+CONTROLBAR:ToolTipDwalinLeadership
+"Modifier Type: Spell \n When near Thorin, Dwalin gains\n+15% damage, +15% armour, and +15% attack speed \nPassive ability"
+END
+
+CONTROLBAR:LonglivedWarrior
+"Long-lived Warrior (&T)"
+END
+CONTROLBAR:ToolTipLonglivedWarrior
+"Dwalin temporarily gains +50% armour and regains health per hit \n Left click to activate"
+END
+
+CONTROLBAR:ToolTipDwalinHammer
+"Switch to War Hammer\nDwalin gains +33% damage against heroes and buildings, and +25% armour but loses -50% damage radius"
+END
+CONTROLBAR:ToolTipDwalinAxesBasic
+"Switch to Grasper and Keeper\nDwalin gains +33% damage against infantry and +50% damage radius"
+END
+
+CONTROLBAR:ToolTipDwalinWarAxe
+"Switch to War Axe\nDwalin gains +33% damage against heroes and buildings, and +25% armour but loses -50% damage radius"
+END
+CONTROLBAR:ToolTipDwalinAxesUpg
+"Switch to Dual Axes\nDwalin gains +33% damage against infantry and +50% damage radius"
+END
+
+CONTROLBAR:DwalinJuggernaut
+"Dwarven Juggernaut (&V)"
+END
+CONTROLBAR:ToolTipDwalinJuggernaut
+"Requires Level 8 \n Modifier Type: Buff \n Dwalin gains\n+200% armour, Resistance to knockback, and deals knockback damage for 30 seconds\n Left click to activate"
+END
+
+CONTROLBAR:DwalinSmash
+"Furious Blow (&C)"
+END
+CONTROLBAR:ToolTipDwalinSmash
+"Requires Level 5 \n Dwalin slams the ground, knocking back enemy units and dealing heavy damage to structures in a small radius \n Left click icon then left click on target"
+END
+
+CONTROLBAR:DwalinGloriousCharge
+"Baruk Khazâd! (&T)"
+END
+CONTROLBAR:ToolTipDwalinGloriousCharge
+"Requires Level 3 \n Dwalin lets out a cry, causing enemy units to flee in terror \n Left click to activate"
+END
+
 // ############################################################ //
 // ========================== #Isengard ======================= //
 // ############################################################ //
