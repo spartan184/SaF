@@ -2434,6 +2434,654 @@ END
 // ############################################################ //
 // ========================== #Dwarven ======================== //
 // ############################################################ //
+INI:FactionDwarves
+"Erebor"
+END
+
+SIDE:Dwarves
+"Erebor"
+END
+
+APT:Dwarves
+"Erebor"
+END
+
+APT:DwarvesCaps
+"EREBOR"
+END
+// ============================================================ //
+// =================== #Dwarven Spellbook =================== //
+// ============================================================ //
+// SPELLBOOK STRING SECTION
+// ---------------------
+
+CONTROLBAR:DwarfSpellGateHorn
+"Horn of the Gate"
+END
+CONTROLBAR:DwarfSpellGateHornTooltip
+"+50% Damage, +20% Speed  \n Left click then right click on target"
+END
+
+CONTROLBAR:DwarfSpellVengeance
+"Vow of Vengeance"
+END
+CONTROLBAR:DwarfSpellVengeanceTooltip
+"Target hero takes 35% more damage from all Dwarves  \n Left click then right click on target"
+END
+
+CONTROLBAR:DwarfSpellDaleAllies
+"Summon Allies from Dale"
+END
+CONTROLBAR:DwarfSpellDaleAlliesTooltip
+"Summons two battalions of Thrush Marksmen and a Warden of Dale \n Left click then right click on target"
+END
+
+CONTROLBAR:DwarfSpellTruesilver
+"Truesilver Lode"
+END
+CONTROLBAR:DwarfSpellTruesilverTooltip
+"Creates a Truesilver Mine at the target location for three minutes \n Drops treasure when killed \n Left click then right click on target"
+END
+
+CONTROLBAR:DwarfSpellIronHills
+"Muster of the Iron Hills"
+END
+CONTROLBAR:DwarfSpellIronHillsTooltip
+"Allows the construction of the Baruk-sharâhul, Azaghâr-sharâhul and the Sulûn-abanul \n Passive power"
+END
+
+CONTROLBAR:DwarfSpellDurinsDay
+"Light of Durin's Day"
+END
+CONTROLBAR:DwarfSpellDurinsDayTooltip
+"Dispels weather effects, decreases special power recharge time, and reveals all stealthed units \n Lasts 35 seconds \n Left click to activate"
+END
+
+CONTROLBAR:DwarfSpellStoutHearts
+"Stout Hearts"
+END
+CONTROLBAR:DwarfSpellStoutHeartsTooltip
+"Renders all Dwarves immune to fear \n Passive power""
+END
+
+CONTROLBAR:DwarfSpellDurinTheDeathless
+"Durin the Deathless"
+END
+CONTROLBAR:DwarfSpellDurinTheDeathlessTooltip
+"Summon the avatar of Durin the Deathless to the battlefield \n Left click then right click on target"
+END
+
+
+// UPGRADE STRING SECTION
+// ---------------------
+
+UPGRADE:DwarvesBasicTraining
+"Banner Carriers"
+END
+CONTROLBAR:PurchaseTechnologyDwarfBanners
+"Banner &Carrier Upgrade"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyDwarfBanners
+"Ranks a new unit to level 2 veterancy \n Can only be equipped at Level 1 \n Purchase Banner Upgrade \n Select a battalion to equip upgrade"
+END
+TOOLTIP:LackLevel2ForgeBanner
+"Ranks a new unit to level 2 veterancy \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit"
+END
+
+CONTROLBAR:PurchaseUpgradeDwarfBanners
+"Banner &Carrier Upgrade"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarfBanners
+"Ranks a new unit to level 2 veterancy \n Can only be equipped at Level 1 \n Purchase Banner Upgrade \n Select a horde to equip upgrade"
+END
+TOOLTIP:LackTechnologyDwarfBanners
+"Ranks a new unit to level 2 veterancy \n Purchase Upgrade at Forge to enable this equipment"
+END
+
+UPGRADE:DwarvesMithrilArrows
+"Mithril Arrowheads"
+END
+TOOLTIP:DwarvesMithrilArrows
+"Mithril Arrowheads: Up to +25 Pierce Damage"
+END
+CONTROLBAR:PurchaseTechnologyDwarfMithrilArrows
+"M&ithril Arrow&heads Upgrade"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyDwarfMithrilArrows
+"Up to +25 Pierce Damage \n Purchase Mithril Arrowheads Upgrade \n Select a battalion to equip upgrade \n Requires Level 2 Forge"
+END
+TOOLTIP:LackLevel3Forge
+"Required: Rank 2 Forge \n +25 Pierce Damage \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit""
+END
+
+CONTROLBAR:PurchaseUpgradeDwarfMithrilArrows
+"M&ithril Arrowheads Upgrade"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarfMithrilArrows
+"Up to +25 Pierce Damage \n Left click to upgrade this unit"
+END
+TOOLTIP:LackTechnologyDwarfMithrilArrows
+"Up to +25 Pierce Damage \n Purchase Upgrade at Forge to enable this equipment"
+END
+
+UPGRADE:DwarvesMetallurgy
+"Dwarven Metallurgy"
+END
+TOOLTIP:DwarvesMetallurgy
+"Dwarven Metallurgy: Up to +100 Damage"
+END
+CONTROLBAR:PurchaseTechnologyDwarfMetallurgy
+"D&warven Metallurgy Upgrade"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyDwarfMetallurgy
+"Up to +100 Damage \n Purchase Dwarven Metallurgy Upgrade \n Select a battalion to equip upgrade \n Requires Level 2 Forge"
+END
+TOOLTIP:LackLevel3ForgeDwarfMetallurgy
+"Required: Rank 2 Forge \n Up to +100 Damage \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit""
+END
+
+CONTROLBAR:PurchaseUpgradeDwarfMetallurgy
+"D&warven Metallurgy Upgrade"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarfMetallurgy
+"Up to +100 Damage \n Left click to upgrade this unit"
+END
+TOOLTIP:LackTechnologyDwarfMetallurgy
+"Up to +100 Damage \n Purchase Upgrade at Forge to enable this equipment"
+END
+
+UPGRADE:DwarvesHeavyArmor
+"Dwarven Heavy Armor"
+END
+TOOLTIP:DwarvesHeavyArmor
+"Dwarven Heavy Armor: +70% Armor \n Increases resistance to knockback by 40%"
+END
+CONTROLBAR:PurchaseTechnologyDwarfHeavyArmor
+"Dwarven Heavy &Armor Upgrade"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyDwarfHeavyArmor
+"+70% Armor \n +40% Knockback Resistance \n Purchase Dwarven Heavy Armor Upgrade \n Select a battalion to equip upgrade \n Requires Level 2 Forge"
+END
+TOOLTIP:LackLevel2ForgeHeavyArmor
+"Required: Rank 2 Forge \n +70% Armor \n +40% Knockback Resistance \n Purchase the upgrade at this structure, \n Then select any unit and upgrade that unit""
+END
+
+CONTROLBAR:PurchaseUpgradeDwarfHeavyArmor
+"Dwarven Hea&vy Armor Upgrade"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarfHeavyArmor
+"Up to +70% Armor \n Increases resistance to knockback by 40% \n Left click to upgrade this unit"
+END
+TOOLTIP:LackTechnologyDwarfHeavyArmor
+"+70% Armor \n Increases resistance to knockback by 40% \n Purchase Upgrade at Forge to enable this equipment"
+END
+
+
+CONTROLBAR:ToolTipPurchaseUpgradeDwarfHeavyArmorWardens
+"Up to +30% Armor \n Left click to upgrade this unit"
+END
+TOOLTIP:LackTechnologyDwarfHeavyArmorWardens
+"+30% Armor \n Purchase Upgrade at Forge to enable this equipment"
+END
+
+CONTROLBAR:PurchaseDwarfProspectors
+"Ered Luin &Prospectors"
+END
+CONTROLBAR:ToolTipPurchaseDwarfProspectors
+"+50% resources from Mines \n player must have a Craftsman \n to use this upgrade"
+END
+TOOLTIP:LackLevel2CrafstsmanProspectors
+"Required: Rank 2 Craftsman \n +50% resources from Mines \n player must have a Craftsman \n to use this upgrade"
+END
+UPGRADE:DwarfProspectors
+"Ered Luin Prospectors"
+END
+
+CONTROLBAR:PurchaseDwarfEscalation1
+"&Call to Arms"
+END
+CONTROLBAR:ToolTipPurchaseDwarfEscalation1
+"Calls Durin's Folk to arms \n Stations defensive troops to guard key Mines"
+END
+TOOLTIP:LackLevel2CrafstsmanEscalation1
+"Required: Rank 2 Craftsman \n Calls Durin's Folk to arms \n Stations defensive troops to guard key Mines"
+END
+
+CONTROLBAR:PurchaseDwarfEscalation2
+"Escalation II: &Muster of the Dwarves"
+END
+CONTROLBAR:ToolTipPurchaseDwarfEscalation2
+"More Dwarves flock to the King's call \n Stations additional defensive troops around key buildings"
+END
+TOOLTIP:LackTechnologyEscalation1
+"Required: Call to Arms \n More Dwarves flock to the King \n Stations additional defensive troops around key buildings"
+END
+
+CONTROLBAR:PurchaseDwarfEscalation3
+"Escalation III: Thrice-Forged Weapons"
+END
+CONTROLBAR:ToolTipPurchaseDwarfEscalation3
+"Arm the levies with the best weapons and armour \n All Dwarven Garrison units gain the Metallurgy, Heavy Armor and Mithril Arrowheads upgrades. \n Upgrade only functions if the corresponding Forge upgrade has been purchased"
+END
+TOOLTIP:LackTechnologyEscalation2
+"Required: Muster of the Dwarves \n Upgrade only functions if the corresponding Forge upgrade has been purchased \n All Dwarven Garrison units gain the Metallurgy, Heavy Armor and Mithril Arrowheads upgrades."
+END
+
+CONTROLBAR:PurchaseDwarfGarrison
+"Fortress &Garrison"
+END
+CONTROLBAR:ToolTipPurchaseDwarfGarrison
+"Stations archers inside Camp and Castle gatehouses"
+END
+TOOLTIP:LackLevel3CrafstsmanGarrison
+"Required: Level 3 Craftsman \n Stations archers inside Camp and Castle Gatehouses"
+END
+
+OBJECT:DwarfBuildingFoundation
+"Dwarven Building Foundation"
+END
+
+OBJECT:DwarfEconomyFoundation
+"Dwarf Economy Foundation"
+END
+
+OBJECT:DwarfMine
+"Dwarf Mine"
+END
+OBJECT:DwarfMineDescription
+"Wealth Bonus - Reduced Cost of Infantry \n 2 Mines: 5% \n 3 Mines: 10% \n 4 Mines: 15% \n 5 Mines: 20% \n 6+ Mines: 25%"
+END
+CONTROLBAR:UnpackDwarfMine
+"Build Dwarf &Mine"
+END
+CONTROLBAR:ToolTipDwarfMineUnpack
+"Provides workable and precious metals as a resource"
+END
+GUI:WEALTH_DISCOUNT
+"Wealth Bonus -%d%%"
+END
+
+OBJECT:DwarfTruesilverMine
+"Dwarf Truesilver Mine"
+END
+OBJECT:DwarfTruesilverMineDescription
+"A vein of truesilver has been found below this building. Due to its rarity, the lode will be exhausted shortly."
+END
+
+OBJECT:DwarfForge
+"Dwarf Forge"
+END
+OBJECT:DwarfForgeDescription
+"Masterwork Bonus - Reduced Cost of Upgrades \n 2 Forges: 15% \n 3 Forges: 25% \n 4 Forges: 35% \n 5 Forges: 45% \n 6+ Forges: 60%"
+END
+CONTROLBAR:ConstructDwarfForge
+"Build Dwarf &Forge"
+END
+CONTROLBAR:ToolTipDwarfBuildForge
+"Upgrades weapons and armor \n Provides worked metals as a resource"
+END
+GUI:MASTERWORK_DISCOUNT
+"Masterwork Bonus -%d%%"
+END
+
+OBJECT:DwarfCraftsman
+"Dwarf Craftsman"
+END
+OBJECT:DwarfCraftsmanDescription
+"Goods Bonus - Reduced Cost of Buildings and Siege Weapons \n 2 Craftsmen: 10% \n 3 Craftsmen: 20% \n 4 Craftsmen: 30%"
+END
+CONTROLBAR:ConstructDwarfCraftsman
+"Build Dwarf &Craftsman"
+END
+CONTROLBAR:ToolTipDwarfBuildCraftsman
+"Upgrades buildings and economy \n Provides trade goods as a resource"
+END
+GUI:GOODS_DISCOUNT
+"Goods Bonus -%d%%"
+END
+
+CONTROLBAR:ConstructDwarfBarracks
+"Build Dwarf Ba&rracks"
+END
+CONTROLBAR:ToolTipDwarfBuildBarracks
+"Trains Warriors, Archers and Spearmen"
+END
+OBJECT:DwarfBarracks
+"Dwarf Barracks"
+END
+OBJECT:DwarfBarracksDescription
+"Rank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
+END
+
+OBJECT:DwarfElderHall
+"Dwarf Hall of Elders"
+END
+OBJECT:DwarfElderHallDescription
+"Rank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
+END
+CONTROLBAR:ConstructDwarfElderHall
+"Build Dwarf Hall of &Elders"
+END
+CONTROLBAR:ToolTipDwarfBuildElderHall
+"Trains Captains and increases global Experience"
+END
+
+CONTROLBAR:DwarfElderHallExperience
+"Wisdom"
+END
+CONTROLBAR:ToolTipDwarfElderHallExperience
+"Increases the global Experience generation rate by 3%"
+END
+
+OBJECT:DwarfGuardhouse
+"Dwarf Guardhouse"
+END
+OBJECT:DwarfGuardhouseDescription
+"Rank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
+END
+CONTROLBAR:ConstructDwarfGuardhouse
+"Build Dwarf &Guardhouse"
+END
+CONTROLBAR:ToolTipDwarfBuildGuardhouse
+"Trains elite Dwarven infantry"
+END
+CONTROLBAR:DwarfGuardhouseCommandSetUp
+"Switch to Erebor Royal Guard Selection"
+END
+CONTROLBAR:ToolTipDwarfGuardhouseCommandSetUp
+"Allows you to train Khazad Guard dedicated to protecting the heroes of the Dwarves"
+END
+CONTROLBAR:DwarfGuardhouseCommandSetBack
+"Go Back to Guardhouse"
+END
+CONTROLBAR:ToolTipDwarfGuardhouseCommandSetBack
+"Return to the Guardhouse unit training menu"
+END
+TOOLTIP:DwarfGuardhouseNeedL2
+"Requires Level 3 Guardhouse"
+END
+
+
+OBJECT:DwarfWorkshop
+"Dwarf Workshop"
+END
+OBJECT:DwarfWorkshopDescription
+"Rank 2: +25% Faster Build Speed \n Rank 3: +50% Faster Build Speed"
+END
+CONTROLBAR:ConstructDwarfWorkshop
+"Build Dwarf &Workshop"
+END
+CONTROLBAR:ToolTipDwarfBuildWorkshop
+"Builds Siege Rams and Mangonels"
+END
+
+OBJECT:DwarfRookery
+"Dwarf Rookery"
+END
+OBJECT:DwarfRookeryDescription
+"Dwarf Rookery"
+END
+CONTROLBAR:ConstructDwarfRookery
+"Build Dwarf R&ookery"
+END
+CONTROLBAR:ToolTipDwarfBuildRookery
+"Houses and upgrades the Ravens of Erebor"
+END
+TOOLTIP:LackDwarfRookery
+"Requires construction of a Dwarf Rookery"
+END
+
+OBJECT:DwarfStatue
+"Monument to Durin the Deathless"
+END
+OBJECT:DwarfStatueDescription
+"Leadership bonus to nearby troops \n Hero Bonus - Reduces Cost of Heroes \n 2 Statues: 10% \n 3 Statues: 20% \n 4 Statues: 30%"
+END
+CONTROLBAR:ConstructDwarfStatue
+"Build Monumen&t to Durin the Deathless"
+END
+CONTROLBAR:ToolTipDwarfBuildStatue
+"Leadership bonus to nearby troops \n Price of Heroes is reduced \n +100% Damage, +100% Combat Experience"
+END
+
+OBJECT:DwarfWell
+"Dwarf Fountain"
+END
+OBJECT:DwarfWellDescription
+"Units near fountain auto-heal if not under attack"
+END
+CONTROLBAR:ConstructDwarfWell
+"Build Dwarf Fo&untain"
+END
+CONTROLBAR:ToolTipDwarfBuildWell
+"Units near fountain auto-heal if not under attack"
+END
+
+OBJECT:DwarfCampKeep
+"Dwarven Camp Keep"
+END
+OBJECT:DwarfCampWall
+"Dwarf Low Wall"
+END
+OBJECT:DwarfCampWallUpgrade
+"Dwarf Camp Defensive Foundation"
+END
+
+OBJECT:DwarfCampWatchtower
+"Dwarf Watchtower"
+END
+OBJECT:DwarfCampWatchtowerDescription
+"Defensive Tower"
+END
+CONTROLBAR:DwarfCampWatchtowerUpgrade
+"Construct Watch&tower"
+END
+CONTROLBAR:ToolTipDwarfCampWatchtowerUpgrade
+"Fires at nearby enemies"
+END
+
+OBJECT:DwarfCampRavenRoost
+"Dwarf Raven Roost"
+END
+OBJECT:DwarfCampRavenRoostDescription
+"Scouting Building"
+END
+CONTROLBAR:DwarfCampRavenRoostUpgrade
+"Construct &Raven Roost"
+END
+CONTROLBAR:ToolTipDwarfCampRavenRoostUpgrade
+"Spawns a single Raven \n The Raven is replaced when killed after a short delay"
+END
+
+OBJECT:DwarfCampRavenBanner
+"Dwarf Raven Banner"
+END
+OBJECT:DwarfCampRavenBannerDescription
+"Dwarven Army Banner \n +25% Damage, +15% Range to nearby troops"
+END
+CONTROLBAR:DwarfCampBannerUpgrade
+"Construct Raven &Banner"
+END
+CONTROLBAR:ToolTipDwarfCampBannerUpgrade
+"Leadership bonus to nearby troops \n +25% Damage, +15% Range"
+END
+
+OBJECT:DwarfCampElevator
+"Dwarf Stairwell"
+END
+
+OBJECT:DwarfCampGatehouse
+"Dwarf Camp Gatehouse"
+END
+
+OBJECT:DwarfCampGate
+"Dwarf Gate"
+END
+
+OBJECT:DwarfCastleKeep
+"Dwarf Castle Citadel"
+END
+
+OBJECT:DwarfCastleWall
+"Dwarf Fortified Wall"
+END
+
+OBJECT:DwarfCastleHub
+"Dwarf Fortified Wall Hub"
+END
+
+OBJECT:DwarfCastleGatehouse
+"Dwarf Fortified Gatehouse"
+END
+
+OBJECT:DwarfCastleGate
+"Dwarf Reinforced Gate"
+END
+
+OBJECT:DwarfCastleStairs
+"Dwarf Stairway"
+END
+
+
+OBJECT:DwarfCastleHubUpgrade
+"Dwarf Hub Defensive Foundation"
+END
+
+OBJECT:DwarfCastleWallUpgrade
+"Dwarf Wall Defensive Foundation"
+END
+
+OBJECT:DwarfCastleMangonel
+"Sulûn-abanul Rampart"
+END
+OBJECT:DwarfCastleMangonelDescription
+"Houses a Sulûn-abanul"
+END
+CONTROLBAR:DwarfCastleMangonelUpgrade
+"Construct &Sulûn-abanul"
+END
+CONTROLBAR:ToolTipDwarfCastleMangonelUpgrade
+"Required: Muster of the Iron Hills \n Fires at nearby enemies"
+END
+CONTROLBAR:MangonelUpgrade
+"Construct &Sulûn-abanul"
+END
+CONTROLBAR:ToolTipMangonelUpgrade
+"Required: Muster of the Iron Hills \n Fires at nearby enemies"
+END
+TOOLTIP:LackIronHills
+"Required: Muster of the Iron Hills \n Fires at nearby enemies"
+END
+
+OBJECT:DwarfCastleWell
+"Dwarf Wall Well"
+END
+OBJECT:DwarfCastleWellDescription
+"Heals Units"
+END
+CONTROLBAR:DwarfCastleWellUpgrade
+"Construct &Wall Well"
+END
+CONTROLBAR:ToolTipDwarfCastleWellUpgrade
+"Heals nearby units"
+END
+
+OBJECT:DwarfCastleBannerRaven
+"Dwarf Raven Banner"
+END
+OBJECT:DwarfCastleBannerRavenDescription
+"Dwarven Army Banner \n +75% Damage, +25% Range to nearby troops"
+END
+CONTROLBAR:DwarfCastleBannerRavenUpgrade
+"Construct &Raven Banner"
+END
+CONTROLBAR:ToolTipDwarfCastleBannerRavenUpgrade
+"Leadership bonus to nearby troops \n +75% Damage, +25% Range"
+END
+
+OBJECT:DwarfCastleRoyalBanner
+"Dwarf Royal Banner"
+END
+OBJECT:DwarfCastleRoyalBannerDescription
+"Dwarven Royal Banner \n +100% Experience, +50% Armor to nearby troops"
+END
+CONTROLBAR:DwarfCastleBannerRoyalUpgrade
+"Construct R&oyal Banner"
+END
+CONTROLBAR:ToolTipDwarfCastleBannerRoyalUpgrade
+"Leadership bonus to nearby troops \n +100% Experience, +50% Armor"
+END
+
+OBJECT:DwarfCastleTower
+"Dwarf Castle Tower"
+END
+OBJECT:DwarfCastleTowerDescription
+"Dwarf Castle Tower"
+END
+CONTROLBAR:DwarfCastleTowerUpgrade
+"Construct Castle &Tower"
+END
+CONTROLBAR:ToolTipDwarfCastleTowerUpgrade
+"Fires at nearby enemies"
+END
+
+OBJECT:DwarfCastleHorn
+"Horn of Erebor"
+END
+OBJECT:DwarfCastleHornDescription
+"Horn of Erebor"
+END
+CONTROLBAR:DwarfCastleHornUpgrade
+"Construct H&orn of Erebor"
+END
+CONTROLBAR:ToolTipDwarfCastleHornUpgrade
+"The echoing blast of the Horn of Erebor stuns nearby troops"
+END
+
+CONTROLBAR:DwarfCastleHornOfErebor
+"Sound the H&orn"
+END
+CONTROLBAR:TooltipDwarfCastleHornOfErebor
+"Stuns nearby enemies for a short duration"
+END
+
+OBJECT:DwarfPosternGateFoundation
+"Secret Gate Foundation"
+END
+OBJECT:DwarfPosternGate
+"Secret Gate"
+END
+OBJECT:DwarfPosternGateDescription
+"Secret Gate"
+END
+CONTROLBAR:DwarfCastlePosternGateUpgrade
+"Construct Secret &Gate"
+END
+CONTROLBAR:ToolTipDwarfCastlePosternGateUpgrade
+"Allows units to pass through this wall section unhindered. "
+END
+
+OBJECT:DwarfOutpostKeep
+"Dwarf Outpost"
+END
+
+OBJECT:DwarfOutpostFence
+"Dwarf Low Fence"
+END
+
+OBJECT:DwarfOutpostDefenceFoundation
+"Outpost Defensive Foundation"
+END
+OBJECT:DwarfWatchtower
+"Dwarf Watchtower"
+END
+CONTROLBAR:ConstructDwarfOutpostWatchtower
+"Construct Watch&tower"
+END
+CONTROLBAR:ToolTipDwarfBuildOutpostWatchtower
+"Fires at nearby enemies"
+END
+
 // ============================================================ //
 // ==================== #Dwarven Heroes ======================= //
 // ============================================================ //
@@ -2795,6 +3443,747 @@ CONTROLBAR:DwalinGloriousCharge
 END
 CONTROLBAR:ToolTipDwalinGloriousCharge
 "Requires Level 3 \n Dwalin lets out a cry, causing enemy units to flee in terror \n Left click to activate"
+END
+
+// ---------------------
+// Durin Strings (object, powers)
+
+OBJECT:DwarfDurin
+"Durin The Deathless"
+END
+
+CONTROLBAR:DwarfDurinPowerLeadership
+"The Deathless"
+END
+CONTROLBAR:ToolTipDwarfDurinPowerLeadership
+"Leadership bonus to all Dwarves on the field \n +50% Attack +400% Experience -25% Recharge Time \n Passive ability"
+END
+CONTROLBAR:DwarfDurinPowerBarukKhazad
+"Baruk &Khazad"
+END
+CONTROLBAR:ToolTipDwarfDurinPowerBarukKhazad
+"+20% Speed and +100% Attack bonus to nearby units for 20 seconds \n left click to activate"
+END
+CONTROLBAR:DwarfDurinPowerSunderArmor
+"Sunde&r Armor"
+END
+CONTROLBAR:ToolTipDwarfDurinPowerSunderArmor
+"Destroy the armor of enemies in the target area for 30 seconds \n left click, then right click on target"
+END
+CONTROLBAR:DwarfDurinPowerRoyalForge
+"Royal &Forge"
+END
+CONTROLBAR:ToolTipDwarfDurinPowerRoyalForge
+"Employ the Royal Forges to grant the target battalion Dwarven Metallurgy and Dwarven Heavy Armor \n left click, then right click on target"
+END
+
+// ---------------------
+// Dain Strings (object, powers)
+
+OBJECT:DwarfDain
+"Dain II Ironfoot"
+END
+CONTROLBAR:DwarfDainRecruit
+"Hero Unit. Recruit the King Under The Mountain."
+END
+CONTROLBAR:DwarfDainRevive
+"Revive the fallen Hero, Dain"
+END
+CONTROLBAR:DwarfDainHotkey
+"Dain II &Ironfoot"
+END
+
+CONTROLBAR:DwarfDainPowerKingUnderMountain
+"King Under The Mountain"
+END
+CONTROLBAR:ToolTipDwarfDainPowerKingUnderMountain
+"Leadership bonus to nearby troops \n +40% Defence +150% Experience \n Passive ability"
+END
+CONTROLBAR:DwarfDainPowerRedAxe
+"&Red Axe"
+END
+CONTROLBAR:ToolTipDwarfDainPowerRedAxe
+"+20% Speed and +20% Attack bonus to nearby units for 20 seconds \n left click to activate"
+END
+CONTROLBAR:DwarfDainPowerLongMarch
+"&Long March"
+END
+CONTROLBAR:ToolTipDwarfDainPowerLongMarch
+"Required: Rank 5 \n Gives targeted infantry a 15% Speed bonus \n left click then right click on target"
+END
+CONTROLBAR:DwarfDainPowerIronHills
+"Lord of the Iron Hills"
+END
+CONTROLBAR:ToolTipDwarfDainPowerIronHills
+"Required: Rank 7 \n Economy Bonus to nearby Mines and Forges \n +50% Collection \n Passive ability"
+END
+CONTROLBAR:DwarfDainPowerLastDefence
+"Last Defence"
+END
+CONTROLBAR:ToolTipDwarfDainPowerLastDefence
+"Required: Rank 10 \n When Dain is low on health and is hit, he has a 25% chance to go into a terrifying rage, temporarily gaining damage and armour, as well as frightening nearby enemies \n Also provides permanent +25% Defence \n Passive ability"
+END
+
+// Thorin Strings (object, powers)
+
+OBJECT:DwarfThorin
+"Thorin III Stonehelm"
+END
+CONTROLBAR:DwarfThorinRecruit
+"Hero Unit. Recruit the Heir to the throne of Erebor."
+END
+CONTROLBAR:DwarfThorinRevive
+"Revive the fallen Hero, Thorin"
+END
+CONTROLBAR:DwarfThorinHotkey
+"&Thorin III Stonehelm"
+END
+
+CONTROLBAR:DwarfThorinPowerHeirToMountain
+"Heir to the Mountain"
+END
+CONTROLBAR:TooltipDwarfThorinPowerHeirToMountain
+"Gains +40% Combat Experience when near Dain \n Passive ability"
+END
+CONTROLBAR:DwarfThorinPowerPrinceOfErebor
+"Prince of Erebor"
+END
+CONTROLBAR:ToolTipDwarfThorinPowerPrinceOfErebor
+"Required: Rank 3 \n Leadership bonus to nearby troops \n +100% Attack \n Passive ability"
+END
+CONTROLBAR:DwarfThorinPowerMightyBlow
+"Mighty &Blow"
+END
+CONTROLBAR:ToolTipDwarfThorinPowerMightyBlow
+"Required: Rank 4 \n Knocks down and pins target hero \n Normal units are knocked down and damaged \n left click then right click on target"
+END
+CONTROLBAR:DwarfThorinPowerLastDefender
+"A&egis of Erebor"
+END
+CONTROLBAR:ToolTipDwarfThorinPowerLastDefender
+"Required: Rank 8 \n Creates a ring of fire which gives +30% Armor and Knockback/Fear immunity to units within it \n Lasts 60 seconds \n left click to activate"
+END
+CONTROLBAR:DwarfThorinPowerStonehelm
+"S&tonehelm"
+END
+CONTROLBAR:ToolTipDwarfThorinPowerStonehelm
+"Required: Rank 10 \n +500% Armor for 20 seconds \n Causes enemies to flee in fear \n left click to activate"
+END
+
+// Gloin Strings (object, powers)
+
+OBJECT:DwarfGloin
+"Gloin"
+END
+CONTROLBAR:DwarfGloinRecruit
+"Hero Unit. Recruit the venerable father of Gimli."
+END
+CONTROLBAR:DwarfGloinRevive
+"Revive the fallen Hero, Gloin"
+END
+CONTROLBAR:DwarfGloinHotkey
+"Gl&oin"
+END
+
+CONTROLBAR:DwarfGloinPowerWellTraveled
+"Well Travelled"
+END
+CONTROLBAR:ToolTipDwarfGloinPowerWellTraveled
+"Leadership bonus to nearby troops \n +10% Speed \n Passive ability"
+END
+CONTROLBAR:DwarfGloinPowerWoodscraft
+"&Woodscraft"
+END
+CONTROLBAR:ToolTipDwarfGloinPowerWoodscraft
+"Required: Rank 3 \n Heals nearby units and heroes \n left click to activate"
+END
+CONTROLBAR:DwarfGloinPowerSecretWays
+"Sec&ret Ways"
+END
+CONTROLBAR:ToolTipDwarfGloinPowerSecretWays
+"Required: Rank 9 \n Creates a trap at the target location \n All units entering the area are immobilized \n left click then right click on target \n Lasts until Gloin is moved"
+END
+CONTROLBAR:DwarfGloinPowerEmissary
+"Emissar&y"
+END
+CONTROLBAR:ToolTipDwarfGloinPowerEmissary
+"Required: Rank 5 \n Hero is immune to damage, but takes penalties to damage and speed \n Lasts 25 seconds \n left click to activate"
+END
+
+// New Gimli Power Strings
+
+CONTROLBAR:DwarfGimliPowerArmor
+"Armor of Erebor"
+END
+CONTROLBAR:ToolTipDwarfGimliPowerArmor
+"Required: Rank 8 \n Armour Bonus \n Passive ability"
+END
+CONTROLBAR:DwarfGimliPowerShrewdProspector
+"Shrewd &Prospector"
+END
+CONTROLBAR:ToolTipDwarfGimliPowerShrewdProspector
+"Required: Rank 5 \n Double the income of a target Mine for 50 seconds \n left click then right click on target"
+END
+
+// Roac Strings (object, powers)
+
+OBJECT:DwarfRoac
+"Roac"
+END
+CONTROLBAR:DwarfRoacRecruit
+"Hero Unit. Recruit the leader of the Ravens of Erebor."
+END
+CONTROLBAR:DwarfRoacRevive
+"Revive the fallen Hero, Roac"
+END
+CONTROLBAR:DwarfRoacHotkey
+"&Roac"
+END
+
+CONTROLBAR:DwarfRoacPowerKeenEye
+"Keen Eye"
+End
+CONTROLBAR:ToolTipDwarfRoacPowerKeenEye
+"Detects invisible units in a large radius\n  Passive ability"
+End
+
+CONTROLBAR:DwarfRoacPowerLineage
+"Lineage of Erebor"
+End
+CONTROLBAR:ToolTipDwarfRoacPowerLineage
+"Leadership to nearby Ravens \n +30% armor \n  Passive ability"
+End
+
+CONTROLBAR:DwarfRoacPowerEldest
+"Eldest"
+End
+CONTROLBAR:ToolTipDwarfRoacPowerEldest
+"Required: Rank 3 \n Reduces nearby cavalry speed by 5% \n Passive ability"
+End
+
+CONTROLBAR:DwarfRoacPowerMessenger
+"&Dain's Messenger"
+End
+CONTROLBAR:ToolTipDwarfDwarfRoacPowerMessenger
+"Required: Rank 5 \n Increases Roac's speed by 30% for 20 seconds \n Left click to activate"
+End
+
+CONTROLBAR:PromoteRoacToLevel2
+"H&onours of the Ravens"
+End
+CONTROLBAR:ToolTipPromoteRoacToLevel2
+"Ranks Roac to Level 2 \n Left click to purchase honours"
+End
+CONTROLBAR:PromoteRoacToLevel3
+"H&onours of Dale"
+End
+CONTROLBAR:ToolTipPromoteRoacToLevel3
+"Ranks Roac to Level 3 \n Left click to purchase honours"
+End
+CONTROLBAR:PromoteRoacToLevel4
+"H&onours of the Eagles"
+End
+CONTROLBAR:ToolTipPromoteRoacToLevel4
+"Ranks Roac to Level 4 \n Left click to purchase honours"
+End
+CONTROLBAR:PromoteRoacToLevel5
+"H&onours of Erebor"
+End
+CONTROLBAR:ToolTipPromoteRoacToLevel5
+"Ranks Roac to Level 5 \n Left click to purchase honours"
+End
+
+// UNIT STRING SECTION
+// ---------------------
+
+OBJECT:DwarfBanner
+"Dwarf Banner"
+END
+
+OBJECT:DwarfCaptain
+"Zirak-Burkûn"
+END
+CONTROLBAR:ConstructDwarfCaptain
+"&Zirak-Burkûn"
+END
+CONTROLBAR:ToolTipBuildDwarfCaptain
+"Dwarf Captain \n Strong vs Monsters \n Leadership bonus to nearby troops increases as the Captain gains levels \n Limited to 5 on the field"
+END
+CONTROLBAR:DwarfCaptainBravery
+"Bravery"
+END
+CONTROLBAR:ToolTipDwarfCaptainBravery
+"Leadership bonus to nearby infantry \n +10% Attack, +10% Experience and increased range per Level \n Passive Ability"
+END
+CONTROLBAR:DwarfCaptainHeal
+"Stubborn Toughness"
+END
+CONTROLBAR:ToolTipDwarfCaptainHeal
+"Regenerate when not in combat \n Requires Level 2"
+END
+
+OBJECT:DwarfCaptain1
+"Zirak-Sindri"
+END
+OBJECT:DwarfCaptain1Desc
+"Zirak-Burkûn"
+END
+OBJECT:DwarfCaptain2
+"Zirak-Floi"
+END
+OBJECT:DwarfCaptain2Desc
+"Zirak-Burkûn"
+END
+OBJECT:DwarfCaptain3
+"Zirak-Tharn"
+END
+OBJECT:DwarfCaptain3Desc
+"Zirak-Burkûn"
+END
+OBJECT:DwarfCaptain4
+"Zirak-Narvi"
+END
+OBJECT:DwarfCaptain4Desc
+"Zirak-Burkûn"
+END
+OBJECT:DwarfCaptain5
+"Zirak-Frerin"
+END
+OBJECT:DwarfCaptain5Desc
+"Zirak-Burkûn"
+END
+OBJECT:DwarfCaptain6
+"Zirak-Nár"
+END
+OBJECT:DwarfCaptain7
+"Zirak-Frerin"
+END
+OBJECT:DwarfCaptain9
+"Zirak-Gamil"
+END
+OBJECT:DwarfCaptain10
+"Zirak-Khim"
+END
+OBJECT:DwarfCaptain11
+"Zirak-Grór"
+END
+OBJECT:DwarfCaptain12
+"Zirak-Farin"
+END
+OBJECT:DwarfCaptain13
+"Zirak-Borin"
+END
+OBJECT:DwarfCaptain8
+"Zirak-Narvi"
+END
+
+OBJECT:DwarfWarrior
+"Azagh-Baruk"
+END
+OBJECT:HordeDwarfWarrior
+"Azagh-Baruk Battalion"
+END
+CONTROLBAR:ConstructDwarfWarriorHorde
+"&Azagh-Baruk"
+END
+CONTROLBAR:ToolTipBuildDwarfWarriorHorde
+"Dwarf Warriors \n Strong vs. Bowmen \n Weak vs. Cavalry, Monsters"
+END
+
+OBJECT:DwarfArcher
+"Rakhâs-abzâg"
+END
+OBJECT:HordeDwarfArcher
+"Rakhâs-abzâg Battalion"
+END
+CONTROLBAR:ConstructDwarfArcherHorde
+"&Rakhâs-abzâg"
+END
+CONTROLBAR:ToolTipBuildDwarfArcherHorde
+"Dwarf Archers \n Strong vs. Monsters, Pikemen and Cavalry \n Weak vs. Infantry"
+END
+
+OBJECT:DwarfSpearman
+"Sigin-Udrîg"
+END
+OBJECT:HordeDwarfSpearman
+"Sigin-Udrîg Battalion"
+END
+CONTROLBAR:ConstructDwarfSpearmanHorde
+"&Sigin-Udrîg"
+END
+CONTROLBAR:ToolTipBuildDwarfSpearmanHorde
+"Required: Rank 2 Barracks \n Dwarf Spearmen \n Strong vs. Cavalry, Monsters \n Weak vs. Infantry, Bowmen"
+END
+
+OBJECT:DwarfIronHillsWarrior
+"Baruk-sharâhul"
+END
+OBJECT:HordeDwarfIronHills
+"Baruk-sharâhul Battalion"
+END
+CONTROLBAR:ConstructDwarfIronHillsHorde
+"&Baruk-sharâhul"
+END
+CONTROLBAR:ToolTipBuildDwarfIronHillsHorde
+"Required: Rank 3 Barracks and Muster of the Iron Hills \n Warriors from the Iron Hills \n Can wield axes and shield or heavy mattocks \n Strong vs. Bowmen or Buildings \n Weak vs. Cavalry, Monsters or Bowmen"
+END
+CONTROLBAR:ToggleDwarfIronHillsWarriorWeapons
+"Alternate Weapon"
+END
+CONTROLBAR:ToolTipToggleDwarfIronHillsWarriorWeapons
+"Left click to switch \n Mattocks do bonus damage to cavalry and buildings \n Swords and shields grant higher attack rates and damage resistance"
+END
+
+OBJECT:DwarfKhazadGuard
+"Khazâd-uzbadul"
+END
+OBJECT:HordeKhazadGuard
+"Khazâd-uzbadul Battalion"
+END
+CONTROLBAR:ConstructKhazadGuardHorde
+"&Khazâd-uzbadul"
+END
+CONTROLBAR:ToolTipBuildKhazadGuardHorde
+"Required: Rank 2 Guardhouse \n Elite Dwarves \n Limit 2 \n Strong vs. Infantry, Cavalry, Heroes \n Weak vs. Bowmen, Monsters"
+END
+CONTROLBAR:KhazadGuardBodyguard
+"Bodyguard"
+END
+CONTROLBAR:ToolTipKhazadGuardBodyguard
+"All Dwarf Heroes near the Khâzad Guard gain +10% armour"
+END
+CONTROLBAR:KhazadGuardThrowAxe
+"Throw Axes"
+END
+CONTROLBAR:ToolTipKhazadGuardThrowAxe
+"The Khazad Guard will throw axes for the next 10 seconds \n Allows a maximum of 2 shots \n Effective against Monsters"
+END
+
+OBJECT:DwarfDainGuard
+"Dain's Guard"
+END
+OBJECT:HordeDainGuard
+"Dain's Guard"
+END
+CONTROLBAR:ConstructDainGuardHorde
+"&King Dain's Guard"
+END
+CONTROLBAR:ToolTipBuildDainGuardHorde
+"Bodyguard to the King of Erebor \n Dain gains +25% Armor when the Guard are nearby \n Limit One \n Strong vs. Infantry, Cavalry, Heroes \n Weak vs. Bowmen, Monsters"
+END
+CONTROLBAR:DainsGuardKingsguard
+"Kingsguard"
+END
+CONTROLBAR:ToolTipDainsGuardKingsguard
+"The majesty of Dain's Royal Guard increases the experience gained by nearby friendly units by 10%"
+END
+
+OBJECT:DwarfThorinGuard
+"Thorin's Guard"
+END
+OBJECT:HordeThorinGuard
+"Thorin's Guard"
+END
+CONTROLBAR:ConstructThorinGuardHorde
+"&Thorin's Guard"
+END
+CONTROLBAR:ToolTipBuildThorinGuardHorde
+"Bodyguard to the Prince of Erebor \n Thorin gains +25% Armor when the Guard are nearby \n Limit 1 \n Strong vs. Infantry, Cavalry, Heroes \n Weak vs. Bowmen, Monsters"
+END
+CONTROLBAR:ThorinsGuardGloryOfErebor
+"Glory of Erebor"
+END
+CONTROLBAR:ToolTipThorinsGuardGloryOfErebor
+"Order a charge by Thorin's Guard \n +50% damage and +10% speed for 10 seconds"
+END
+
+OBJECT:DwarfGloinGuard
+"Gloin's Guard"
+END
+OBJECT:HordeGloinGuard
+"Gloin's Guard"
+END
+CONTROLBAR:ConstructGloinGuardHorde
+"&Gloin's Guard"
+END
+CONTROLBAR:ToolTipBuildGloinGuardHorde
+"Bodyguard to Gloin son of Groin \n Gloin gains +25% Armor when the Guard are nearby \n Limit 1 \n Strong vs. Infantry, Cavalry, Heroes \n Weak vs. Bowmen, Monsters"
+END
+CONTROLBAR:GloinsGuardImmovable
+"Immovable"
+END
+CONTROLBAR:ToolTipGloinsGuardImmovable
+"Order Gloin's Guard to stand firm and meet the enemy's charge with stout hearts and bared steel. \n +50% armor, immunity to knockback and -50% speed for 15 seconds."
+END
+
+OBJECT:DwarfIronGuard
+"Azaghâr-sharâhul"
+END
+OBJECT:HordeIronGuard
+"Azaghâr-sharâhul Battalion"
+END
+CONTROLBAR:ConstructDwarfIronGuardHorde
+"&Azaghâr-sharâhul"
+END
+CONTROLBAR:ToolTipBuildDwarfIronGuardHorde
+"Iron Guard \n Dwarven Infantry \n Gain a speed bonus when ordered to attack \n Strong vs. Bowmen, Monsters \n Weak vs. Cavalry, Infantry"
+END
+TOOLTIP:DwarfIronGuardNeedIH
+"Purchase The Iron Hills spellbook power to allow training"
+END
+
+OBJECT:DwarfBatteringRam
+"Urkhas-Felak"
+END
+CONTROLBAR:ConstructDwarfBatteringRam
+"U&rkhas-Felak"
+END
+CONTROLBAR:ToolTipBuildDwarfBatteringRam
+"Siege Ram\n Breaks down castle gates and enemy structures"
+END
+OBJECT:DwarfSiegeCrew
+"Dwarf Siege Crewer"
+END
+
+OBJECT:DwarfMangonel
+"Sulûn-abanul"
+END
+CONTROLBAR:ConstructDwarfMangonel
+"&Sulûn-abanul"
+END
+CONTROLBAR:ToolTipBuildDwarfMangonel
+"Required: Muster of The Iron Hills \n Limit 6 \n Strong vs. Structures, Siege Equipment \n Weak vs. Monsters, Infantry, Cavalry, Heroes \n Can toggle to use lighter ammunition for greater effectiveness against infantry."
+END
+CONTROLBAR:DwarfToggleMangonelWeapons
+"S&witch Ammunition"
+END
+CONTROLBAR:ToolTipDwarfToggleMangonelWeapons
+"Toggle between boulders and piles of smaller rocks"
+END
+TOOLTIP:DwarfMangonelNeedIH
+"Purchase The Iron Hills spellbook power to allow production"
+END
+
+OBJECT:DwarfVaultWarden	
+"Azaghâr-gundu"
+END
+CONTROLBAR:ConstructDwarfVaultWarden
+"&Azaghâr-gundu"
+END
+CONTROLBAR:ToolTipBuildDwarfVaultWarden
+"Trio of warriors specializing in tunnel fighting \n Must deploy to attack \n Strong vs. Monsters, Cavalry, Bowmen \n Weak vs. Swordsmen"
+END
+CONTROLBAR:ToggleDwarfVaultWardenMode
+"&Pack/Unpack"
+END
+CONTROLBAR:ToolTipToggleDwarfVaultWardenMode
+"Left click to deploy weapon team \n Deployed Azaghâr-gundu are well-armored and difficult to dislodge \n Cannot move while deployed"
+END
+CONTROLBAR:DwarfVaultWardenInterference
+"Interference"
+END
+CONTROLBAR:ToolTipDwarfVaultWardenInterference
+"-20% speed to nearby enemy units \n +5% Armor to nearby allies \n Only active while deployed"
+END
+
+// Garrison unit strings
+// -----------------
+
+OBJECT:DwarfGarrisonedWarrior
+"Azagh-Baruk"
+END
+OBJECT:DwarfGarrisonedArcher
+"Rakhâs-abzâg"
+END
+
+// Raven Strings (orders and unit)
+// ------------------------
+OBJECT:DwarfRaven
+"Raven of Erebor"
+END
+CONTROLBAR:ConstructDwarfRaven
+"Train &Raven"
+END
+CONTROLBAR:ToolTipBuildDwarfRaven
+"Scouting unit with large line of sight \n Use Orders at the Rookery to increase your Ravens' survivability, speed and line of sight."
+END
+
+CONTROLBAR:PurchaseTechnologyDwarfRavenFlyFast
+"&Fly Swiftly"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyDwarfRavenFlyFast
+"Allows you to command your Ravens to fly swiftly \n Purchase upgrade, then select a Raven to activate orders"
+END
+CONTROLBAR:PurchaseUpgradeDwarfRavenSpeed
+"&Fly Swiftly"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarfRavenSpeed
+"Increased speed  \n Left click to enable this Order"
+END
+TOOLTIP:LackTechnologyDwarfRavenSpeed
+"Purchase Fly Swiftly at the Rookery to allow this Order"
+END
+UPGRADE:DwarvesRavenSpeed
+"Flying Swiftly"
+END
+TOOLTIP:DwarvesRavenSpeed
+"Flying Swiftly: Increased speed"	
+END
+
+
+CONTROLBAR:PurchaseTechnologyDwarfRavenFlyQuiet
+"Fly With &Caution"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyDwarfRavenFlyQuiet
+"Allows you to command your Ravens to fly with stealth \n Ravens will automatically hide when stationary at the cost of speed \n Purchase upgrade, then select a Raven to activate orderse"
+END
+CONTROLBAR:PurchaseUpgradeDwarfRavenStealth
+"Fly With &Caution"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarfRavenStealth
+"Raven moves under stealth at the cost of speed \n Nearby enemy units will reveal the Raven \n Left click to enable this Order"
+END
+TOOLTIP:LackTechnologyDwarfRavenStealth
+"Purchase Fly With Caution at the Rookery to allow this Order"
+END
+UPGRADE:DwarvesRavenStealth
+"Flying With Caution"
+END
+TOOLTIP:DwarvesRavenStealth
+"Flying With Caution: Decreased speed, hides when stationary"	
+END
+
+CONTROLBAR:PurchaseTechnologyDwarfRavenLookFar
+"&Observe"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyDwarfRavenLookFar
+"Allows you to command your Ravens to observe the land with detail and attentiveness, at the cost of speed \n Purchase upgrade, then select a Raven to activate orders"
+END
+CONTROLBAR:PurchaseUpgradeDwarfRavenSight
+"&Observe"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeDwarfRavenSight
+"Increased vision range at the cost of speed \n Left click to enable this Order"
+END
+TOOLTIP:LackTechnologyDwarfRavenSight
+"Purchase Observe at the Rookery to allow this Order"
+END
+UPGRADE:DwarvesRavenSight
+"Observing"
+END
+TOOLTIP:DwarvesRavenSight
+"Observing: Decreased speed, increased vision range"	
+END
+
+CONTROLBAR:ActiveRavenOrder
+"Your Ravens will fly swiftly at the cost of sight range \n Select another command to change orders"
+END
+
+// Dale units
+
+OBJECT:DwarfDaleWarden
+"Captain Artanu"
+END
+CONTROLBAR:DaleWardenLineage
+"Lineage of Dale"
+END
+CONTROLBAR:ToolTipDaleWardenLineage
+"Leadership bonus to nearby Thrush Marksmen \n +20% Attack, +20% Armor \n Passive Ability"
+END
+
+OBJECT:DwarfDaleMarksman
+"Thrush Marksman"
+END
+OBJECT:HordeDaleMarksman
+"Thrush Marksmen"
+END
+
+
+// FORMATION AND COMBO HORDES STRING SECTION
+// ---------------------
+
+// Formations
+
+CONTROLBAR:ToggleCrescentFormation
+"Crescent For&mation"
+END
+CONTROLBAR:ToolTipToggleDwarfWarriorToCrescent
+"+25% Armor, -20% Speed"	
+END
+CONTROLBAR:ToolTipToggleDwarfWarriorToLine
+"No bonus"
+END
+
+CONTROLBAR:ToggleSpearWallFormation
+"Spear Wall For&mation"
+END
+CONTROLBAR:ToolTipToggleDwarfSpearmanToSpearWall
+"+25% Armor, -40% Speed \n Bonus damage to cavalry"	
+END
+CONTROLBAR:ToolTipToggleDwarfSpearmanToLine
+"No bonus"
+END
+
+CONTROLBAR:ToggleVolleyFormation
+"Volley For&mation"
+END
+CONTROLBAR:ToolTipToggleDwarfArcherToVolley	
+"+20% Damage, +10% Range, -30% Speed, -15% Armor"
+END
+CONTROLBAR:ToolTipToggleDwarfArcherToLine
+"No bonus"
+END
+
+CONTROLBAR:ToggleHeroicFormation
+"Heroic For&mation"
+END
+CONTROLBAR:ToolTipToggleGuardToHeroic
+"+50% Damage, -50% Armor, +10% Speed"	
+END
+CONTROLBAR:ToolTipToggleIronGuardToLine
+"No bonus"
+END
+	
+CONTROLBAR:ToggleSchiltronFormation
+"Schiltron For&mation"
+END
+CONTROLBAR:ToolTipToggleKhazadGuardToSchiltron	
+"+20% Damage, +30% Armor, -40% Speed"
+END
+CONTROLBAR:ToolTipToggleKhazadGuardToLine
+"No bonus"
+END
+
+// Combo Hordes
+
+OBJECT:HordeDwarfWarrior2X
+"Reinforced Burk-Khazâd Battalion"
+END
+OBJECT:HordeDwarfArcher2X
+"Reinforced Rakhâs-udrig Battalion"
+END
+OBJECT:HordeDwarfSpearman2X
+"Reinforced Sigin-zigil Battalion"
+END
+
+OBJECT:HordeDwarfWarriorSpearman
+"Burk-Khazâd - Sigin-zigil Battalion"
+END
+OBJECT:HordeDwarfWarriorArcher
+"Burk-Khazâd - Rakhâs-udrig Battalion"
+END
+OBJECT:HordeDwarfArcherSpearman
+"Sigin-zigil - Rakhâs-udrig Battalion"
+END
+OBJECT:HordeDwarfIronHillsCombo
+"Reinforced Baraz-dûmu Battalion"
+END
+OBJECT:HordeDwarfIronHillsWarrior
+"Burk-Khazâd - Baraz-dûmu Battalion"
+END
+OBJECT:HordeDwarfIronHillsArcher
+"Rakhâs-udrig - Baraz-dûmu Battalion"
 END
 
 // ############################################################ //

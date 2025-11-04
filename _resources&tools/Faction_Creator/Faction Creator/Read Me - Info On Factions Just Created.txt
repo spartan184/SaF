@@ -1,0 +1,18 @@
+;This Was created by Phils ({IP}Gil-Galad) Faction Creator
+;Factions Created:11/2/2025
+
+;Erebor Info:
+Camp Name = 	Camp_Erebor
+CampNW Name = 	Camp_EreborNW
+CampNE Name = 	Camp_EreborNE
+CampSW Name = 	Camp_EreborSW
+CampSE Name = 	Camp_EreborSE
+CastleNW Name = 	Castle_EreborNW
+CastleNE Name = 	Castle_EreborNE
+CastleSW Name = 	Castle_EreborSW
+CastleSE Name = 	Castle_EreborSE
+Expansion Name = 	Expansion_Erebor
+Farm Name = 	Farm_Erebor
+Single Name = 	Single_Erebor
+
+

@@ -1,0 +1,21 @@
+INI:FactionErebor
+ "Erebor"
+END
+
+SIDE:Erebor
+ "Erebor"
+END
+
+LWA:Erebor
+ "Erebor"
+END
+
+LWA:EreborArmy
+ "Erebor Army"
+END
+
+UPGRADE:EreborFaction
+ "Erebor"
+END
+
+
