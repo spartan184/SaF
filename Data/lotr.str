@@ -3526,47 +3526,47 @@ END
 
 // Thorin Strings (object, powers)
 
-OBJECT:DwarfThorin
+OBJECT:DwarfThorinStone
 "Thorin III Stonehelm"
 END
-CONTROLBAR:DwarfThorinRecruit
+CONTROLBAR:DwarfThorinStoneRecruit
 "Hero Unit. Recruit the Heir to the throne of Erebor."
 END
-CONTROLBAR:DwarfThorinRevive
+CONTROLBAR:DwarfThorinStoneRevive
 "Revive the fallen Hero, Thorin"
 END
-CONTROLBAR:DwarfThorinHotkey
+CONTROLBAR:DwarfThorinStoneHotkey
 "&Thorin III Stonehelm"
 END
 
-CONTROLBAR:DwarfThorinPowerHeirToMountain
+CONTROLBAR:DwarfThorinStonePowerHeirToMountain
 "Heir to the Mountain"
 END
-CONTROLBAR:TooltipDwarfThorinPowerHeirToMountain
+CONTROLBAR:TooltipDwarfThorinStonePowerHeirToMountain
 "Gains +40% Combat Experience when near Dain \n Passive ability"
 END
-CONTROLBAR:DwarfThorinPowerPrinceOfErebor
+CONTROLBAR:DwarfThorinStonePowerPrinceOfErebor
 "Prince of Erebor"
 END
-CONTROLBAR:ToolTipDwarfThorinPowerPrinceOfErebor
+CONTROLBAR:ToolTipDwarfThorinStonePowerPrinceOfErebor
 "Required: Rank 3 \n Leadership bonus to nearby troops \n +100% Attack \n Passive ability"
 END
-CONTROLBAR:DwarfThorinPowerMightyBlow
+CONTROLBAR:DwarfThorinStonePowerMightyBlow
 "Mighty &Blow"
 END
-CONTROLBAR:ToolTipDwarfThorinPowerMightyBlow
+CONTROLBAR:ToolTipDwarfThorinStonePowerMightyBlow
 "Required: Rank 4 \n Knocks down and pins target hero \n Normal units are knocked down and damaged \n left click then right click on target"
 END
-CONTROLBAR:DwarfThorinPowerLastDefender
+CONTROLBAR:DwarfThorinStonePowerLastDefender
 "A&egis of Erebor"
 END
-CONTROLBAR:ToolTipDwarfThorinPowerLastDefender
+CONTROLBAR:ToolTipDwarfThorinStonePowerLastDefender
 "Required: Rank 8 \n Creates a ring of fire which gives +30% Armor and Knockback/Fear immunity to units within it \n Lasts 60 seconds \n left click to activate"
 END
-CONTROLBAR:DwarfThorinPowerStonehelm
+CONTROLBAR:DwarfThorinStonePowerStonehelm
 "S&tonehelm"
 END
-CONTROLBAR:ToolTipDwarfThorinPowerStonehelm
+CONTROLBAR:ToolTipDwarfThorinStonePowerStonehelm
 "Required: Rank 10 \n +500% Armor for 20 seconds \n Causes enemies to flee in fear \n left click to activate"
 END
 
@@ -3879,7 +3879,7 @@ CONTROLBAR:ToolTipDainsGuardKingsguard
 "The majesty of Dain's Royal Guard increases the experience gained by nearby friendly units by 10%"
 END
 
-OBJECT:DwarfThorinGuard
+OBJECT:DwarfThorinStoneGuard
 "Thorin's Guard"
 END
 OBJECT:HordeThorinGuard
