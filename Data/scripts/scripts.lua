@@ -19,7 +19,374 @@ end
 function OnFireSpecialStopRanger(self)
     ObjectHideSubObjectPermanently( self, "FIREAROWTIP", true )
 end
+-- *********** DWARVES *************
+-- //// Spells
 
+function DurinGrantUpgrades(self)
+	ObjectGrantUpgrade( self, "Upgrade_DwarvesMetallurgy" )
+	ObjectGrantUpgrade( self, "Upgrade_DwarvesHeavyArmor" )
+end
+
+-- //// Heroes
+-- Thorin functions
+function OnDwarfThorinCreated(self)
+	-- Hide thorin's helmet
+	ObjectHideSubObjectPermanently( self, "HELMET", true )
+end
+
+function ThorinUseUltimate(self)
+	-- Unhide helmet, broadcast fear when power triggered
+	ObjectBroadcastEventToEnemies(self, "BeTerrified", 250)
+	ObjectHideSubObjectPermanently( self, "HELMET", false )
+end
+
+function ThorinEndUltimate(self)
+	-- Hide his helmet when the power ends
+	ObjectHideSubObjectPermanently( self, "HELMET", true )
+end
+
+--- Dain functions
+function DainSpawnDamageFlag(self, other)
+	ObjectDoSpecialPower(self, "SpecialAbilityDainDamageIncoming" )
+end
+
+function DainDoSuper(self)
+	local chance  = GetRandomNumber()
+	if chance <= 0.25 then
+		ObjectBroadcastEventToEnemies(self, "BeTerrified", 250)
+		ObjectDoSpecialPower(self, "SpecialPowerBlockAttack" )
+	end
+end
+
+-- //// Units
+-- Unit functions
+function EnableRavenStealth(self)
+	ObjectDoSpecialPower(self, "SpecialAbilityRavenStealth" )
+end
+
+function OnDwarfRavenCreated(self)	
+	ObjectHideSubObjectPermanently( self, "SIGHT", true )
+	ObjectHideSubObjectPermanently( self, "SPEED", true )
+	ObjectHideSubObjectPermanently( self, "STEALTH", true )
+end
+
+function OnDwarfWarrior1Created(self)	
+	ObjectHideSubObjectPermanently( self, "Forged_Axe", true )
+	ObjectHideSubObjectPermanently( self, "Forged_Sword", true )
+	
+	ObjectHideSubObjectPermanently( self, "SHIELD1", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD2", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD3", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD4", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD5", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD6", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD7", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD8", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD9", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD10", true )
+	ObjectHideSubObjectPermanently( self, "AXE1", true )
+	ObjectHideSubObjectPermanently( self, "AXE2", true )
+	ObjectHideSubObjectPermanently( self, "AXE3", true )
+	ObjectHideSubObjectPermanently( self, "AXE4", true )
+	ObjectHideSubObjectPermanently( self, "SWORD1", true )
+	ObjectHideSubObjectPermanently( self, "SWORD2", true )
+	
+	local shield  = GetRandomNumber()
+	local weapon  = GetRandomNumber()
+	
+	if shield <= 0.1 then
+       ObjectHideSubObjectPermanently( self, "SHIELD1", false )
+    elseif  shield <= 0.2 then
+		ObjectHideSubObjectPermanently( self, "SHIELD2", false )
+	elseif  shield <= 0.3 then
+		ObjectHideSubObjectPermanently( self, "SHIELD3", false )
+	elseif  shield <= 0.4 then
+		ObjectHideSubObjectPermanently( self, "SHIELD4", false )
+	elseif  shield <= 0.5 then
+		ObjectHideSubObjectPermanently( self, "SHIELD5", false )
+	elseif  shield <= 0.6 then
+		ObjectHideSubObjectPermanently( self, "SHIELD6", false )
+	elseif  shield <= 0.7 then
+		ObjectHideSubObjectPermanently( self, "SHIELD7", false )
+	elseif  shield <= 0.8 then
+		ObjectHideSubObjectPermanently( self, "SHIELD8", false )
+	elseif  shield <= 0.9 then
+		ObjectHideSubObjectPermanently( self, "SHIELD9", false )
+	else
+        ObjectHideSubObjectPermanently( self, "SHIELD10", false )
+    end
+	
+	if weapon <= 0.23 then
+       ObjectHideSubObjectPermanently( self, "AXE1", false )
+    elseif  weapon <= 0.5 then
+		ObjectHideSubObjectPermanently( self, "AXE2", false )
+	elseif  weapon <= 0.75 then
+		ObjectHideSubObjectPermanently( self, "AXE3", false )
+	else
+        ObjectHideSubObjectPermanently( self, "AXE4", false )
+    end
+end
+
+function OnDwarfWarrior3Created(self)	
+	ObjectHideSubObjectPermanently( self, "Forged_Axe", true )
+	ObjectHideSubObjectPermanently( self, "Forged_Sword", true )
+	
+	ObjectHideSubObjectPermanently( self, "SHIELD1", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD2", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD3", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD4", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD5", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD6", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD7", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD8", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD9", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD10", true )
+	ObjectHideSubObjectPermanently( self, "AXE1", true )
+	ObjectHideSubObjectPermanently( self, "AXE2", true )
+	ObjectHideSubObjectPermanently( self, "AXE3", true )
+	ObjectHideSubObjectPermanently( self, "AXE4", true )
+	ObjectHideSubObjectPermanently( self, "SWORD1", true )
+	ObjectHideSubObjectPermanently( self, "SWORD2", true )
+	
+	local shield  = GetRandomNumber()
+	local weapon  = GetRandomNumber()
+	
+	if shield <= 0.1 then
+       ObjectHideSubObjectPermanently( self, "SHIELD1", false )
+    elseif  shield <= 0.2 then
+		ObjectHideSubObjectPermanently( self, "SHIELD2", false )
+	elseif  shield <= 0.3 then
+		ObjectHideSubObjectPermanently( self, "SHIELD3", false )
+	elseif  shield <= 0.4 then
+		ObjectHideSubObjectPermanently( self, "SHIELD4", false )
+	elseif  shield <= 0.5 then
+		ObjectHideSubObjectPermanently( self, "SHIELD5", false )
+	elseif  shield <= 0.6 then
+		ObjectHideSubObjectPermanently( self, "SHIELD6", false )
+	elseif  shield <= 0.7 then
+		ObjectHideSubObjectPermanently( self, "SHIELD7", false )
+	elseif  shield <= 0.8 then
+		ObjectHideSubObjectPermanently( self, "SHIELD8", false )
+	elseif  shield <= 0.9 then
+		ObjectHideSubObjectPermanently( self, "SHIELD9", false )
+	else
+        ObjectHideSubObjectPermanently( self, "SHIELD10", false )
+    end
+	
+	if weapon <= 0.5 then
+       ObjectHideSubObjectPermanently( self, "SWORD1", false )
+	else
+        ObjectHideSubObjectPermanently( self, "SWORD2", false )
+    end
+end
+
+function OnDwarfWarrior2Created(self)	
+	ObjectHideSubObjectPermanently( self, "Forged_Axe", true )
+	
+	ObjectHideSubObjectPermanently( self, "AXE1", true )
+	ObjectHideSubObjectPermanently( self, "AXE2", true )
+	ObjectHideSubObjectPermanently( self, "AXE3", true )
+	ObjectHideSubObjectPermanently( self, "AXE4", true )
+
+	local weapon  = GetRandomNumber()
+	
+	if weapon <= 0.25 then
+       ObjectHideSubObjectPermanently( self, "AXE1", false )
+    elseif  weapon <= 0.50 then
+		ObjectHideSubObjectPermanently( self, "AXE2", false )
+	elseif  weapon <= 0.75 then
+		ObjectHideSubObjectPermanently( self, "AXE3", false )
+	else
+		ObjectHideSubObjectPermanently( self, "AXE4", false )
+	end
+end
+
+function OnDwarfArcherCreated(self)	
+	ObjectHideSubObjectPermanently( self, "ARROWFX", true )
+	
+	ObjectHideSubObjectPermanently( self, "AXE1", true )
+	ObjectHideSubObjectPermanently( self, "AXE2", true )
+	ObjectHideSubObjectPermanently( self, "AXE3", true )
+	ObjectHideSubObjectPermanently( self, "AXE4", true )
+	
+	local axe  = GetRandomNumber()
+	
+	if axe <= 0.25 then
+       ObjectHideSubObjectPermanently( self, "AXE1", false )
+	elseif axe <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "AXE2", false )
+	elseif axe <= 0.75 then
+        ObjectHideSubObjectPermanently( self, "AXE3", false )
+	else
+        ObjectHideSubObjectPermanently( self, "AXE4", false )
+    end
+end
+
+function OnDwarfSpearmanCreated(self)	
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	
+	ObjectHideSubObjectPermanently( self, "SPEAR1", true )
+	ObjectHideSubObjectPermanently( self, "SPEAR2", true )
+	
+	local spear  = GetRandomNumber()
+	
+	if spear <= 0.5 then
+       ObjectHideSubObjectPermanently( self, "SPEAR1", false )
+	else
+        ObjectHideSubObjectPermanently( self, "SPEAR2", false )
+    end
+end
+
+function OnDwarfIronHillsCreated(self)
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+end
+
+function OnDwarfVaultWardenCreated(self)
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+end
+
+function OnDwarfIronGuardCreated(self)	
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	
+	ObjectHideSubObjectPermanently( self, "LHW1", true )
+	ObjectHideSubObjectPermanently( self, "LHW2", true )
+	ObjectHideSubObjectPermanently( self, "LHW3", true )
+	ObjectHideSubObjectPermanently( self, "RHW1", true )
+	ObjectHideSubObjectPermanently( self, "RHW2", true )
+	ObjectHideSubObjectPermanently( self, "RHW3", true )
+	
+	local leftWeapon  = GetRandomNumber()
+	local rightWeapon  = GetRandomNumber()
+	
+	if leftWeapon <= 0.33 then
+       ObjectHideSubObjectPermanently( self, "LHW1", false )
+    elseif  leftWeapon <= 0.66 then
+		ObjectHideSubObjectPermanently( self, "LHW2", false )
+	else
+		ObjectHideSubObjectPermanently( self, "LHW3", false )
+	end
+	
+	if rightWeapon <= 0.33 then
+       ObjectHideSubObjectPermanently( self, "RHW1", false )
+    elseif  rightWeapon <= 0.66 then
+		ObjectHideSubObjectPermanently( self, "RHW2", false )
+	else
+		ObjectHideSubObjectPermanently( self, "RHW3", false )
+	end
+	
+end
+
+function OnDwarfKhazadGuardCreated(self)	
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	
+	ObjectHideSubObjectPermanently( self, "HA", true )
+	ObjectHideSubObjectPermanently( self, "AXE02", true )
+	ObjectHideSubObjectPermanently( self, "AXE1", true )
+	ObjectHideSubObjectPermanently( self, "AXE2", true )
+	
+	local axe  = GetRandomNumber()
+	
+	if axe <= 0.5 then
+       ObjectHideSubObjectPermanently( self, "AXE1", false )
+	else
+        ObjectHideSubObjectPermanently( self, "AXE2", false )
+    end
+end
+
+function OnDwarfKhazadGuardUpgradedToThrowingAxe(self)
+	ObjectDoSpecialPower(self, "SpecialAbilityKhazadGuardSwapWeapon" )
+end
+
+function OnDwarfCaptainCreated(self)	
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	
+	ObjectHideSubObjectPermanently( self, "AXE1", true )
+	ObjectHideSubObjectPermanently( self, "AXE2", true )
+	ObjectHideSubObjectPermanently( self, "HEAD01", true )
+	ObjectHideSubObjectPermanently( self, "HEAD2", true )
+	ObjectHideSubObjectPermanently( self, "SHIELD", true )
+	
+	local head  = GetRandomNumber()
+	local axe  = GetRandomNumber()
+	local shield  = GetRandomNumber()
+	
+	if head <= 0.66 then
+       ObjectHideSubObjectPermanently( self, "HEAD01", false )
+	else
+        ObjectHideSubObjectPermanently( self, "HEAD2", false )
+    end
+	
+	if axe <= 0.5 then
+       ObjectHideSubObjectPermanently( self, "AXE1", false )
+	else
+       ObjectHideSubObjectPermanently( self, "AXE2", false )
+    end
+	
+	if shield <= 0.80 then
+       ObjectHideSubObjectPermanently( self, "SHIELD", false )
+    end
+	
+	local name  = GetRandomNumber()
+	
+	if name <= 0.077 then
+       ObjectGrantUpgrade( self, "Upgrade_HeroLevel1" )
+	elseif name <= 0.154 then
+       ObjectGrantUpgrade( self, "Upgrade_HeroLevel2" )
+	elseif name <= 0.231 then
+		ObjectGrantUpgrade( self, "Upgrade_HeroLevel3" )
+	elseif name <= 0.308 then
+		ObjectGrantUpgrade( self, "Upgrade_HeroLevel4" )
+	elseif name <= 0.385 then
+		ObjectGrantUpgrade( self, "Upgrade_HeroLevel5" )
+	elseif name <= 0.462 then
+		ObjectGrantUpgrade( self, "Upgrade_HeroLevel6" )
+	elseif name <= 0.539 then
+		ObjectGrantUpgrade( self, "Upgrade_HeroLevel7" )
+	elseif name <= 0.616 then
+		ObjectGrantUpgrade( self, "Upgrade_HeroLevel8" )
+	elseif name <= 0.693 then
+		ObjectGrantUpgrade( self, "Upgrade_HeroLevel9" )
+	elseif name <= 0.770 then
+		ObjectGrantUpgrade( self, "Upgrade_HeroLevel10" )	
+	elseif name <= 0.847 then
+		ObjectGrantUpgrade( self, "Upgrade_StructureLevel1" )
+	elseif name <= 0.924 then
+		ObjectGrantUpgrade( self, "Upgrade_StructureLevel2" )
+    else
+		ObjectGrantUpgrade( self, "Upgrade_StructureLevel3" )
+	end
+	
+end
+
+function OnDwarfBanner1Created(self)	
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	
+	ObjectHideSubObjectPermanently( self, "BANNERFLAG1", true )
+	ObjectHideSubObjectPermanently( self, "BANNERFLAG2", true )
+	ObjectHideSubObjectPermanently( self, "AXE1", true )
+	ObjectHideSubObjectPermanently( self, "AXE2", true )
+	ObjectHideSubObjectPermanently( self, "AXE3", true )
+	ObjectHideSubObjectPermanently( self, "AXE4", true )
+	
+	local banner  = GetRandomNumber()
+	local axe  = GetRandomNumber()
+	
+	if banner <= 0.5 then
+       ObjectHideSubObjectPermanently( self, "BANNERFLAG1", false )
+	else
+        ObjectHideSubObjectPermanently( self, "BANNERFLAG2", false )
+    end
+	
+	if axe <= 0.25 then
+       ObjectHideSubObjectPermanently( self, "AXE1", false )
+	elseif axe <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "AXE2", false )
+	elseif axe <= 0.75 then
+        ObjectHideSubObjectPermanently( self, "AXE3", false )
+	else
+        ObjectHideSubObjectPermanently( self, "AXE4", false )
+    end
+end
 -- #Thorin
 function OnThorinCreated(self)
 end

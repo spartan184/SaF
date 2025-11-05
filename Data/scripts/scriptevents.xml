@@ -169,6 +169,15 @@
       <ModelConditionEvent Name="ThorinAxe">
         <Conditions>+WEAPONSET_TOGGLE_2 -WEAPONSET_TOGGLE_1</Conditions>
       </ModelConditionEvent>
+      
+      <ModelConditionEvent Name="DainLastDefenceConditionsMet">
+        <Conditions>+REALLYDAMAGED +USER_3 +USER_4</Conditions>
+      </ModelConditionEvent>
+      
+      <ModelConditionEvent Name="ObjectGainedIdle">
+        <Conditions>-MOVING</Conditions>
+      </ModelConditionEvent>   
+    
     </Events>
 	
     <EventList Name="BaseScriptFunctions">
@@ -403,7 +412,31 @@
     </EventList>
     
     <!---------- End of Rivendell Functions -->
-    <!-- Dwarven Heroes -->
+	<!-- ----------------- DWARVES ------------------ -->
+	
+	<!-- Heroes-->
+	 <EventList Name="DwarfDurinFunctions" Inherit="BaseScriptFunctions">
+	 </EventList>
+	
+	 <EventList Name="DwarfDainFunctions" Inherit="BaseScriptFunctions">
+		<EventHandler EventName="OnCreated"	ScriptFunctionName="DainClearIsDamagedFlag" DebugSingleStep="false"/>
+		<EventHandler EventName="OnDamaged" ScriptFunctionName="DainSpawnDamageFlag" DebugSingleStep="false"/>
+		<EventHandler EventName="DainLastDefenceConditionsMet"          ScriptFunctionName="DainDoSuper" DebugSingleStep="false"/>
+	 </EventList>
+	
+	 <EventList Name="DwarfThorinFunctions" Inherit="BaseScriptFunctions">
+		<!-- This contains events specific to Thorin -->
+        <EventHandler EventName="OnCreated"	ScriptFunctionName="OnDwarfThorinCreated" DebugSingleStep="false"/>
+        <EventHandler EventName="User3Achieved"	ScriptFunctionName="ThorinUseUltimate"	DebugSingleStep="false"/>
+		<EventHandler EventName="User3Lost"	ScriptFunctionName="ThorinEndUltimate"	DebugSingleStep="false"/>
+    </EventList>
+	
+    <EventList Name="DwarfGloinFunctions" Inherit="BaseScriptFunctions">
+    </EventList>
+    
+    <EventList Name="DwarfGimliFunctions" Inherit="BaseScriptFunctions">
+    </EventList>
+
     <EventList Name="ThorinFunctions" Inherit="BaseScriptFunctions">
       <EventHandler EventName="OnCreated"		ScriptFunctionName="OnThorinCreated" 	DebugSingleStep="false"/>
     </EventList>
@@ -415,7 +448,74 @@
     <EventList Name="FiliFunctions" Inherit="BaseScriptFunctions">
       <EventHandler EventName="OnCreated"		ScriptFunctionName="OnFiliCreated" 	DebugSingleStep="false"/>
     </EventList>
-    
+    	
+	<!-- Hordes-->
+	
+	<EventList Name="DwarfBaseHordeFunctions" Inherit="InfantryFunctions">
+		<EventHandler EventName="User5Achieved"	ScriptFunctionName="DurinGrantUpgrades"	DebugSingleStep="false"/>
+	</EventList>
+	
+	<EventList Name="DwarfKhazadGuardHordeFunctions" Inherit="DwarfBaseHordeFunctions">
+		<EventHandler EventName="User1Achieved"	ScriptFunctionName="OnDwarfKhazadGuardUpgradedToThrowingAxe"  DebugSingleStep="false"/>
+    </EventList>
+	
+	<!-- Units-->
+	
+	<EventList Name="DwarfRavenFunctions" Inherit="BaseScriptFunctions">
+		<EventHandler EventName="OnCreated"	ScriptFunctionName="OnDwarfRavenCreated"  DebugSingleStep="false"/>
+		<EventHandler EventName="ObjectGainedIdle"	ScriptFunctionName="EnableRavenStealth"  DebugSingleStep="false"/>
+    </EventList>
+	
+    <EventList Name="DwarfWarrior1Functions" Inherit="BaseScriptFunctions">
+		<EventHandler EventName="OnCreated"	ScriptFunctionName="OnDwarfWarrior1Created"  DebugSingleStep="false"/>
+    </EventList>
+	
+	<EventList Name="DwarfWarrior2Functions" Inherit="BaseScriptFunctions">
+		<EventHandler EventName="OnCreated"	ScriptFunctionName="OnDwarfWarrior2Created"  DebugSingleStep="false"/>
+    </EventList>
+	
+	<EventList Name="DwarfWarrior3Functions" Inherit="BaseScriptFunctions">
+		<EventHandler EventName="OnCreated"	ScriptFunctionName="OnDwarfWarrior3Created"  DebugSingleStep="false"/>
+    </EventList>
+	
+	<EventList Name="DwarfArcherFunctions" Inherit="BaseScriptFunctions">
+		<EventHandler EventName="OnCreated"	ScriptFunctionName="OnDwarfArcherCreated"  DebugSingleStep="false"/>
+    </EventList>
+	
+	<EventList Name="DwarfSpearmanFunctions" Inherit="BaseScriptFunctions">
+		<EventHandler EventName="OnCreated"	ScriptFunctionName="OnDwarfSpearmanCreated"  DebugSingleStep="false"/>
+    </EventList>
+	
+	 <EventList Name="DwarfIronHillsFunctions" Inherit="BaseScriptFunctions">
+		<EventHandler EventName="OnCreated"	ScriptFunctionName="OnDwarfIronHillsCreated"  DebugSingleStep="false"/>
+    </EventList>
+	
+	<EventList Name="DwarfCaptainFunctions" Inherit="BaseScriptFunctions">
+		<EventHandler EventName="OnCreated"	ScriptFunctionName="OnDwarfCaptainCreated"  DebugSingleStep="false"/>
+    </EventList>
+	
+	<EventList Name="DwarfIronGuardFunctions" Inherit="BaseScriptFunctions">
+		<EventHandler EventName="OnCreated"	ScriptFunctionName="OnDwarfIronGuardCreated"  DebugSingleStep="false"/>
+    </EventList>
+	
+	<EventList Name="VaultWardenFunctions" Inherit="BaseScriptFunctions">
+		<EventHandler EventName="OnCreated"	ScriptFunctionName="OnDwarfVaultWardenCreated"  DebugSingleStep="false"/>
+    </EventList>
+	
+	<EventList Name="DwarfKhazadGuardFunctions" Inherit="BaseScriptFunctions">
+		<EventHandler EventName="OnCreated"	ScriptFunctionName="OnDwarfKhazadGuardCreated"  DebugSingleStep="false"/>
+		<EventHandler EventName="User1Achieved"	ScriptFunctionName="OnDwarfKhazadGuardUpgradedToThrowingAxe"  DebugSingleStep="false"/>
+    </EventList>
+	
+	<EventList Name="DwarfBanner1Functions" Inherit="BaseScriptFunctions">
+		<EventHandler EventName="OnCreated"	ScriptFunctionName="OnDwarfBanner1Created"  DebugSingleStep="false"/>
+    </EventList>
+	
+	<!-- Buildings -->
+	<EventList Name="DwarfCastleWallUpgradeFunctions" Inherit="GarrisonableFunctions">
+		<EventHandler EventName="UsingSpecialOne"		ScriptFunctionName="RadiateUncontrollableFear"	DebugSingleStep="false"/>
+    </EventList>
+
     <!-- Gondor Heroes -->
     <EventList Name="ForlongFunctions" Inherit="BaseScriptFunctions">
       <EventHandler EventName="OnCreated"				ScriptFunctionName="OnForlongCreated" DebugSingleStep="false"/>
