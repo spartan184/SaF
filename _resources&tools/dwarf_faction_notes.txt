@@ -1,0 +1,66 @@
+Dwarf Faction: Erebor aka "Thorins Company"
+
+Heroes:
+  Roäc   
+  Dáin Ironfoot
+  
+  ;Master of Lake-town
+  ;Bard the Bowman
+  
+  Bofur
+  Bifur
+  Bombur
+  Oin
+  Ori
+  Nori
+  Dori
+  
+  Gloin
+  Kíli 
+  Fíli 
+  Balin
+  Dwalin
+  Thorin Oakenshield
+
+  Durin the Deathless (Final Hero, make a summon??)
+  
+Units:
+  Erebor Warriors	       Swordsmen	Barracks Lvl 1	300	60
+  Erebor Pikemen	        Pikemen	  Barracks Lvl 1	300	60
+  Erebor Archers	        Archers	  Barracks Lvl 1	300	60
+  Iron Hills Warriors	    Special   Barracks Lvl 3	700	90
+  Iron Hills Crossbowmen	Archers   Barracks Lvl 3	650	60
+
+  Iron Hills Riders	      Cavalry   Workshop Lvl 1	500	60
+  Battlewagon	            Cavalry	  Workshop Lvl 1	500	60
+  Battering Ram	          Siege	    Workshop Lvl 1	300	40
+  Dwarven Mangonel	      Siege	    Workshop Lvl 2	700	30
+  
+Buildings:
+	1	= Command_ConstructDwarfForge
+  2	= Command_ConstructDwarfCraftsman
+	3	= Command_ConstructDwarfBarracks
+	4	= Command_ConstructDwarfElderHall
+	5	= Command_ConstructDwarfGuardhouse
+	6	= Command_ConstructDwarfWell
+	7	= Command_ConstructDwarfStatue
+	8	= Command_ConstructDwarfWorkshop
+
+Spellbook Powers:
+  -- Tier 1
+  1 = Command_SpellBookDwarfGateHorns
+  2 = Command_SpellBookDwarfVengeance
+  
+  -- Tier 2
+  3 = Command_SpellBookDwarfDaleAllies
+  4 = Command_SpellBookDwarfTruesilverLode
+  ;5 = Command_SpellBookDwarfIronHillsAllies
+  5 = Command_SpellBookDwarfLand ???
+  
+  -- Tier 3
+  6 = Command_SpellBookDwarfDurinsDay
+  ;7 = Command_SpellBookDwarfStoutHearts
+  7 = Command_SpellbookDwarfDainIronFootAllies ????
+  
+  -- Tier 4
+  8 = Command_SpellBookDwarfDurinTheDeathless
