@@ -4075,7 +4075,6 @@ END
 TOOLTIP:DwarvesRavenSight
 "Observing: Decreased speed, increased vision range"	
 END
-
 CONTROLBAR:ActiveRavenOrder
 "Your Ravens will fly swiftly at the cost of sight range \n Select another command to change orders"
 END
