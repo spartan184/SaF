@@ -1,0 +1,188 @@
+Here is the list of animations from BFME II that work in BFME I. (The list is not complete yet):
+
+Also i decided to add to this topic links for fixed bfme II structures for bfme I.
+
+ 
+
+CAH system: 
+
+ 
+
+CAH Wizard:  all animations are working in Bfme I
+
+ 
+
+CAH Captain of gondor (hero of the west): 
+
+ 
+
+animation that are not working:   
+
+- all _atn animations   ----- but in Bfme I you can use animation: chhw_cg_u_tnta, chhw_cg_u_tntb
+
+- all _idl animations   ----- but in Bfme I you can use animation: chhw_cg_u_tnta, chhw_cg_u_chra, chhw_cg_u_ibfa
+
+- chhw_cg_u_dtha 
+
+- chhw_cg_u_hitz
+
+- chhw_cg_u_hrna 
+
+- chhw_cg_u_hrnb  
+
+- chhw_cg_u_hrnc
+
+ 
+
+CAH Uruk:
+
+- all _idl animations ---- in Bfme I you can use animation: chss_uk_u_ibfa, chss_uk_u_ibfb
+
+- all _atn animations ---- in Bfme I you can use animation: chss_uk_u_tntb, chss_uk_u_tnta
+
+ 
+
+CAH Troll:
+
+- all _idl animations --- in Bfme I you can use animation: CHSS_TL_U_CLRA, _RCTA, _LOKA, _IBFA, _IBFB (animations for just breathing), 
+
+                                                                                         CHSS_TL_U_IRFB (belly scratch), _IRFC (big roar), _IRFA (short roar), _IBFC (nose wipe)
+
+- all _atn animations ---- in Bfme I you can use some animations from these _CLRA, _RCTA, _LOKA, _IBFA, _IBFB, _IRFB, _IRFC, _IRFA
+
+ 
+
+DWARVES
+
+ 
+
+Dain:
+
+animation that are not working:
+
+- dudain_atka
+
+- dudain_atnb
+
+- dudain_chra
+
+- dudain_idla
+
+- dudain_runb
+
+- dudain_wpna
+
+ 
+
+All others should work.
+
+ 
+
+Gloin:
+
+animation that are not working:
+
+- dugloin_cina
+
+ 
+
+All others should work.
+
+ 
+
+Dwarven battlewagon:
+
+- all animations should work
+
+ 
+
+Structures:
+
+Dwarven battletower
+
+Dwarven statue
+
+Dwarven hearth
+
+Dwarven mine
+
+Dwarven battletower2
+
+ 
+
+ELVES
+
+Structures:
+
+Galadriel mirror
+
+Elven statue
+
+Elven battletower
+
+Eregion forge
+
+ 
+
+GONDOR
+
+ 
+
+Structures:
+
+Signalfire
+
+ 
+
+MORDOR
+
+ 
+
+Structures
+
+Mordor barricade
+
+ 
+
+GOBBLINS
+
+ 
+
+Spiderrider banner:
+
+- all animations should work
+
+ 
+
+OTHERS
+
+ 
+
+Dragon I (model sumndrag_skn)
+
+- all animations should work
+
+ 
+
+Dragon II (summoned in isengard spellbook - model jhdrag_skn)
+
+- all animations should work
+
+ 
+
+Bats (model bats_skn)
+
+- all animations should work
+
+ 
+
+Crebain (model crebain_skn)
+
+- all animations should work
+
+ 
+
+Dragonstrike (model dragstrike_skn)
+
+- all animations should work
+
