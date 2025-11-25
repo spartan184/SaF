@@ -3281,7 +3281,7 @@ END
 // -- #Bifur
 OBJECT:DwarvenBifur
 "Bifur"
-ENDs
+END
 CONTROLBAR:DwarvenBifurRecruit
 "Recruit a fellow companion of Thorin's company"
 END
@@ -3330,7 +3330,7 @@ END
 
 // -- #Oin
 OBJECT:DwarvenOin
-"Óin"
+"Oin"
 END
 CONTROLBAR:DwarvenOinRecruit
 "Recruit a fellow companion of Thorin's company"
@@ -3339,9 +3339,22 @@ CONTROLBAR:DwarvenOinRevive
 "Revive the fallen companion, Óin"
 END
 CONTROLBAR:DwarvenOinHotkey
-"Óin"
+"Oin"
 END
 
+CONTROLBAR:OinRestoration
+"Oin's Ointments (&R)"
+END
+CONTROLBAR:ToolTipOinRestoration
+"Heals nearby allies \n Left click icon then left click on target area"
+END
+
+CONTROLBAR:SonofGroin
+"Son of Groin"
+END
+CONTROLBAR:ToolTipSonofGroin
+"Modifier Type: Spell \n Oin and Gloin gain +15% damage and +15% armour when near each other \nPassive ability"
+END
 
 // -- #Ori
 OBJECT:DwarvenOri
