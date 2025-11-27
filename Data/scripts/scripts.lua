@@ -387,6 +387,59 @@ function OnDwarfBanner1Created(self)
         ObjectHideSubObjectPermanently( self, "AXE4", false )
     end
 end
+
+-- Ironhill Riders
+function OnDwarvenRiderCreated(self)
+	ObjectHideSubObjectPermanently( self, "Forged_Blade", true )
+	ObjectHideSubObjectPermanently( self, "IHSHIELDA", true )
+	ObjectHideSubObjectPermanently( self, "IHSHIELDB", true )
+    ObjectHideSubObjectPermanently( self, "HORNS1", true )
+    ObjectHideSubObjectPermanently( self, "HORNS2", true )
+    ObjectHideSubObjectPermanently( self, "BIGSHEEPA", true )
+    ObjectHideSubObjectPermanently( self, "BIGSHEEPB", true )
+    ObjectHideSubObjectPermanently( self, "BIGSHEEPC", true )
+    ObjectHideSubObjectPermanently( self, "HEAD01", true )
+    ObjectHideSubObjectPermanently( self, "HEAD02", true )
+    ObjectHideSubObjectPermanently( self, "HEAD03", true )
+    ObjectHideSubObjectPermanently( self, "HEAD04", true )
+
+    local helmet         =    GetRandomNumber()
+    local head          =    GetRandomNumber()
+    local armor          =    GetRandomNumber()
+    local shield          =    GetRandomNumber()
+
+    if helmet <= 0.3 then
+        ObjectHideSubObjectPermanently( self, "BIGSHEEPA", false )
+    elseif helmet <= 0.6 then
+        ObjectHideSubObjectPermanently( self, "BIGSHEEPB", false )
+     else
+        ObjectHideSubObjectPermanently( self, "BIGSHEEPC", false )
+    end
+
+    if head <= 0.2 then
+        ObjectHideSubObjectPermanently( self, "HEAD01", false )
+    elseif head <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HEAD02", false )
+    elseif head <= 0.8 then
+        ObjectHideSubObjectPermanently( self, "HEAD03", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HEAD04", false )
+    end
+
+    if armor <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "HORNS1", false )
+     else
+        ObjectHideSubObjectPermanently( self, "HORNS2", false )
+    end
+
+    if shield <= 0.5 then
+        ObjectHideSubObjectPermanently( self, "IHSHIELDA", false )
+     else
+        ObjectHideSubObjectPermanently( self, "IHSHIELDB", false )
+    end
+
+end
+
 -- #Thorin
 function OnThorinCreated(self)
 end

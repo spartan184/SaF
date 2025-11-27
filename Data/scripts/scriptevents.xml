@@ -510,7 +510,10 @@
 	<EventList Name="DwarfBanner1Functions" Inherit="BaseScriptFunctions">
 		<EventHandler EventName="OnCreated"	ScriptFunctionName="OnDwarfBanner1Created"  DebugSingleStep="false"/>
     </EventList>
-	
+    
+    <EventList Name="DwarvenRiderFunctions" Inherit="CavalryFunctions">
+        <EventHandler EventName="OnCreated" ScriptFunctionName="OnDwarvenRiderCreated" DebugSingleStep="false"/>
+    </EventList>	
 	<!-- Buildings -->
 	<EventList Name="DwarfCastleWallUpgradeFunctions" Inherit="GarrisonableFunctions">
 		<EventHandler EventName="UsingSpecialOne"		ScriptFunctionName="RadiateUncontrollableFear"	DebugSingleStep="false"/>

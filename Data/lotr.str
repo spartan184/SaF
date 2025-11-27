@@ -4064,6 +4064,36 @@ CONTROLBAR:ToolTipDwarfVaultWardenInterference
 "-20% speed to nearby enemy units \n +5% Armor to nearby allies \n Only active while deployed"
 END
 
+//------------ Iron Hill Riders ---------------
+OBJECT:IronHillRider
+"Ukhrub-sharâhul"
+END
+OBJECT:HordeIronHillRider
+"Ukhrub-sharâhul"
+END
+CONTROLBAR:ConstructIronHillRiderHorde
+"Ukhrub-sharâhul (&D)"
+END
+CONTROLBAR:LW_Unit_IronHillRiderHorde
+"Ukhrub-sharâhul Battalion"
+END
+CONTROLBAR:LW_ToolTip_IronHillRiderHorde
+"Iron Hills Riders\nUnit Type: Elite Cavalry\nStrong vs. Archers"
+END
+CONTROLBAR:ToolTipBuildIronHillRiderHorde
+"Iron Hills Riders \n Requires Level 3 Erebor Assembly \n Elite Cavalry \nStrong vs. Archers \n \n 'The Dwarves of the Iron Hills see symbolic similarity between themselves and these large mountain goats. Together, they make for a fearsome presence on the battlefield.'"
+END
+CONTROLBAR:LW_ToolTipBuild_IronHillRiderHorde
+"Iron Hills Riders \n Unit Type: Elite Cavalry\nStrong vs. Archers\n"
+END
+
+CONTROLBAR:RelentlessCharge
+"Relentless Charge (&W)"
+END
+CONTROLBAR:ToolTipRelentlessCharge
+"Iron Hills Riders lose -50% trample deceleration and gain +50% resistance to pikes for 20 seconds \n Left click to activate"
+END
+
 // Garrison unit strings
 // -----------------
 
