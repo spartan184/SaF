@@ -3512,7 +3512,7 @@ CONTROLBAR:DwalinSmash
 "Furious Blow (&C)"
 END
 CONTROLBAR:ToolTipDwalinSmash
-"Requires Level 5 \n Dwalin slams the ground, knocking back enemy units and dealing heavy damage to structures in a small radius \n Left click icon then left click on target"
+"Requires Level 5 \n Dwalin slams the ground, knocking back enemy units and dealing heavy damage to structures in a small radius \n Left click icon then right click on target"
 END
 
 CONTROLBAR:DwalinJuggernaut
