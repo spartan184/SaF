@@ -1,0 +1,94 @@
+This list was started a long time ago at the forums. It is a compilation of the sort of game.dat errors that happen in game and won't bother to give you a debug report. The ones we all love :P
+
+NOTE: This article is not here for you to ask how to fix a gamedat error: it's here so we can post solutions and discuss them.
+
+Currently known causes for game.dat crashes:
+
+- Using the same animation state twice in an object's code. Celeglin
+- Referencing a specialpower template that doesn't exist Celeglin
+- Giving a unit a non-existing armor (crash when your unit is being attacked). Morgoth946
+- Missing asset.dat. Morgoth946
+- Referring to inexisting weapons in any unit's weaponset ched
+- Referring to inexisting locomotors in any unit's locomotorset ched
+- Altered Skirmish profile (from playing a mod with new factions) (crash when opening the Skirmish menu) Solution: Simply delete it in the Application Data folder. ched
+- Setting MaxLevelMP in playertemplate.ini to 0 (crash when you first get magic points). Lord of Gifts
+- Using an inexisting AnimationState. Mullers_11
+- Putting a non-existing object in the BannerCarrierPosition line of a horde module. Stealthsnake and zimoo
+- Putting a SpellBook button in a SpellStoreCommandset (crash upon opening the Spellstore). Stealthsnake and Makaveli
+- Missing shellmap (data\maps\shellmap1\shellmap1.map) (crash in the loading screen, at the moment the little spinning ring shows up). ched and 2playgames
+- Missing a PhysicsBehavior in a unit. NebulousQ
+- Referencing unknown particles in a FXList. Error occors on startup. Sulherokhh
+
+
+Update Jan 2008:
+
+- Setting GeometryMajorRadius = 0
+
+Occurs with: All versions
+Description:
+The height and minor radius can be 0, just not that one, makes sense i guess, in a weird way...
+Submitted by: Halbarad
+
+
+- Conflicts with the HardCoded AI
+
+Occurs with: BFME 2 (and RotWK)
+Examples which cause this error:
+1. Adding 'AIUpdateInterface' to an object with the new 'AIGateUpdate'
+2. Adding 'AIUpdateInterface' to an object that is defined as a WallHubTemplate in 'skirmishAIdata.ini'.
+Further information:
+I introduced the behavior to have the object be able to both use lua functions and to be able to execute sequential scripts. But the game crashes when a script-function is being run on both kinds of objects (runtime crash).
+Submitted by: Sulherokhh
+
+
+Update November 2010:
+
+- Missing Behavior in Object
+Example:
+"I misnamed the DualWeaponBehavior into WeaponBehavior in one of my units"
+Occurrence of Error:
+At game start
+Submitted by:
+Tir I Herkaluin
+Note:
+As can be seen above, there have been reports of issues with various types of missing behaviors.
+I think it is reasonable to say that any type of behavior will result in a game.dat error when wrongly named
+
+- Missing Attribute Modifier
+Cause
+Trying to reference an Attribute Modifier that does not exist.
+Occurrence of error:
+"The game will crash at 97% when loading the faction in skirmish.
+A weird thing if the attribute is for a specific faction ie Rohan it will crash Good factions but Evil factions are ok."
+Submitted by:
+Radspakr
+
+- System.ini
+Cause
+Typo's, reference errors, etc
+Occurrence of error:
+At the Shellmap
+Submitted by:
+Radspakr
+
+- HordeContain module
+Cause:
+Horde without a HordeContain module
+Occurs with:
+BFME 1, but likely also BFME 2
+Occurrence of error:
+The error came up just before entering a skirmish. The loading bar went all the way up and then the display faded out as it does. It went to the red screen, but just before fading into the map it crashed
+Submitted by:
+Gfire
+
+- Update limit
+Cause:
+The game can only manage a limited number of upgrades in ExperienceLevels.ini.
+- According to GothmogTheOrc this limit is 190
+- According to Lauri this limit is 205
+Occurrence of error:
+The game crashes when building the object that in the code lists an upgrade after the limit of ExperienceLevels.ini has been reached.
+
+
+
+If you have one to add to the list, please place a comment below. Thank you :)
