@@ -237,40 +237,6 @@ Player_2/l_Timer_Reset_Attack_Flag = -1
 Player_2/l_Timer_Reset_Attack_Team_Flag = -1 
 Player_2/l_Total_Money_Difference = 531343 
 Player_2/lt_Opposition_Wait = -1 
-/___MusicScript_ForceIntoActionTrack = 0 
-/___MusicScript_ForceIntoPhaseExplore = 0 
-/___MusicScript_ForceIntoPhaseExplore2 = 0 
-/___MusicScript_ForceOutOfActionTrack = 0 
-/___MusicScript_InPhaseBaseBuilding = 1 
-/___MusicScript_InPhaseExplore = 0 
-/___MusicScript_InPhaseExplore2 = 0 
-/___MusicScript_Init = 0 
-/___MusicScript_IsGoodFaction = 1 
-/___MusicScript_Level0MusicDone = 0 
-/___MusicScript_Level1MusicDone = 1 
-/___MusicScript_PreventMoveIntoPhaseExplore = 0 
-/___MusicScript_PreventMoveIntoPhaseExplore2 = 0 
-Player_1/g_EnemyDet_Enemy_Faction_Dwarves = 1 
-Player_1/g_EnemyDet_Enemy_Faction_Gondor = 0 
-Player_1/g_EnemyDet_Enemy_Faction_Gundabad = 0 
-Player_1/g_EnemyDet_Enemy_Faction_Isengard = 0 
-Player_1/g_EnemyDet_Enemy_Faction_Mordor = 0 
-Player_1/g_EnemyDet_Enemy_Faction_Rivendell = 0 
-Player_1/g_EnemyDet_Enemy_Faction_Rohan = 0 
-Player_1/gf_BF1_Owned = 1 
-Player_1/gf_BF2_Owned = 0 
-Player_1/gf_BF3_Owned = 1 
-Player_1/gf_BF4_Owned = 1 
-Player_1/gf_Inheritance_On = 1 
-Player_2/================= Isengard ==================== = 0 
-Player_2/================= Mordor ==================== = 0 
-Player_2/==================  Dwarves ================== = 0 
-Player_2/==================  Rivendell ================== = 0 
-Player_2/===================  Gondor ================== = 0 
-Player_2/===================  Good =================== = 0 
-Player_2/===================  Rohan =================== = 0 
-Player_2/=================== Gundabad ================= = 0 
-Player_2/===================== Evil =================== = 0 
 Player_2/AI_Attack_On = 1 
 Player_2/AI_Defend_On = 1 
 Player_2/AI_Economy_On = 1 
