@@ -17829,7 +17829,7 @@ CONTROLBAR:ToolTipBuildMordorMumakil
 END
 
 CONTROLBAR:ToolTipBuildMordorSiegeTower
-"Allows infantry units to scale castle walls. \n Limited to 3 units \n \n Constructed by Mordor's slaves using wood, iron and stone, siege towers advance steadily toward enemy fortifications, looking to overwhelm their defenders."
+"Allows infantry units to scale castle walls. \n Limited to 5 units \n \n Constructed by Mordor's slaves using wood, iron and stone, siege towers advance steadily toward enemy fortifications, looking to overwhelm their defenders."
 END
 
 CONTROLBAR:ToolTipBuildMordorCatapult
