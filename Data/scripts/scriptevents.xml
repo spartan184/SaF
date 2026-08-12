@@ -475,12 +475,20 @@
     </EventList>
 	
 	<EventList Name="DwarfWarrior3Functions" Inherit="BaseScriptFunctions">
-		<EventHandler EventName="OnCreated"	ScriptFunctionName="OnDwarfWarrior3Created"  DebugSingleStep="false"/>
-    </EventList>
-	
+    <EventHandler EventName="OnCreated"	ScriptFunctionName="OnDwarfWarrior3Created"  DebugSingleStep="false"/>
+  </EventList>
+  
 	<EventList Name="DwarfArcherFunctions" Inherit="BaseScriptFunctions">
 		<EventHandler EventName="OnCreated"	ScriptFunctionName="OnDwarfArcherCreated"  DebugSingleStep="false"/>
-    </EventList>
+    <EventHandler EventName="User1Achieved"	ScriptFunctionName="OnFireSpecialActivation"  DebugSingleStep="false"/>
+    <EventHandler EventName="User1Lost" ScriptFunctionName="OnFireSpecialStop"  DebugSingleStep="false"/>
+  </EventList>
+  
+	<EventList Name="DwarfArcherHordeFunctions" Inherit="BaseScriptFunctions">
+		<EventHandler EventName="OnCreated"	ScriptFunctionName="OnDwarfArcherCreated"  DebugSingleStep="false"/>
+    <EventHandler EventName="WeaponlockActivated"	ScriptFunctionName="HordeFireArrowActivationHook"  DebugSingleStep="false"/>
+    <EventHandler EventName="WeaponlockDeactivated" ScriptFunctionName="HordeFireArrowDeactivationHook"  DebugSingleStep="false"/>
+  </EventList>
 	
 	<EventList Name="DwarfSpearmanFunctions" Inherit="BaseScriptFunctions">
 		<EventHandler EventName="OnCreated"	ScriptFunctionName="OnDwarfSpearmanCreated"  DebugSingleStep="false"/>
