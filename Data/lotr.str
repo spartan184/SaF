@@ -4261,6 +4261,14 @@ CONTROLBAR:ToolTipToggleKhazadGuardToLine
 "No bonus"
 END
 
+// Special Abilities
+CONTROLBAR:DwarfWarriorRank2
+"&Dwarven Rage"
+END
+CONTROLBAR:ToolTipDwarfWarriorRank2
+"Required: Rank 2 \n Temporarily gain +15% movement speed and +25% armor \n Left click to activate"
+END
+
 // Combo Hordes
 
 OBJECT:HordeDwarfWarrior2X
