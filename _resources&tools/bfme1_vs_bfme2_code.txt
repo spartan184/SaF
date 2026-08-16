@@ -1,5 +1,8 @@
 things that don't work in bfme1 from bfme2:
 
+Kindofs:
+  HEAVY_MELEE_HITTER -SIEGEENGINE
+  
 Animations:
 	PARALYZED
 	CAPTURING
@@ -20,3 +23,13 @@ FxList:
 	;  End
   ;BuffShipTemplate = CripplingStrikeBuff
 	;BuffMonsterTemplate = CripplingStrikeBuff
+
+	Behavior                                   = ArrowStormUpdate ModuleTag_DwarvenWisdomUpdate
+		;NeedCollisionBeforeTrigger               = No
+		;ApproachUntilMembersInRange              = No
+
+	End
+  
+  Behavior                                   = PassiveAreaEffectBehavior ModuleTag_SplashOfHealingWater_Ahh
+    ;HealFX				                           = FX_SpellHealUnitHealBuff
+	End

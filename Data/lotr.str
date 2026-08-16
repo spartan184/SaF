@@ -3254,6 +3254,41 @@ CONTROLBAR:DwarvenBalinHotkey
 "Balin (&S)"
 END
 
+CONTROLBAR:BalinLookout
+"Company's Lookout (&W)"
+End
+CONTROLBAR:TooltipBalinLookout
+"Modifier Type: Leadership\nAllies near Balin gain +25% vision range\nPassive ability"
+END
+
+CONTROLBAR:BalinFlag
+"Balin's Expedition (&R)"
+END
+CONTROLBAR:TooltipBalinFlag
+"Requires Level 3 \n Balin plants a banner of Durin. \n Nearby troops gain +33% damage, +25% armour, earn experience +50% faster, and are partially healed. \n At level 7, affected units are immune to knockback and are healed by a larger amount \n Left click to activate"
+END
+
+CONTROLBAR:TooltipBalinFlagDurinsFolk
+"Requires Level 3 \n Balin plants a banner of Durin. \n Nearby troops gain +50% experience gain, +25% armour, +33% damage and are partially healed. \n At level 7, affected units are immune to knockback and are healed by a larger amount \n At level 10, summons a battalion of Khazâd-Dum Veterans \n Left click to activate"
+END
+OBJECT:BalinBanner
+"Banner of Durin"
+END
+
+CONTROLBAR:BalinDwarvenWisdom
+"Dwarven Wisdom (&T)"
+End
+CONTROLBAR:ToolTipBalinDwarvenWisdom
+"Requires Level 5 \n Selected structure's resource output is raised to 175% for 60 seconds\n Left click icon then left click on target resource structure"
+END
+
+CONTROLBAR:BalinCounselorOfKings
+"Counselor of Kings (&C)"
+END
+CONTROLBAR:ToolTipBalinCounselorOfKings
+"Requires Level 9 \n Modifier Type: Spell \n Balin empowers a friendly hero, granting them 50% armour, 50% faster experience gain,\n and 75% faster power recharge times for 30 seconds\n Left click icon then left click on target hero"
+END
+
 // -- #Bofur
 OBJECT:DwarvenBofur
 "Bofur"
