@@ -1,0 +1,70 @@
+CommandSet RohanSpellBookCommandSet
+    1 = Command_SpellBookHeal
+    2 = Command_SpellBookDraft
+    3 = Command_SpellBookGondorian
+    4 = Command_SpellBookElvenAllies ;Command_SpellBookElvenAllegiance
+    5 = Command_SpellBookRohanHelmHammerhand
+    6 = Command_SpellBookCloudBreak_MP
+    7 = Command_SpellBookEntAllies ;Command_SpellBookThreeHunters
+    8 = Command_SpellBookGOTW
+End
+CommandSet GondorSpellBookCommandSet
+  1 = Command_SpellBookHeal
+  2 = Command_SpellBookBeaconGondor
+  3 = Command_SpellBookFiefdomSummonMP
+  4 = Command_SpellBookRohanAllies
+  5 = Command_SpellBookLandsKeptSafe
+  6 = Command_SpellBookCloudBreak_MP
+  7 = Command_SpellBookGreyCompany
+  8 = Command_SpellBookKingElessar
+End
+CommandSet RivendellSpellBookCommandSet
+    1 = Command_SpellBookHealRivendell
+    2 = Command_SpellBookWisdomOfTheEldar
+    3 = Command_SpellBookManyMeetings
+    4 = Command_SpellBookOldKingdom
+    5 = Command_SpellBookBreathOfManwe
+    6 = Command_SpellBookBlessingOfUlmo
+    7 = Command_SpellBookGreyPilgrim
+    8 = Command_SpellBookLaurefindele
+End
+CommandSet DwarvesSpellBookCommandSet
+  1 = Command_SpellBookDwarfGateHorn
+  2 = Command_SpellBookDwarfVengeance
+  3 = Command_SpellBookDwarfDaleAllies
+  4 = Command_SpellBookDwarfTruesilverLode
+  5 = Command_SpellBookDwarfIronHillsAllies
+  6 = Command_SpellBookDwarfDurinsDay
+  7 = Command_SpellBookDwarfStoutHearts
+  8 = Command_SpellBookDwarfDurinTheDeathless
+End
+CommandSet MordorSpellBookCommandSet
+  1 = Command_SpellBookMordorMorgulStatue
+  2 = Command_SpellBookEyeofSauron
+  3 = Command_SpellBookEvilMen
+  4 = Command_SpellBookScavenger
+  5 = Command_SpellBookCalltheHorde
+  6 = Command_SpellBookDarkness
+  7 = Command_SpellBookFellBeast
+  8 = Command_SpellBookSauron
+End
+CommandSet IsengardSpellBookCommandSet
+  1 = Command_SpellBookWarChant
+  2 = Command_SpellBookIsengardCrebain 
+  3 = Command_SpellBookMordorScum
+  4 = Command_SpellBookIsengardWhiteHand 
+  5 = Command_SpellBookDevastation
+  6 = Command_SpellBookFreezingRain
+  7 = Command_SpellBookCalltheHordeIsengard 
+  8 = Command_SpellBookLOO
+End
+CommandSet GundabadSpellBookCommandSet
+  1 = Command_SpellBookFrigidWinds 
+  2 = Command_SpellBookGundabadDrumsDeep
+  3 = Command_SpellBookSummonWolves
+  4 = Command_SpellBookGundabadScavenger
+  5 = Command_SpellBookCalltheHordeGundabad
+  6 = Command_SpellBookGiantBats
+  7 = Command_SpellBookHarshCold
+  8 = Command_SpellBookDurinsBane
+End
