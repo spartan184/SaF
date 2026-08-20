@@ -2487,7 +2487,7 @@ CONTROLBAR:DwarfSpellIronHills
 "Muster of the Iron Hills"
 END
 CONTROLBAR:DwarfSpellIronHillsTooltip
-"Allows the construction of the Baruk-sharâhul, Azaghâr-sharâhul and the Sulûn-abanul \n Passive power"
+"Allows the construction of the Baruk-sharahul, Azaghar-sharahul and the Sulûn-abanul \n Passive power"
 END
 
 CONTROLBAR:DwarfSpellDurinsDay
@@ -2763,7 +2763,7 @@ CONTROLBAR:ConstructDwarfElderHall
 "Build Dwarf Hall of &Elders"
 END
 CONTROLBAR:ToolTipDwarfBuildElderHall
-"Trains Captains and increases global Experience"
+"Trains Captains, Royal Guards and increases global Experience"
 END
 
 CONTROLBAR:DwarfElderHallExperience
@@ -2812,7 +2812,7 @@ CONTROLBAR:ConstructDwarfWorkshop
 "Build Dwarf &Workshop"
 END
 CONTROLBAR:ToolTipDwarfBuildWorkshop
-"Builds Siege Rams and Mangonels"
+"Builds Siege Rams, Mangonels, and Vault Wardens"
 END
 
 OBJECT:DwarfRookery
@@ -3269,7 +3269,7 @@ CONTROLBAR:TooltipBalinFlag
 END
 
 CONTROLBAR:TooltipBalinFlagDurinsFolk
-"Requires Level 3 \n Balin plants a banner of Durin. \n Nearby troops gain +50% experience gain, +25% armour, +33% damage and are partially healed. \n At level 7, affected units are immune to knockback and are healed by a larger amount \n At level 10, summons a battalion of Khazâd-Dum Veterans \n Left click to activate"
+"Requires Level 3 \n Balin plants a banner of Durin. \n Nearby troops gain +50% experience gain, +25% armour, +33% damage and are partially healed. \n At level 7, affected units are immune to knockback and are healed by a larger amount \n At level 10, summons a battalion of Khazad-Dum Veterans \n Left click to activate"
 END
 OBJECT:BalinBanner
 "Banner of Durin"
@@ -3537,7 +3537,7 @@ CONTROLBAR:ToolTipDwalinAxesUpg
 END
 
 CONTROLBAR:DwalinBaruk
-"Baruk Khazâd! (&T)"
+"Baruk Khazad! (&T)"
 END
 CONTROLBAR:ToolTipDwalinBaruk
 "Requires Level 3 \n Dwalin lets out a cry, causing enemy units to flee in terror \n Left click to activate"
@@ -3903,13 +3903,13 @@ CONTROLBAR:ToolTipBuildDwarfWarriorHorde
 END
 
 OBJECT:DwarfArcher
-"Rakhâs-abzâg"
+"Rakhas-abzag"
 END
 OBJECT:HordeDwarfArcher
-"Rakhâs-abzâg Battalion"
+"Rakhas-abzag Battalion"
 END
 CONTROLBAR:ConstructDwarfArcherHorde
-"&Rakhâs-abzâg"
+"&Rakhas-abzag"
 END
 CONTROLBAR:ToolTipBuildDwarfArcherHorde
 "Dwarf Archers \n Strong vs. Monsters, Pikemen and Cavalry \n Weak vs. Infantry"
@@ -3929,16 +3929,16 @@ CONTROLBAR:ToolTipBuildDwarfSpearmanHorde
 END
 
 OBJECT:DwarfIronHillsWarrior
-"Baruk-sharâhul"
+"Baruk-sharahul"
 END
 OBJECT:HordeDwarfIronHills
-"Baruk-sharâhul Battalion"
+"Baruk-sharahul Battalion"
 END
 CONTROLBAR:ConstructDwarfIronHillsHorde
-"&Baruk-sharâhul"
+"&Baruk-sharahul"
 END
 CONTROLBAR:ToolTipBuildDwarfIronHillsHorde
-"Required: Rank 3 Barracks and Muster of the Iron Hills \n Warriors from the Iron Hills \n Can wield axes and shield or heavy mattocks \n Strong vs. Bowmen or Buildings \n Weak vs. Cavalry, Monsters or Bowmen"
+"Required: Rank 3 Guardhouse and Muster of the Iron Hills \n Warriors from the Iron Hills \n Can wield axes and shield or heavy mattocks \n Strong vs. Bowmen or Buildings \n Weak vs. Cavalry, Monsters or Bowmen"
 END
 CONTROLBAR:ToggleDwarfIronHillsWarriorWeapons
 "Alternate Weapon"
@@ -3948,22 +3948,22 @@ CONTROLBAR:ToolTipToggleDwarfIronHillsWarriorWeapons
 END
 
 OBJECT:DwarfKhazadGuard
-"Khazâd-uzbadul"
+"Khazad-uzbadul"
 END
 OBJECT:HordeKhazadGuard
-"Khazâd-uzbadul Battalion"
+"Khazad-uzbadul Battalion"
 END
 CONTROLBAR:ConstructKhazadGuardHorde
-"&Khazâd-uzbadul"
+"&Khazad-uzbadul"
 END
 CONTROLBAR:ToolTipBuildKhazadGuardHorde
-"Required: Rank 2 Guardhouse \n Elite Dwarves \n Limit 2 \n Strong vs. Infantry, Cavalry, Heroes \n Weak vs. Bowmen, Monsters"
+"Required: Rank 3 Barracks \n Elite Dwarves \n Limit 2 \n Strong vs. Infantry, Cavalry, Heroes \n Weak vs. Bowmen, Monsters"
 END
 CONTROLBAR:KhazadGuardBodyguard
 "Bodyguard"
 END
 CONTROLBAR:ToolTipKhazadGuardBodyguard
-"All Dwarf Heroes near the Khâzad Guard gain +10% armour"
+"All Dwarf Heroes near the Khazad Guard gain +10% armour"
 END
 CONTROLBAR:KhazadGuardThrowAxe
 "Throw Axes"
@@ -4030,13 +4030,13 @@ CONTROLBAR:ToolTipGloinsGuardImmovable
 END
 
 OBJECT:DwarfIronGuard
-"Azaghâr-sharâhul"
+"Azaghar-sharahul"
 END
 OBJECT:HordeIronGuard
-"Azaghâr-sharâhul Battalion"
+"Azaghar-sharahul Battalion"
 END
 CONTROLBAR:ConstructDwarfIronGuardHorde
-"&Azaghâr-sharâhul"
+"&Azaghar-sharahul"
 END
 CONTROLBAR:ToolTipBuildDwarfIronGuardHorde
 "Iron Guard \n Dwarven Infantry \n Gain a speed bonus when ordered to attack \n Strong vs. Bowmen, Monsters \n Weak vs. Cavalry, Infantry"
@@ -4078,10 +4078,10 @@ TOOLTIP:DwarfMangonelNeedIH
 END
 
 OBJECT:DwarfVaultWarden	
-"Azaghâr-gundu"
+"Azaghar-gundu"
 END
 CONTROLBAR:ConstructDwarfVaultWarden
-"&Azaghâr-gundu"
+"&Azaghar-gundu"
 END
 CONTROLBAR:ToolTipBuildDwarfVaultWarden
 "Trio of warriors specializing in tunnel fighting \n Must deploy to attack \n Strong vs. Monsters, Cavalry, Bowmen \n Weak vs. Swordsmen"
@@ -4090,7 +4090,7 @@ CONTROLBAR:ToggleDwarfVaultWardenMode
 "&Pack/Unpack"
 END
 CONTROLBAR:ToolTipToggleDwarfVaultWardenMode
-"Left click to deploy weapon team \n Deployed Azaghâr-gundu are well-armored and difficult to dislodge \n Cannot move while deployed"
+"Left click to deploy weapon team \n Deployed Azaghar-gundu are well-armored and difficult to dislodge \n Cannot move while deployed"
 END
 CONTROLBAR:DwarfVaultWardenInterference
 "Interference"
@@ -4101,22 +4101,22 @@ END
 
 //------------ Iron Hill Riders ---------------
 OBJECT:IronHillRider
-"Ukhrub-sharâhul"
+"Ukhrub-sharahul"
 END
 OBJECT:HordeIronHillRider
-"Ukhrub-sharâhul"
+"Ukhrub-sharahul"
 END
 CONTROLBAR:ConstructIronHillRiderHorde
-"Ukhrub-sharâhul (&D)"
+"Ukhrub-sharahul (&D)"
 END
 CONTROLBAR:LW_Unit_IronHillRiderHorde
-"Ukhrub-sharâhul Battalion"
+"Ukhrub-sharahul Battalion"
 END
 CONTROLBAR:LW_ToolTip_IronHillRiderHorde
 "Iron Hills Riders\nUnit Type: Elite Cavalry\nStrong vs. Archers"
 END
 CONTROLBAR:ToolTipBuildIronHillRiderHorde
-"Iron Hills Riders \n Requires Level 3 Erebor Assembly \n Elite Cavalry \nStrong vs. Archers \n \n 'The Dwarves of the Iron Hills see symbolic similarity between themselves and these large mountain goats. Together, they make for a fearsome presence on the battlefield.'"
+"Iron Hills Riders \n Requires Level 3 Guardhouse \n Elite Cavalry \nStrong vs. Archers \n \n 'The Dwarves of the Iron Hills see symbolic similarity between themselves and these large mountain goats. Together, they make for a fearsome presence on the battlefield.'"
 END
 CONTROLBAR:LW_ToolTipBuild_IronHillRiderHorde
 "Iron Hills Riders \n Unit Type: Elite Cavalry\nStrong vs. Archers\n"
@@ -4136,7 +4136,7 @@ OBJECT:DwarfGarrisonedWarrior
 "Azagh-Baruk"
 END
 OBJECT:DwarfGarrisonedArcher
-"Rakhâs-abzâg"
+"Rakhas-abzag"
 END
 
 // Raven Strings (orders and unit)
@@ -4307,32 +4307,32 @@ END
 // Combo Hordes
 
 OBJECT:HordeDwarfWarrior2X
-"Reinforced Burk-Khazâd Battalion"
+"Reinforced Burk-Khazad Battalion"
 END
 OBJECT:HordeDwarfArcher2X
-"Reinforced Rakhâs-udrig Battalion"
+"Reinforced Rakhas-udrig Battalion"
 END
 OBJECT:HordeDwarfSpearman2X
 "Reinforced Sigin-zigil Battalion"
 END
 
 OBJECT:HordeDwarfWarriorSpearman
-"Burk-Khazâd - Sigin-zigil Battalion"
+"Burk-Khazad - Sigin-zigil Battalion"
 END
 OBJECT:HordeDwarfWarriorArcher
-"Burk-Khazâd - Rakhâs-udrig Battalion"
+"Burk-Khazad - Rakhas-udrig Battalion"
 END
 OBJECT:HordeDwarfArcherSpearman
-"Sigin-zigil - Rakhâs-udrig Battalion"
+"Sigin-zigil - Rakhas-udrig Battalion"
 END
 OBJECT:HordeDwarfIronHillsCombo
 "Reinforced Baraz-dûmu Battalion"
 END
 OBJECT:HordeDwarfIronHillsWarrior
-"Burk-Khazâd - Baraz-dûmu Battalion"
+"Burk-Khazad - Baraz-dûmu Battalion"
 END
 OBJECT:HordeDwarfIronHillsArcher
-"Rakhâs-udrig - Baraz-dûmu Battalion"
+"Rakhas-udrig - Baraz-dûmu Battalion"
 END
 
 // ############################################################ //
