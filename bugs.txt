@@ -5,7 +5,6 @@
 - gondor treb summon power from aotr
 - add isengard man slayers
 - dol amroth knights cost is wrong
-- aragorn legolas summon mount doesn't work
 - rivendell maggot not getting farms good
 - eye of sauron not moving around as much
 -
