@@ -3,7 +3,6 @@ BUGS/INVESTIGATE:
 
 IMPROVEMENTS:
 - Grey company solider attacking buildings with arrows, make toggle unit switch to swords to attack buildings
-- rivendell maggot not getting farms good
 - eye of sauron not moving around as much
 
 WANTS:
