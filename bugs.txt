@@ -4,6 +4,11 @@
 - Grey company solider attacking buildings with arrows, make toggle unit switch to swords to attack buildings
 - gondor treb summon power from aotr
 - add isengard man slayers
+- dol amroth knights cost is wrong
+- aragorn legolas summon mount doesn't work
+- rivendell maggot not getting farms good
+- eye of sauron not moving around as much
+-
 
 An old forest at the foot of the White Mountains, to the northwest of Minas Tirith.
 Number of Players: 8
