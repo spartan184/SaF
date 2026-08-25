@@ -1,10 +1,13 @@
 BUGS/INVESTIGATE:
 - Combo hord black uruks with siege towers doesn't work
+- Can't attack rivendell citadel after being rebuilt
 
 IMPROVEMENTS:
 - Grey company solider attacking buildings with arrows, make toggle unit switch to swords to attack buildings
 - eye of sauron not moving around as much
-
+- riv ai spawns gandy/many peoples in weird places
+- riv ai doesnt build postern gate
+- gondor ai pippin not getting farms fast enough
 WANTS:
 - Create adorn 6 player map
 - Create Argonath 6 player map

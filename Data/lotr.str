@@ -1878,6 +1878,20 @@ CONTROLBAR:ToolTipRivendellVeteranHorde
 "Strong vs. All Normal Troops\nRequired: Rank 3 Dormitory\nCan stealth near trees\nOnly 3 units of Last Alliance Veterans are allowed at any time."
 END
 
+// -- Revelers
+OBJECT:RivendellReveler
+"Quentaroli"
+END
+OBJECT:HordeRivendellReveler
+"Quentaroli"
+END
+CONTROLBAR:ConstructRivendellReveler
+"Q&uentaroli"
+END
+CONTROLBAR:ToolTipRivendellReveler
+"Rivendell Revelers \n Required: Rank 2 Dormitory \n A party of Elven Revelers \n Limited to 5\n\nThe long history of the Elves is oft related through song and music, both sad and joyous."
+END
+
 OBJECT:NoldorExile
 "Noldor Exile"
 END
@@ -1917,20 +1931,6 @@ OBJECT:BreeRamCrew
 END
 OBJECT:BreelandBatteringRam
 "Breeland Battering Ram"
-END
-
-// -- Revelers
-OBJECT:RivendellReveler
-"Quentaroli"
-END
-OBJECT:HordeRivendellReveler
-"Quentaroli"
-END
-CONTROLBAR:ConstructRivendellReveler
-"Q&uentaroli"
-END
-CONTROLBAR:ToolTipRivendellReveler
-"Rivendell Revelers \n Required: Rank 2 Dormitory \n A party of Elven Revelers \n Limited to 5\n\nThe long history of the Elves is oft related through song and music, both sad and joyous."
 END
 
 // ============================================================ //

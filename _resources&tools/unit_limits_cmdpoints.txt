@@ -1,0 +1,15 @@
+Rohan:
+Gondor:
+Dwarves:
+Rivendell:
+  Grey Company = 3
+  Veterans = 3
+  Revelers = 5
+  
+Isengard:
+Mordor:
+  Catapults: 5
+  Siege Tower: 5
+  Battering Ram: 5
+  Mumakil: 4
+Gundabad:
