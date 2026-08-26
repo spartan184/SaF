@@ -1,15 +1,36 @@
 Rohan:
+  Royalguard = 3
+  Royalguard foot = 3
+  
 Gondor:
+  Citadel Guard = 5
+  Trebs = 5
+  Amroth = 3
+  
 Dwarves:
+  Magnonel = 5
+  Thoringuard = 1
+  Gloinguard = 1
+  Dainguard = 1
+  Warden = 5
+  Khazad = 2
+  
 Rivendell:
   Grey Company = 3
   Veterans = 3
   Revelers = 5
   
 Isengard:
+  IsengardMineBeserker =
+  Balista = 5
+  Huskarl = 3
+  
 Mordor:
   Catapults: 5
   Siege Tower: 5
   Battering Ram: 5
   Mumakil: 4
+  
 Gundabad:
+  Troll Monstrosity= 5
+  Uruk Beserkers = 5
