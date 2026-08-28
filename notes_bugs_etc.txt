@@ -1,21 +1,17 @@
 BUGS/INVESTIGATE:
 - Combo hord black uruks with siege towers doesn't work
-- Can't attack rivendell citadel after being rebuilt
+- Can't attack citadels after being rebuilt
 - EomerFX really laggy
 - Thorin leadership affects all, should only affect dwarves
 - Aragorn/legolas can mount in campaign
 
 IMPROVEMENTS:
-- Grey company solider attacking buildings with arrows, make toggle unit switch to swords to attack buildings
-- eye of sauron not moving around as much
 - riv ai doesnt build postern gate
-- gondor ai pippin not getting farms fast enough
-- Make AI switch to bow for attack troll lairs
 - rohan legolas can't walk up castle elevators
 - add artillery priority script to units to switch to attacking artillery if attacked
 - add troll lair to outposts on new maps
 - revise infantry behavior skirmish type
-- revice hero build order on maps with creeps
+- revise hero build order on maps with creeps
 - rivendell ai breeland/dunedain need to beef up teams
 - revise ai teams  for different strats
 
