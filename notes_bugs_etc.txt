@@ -3,15 +3,17 @@ BUGS/INVESTIGATE:
 - Can't attack rivendell citadel after being rebuilt
 - EomerFX really laggy
 - Thorin leadership affects all, should only affect dwarves
+- Aragorn/legolas can mount in campaign
 
 IMPROVEMENTS:
 - Grey company solider attacking buildings with arrows, make toggle unit switch to swords to attack buildings
 - eye of sauron not moving around as much
-- riv ai spawns gandy/many peoples in weird places
 - riv ai doesnt build postern gate
 - gondor ai pippin not getting farms fast enough
 - Make AI switch to bow for attack troll lairs
 - rohan legolas can't walk up castle elevators
+- add artillery priority script to units to switch to attacking artillery if attacked
+
 WANTS:
 - Create adorn 6 player map
 - Create Argonath 6 player map
