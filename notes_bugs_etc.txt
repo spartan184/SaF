@@ -13,6 +13,11 @@ IMPROVEMENTS:
 - Make AI switch to bow for attack troll lairs
 - rohan legolas can't walk up castle elevators
 - add artillery priority script to units to switch to attacking artillery if attacked
+- add troll lair to outposts on new maps
+- revise infantry behavior skirmish type
+- revice hero build order on maps with creeps
+- rivendell ai breeland/dunedain need to beef up teams
+- revise ai teams  for different strats
 
 WANTS:
 - Create adorn 6 player map
