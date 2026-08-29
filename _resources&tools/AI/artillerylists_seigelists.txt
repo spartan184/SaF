@@ -1,0 +1,89 @@
+   'Artillery_All' : add 'DwarfMangonel'
+   'Artillery_All' : add 'DwarfWorkshop'
+   'Artillery_All' : add 'GondorTrebuchet'
+   'Artillery_All' : add 'GondorWorkshop'
+   'Artillery_All' : add 'GundabadCaveTroll'
+   'Artillery_All' : add 'GundabadSnowTroll'
+   'Artillery_All' : add 'GundabadTrollCave'
+   'Artillery_All' : add 'IsengardBallista'
+   'Artillery_All' : add 'IsengardSiegeWorks'
+   'Artillery_All' : add 'MordorCatapult'
+   'Artillery_All' : add 'MordorSiegeWorks'
+   
+   'Artillery_Factories' : add 'DwarfWorkshop'
+   'Artillery_Factories' : add 'EntMoot'
+   'Artillery_Factories' : add 'GondorWorkshop'
+   'Artillery_Factories' : add 'GundabadTrollCave'
+   'Artillery_Factories' : add 'IsengardSiegeWorks'
+   'Artillery_Factories' : add 'MordorSiegeWorks'
+   'Artillery_Factories' : add 'RivendellBreeLandEncampment'
+   
+   'Artillery_Units' : add 'DwarfMangonel'
+   'Artillery_Units' : add 'GondorTrebuchet'
+   
+   'Artillery_Units' : add 'GundabadCaveTroll'
+   'Artillery_Units' : add 'GundabadSnowTroll'
+   'Artillery2_Units' : add 'GundabadSnowTroll'
+
+   'Artillery_Units' : add 'IsengardBallista'
+   'Artillery_Units' : add 'MordorCatapult'
+   
+   'Artillery_Units' : add 'RohanEntBirch'
+   'Artillery_Units' : add 'RohanEntFir'
+   
+  'Artillery_Units' : add 'RivendellRevelerHorde'
+
+
+   'Siege_All' : add 'DwarfBatteringRam'
+   'Siege_All' : add 'DwarfMangonel'
+   'Siege_All' : add 'DwarfWorkshop'
+   'Siege_All' : add 'EntMoot'
+   'Siege_All' : add 'GundabadCaveTroll'
+   'Siege_All' : add 'GundabadSnowTroll'
+   'Siege_All' : add 'GundabadTrollCave'
+   'Siege_All' : add 'IsengardBatteringRam'
+   'Siege_All' : add 'IsengardExplosiveMine'
+   'Siege_All' : add 'IsengardSiegeLadder'
+   'Siege_All' : add 'IsengardSiegeWorks'
+   'Siege_All' : add 'MordorBatteringRam'
+   'Siege_All' : add 'MordorSiegeTower'
+   'Siege_All' : add 'MordorSiegeWorks'
+   'Siege_All' : add 'RivendellBreelandRam'
+   'Siege_All' : add 'RohanEntBirch'
+   'Siege_All' : add 'RohanEntBirch_Summoned'
+   'Siege_All' : add 'RohanEntFir'
+   'Siege_All' : add 'RohanEntFir_Summoned'
+   'Siege_All' : add 'RohanTreeBerd'
+
+   'Siege_Units' : add 'DwarfBatteringRam'
+   'Siege_Units' : add 'DwarfMangonel'
+   
+   'Siege_Units' : add 'GundabadCaveTroll'
+   'Siege_Units' : add 'GundabadSnowTroll'
+   
+   'Siege_Units' : add 'IsengardBatteringRam'
+   'Siege_Units' : add 'IsengardExplosiveMine'
+   'Siege_Units' : add 'IsengardSiegeLadder'
+   
+   'Siege_Units' : add 'MordorBatteringRam'
+   'Siege_Units' : add 'MordorSiegeTower'
+   
+   'Siege_Units' : add 'RivendellBreelandRam'
+   
+   'Siege_Units' : add 'RohanEntBirch'
+   'Siege_Units' : add 'RohanEntBirch_Summoned'
+   'Siege_Units' : add 'RohanEntFir'
+   'Siege_Units' : add 'RohanEntFir_Summoned'
+   'Siege_Units' : add 'RohanTreeBerd'
+   
+   'Siege2_Units' : add 'GundabadSnowTroll'
+   'Siege2_Units' : add 'IsengardBatteringRam'
+   'Siege2_Units' : add 'MordorBatteringRam'
+   
+   'Siege_Factories' : add 'DwarfWorkshop'
+   'Siege_Factories' : add 'EntMoot'
+   'Siege_Factories' : add 'GundabadTrollCave'
+   'Siege_Factories' : add 'IsengardSiegeWorks'
+   'Siege_Factories' : add 'MordorSiegeWorks'
+   'Siege_Factories' : add 'RivendellBreeLandEncampment'
+   

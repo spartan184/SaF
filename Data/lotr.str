@@ -3982,7 +3982,7 @@ CONTROLBAR:ConstructDainGuardHorde
 "&King Dain's Guard"
 END
 CONTROLBAR:ToolTipBuildDainGuardHorde
-"Bodyguard to the King of Erebor \n Dain gains +25% Armor when the Guard are nearby \n Limit One \n Strong vs. Infantry, Cavalry, Heroes \n Weak vs. Bowmen, Monsters"
+"Bodyguard to the King of Erebor \n Dain gains +25% Armor when the Guard are nearby \n Limit 1 \n Strong vs. Infantry, Cavalry, Heroes \n Weak vs. Bowmen, Monsters"
 END
 CONTROLBAR:DainsGuardKingsguard
 "Kingsguard"
