@@ -4,17 +4,13 @@ BUGS/INVESTIGATE:
 - EomerFX really laggy
 - Thorin leadership affects all, should only affect dwarves
 - Aragorn/legolas can mount in campaign
-- Haldir can toggle weapon with quickdraw
 
 IMPROVEMENTS:
 - riv ai doesnt build postern gate
 - rohan legolas can't walk up castle elevators
 - add artillery priority script to units to switch to attacking artillery if attacked
 - add troll lair to outposts on new maps
-- revise infantry behavior skirmish type
 - revise hero build order on maps with creeps
-- rivendell ai breeland/dunedain need to beef up teams
-- revise ai teams  for different strats
 - Theodred uses faramirs weapon/values
 - Lumbermill worker control scripts are most likely broken
 
