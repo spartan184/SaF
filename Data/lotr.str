@@ -20768,6 +20768,9 @@ GUI:AllPlayerPositionsMustBeOccupied
 "All player positions must be occupied."
 END
 
+// AI_Debug
+
+
 SCRIPT:AI_Debug_AttackChange
 "Attack Urgency has changed:"
 END
@@ -20808,6 +20811,35 @@ SCRIPT:AI_Attack_Launched
 "ATTACK LAUNCHED"
 END
 
+// Show AI Vars
+SCRIPT:PredBuild_Archer_Building_Priority
+"PredBuild_Archer_Building_Priority:"
+END
+SCRIPT:PredBuild_Artillery_Building_Priority
+"PredBuild_Artillery_Building_Priority:"
+END
+SCRIPT:PredBuild_Infantry_Building_Priority
+"PredBuild_Infantry_Building_Priority:"
+END
+SCRIPT:PredBuild_Cavalry_Building_Priority
+"PredBuild_Cavalry_Building_Priority:"
+END
+SCRIPT:PredBuild_Economy_Building_Priority
+"PredBuild_Economy_Building_Priority:"
+END
+SCRIPT:PredBuild_Upgrade_Only_Building_Priority
+"PredBuild_Upgrade_Only_Building_Priority:"
+END
+SCRIPT:PredBuild_Idle_Cycles
+"PredBuild_Idle_Cycles:"
+END
+SCRIPT:AI_Current_Money
+"AI_Current_Money"
+END
+SCRIPT:AI_Current_Commandpoint
+"AI_Current_Commandpoint"
+END
+// ------------------------------------------------------
 MAP:EvilOsgiliathIntroduction
 "Destroy the forces of Gondor. \n Collect the heads of 100 fallen human warriors."
 END
