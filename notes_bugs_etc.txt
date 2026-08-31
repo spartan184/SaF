@@ -4,6 +4,7 @@ BUGS/INVESTIGATE:
 - EomerFX really laggy
 - Thorin leadership affects all, should only affect dwarves
 - Aragorn/legolas can mount in campaign
+- Haldir can toggle weapon with quickdraw
 
 IMPROVEMENTS:
 - riv ai doesnt build postern gate
@@ -14,6 +15,8 @@ IMPROVEMENTS:
 - revise hero build order on maps with creeps
 - rivendell ai breeland/dunedain need to beef up teams
 - revise ai teams  for different strats
+- Theodred uses faramirs weapon/values
+- Lumbermill worker control scripts are most likely broken
 
 WANTS:
 - Create adorn 6 player map
