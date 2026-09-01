@@ -13,7 +13,8 @@ IMPROVEMENTS:
 - revise hero build order on maps with creeps
 - Theodred uses faramirs weapon/values
 - Lumbermill worker control scripts are most likely broken
-
+- add check for castle,camp,outpost for starting buildings
+- add hero type behavior to tower guard, ie ai_hero_towerguard to heal
 WANTS:
 - Create adorn 6 player map
 - Create Argonath 6 player map
