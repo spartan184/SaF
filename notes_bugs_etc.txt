@@ -1,9 +1,11 @@
 BUGS/INVESTIGATE:
 - Combo hord black uruks with siege towers doesn't work
-- Can't attack citadels after being rebuilt
 - EomerFX really laggy
 - Thorin leadership affects all, should only affect dwarves
 - Aragorn/legolas can mount in campaign
+- Rivendell castle forlindon middle has weird issues
+- Hobbit archers have weird animations when using fire
+
 
 IMPROVEMENTS:
 - riv ai doesnt build postern gate
@@ -15,8 +17,13 @@ IMPROVEMENTS:
 - Lumbermill worker control scripts are most likely broken
 - add check for castle,camp,outpost for starting buildings
 - add hero type behavior to tower guard, ie ai_hero_towerguard to heal
+- use b_Defense - Call for AntiArtillery lol
+
 WANTS:
-- Create adorn 6 player map
-- Create Argonath 6 player map
+- Adorn 6 
+- Argonath 6 
+- Forlindon 6-8 p
+- Archet 8
+- Eregion 8
 - gondor treb summon power from aotr
 - add isengard man slayers
