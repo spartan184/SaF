@@ -15,13 +15,13 @@ IMPROVEMENTS:
 - revise hero build order on maps with creeps
 - Theodred uses faramirs weapon/values
 - Lumbermill worker control scripts are most likely broken
-- add check for castle,camp,outpost for starting buildings
 - add hero type behavior to tower guard, ie ai_hero_towerguard to heal
 - use b_Defense - Call for AntiArtillery lol
 
 WANTS:
 - Adorn 6 
-- Argonath 6 
+- Argonath 6
+- blackroot vale 
 - Forlindon 6-8 p
 - Archet 8
 - Eregion 8
