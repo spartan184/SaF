@@ -19,11 +19,17 @@ IMPROVEMENTS:
 - use b_Defense - Call for AntiArtillery lol
 
 WANTS:
-- Adorn 6 
-- Argonath 6
 - blackroot vale 
 - Forlindon 6-8 p
 - Archet 8
 - Eregion 8
+- Fords of Bruinen
+- greenway
+- little lune
+- mountains of mirkwood
+- old ford of anduin
+- river celos
+- river poros
+- udan
 - gondor treb summon power from aotr
 - add isengard man slayers
