@@ -3188,7 +3188,7 @@ CONTROLBAR:FiliLeadership
 "Heir to the Throne"
 End
 CONTROLBAR:ToolTipFiliLeadership
-"Requires Level 8 \nModifier Type: Leadership \n Basic Erebor Dwarves and Ered Luin Dwarves near Fili gain +33% damage and +25% armour\n Passive ability"
+"Requires Level 4 \nModifier Type: Leadership \n Dwarves near Fili gain +33% damage and +25% armour\n Passive ability"
 END
 
 // -- #Kili
@@ -3938,7 +3938,7 @@ CONTROLBAR:ConstructDwarfIronHillsHorde
 "&Baruk-sharahul"
 END
 CONTROLBAR:ToolTipBuildDwarfIronHillsHorde
-"Required: Rank 3 Guardhouse and Muster of the Iron Hills \n Warriors from the Iron Hills \n Can wield axes and shield or heavy mattocks \n Strong vs. Bowmen or Buildings \n Weak vs. Cavalry, Monsters or Bowmen"
+"Warriors from the Iron Hills \n Can wield axes and shield or heavy mattocks \n Strong vs. Bowmen or Buildings \n Weak vs. Cavalry, Monsters or Bowmen"
 END
 CONTROLBAR:ToggleDwarfIronHillsWarriorWeapons
 "Alternate Weapon"
@@ -4039,7 +4039,7 @@ CONTROLBAR:ConstructDwarfIronGuardHorde
 "&Azaghar-sharahul"
 END
 CONTROLBAR:ToolTipBuildDwarfIronGuardHorde
-"Iron Guard \n Dwarven Infantry \n Gain a speed bonus when ordered to attack \n Strong vs. Bowmen, Monsters \n Weak vs. Cavalry, Infantry"
+"Required: Spellbook Muster of the Iron Hills \nIron Guard \n Dwarven Infantry \n Gain a speed bonus when ordered to attack \n Strong vs. Bowmen, Monsters \n Weak vs. Cavalry, Infantry"
 END
 TOOLTIP:DwarfIronGuardNeedIH
 "Purchase The Iron Hills spellbook power to allow training"
@@ -4116,10 +4116,7 @@ CONTROLBAR:LW_ToolTip_IronHillRiderHorde
 "Iron Hills Riders\nUnit Type: Elite Cavalry\nStrong vs. Archers"
 END
 CONTROLBAR:ToolTipBuildIronHillRiderHorde
-"Iron Hills Riders \n Requires Level 3 Guardhouse \n Elite Cavalry \nStrong vs. Archers \n \n 'The Dwarves of the Iron Hills see symbolic similarity between themselves and these large mountain goats. Together, they make for a fearsome presence on the battlefield.'"
-END
-CONTROLBAR:LW_ToolTipBuild_IronHillRiderHorde
-"Iron Hills Riders \n Unit Type: Elite Cavalry\nStrong vs. Archers\n"
+"Required: Rank 3 Guardhouse and Muster of the Iron Hills \n Iron Hills Riders \n Elite Cavalry \nStrong vs. Archers \n \n 'The Dwarves of the Iron Hills see symbolic similarity between themselves and these large mountain goats. Together, they make for a fearsome presence on the battlefield.'"
 END
 
 CONTROLBAR:RelentlessCharge
