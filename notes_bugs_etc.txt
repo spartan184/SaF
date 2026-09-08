@@ -31,5 +31,6 @@ WANTS:
 - river celos
 - river poros
 - udan
+- swanfleet
 - gondor treb summon power from aotr
 - add isengard man slayers
