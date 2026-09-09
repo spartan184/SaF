@@ -26,7 +26,6 @@ WANTS:
 - Fords of Bruinen
 - greenway
 - little lune
-- mountains of mirkwood
 - old ford of anduin
 - river celos
 - river poros
