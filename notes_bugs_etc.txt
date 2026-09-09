@@ -5,7 +5,7 @@ BUGS/INVESTIGATE:
 - Aragorn/legolas can mount in campaign
 - Rivendell castle forlindon middle has weird issues
 - Hobbit archers have weird animations when using fire
-
+- gollum special ability is OP
 
 IMPROVEMENTS:
 - riv ai doesnt build postern gate
@@ -28,8 +28,6 @@ WANTS:
 - little lune
 - old ford of anduin
 - river celos
-- river poros
-- udan
 - swanfleet
 - gondor treb summon power from aotr
 - add isengard man slayers
