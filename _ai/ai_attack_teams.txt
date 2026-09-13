@@ -1,0 +1,16 @@
+AI Attack NonWeakpoint - Archer           ; ANTI CAV
+AI Attack NonWeakpoint - Artillery        ; ANTI BASE
+AI Attack NonWeakpoint - Cavalary         ; ANTI INFANTRY
+AI Attack NonWeakpoint - Infantry         ; ANTI ARCHER
+AI Attack NonWeakpoint - Over-Wall Team   ; CASTLE SIEGE TEAMS
+
+AI Attack Weakpoint - Archer              ; ANTI CAV
+AI Attack Weakpoint - Artillery           ; ANTI BASE
+AI Attack Weakpoint - Cavalary            ; ANTI INFANTRY
+AI Attack Weakpoint - Infantry            ; ANTI ARCHER
+AI Attack Weakpoint - Over-Wall Team      ; CASTLE SIEGE TEAMS
+AI Attack Weakpoint                       ; Doesnt exist 
+AI Attack Hunt Team                       ; ANTI ARCHER - HUNT PUSLING 30sec     
+
+Weakpoint = Attack lowest threat marker
+NonWeakpoint = Attack highest threat marker
