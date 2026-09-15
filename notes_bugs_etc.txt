@@ -8,6 +8,7 @@ BUGS/INVESTIGATE:
 - gollum special ability is OP
 - on lamedon mordor nazguls fly to corner of map
 - gundabad archers fire might not be doing the correct damage
+- lamedon seems to crash alot for me
 
 IMPROVEMENTS:
 - add artillery priority script to units to switch to attacking artillery if attacked
@@ -15,6 +16,8 @@ IMPROVEMENTS:
 - Lumbermill worker control scripts are most likely broken
 - add hero type behavior to tower guard, ie ai_hero_towerguard to heal
 - use b_Defense - Call for AntiArtillery lol
+- Add Spear formation to Dunedain
+- Uruk shield bearers op against archers, chnage only give bonus when shields are raised 
 
 WANTS:
 - blackroot vale 

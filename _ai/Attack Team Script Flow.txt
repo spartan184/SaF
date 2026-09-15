@@ -1,0 +1,87 @@
+Join AI Attack Weapont - Infantry script:
+*** IF ***
+     Flag named 'lf_Launch_Attack' IS TRUE
+*** THEN ***
+  Set Team '<This Team>' to 'AI_MERGING'.
+  For all units in team Team '<This Team>' set object status Object Status is 'HUNT_WHEN_IDLE' to FALSE.
+  Run Subroutine 'g_Urgency - Lower Attack Med'.
+   Team '<This Team>' merges onto Team 'AI Attack Weakpoint - Infantry'
+
+On-Create:   
+*** IF ***
+    True.
+*** THEN ***
+   Team '<This Team>' set custom state 'AI_ADVANCING' to TRUE
+
+
+Generic Scripts: 
+*** IF ***
+     Flag named 'lf_Launch_Attack_Team' IS TRUE
+    *AND*  Team '<This Team>' has the custom state 'AI_ADVANCING'
+    *AND* Counter 'g_Opposition_Lowest_Threat' IS Equal To counter 'g_OPPOSITION_LOW_THREAT_CENTER'
+*** THEN ***
+   Team '<This Team>' change their attitude to Aggressive
+   Team '<This Team>' executes Script 'be_Attack Center' sequentially.
+   
+*** IF ***
+    True.
+*** THEN ***
+   Team '<This Team>' stops.
+  Set Team '<This Team>' to 'AI_ATTACKING'.
+   Team '<This Team>' change their attitude to Normal
+  Team Team '<This Team>' will move to the nearest object of type 'Center3' that is owned by the player Player '<This Player's Enemies>'.
+   Team '<This Team>' set custom state 'AI_ADVANCING' to TRUE
+   Team '<This Team>' set custom state 'AI_ASSAULTING' to FALSE
+  Team Team '<This Team>' will move to the nearest object of type 'Center2' that is owned by the player Player '<This Player's Enemies>'.
+  Team Team '<This Team>' will move to the nearest object of type 'Center1' that is owned by the player Player '<This Player's Enemies>'.
+   Team '<This Team>' set custom state 'AI_ASSAULTING' to TRUE
+   Team '<This Team>' set custom state 'AI_ADVANCING' to FALSE
+   Team '<This Team>' change their attitude to Aggressive
+   Team '<This Team>' merges onto Team 'AI Attack Hunt Team'
+*** IF ***
+     Flag named 'lf_Launch_Attack_Team' IS TRUE
+    *AND*  Team '<This Team>' has the custom state 'AI_ADVANCING'
+    *AND* Counter 'g_Opposition_Lowest_Threat' IS Equal To counter 'g_OPPOSITION_LOW_THREAT_FLANK'
+*** THEN ***
+   Team '<This Team>' change their attitude to Aggressive
+   Team '<This Team>' executes Script 'be_Attack Flank' sequentially.
+   
+*** IF ***
+    True.
+*** THEN ***
+   Team '<This Team>' stops.
+  Set Team '<This Team>' to 'AI_ATTACKING'.
+   Team '<This Team>' change their attitude to Normal
+  Team Team '<This Team>' will move to the nearest object of type 'Flank3' that is owned by the player Player '<This Player's Enemies>'.
+   Team '<This Team>' set custom state 'AI_ADVANCING' to TRUE
+   Team '<This Team>' set custom state 'AI_ASSAULTING' to FALSE
+  Team Team '<This Team>' will move to the nearest object of type 'Flank2' that is owned by the player Player '<This Player's Enemies>'.
+  Team Team '<This Team>' will move to the nearest object of type 'Flank1' that is owned by the player Player '<This Player's Enemies>'.
+   Team '<This Team>' set custom state 'AI_ASSAULTING' to TRUE
+   Team '<This Team>' set custom state 'AI_ADVANCING' to FALSE
+   Team '<This Team>' change their attitude to Aggressive
+   Team '<This Team>' merges onto Team 'AI Attack Hunt Team'
+   
+*** IF ***
+     Flag named 'lf_Launch_Attack_Team' IS TRUE
+    *AND*  Team '<This Team>' has the custom state 'AI_ADVANCING'
+    *AND* Counter 'g_Opposition_Lowest_Threat' IS Equal To counter 'g_OPPOSITION_LOW_THREAT_BACKDOOR'
+*** THEN ***
+   Team '<This Team>' change their attitude to Aggressive
+   Team '<This Team>' executes Script 'be_Attack Backdoor' sequentially.
+
+*** IF ***
+    True.
+*** THEN ***
+   Team '<This Team>' stops.
+  Set Team '<This Team>' to 'AI_ATTACKING'.
+   Team '<This Team>' change their attitude to Normal
+  Team Team '<This Team>' will move to the nearest object of type 'Backdoor3' that is owned by the player Player '<This Player's Enemies>'.
+   Team '<This Team>' set custom state 'AI_ADVANCING' to TRUE
+   Team '<This Team>' set custom state 'AI_ASSAULTING' to FALSE
+  Team Team '<This Team>' will move to the nearest object of type 'Backdoor2' that is owned by the player Player '<This Player's Enemies>'.
+  Team Team '<This Team>' will move to the nearest object of type 'Backdoor1' that is owned by the player Player '<This Player's Enemies>'.
+   Team '<This Team>' set custom state 'AI_ASSAULTING' to TRUE
+   Team '<This Team>' set custom state 'AI_ADVANCING' to FALSE
+   Team '<This Team>' change their attitude to Aggressive
+   Team '<This Team>' merges onto Team 'AI Attack Hunt Team'
