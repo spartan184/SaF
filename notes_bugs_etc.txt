@@ -21,14 +21,13 @@ IMPROVEMENTS:
 
 WANTS:
 - blackroot vale 
-- Forlindon 6-8 p
-- Archet 8
-- Eregion 8
-- Fords of Bruinen
 - greenway
 - little lune
-- old ford of anduin
+- Archet 8
+
+- Eregion 8
 - river celos
 - swanfleet
+
 - gondor treb summon power from aotr
 - add isengard man slayers
