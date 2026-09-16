@@ -18660,6 +18660,14 @@ CONTROLBAR:ToolTipToggleBlockFormation
 "-40% Speed \n +25% Armor"
 END
 
+CONTROLBAR:ToggleRaiseShieldFormation
+"Raise Shield For&mation"
+END
+
+CONTROLBAR:ToolTipToggleRaiseShieldFormation
+"-50% Speed \n +35% Armor"
+END
+
 CONTROLBAR:ToggleElvenWarriorWeapons
 "Alterna&te Weapon"
 END
