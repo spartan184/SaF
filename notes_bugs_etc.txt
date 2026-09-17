@@ -6,8 +6,7 @@ BUGS/INVESTIGATE:
 - Rivendell castle forlindon middle has weird issues
 - Hobbit archers have weird animations when using fire
 - gollum special ability is OP
-- on lamedon mordor nazguls fly to corner of map
-- gundabad archers fire might not be doing the correct damage
+- mordor nazguls fly to corner of map
 - lamedon seems to crash alot for me
 
 IMPROVEMENTS:
@@ -17,10 +16,8 @@ IMPROVEMENTS:
 - add hero type behavior to tower guard, ie ai_hero_towerguard to heal
 - use b_Defense - Call for AntiArtillery lol
 - Add Spear formation to Dunedain
-- Uruk shield bearers op against archers, chnage only give bonus when shields are raised 
 
 WANTS:
-- blackroot vale 
 - greenway
 - little lune
 - Archet 8
