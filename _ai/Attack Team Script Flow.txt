@@ -38,6 +38,7 @@ Generic Scripts:
    Team '<This Team>' set custom state 'AI_ADVANCING' to FALSE
    Team '<This Team>' change their attitude to Aggressive
    Team '<This Team>' merges onto Team 'AI Attack Hunt Team'
+   
 *** IF ***
      Flag named 'lf_Launch_Attack_Team' IS TRUE
     *AND*  Team '<This Team>' has the custom state 'AI_ADVANCING'
