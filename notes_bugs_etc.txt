@@ -9,7 +9,7 @@ BUGS/INVESTIGATE:
 - mordor nazguls fly to corner of map
 - lamedon seems to crash alot for me
 - Rivendell gatehouse has rohan destruct model when u destroy it
-
+- Gundbad annoucer says we released a mountain trol when making cave trolls
 IMPROVEMENTS:
 - add artillery priority script to units to switch to attacking artillery if attacked
 - Theodred uses faramirs weapon/values
@@ -23,10 +23,19 @@ WANTS:
 - greenway
 - little lune
 - Archet 8
-
+- Druwaith Laur
+- angmar 8
 - Eregion 8
 - river celos
 - swanfleet
+- eastern fangorn
+
 
 - gondor treb summon power from aotr
 - add isengard man slayers
+
+
+TESTING:
+ - Rohan Patrol Mid/Late Teams using Patrol ai attack/resume in behavior tab vs early game using them in generic tab
+ - Disabled Rohan Golbin/Warg Creep Teams
+ - Disabled Rohan Econ Peasant team
