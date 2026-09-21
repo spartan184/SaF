@@ -10,6 +10,9 @@ BUGS/INVESTIGATE:
 - lamedon seems to crash alot for me
 - Rivendell gatehouse has rohan destruct model when u destroy it
 - Gundbad annoucer says we released a mountain trol when making cave trolls
+- Bolg does a lotof damage
+- Gundabad land radius small
+
 IMPROVEMENTS:
 - add artillery priority script to units to switch to attacking artillery if attacked
 - Theodred uses faramirs weapon/values
@@ -18,6 +21,7 @@ IMPROVEMENTS:
 - use b_Defense - Call for AntiArtillery lol
 - Add Spear formation to Dunedain
 - Rohan AI Peasants use ability over and over causing game crash/lag
+- Make script for units to move towards land summons
 
 WANTS:
 - greenway
@@ -29,6 +33,7 @@ WANTS:
 - river celos
 - swanfleet
 - eastern fangorn
+- Ettenmoors
 
 
 - gondor treb summon power from aotr
@@ -37,5 +42,6 @@ WANTS:
 
 TESTING:
  - Rohan Patrol Mid/Late Teams using Patrol ai attack/resume in behavior tab vs early game using them in generic tab
- - Disabled Rohan Golbin/Warg Creep Teams
  - Disabled Rohan Econ Peasant team
+ - Disabled Rohan, Rivendell, Gondor, Dwarves Golblin/Warg Creep Teams (Econ teams should be attacking lairs most of the time anyways)
+ - Disabled Isengard Goblin/Warg/Troll Teams
