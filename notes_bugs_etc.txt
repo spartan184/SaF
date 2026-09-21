@@ -34,6 +34,8 @@ WANTS:
 - swanfleet
 - eastern fangorn
 - Ettenmoors
+- Fifrien woods
+- glandiun
 
 
 - gondor treb summon power from aotr
