@@ -10,8 +10,8 @@ BUGS/INVESTIGATE:
 - lamedon seems to crash alot for me
 - Rivendell gatehouse has rohan destruct model when u destroy it
 - Gundbad annoucer says we released a mountain trol when making cave trolls
-- Bolg does a lotof damage
 - Gundabad land radius small
+- Gundabad wargs howl fx doesn't stick on body
 
 IMPROVEMENTS:
 - add artillery priority script to units to switch to attacking artillery if attacked
@@ -20,8 +20,12 @@ IMPROVEMENTS:
 - add hero type behavior to tower guard, ie ai_hero_towerguard to heal
 - use b_Defense - Call for AntiArtillery lol
 - Add Spear formation to Dunedain
-- Rohan AI Peasants use ability over and over causing game crash/lag
 - Make script for units to move towards land summons
+- Harnen Map add more econ plots
+- make join team scripts
+- make dwarf spell give speed bonus
+- adjust saruman hero power scripts to idle in between powers
+- Make warchant type powers check for horde units cause it will use it on heros 
 
 WANTS:
 - greenway
@@ -36,7 +40,8 @@ WANTS:
 - Ettenmoors
 - Fifrien woods
 - glandiun
-
+- Green Hill Country
+- Lithland
 
 - gondor treb summon power from aotr
 - add isengard man slayers
@@ -47,3 +52,4 @@ TESTING:
  - Disabled Rohan Econ Peasant team
  - Disabled Rohan, Rivendell, Gondor, Dwarves Golblin/Warg Creep Teams (Econ teams should be attacking lairs most of the time anyways)
  - Disabled Isengard Goblin/Warg/Troll Teams
+ - Disabled Hobbit econ teams, rohan,isen,gondor,mordor
