@@ -3107,7 +3107,7 @@ CONTROLBAR:ThorinLeadership
 "King Under the Mountain"
 End
 CONTROLBAR:ToolTipThorinLeadership
-"Modifier Type: Leadership \n Dwarves near Thorin gain 25% armour, resistance to fear and terror and earn experience 50% faster \nPassive ability"
+"Modifier Type: Leadership \n Leadership bonus to nearby troops \n +25% armour, +50% experience gain, and resistance to fear and terror \nPassive ability"
 END
 
 CONTROLBAR:ThorinOrcrist
