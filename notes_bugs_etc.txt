@@ -10,19 +10,25 @@ BUGS/INVESTIGATE:
 - lamedon seems to crash alot for me
 - Rivendell gatehouse has rohan destruct model when u destroy it
 - Gundbad annoucer says we released a mountain trol when making cave trolls
-- Gundabad land radius small
 - Gundabad wargs howl fx doesn't stick on body
 
-IMPROVEMENTS:
-- add artillery priority script to units to switch to attacking artillery if attacked
+BALANCE:
 - Theodred uses faramirs weapon/values
-- Lumbermill worker control scripts are most likely broken
-- use b_Defense - Call for AntiArtillery lol
 - Add Spear formation to Dunedain
-- Make script for units to move towards land summons
+- make dwarf spell give speed bonus
+
+AI/MAP IMPROVEMENTS:
 - Harnen Map add more econ plots
 - make join team scripts
-- make dwarf spell give speed bonus
+- add artillery priority script to units to switch to attacking artillery if attacked
+- Lumbermill worker control scripts are most likely broken
+- use b_Defense - Call for AntiArtillery lol
+- add defend base scripts to heros
+- Gildor not reacting to attacks randomly??
+- Some team tweak out going back and forth, need to find cause (noticed farmer maggot team)
+- dwarf ai super campy
+- gondor makes towerguards too early sometimes and gets locked down
+- check rivendell scripts for maggot, they are recruiting him to expansions and thats probs why he stands around
 
 WANTS:
 - greenway
