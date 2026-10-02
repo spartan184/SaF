@@ -29,6 +29,7 @@ AI/MAP IMPROVEMENTS:
 - dwarf ai super campy
 - gondor makes towerguards too early sometimes and gets locked down
 - check rivendell scripts for maggot, they are recruiting him to expansions and thats probs why he stands around
+- ai uses hard wind or whatever all the time random places
 
 WANTS:
 - greenway
