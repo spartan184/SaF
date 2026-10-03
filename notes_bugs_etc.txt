@@ -11,6 +11,8 @@ BUGS/INVESTIGATE:
 - Rivendell gatehouse has rohan destruct model when u destroy it
 - Gundbad annoucer says we released a mountain trol when making cave trolls
 - Gundabad wargs howl fx doesn't stick on body
+- Add merge voice for rivendell elves
+- add merge voice for dwarfs if needed
 
 BALANCE:
 - Theodred uses faramirs weapon/values
