@@ -13,7 +13,8 @@ BUGS/INVESTIGATE:
 - Gundabad wargs howl fx doesn't stick on body
 - Add merge voice for rivendell elves
 - add merge voice for dwarfs if needed
-
+- Dwarf banner unlocked at rank 1
+- Dori's ability don't work
 BALANCE:
 - Theodred uses faramirs weapon/values
 - Add Spear formation to Dunedain
@@ -32,6 +33,8 @@ AI/MAP IMPROVEMENTS:
 - gondor makes towerguards too early sometimes and gets locked down
 - check rivendell scripts for maggot, they are recruiting him to expansions and thats probs why he stands around
 - ai uses hard wind or whatever all the time random places
+- dwarf heroes running around like idoits kind of
+- balrog pacing back and forth
 
 WANTS:
 - greenway
