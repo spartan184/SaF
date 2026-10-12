@@ -19,6 +19,8 @@ BALANCE:
 - Theodred uses faramirs weapon/values
 - Add Spear formation to Dunedain
 - make dwarf spell give speed bonus
+- change citadel guard formation to line
+- battle tower archers die early and make tower useless (gondor atleast so far)
 
 AI/MAP IMPROVEMENTS:
 - Harnen Map add more econ plots
