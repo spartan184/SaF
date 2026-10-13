@@ -7,36 +7,28 @@ BUGS/INVESTIGATE:
 - Hobbit archers have weird animations when using fire
 - gollum special ability is OP
 - mordor nazguls fly to corner of map
-- lamedon seems to crash alot for me
+- lamedon seems to crash alot for me (could be a memory issue cause the map is really big but in general big maps are crashing a lot for me)
 - Rivendell gatehouse has rohan destruct model when u destroy it
 - Gundbad annoucer says we released a mountain trol when making cave trolls
 - Gundabad wargs howl fx doesn't stick on body
-- Add merge voice for rivendell elves
+- Add merge voice for rivendell elves if needed
 - add merge voice for dwarfs if needed
 - Dwarf banner unlocked at rank 1
 - Dori's ability don't work
+
 BALANCE:
 - Theodred uses faramirs weapon/values
 - Add Spear formation to Dunedain
 - make dwarf spell give speed bonus
-- change citadel guard formation to line
 - battle tower archers die early and make tower useless (gondor atleast so far)
+- Add dunland combo with ladders like uruks (not high priority as players probs won't use this)
 
 AI/MAP IMPROVEMENTS:
 - Harnen Map add more econ plots
-- make join team scripts
-- add artillery priority script to units to switch to attacking artillery if attacked
+- add artillery priority script to units to switch to attacking artillery if attacked (b_Defense - Call for AntiArtillery maybe add to attackteam_hunt)
 - Lumbermill worker control scripts are most likely broken
-- use b_Defense - Call for AntiArtillery lol
-- add defend base scripts to heros
-- Gildor not reacting to attacks randomly??
-- Some team tweak out going back and forth, need to find cause (noticed farmer maggot team)
-- dwarf ai super campy
-- gondor makes towerguards too early sometimes and gets locked down
-- check rivendell scripts for maggot, they are recruiting him to expansions and thats probs why he stands around
 - ai uses hard wind or whatever all the time random places
-- dwarf heroes running around like idoits kind of
-- balrog pacing back and forth
+- Ai not rebuilding citadels everytime because i think it loses the construction site sometimes if the script triggers before it can check to rebuild (attempted a fix, need to test)
 
 WANTS:
 - greenway
