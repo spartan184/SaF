@@ -15,6 +15,8 @@ BUGS/INVESTIGATE:
 - add merge voice for dwarfs if needed
 - Dwarf banner unlocked at rank 1
 - Dori's ability don't work
+- Check dwarf eva events
+- check dwarf hero portrat respawn
 
 BALANCE:
 - Theodred uses faramirs weapon/values
@@ -29,7 +31,7 @@ AI/MAP IMPROVEMENTS:
 - Lumbermill worker control scripts are most likely broken
 - ai uses hard wind or whatever all the time random places
 - Ai not rebuilding citadels everytime because i think it loses the construction site sometimes if the script triggers before it can check to rebuild (attempted a fix, need to test)
-
+- Add toggle weapons to ironhill unit
 WANTS:
 - greenway
 - little lune
