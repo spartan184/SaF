@@ -32,6 +32,9 @@ AI/MAP IMPROVEMENTS:
 - ai uses hard wind or whatever all the time random places
 - Ai not rebuilding citadels everytime because i think it loses the construction site sometimes if the script triggers before it can check to rebuild (attempted a fix, need to test)
 - Add toggle weapons to ironhill unit
+- Disabled defend ai recruit factory/economy scripts. Pretty sure they dont do shit
+- check removing advancing check in c,b,f scripts compared to strong variation
+
 WANTS:
 - greenway
 - little lune
