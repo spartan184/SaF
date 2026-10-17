@@ -12,6 +12,7 @@ BUGS/INVESTIGATE:
 - Gundabad wargs howl fx doesn't stick on body
 - Add merge voice for rivendell elves if needed
 - dwalin smash fx
+- dwarfs casnt rebuild gates
 
 BALANCE:
 - Theodred uses faramirs weapon/values
@@ -21,7 +22,6 @@ BALANCE:
 - Add dunland combo with ladders like uruks (not high priority as players probs won't use this)
 - oin attack is super op, lots knockback
 - mine beserkers limit
-- siege ladders limit
 
 AI/MAP IMPROVEMENTS:
 - Harnen Map add more econ plots
@@ -35,7 +35,8 @@ AI/MAP IMPROVEMENTS:
 - bats/nazguls fly to corner of map
 - Rohan AI not building towers on camps
 - Gondor ai sends waves that ignore attacks
-- Fix rohan ent summoned recruitment
+- Remove beacon from spellbook markers
+- mordor siege towers
 
 WANTS:
 - greenway
