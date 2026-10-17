@@ -11,11 +11,6 @@ BUGS/INVESTIGATE:
 - Gundbad annoucer says we released a mountain trol when making cave trolls
 - Gundabad wargs howl fx doesn't stick on body
 - Add merge voice for rivendell elves if needed
-- add merge voice for dwarfs if needed
-- Dwarf banner unlocked at rank 1
-- Dori's ability don't work
-- dwarf shieldbearers voices
-- dwarf warriro/archer voices
 - dwalin smash fx
 
 BALANCE:
@@ -25,6 +20,8 @@ BALANCE:
 - battle tower archers die early and make tower useless (gondor atleast so far)
 - Add dunland combo with ladders like uruks (not high priority as players probs won't use this)
 - oin attack is super op, lots knockback
+- mine beserkers limit
+- siege ladders limit
 
 AI/MAP IMPROVEMENTS:
 - Harnen Map add more econ plots
@@ -35,7 +32,10 @@ AI/MAP IMPROVEMENTS:
 - Add toggle weapons to ironhill unit
 - Disabled defend ai recruit factory/economy scripts. Pretty sure they dont do shit
 - check removing advancing check in c,b,f scripts compared to strong variation
-- mordor nazguls fly to corner of map
+- bats/nazguls fly to corner of map
+- Rohan AI not building towers on camps
+- Gondor ai sends waves that ignore attacks
+- Fix rohan ent summoned recruitment
 
 WANTS:
 - greenway
