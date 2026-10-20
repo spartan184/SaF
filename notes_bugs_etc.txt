@@ -12,7 +12,8 @@ BUGS/INVESTIGATE:
 - Gundabad wargs howl fx doesn't stick on body
 - Add merge voice for rivendell elves if needed
 - dwalin smash fx
-- dwarfs casnt rebuild gates
+- dwarfs casnt rebuild gates (no menu comes up, unselectable)
+- Add rest of thorin powers
 
 BALANCE:
 - Theodred uses faramirs weapon/values
@@ -22,21 +23,20 @@ BALANCE:
 - Add dunland combo with ladders like uruks (not high priority as players probs won't use this)
 - oin attack is super op, lots knockback
 - mine beserkers limit
+- Black Uruks suck balls tbh lol 
 
-AI/MAP IMPROVEMENTS:
-- Harnen Map add more econ plots
-- add artillery priority script to units to switch to attacking artillery if attacked (b_Defense - Call for AntiArtillery maybe add to attackteam_hunt)
+AI IMPROVEMENTS:
 - Lumbermill worker control scripts are most likely broken
 - ai uses hard wind or whatever all the time random places
-- Ai not rebuilding citadels everytime because i think it loses the construction site sometimes if the script triggers before it can check to rebuild (attempted a fix, need to test)
 - Add toggle weapons to ironhill unit
-- Disabled defend ai recruit factory/economy scripts. Pretty sure they dont do shit
 - check removing advancing check in c,b,f scripts compared to strong variation
 - bats/nazguls fly to corner of map
 - Rohan AI not building towers on camps
-- Gondor ai sends waves that ignore attacks
-- Remove beacon from spellbook markers
-- mordor siege towers
+- make gundabad attack walls
+- gondor/dwarves/gundabad not rebuilding citadel
+
+MAP IMPROVEMENTS:
+- Harnen Map add more econ plots
 
 WANTS:
 - greenway
