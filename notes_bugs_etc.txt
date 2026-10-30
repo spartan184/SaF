@@ -6,7 +6,7 @@ BUGS/INVESTIGATE:
 - Rivendell castle forlindon middle has weird issues
 - Hobbit archers have weird animations when using fire
 - gollum special ability is OP
-- lamedon seems to crash alot for me (could be a memory issue cause the map is really big but in general big maps are crashing a lot for me)
+- lamedon seems to crash alot for me (could be a memory issue cause the map is really big but in general big maps are crashing a lot for me) (COULD ACTUALLY BE RELATED TO EREBOR AI or Erebor in general)
 - Rivendell gatehouse has rohan destruct model when u destroy it
 - Gundbad annoucer says we released a mountain trol when making cave trolls
 - Gundabad wargs howl fx doesn't stick on body
