@@ -24,7 +24,6 @@ BALANCE:
 - Add dunland combo with ladders like uruks (not high priority as players probs won't use this)
 - oin attack is super op, lots knockback
 - mine beserkers limit
-- Make Lurtz uruk scouts fear resistant since they don't have anims
 
 AI IMPROVEMENTS:
 - Lumbermill worker control scripts are most likely broken

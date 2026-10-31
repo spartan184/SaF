@@ -393,7 +393,7 @@ CONTROLBAR:ConstructGondorDolAmrothHorde
 "Knights of &Dol Amroth"
 END
 CONTROLBAR:ToolTipBuildGondorDolAmrothHorde
-"Required: Rank 3 Stables \n Gondors Elite Calvary unit, The Knights of Dol Amroth or Swan Knights are a group of soldiers who serve Prince Imrahil. \n Strong vs. Swordsmen, Archers \n Weak vs. Pikemen, Monsters \n Limited to 3 units"
+"Required: Rank 3 Stables \n Gondors Elite Calvary unit, The Knights of Dol Amroth or Swan Knights are a group of soldiers who serve Prince Imrahil. \n Strong vs. Swordsmen, Archers \n Weak vs. Pikemen, Monsters \n Limited to 5 units"
 END
 OBJECT:HordeGondorDolAmroth
 "Dol Amroth Knight Battalion"
@@ -1104,7 +1104,7 @@ CONTROLBAR:ConstructRohanMountedKingsguardHorde
 "Royal &Vanguard"
 END
 CONTROLBAR:ToolTipBuildRohanMountedKingsguardHorde
-"Strong vs. Heroes, Swordsmen, and Archers \n Required: Rank 3 Stables \n Elite Horsemen \n  Limited to 3 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan."
+"Strong vs. Heroes, Swordsmen, and Archers \n Required: Rank 3 Stables \n Elite Horsemen \n  Limited to 5 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan."
 END
 
 // -- On Foot Kings Guard
@@ -1121,7 +1121,7 @@ CONTROLBAR:ConstructRohanKingsguardHorde
 "Edoras &Kingsguard"
 END
 CONTROLBAR:ToolTipBuildRohanKingsguardHorde
-"Strong vs. Heroes, Infantry and Archers \n Required: Rank 3 Barracks \n Elite Footmen of Rohan \n Limited to 3 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan."
+"Strong vs. Heroes, Infantry and Archers \n Required: Rank 3 Barracks \n Elite Footmen of Rohan \n Limited to 5 units \n \n Part of Rohan's standing army and their Lord's household guard, these warriors are amongst the finest in all of Rohan."
 END
 
 // -- Rohan Elven Warrior
@@ -1836,7 +1836,7 @@ CONTROLBAR:ConstructGreyCompanyRangerHorde
 "Dunedain of the &Grey Company"
 END
 CONTROLBAR:ToolTipGreyCompanyRangerHorde
-"Required: Rank 3 Gathering \n Limited to 3 units \n Strong vs. Infantry, Cavalry and Monsters"
+"Required: Rank 3 Gathering \n Limited to 5 units \n Strong vs. Infantry, Cavalry and Monsters"
 END
 
 OBJECT:RivendellGuardian
@@ -1875,7 +1875,7 @@ CONTROLBAR:ConstructRivendellVeteranHorde
 "Recruit &Veterans of the Last Alliance"
 END
 CONTROLBAR:ToolTipRivendellVeteranHorde
-"Strong vs. All Normal Troops\nRequired: Rank 3 Dormitory\nCan stealth near trees\nOnly 3 units of Last Alliance Veterans are allowed at any time."
+"Strong vs. All Normal Troops\nRequired: Rank 3 Dormitory\nCan stealth near trees\nOnly 5 units of Last Alliance Veterans are allowed at any time."
 END
 
 // -- Revelers
@@ -4065,7 +4065,7 @@ CONTROLBAR:ConstructDwarfMangonel
 "&Sulûn-abanul"
 END
 CONTROLBAR:ToolTipBuildDwarfMangonel
-"Required: Muster of The Iron Hills \n Limit 6 \n Strong vs. Structures, Siege Equipment \n Weak vs. Monsters, Infantry, Cavalry, Heroes \n Can toggle to use lighter ammunition for greater effectiveness against infantry."
+"Required: Muster of The Iron Hills \n Limit 5 \n Strong vs. Structures, Siege Equipment \n Weak vs. Monsters, Infantry, Cavalry, Heroes \n Can toggle to use lighter ammunition for greater effectiveness against infantry."
 END
 CONTROLBAR:DwarfToggleMangonelWeapons
 "S&witch Ammunition"
@@ -4739,7 +4739,7 @@ CONTROLBAR:ConstructIsengardDunlandHuskarlHorde
 "Dunlending Hus&karls"
 END
 CONTROLBAR:ToolTipBuildIsengardDunlandHuskarlHorde
-"Requires Dunlending Longhouse Level 3\nElite Infantry \nStrong vs. Pikemen \n Limited to 3 \n \n The Huskarls of Frecalund are fierce fighters, gathered from respectable houses to serve as the king's personal guard."
+"Requires Dunlending Longhouse Level 3\nElite Infantry \nStrong vs. Pikemen \n Limited to 5 \n \n The Huskarls of Frecalund are fierce fighters, gathered from respectable houses to serve as the king's personal guard."
 END
 CONTROLBAR:LW_Unit_DunlandHuskarlHorde
 "Dunlending Huskarls Battalion"
@@ -5666,7 +5666,7 @@ CONTROLBAR:ConstructGundabadBerserkerHorde
 "Gundabad Berser&kers"
 END
 CONTROLBAR:ToolTipBuildGundabadBerserkerHorde
-"Required: Rank 3 Mountain-orc Lodge \n Strong vs. Spearmen, Swordsmen, Cavalry, Heroes \n Weak vs. Archers \n Limited to 3 units \n \n Mount Gundabad has long been occupied by large, fierce orcs under the command of Bolg and his spawn."
+"Required: Rank 3 Mountain-orc Lodge \n Strong vs. Spearmen, Swordsmen, Cavalry, Heroes \n Weak vs. Archers \n Limited to 5 units \n \n Mount Gundabad has long been occupied by large, fierce orcs under the command of Bolg and his spawn."
 END
 OBJECT:GundabadBerserker
 "Gundabad Berserker"
@@ -5809,7 +5809,7 @@ CONTROLBAR:ConstructGundabadDrummerGoblin
 "Mountain-orc &Drummer"
 END
 CONTROLBAR:TooltipConstructGundabadDrummerGoblin
-"Required: Rank 3 Mountain-orc Lodge \n Leadership bonus to nearby infantry \n +25% Damage, +25% Armor, +15% Movement Speed, and +15% Experience \n Limited to 4 units \n \n When marching to war through the piercing cold of the Misty Mountains, keeping pace is important. Orc-drummers are often seen accompanying warbands, keeping them warm and moving steadily."
+"Required: Rank 3 Mountain-orc Lodge \n Leadership bonus to nearby infantry \n +25% Damage, +25% Armor, +15% Movement Speed, and +15% Experience \n \n When marching to war through the piercing cold of the Misty Mountains, keeping pace is important. Orc-drummers are often seen accompanying warbands, keeping them warm and moving steadily."
 END
 
 CONTROLBAR:GundabadDrummerGoblinLeadership
@@ -17865,11 +17865,11 @@ CONTROLBAR:ToolTipBuildMordorMountainTroll
 END
 
 CONTROLBAR:ToolTipBuildMordorMumakil
-"Strong vs. Infantry, Cavalry, Heroes \n Weak vs. Fire, Siege \n Limited to 4 units \n \n The Mumakil of Harad were tamed and used as beasts of war by the Haradrim, who employed them to devastating effect during the Battle of the Pelennor."
+"Strong vs. Infantry, Cavalry, Heroes \n Weak vs. Fire, Siege \n \n The Mumakil of Harad were tamed and used as beasts of war by the Haradrim, who employed them to devastating effect during the Battle of the Pelennor."
 END
 
 CONTROLBAR:ToolTipBuildMordorSiegeTower
-"Allows infantry units to scale castle walls. \n Limited to 5 units \n \n Constructed by Mordor's slaves using wood, iron and stone, siege towers advance steadily toward enemy fortifications, looking to overwhelm their defenders."
+"Allows infantry units to scale castle walls. \n \n Constructed by Mordor's slaves using wood, iron and stone, siege towers advance steadily toward enemy fortifications, looking to overwhelm their defenders."
 END
 
 CONTROLBAR:ToolTipBuildMordorCatapult
@@ -18037,7 +18037,7 @@ CONTROLBAR:ToolTipBuildIsengardBatteringRam
 END
 
 CONTROLBAR:ToolTipBuildIsengardExplosiveMine
-"Required: Rank 2 Siege Works \n Blast structures, castle walls and gates \n Limited to 5 units \n \n Requiring a method of breaching the Deeping Wall, Saruman produced mass quantities of highly destructive explosive powder."
+"Required: Rank 2 Siege Works \n Blast structures, castle walls and gates \n \n Requiring a method of breaching the Deeping Wall, Saruman produced mass quantities of highly destructive explosive powder."
 END
 
 CONTROLBAR:ToolTipBuildIsengardBannerCarrier
