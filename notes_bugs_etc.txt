@@ -1,14 +1,11 @@
 BUGS/INVESTIGATE:
-- Combo hord black uruks with siege towers doesn't work
+- lamedon seems to crash alot for me (could be a memory issue cause the map is really big but in general big maps are crashing a lot for me) (COULD ACTUALLY BE RELATED TO EREBOR AI or Erebor in general)
 - EomerFX really laggy
-- Thorin leadership affects all, should only affect dwarves
 - Aragorn/legolas can mount in campaign
 - Rivendell castle forlindon middle has weird issues
 - Hobbit archers have weird animations when using fire
 - gollum special ability is OP
-- lamedon seems to crash alot for me (could be a memory issue cause the map is really big but in general big maps are crashing a lot for me) (COULD ACTUALLY BE RELATED TO EREBOR AI or Erebor in general)
 - Rivendell gatehouse has rohan destruct model when u destroy it
-- Gundbad annoucer says we released a mountain trol when making cave trolls
 - Gundabad wargs howl fx doesn't stick on body
 - Add merge voice for rivendell elves if needed
 - dwalin smash fx
@@ -16,12 +13,12 @@ BUGS/INVESTIGATE:
 - Add rest of thorin powers
 - Fix Balin Flag Summon FX
 - LOok at FX's for summons, reusinga elven/rohirrim summon a lot
+
 BALANCE:
 - Theodred uses faramirs weapon/values
 - Add Spear formation to Dunedain
 - make dwarf spell give speed bonus
 - battle tower archers die early and make tower useless (gondor atleast so far)
-- Add dunland combo with ladders like uruks (not high priority as players probs won't use this)
 - oin attack is super op, lots knockback
 - mine beserkers limit
 
