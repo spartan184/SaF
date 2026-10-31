@@ -14,7 +14,8 @@ BUGS/INVESTIGATE:
 - dwalin smash fx
 - dwarfs casnt rebuild gates (no menu comes up, unselectable)
 - Add rest of thorin powers
-
+- Fix Balin Flag Summon FX
+- LOok at FX's for summons, reusinga elven/rohirrim summon a lot
 BALANCE:
 - Theodred uses faramirs weapon/values
 - Add Spear formation to Dunedain
