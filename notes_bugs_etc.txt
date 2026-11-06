@@ -13,7 +13,8 @@ BUGS/INVESTIGATE:
 - Add rest of thorin powers
 - Fix Balin Flag Summon FX
 - LOok at FX's for summons, reusinga elven/rohirrim summon a lot
-
+- Mollock is recruitable after he dies, also his abilities dont' work on summon
+- dol amorth only 3 instead of 5 allowed
 BALANCE:
 - Theodred uses faramirs weapon/values
 - Add Spear formation to Dunedain
@@ -21,6 +22,7 @@ BALANCE:
 - battle tower archers die early and make tower useless (gondor atleast so far)
 - oin attack is super op, lots knockback
 - mine beserkers limit
+- move back shield guards to guardhouse
 
 AI IMPROVEMENTS:
 - Lumbermill worker control scripts are most likely broken
@@ -31,6 +33,8 @@ AI IMPROVEMENTS:
 - Rohan AI not building towers on camps
 - make gundabad attack walls
 - gondor/dwarves/gundabad not rebuilding citadel
+- dwarf heros run past getting attacked  (thorin) maybe others
+- Kili check scripts
 
 MAP IMPROVEMENTS:
 - Harnen Map add more econ plots
@@ -53,7 +57,7 @@ WANTS:
 
 - gondor treb summon power from aotr
 - add isengard man slayers
-
+- Add siege trolls to gundabad
 
 TESTING:
  - Disabled Rohan, Rivendell, Gondor, Dwarves Golblin/Warg Creep Teams (Econ teams should be attacking lairs most of the time anyways)
